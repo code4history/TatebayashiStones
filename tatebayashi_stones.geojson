@@ -1257,8 +1257,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5501584387699,
-          36.237082446665596
+          139.55016401710822,
+          36.23699838504269
         ]
       }
     },
@@ -2697,6 +2697,204 @@
         "coordinates": [
           139.56655418200663,
           36.22911897479298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 82,
+        "name": "坂村家の猿田彦大神",
+        "year": 1944,
+        "japanese_calendar": "昭和19年",
+        "shape": "柱型",
+        "inscription": "猿田彦大神\n昭和十九年三月吉日\n坂村実三郎建之",
+        "note": "猿田彦大神 南向き\n詳細箇所不明のため付図で富士山内に4ヶ所見える文字庚申の付近に順番に配置",
+        "place": "富士山",
+        "type": "庚申",
+        "table_id": 47,
+        "book_id": 1,
+        "book_page": 28,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 53,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 24,
+        "depth": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5582961588254,
+          36.2358102702137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 83,
+        "name": "田村家の猿田彦大神",
+        "year": 1943,
+        "japanese_calendar": "昭和18年",
+        "shape": "柱型",
+        "inscription": "猿田彦大神\n昭和十八年十月吉日\n田村氏建之",
+        "note": "猿田彦大神 南向き\n詳細箇所不明のため付図で富士山内に4ヶ所見える文字庚申の付近に順番に配置",
+        "place": "富士山",
+        "type": "庚申",
+        "table_id": 46,
+        "book_id": 1,
+        "book_page": 29,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 38,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 15.5,
+        "depth": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.55774919190628,
+          36.23695494146085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 84,
+        "name": "狩野家の佐田比古大神",
+        "year": 1917,
+        "japanese_calendar": "大正6年",
+        "shape": "柱型",
+        "inscription": "佐田比古大神位\n大正六年十二月\n建主 狩野庄作",
+        "note": "佐田比古大神 東向き\n詳細箇所不明のため付図で富士山内に4ヶ所見える文字庚申の付近に順番に配置",
+        "place": "富士山",
+        "type": "庚申",
+        "table_id": 43,
+        "book_id": 1,
+        "book_page": 29,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 50,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 21,
+        "depth": 17.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.55585698202384,
+          36.23749150033865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 85,
+        "name": "茂木家の庚申",
+        "year": 1920,
+        "japanese_calendar": "大正9年",
+        "shape": "柱型",
+        "inscription": "庚申\n大正九年十二月吉日\n茂木氏",
+        "note": "庚申 文字 南向き\n詳細箇所不明のため付図で富士山内に4ヶ所見える文字庚申の付近に順番に配置",
+        "place": "富士山",
+        "type": "庚申",
+        "table_id": 45,
+        "book_id": 1,
+        "book_page": 29,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 30,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 17,
+        "depth": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.55610829114883,
+          36.23608451589332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 86,
+        "name": "富士嶽神社の三猿庚申",
+        "year": 1679,
+        "japanese_calendar": "延宝7年",
+        "shape": "舟型背面 青面金剛三猿浮彫り",
+        "inscription": "[延][宝]七己未天 施主\n九月吉祥日 敬白",
+        "note": "庚申三猿像 東向き\n右肩年号箇所欠損",
+        "place": "富士山 富士嶽神社境内",
+        "type": "庚申",
+        "table_id": 4,
+        "book_id": 1,
+        "book_page": 29,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 97,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 42,
+        "depth": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56080163085934,
+          36.23520695591835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 87,
+        "name": "大袋の青面金剛",
+        "year": 1679,
+        "japanese_calendar": "延宝7年",
+        "shape": "舟型 文字三猿",
+        "inscription": "青面金剛\n峕延宝七己未歳 五月廿日",
+        "note": "青面金剛三猿文字 東向き",
+        "place": "大袋公民館前",
+        "type": "庚申",
+        "table_id": 2,
+        "book_id": 1,
+        "book_page": 29,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 63,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 30.5,
+        "depth": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5502263802461,
+          36.237015990314646
         ]
       }
     }
