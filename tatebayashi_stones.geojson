@@ -2252,7 +2252,7 @@
         "type": "庚申",
         "table_id": 18,
         "book_id": 1,
-        "book_page": 26,
+        "book_page": 28,
         "confirmed": null,
         "map_page": 1,
         "color": null,
@@ -2268,6 +2268,435 @@
         "coordinates": [
           139.557633417126,
           36.23261193251002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 69,
+        "name": "普済寺の三猿庚申",
+        "year": 1679,
+        "japanese_calendar": "延宝7年",
+        "shape": "柱型 笠",
+        "inscription": "梵字\n延宝七己未天 施主\n十一月吉祥日 敬白",
+        "note": "庚申 三猿文字 南向き\nかくれキリシタンの墓といわれている",
+        "place": "普済寺参門前",
+        "type": "庚申",
+        "table_id": 7,
+        "book_id": 1,
+        "book_page": 28,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 150,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 30.5,
+        "depth": 30.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5493656159807,
+          36.23428126534893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 70,
+        "name": "富士嶽神社の庚申",
+        "year": 1860,
+        "japanese_calendar": "萬延元年",
+        "shape": "碑型",
+        "inscription": null,
+        "note": "庚申文字 南向き",
+        "place": "富士山 富士嶽神社境内",
+        "type": "庚申",
+        "table_id": 37,
+        "book_id": 1,
+        "book_page": 28,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 116,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 40,
+        "depth": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56081679684976,
+          36.235317364947385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 71,
+        "name": "富士嶽神社一猿の庚申",
+        "year": 1723,
+        "japanese_calendar": "享保8年",
+        "shape": "舟型背面 青面金剛一猿浮彫り",
+        "inscription": "享保癸卯年 二月十日",
+        "note": "庚申一猿像 南向き",
+        "place": "富士山 富士嶽神社境内",
+        "type": "庚申",
+        "table_id": 16,
+        "book_id": 1,
+        "book_page": 28,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 119,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 46,
+        "depth": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56080923284233,
+          36.235264488738586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 72,
+        "name": "松本家の庚申",
+        "year": 1915,
+        "japanese_calendar": "大正4年",
+        "shape": "柱型",
+        "inscription": "大正四年三月建",
+        "note": "庚申 文字\n場所は付図と番地より類推\n誌面には番地が記載されているが省略",
+        "place": "本宿 松本家屋敷内",
+        "type": "庚申",
+        "table_id": 42,
+        "book_id": 1,
+        "book_page": 26,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 36,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 18.5,
+        "depth": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56405454725888,
+          36.23122485860085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 73,
+        "name": "宝秀寺の青面金剛",
+        "year": 1769,
+        "japanese_calendar": "明和6年",
+        "shape": "柱型",
+        "inscription": "(種子) 青面金剛\n明和六丑年八月吉祥日 当宿中",
+        "note": "青面金剛文字 南向き",
+        "place": "本宿宝秀寺境内",
+        "type": "庚申",
+        "table_id": 25,
+        "book_id": 1,
+        "book_page": 26,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 88.5,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 31,
+        "depth": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57144356695983,
+          36.22941958274396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 74,
+        "name": "宝秀寺の延宝庚申",
+        "year": 1679,
+        "japanese_calendar": "延宝7年",
+        "shape": "蓮台 舟型背面 青面金剛三猿浮彫り",
+        "inscription": "奉造立青面金剛 羽附村施主\n延宝七年己未十一月吉日 敬白",
+        "note": "庚申三猿像 南向き",
+        "place": "本宿 宝秀寺境内",
+        "type": "庚申",
+        "table_id": 6,
+        "book_id": 1,
+        "book_page": 26,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 108,
+        "statue_height": 76,
+        "contradiction": null,
+        "width": 37.5,
+        "depth": 11
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57141736439647,
+          36.229373787024365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 75,
+        "name": "下新田の明和庚申",
+        "year": 1767,
+        "japanese_calendar": "明和4年",
+        "shape": "柱型 三猿浮彫り",
+        "inscription": "(種子) 奉庚申待礼拝供養青面金剛尊重恭敬 上野国邑楽郡赤生田村講中 明和四丁亥天霜月吉日謹言",
+        "note": "庚申 文字 東向き",
+        "place": "下新田 白山神社前三叉路",
+        "type": "庚申",
+        "table_id": 23,
+        "book_id": 1,
+        "book_page": 26,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 84,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 29.5,
+        "depth": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5752427435903,
+          36.22463734163281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 76,
+        "name": "下新田の享保庚申",
+        "year": 1724,
+        "japanese_calendar": "享保9年",
+        "shape": "柱型 笠 三猿浮彫り",
+        "inscription": "(種子) 庚申供養塔為二世安楽也\n上野国邑楽郡館林赤生田村講中敬白\n維[日之]享保九甲辰天九月吉祥日立之",
+        "note": "庚申 文字 北向き\n刻銘中の[日之]は時の異体字",
+        "place": "下新田 白山神社前三叉路",
+        "type": "庚申",
+        "table_id": 17,
+        "book_id": 1,
+        "book_page": 26,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 169,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 41,
+        "depth": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.575273585054,
+          36.224668856296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 77,
+        "name": "下新田の宝永庚申",
+        "year": 1710,
+        "japanese_calendar": "宝永7年",
+        "shape": "舟型背面金剛 三猿浮彫り",
+        "inscription": "奉造立庚申二世安楽処也\n宝永七庚寅九月吉日 赤生田村",
+        "note": "庚申 三猿像",
+        "place": "下新田 白山神社前三叉路",
+        "type": "庚申",
+        "table_id": 14,
+        "book_id": 1,
+        "book_page": 27,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 92,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 38,
+        "depth": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57519750944363,
+          36.22465226963275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 78,
+        "name": "下新田の寛政庚申",
+        "year": 1796,
+        "japanese_calendar": "寛政8年",
+        "shape": "柱型",
+        "inscription": "(種子) 庚申塔\n寛政八丙辰歳十一月吉日\n上州邑楽郡 館林領 赤生田村",
+        "note": "庚申 文字 東向き",
+        "place": "下新田 白山神社前三叉路",
+        "type": "庚申",
+        "table_id": 29,
+        "book_id": 1,
+        "book_page": 27,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 109,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 38,
+        "depth": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57512965822363,
+          36.224673832294286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 79,
+        "name": "下新田の天保庚申",
+        "year": 1841,
+        "japanese_calendar": "天保12年",
+        "shape": "舟型背面 青面金剛 三猿浮彫り",
+        "inscription": "庚申 天保十二年丑八月二十九日 西原氏建立",
+        "note": "庚申三猿像 東向き\n付図より大体の場所を比定、詳細は要調査",
+        "place": "下新田 畑中",
+        "type": "庚申",
+        "table_id": 34,
+        "book_id": 1,
+        "book_page": 27,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 99,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 38,
+        "depth": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57865840041197,
+          36.22385672281396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 80,
+        "name": "下新田の天明庚申",
+        "year": 1782,
+        "japanese_calendar": "天明2年",
+        "shape": "舟型背面 青面金剛 三猿浮彫り",
+        "inscription": null,
+        "note": "庚申三猿像\n付図より大体の場所を比定、詳細は要調査",
+        "place": "下新田 畑中",
+        "type": "庚申",
+        "table_id": 26,
+        "book_id": 1,
+        "book_page": 27,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 77,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 28,
+        "depth": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57875003916527,
+          36.223751113749586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 81,
+        "name": "山田の庚申",
+        "year": 1784,
+        "japanese_calendar": "天明4年",
+        "shape": "舟型背面 青面金剛 三猿浮彫り",
+        "inscription": "天明四甲辰十一月吉日\n赤生田村 山田講中",
+        "note": "庚申三猿像 南向き",
+        "place": "山田 浅間神社内",
+        "type": "庚申",
+        "table_id": 27,
+        "book_id": 1,
+        "book_page": 27,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 115,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 36,
+        "depth": 23.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56655418200663,
+          36.22911897479298
         ]
       }
     }
