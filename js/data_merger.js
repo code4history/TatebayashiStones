@@ -8,7 +8,7 @@ files.features.map((curr) => {
     if (!filesBuffer[curr.properties.poiid]) {
         filesBuffer[curr.properties.poiid] = [];
     }
-    filesBuffer[curr.properties.poiid].push(curr);
+    filesBuffer[curr.properties.poiid].push(curr.properties);
 });
 pois.features.map((poi) => {
     if (filesBuffer[poi.properties.fid]) {

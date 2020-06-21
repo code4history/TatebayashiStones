@@ -1981,22 +1981,14 @@
         "depth": 29.5,
         "files": [
           {
-            "type": "Feature",
-            "properties": {
-              "fid": 2,
-              "poiid": 60,
-              "path": "images/60/obayashi_koshin_2018.jpg"
-            },
-            "geometry": null
+            "fid": 2,
+            "poiid": 60,
+            "path": "./images/60/obayashi_koshin_2018.jpg"
           },
           {
-            "type": "Feature",
-            "properties": {
-              "fid": 3,
-              "poiid": 60,
-              "path": "images/60/obayashi_koshin_2019.jpg"
-            },
-            "geometry": null
+            "fid": 3,
+            "poiid": 60,
+            "path": "./images/60/obayashi_koshin_2019.jpg"
           }
         ]
       },
@@ -2232,13 +2224,9 @@
         "depth": 24,
         "files": [
           {
-            "type": "Feature",
-            "properties": {
-              "fid": 1,
-              "poiid": 67,
-              "path": "images/67/nakajima_seimenkongo.jpg"
-            },
-            "geometry": null
+            "fid": 1,
+            "poiid": 67,
+            "path": "./images/67/nakajima_seimenkongo.jpg"
           }
         ]
       },
