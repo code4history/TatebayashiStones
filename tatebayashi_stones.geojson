@@ -1983,12 +1983,16 @@
           {
             "fid": 2,
             "poiid": 60,
-            "path": "./images/60/obayashi_koshin_2018.jpg"
+            "path": "./images/60/obayashi_koshin_2018.jpg",
+            "date": "2018/09/24",
+            "author": "Kohei Otsuka"
           },
           {
             "fid": 3,
             "poiid": 60,
-            "path": "./images/60/obayashi_koshin_2019.jpg"
+            "path": "./images/60/obayashi_koshin_2019.jpg",
+            "date": "2019/11/03",
+            "author": "Kohei Otsuka"
           }
         ]
       },
@@ -2226,7 +2230,9 @@
           {
             "fid": 1,
             "poiid": 67,
-            "path": "./images/67/nakajima_seimenkongo.jpg"
+            "path": "./images/67/nakajima_seimenkongo.jpg",
+            "date": "2018/09/24",
+            "author": "Kohei Otsuka"
           }
         ]
       },
