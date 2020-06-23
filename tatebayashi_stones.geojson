@@ -2903,6 +2903,369 @@
           36.237015990314646
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 88,
+        "name": "大袋の自然石青面金剛",
+        "year": 1755,
+        "japanese_calendar": "宝暦5年",
+        "shape": "自然石",
+        "inscription": "青面金剛塔 宝暦五乙亥年\n上大袋村講中 二月十六日",
+        "note": "青面金剛文字 南向き\n大袋三叉路が不明であったため大袋字内に配置",
+        "place": "大袋 三叉路",
+        "type": "庚申",
+        "table_id": 22,
+        "book_id": 1,
+        "book_page": 30,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 83,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 43,
+        "depth": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5497525409067,
+          36.23649527839748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 89,
+        "name": "下志柄の庚申",
+        "year": 1709,
+        "japanese_calendar": "宝永6年",
+        "shape": "舟型背面 青面金剛三猿浮彫り",
+        "inscription": "庚申三猿像 東向き",
+        "note": "宝永六丑年 八月廿二日",
+        "place": "下志柄 長良神社入口",
+        "type": "庚申",
+        "table_id": 13,
+        "book_id": 1,
+        "book_page": 30,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 100,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 47,
+        "depth": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56660143389965,
+          36.23748972737593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 90,
+        "name": "小川家の三角形庚申",
+        "year": 1909,
+        "japanese_calendar": "明治42年",
+        "shape": "自然石 三角形",
+        "inscription": "庚申塔\n明治四十二年一月十一日\n小川角次郎建",
+        "note": "庚申文字 西向き\n他宗場内で場所が不明であったので不動堂向かいに配置",
+        "place": "他宗場",
+        "type": "庚申",
+        "table_id": 41,
+        "book_id": 1,
+        "book_page": 30,
+        "confirmed": null,
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": 57,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 47,
+        "depth": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5643862470384,
+          36.233706457560785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 91,
+        "name": "小川家の柱型庚申",
+        "year": 1886,
+        "japanese_calendar": "明治19年",
+        "shape": "柱型 下半分欠",
+        "inscription": "庚申 明治十九年一月 小川",
+        "note": "庚申文字 西向き\n他宗場内で場所が不明であったので不動堂向かいに配置",
+        "place": "他宗場",
+        "type": "庚申",
+        "table_id": 39,
+        "book_id": 1,
+        "book_page": 30,
+        "confirmed": null,
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": 40,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 26,
+        "depth": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5644551778884,
+          36.23367360271249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 92,
+        "name": "小川家三角柱型庚申",
+        "year": 1917,
+        "japanese_calendar": "大正6年",
+        "shape": "三角柱型",
+        "inscription": "庚申塔 大正六年十一月吉日\n小川丈吉",
+        "note": "庚申文字 東向き\n他宗場内で場所が不明であったので不動堂向かいに配置",
+        "place": "他宗場",
+        "type": "庚申",
+        "table_id": 44,
+        "book_id": 1,
+        "book_page": 30,
+        "confirmed": null,
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": 71,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 31,
+        "depth": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56434864839295,
+          36.23364580244546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 93,
+        "name": "小川家の剣型庚申",
+        "year": 1901,
+        "japanese_calendar": "明治34年",
+        "shape": "剣型",
+        "inscription": "庚申塔\n明治三十四年七月吉日 小川家",
+        "note": "庚申文字 南向き\n他宗場内で場所が不明であったので不動堂向かいに配置",
+        "place": "他宗場",
+        "type": "庚申",
+        "table_id": 40,
+        "book_id": 1,
+        "book_page": 31,
+        "confirmed": null,
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": 116,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 27,
+        "depth": 18.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56443011212477,
+          36.233612947571686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 94,
+        "name": "上新田の自然石庚申",
+        "year": 1812,
+        "japanese_calendar": "文化9年",
+        "shape": "自然石",
+        "inscription": "庚申塔 文化九壬申年上新田中\n三月吉祥日 願主 渡辺長三良",
+        "note": "庚申文字 南向き",
+        "place": "上新田",
+        "type": "庚申",
+        "table_id": 33,
+        "book_id": 1,
+        "book_page": 31,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 65.9,
+        "statue_height": null,
+        "contradiction": "自然石庚申がここにあるが、刻銘は「庚申塔」ではなく「庚申」",
+        "width": 43.5,
+        "depth": 32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5660343209974,
+          36.23395160483914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 95,
+        "name": "庚申塔（対応不明）",
+        "year": null,
+        "japanese_calendar": null,
+        "shape": null,
+        "inscription": "庚申塔",
+        "note": "",
+        "place": null,
+        "type": "庚申",
+        "table_id": null,
+        "book_id": null,
+        "book_page": null,
+        "confirmed": null,
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": null,
+        "statue_height": null,
+        "contradiction": "ここに文字庚申塔あり（誌上の対応不明）",
+        "width": null,
+        "depth": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56340241581574,
+          36.234904386446786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 96,
+        "name": "上新田延宝の像庚申",
+        "year": 1679,
+        "japanese_calendar": "延宝7年",
+        "shape": "舟型背面 青面金剛三猿浮彫り 邪鬼三猿部分地下埋没",
+        "inscription": "奉造立青面金剛像二世安楽祈所有縁 施主\n是歳延宝七己未天冬十月良日羽付新田村",
+        "note": "庚申三猿像 南向き",
+        "place": "上新田 三叉路",
+        "type": "庚申",
+        "table_id": 5,
+        "book_id": 1,
+        "book_page": 31,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 146,
+        "statue_height": null,
+        "contradiction": "ここに何かあるように見えるが、現地調査",
+        "width": 64,
+        "depth": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5634462809021,
+          36.2335396558804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 97,
+        "name": "新興小林家の庚申",
+        "year": null,
+        "japanese_calendar": "昭和",
+        "shape": "柱型",
+        "inscription": "庚申塔 昭和 不明\n小林氏",
+        "note": "庚申文字 南向き 屋敷内移動1回\n小林家が不明のため、付図中に「新興」の字名がある場所に置いた",
+        "place": "新興",
+        "type": "庚申",
+        "table_id": 51,
+        "book_id": 1,
+        "book_page": 31,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 39,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 19,
+        "depth": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5684531671881,
+          36.23298491136864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 98,
+        "name": "中宿の三猿庚申",
+        "year": 1672,
+        "japanese_calendar": "寛文12年",
+        "shape": "舟型 日 月",
+        "inscription": "奉[造][立]庚申供[美良]□安楽　　敬\n寛文十二壬子九月吉[祥]日　　　　 白",
+        "note": "庚申三猿文字 南向き",
+        "place": "中宿 八幡神社境内",
+        "type": "庚申",
+        "table_id": 1,
+        "book_id": 1,
+        "book_page": 31,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 71.5,
+        "statue_height": null,
+        "contradiction": "中宿に八幡神社が見つからない 八坂神社の間違いか？",
+        "width": 34,
+        "depth": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56813357870172,
+          36.2304815620112
+        ]
+      }
     }
   ]
 }
