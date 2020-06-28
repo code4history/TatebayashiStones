@@ -3255,15 +3255,81 @@
         "material": null,
         "whole_height": 71.5,
         "statue_height": null,
-        "contradiction": "中宿に八幡神社が見つからない 八坂神社の間違いか？",
+        "contradiction": "中宿に八幡神社が見つからない 付図上の類似箇所に仮置き",
         "width": 34,
         "depth": 21
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56813357870172,
-          36.2304815620112
+          139.57236139273442,
+          36.23175229910619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 99,
+        "name": "楠木神社の像庚申",
+        "year": 1679,
+        "japanese_calendar": "延宝7年",
+        "shape": "舟型背面 三猿浮彫り 左背面部欠損",
+        "inscription": "奉 庚申 一同\n延宝七　（以下欠損に付不明）",
+        "note": "庚申 三猿像 南向き",
+        "place": "羽附町谷 楠木神社境内",
+        "type": "庚申",
+        "table_id": 8,
+        "book_id": 1,
+        "book_page": 32,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 70,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 37,
+        "depth": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57110633458439,
+          36.23858598433804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 100,
+        "name": "楠木神社の年代不明の庚申",
+        "year": null,
+        "japanese_calendar": "不明",
+        "shape": "柱型",
+        "inscription": "庚申塔\n十一月吉日 羽附村陣谷中",
+        "note": "庚申 文字 南向き",
+        "place": "羽附町谷 楠木神社境内",
+        "type": "庚申",
+        "table_id": 49,
+        "book_id": 1,
+        "book_page": 32,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 62.5,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 31,
+        "depth": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5712012350116,
+          36.2385553670861
         ]
       }
     }
