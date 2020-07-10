@@ -1,0 +1,66 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css">
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<p id="mapid" style="height:100%; width: 100%"></p>
+
+<script type="text/html" id="popup-template">
+    <div class="poi">
+        <h2><%= name %> (<%= place %>)</h2>
+        <% if (type) { %><b>種別:</b> <%= type %><br><% } %>
+        <b>年代:</b> <%= japanese_calendar %><% if (year) { %> (<%= year %>)<% } %><br>
+        <% if (shape) { %><b>形状:</b> <%= shape %><br><% } %>
+        <% if (note) { %><b>メモ:</b> <%= note.replace(/\n/,'<br>') %><br><% } %>
+        <% if (contradiction) { %><b>矛盾点:</b> <%= contradiction %><br><% } %>
+        <% if (material) { %><b>材質:</b> <%= material %><br><% } %>
+        <% if (whole_height) { %><b>総高:</b> <%= whole_height %>cm<br><% } %>
+        <% if (statue_height) { %><b>総高:</b> <%= statue_height %>cm<br><% } %>
+        <% if (width) { %><b>総高:</b> <%= width %>cm<br><% } %>
+        <% if (depth) { %><b>総高:</b> <%= depth %>cm<br><% } %>
+        <% if (inscription) { %><b>刻銘:</b> <%= inscription.replace(/\n/,'<br>') %><br><% } %>
+    </div>
+</script>
+
+<script> MAP_CFG = {
+    latLng: [
+        36.2471861,
+        139.5072511
+    ],
+    zoom: 15,
+    minZoom: 5,
+    maxZoom: 20,
+    geoJson: './tatebayashi_stones.geojson',
+    checkProperty: 'name',
+    /*icon: (point, latlng) => {
+        const props = point.properties;
+        let iconUrl = './assets/hotoke.png';
+        let width = 43;
+        let height = 48;
+        if (props.type === '地蔵') {
+            iconUrl = './assets/jizo.png';
+            width = 35;
+        } else if (props.type === '小祠') {
+            iconUrl = './assets/jinja.png';
+            width = 52;
+        }
+
+        if (props.lost) iconUrl = iconUrl.replace('.png', '_sepia.png');
+        else if (props.need_action) iconUrl = iconUrl.replace('.png', '_surprise.png');
+
+        return L.marker(latlng, {
+            icon: L.icon({
+                iconUrl: iconUrl,
+                iconSize: [width, height],
+                iconAnchor: [width / 2, height]
+            })
+        });
+    }*/
+} </script>
+
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+<script src="assets/geojson-popup.js"></script>
+</body>
+</html>
