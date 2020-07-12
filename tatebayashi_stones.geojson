@@ -31,7 +31,12 @@
         "statue_height": 35,
         "contradiction": "像高より総高の方が低い",
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -64,7 +69,12 @@
         "statue_height": null,
         "contradiction": "付表では所在が中新田 田沼家となっている",
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -97,7 +107,12 @@
         "statue_height": 50.5,
         "contradiction": "侍辺は羽附ではなく赤生田ではないか?",
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -130,7 +145,12 @@
         "statue_height": 22.5,
         "contradiction": "侍辺は羽附ではなく赤生田ではないか?\n付表、付図内に示されていない",
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +183,12 @@
         "statue_height": 59.5,
         "contradiction": "侍辺は羽附ではなく赤生田ではないか?",
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -196,7 +221,12 @@
         "statue_height": 25.5,
         "contradiction": "侍辺は羽附ではなく赤生田ではないか?",
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +259,12 @@
         "statue_height": 44,
         "contradiction": "本文では「宝秀寺本尊阿弥陀如来」となっているが、付表では大日如来に分類されている\n像高が本文(44cm)と付表(55.5cm)で違う",
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -262,7 +297,12 @@
         "statue_height": 38,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +335,12 @@
         "statue_height": 25,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -328,7 +373,12 @@
         "statue_height": 25,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -361,7 +411,12 @@
         "statue_height": 48,
         "contradiction": "像高が本文(48cm)と付表(35cm)で違う",
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -394,7 +449,12 @@
         "statue_height": 90,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -427,7 +487,12 @@
         "statue_height": 56,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -460,7 +525,12 @@
         "statue_height": 35,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -493,7 +563,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -526,7 +601,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -559,7 +639,12 @@
         "statue_height": 91,
         "contradiction": null,
         "width": 29,
-        "depth": 22
+        "depth": 22,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -592,7 +677,12 @@
         "statue_height": 98.5,
         "contradiction": null,
         "width": 44,
-        "depth": 24
+        "depth": 24,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -625,7 +715,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -658,7 +753,12 @@
         "statue_height": 78,
         "contradiction": null,
         "width": 52,
-        "depth": 31
+        "depth": 31,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -691,7 +791,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -724,7 +829,12 @@
         "statue_height": 60,
         "contradiction": null,
         "width": 54,
-        "depth": 35
+        "depth": 35,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -757,7 +867,12 @@
         "statue_height": 91,
         "contradiction": null,
         "width": 35,
-        "depth": 17
+        "depth": 17,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -790,7 +905,12 @@
         "statue_height": 116,
         "contradiction": null,
         "width": 49,
-        "depth": 27
+        "depth": 27,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -823,7 +943,12 @@
         "statue_height": 93,
         "contradiction": null,
         "width": 28,
-        "depth": 23
+        "depth": 23,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -856,7 +981,12 @@
         "statue_height": 92,
         "contradiction": null,
         "width": 30,
-        "depth": 24.5
+        "depth": 24.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -889,7 +1019,12 @@
         "statue_height": 120,
         "contradiction": null,
         "width": 32,
-        "depth": 42
+        "depth": 42,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -922,7 +1057,12 @@
         "statue_height": 96,
         "contradiction": null,
         "width": 35,
-        "depth": 25
+        "depth": 25,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -955,7 +1095,12 @@
         "statue_height": 110,
         "contradiction": null,
         "width": 46,
-        "depth": 20
+        "depth": 20,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -988,7 +1133,12 @@
         "statue_height": 50.5,
         "contradiction": "付図の場所に墓地なさそう、もう１つ北の道路ではないか？",
         "width": 20,
-        "depth": 16
+        "depth": 16,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1021,7 +1171,12 @@
         "statue_height": 124,
         "contradiction": null,
         "width": 50.5,
-        "depth": 38
+        "depth": 38,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1054,7 +1209,12 @@
         "statue_height": 84.5,
         "contradiction": null,
         "width": 26.5,
-        "depth": 18
+        "depth": 18,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1087,7 +1247,12 @@
         "statue_height": 112,
         "contradiction": null,
         "width": 38,
-        "depth": 24.5
+        "depth": 24.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1120,7 +1285,12 @@
         "statue_height": 81,
         "contradiction": null,
         "width": 24,
-        "depth": 17
+        "depth": 17,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1153,7 +1323,12 @@
         "statue_height": 89,
         "contradiction": null,
         "width": 27.5,
-        "depth": 20
+        "depth": 20,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1186,7 +1361,12 @@
         "statue_height": 70,
         "contradiction": null,
         "width": 42,
-        "depth": 6
+        "depth": 6,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1219,7 +1399,12 @@
         "statue_height": 85,
         "contradiction": null,
         "width": 27,
-        "depth": 22
+        "depth": 22,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1252,13 +1437,49 @@
         "statue_height": 130,
         "contradiction": null,
         "width": 56,
-        "depth": 30
+        "depth": 30,
+        "need_action": null,
+        "files": [
+          {
+            "fid": 22,
+            "poiid": 38,
+            "path": "./images/38/obukuro_jizo.jpg",
+            "author": "Kohei Otsuka",
+            "description": "大袋の地蔵菩薩",
+            "mid_thumbnail": "./mid_thumbs/38/obukuro_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/38/obukuro_jizo.jpg",
+            "date": "2020/07/11 15:33:48"
+          },
+          {
+            "fid": 23,
+            "poiid": 38,
+            "path": "./images/38/obukuro_jizo_back.jpg",
+            "author": "Kohei Otsuka",
+            "description": "大袋の地蔵菩薩 背面",
+            "mid_thumbnail": "./mid_thumbs/38/obukuro_jizo_back.jpg",
+            "small_thumbnail": "./small_thumbs/38/obukuro_jizo_back.jpg",
+            "date": "2020/07/11 15:34:24"
+          },
+          {
+            "fid": 24,
+            "poiid": 38,
+            "path": "./images/38/obukuro_koshin_jizo.jpg",
+            "author": "Kohei Otsuka",
+            "description": "大袋の地蔵菩薩と青面金剛",
+            "mid_thumbnail": "./mid_thumbs/38/obukuro_koshin_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/38/obukuro_koshin_jizo.jpg",
+            "date": "2020/07/11 15:38:15"
+          }
+        ],
+        "path": "./images/38/obukuro_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/38/obukuro_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/38/obukuro_jizo.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.55016401710822,
-          36.23699838504269
+          139.55015583349956,
+          36.23698749589389
         ]
       }
     },
@@ -1285,7 +1506,12 @@
         "statue_height": 92,
         "contradiction": null,
         "width": 41.5,
-        "depth": 24
+        "depth": 24,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1318,7 +1544,12 @@
         "statue_height": 131,
         "contradiction": null,
         "width": 52,
-        "depth": 33
+        "depth": 33,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1351,7 +1582,12 @@
         "statue_height": 122,
         "contradiction": null,
         "width": 54,
-        "depth": 31
+        "depth": 31,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1384,7 +1620,12 @@
         "statue_height": 119,
         "contradiction": null,
         "width": 53,
-        "depth": 29
+        "depth": 29,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1417,7 +1658,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1450,7 +1696,12 @@
         "statue_height": 111,
         "contradiction": null,
         "width": 36,
-        "depth": 29
+        "depth": 29,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1483,7 +1734,12 @@
         "statue_height": 114,
         "contradiction": null,
         "width": 34,
-        "depth": 28
+        "depth": 28,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1516,7 +1772,12 @@
         "statue_height": 59,
         "contradiction": null,
         "width": 24,
-        "depth": 20.5
+        "depth": 20.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1549,7 +1810,12 @@
         "statue_height": 88,
         "contradiction": null,
         "width": 39.5,
-        "depth": 27
+        "depth": 27,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1582,7 +1848,12 @@
         "statue_height": 49,
         "contradiction": null,
         "width": 26,
-        "depth": 24
+        "depth": 24,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1615,7 +1886,12 @@
         "statue_height": 100,
         "contradiction": null,
         "width": 40,
-        "depth": 23
+        "depth": 23,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1648,7 +1924,12 @@
         "statue_height": 97,
         "contradiction": null,
         "width": 53,
-        "depth": 42
+        "depth": 42,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1681,7 +1962,12 @@
         "statue_height": 147,
         "contradiction": null,
         "width": 54.5,
-        "depth": 34
+        "depth": 34,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1714,7 +2000,12 @@
         "statue_height": 65,
         "contradiction": null,
         "width": 30,
-        "depth": 19
+        "depth": 19,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1747,7 +2038,12 @@
         "statue_height": 65,
         "contradiction": null,
         "width": 20.5,
-        "depth": 15
+        "depth": 15,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1780,7 +2076,12 @@
         "statue_height": 80,
         "contradiction": null,
         "width": 31,
-        "depth": 17
+        "depth": 17,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1813,7 +2114,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1846,7 +2152,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 43,
-        "depth": 16
+        "depth": 16,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1879,7 +2190,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 97,
-        "depth": 14
+        "depth": 14,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1912,7 +2228,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 28.7,
-        "depth": 18
+        "depth": 18,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1945,7 +2266,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 28.5,
-        "depth": 19.5
+        "depth": 19.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -1979,22 +2305,32 @@
         "contradiction": null,
         "width": 46,
         "depth": 29.5,
+        "need_action": null,
         "files": [
           {
-            "fid": 2,
+            "fid": 25,
             "poiid": 60,
             "path": "./images/60/obayashi_koshin_2018.jpg",
-            "date": "2018/09/24",
-            "author": "Kohei Otsuka"
+            "author": "Kohei Otsuka",
+            "description": "大林の庚申",
+            "mid_thumbnail": "./mid_thumbs/60/obayashi_koshin_2018.jpg",
+            "small_thumbnail": "./small_thumbs/60/obayashi_koshin_2018.jpg",
+            "date": "2018/09/24 14:50:22"
           },
           {
-            "fid": 3,
+            "fid": 26,
             "poiid": 60,
             "path": "./images/60/obayashi_koshin_2019.jpg",
-            "date": "2019/11/03",
-            "author": "Kohei Otsuka"
+            "author": "Kohei Otsuka",
+            "description": "大林の庚申",
+            "mid_thumbnail": "./mid_thumbs/60/obayashi_koshin_2019.jpg",
+            "small_thumbnail": "./small_thumbs/60/obayashi_koshin_2019.jpg",
+            "date": "2019/11/03 15:55:59"
           }
-        ]
+        ],
+        "path": "./images/60/obayashi_koshin_2019.jpg",
+        "small_thumbnail": "./small_thumbs/60/obayashi_koshin_2019.jpg",
+        "mid_thumbnail": "./mid_thumbs/60/obayashi_koshin_2019.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -2027,7 +2363,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 48,
-        "depth": 30
+        "depth": 30,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2060,7 +2401,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 49,
-        "depth": 27
+        "depth": 27,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2093,7 +2439,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 39.8,
-        "depth": 35
+        "depth": 35,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2126,7 +2477,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 53.5,
-        "depth": 6
+        "depth": 6,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2159,7 +2515,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 39.5,
-        "depth": 23
+        "depth": 23,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2192,7 +2553,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 27,
-        "depth": 18.5
+        "depth": 18.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2212,11 +2578,11 @@
         "shape": "自然石 文字三猿浮彫り",
         "inscription": "種子 青面金剛塔\n延享元甲子天八月吉日\n上州邑楽郡赤生田村中嶋講中",
         "note": "青面金剛文字 東向き",
-        "place": null,
+        "place": "中島恵下稲荷境内",
         "type": "庚申",
         "table_id": 21,
         "book_id": 2,
-        "book_page": 25,
+        "book_page": 26,
         "confirmed": null,
         "map_page": 1,
         "color": null,
@@ -2226,15 +2592,22 @@
         "contradiction": null,
         "width": 47,
         "depth": 24,
+        "need_action": null,
         "files": [
           {
-            "fid": 1,
+            "fid": 27,
             "poiid": 67,
             "path": "./images/67/nakajima_seimenkongo.jpg",
-            "date": "2018/09/24",
-            "author": "Kohei Otsuka"
+            "author": "Kohei Otsuka",
+            "description": "中島の青面金剛",
+            "mid_thumbnail": "./mid_thumbs/67/nakajima_seimenkongo.jpg",
+            "small_thumbnail": "./small_thumbs/67/nakajima_seimenkongo.jpg",
+            "date": "2018/09/24 15:24:57"
           }
-        ]
+        ],
+        "path": "./images/67/nakajima_seimenkongo.jpg",
+        "small_thumbnail": "./small_thumbs/67/nakajima_seimenkongo.jpg",
+        "mid_thumbnail": "./mid_thumbs/67/nakajima_seimenkongo.jpg"
       },
       "geometry": {
         "type": "Point",
@@ -2267,7 +2640,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 26,
-        "depth": 20
+        "depth": 20,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2300,7 +2678,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 30.5,
-        "depth": 30.5
+        "depth": 30.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2333,7 +2716,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 40,
-        "depth": 19
+        "depth": 19,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2366,7 +2754,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 46,
-        "depth": 34
+        "depth": 34,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2399,7 +2792,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 18.5,
-        "depth": 15
+        "depth": 15,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2432,7 +2830,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 31,
-        "depth": 25
+        "depth": 25,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2465,7 +2868,12 @@
         "statue_height": 76,
         "contradiction": null,
         "width": 37.5,
-        "depth": 11
+        "depth": 11,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2498,7 +2906,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 29.5,
-        "depth": 18
+        "depth": 18,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2531,7 +2944,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 41,
-        "depth": 41
+        "depth": 41,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2564,7 +2982,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 38,
-        "depth": 26
+        "depth": 26,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2597,7 +3020,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 38,
-        "depth": 18
+        "depth": 18,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2630,7 +3058,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 38,
-        "depth": 19
+        "depth": 19,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2663,7 +3096,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 28,
-        "depth": 13
+        "depth": 13,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2696,7 +3134,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 36,
-        "depth": 23.5
+        "depth": 23.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2715,13 +3158,13 @@
         "japanese_calendar": "昭和19年",
         "shape": "柱型",
         "inscription": "猿田彦大神\n昭和十九年三月吉日\n坂村実三郎建之",
-        "note": "猿田彦大神 南向き\n詳細箇所不明のため付図で富士山内に4ヶ所見える文字庚申の付近に順番に配置",
+        "note": "猿田彦大神 南向き",
         "place": "富士山",
         "type": "庚申",
         "table_id": 47,
         "book_id": 2,
         "book_page": 28,
-        "confirmed": null,
+        "confirmed": "2020/07/11",
         "map_page": 1,
         "color": null,
         "material": null,
@@ -2729,13 +3172,39 @@
         "statue_height": null,
         "contradiction": null,
         "width": 24,
-        "depth": 14
+        "depth": 14,
+        "need_action": null,
+        "files": [
+          {
+            "fid": 28,
+            "poiid": 82,
+            "path": "./images/82/sakamura_sarutahiko.jpg",
+            "author": "Kohei Otsuka",
+            "description": "坂村家の猿田彦大神 (遠景)",
+            "mid_thumbnail": "./mid_thumbs/82/sakamura_sarutahiko.jpg",
+            "small_thumbnail": "./small_thumbs/82/sakamura_sarutahiko.jpg",
+            "date": "2020/07/11 16:02:59"
+          },
+          {
+            "fid": 29,
+            "poiid": 82,
+            "path": "./images/82/sakamura_sarutahiko_zoom.jpg",
+            "author": "Kohei Otsuka",
+            "description": "坂村家の猿田彦大神",
+            "mid_thumbnail": "./mid_thumbs/82/sakamura_sarutahiko_zoom.jpg",
+            "small_thumbnail": "./small_thumbs/82/sakamura_sarutahiko_zoom.jpg",
+            "date": "2020/07/11 16:02:34"
+          }
+        ],
+        "path": "./images/82/sakamura_sarutahiko_zoom.jpg",
+        "small_thumbnail": "./small_thumbs/82/sakamura_sarutahiko_zoom.jpg",
+        "mid_thumbnail": "./mid_thumbs/82/sakamura_sarutahiko_zoom.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5582961588254,
-          36.2358102702137
+          139.55772941166833,
+          36.23685580080845
         ]
       }
     },
@@ -2748,13 +3217,13 @@
         "japanese_calendar": "昭和18年",
         "shape": "柱型",
         "inscription": "猿田彦大神\n昭和十八年十月吉日\n田村氏建之",
-        "note": "猿田彦大神 南向き\n詳細箇所不明のため付図で富士山内に4ヶ所見える文字庚申の付近に順番に配置",
+        "note": "猿田彦大神 南向き",
         "place": "富士山",
         "type": "庚申",
-        "table_id": 46,
+        "table_id": 37,
         "book_id": 2,
         "book_page": 29,
-        "confirmed": null,
+        "confirmed": "2020/07/11",
         "map_page": 1,
         "color": null,
         "material": null,
@@ -2762,13 +3231,49 @@
         "statue_height": null,
         "contradiction": null,
         "width": 15.5,
-        "depth": 12
+        "depth": 12,
+        "need_action": null,
+        "files": [
+          {
+            "fid": 30,
+            "poiid": 83,
+            "path": "./images/83/tamura_sarutahiko.jpg",
+            "author": "Kohei Otsuka",
+            "description": "田村家の猿田彦大神 (遠景)",
+            "mid_thumbnail": "./mid_thumbs/83/tamura_sarutahiko.jpg",
+            "small_thumbnail": "./small_thumbs/83/tamura_sarutahiko.jpg",
+            "date": "2020/07/11 16:05:02"
+          },
+          {
+            "fid": 31,
+            "poiid": 83,
+            "path": "./images/83/tamura_sarutahiko_side.jpg",
+            "author": "Kohei Otsuka",
+            "description": "田村家の猿田彦大神 (側面)",
+            "mid_thumbnail": "./mid_thumbs/83/tamura_sarutahiko_side.jpg",
+            "small_thumbnail": "./small_thumbs/83/tamura_sarutahiko_side.jpg",
+            "date": "2020/07/11 16:04:55"
+          },
+          {
+            "fid": 32,
+            "poiid": 83,
+            "path": "./images/83/tamura_sarutahiko_zoom.jpg",
+            "author": "Kohei Otsuka",
+            "description": "田村家の猿田彦大神",
+            "mid_thumbnail": "./mid_thumbs/83/tamura_sarutahiko_zoom.jpg",
+            "small_thumbnail": "./small_thumbs/83/tamura_sarutahiko_zoom.jpg",
+            "date": "2020/07/11 16:04:37"
+          }
+        ],
+        "path": "./images/83/tamura_sarutahiko_zoom.jpg",
+        "small_thumbnail": "./small_thumbs/83/tamura_sarutahiko_zoom.jpg",
+        "mid_thumbnail": "./mid_thumbs/83/tamura_sarutahiko_zoom.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.55774919190628,
-          36.23695494146085
+          139.55567068283986,
+          36.2374093088432
         ]
       }
     },
@@ -2781,13 +3286,13 @@
         "japanese_calendar": "大正6年",
         "shape": "柱型",
         "inscription": "佐田比古大神位\n大正六年十二月\n建主 狩野庄作",
-        "note": "佐田比古大神 東向き\n詳細箇所不明のため付図で富士山内に4ヶ所見える文字庚申の付近に順番に配置",
+        "note": "佐田比古大神 東向き",
         "place": "富士山",
         "type": "庚申",
         "table_id": 43,
         "book_id": 2,
         "book_page": 29,
-        "confirmed": null,
+        "confirmed": "2020/07/11",
         "map_page": 1,
         "color": null,
         "material": null,
@@ -2795,13 +3300,39 @@
         "statue_height": null,
         "contradiction": null,
         "width": 21,
-        "depth": 17.5
+        "depth": 17.5,
+        "need_action": null,
+        "files": [
+          {
+            "fid": 33,
+            "poiid": 84,
+            "path": "./images/84/kano_satahiko_bato.jpg",
+            "author": "Kohei Otsuka",
+            "description": "狩野家の佐田彦大神 馬頭観世音",
+            "mid_thumbnail": "./mid_thumbs/84/kano_satahiko_bato.jpg",
+            "small_thumbnail": "./small_thumbs/84/kano_satahiko_bato.jpg",
+            "date": "2020/07/11 16:17:29"
+          },
+          {
+            "fid": 34,
+            "poiid": 84,
+            "path": "./images/84/kano_satahiko_zoom.jpg",
+            "author": "Kohei Otsuka",
+            "description": "狩野家の佐田彦大神",
+            "mid_thumbnail": "./mid_thumbs/84/kano_satahiko_zoom.jpg",
+            "small_thumbnail": "./small_thumbs/84/kano_satahiko_zoom.jpg",
+            "date": "2020/07/11 16:17:18"
+          }
+        ],
+        "path": "./images/84/kano_satahiko_zoom.jpg",
+        "small_thumbnail": "./small_thumbs/84/kano_satahiko_zoom.jpg",
+        "mid_thumbnail": "./mid_thumbs/84/kano_satahiko_zoom.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.55585698202384,
-          36.23749150033865
+          139.55557459423548,
+          36.23637272547676
         ]
       }
     },
@@ -2814,13 +3345,13 @@
         "japanese_calendar": "大正9年",
         "shape": "柱型",
         "inscription": "庚申\n大正九年十二月吉日\n茂木氏",
-        "note": "庚申 文字 南向き\n詳細箇所不明のため付図で富士山内に4ヶ所見える文字庚申の付近に順番に配置",
+        "note": "庚申 文字 南向き",
         "place": "富士山",
         "type": "庚申",
         "table_id": 45,
         "book_id": 2,
         "book_page": 29,
-        "confirmed": null,
+        "confirmed": "2020/07/11",
         "map_page": 1,
         "color": null,
         "material": null,
@@ -2828,13 +3359,39 @@
         "statue_height": null,
         "contradiction": null,
         "width": 17,
-        "depth": 17
+        "depth": 17,
+        "need_action": null,
+        "files": [
+          {
+            "fid": 35,
+            "poiid": 85,
+            "path": "./images/85/mogi_koshin.jpg",
+            "author": "Kohei Otsuka",
+            "description": "茂木家の庚申 (遠景)",
+            "mid_thumbnail": "./mid_thumbs/85/mogi_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/85/mogi_koshin.jpg",
+            "date": "2020/07/11 16:13:18"
+          },
+          {
+            "fid": 36,
+            "poiid": 85,
+            "path": "./images/85/mogi_koshin_zoom.jpg",
+            "author": "Kohei Otsuka",
+            "description": "茂木家の庚申",
+            "mid_thumbnail": "./mid_thumbs/85/mogi_koshin_zoom.jpg",
+            "small_thumbnail": "./small_thumbs/85/mogi_koshin_zoom.jpg",
+            "date": "2020/07/11 16:13:12"
+          }
+        ],
+        "path": "./images/85/mogi_koshin_zoom.jpg",
+        "small_thumbnail": "./small_thumbs/85/mogi_koshin_zoom.jpg",
+        "mid_thumbnail": "./mid_thumbs/85/mogi_koshin_zoom.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.55610829114883,
-          36.23608451589332
+          139.55754664838017,
+          36.23582221104192
         ]
       }
     },
@@ -2861,7 +3418,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 42,
-        "depth": 15
+        "depth": 15,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2880,13 +3442,13 @@
         "japanese_calendar": "延宝7年",
         "shape": "舟型 文字三猿",
         "inscription": "青面金剛\n峕延宝七己未歳 五月廿日",
-        "note": "青面金剛三猿文字 東向き",
+        "note": "青面金剛三猿文字 東向き (2020年現況南向き)",
         "place": "大袋公民館前",
         "type": "庚申",
         "table_id": 2,
         "book_id": 2,
         "book_page": 29,
-        "confirmed": null,
+        "confirmed": "2020/07/11",
         "map_page": 1,
         "color": null,
         "material": null,
@@ -2894,13 +3456,39 @@
         "statue_height": null,
         "contradiction": null,
         "width": 30.5,
-        "depth": 16
+        "depth": 16,
+        "need_action": "画像破損事故のため正面画像は破損画像のみ。再調査必要。",
+        "files": [
+          {
+            "fid": 37,
+            "poiid": 87,
+            "path": "./images/87/obukuro_koshin_jizo.jpg",
+            "author": "Kohei Otsuka",
+            "description": "大袋の地蔵菩薩と青面金剛",
+            "mid_thumbnail": "./mid_thumbs/87/obukuro_koshin_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/87/obukuro_koshin_jizo.jpg",
+            "date": "2020/07/11 15:38:15"
+          },
+          {
+            "fid": 38,
+            "poiid": 87,
+            "path": "./images/87/obukuro_sanzaru_koshin_damaged.jpg",
+            "author": "Kohei Otsuka",
+            "description": "大袋の青面金剛 (画像破損)",
+            "mid_thumbnail": "./mid_thumbs/87/obukuro_sanzaru_koshin_damaged.jpg",
+            "small_thumbnail": "./small_thumbs/87/obukuro_sanzaru_koshin_damaged.jpg",
+            "date": "2020/07/11 15:38:15"
+          }
+        ],
+        "path": "./images/87/obukuro_sanzaru_koshin_damaged.jpg",
+        "small_thumbnail": "./small_thumbs/87/obukuro_sanzaru_koshin_damaged.jpg",
+        "mid_thumbnail": "./mid_thumbs/87/obukuro_sanzaru_koshin_damaged.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5502263802461,
-          36.237015990314646
+          139.55014393635,
+          36.236984543281686
         ]
       }
     },
@@ -2913,13 +3501,13 @@
         "japanese_calendar": "宝暦5年",
         "shape": "自然石",
         "inscription": "青面金剛塔 宝暦五乙亥年\n上大袋村講中 二月十六日",
-        "note": "青面金剛文字 南向き\n大袋三叉路が不明であったため大袋字内に配置",
+        "note": "青面金剛文字 南向き",
         "place": "大袋 三叉路",
         "type": "庚申",
         "table_id": 22,
         "book_id": 2,
         "book_page": 30,
-        "confirmed": null,
+        "confirmed": "2020/07/11",
         "map_page": 1,
         "color": null,
         "material": null,
@@ -2927,13 +3515,29 @@
         "statue_height": null,
         "contradiction": null,
         "width": 43,
-        "depth": 24
+        "depth": 24,
+        "need_action": "画像破損事故のため画像は背面画像のみ。再調査必要。",
+        "files": [
+          {
+            "fid": 39,
+            "poiid": 88,
+            "path": "./images/88/obukuro_seimen_kongo_back.jpg",
+            "author": "Kohei Otsuka",
+            "description": "大袋の自然石青面金剛 (背面)",
+            "mid_thumbnail": "./mid_thumbs/88/obukuro_seimen_kongo_back.jpg",
+            "small_thumbnail": "./small_thumbs/88/obukuro_seimen_kongo_back.jpg",
+            "date": "2020/07/11 15:52:50"
+          }
+        ],
+        "path": "./images/88/obukuro_seimen_kongo_back.jpg",
+        "small_thumbnail": "./small_thumbs/88/obukuro_seimen_kongo_back.jpg",
+        "mid_thumbnail": "./mid_thumbs/88/obukuro_seimen_kongo_back.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5497525409067,
-          36.23649527839748
+          139.551710777474,
+          36.23740587038786
         ]
       }
     },
@@ -2960,7 +3564,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 47,
-        "depth": 28
+        "depth": 28,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -2993,7 +3602,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 47,
-        "depth": 20
+        "depth": 20,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3026,7 +3640,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 26,
-        "depth": 8
+        "depth": 8,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3059,7 +3678,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 31,
-        "depth": 34
+        "depth": 34,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3092,7 +3716,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 27,
-        "depth": 18.5
+        "depth": 18.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3125,7 +3754,12 @@
         "statue_height": null,
         "contradiction": "自然石庚申がここにあるが、刻銘は「庚申塔」ではなく「庚申」",
         "width": 43.5,
-        "depth": 32
+        "depth": 32,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3158,7 +3792,12 @@
         "statue_height": null,
         "contradiction": "ここに文字庚申塔あり（誌上の対応不明）",
         "width": null,
-        "depth": null
+        "depth": null,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3191,7 +3830,12 @@
         "statue_height": null,
         "contradiction": "ここに何かあるように見えるが、現地調査",
         "width": 64,
-        "depth": 35
+        "depth": 35,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3224,7 +3868,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 19,
-        "depth": 17
+        "depth": 17,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3257,7 +3906,12 @@
         "statue_height": null,
         "contradiction": "中宿に八幡神社が見つからない 付図上の類似箇所に仮置き",
         "width": 34,
-        "depth": 21
+        "depth": 21,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3290,7 +3944,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 37,
-        "depth": 31
+        "depth": 31,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3323,7 +3982,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 31,
-        "depth": 22
+        "depth": 22,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3356,7 +4020,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 20,
-        "depth": 15
+        "depth": 15,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3389,7 +4058,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 40,
-        "depth": 27.5
+        "depth": 27.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3422,7 +4096,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 36,
-        "depth": 14
+        "depth": 14,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3455,7 +4134,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 33,
-        "depth": 22
+        "depth": 22,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3488,7 +4172,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 29,
-        "depth": 16
+        "depth": 16,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3521,7 +4210,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 35,
-        "depth": 34
+        "depth": 34,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
@@ -3554,7 +4248,12 @@
         "statue_height": null,
         "contradiction": null,
         "width": 80,
-        "depth": 36
+        "depth": 36,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
       },
       "geometry": {
         "type": "Point",
