@@ -1964,7 +1964,7 @@ module.exports = function (WIN, superagent, lodashish, VERSION) {
     latLng: [ 51.505, -0.09 ], 
     zoom: 3,
     minZoom: 2,
-    maxZoom: 12, 
+    maxZoom: 12,
     opacity: 1,
     mapId: 'mapid',
     popupTemplate: '#popup-template',
@@ -2009,6 +2009,7 @@ module.exports = function (WIN, superagent, lodashish, VERSION) {
     subdomains: CFG.subdomains,
     attribution: CFG.attribution,
     maxZoom: CFG.maxZoom,
+    maxNativeZoom: CFG.maxNativeZoom || CFG.maxZoom,
     minZoom: CFG.minZoom,
     
     accessToken: accessToken(W.ENV || { ENV: {} })
