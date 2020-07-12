@@ -29,7 +29,7 @@
         <% if (need_action) { %><b>アクション要:</b> <%= need_action %><br><% } %>
         <% if (contradiction) { %><b>タネ本の矛盾:</b> <%= contradiction %><br><% } %>
         <% if (files.length > 1) { %>
-        <b>画像:</b><br>
+        <b>その他の画像:</b><br>
         <div class="parent">
             <% files.map(function(file) { %>
             <% if (file.path != path) { %>
