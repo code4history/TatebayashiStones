@@ -1,12 +1,15 @@
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css">
-    <link rel="stylesheet" href="assets/style.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="./assets/L.Control.Locate.min.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
-<p id="mapid" style="height:100%; width: 100%"></p>
+<div id="mapid"></div>
 
 <script type="text/html" id="popup-template">
     <div class="poi">
@@ -64,8 +67,6 @@
             width = 36;
         }
 
-        /*if (props.lost) iconUrl = iconUrl.replace('.png', '_sepia.png');
-        else*/
         if (props.need_action || !props.confirmed || props.contradiction) iconUrl = iconUrl.replace('.png', '_surprise.png');
 
         return L.marker(latlng, {
@@ -78,7 +79,8 @@
     }
 } </script>
 
-<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
-<script src="assets/geojson-popup.js"></script>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
+<script src="./assets/L.Control.Locate.js"></script>
+<script src="./assets/geojson-popup.js"></script>
 </body>
 </html>

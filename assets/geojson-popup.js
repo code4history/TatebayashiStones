@@ -2015,6 +2015,10 @@ module.exports = function (WIN, superagent, lodashish, VERSION) {
     accessToken: accessToken(W.ENV || { ENV: {} })
   }).addTo(mymap);
 
+  L.control.locate({
+    icon: 'fa fa-crosshairs'
+  }).addTo(mymap);
+
   request
     .get(lodashish.cdn(CFG))
     .then(function (response) {
