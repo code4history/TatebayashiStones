@@ -8,3 +8,4 @@ escape
 .idea
 pois*.geojson
 files*.geojson
+images/*/description.json

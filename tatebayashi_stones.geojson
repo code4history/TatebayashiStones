@@ -2449,8 +2449,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56519104129967,
-          36.220842286437794
+          139.56526599364926,
+          36.22091927985134
         ]
       }
     },
@@ -2487,8 +2487,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56523348623642,
-          36.22084130808755
+          139.56530724002275,
+          36.22091827150921
         ]
       }
     },
@@ -4260,6 +4260,473 @@
         "coordinates": [
           139.57352155045723,
           36.23549549499027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 112,
+        "name": "亀田家の馬頭観世音",
+        "year": 1923,
+        "japanese_calendar": "大正12年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n大正十二年十二月\n亀田久五郎建之 亀田政一",
+        "note": "付図上で大林に属するものは1例しかなかったためここに比定",
+        "place": "上赤生田大林",
+        "type": "馬頭観世音",
+        "table_id": 20,
+        "book_id": 2,
+        "book_page": 39,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 50,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 21,
+        "depth": 16.5,
+        "need_action": null,
+        "files": [
+          {
+            "fid": 40,
+            "poiid": 112,
+            "path": "./images/112/obayashi_bato_kameda.jpg",
+            "author": "Kohei Otsuka",
+            "description": "上赤生田大林 亀田家の馬頭観世音",
+            "mid_thumbnail": "./mid_thumbs/112/obayashi_bato_kameda.jpg",
+            "small_thumbnail": "./small_thumbs/112/obayashi_bato_kameda.jpg",
+            "date": "2020/03/21 15:40:09"
+          }
+        ],
+        "path": "./images/112/obayashi_bato_kameda.jpg",
+        "small_thumbnail": "./small_thumbs/112/obayashi_bato_kameda.jpg",
+        "mid_thumbnail": "./mid_thumbs/112/obayashi_bato_kameda.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5545267801885,
+          36.22292303549105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 113,
+        "name": "斉藤家の馬頭観世音",
+        "year": 1801,
+        "japanese_calendar": "享和元年",
+        "shape": "柱型2つに破損",
+        "inscription": "馬頭観世音\n享和元辛酉天三月吉祥日\n中島□□\n同安左□□\n同喜左□□\n同作右ェ門",
+        "note": "上赤生田内の位置は不明なため、大林と観音堂2基を除く5基の間で仮置きとする",
+        "place": "上赤生田",
+        "type": "馬頭観世音",
+        "table_id": 7,
+        "book_id": 2,
+        "book_page": 37,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 47.5,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 23,
+        "depth": 14,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.55200288547047,
+          36.22593960117962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 114,
+        "name": "観音堂の馬頭観世音",
+        "year": 1851,
+        "japanese_calendar": "嘉永4年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n嘉永四年亥八月吉日\n小桑原 赤坂新左ェ門",
+        "note": null,
+        "place": "上赤生田",
+        "type": "馬頭観世音",
+        "table_id": 9,
+        "book_id": 2,
+        "book_page": 37,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 56,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 26,
+        "depth": 20.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54591519504447,
+          36.22550886644834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 115,
+        "name": "観音堂の馬頭観世音",
+        "year": 1833,
+        "japanese_calendar": "天保4年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n天保四癸巳七月吉日\n上赤生田村\n武劦上岡写",
+        "note": null,
+        "place": "上赤生田",
+        "type": "馬頭観世音",
+        "table_id": 8,
+        "book_id": 2,
+        "book_page": 38,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 80,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 38,
+        "depth": 31,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54590050883573,
+          36.22548315522873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 116,
+        "name": "斉藤家の馬頭観世音",
+        "year": 1923,
+        "japanese_calendar": "大正12年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n大正十二年六月二十六日\n斉藤幾一郎",
+        "note": "上赤生田内の位置は不明なため、大林と観音堂2基を除く5基の間で仮置きとする\nGoogleStreetViewによると、この場所に何かある",
+        "place": "上赤生田",
+        "type": "馬頭観世音",
+        "table_id": 19,
+        "book_id": 2,
+        "book_page": 38,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 48,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 21.5,
+        "depth": 16,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54534524515657,
+          36.226019812167316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 117,
+        "name": "山田家の馬頭観世音",
+        "year": 1910,
+        "japanese_calendar": "明治43年",
+        "shape": "碑型",
+        "inscription": "馬頭観世音\n昭和六年十月二日十才\n明治四十三年旧七月七日\n山田宗次郎立之",
+        "note": "上赤生田内の位置は不明なため、大林と観音堂2基を除く5基の間で仮置きとする\nGoogleStreetViewによると、この場所に碑型の何かがあるが、高さなどは一致しない",
+        "place": "上赤生田",
+        "type": "馬頭観世音",
+        "table_id": 15,
+        "book_id": 2,
+        "book_page": 38,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 50,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 37,
+        "depth": 2,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5465626381188,
+          36.226336410306374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 118,
+        "name": "早川家の馬頭観世音",
+        "year": 1929,
+        "japanese_calendar": "昭和4年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n昭和四年九月吉日\n早川三吉建之\n",
+        "note": "上赤生田内の位置は不明なため、大林と観音堂2基を除く5基の間で仮置きとする",
+        "place": "上赤生田",
+        "type": "馬頭観世音",
+        "table_id": null,
+        "book_id": 2,
+        "book_page": 38,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 43,
+        "statue_height": null,
+        "contradiction": "一覧表に見当たらない",
+        "width": 22.5,
+        "depth": 14.8,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54725507723694,
+          36.22473122435259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 119,
+        "name": "早川家の馬頭観世音",
+        "year": 1925,
+        "japanese_calendar": "大正14年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n大正十四年三月吉日\n赤生田村建之 早川清太郎",
+        "note": "上赤生田内の位置は不明なため、大林と観音堂2基を除く5基の間で仮置きとする\n元本では所在地に個人名が記載されていたが省略",
+        "place": "上赤生田早川家宅",
+        "type": "馬頭観世音",
+        "table_id": 24,
+        "book_id": 2,
+        "book_page": 38,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 54,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 22,
+        "depth": 19,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54719508251188,
+          36.22466266039982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 120,
+        "name": "田部井家の馬頭観世音",
+        "year": 1938,
+        "japanese_calendar": "昭和13年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n昭和十三年 田部井甚作建之",
+        "note": "位置特定困難のため、付図での大体の場所に配置\n",
+        "place": "羽附町谷",
+        "type": "馬頭観世音",
+        "table_id": 37,
+        "book_id": 2,
+        "book_page": 39,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 45,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 24.5,
+        "depth": 12.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57038554351908,
+          36.23771292721471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 121,
+        "name": "永明寺の馬頭観世音",
+        "year": 1906,
+        "japanese_calendar": "明治39年",
+        "shape": "碑型",
+        "inscription": "馬頭観世音\n明治三十九年丙午三月",
+        "note": null,
+        "place": "赤生田侍辺",
+        "type": "馬頭観世音",
+        "table_id": 14,
+        "book_id": 2,
+        "book_page": 39,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 147.5,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 81,
+        "depth": 21,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.558581581368,
+          36.22190341557013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 122,
+        "name": "子ノ神神社の馬頭観世音",
+        "year": 1926,
+        "japanese_calendar": "大正15年",
+        "shape": "柱型",
+        "inscription": "大正十五年旧霜月\n妙見菩薩子ノ神念仏講建之\n信 森田長蔵 中島信吉\n仰 卯月喜平 卯月藤三郎\n者 塩田吉郎治 岩田益智",
+        "note": null,
+        "place": "赤生田子ノ神",
+        "type": "馬頭観世音",
+        "table_id": 26,
+        "book_id": 2,
+        "book_page": 39,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 47,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 21,
+        "depth": 18,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.55768666005287,
+          36.229636919993105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 123,
+        "name": "中新田集会所前の馬頭観世音",
+        "year": 1947,
+        "japanese_calendar": "昭和22年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音 松本長吉\n昭和二十二年一月",
+        "note": null,
+        "place": "赤生田中新田",
+        "type": "馬頭観世音",
+        "table_id": 43,
+        "book_id": 2,
+        "book_page": 39,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 34.5,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 19.5,
+        "depth": 13.5,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.565345986616,
+          36.220916254824914
         ]
       }
     }
