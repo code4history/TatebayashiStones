@@ -4729,6 +4729,386 @@
           36.220916254824914
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 124,
+        "name": "田部井家の馬頭観世音像",
+        "year": 1715,
+        "japanese_calendar": "正徳5年",
+        "shape": "舟型背面像",
+        "inscription": "馬頭観世音\n正徳五乙未年六月吉日 十九日\n田部井平一",
+        "note": "附図の位置付近に配置",
+        "place": "赤生田中新田",
+        "type": "馬頭観世音",
+        "table_id": 1,
+        "book_id": 2,
+        "book_page": 40,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 44,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 25,
+        "depth": 19,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56141265111387,
+          36.22309314713627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 125,
+        "name": "山田の馬頭観世音",
+        "year": 1944,
+        "japanese_calendar": "昭和19年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n昭和十九年四月吉日\n山田辰五郎建之",
+        "note": "山田部落内の位置は不明なため、8基の間で仮置きとする",
+        "place": "赤生田山田",
+        "type": "馬頭観世音",
+        "table_id": 41,
+        "book_id": 2,
+        "book_page": 40,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 56,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 22,
+        "depth": 13,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56662387831642,
+          36.229084534018405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 126,
+        "name": "山田の馬頭観世音",
+        "year": 1881,
+        "japanese_calendar": "明治14年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n明治十四年己十二月\n山田彦次郎立",
+        "note": "山田部落内の位置は不明なため、8基の間で仮置きとする\n富士塚付近の1基を除いた7基はここに見られる",
+        "place": "赤生田山田部落南",
+        "type": "馬頭観世音",
+        "table_id": 12,
+        "book_id": 2,
+        "book_page": 40,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 29,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 18.7,
+        "depth": 15.8,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57027062384807,
+          36.22727459071372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 127,
+        "name": "山田の馬頭観世音",
+        "year": 1931,
+        "japanese_calendar": "昭和6年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n昭和六年四月\n山田平蔵立之",
+        "note": "山田部落内の位置は不明なため、8基の間で仮置きとする\n富士塚付近の1基を除いた7基はここに見られる",
+        "place": "赤生田山田",
+        "type": "馬頭観世音",
+        "table_id": 31,
+        "book_id": 2,
+        "book_page": 40,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 38,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 22,
+        "depth": 15,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5702149483438,
+          36.22721171351849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 128,
+        "name": "山田部落の馬頭観世音",
+        "year": 1885,
+        "japanese_calendar": "明治18年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n明治十八年二月日\n山田和三郎立",
+        "note": "山田部落内の位置は不明なため、8基の間で仮置きとする\n富士塚付近の1基を除いた7基はここに見られる",
+        "place": "赤生田山田",
+        "type": "馬頭観世音",
+        "table_id": 13,
+        "book_id": 2,
+        "book_page": 40,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 23,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 18,
+        "depth": 11,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5701592728395,
+          36.22713536257063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 129,
+        "name": "山田部落の馬頭観世音",
+        "year": 1925,
+        "japanese_calendar": "大正14年",
+        "shape": "柱型",
+        "inscription": "大正十四年二月\n山田氏",
+        "note": "山田部落内の位置は不明なため、8基の間で仮置きとする\n富士塚付近の1基を除いた7基はここに見られる",
+        "place": "赤生田山田",
+        "type": "馬頭観世音",
+        "table_id": 22,
+        "book_id": 2,
+        "book_page": 41,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 36,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 23,
+        "depth": 10,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57009802978476,
+          36.22705452030928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 130,
+        "name": "山田部落の馬頭観世音",
+        "year": 1927,
+        "japanese_calendar": "昭和2年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n昭和四年四月吉日\n山田辰五郎建之",
+        "note": "山田部落内の位置は不明なため、8基の間で仮置きとする\n富士塚付近の1基を除いた7基はここに見られる",
+        "place": "赤生田山田",
+        "type": "馬頭観世音",
+        "table_id": 27,
+        "book_id": 2,
+        "book_page": 41,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 45,
+        "statue_height": null,
+        "contradiction": "刻銘は昭和4年だが昭和2年建立？",
+        "width": 23,
+        "depth": 9,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57035970465495,
+          36.227238660894066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 131,
+        "name": "山田部落の馬頭観世音",
+        "year": 1768,
+        "japanese_calendar": "明和5年",
+        "shape": "舟型背面像",
+        "inscription": "馬頭観世音\n明和五戊子年八月十九日\n赤生田村山氏",
+        "note": "山田部落内の位置は不明なため、8基の間で仮置きとする\n富士塚付近の1基を除いた7基はここに見られる",
+        "place": "赤生田山田",
+        "type": "馬頭観世音",
+        "table_id": 3,
+        "book_id": 2,
+        "book_page": 41,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 69,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 28,
+        "depth": 18,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57032073180196,
+          36.227153327506244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 132,
+        "name": "山田家の馬頭観世音",
+        "year": 1788,
+        "japanese_calendar": "天明8年",
+        "shape": "柱型",
+        "inscription": "馬頭観世音\n天明八年 橋下氏建\n昭和十二年九月再建\n山田喜十郎",
+        "note": "山田部落内の位置は不明なため、8基の間で仮置きとする\n富士塚付近の1基を除いた7基はここに見られる",
+        "place": "赤生田山田",
+        "type": "馬頭観世音",
+        "table_id": 6,
+        "book_id": 2,
+        "book_page": 41,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 46,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 23,
+        "depth": 13,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.57027062384807,
+          36.22706350278689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 133,
+        "name": "橋本家の馬頭観世音",
+        "year": 1950,
+        "japanese_calendar": "昭和35年",
+        "shape": "自然石",
+        "inscription": "馬頭観世音\n昭和三十五年十二月\n橋本家",
+        "note": "羽附富士山内の位置は不明なため、6基のうち富士嶽神社の1基を除いた5基間で仮置きとする\n富士嶽神社付近の1基を除いた4基は付図ではこの区画に見られる",
+        "place": "羽附富士山",
+        "type": "馬頭観世音",
+        "table_id": 46,
+        "book_id": 2,
+        "book_page": 42,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 42,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 29,
+        "depth": 10,
+        "need_action": null,
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5557114794736,
+          36.236049954745745
+        ]
+      }
     }
   ]
 }

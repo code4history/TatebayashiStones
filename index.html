@@ -67,6 +67,9 @@
         } else if (props.type === '庚申') {
             iconUrl = './assets/sanzaru.png';
             width = 36;
+        } else if (props.type === '馬頭観世音') {
+            iconUrl = './assets/bato.png';
+            width = 48;
         }
 
         if (props.need_action || !props.confirmed || props.contradiction) iconUrl = iconUrl.replace('.png', '_surprise.png');
