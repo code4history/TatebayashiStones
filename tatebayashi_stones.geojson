@@ -3064,7 +3064,7 @@
         "table_id": 42,
         "book_id": 2,
         "book_page": 26,
-        "confirmed": null,
+        "confirmed": "2020/09/20",
         "map_page": 1,
         "color": null,
         "material": null,
@@ -3073,17 +3073,28 @@
         "contradiction": null,
         "width": 18.5,
         "depth": 15,
-        "need_action": "2020年8月22日の調査では道の北川しか調査しなかった。道の南側を調査必要。",
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "need_action": "",
+        "files": [
+          {
+            "fid": 110,
+            "poiid": 72,
+            "description": "松本家 庚申塔",
+            "path": "./images/72/matsumoto_koshin.jpg",
+            "date": "2020/09/20 14:47:06",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/72/matsumoto_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/72/matsumoto_koshin.jpg"
+          }
+        ],
+        "path": "./images/72/matsumoto_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/72/matsumoto_koshin.jpg",
+        "mid_thumbnail": "./mid_thumbs/72/matsumoto_koshin.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56405454725888,
-          36.23122485860085
+          139.5671545819308,
+          36.23034582137646
         ]
       }
     },
@@ -6363,6 +6374,56 @@
         "coordinates": [
           139.56460800152948,
           36.233953377148076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 149,
+        "name": "他宗場墓地前の馬頭観世音",
+        "year": 1917,
+        "japanese_calendar": "大正6年",
+        "shape": "碑型",
+        "inscription": "馬頭観世音 大正六年五月\n明治三十七五月十九日\n日露戦役時被徴発之\n飼馬斃於役中矣潾而建\n大正六年五月\n小川文七",
+        "note": null,
+        "place": "羽附他宗場",
+        "type": "馬頭観世音",
+        "table_id": 17,
+        "book_id": 2,
+        "book_page": 43,
+        "confirmed": "2020/09/20",
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 123.5,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 62,
+        "depth": 11,
+        "need_action": null,
+        "status": null,
+        "files": [
+          {
+            "fid": 109,
+            "poiid": 149,
+            "description": "他宗場 馬頭観世音",
+            "path": "./images/149/tachiba_bato.jpg",
+            "date": "2020/09/20 14:25:26",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/149/tachiba_bato.jpg",
+            "small_thumbnail": "./small_thumbs/149/tachiba_bato.jpg"
+          }
+        ],
+        "path": "./images/149/tachiba_bato.jpg",
+        "small_thumbnail": "./small_thumbs/149/tachiba_bato.jpg",
+        "mid_thumbnail": "./mid_thumbs/149/tachiba_bato.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5645878957182,
+          36.23366728121243
         ]
       }
     }

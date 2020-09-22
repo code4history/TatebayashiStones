@@ -1218,6 +1218,34 @@
         "small_thumbnail": "./small_thumbs/148/tachiba_kansei7_jizo.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 109,
+        "poiid": 149,
+        "description": "他宗場 馬頭観世音",
+        "path": "./images/149/tachiba_bato.jpg",
+        "date": "2020/09/20 14:25:26",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/149/tachiba_bato.jpg",
+        "small_thumbnail": "./small_thumbs/149/tachiba_bato.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 110,
+        "poiid": 72,
+        "description": "松本家 庚申塔",
+        "path": "./images/72/matsumoto_koshin.jpg",
+        "date": "2020/09/20 14:47:06",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/72/matsumoto_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/72/matsumoto_koshin.jpg"
+      },
+      "geometry": null
     }
   ]
 }
