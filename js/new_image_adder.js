@@ -2,10 +2,12 @@ const ExifImage = require('exif').ExifImage;
 const fs = require('fs-extra');
 const sharp = require('sharp');
 
+let fidMax = 0;
 const files = fs.readJsonSync('../files.geojson');
 const new_files = Object.assign({}, files);
 new_files.features = [];
 const fileBuffer = files.features.reduce((prev, curr) => {
+    if (fidMax < curr.properties.fid) fidMax = curr.properties.fid;
     prev[curr.properties.path] = 1;
     return prev;
 }, {});
@@ -38,7 +40,7 @@ folders.map((folder) => {
 
 console.log(fileNew);
 
-const promises = fileNew.map((curr) => {
+const promises = fileNew.map((curr, index) => {
     const path = curr.path;
     const mid_thumb = path.replace('./images', './mid_thumbs');
     const small_thumb = path.replace('./images', './small_thumbs');
@@ -59,7 +61,7 @@ const promises = fileNew.map((curr) => {
                         resolve({
                             "type": "Feature",
                             "properties": {
-                                "fid": null,
+                                "fid": fidMax + index + 1,
                                 "poiid": curr.poiid,
                                 "description": curr.description,
                                 "path": curr.path,
@@ -80,6 +82,7 @@ const promises = fileNew.map((curr) => {
         new Promise((resolve) => {
             try {
                 fs.statSync(`.${mid_thumb}`);
+                resolve();
             } catch (e) {
                 fs.ensureFileSync(`.${mid_thumb}`);
                 sharp(`.${path}`)
@@ -92,12 +95,16 @@ const promises = fileNew.map((curr) => {
                     .then(() => {
                         curr.mid_thumbnail = mid_thumb;
                         resolve();
+                    }).catch ((error) => {
+                        console.log('Error 2: ' + error.message);
+                        reject();
                     });
             };
         }),
         new Promise((resolve) => {
             try {
                 fs.statSync(`.${small_thumb}`);
+                resolve();
             } catch (e) {
                 fs.ensureFileSync(`.${small_thumb}`);
                 sharp(`.${path}`)
@@ -110,6 +117,9 @@ const promises = fileNew.map((curr) => {
                     .then(() => {
                         curr.small_thumbnail = small_thumb;
                         resolve();
+                    }).catch ((error) => {
+                        console.log('Error 2: ' + error.message);
+                        reject();
                     });
             };
         })
@@ -117,8 +127,11 @@ const promises = fileNew.map((curr) => {
 });
 
 Promise.all(promises).then((features) => {
-    new_files.features = features.map(feature => feature[0]);
-    fs.writeJsonSync('../files_new.geojson', new_files, {
+    //new_files.features = features.map(feature => feature[0]);
+    files.features = files.features.concat(features.map(feature => feature[0]));
+    fs.writeJsonSync('../files.geojson', files, {
         spaces: '  '
     });
+}).catch((e) => {
+    console.log(e);
 });

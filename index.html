@@ -24,10 +24,12 @@
         <% if (material) { %><b>材質:</b> <%= material %><br><% } %>
         <% if (whole_height) { %><b>総高:</b> <%= whole_height %>cm<br><% } %>
         <% if (statue_height) { %><b>像高:</b> <%= statue_height %>cm<br><% } %>
-        <% if (width) { %><b>総高:</b> <%= width %>cm<br><% } %>
-        <% if (depth) { %><b>総高:</b> <%= depth %>cm<br><% } %>
+        <% if (width) { %><b>幅:</b> <%= width %>cm<br><% } %>
+        <% if (depth) { %><b>奥行:</b> <%= depth %>cm<br><% } %>
         <% if (inscription) { %><b>刻銘:</b> <%= inscription.replace(/\n/g,'<br>') %><br><% } %>
         <b>最終現地調査日:</b> <% if (confirmed) { %><%= confirmed %><% } else { %>未調査<% } %><br>
+        <b>現況:</b> <% if (status == 'lost') {%>喪失<% } else if (status == 'lost?') { %>喪失疑い<% } else if (status == 'new') { %>新規追加(タネ本にない) <% }
+            else if (confirmed) { %>現存<% } else { %>不明(未調査)<% } %><br>
         <% if (need_action) { %><b>アクション要:</b> <%= need_action %><br><% } %>
         <% if (contradiction) { %><b>タネ本の矛盾:</b> <%= contradiction %><br><% } %>
         <% if (files.length > 1) { %>
@@ -58,10 +60,13 @@
     checkProperty: 'name',
     icon: (point, latlng) => {
         const props = point.properties;
-        let iconUrl = './assets/hotoke.png';
-        let width = 43;
+        let iconUrl = './assets/sekihi.png';
+        let width = 48;
         let height = 48;
-        if (props.type === '地蔵菩薩像' || props.type === '六地蔵菩薩像') {
+        if (props.type === 'その他仏像' || props.type === '愛染明王像' || props.type === '十一面観音菩薩像' || props.type === '聖観音像' || props.type === '聖徳太子像' || props.type === '大日如来像' || props.type === '如意輪観音菩薩像' || props.type === '不動明王像' || props.type === '薬師如来像' || props.type === '阿弥陀如来像') {
+            iconUrl = './assets/hotoke.png';
+            width = 43;
+        } else if (props.type === '地蔵菩薩像' || props.type === '六地蔵菩薩像') {
             iconUrl = './assets/jizo.png';
             width = 35;
         } else if (props.type === '庚申') {
@@ -70,9 +75,13 @@
         } else if (props.type === '馬頭観世音') {
             iconUrl = './assets/bato.png';
             width = 48;
+        } else if (props.type === '十九夜' || props.type === '二十三夜' || props.type === '如意輪観音') {
+            iconUrl = './assets/19ya.png';
+            width = 48;
         }
 
-        if (props.need_action || !props.confirmed || props.contradiction) iconUrl = iconUrl.replace('.png', '_surprise.png');
+        if (props.status == 'lost' || props.status == 'lost?') iconUrl = iconUrl.replace('.png', '_sepia.png');
+        else if (props.need_action || !props.confirmed || props.contradiction) iconUrl = iconUrl.replace('.png', '_surprise.png');
 
         return L.marker(latlng, {
             icon: L.icon({

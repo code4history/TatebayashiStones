@@ -1,25 +1,1223 @@
 {
-"type": "FeatureCollection",
-"name": "files",
-"features": [
-{ "type": "Feature", "properties": { "fid": 22, "poiid": 38, "path": ".\/images\/38\/obukuro_jizo.jpg", "author": "Kohei Otsuka", "description": "大袋の地蔵菩薩", "mid_thumbnail": ".\/mid_thumbs\/38\/obukuro_jizo.jpg", "small_thumbnail": ".\/small_thumbs\/38\/obukuro_jizo.jpg", "date": "2020\/07\/11 15:33:48" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 23, "poiid": 38, "path": ".\/images\/38\/obukuro_jizo_back.jpg", "author": "Kohei Otsuka", "description": "大袋の地蔵菩薩 背面", "mid_thumbnail": ".\/mid_thumbs\/38\/obukuro_jizo_back.jpg", "small_thumbnail": ".\/small_thumbs\/38\/obukuro_jizo_back.jpg", "date": "2020\/07\/11 15:34:24" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 24, "poiid": 38, "path": ".\/images\/38\/obukuro_koshin_jizo.jpg", "author": "Kohei Otsuka", "description": "大袋の地蔵菩薩と青面金剛", "mid_thumbnail": ".\/mid_thumbs\/38\/obukuro_koshin_jizo.jpg", "small_thumbnail": ".\/small_thumbs\/38\/obukuro_koshin_jizo.jpg", "date": "2020\/07\/11 15:38:15" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 25, "poiid": 60, "path": ".\/images\/60\/obayashi_koshin_2018.jpg", "author": "Kohei Otsuka", "description": "大林の庚申", "mid_thumbnail": ".\/mid_thumbs\/60\/obayashi_koshin_2018.jpg", "small_thumbnail": ".\/small_thumbs\/60\/obayashi_koshin_2018.jpg", "date": "2018\/09\/24 14:50:22" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 26, "poiid": 60, "path": ".\/images\/60\/obayashi_koshin_2019.jpg", "author": "Kohei Otsuka", "description": "大林の庚申", "mid_thumbnail": ".\/mid_thumbs\/60\/obayashi_koshin_2019.jpg", "small_thumbnail": ".\/small_thumbs\/60\/obayashi_koshin_2019.jpg", "date": "2019\/11\/03 15:55:59" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 27, "poiid": 67, "path": ".\/images\/67\/nakajima_seimenkongo.jpg", "author": "Kohei Otsuka", "description": "中島の青面金剛", "mid_thumbnail": ".\/mid_thumbs\/67\/nakajima_seimenkongo.jpg", "small_thumbnail": ".\/small_thumbs\/67\/nakajima_seimenkongo.jpg", "date": "2018\/09\/24 15:24:57" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 28, "poiid": 82, "path": ".\/images\/82\/sakamura_sarutahiko.jpg", "author": "Kohei Otsuka", "description": "坂村家の猿田彦大神 (遠景)", "mid_thumbnail": ".\/mid_thumbs\/82\/sakamura_sarutahiko.jpg", "small_thumbnail": ".\/small_thumbs\/82\/sakamura_sarutahiko.jpg", "date": "2020\/07\/11 16:02:59" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 29, "poiid": 82, "path": ".\/images\/82\/sakamura_sarutahiko_zoom.jpg", "author": "Kohei Otsuka", "description": "坂村家の猿田彦大神", "mid_thumbnail": ".\/mid_thumbs\/82\/sakamura_sarutahiko_zoom.jpg", "small_thumbnail": ".\/small_thumbs\/82\/sakamura_sarutahiko_zoom.jpg", "date": "2020\/07\/11 16:02:34" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 30, "poiid": 83, "path": ".\/images\/83\/tamura_sarutahiko.jpg", "author": "Kohei Otsuka", "description": "田村家の猿田彦大神 (遠景)", "mid_thumbnail": ".\/mid_thumbs\/83\/tamura_sarutahiko.jpg", "small_thumbnail": ".\/small_thumbs\/83\/tamura_sarutahiko.jpg", "date": "2020\/07\/11 16:05:02" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 31, "poiid": 83, "path": ".\/images\/83\/tamura_sarutahiko_side.jpg", "author": "Kohei Otsuka", "description": "田村家の猿田彦大神 (側面)", "mid_thumbnail": ".\/mid_thumbs\/83\/tamura_sarutahiko_side.jpg", "small_thumbnail": ".\/small_thumbs\/83\/tamura_sarutahiko_side.jpg", "date": "2020\/07\/11 16:04:55" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 32, "poiid": 83, "path": ".\/images\/83\/tamura_sarutahiko_zoom.jpg", "author": "Kohei Otsuka", "description": "田村家の猿田彦大神", "mid_thumbnail": ".\/mid_thumbs\/83\/tamura_sarutahiko_zoom.jpg", "small_thumbnail": ".\/small_thumbs\/83\/tamura_sarutahiko_zoom.jpg", "date": "2020\/07\/11 16:04:37" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 33, "poiid": 84, "path": ".\/images\/84\/kano_satahiko_bato.jpg", "author": "Kohei Otsuka", "description": "狩野家の佐田彦大神 馬頭観世音", "mid_thumbnail": ".\/mid_thumbs\/84\/kano_satahiko_bato.jpg", "small_thumbnail": ".\/small_thumbs\/84\/kano_satahiko_bato.jpg", "date": "2020\/07\/11 16:17:29" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 34, "poiid": 84, "path": ".\/images\/84\/kano_satahiko_zoom.jpg", "author": "Kohei Otsuka", "description": "狩野家の佐田彦大神", "mid_thumbnail": ".\/mid_thumbs\/84\/kano_satahiko_zoom.jpg", "small_thumbnail": ".\/small_thumbs\/84\/kano_satahiko_zoom.jpg", "date": "2020\/07\/11 16:17:18" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 35, "poiid": 85, "path": ".\/images\/85\/mogi_koshin.jpg", "author": "Kohei Otsuka", "description": "茂木家の庚申 (遠景)", "mid_thumbnail": ".\/mid_thumbs\/85\/mogi_koshin.jpg", "small_thumbnail": ".\/small_thumbs\/85\/mogi_koshin.jpg", "date": "2020\/07\/11 16:13:18" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 36, "poiid": 85, "path": ".\/images\/85\/mogi_koshin_zoom.jpg", "author": "Kohei Otsuka", "description": "茂木家の庚申", "mid_thumbnail": ".\/mid_thumbs\/85\/mogi_koshin_zoom.jpg", "small_thumbnail": ".\/small_thumbs\/85\/mogi_koshin_zoom.jpg", "date": "2020\/07\/11 16:13:12" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 37, "poiid": 87, "path": ".\/images\/87\/obukuro_koshin_jizo.jpg", "author": "Kohei Otsuka", "description": "大袋の地蔵菩薩と青面金剛", "mid_thumbnail": ".\/mid_thumbs\/87\/obukuro_koshin_jizo.jpg", "small_thumbnail": ".\/small_thumbs\/87\/obukuro_koshin_jizo.jpg", "date": "2020\/07\/11 15:38:15" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 38, "poiid": 87, "path": ".\/images\/87\/obukuro_sanzaru_koshin_damaged.jpg", "author": "Kohei Otsuka", "description": "大袋の青面金剛 (画像破損)", "mid_thumbnail": ".\/mid_thumbs\/87\/obukuro_sanzaru_koshin_damaged.jpg", "small_thumbnail": ".\/small_thumbs\/87\/obukuro_sanzaru_koshin_damaged.jpg", "date": "2020\/07\/11 15:38:15" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 39, "poiid": 88, "path": ".\/images\/88\/obukuro_seimen_kongo_back.jpg", "author": "Kohei Otsuka", "description": "大袋の自然石青面金剛 (背面)", "mid_thumbnail": ".\/mid_thumbs\/88\/obukuro_seimen_kongo_back.jpg", "small_thumbnail": ".\/small_thumbs\/88\/obukuro_seimen_kongo_back.jpg", "date": "2020\/07\/11 15:52:50" }, "geometry": null },
-{ "type": "Feature", "properties": { "fid": 40, "poiid": 112, "path": ".\/images\/112\/obayashi_bato_kameda.jpg", "author": "Kohei Otsuka", "description": "上赤生田大林 亀田家の馬頭観世音", "mid_thumbnail": ".\/mid_thumbs\/112\/obayashi_bato_kameda.jpg", "small_thumbnail": ".\/small_thumbs\/112\/obayashi_bato_kameda.jpg", "date": "2020\/03\/21 15:40:09" }, "geometry": null }
-]
+  "type": "FeatureCollection",
+  "name": "files",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 22,
+        "poiid": 38,
+        "path": "./images/38/obukuro_jizo.jpg",
+        "author": "Kohei Otsuka",
+        "description": "大袋の地蔵菩薩",
+        "mid_thumbnail": "./mid_thumbs/38/obukuro_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/38/obukuro_jizo.jpg",
+        "date": "2020/07/11 15:33:48"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 23,
+        "poiid": 38,
+        "path": "./images/38/obukuro_jizo_back.jpg",
+        "author": "Kohei Otsuka",
+        "description": "大袋の地蔵菩薩 背面",
+        "mid_thumbnail": "./mid_thumbs/38/obukuro_jizo_back.jpg",
+        "small_thumbnail": "./small_thumbs/38/obukuro_jizo_back.jpg",
+        "date": "2020/07/11 15:34:24"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 24,
+        "poiid": 38,
+        "path": "./images/38/obukuro_koshin_jizo.jpg",
+        "author": "Kohei Otsuka",
+        "description": "大袋の地蔵菩薩と青面金剛",
+        "mid_thumbnail": "./mid_thumbs/38/obukuro_koshin_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/38/obukuro_koshin_jizo.jpg",
+        "date": "2020/07/11 15:38:15"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 25,
+        "poiid": 60,
+        "path": "./images/60/obayashi_koshin_2018.jpg",
+        "author": "Kohei Otsuka",
+        "description": "大林の庚申",
+        "mid_thumbnail": "./mid_thumbs/60/obayashi_koshin_2018.jpg",
+        "small_thumbnail": "./small_thumbs/60/obayashi_koshin_2018.jpg",
+        "date": "2018/09/24 14:50:22"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 26,
+        "poiid": 60,
+        "path": "./images/60/obayashi_koshin_2019.jpg",
+        "author": "Kohei Otsuka",
+        "description": "大林の庚申",
+        "mid_thumbnail": "./mid_thumbs/60/obayashi_koshin_2019.jpg",
+        "small_thumbnail": "./small_thumbs/60/obayashi_koshin_2019.jpg",
+        "date": "2019/11/03 15:55:59"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 27,
+        "poiid": 67,
+        "path": "./images/67/nakajima_seimenkongo.jpg",
+        "author": "Kohei Otsuka",
+        "description": "中島の青面金剛",
+        "mid_thumbnail": "./mid_thumbs/67/nakajima_seimenkongo.jpg",
+        "small_thumbnail": "./small_thumbs/67/nakajima_seimenkongo.jpg",
+        "date": "2018/09/24 15:24:57"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 28,
+        "poiid": 82,
+        "path": "./images/82/sakamura_sarutahiko.jpg",
+        "author": "Kohei Otsuka",
+        "description": "坂村家の猿田彦大神 (遠景)",
+        "mid_thumbnail": "./mid_thumbs/82/sakamura_sarutahiko.jpg",
+        "small_thumbnail": "./small_thumbs/82/sakamura_sarutahiko.jpg",
+        "date": "2020/07/11 16:02:59"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 29,
+        "poiid": 82,
+        "path": "./images/82/sakamura_sarutahiko_zoom.jpg",
+        "author": "Kohei Otsuka",
+        "description": "坂村家の猿田彦大神",
+        "mid_thumbnail": "./mid_thumbs/82/sakamura_sarutahiko_zoom.jpg",
+        "small_thumbnail": "./small_thumbs/82/sakamura_sarutahiko_zoom.jpg",
+        "date": "2020/07/11 16:02:34"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 30,
+        "poiid": 83,
+        "path": "./images/83/tamura_sarutahiko.jpg",
+        "author": "Kohei Otsuka",
+        "description": "田村家の猿田彦大神 (遠景)",
+        "mid_thumbnail": "./mid_thumbs/83/tamura_sarutahiko.jpg",
+        "small_thumbnail": "./small_thumbs/83/tamura_sarutahiko.jpg",
+        "date": "2020/07/11 16:05:02"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 31,
+        "poiid": 83,
+        "path": "./images/83/tamura_sarutahiko_side.jpg",
+        "author": "Kohei Otsuka",
+        "description": "田村家の猿田彦大神 (側面)",
+        "mid_thumbnail": "./mid_thumbs/83/tamura_sarutahiko_side.jpg",
+        "small_thumbnail": "./small_thumbs/83/tamura_sarutahiko_side.jpg",
+        "date": "2020/07/11 16:04:55"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 32,
+        "poiid": 83,
+        "path": "./images/83/tamura_sarutahiko_zoom.jpg",
+        "author": "Kohei Otsuka",
+        "description": "田村家の猿田彦大神",
+        "mid_thumbnail": "./mid_thumbs/83/tamura_sarutahiko_zoom.jpg",
+        "small_thumbnail": "./small_thumbs/83/tamura_sarutahiko_zoom.jpg",
+        "date": "2020/07/11 16:04:37"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 33,
+        "poiid": 84,
+        "path": "./images/84/kano_satahiko_bato.jpg",
+        "author": "Kohei Otsuka",
+        "description": "狩野家の佐田彦大神 馬頭観世音",
+        "mid_thumbnail": "./mid_thumbs/84/kano_satahiko_bato.jpg",
+        "small_thumbnail": "./small_thumbs/84/kano_satahiko_bato.jpg",
+        "date": "2020/07/11 16:17:29"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 34,
+        "poiid": 84,
+        "path": "./images/84/kano_satahiko_zoom.jpg",
+        "author": "Kohei Otsuka",
+        "description": "狩野家の佐田彦大神",
+        "mid_thumbnail": "./mid_thumbs/84/kano_satahiko_zoom.jpg",
+        "small_thumbnail": "./small_thumbs/84/kano_satahiko_zoom.jpg",
+        "date": "2020/07/11 16:17:18"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 35,
+        "poiid": 85,
+        "path": "./images/85/mogi_koshin.jpg",
+        "author": "Kohei Otsuka",
+        "description": "茂木家の庚申 (遠景)",
+        "mid_thumbnail": "./mid_thumbs/85/mogi_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/85/mogi_koshin.jpg",
+        "date": "2020/07/11 16:13:18"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 36,
+        "poiid": 85,
+        "path": "./images/85/mogi_koshin_zoom.jpg",
+        "author": "Kohei Otsuka",
+        "description": "茂木家の庚申",
+        "mid_thumbnail": "./mid_thumbs/85/mogi_koshin_zoom.jpg",
+        "small_thumbnail": "./small_thumbs/85/mogi_koshin_zoom.jpg",
+        "date": "2020/07/11 16:13:12"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 37,
+        "poiid": 87,
+        "path": "./images/87/obukuro_koshin_jizo.jpg",
+        "author": "Kohei Otsuka",
+        "description": "大袋の地蔵菩薩と青面金剛",
+        "mid_thumbnail": "./mid_thumbs/87/obukuro_koshin_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/87/obukuro_koshin_jizo.jpg",
+        "date": "2020/07/11 15:38:15"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 38,
+        "poiid": 87,
+        "path": "./images/87/obukuro_sanzaru_koshin_damaged.jpg",
+        "author": "Kohei Otsuka",
+        "description": "大袋の青面金剛 (画像破損)",
+        "mid_thumbnail": "./mid_thumbs/87/obukuro_sanzaru_koshin_damaged.jpg",
+        "small_thumbnail": "./small_thumbs/87/obukuro_sanzaru_koshin_damaged.jpg",
+        "date": "2020/07/11 15:38:15"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 39,
+        "poiid": 88,
+        "path": "./images/88/obukuro_seimen_kongo_back.jpg",
+        "author": "Kohei Otsuka",
+        "description": "大袋の自然石青面金剛 (背面)",
+        "mid_thumbnail": "./mid_thumbs/88/obukuro_seimen_kongo_back.jpg",
+        "small_thumbnail": "./small_thumbs/88/obukuro_seimen_kongo_back.jpg",
+        "date": "2020/07/11 15:52:50"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 40,
+        "poiid": 112,
+        "path": "./images/112/obayashi_bato_kameda.jpg",
+        "author": "Kohei Otsuka",
+        "description": "上赤生田大林 亀田家の馬頭観世音",
+        "mid_thumbnail": "./mid_thumbs/112/obayashi_bato_kameda.jpg",
+        "small_thumbnail": "./small_thumbs/112/obayashi_bato_kameda.jpg",
+        "date": "2020/03/21 15:40:09"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 41,
+        "poiid": 33,
+        "path": "./images/33/fusaiji_jizo_kuriharashi.jpg",
+        "author": "Kohei Otsuka",
+        "description": "普済寺の地蔵、宝暦十四年",
+        "mid_thumbnail": "./mid_thumbs/33/fusaiji_jizo_kuriharashi.jpg",
+        "small_thumbnail": "./small_thumbs/33/fusaiji_jizo_kuriharashi.jpg",
+        "date": "2020/08/22 13:44:00"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 42,
+        "poiid": 33,
+        "path": "./images/33/fusaiji_jizo_kuriharashi_up.jpg",
+        "author": "Kohei Otsuka",
+        "description": "普済寺の地蔵、宝暦十四年 栗原氏の刻銘",
+        "mid_thumbnail": "./mid_thumbs/33/fusaiji_jizo_kuriharashi_up.jpg",
+        "small_thumbnail": "./small_thumbs/33/fusaiji_jizo_kuriharashi_up.jpg",
+        "date": "2020/08/22 13:38:48"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 43,
+        "poiid": 134,
+        "path": "./images/134/fusaiji_19ya.jpg",
+        "author": "Kohei Otsuka",
+        "description": "普済寺 昭和の十九夜",
+        "mid_thumbnail": "./mid_thumbs/134/fusaiji_19ya.jpg",
+        "small_thumbnail": "./small_thumbs/134/fusaiji_19ya.jpg",
+        "date": "2020/08/22 13:31:42"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 44,
+        "poiid": 136,
+        "description": "普済寺 如意輪観音?",
+        "path": "./images/136/fusaiji_nyoirin.jpg",
+        "date": "2020/08/22 14:06:30",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/136/fusaiji_nyoirin.jpg",
+        "small_thumbnail": "./small_thumbs/136/fusaiji_nyoirin.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 45,
+        "poiid": 136,
+        "description": "普済寺 如意輪観音? 背後",
+        "path": "./images/136/fusaiji_nyoirin_back.jpg",
+        "date": "2020/08/22 14:06:44",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/136/fusaiji_nyoirin_back.jpg",
+        "small_thumbnail": "./small_thumbs/136/fusaiji_nyoirin_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 46,
+        "poiid": 136,
+        "description": "普済寺 如意輪観音? 台座拡大",
+        "path": "./images/136/fusaiji_nyoirin_base.jpg",
+        "date": "2020/08/22 14:06:34",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/136/fusaiji_nyoirin_base.jpg",
+        "small_thumbnail": "./small_thumbs/136/fusaiji_nyoirin_base.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 47,
+        "poiid": 31,
+        "description": "普済寺 赤生田地域最古の地蔵",
+        "path": "./images/31/fusaiji_oldest_jizo.jpg",
+        "date": "2020/08/22 14:01:35",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/31/fusaiji_oldest_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/31/fusaiji_oldest_jizo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 48,
+        "poiid": 31,
+        "description": "普済寺 赤生田地域最古の地蔵 背後",
+        "path": "./images/31/fusaiji_oldest_jizo_back.jpg",
+        "date": "2020/08/22 14:01:45",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/31/fusaiji_oldest_jizo_back.jpg",
+        "small_thumbnail": "./small_thumbs/31/fusaiji_oldest_jizo_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 49,
+        "poiid": 32,
+        "description": "普済寺 寛延期 地蔵",
+        "path": "./images/32/fusaiji_kanen_jizo.jpg",
+        "date": "2020/08/22 14:02:48",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 50,
+        "poiid": 32,
+        "description": "普済寺 寛延期 地蔵 背後",
+        "path": "./images/32/fusaiji_kanen_jizo_back.jpg",
+        "date": "2020/08/22 14:03:00",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo_back.jpg",
+        "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 51,
+        "poiid": 32,
+        "description": "普済寺 寛延期 地蔵 台座拡大",
+        "path": "./images/32/fusaiji_kanen_jizo_base.jpg",
+        "date": "2020/08/22 14:05:23",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo_base.jpg",
+        "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo_base.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 52,
+        "poiid": 32,
+        "description": "普済寺 寛延期 地蔵 台座左側",
+        "path": "./images/32/fusaiji_kanen_jizo_base_left.jpg",
+        "date": "2020/08/22 14:05:05",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo_base_left.jpg",
+        "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo_base_left.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 53,
+        "poiid": 32,
+        "description": "普済寺 寛延期 地蔵 台座右側",
+        "path": "./images/32/fusaiji_kanen_jizo_base_right.jpg",
+        "date": "2020/08/22 14:05:13",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo_base_right.jpg",
+        "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo_base_right.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 54,
+        "poiid": 33,
+        "description": "普済寺の地蔵、宝暦十四年 横面から",
+        "path": "./images/33/fusaiji_jizo_kuriharashi_side.jpg",
+        "date": "2020/08/22 13:39:06",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/33/fusaiji_jizo_kuriharashi_side.jpg",
+        "small_thumbnail": "./small_thumbs/33/fusaiji_jizo_kuriharashi_side.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 55,
+        "poiid": 134,
+        "description": "普済寺 昭和の十九夜 台座",
+        "path": "./images/134/fusaiji_19ya_base.jpg",
+        "date": "2020/08/22 13:32:16",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/134/fusaiji_19ya_base.jpg",
+        "small_thumbnail": "./small_thumbs/134/fusaiji_19ya_base.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 56,
+        "poiid": 34,
+        "description": "普済寺 天明期 地蔵",
+        "path": "./images/34/fusaiji_tenmei_jizo.jpg",
+        "date": "2020/08/22 14:05:32",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/34/fusaiji_tenmei_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/34/fusaiji_tenmei_jizo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 57,
+        "poiid": 34,
+        "description": "普済寺 天明期 地蔵 背後",
+        "path": "./images/34/fusaiji_tenmei_jizo_back.jpg",
+        "date": "2020/08/22 14:05:48",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/34/fusaiji_tenmei_jizo_back.jpg",
+        "small_thumbnail": "./small_thumbs/34/fusaiji_tenmei_jizo_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 58,
+        "poiid": 34,
+        "description": "普済寺 天明期 地蔵 台座拡大",
+        "path": "./images/34/fusaiji_tenmei_jizo_base.jpg",
+        "date": "2020/08/22 14:05:37",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/34/fusaiji_tenmei_jizo_base.jpg",
+        "small_thumbnail": "./small_thumbs/34/fusaiji_tenmei_jizo_base.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 59,
+        "poiid": 35,
+        "description": "普済寺 三界万霊塔上の地蔵",
+        "path": "./images/35/fusaiji_jizo_sankaibanrei.jpg",
+        "date": "2020/08/22 13:42:19",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/35/fusaiji_jizo_sankaibanrei.jpg",
+        "small_thumbnail": "./small_thumbs/35/fusaiji_jizo_sankaibanrei.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 60,
+        "poiid": 137,
+        "description": "上志柄 猿田彦大神",
+        "path": "./images/137/kamishigara_sarutahiko.jpg",
+        "date": "2020/08/22 14:47:28",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/137/kamishigara_sarutahiko.jpg",
+        "small_thumbnail": "./small_thumbs/137/kamishigara_sarutahiko.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 61,
+        "poiid": 137,
+        "description": "上志柄 猿田彦大神 背面",
+        "path": "./images/137/kamishigara_sarutahiko_back.jpg",
+        "date": "2020/08/22 14:51:09",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/137/kamishigara_sarutahiko_back.jpg",
+        "small_thumbnail": "./small_thumbs/137/kamishigara_sarutahiko_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 62,
+        "poiid": 138,
+        "description": "弘化3年 上宿天満宮脇の地蔵",
+        "path": "./images/138/koka3_jizo.jpg",
+        "date": "2020/08/22 16:36:23",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/138/koka3_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/138/koka3_jizo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 63,
+        "poiid": 138,
+        "description": "弘化3年 上宿天満宮脇の地蔵 左側",
+        "path": "./images/138/koka3_jizo_left.jpg",
+        "date": "2020/08/22 16:37:25",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/138/koka3_jizo_left.jpg",
+        "small_thumbnail": "./small_thumbs/138/koka3_jizo_left.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 64,
+        "poiid": 138,
+        "description": "弘化3年 上宿天満宮脇の地蔵 右側",
+        "path": "./images/138/koka3_jizo_right.jpg",
+        "date": "2020/08/22 16:36:59",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/138/koka3_jizo_right.jpg",
+        "small_thumbnail": "./small_thumbs/138/koka3_jizo_right.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 65,
+        "poiid": 139,
+        "description": "貞享2年 上志柄上宿天満宮脇の青面金剛",
+        "path": "./images/139/jokyo2_seimen.jpg",
+        "date": "2020/08/22 16:37:52",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/139/jokyo2_seimen.jpg",
+        "small_thumbnail": "./small_thumbs/139/jokyo2_seimen.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 66,
+        "poiid": 139,
+        "description": "貞享2年 上志柄上宿天満宮脇の青面金剛 背面",
+        "path": "./images/139/jokyo2_seimen_back.jpg",
+        "date": "2020/08/22 16:38:28",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/139/jokyo2_seimen_back.jpg",
+        "small_thumbnail": "./small_thumbs/139/jokyo2_seimen_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 67,
+        "poiid": 139,
+        "description": "貞享2年 上志柄上宿天満宮脇の青面金剛 左の刻銘",
+        "path": "./images/139/jokyo2_seimen_lefttop.jpg",
+        "date": "2020/08/22 16:38:15",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/139/jokyo2_seimen_lefttop.jpg",
+        "small_thumbnail": "./small_thumbs/139/jokyo2_seimen_lefttop.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 68,
+        "poiid": 139,
+        "description": "貞享2年 上志柄上宿天満宮脇の青面金剛 右の刻銘",
+        "path": "./images/139/jokyo2_seimen_righttop.jpg",
+        "date": "2020/08/22 16:38:06",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/139/jokyo2_seimen_righttop.jpg",
+        "small_thumbnail": "./small_thumbs/139/jokyo2_seimen_righttop.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 69,
+        "poiid": 81,
+        "description": "山田 富士塚の青面金剛",
+        "path": "./images/81/yamada_fujiyama_seimen.jpg",
+        "date": "2020/08/22 17:04:32",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/81/yamada_fujiyama_seimen.jpg",
+        "small_thumbnail": "./small_thumbs/81/yamada_fujiyama_seimen.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 70,
+        "poiid": 81,
+        "description": "山田 富士塚の青面金剛 左側",
+        "path": "./images/81/yamada_fujiyama_seimen_left.jpg",
+        "date": "2020/08/22 17:04:42",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/81/yamada_fujiyama_seimen_left.jpg",
+        "small_thumbnail": "./small_thumbs/81/yamada_fujiyama_seimen_left.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 71,
+        "poiid": 81,
+        "description": "山田 富士塚の青面金剛 右側",
+        "path": "./images/81/yamada_fujiyama_seimen_right.jpg",
+        "date": "2020/08/22 17:04:57",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/81/yamada_fujiyama_seimen_right.jpg",
+        "small_thumbnail": "./small_thumbs/81/yamada_fujiyama_seimen_right.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 72,
+        "poiid": 29,
+        "description": "山田 山神社の地蔵",
+        "path": "./images/29/yamajinja_jizo.jpg",
+        "date": "2020/08/22 17:08:48",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/29/yamajinja_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/29/yamajinja_jizo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 73,
+        "poiid": 29,
+        "description": "山田 山神社の地蔵 背面",
+        "path": "./images/29/yamajinja_jizo_back.jpg",
+        "date": "2020/08/22 17:09:39",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/29/yamajinja_jizo_back.jpg",
+        "small_thumbnail": "./small_thumbs/29/yamajinja_jizo_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 74,
+        "poiid": 29,
+        "path": "./images/29/yamajinja_jizo_lefttop.jpg",
+        "date": "2020/08/22 17:09:24",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/29/yamajinja_jizo_lefttop.jpg",
+        "small_thumbnail": "./small_thumbs/29/yamajinja_jizo_lefttop.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 75,
+        "poiid": 29,
+        "description": "山田 山神社の地蔵 右上の刻銘",
+        "path": "./images/29/yamajinja_jizo_righttop.jpg",
+        "date": "2020/08/22 17:09:27",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/29/yamajinja_jizo_righttop.jpg",
+        "small_thumbnail": "./small_thumbs/29/yamajinja_jizo_righttop.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 76,
+        "poiid": 140,
+        "description": "富士山 坂村家の馬頭観世音",
+        "path": "./images/140/fujiyama_sakamura_bato.jpg",
+        "date": "2020/09/20 13:28:19",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/140/fujiyama_sakamura_bato.jpg",
+        "small_thumbnail": "./small_thumbs/140/fujiyama_sakamura_bato.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 77,
+        "poiid": 36,
+        "description": "富士嶽神社の首なし地蔵",
+        "path": "./images/36/fujitake_jinja_jizo_nohead1.jpg",
+        "date": "2020/09/20 13:38:48",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/36/fujitake_jinja_jizo_nohead1.jpg",
+        "small_thumbnail": "./small_thumbs/36/fujitake_jinja_jizo_nohead1.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 78,
+        "poiid": 36,
+        "description": "富士嶽神社の首なし地蔵",
+        "path": "./images/36/fujitake_jinja_jizo_nohead2.jpg",
+        "date": "2020/09/20 13:38:44",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/36/fujitake_jinja_jizo_nohead2.jpg",
+        "small_thumbnail": "./small_thumbs/36/fujitake_jinja_jizo_nohead2.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 79,
+        "poiid": 141,
+        "description": "富士嶽神社 十九夜",
+        "path": "./images/141/fujitake_19ya.jpg",
+        "date": "2020/09/20 13:39:18",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/141/fujitake_19ya.jpg",
+        "small_thumbnail": "./small_thumbs/141/fujitake_19ya.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 80,
+        "poiid": 141,
+        "description": "富士嶽神社 十九夜 台座左側",
+        "path": "./images/141/fujitake_19ya_base_left.jpg",
+        "date": "2020/09/20 13:39:29",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/141/fujitake_19ya_base_left.jpg",
+        "small_thumbnail": "./small_thumbs/141/fujitake_19ya_base_left.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 81,
+        "poiid": 141,
+        "description": "富士嶽神社 十九夜 台座右側",
+        "path": "./images/141/fujitake_19ya_base_right.jpg",
+        "date": "2020/09/20 13:39:36",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/141/fujitake_19ya_base_right.jpg",
+        "small_thumbnail": "./small_thumbs/141/fujitake_19ya_base_right.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 82,
+        "poiid": 142,
+        "description": "富士嶽神社 馬頭観世音",
+        "path": "./images/142/fujitake_bato.jpg",
+        "date": "2020/09/20 13:37:17",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/142/fujitake_bato.jpg",
+        "small_thumbnail": "./small_thumbs/142/fujitake_bato.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 83,
+        "poiid": 142,
+        "description": "富士嶽神社 馬頭観世音 側面",
+        "path": "./images/142/fujitake_bato_side.jpg",
+        "date": "2020/09/20 13:38:27",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/142/fujitake_bato_side.jpg",
+        "small_thumbnail": "./small_thumbs/142/fujitake_bato_side.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 84,
+        "poiid": 143,
+        "description": "富士嶽神社 二十三夜",
+        "path": "./images/143/fujitake_23ya.jpg",
+        "date": "2018/08/04 14:09:03",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/143/fujitake_23ya.jpg",
+        "small_thumbnail": "./small_thumbs/143/fujitake_23ya.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 85,
+        "poiid": 92,
+        "description": "他宗場の三角柱庚申",
+        "path": "./images/92/tachiba_tricolumn_koshin.jpg",
+        "date": "2020/09/20 13:48:54",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/92/tachiba_tricolumn_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/92/tachiba_tricolumn_koshin.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 86,
+        "poiid": 92,
+        "description": "他宗場の三角柱庚申 側面",
+        "path": "./images/92/tachiba_tricolumn_koshin_side.jpg",
+        "date": "2020/09/20 13:49:12",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/92/tachiba_tricolumn_koshin_side.jpg",
+        "small_thumbnail": "./small_thumbs/92/tachiba_tricolumn_koshin_side.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 87,
+        "poiid": 93,
+        "description": "他宗場の剣型庚申",
+        "path": "./images/93/tachiba_sword_koshin.jpg",
+        "date": "2020/09/20 13:52:52",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/93/tachiba_sword_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/93/tachiba_sword_koshin.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 88,
+        "poiid": 93,
+        "description": "他宗場の剣型庚申 側面",
+        "path": "./images/93/tachiba_sword_koshin_side.jpg",
+        "date": "2020/09/20 13:53:13",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/93/tachiba_sword_koshin_side.jpg",
+        "small_thumbnail": "./small_thumbs/93/tachiba_sword_koshin_side.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 89,
+        "poiid": 90,
+        "description": "他宗場の三角形庚申",
+        "path": "./images/90/tachiba_triangle_koshin.jpg",
+        "date": "2020/09/20 14:03:17",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/90/tachiba_triangle_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/90/tachiba_triangle_koshin.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 90,
+        "poiid": 91,
+        "description": "他宗場 柱型庚申",
+        "path": "./images/91/tachiba_pillar_koshin.jpg",
+        "date": "2020/09/20 14:03:20",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/91/tachiba_pillar_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/91/tachiba_pillar_koshin.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 91,
+        "poiid": 144,
+        "description": "他宗場 出羽三山供養塔",
+        "path": "./images/144/tachiba_dewa3zan.jpg",
+        "date": "2020/09/20 14:06:45",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/144/tachiba_dewa3zan.jpg",
+        "small_thumbnail": "./small_thumbs/144/tachiba_dewa3zan.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 92,
+        "poiid": 144,
+        "description": "他宗場 出羽三山供養塔",
+        "path": "./images/144/tachiba_dewa3zan_back.jpg",
+        "date": "2020/09/20 14:07:15",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/144/tachiba_dewa3zan_back.jpg",
+        "small_thumbnail": "./small_thumbs/144/tachiba_dewa3zan_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 93,
+        "poiid": 145,
+        "description": "他宗場 湯殿山供養塔",
+        "path": "./images/145/tachiba_yudonoyama.jpg",
+        "date": "2020/09/20 14:07:06",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/145/tachiba_yudonoyama.jpg",
+        "small_thumbnail": "./small_thumbs/145/tachiba_yudonoyama.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 94,
+        "poiid": 145,
+        "description": "他宗場 湯殿山供養塔 背後",
+        "path": "./images/145/tachiba_yudonoyama_back.jpg",
+        "date": "2020/09/20 14:07:18",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/145/tachiba_yudonoyama_back.jpg",
+        "small_thumbnail": "./small_thumbs/145/tachiba_yudonoyama_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 95,
+        "poiid": 146,
+        "description": "他宗場 不動明王の名号",
+        "path": "./images/146/tachiba_fudo_myogo.jpg",
+        "date": "2020/09/20 14:09:02",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/146/tachiba_fudo_myogo.jpg",
+        "small_thumbnail": "./small_thumbs/146/tachiba_fudo_myogo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 96,
+        "poiid": 146,
+        "description": "他宗場 不動明王の名号 背面",
+        "path": "./images/146/tachiba_fudo_myogo_back.jpg",
+        "date": "2020/09/20 14:12:02",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/146/tachiba_fudo_myogo_back.jpg",
+        "small_thumbnail": "./small_thumbs/146/tachiba_fudo_myogo_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 97,
+        "poiid": 45,
+        "description": "他宗場 正徳5年地蔵",
+        "path": "./images/45/tachiba_shotoku5_jizo.jpg",
+        "date": "2020/09/20 14:11:16",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/45/tachiba_shotoku5_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/45/tachiba_shotoku5_jizo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 98,
+        "poiid": 45,
+        "description": "他宗場 正徳5年地蔵 背面",
+        "path": "./images/45/tachiba_shotoku5_jizo_back.jpg",
+        "date": "2020/09/20 14:12:08",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/45/tachiba_shotoku5_jizo_back.jpg",
+        "small_thumbnail": "./small_thumbs/45/tachiba_shotoku5_jizo_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 99,
+        "poiid": 44,
+        "description": "他宗場 正徳4年地蔵",
+        "path": "./images/44/tachiba_shotoku4_jizo.jpg",
+        "date": "2020/09/20 14:11:22",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/44/tachiba_shotoku4_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/44/tachiba_shotoku4_jizo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 100,
+        "poiid": 44,
+        "description": "他宗場 正徳4年地蔵 背面",
+        "path": "./images/44/tachiba_shotoku4_jizo_back.jpg",
+        "date": "2020/09/20 14:12:12",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/44/tachiba_shotoku4_jizo_back.jpg",
+        "small_thumbnail": "./small_thumbs/44/tachiba_shotoku4_jizo_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 101,
+        "poiid": 147,
+        "description": "他宗場 如意輪観音名号",
+        "path": "./images/147/tachiba_nyoirin_myogo.jpg",
+        "date": "2020/09/20 14:11:28",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/147/tachiba_nyoirin_myogo.jpg",
+        "small_thumbnail": "./small_thumbs/147/tachiba_nyoirin_myogo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 102,
+        "poiid": 147,
+        "description": "他宗場 如意輪観音名号 背面",
+        "path": "./images/147/tachiba_nyoirin_myogo_back.jpg",
+        "date": "2020/09/20 14:12:16",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/147/tachiba_nyoirin_myogo_back.jpg",
+        "small_thumbnail": "./small_thumbs/147/tachiba_nyoirin_myogo_back.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 103,
+        "poiid": 147,
+        "description": "他宗場 如意輪観音名号 台座右方",
+        "path": "./images/147/tachiba_nyoirin_myogo_base_left.jpg",
+        "date": "2020/09/20 14:12:37",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/147/tachiba_nyoirin_myogo_base_left.jpg",
+        "small_thumbnail": "./small_thumbs/147/tachiba_nyoirin_myogo_base_left.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 104,
+        "poiid": 147,
+        "description": "他宗場 如意輪観音名号 台座左方",
+        "path": "./images/147/tachiba_nyoirin_myogo_base_right.jpg",
+        "date": "2020/09/20 14:12:51",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/147/tachiba_nyoirin_myogo_base_right.jpg",
+        "small_thumbnail": "./small_thumbs/147/tachiba_nyoirin_myogo_base_right.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 105,
+        "poiid": 46,
+        "description": "他宗場 子抱き地蔵",
+        "path": "./images/46/tachiba_baby_jizo.jpg",
+        "date": "2020/09/20 14:20:31",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/46/tachiba_baby_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/46/tachiba_baby_jizo.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 106,
+        "poiid": 46,
+        "description": "他宗場 子抱き地蔵 左方",
+        "path": "./images/46/tachiba_baby_jizo_left.jpg",
+        "date": "2020/09/20 14:20:47",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/46/tachiba_baby_jizo_left.jpg",
+        "small_thumbnail": "./small_thumbs/46/tachiba_baby_jizo_left.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 107,
+        "poiid": 46,
+        "description": "他宗場 子抱き地蔵 右方",
+        "path": "./images/46/tachiba_baby_jizo_right.jpg",
+        "date": "2020/09/20 14:20:39",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/46/tachiba_baby_jizo_right.jpg",
+        "small_thumbnail": "./small_thumbs/46/tachiba_baby_jizo_right.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 108,
+        "poiid": 148,
+        "description": "他宗場 寛政7年地蔵",
+        "path": "./images/148/tachiba_kansei7_jizo.jpg",
+        "date": "2020/09/20 14:20:59",
+        "author": "Kohei Otsuka",
+        "mid_thumbnail": "./mid_thumbs/148/tachiba_kansei7_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/148/tachiba_kansei7_jizo.jpg"
+      },
+      "geometry": null
+    }
+  ]
 }

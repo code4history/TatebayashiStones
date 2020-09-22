@@ -573,8 +573,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56446448435085,
-          36.23381177398952
+          139.56445842904614,
+          36.23381335936488
         ]
       }
     },
@@ -1087,7 +1087,7 @@
         "table_id": 18,
         "book_id": 2,
         "book_page": 9,
-        "confirmed": null,
+        "confirmed": "2020/08/22",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1097,16 +1097,56 @@
         "width": 46,
         "depth": 20,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 72,
+            "poiid": 29,
+            "description": "山田 山神社の地蔵",
+            "path": "./images/29/yamajinja_jizo.jpg",
+            "date": "2020/08/22 17:08:48",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/29/yamajinja_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/29/yamajinja_jizo.jpg"
+          },
+          {
+            "fid": 73,
+            "poiid": 29,
+            "description": "山田 山神社の地蔵 背面",
+            "path": "./images/29/yamajinja_jizo_back.jpg",
+            "date": "2020/08/22 17:09:39",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/29/yamajinja_jizo_back.jpg",
+            "small_thumbnail": "./small_thumbs/29/yamajinja_jizo_back.jpg"
+          },
+          {
+            "fid": 74,
+            "poiid": 29,
+            "path": "./images/29/yamajinja_jizo_lefttop.jpg",
+            "date": "2020/08/22 17:09:24",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/29/yamajinja_jizo_lefttop.jpg",
+            "small_thumbnail": "./small_thumbs/29/yamajinja_jizo_lefttop.jpg"
+          },
+          {
+            "fid": 75,
+            "poiid": 29,
+            "description": "山田 山神社の地蔵 右上の刻銘",
+            "path": "./images/29/yamajinja_jizo_righttop.jpg",
+            "date": "2020/08/22 17:09:27",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/29/yamajinja_jizo_righttop.jpg",
+            "small_thumbnail": "./small_thumbs/29/yamajinja_jizo_righttop.jpg"
+          }
+        ],
+        "path": "./images/29/yamajinja_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/29/yamajinja_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/29/yamajinja_jizo.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5670603163743,
-          36.229182938310345
+          139.566867110414,
+          36.22915021456501
         ]
       }
     },
@@ -1163,7 +1203,7 @@
         "table_id": 1,
         "book_id": 2,
         "book_page": 10,
-        "confirmed": null,
+        "confirmed": "2020/08/22",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1173,16 +1213,37 @@
         "width": 50.5,
         "depth": 38,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 47,
+            "poiid": 31,
+            "description": "普済寺 赤生田地域最古の地蔵",
+            "path": "./images/31/fusaiji_oldest_jizo.jpg",
+            "date": "2020/08/22 14:01:35",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/31/fusaiji_oldest_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/31/fusaiji_oldest_jizo.jpg"
+          },
+          {
+            "fid": 48,
+            "poiid": 31,
+            "description": "普済寺 赤生田地域最古の地蔵 背後",
+            "path": "./images/31/fusaiji_oldest_jizo_back.jpg",
+            "date": "2020/08/22 14:01:45",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/31/fusaiji_oldest_jizo_back.jpg",
+            "small_thumbnail": "./small_thumbs/31/fusaiji_oldest_jizo_back.jpg"
+          }
+        ],
+        "path": "./images/31/fusaiji_oldest_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/31/fusaiji_oldest_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/31/fusaiji_oldest_jizo.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.55054458453017,
-          36.23448966944302
+          139.55073918964933,
+          36.234438471670025
         ]
       }
     },
@@ -1201,7 +1262,7 @@
         "table_id": 21,
         "book_id": 2,
         "book_page": 11,
-        "confirmed": null,
+        "confirmed": "2020/08/22",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1211,16 +1272,67 @@
         "width": 26.5,
         "depth": 18,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 49,
+            "poiid": 32,
+            "description": "普済寺 寛延期 地蔵",
+            "path": "./images/32/fusaiji_kanen_jizo.jpg",
+            "date": "2020/08/22 14:02:48",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo.jpg"
+          },
+          {
+            "fid": 50,
+            "poiid": 32,
+            "description": "普済寺 寛延期 地蔵 背後",
+            "path": "./images/32/fusaiji_kanen_jizo_back.jpg",
+            "date": "2020/08/22 14:03:00",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo_back.jpg",
+            "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo_back.jpg"
+          },
+          {
+            "fid": 51,
+            "poiid": 32,
+            "description": "普済寺 寛延期 地蔵 台座拡大",
+            "path": "./images/32/fusaiji_kanen_jizo_base.jpg",
+            "date": "2020/08/22 14:05:23",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo_base.jpg",
+            "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo_base.jpg"
+          },
+          {
+            "fid": 52,
+            "poiid": 32,
+            "description": "普済寺 寛延期 地蔵 台座左側",
+            "path": "./images/32/fusaiji_kanen_jizo_base_left.jpg",
+            "date": "2020/08/22 14:05:05",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo_base_left.jpg",
+            "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo_base_left.jpg"
+          },
+          {
+            "fid": 53,
+            "poiid": 32,
+            "description": "普済寺 寛延期 地蔵 台座右側",
+            "path": "./images/32/fusaiji_kanen_jizo_base_right.jpg",
+            "date": "2020/08/22 14:05:13",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo_base_right.jpg",
+            "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo_base_right.jpg"
+          }
+        ],
+        "path": "./images/32/fusaiji_kanen_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/32/fusaiji_kanen_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/32/fusaiji_kanen_jizo.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.55104873755434,
-          36.23443584781356
+          139.55084982711017,
+          36.2344280599008
         ]
       }
     },
@@ -1239,7 +1351,7 @@
         "table_id": 22,
         "book_id": 2,
         "book_page": 11,
-        "confirmed": null,
+        "confirmed": "2020/08/22",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1249,16 +1361,47 @@
         "width": 38,
         "depth": 24.5,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 41,
+            "poiid": 33,
+            "path": "./images/33/fusaiji_jizo_kuriharashi.jpg",
+            "author": "Kohei Otsuka",
+            "description": "普済寺の地蔵、宝暦十四年",
+            "mid_thumbnail": "./mid_thumbs/33/fusaiji_jizo_kuriharashi.jpg",
+            "small_thumbnail": "./small_thumbs/33/fusaiji_jizo_kuriharashi.jpg",
+            "date": "2020/08/22 13:44:00"
+          },
+          {
+            "fid": 42,
+            "poiid": 33,
+            "path": "./images/33/fusaiji_jizo_kuriharashi_up.jpg",
+            "author": "Kohei Otsuka",
+            "description": "普済寺の地蔵、宝暦十四年 栗原氏の刻銘",
+            "mid_thumbnail": "./mid_thumbs/33/fusaiji_jizo_kuriharashi_up.jpg",
+            "small_thumbnail": "./small_thumbs/33/fusaiji_jizo_kuriharashi_up.jpg",
+            "date": "2020/08/22 13:38:48"
+          },
+          {
+            "fid": 54,
+            "poiid": 33,
+            "description": "普済寺の地蔵、宝暦十四年 横面から",
+            "path": "./images/33/fusaiji_jizo_kuriharashi_side.jpg",
+            "date": "2020/08/22 13:39:06",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/33/fusaiji_jizo_kuriharashi_side.jpg",
+            "small_thumbnail": "./small_thumbs/33/fusaiji_jizo_kuriharashi_side.jpg"
+          }
+        ],
+        "path": "./images/33/fusaiji_jizo_kuriharashi.jpg",
+        "small_thumbnail": "./small_thumbs/33/fusaiji_jizo_kuriharashi.jpg",
+        "mid_thumbnail": "./mid_thumbs/33/fusaiji_jizo_kuriharashi.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5494695523463,
-          36.23427438270285
+          139.54964094766945,
+          36.234369199191725
         ]
       }
     },
@@ -1277,7 +1420,7 @@
         "table_id": 24,
         "book_id": 2,
         "book_page": 11,
-        "confirmed": null,
+        "confirmed": "2020/08/22",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1287,16 +1430,47 @@
         "width": 24,
         "depth": 17,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 56,
+            "poiid": 34,
+            "description": "普済寺 天明期 地蔵",
+            "path": "./images/34/fusaiji_tenmei_jizo.jpg",
+            "date": "2020/08/22 14:05:32",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/34/fusaiji_tenmei_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/34/fusaiji_tenmei_jizo.jpg"
+          },
+          {
+            "fid": 57,
+            "poiid": 34,
+            "description": "普済寺 天明期 地蔵 背後",
+            "path": "./images/34/fusaiji_tenmei_jizo_back.jpg",
+            "date": "2020/08/22 14:05:48",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/34/fusaiji_tenmei_jizo_back.jpg",
+            "small_thumbnail": "./small_thumbs/34/fusaiji_tenmei_jizo_back.jpg"
+          },
+          {
+            "fid": 58,
+            "poiid": 34,
+            "description": "普済寺 天明期 地蔵 台座拡大",
+            "path": "./images/34/fusaiji_tenmei_jizo_base.jpg",
+            "date": "2020/08/22 14:05:37",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/34/fusaiji_tenmei_jizo_base.jpg",
+            "small_thumbnail": "./small_thumbs/34/fusaiji_tenmei_jizo_base.jpg"
+          }
+        ],
+        "path": "./images/34/fusaiji_tenmei_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/34/fusaiji_tenmei_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/34/fusaiji_tenmei_jizo.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5510561515694,
-          36.234597312590815
+          139.55079644397057,
+          36.23443427333976
         ]
       }
     },
@@ -1315,7 +1489,7 @@
         "table_id": 30,
         "book_id": 2,
         "book_page": 11,
-        "confirmed": null,
+        "confirmed": "2020/08/22",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1324,17 +1498,28 @@
         "contradiction": null,
         "width": 27.5,
         "depth": 20,
-        "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "need_action": "三界万霊塔の上にそれらしいものはあるが、対応しているかは不明。",
+        "files": [
+          {
+            "fid": 59,
+            "poiid": 35,
+            "description": "普済寺 三界万霊塔上の地蔵",
+            "path": "./images/35/fusaiji_jizo_sankaibanrei.jpg",
+            "date": "2020/08/22 13:42:19",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/35/fusaiji_jizo_sankaibanrei.jpg",
+            "small_thumbnail": "./small_thumbs/35/fusaiji_jizo_sankaibanrei.jpg"
+          }
+        ],
+        "path": "./images/35/fusaiji_jizo_sankaibanrei.jpg",
+        "small_thumbnail": "./small_thumbs/35/fusaiji_jizo_sankaibanrei.jpg",
+        "mid_thumbnail": "./mid_thumbs/35/fusaiji_jizo_sankaibanrei.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.54972904287345,
-          36.23438202614703
+          139.5496565624843,
+          36.2342936291454
         ]
       }
     },
@@ -1353,7 +1538,7 @@
         "table_id": 3,
         "book_id": 2,
         "book_page": 11,
-        "confirmed": null,
+        "confirmed": "2020/09/20",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1363,16 +1548,37 @@
         "width": 42,
         "depth": 6,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 77,
+            "poiid": 36,
+            "description": "富士嶽神社の首なし地蔵",
+            "path": "./images/36/fujitake_jinja_jizo_nohead1.jpg",
+            "date": "2020/09/20 13:38:48",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/36/fujitake_jinja_jizo_nohead1.jpg",
+            "small_thumbnail": "./small_thumbs/36/fujitake_jinja_jizo_nohead1.jpg"
+          },
+          {
+            "fid": 78,
+            "poiid": 36,
+            "description": "富士嶽神社の首なし地蔵",
+            "path": "./images/36/fujitake_jinja_jizo_nohead2.jpg",
+            "date": "2020/09/20 13:38:44",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/36/fujitake_jinja_jizo_nohead2.jpg",
+            "small_thumbnail": "./small_thumbs/36/fujitake_jinja_jizo_nohead2.jpg"
+          }
+        ],
+        "path": "./images/36/fujitake_jinja_jizo_nohead1.jpg",
+        "small_thumbnail": "./small_thumbs/36/fujitake_jinja_jizo_nohead1.jpg",
+        "mid_thumbnail": "./mid_thumbs/36/fujitake_jinja_jizo_nohead1.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56082782342014,
-          36.235377720980196
+          139.56103629777496,
+          36.235210806724105
         ]
       }
     },
@@ -1688,7 +1894,7 @@
         "table_id": 12,
         "book_id": 2,
         "book_page": 13,
-        "confirmed": null,
+        "confirmed": "2020/09/20",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1698,16 +1904,37 @@
         "width": 36,
         "depth": 29,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 99,
+            "poiid": 44,
+            "description": "他宗場 正徳4年地蔵",
+            "path": "./images/44/tachiba_shotoku4_jizo.jpg",
+            "date": "2020/09/20 14:11:22",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/44/tachiba_shotoku4_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/44/tachiba_shotoku4_jizo.jpg"
+          },
+          {
+            "fid": 100,
+            "poiid": 44,
+            "description": "他宗場 正徳4年地蔵 背面",
+            "path": "./images/44/tachiba_shotoku4_jizo_back.jpg",
+            "date": "2020/09/20 14:12:12",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/44/tachiba_shotoku4_jizo_back.jpg",
+            "small_thumbnail": "./small_thumbs/44/tachiba_shotoku4_jizo_back.jpg"
+          }
+        ],
+        "path": "./images/44/tachiba_shotoku4_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/44/tachiba_shotoku4_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/44/tachiba_shotoku4_jizo.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5644307918136,
-          36.23394671641774
+          139.56448482857087,
+          36.233845645379944
         ]
       }
     },
@@ -1726,7 +1953,7 @@
         "table_id": 13,
         "book_id": 2,
         "book_page": 13,
-        "confirmed": null,
+        "confirmed": "2020/09/20",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1736,16 +1963,37 @@
         "width": 34,
         "depth": 28,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 97,
+            "poiid": 45,
+            "description": "他宗場 正徳5年地蔵",
+            "path": "./images/45/tachiba_shotoku5_jizo.jpg",
+            "date": "2020/09/20 14:11:16",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/45/tachiba_shotoku5_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/45/tachiba_shotoku5_jizo.jpg"
+          },
+          {
+            "fid": 98,
+            "poiid": 45,
+            "description": "他宗場 正徳5年地蔵 背面",
+            "path": "./images/45/tachiba_shotoku5_jizo_back.jpg",
+            "date": "2020/09/20 14:12:08",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/45/tachiba_shotoku5_jizo_back.jpg",
+            "small_thumbnail": "./small_thumbs/45/tachiba_shotoku5_jizo_back.jpg"
+          }
+        ],
+        "path": "./images/45/tachiba_shotoku5_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/45/tachiba_shotoku5_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/45/tachiba_shotoku5_jizo.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56447930031277,
-          36.23391932719616
+          139.56446479441493,
+          36.233856119308356
         ]
       }
     },
@@ -1764,7 +2012,7 @@
         "table_id": 28,
         "book_id": 2,
         "book_page": 13,
-        "confirmed": null,
+        "confirmed": "2020/09/20",
         "map_page": 1,
         "color": null,
         "material": "石像",
@@ -1774,16 +2022,47 @@
         "width": 24,
         "depth": 20.5,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 105,
+            "poiid": 46,
+            "description": "他宗場 子抱き地蔵",
+            "path": "./images/46/tachiba_baby_jizo.jpg",
+            "date": "2020/09/20 14:20:31",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/46/tachiba_baby_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/46/tachiba_baby_jizo.jpg"
+          },
+          {
+            "fid": 106,
+            "poiid": 46,
+            "description": "他宗場 子抱き地蔵 左方",
+            "path": "./images/46/tachiba_baby_jizo_left.jpg",
+            "date": "2020/09/20 14:20:47",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/46/tachiba_baby_jizo_left.jpg",
+            "small_thumbnail": "./small_thumbs/46/tachiba_baby_jizo_left.jpg"
+          },
+          {
+            "fid": 107,
+            "poiid": 46,
+            "description": "他宗場 子抱き地蔵 右方",
+            "path": "./images/46/tachiba_baby_jizo_right.jpg",
+            "date": "2020/09/20 14:20:39",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/46/tachiba_baby_jizo_right.jpg",
+            "small_thumbnail": "./small_thumbs/46/tachiba_baby_jizo_right.jpg"
+          }
+        ],
+        "path": "./images/46/tachiba_baby_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/46/tachiba_baby_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/46/tachiba_baby_jizo.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56439683586416,
-          36.23390171983438
+          139.56459523066957,
+          36.233957086220386
         ]
       }
     },
@@ -2641,7 +2920,7 @@
         "contradiction": null,
         "width": 26,
         "depth": 20,
-        "need_action": null,
+        "need_action": "2020年8月23日調査では、見つからない。向かいの薬屋さんの話では、昔は集会所はここではなく、もう少し西、上志柄天神との間のどこかにあったとのこと。その辺を探したが特に見つからず。",
         "files": [],
         "path": null,
         "small_thumbnail": null,
@@ -2650,8 +2929,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.557633417126,
-          36.23261193251002
+          139.5552670569977,
+          36.2324126482405
         ]
       }
     },
@@ -2679,7 +2958,8 @@
         "contradiction": null,
         "width": 30.5,
         "depth": 30.5,
-        "need_action": null,
+        "need_action": "2020年8月22日調査では、柱型笠の庚申塔はなかったように思われる。三界万霊塔の中にも見当たらないように思えた。",
+        "status": "lost?",
         "files": [],
         "path": null,
         "small_thumbnail": null,
@@ -2793,7 +3073,7 @@
         "contradiction": null,
         "width": 18.5,
         "depth": 15,
-        "need_action": null,
+        "need_action": "2020年8月22日の調査では道の北川しか調査しなかった。道の南側を調査必要。",
         "files": [],
         "path": null,
         "small_thumbnail": null,
@@ -3126,7 +3406,7 @@
         "table_id": 27,
         "book_id": 2,
         "book_page": 27,
-        "confirmed": null,
+        "confirmed": "2020/08/22",
         "map_page": 1,
         "color": null,
         "material": null,
@@ -3136,16 +3416,47 @@
         "width": 36,
         "depth": 23.5,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 69,
+            "poiid": 81,
+            "description": "山田 富士塚の青面金剛",
+            "path": "./images/81/yamada_fujiyama_seimen.jpg",
+            "date": "2020/08/22 17:04:32",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/81/yamada_fujiyama_seimen.jpg",
+            "small_thumbnail": "./small_thumbs/81/yamada_fujiyama_seimen.jpg"
+          },
+          {
+            "fid": 70,
+            "poiid": 81,
+            "description": "山田 富士塚の青面金剛 左側",
+            "path": "./images/81/yamada_fujiyama_seimen_left.jpg",
+            "date": "2020/08/22 17:04:42",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/81/yamada_fujiyama_seimen_left.jpg",
+            "small_thumbnail": "./small_thumbs/81/yamada_fujiyama_seimen_left.jpg"
+          },
+          {
+            "fid": 71,
+            "poiid": 81,
+            "description": "山田 富士塚の青面金剛 右側",
+            "path": "./images/81/yamada_fujiyama_seimen_right.jpg",
+            "date": "2020/08/22 17:04:57",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/81/yamada_fujiyama_seimen_right.jpg",
+            "small_thumbnail": "./small_thumbs/81/yamada_fujiyama_seimen_right.jpg"
+          }
+        ],
+        "path": "./images/81/yamada_fujiyama_seimen.jpg",
+        "small_thumbnail": "./small_thumbs/81/yamada_fujiyama_seimen.jpg",
+        "mid_thumbnail": "./mid_thumbs/81/yamada_fujiyama_seimen.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56655418200663,
-          36.22911897479298
+          139.56661193373216,
+          36.22909886845149
         ]
       }
     },
@@ -3588,13 +3899,13 @@
         "japanese_calendar": "明治42年",
         "shape": "自然石 三角形",
         "inscription": "庚申塔\n明治四十二年一月十一日\n小川角次郎建",
-        "note": "庚申文字 西向き\n他宗場内で場所が不明であったので不動堂向かいに配置",
+        "note": "庚申文字 西向き",
         "place": "他宗場",
         "type": "庚申",
-        "table_id": 41,
+        "table_id": 36,
         "book_id": 2,
         "book_page": 30,
-        "confirmed": null,
+        "confirmed": "2020/09/20",
         "map_page": null,
         "color": null,
         "material": null,
@@ -3604,16 +3915,27 @@
         "width": 47,
         "depth": 20,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 89,
+            "poiid": 90,
+            "description": "他宗場の三角形庚申",
+            "path": "./images/90/tachiba_triangle_koshin.jpg",
+            "date": "2020/09/20 14:03:17",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/90/tachiba_triangle_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/90/tachiba_triangle_koshin.jpg"
+          }
+        ],
+        "path": "./images/90/tachiba_triangle_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/90/tachiba_triangle_koshin.jpg",
+        "mid_thumbnail": "./mid_thumbs/90/tachiba_triangle_koshin.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5643862470384,
-          36.233706457560785
+          139.5633429532037,
+          36.234493683886726
         ]
       }
     },
@@ -3626,13 +3948,13 @@
         "japanese_calendar": "明治19年",
         "shape": "柱型 下半分欠",
         "inscription": "庚申 明治十九年一月 小川",
-        "note": "庚申文字 西向き\n他宗場内で場所が不明であったので不動堂向かいに配置",
+        "note": "庚申文字 西向き",
         "place": "他宗場",
         "type": "庚申",
         "table_id": 39,
         "book_id": 2,
         "book_page": 30,
-        "confirmed": null,
+        "confirmed": "2020/09/20",
         "map_page": null,
         "color": null,
         "material": null,
@@ -3642,16 +3964,27 @@
         "width": 26,
         "depth": 8,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 90,
+            "poiid": 91,
+            "description": "他宗場 柱型庚申",
+            "path": "./images/91/tachiba_pillar_koshin.jpg",
+            "date": "2020/09/20 14:03:20",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/91/tachiba_pillar_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/91/tachiba_pillar_koshin.jpg"
+          }
+        ],
+        "path": "./images/91/tachiba_pillar_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/91/tachiba_pillar_koshin.jpg",
+        "mid_thumbnail": "./mid_thumbs/91/tachiba_pillar_koshin.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5644551778884,
-          36.23367360271249
+          139.56337891404618,
+          36.23444534023655
         ]
       }
     },
@@ -3664,13 +3997,13 @@
         "japanese_calendar": "大正6年",
         "shape": "三角柱型",
         "inscription": "庚申塔 大正六年十一月吉日\n小川丈吉",
-        "note": "庚申文字 東向き\n他宗場内で場所が不明であったので不動堂向かいに配置",
+        "note": "庚申文字 東向き",
         "place": "他宗場",
         "type": "庚申",
         "table_id": 44,
         "book_id": 2,
         "book_page": 30,
-        "confirmed": null,
+        "confirmed": "2020/09/20",
         "map_page": null,
         "color": null,
         "material": null,
@@ -3680,16 +4013,37 @@
         "width": 31,
         "depth": 34,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 85,
+            "poiid": 92,
+            "description": "他宗場の三角柱庚申",
+            "path": "./images/92/tachiba_tricolumn_koshin.jpg",
+            "date": "2020/09/20 13:48:54",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/92/tachiba_tricolumn_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/92/tachiba_tricolumn_koshin.jpg"
+          },
+          {
+            "fid": 86,
+            "poiid": 92,
+            "description": "他宗場の三角柱庚申 側面",
+            "path": "./images/92/tachiba_tricolumn_koshin_side.jpg",
+            "date": "2020/09/20 13:49:12",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/92/tachiba_tricolumn_koshin_side.jpg",
+            "small_thumbnail": "./small_thumbs/92/tachiba_tricolumn_koshin_side.jpg"
+          }
+        ],
+        "path": "./images/92/tachiba_tricolumn_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/92/tachiba_tricolumn_koshin.jpg",
+        "mid_thumbnail": "./mid_thumbs/92/tachiba_tricolumn_koshin.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56434864839295,
-          36.23364580244546
+          139.56341224975634,
+          36.23491632237195
         ]
       }
     },
@@ -3702,13 +4056,13 @@
         "japanese_calendar": "明治34年",
         "shape": "剣型",
         "inscription": "庚申塔\n明治三十四年七月吉日 小川家",
-        "note": "庚申文字 南向き\n他宗場内で場所が不明であったので不動堂向かいに配置",
+        "note": "庚申文字 南向き",
         "place": "他宗場",
         "type": "庚申",
         "table_id": 40,
         "book_id": 2,
         "book_page": 31,
-        "confirmed": null,
+        "confirmed": "2020/09/20",
         "map_page": null,
         "color": null,
         "material": null,
@@ -3718,16 +4072,37 @@
         "width": 27,
         "depth": 18.5,
         "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
+        "files": [
+          {
+            "fid": 87,
+            "poiid": 93,
+            "description": "他宗場の剣型庚申",
+            "path": "./images/93/tachiba_sword_koshin.jpg",
+            "date": "2020/09/20 13:52:52",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/93/tachiba_sword_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/93/tachiba_sword_koshin.jpg"
+          },
+          {
+            "fid": 88,
+            "poiid": 93,
+            "description": "他宗場の剣型庚申 側面",
+            "path": "./images/93/tachiba_sword_koshin_side.jpg",
+            "date": "2020/09/20 13:53:13",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/93/tachiba_sword_koshin_side.jpg",
+            "small_thumbnail": "./small_thumbs/93/tachiba_sword_koshin_side.jpg"
+          }
+        ],
+        "path": "./images/93/tachiba_sword_koshin.jpg",
+        "small_thumbnail": "./small_thumbs/93/tachiba_sword_koshin.jpg",
+        "mid_thumbnail": "./mid_thumbs/93/tachiba_sword_koshin.jpg"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56443011212477,
-          36.233612947571686
+          139.56341487488865,
+          36.233530028152586
         ]
       }
     },
@@ -3772,44 +4147,6 @@
     {
       "type": "Feature",
       "properties": {
-        "fid": 95,
-        "name": "庚申塔（対応不明）",
-        "year": null,
-        "japanese_calendar": null,
-        "shape": null,
-        "inscription": "庚申塔",
-        "note": "",
-        "place": null,
-        "type": "庚申",
-        "table_id": null,
-        "book_id": null,
-        "book_page": null,
-        "confirmed": null,
-        "map_page": null,
-        "color": null,
-        "material": null,
-        "whole_height": null,
-        "statue_height": null,
-        "contradiction": "ここに文字庚申塔あり（誌上の対応不明）",
-        "width": null,
-        "depth": null,
-        "need_action": null,
-        "files": [],
-        "path": null,
-        "small_thumbnail": null,
-        "mid_thumbnail": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.56340241581574,
-          36.234904386446786
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "fid": 96,
         "name": "上新田延宝の像庚申",
         "year": 1679,
@@ -3840,8 +4177,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5634462809021,
-          36.2335396558804
+          139.56819766694028,
+          36.23401346896869
         ]
       }
     },
@@ -4783,7 +5120,7 @@
         "table_id": 41,
         "book_id": 2,
         "book_page": 40,
-        "confirmed": null,
+        "confirmed": "2020/08/22",
         "map_page": 1,
         "color": null,
         "material": null,
@@ -4793,6 +5130,7 @@
         "width": 22,
         "depth": 13,
         "need_action": null,
+        "status": "lost?",
         "files": [],
         "path": null,
         "small_thumbnail": null,
@@ -4801,8 +5139,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56662387831642,
-          36.229084534018405
+          139.56657896247546,
+          36.22909161483231
         ]
       }
     },
@@ -5107,6 +5445,924 @@
         "coordinates": [
           139.5557114794736,
           36.236049954745745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 134,
+        "name": "普済寺の十九夜",
+        "year": 1928,
+        "japanese_calendar": "昭和3年",
+        "shape": "柱型",
+        "inscription": "昭和三年一月吉祥日\n普済寺二十九世禎三代\n十九夜 上志柄念仏講\n　　同 女人一同",
+        "note": "小屋の中にあり、十九夜の文字の上に如意輪観音像がある。東向き。",
+        "place": "上志柄 普済寺境内",
+        "type": "十九夜",
+        "table_id": 12,
+        "book_id": 2,
+        "book_page": 53,
+        "confirmed": "2020/08/22",
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 161,
+        "statue_height": 49,
+        "contradiction": null,
+        "width": 31,
+        "depth": 11,
+        "need_action": null,
+        "files": [
+          {
+            "fid": 43,
+            "poiid": 134,
+            "path": "./images/134/fusaiji_19ya.jpg",
+            "author": "Kohei Otsuka",
+            "description": "普済寺 昭和の十九夜",
+            "mid_thumbnail": "./mid_thumbs/134/fusaiji_19ya.jpg",
+            "small_thumbnail": "./small_thumbs/134/fusaiji_19ya.jpg",
+            "date": "2020/08/22 13:31:42"
+          },
+          {
+            "fid": 55,
+            "poiid": 134,
+            "description": "普済寺 昭和の十九夜 台座",
+            "path": "./images/134/fusaiji_19ya_base.jpg",
+            "date": "2020/08/22 13:32:16",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/134/fusaiji_19ya_base.jpg",
+            "small_thumbnail": "./small_thumbs/134/fusaiji_19ya_base.jpg"
+          }
+        ],
+        "path": "./images/134/fusaiji_19ya.jpg",
+        "small_thumbnail": "./small_thumbs/134/fusaiji_19ya.jpg",
+        "mid_thumbnail": "./mid_thumbs/134/fusaiji_19ya.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5495836933482,
+          36.234402785855536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 135,
+        "name": "上志柄の十九夜",
+        "year": 1764,
+        "japanese_calendar": "明和元年",
+        "shape": "柱型",
+        "inscription": "峕 明和元龍集甲申九月吉日\n前永来現本山十七世桂[こざとへんに長]苗叟謹誌\n当郷大袋上志柄善男女等十九夜\n称讃彌陀宝号之餘力杜多遠近村\n里者奉祈忌親平等\n現当二世安楽者也",
+        "note": "十九夜の文字の上に如意輪観音像があり、南向き",
+        "place": "上志柄 普済寺山門前",
+        "type": "十九夜",
+        "table_id": 5,
+        "book_id": 2,
+        "book_page": 54,
+        "confirmed": null,
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 203,
+        "statue_height": 69,
+        "contradiction": null,
+        "width": 58,
+        "depth": 35,
+        "need_action": null,
+        "status": "lost?",
+        "files": [],
+        "path": null,
+        "small_thumbnail": null,
+        "mid_thumbnail": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.55006929618628,
+          36.234415874473406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 136,
+        "name": "如意輪観音?",
+        "year": null,
+        "japanese_calendar": null,
+        "shape": null,
+        "inscription": null,
+        "note": "本に対応物なし？如意輪観音か？",
+        "place": "普済寺",
+        "type": "如意輪観音",
+        "table_id": null,
+        "book_id": null,
+        "book_page": null,
+        "confirmed": "2020/08/22",
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": null,
+        "statue_height": null,
+        "contradiction": null,
+        "width": null,
+        "depth": null,
+        "need_action": null,
+        "status": "new",
+        "files": [
+          {
+            "fid": 44,
+            "poiid": 136,
+            "description": "普済寺 如意輪観音?",
+            "path": "./images/136/fusaiji_nyoirin.jpg",
+            "date": "2020/08/22 14:06:30",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/136/fusaiji_nyoirin.jpg",
+            "small_thumbnail": "./small_thumbs/136/fusaiji_nyoirin.jpg"
+          },
+          {
+            "fid": 45,
+            "poiid": 136,
+            "description": "普済寺 如意輪観音? 背後",
+            "path": "./images/136/fusaiji_nyoirin_back.jpg",
+            "date": "2020/08/22 14:06:44",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/136/fusaiji_nyoirin_back.jpg",
+            "small_thumbnail": "./small_thumbs/136/fusaiji_nyoirin_back.jpg"
+          },
+          {
+            "fid": 46,
+            "poiid": 136,
+            "description": "普済寺 如意輪観音? 台座拡大",
+            "path": "./images/136/fusaiji_nyoirin_base.jpg",
+            "date": "2020/08/22 14:06:34",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/136/fusaiji_nyoirin_base.jpg",
+            "small_thumbnail": "./small_thumbs/136/fusaiji_nyoirin_base.jpg"
+          }
+        ],
+        "path": "./images/136/fusaiji_nyoirin.jpg",
+        "small_thumbnail": "./small_thumbs/136/fusaiji_nyoirin.jpg",
+        "mid_thumbnail": "./mid_thumbs/136/fusaiji_nyoirin.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5506755487309,
+          36.23443931146668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 137,
+        "name": "猿田彦大神",
+        "year": 1932,
+        "japanese_calendar": "昭和7年",
+        "shape": "磨かれた自然石",
+        "inscription": "",
+        "note": "完全解読できていないが「昭和七壬申年 猿田彦大神 十二月八日 森田辰次郎建之」と見える ",
+        "place": "上志柄天満宮前",
+        "type": "庚申",
+        "table_id": null,
+        "book_id": null,
+        "book_page": null,
+        "confirmed": "2020/08/22",
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": null,
+        "statue_height": null,
+        "contradiction": null,
+        "width": null,
+        "depth": null,
+        "need_action": null,
+        "status": "new",
+        "files": [
+          {
+            "fid": 60,
+            "poiid": 137,
+            "description": "上志柄 猿田彦大神",
+            "path": "./images/137/kamishigara_sarutahiko.jpg",
+            "date": "2020/08/22 14:47:28",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/137/kamishigara_sarutahiko.jpg",
+            "small_thumbnail": "./small_thumbs/137/kamishigara_sarutahiko.jpg"
+          },
+          {
+            "fid": 61,
+            "poiid": 137,
+            "description": "上志柄 猿田彦大神 背面",
+            "path": "./images/137/kamishigara_sarutahiko_back.jpg",
+            "date": "2020/08/22 14:51:09",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/137/kamishigara_sarutahiko_back.jpg",
+            "small_thumbnail": "./small_thumbs/137/kamishigara_sarutahiko_back.jpg"
+          }
+        ],
+        "path": "./images/137/kamishigara_sarutahiko.jpg",
+        "small_thumbnail": "./small_thumbs/137/kamishigara_sarutahiko.jpg",
+        "mid_thumbnail": "./mid_thumbs/137/kamishigara_sarutahiko.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5550315950353,
+          36.23306118618827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 138,
+        "name": "弘化3年の地蔵菩薩",
+        "year": 1847,
+        "japanese_calendar": "弘化3年",
+        "shape": "柱型",
+        "inscription": null,
+        "note": "完全ではないが刻銘には「弘化三丙午年三月吉日 上州邑楽郡羽附村上志柄」と刻まれている",
+        "place": "上志柄 上宿天満宮脇",
+        "type": "地蔵菩薩像",
+        "table_id": null,
+        "book_id": null,
+        "book_page": null,
+        "confirmed": "2020/08/22",
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": null,
+        "statue_height": null,
+        "contradiction": null,
+        "width": null,
+        "depth": null,
+        "need_action": null,
+        "status": "new",
+        "files": [
+          {
+            "fid": 62,
+            "poiid": 138,
+            "description": "弘化3年 上宿天満宮脇の地蔵",
+            "path": "./images/138/koka3_jizo.jpg",
+            "date": "2020/08/22 16:36:23",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/138/koka3_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/138/koka3_jizo.jpg"
+          },
+          {
+            "fid": 63,
+            "poiid": 138,
+            "description": "弘化3年 上宿天満宮脇の地蔵 左側",
+            "path": "./images/138/koka3_jizo_left.jpg",
+            "date": "2020/08/22 16:37:25",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/138/koka3_jizo_left.jpg",
+            "small_thumbnail": "./small_thumbs/138/koka3_jizo_left.jpg"
+          },
+          {
+            "fid": 64,
+            "poiid": 138,
+            "description": "弘化3年 上宿天満宮脇の地蔵 右側",
+            "path": "./images/138/koka3_jizo_right.jpg",
+            "date": "2020/08/22 16:36:59",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/138/koka3_jizo_right.jpg",
+            "small_thumbnail": "./small_thumbs/138/koka3_jizo_right.jpg"
+          }
+        ],
+        "path": "./images/138/koka3_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/138/koka3_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/138/koka3_jizo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56232546586858,
+          36.23202575044659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 139,
+        "name": "貞享2年の青面金剛",
+        "year": null,
+        "japanese_calendar": "貞享2年",
+        "shape": "三猿青面金剛",
+        "inscription": null,
+        "note": "完全ではないが刻銘には「時貞享二乙丑天九月日志柄村 奉造立青面金剛...」と見える。",
+        "place": "上志柄 上宿八幡宮脇",
+        "type": "庚申",
+        "table_id": null,
+        "book_id": null,
+        "book_page": null,
+        "confirmed": "2020/08/22",
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": null,
+        "statue_height": null,
+        "contradiction": null,
+        "width": null,
+        "depth": null,
+        "need_action": null,
+        "status": "new",
+        "files": [
+          {
+            "fid": 65,
+            "poiid": 139,
+            "description": "貞享2年 上志柄上宿天満宮脇の青面金剛",
+            "path": "./images/139/jokyo2_seimen.jpg",
+            "date": "2020/08/22 16:37:52",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/139/jokyo2_seimen.jpg",
+            "small_thumbnail": "./small_thumbs/139/jokyo2_seimen.jpg"
+          },
+          {
+            "fid": 66,
+            "poiid": 139,
+            "description": "貞享2年 上志柄上宿天満宮脇の青面金剛 背面",
+            "path": "./images/139/jokyo2_seimen_back.jpg",
+            "date": "2020/08/22 16:38:28",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/139/jokyo2_seimen_back.jpg",
+            "small_thumbnail": "./small_thumbs/139/jokyo2_seimen_back.jpg"
+          },
+          {
+            "fid": 67,
+            "poiid": 139,
+            "description": "貞享2年 上志柄上宿天満宮脇の青面金剛 左の刻銘",
+            "path": "./images/139/jokyo2_seimen_lefttop.jpg",
+            "date": "2020/08/22 16:38:15",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/139/jokyo2_seimen_lefttop.jpg",
+            "small_thumbnail": "./small_thumbs/139/jokyo2_seimen_lefttop.jpg"
+          },
+          {
+            "fid": 68,
+            "poiid": 139,
+            "description": "貞享2年 上志柄上宿天満宮脇の青面金剛 右の刻銘",
+            "path": "./images/139/jokyo2_seimen_righttop.jpg",
+            "date": "2020/08/22 16:38:06",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/139/jokyo2_seimen_righttop.jpg",
+            "small_thumbnail": "./small_thumbs/139/jokyo2_seimen_righttop.jpg"
+          }
+        ],
+        "path": "./images/139/jokyo2_seimen.jpg",
+        "small_thumbnail": "./small_thumbs/139/jokyo2_seimen.jpg",
+        "mid_thumbnail": "./mid_thumbs/139/jokyo2_seimen.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.562291513933,
+          36.23202694117057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 140,
+        "name": "坂村家の馬頭観世音",
+        "year": 1920,
+        "japanese_calendar": "大正9年",
+        "shape": "自然石",
+        "inscription": "馬頭観世音\n大正九年三月坂村氏\n日露役長発\n飼馬赤之霊",
+        "note": null,
+        "place": null,
+        "type": "馬頭観世音",
+        "table_id": 18,
+        "book_id": 2,
+        "book_page": 42,
+        "confirmed": "2020/09/20",
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 74,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 48,
+        "depth": 22,
+        "need_action": null,
+        "status": null,
+        "files": [
+          {
+            "fid": 76,
+            "poiid": 140,
+            "description": "富士山 坂村家の馬頭観世音",
+            "path": "./images/140/fujiyama_sakamura_bato.jpg",
+            "date": "2020/09/20 13:28:19",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/140/fujiyama_sakamura_bato.jpg",
+            "small_thumbnail": "./small_thumbs/140/fujiyama_sakamura_bato.jpg"
+          }
+        ],
+        "path": "./images/140/fujiyama_sakamura_bato.jpg",
+        "small_thumbnail": "./small_thumbs/140/fujiyama_sakamura_bato.jpg",
+        "mid_thumbnail": "./mid_thumbs/140/fujiyama_sakamura_bato.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.55922216531746,
+          36.2368094189619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 141,
+        "name": "富士山の十九夜",
+        "year": 1804,
+        "japanese_calendar": "文化元年",
+        "shape": "柱型",
+        "inscription": "文化元甲子年 十月大吉祥日\n奉建立聖如意輪観自在尊\n具一切功徳慈眼視衆生福寿海無量是\n故應順礼願以比功徳普及於一切我等\n輿衆生皆具成仏道\n上野国邑楽郡館林領羽附村大袋講中\n願主覚心 (戒名十二名あり) 圓成\n　　　　　　　　　　　　　宗八",
+        "note": "トタン屋根があり、十九夜の文字の上に如意輪観音像がある。東向き。",
+        "place": "富士山 富士嶽神社横",
+        "type": "十九夜",
+        "table_id": 7,
+        "book_id": 2,
+        "book_page": 54,
+        "confirmed": "2020/09/20",
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 184,
+        "statue_height": 57,
+        "contradiction": null,
+        "width": 39,
+        "depth": 22,
+        "need_action": null,
+        "status": null,
+        "files": [
+          {
+            "fid": 79,
+            "poiid": 141,
+            "description": "富士嶽神社 十九夜",
+            "path": "./images/141/fujitake_19ya.jpg",
+            "date": "2020/09/20 13:39:18",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/141/fujitake_19ya.jpg",
+            "small_thumbnail": "./small_thumbs/141/fujitake_19ya.jpg"
+          },
+          {
+            "fid": 80,
+            "poiid": 141,
+            "description": "富士嶽神社 十九夜 台座左側",
+            "path": "./images/141/fujitake_19ya_base_left.jpg",
+            "date": "2020/09/20 13:39:29",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/141/fujitake_19ya_base_left.jpg",
+            "small_thumbnail": "./small_thumbs/141/fujitake_19ya_base_left.jpg"
+          },
+          {
+            "fid": 81,
+            "poiid": 141,
+            "description": "富士嶽神社 十九夜 台座右側",
+            "path": "./images/141/fujitake_19ya_base_right.jpg",
+            "date": "2020/09/20 13:39:36",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/141/fujitake_19ya_base_right.jpg",
+            "small_thumbnail": "./small_thumbs/141/fujitake_19ya_base_right.jpg"
+          }
+        ],
+        "path": "./images/141/fujitake_19ya.jpg",
+        "small_thumbnail": "./small_thumbs/141/fujitake_19ya.jpg",
+        "mid_thumbnail": "./mid_thumbs/141/fujitake_19ya.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56106173711274,
+          36.23526552483506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 142,
+        "name": "富士嶽神社の馬頭観世音",
+        "year": 1854,
+        "japanese_calendar": "嘉永7年",
+        "shape": "柱型",
+        "inscription": null,
+        "note": null,
+        "place": "羽附富士山",
+        "type": "馬頭観世音",
+        "table_id": 10,
+        "book_id": 2,
+        "book_page": 43,
+        "confirmed": "2020/09/20",
+        "map_page": 1,
+        "color": null,
+        "material": null,
+        "whole_height": 101,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 34,
+        "depth": 22,
+        "need_action": null,
+        "status": null,
+        "files": [
+          {
+            "fid": 82,
+            "poiid": 142,
+            "description": "富士嶽神社 馬頭観世音",
+            "path": "./images/142/fujitake_bato.jpg",
+            "date": "2020/09/20 13:37:17",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/142/fujitake_bato.jpg",
+            "small_thumbnail": "./small_thumbs/142/fujitake_bato.jpg"
+          },
+          {
+            "fid": 83,
+            "poiid": 142,
+            "description": "富士嶽神社 馬頭観世音 側面",
+            "path": "./images/142/fujitake_bato_side.jpg",
+            "date": "2020/09/20 13:38:27",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/142/fujitake_bato_side.jpg",
+            "small_thumbnail": "./small_thumbs/142/fujitake_bato_side.jpg"
+          }
+        ],
+        "path": "./images/142/fujitake_bato.jpg",
+        "small_thumbnail": "./small_thumbs/142/fujitake_bato.jpg",
+        "mid_thumbnail": "./mid_thumbs/142/fujitake_bato.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56100237865792,
+          36.23518686753852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 143,
+        "name": "富士山の二十三夜",
+        "year": 1872,
+        "japanese_calendar": "明治5年",
+        "shape": "柱型",
+        "inscription": "当組中\n明治五壬申十月吉日\n若者中立 世話人",
+        "note": null,
+        "place": "富士山 富士嶽神社境内",
+        "type": "二十三夜",
+        "table_id": null,
+        "book_id": 2,
+        "book_page": 58,
+        "confirmed": null,
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": 126,
+        "statue_height": 93,
+        "contradiction": null,
+        "width": 45,
+        "depth": 40,
+        "need_action": null,
+        "status": null,
+        "files": [
+          {
+            "fid": 84,
+            "poiid": 143,
+            "description": "富士嶽神社 二十三夜",
+            "path": "./images/143/fujitake_23ya.jpg",
+            "date": "2018/08/04 14:09:03",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/143/fujitake_23ya.jpg",
+            "small_thumbnail": "./small_thumbs/143/fujitake_23ya.jpg"
+          }
+        ],
+        "path": "./images/143/fujitake_23ya.jpg",
+        "small_thumbnail": "./small_thumbs/143/fujitake_23ya.jpg",
+        "mid_thumbnail": "./mid_thumbs/143/fujitake_23ya.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56094726009275,
+          36.23518686753852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 144,
+        "name": "他宗場の出羽三山供養塔",
+        "year": 1826,
+        "japanese_calendar": "文政9年",
+        "shape": "駒型",
+        "inscription": "文政九丙戌 九月吉日\n　羽根付村 願主 小川惣右衛門\n東こが道 西たてばやし道 南せんずい道",
+        "note": "「道しるべ」かねる",
+        "place": "他宗場 不動堂前路傍",
+        "type": "出羽三山供養塔",
+        "table_id": null,
+        "book_id": 2,
+        "book_page": 71,
+        "confirmed": "2020/09/20",
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": 140,
+        "statue_height": null,
+        "contradiction": null,
+        "width": 44,
+        "depth": 44,
+        "need_action": null,
+        "status": null,
+        "files": [
+          {
+            "fid": 91,
+            "poiid": 144,
+            "description": "他宗場 出羽三山供養塔",
+            "path": "./images/144/tachiba_dewa3zan.jpg",
+            "date": "2020/09/20 14:06:45",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/144/tachiba_dewa3zan.jpg",
+            "small_thumbnail": "./small_thumbs/144/tachiba_dewa3zan.jpg"
+          },
+          {
+            "fid": 92,
+            "poiid": 144,
+            "description": "他宗場 出羽三山供養塔",
+            "path": "./images/144/tachiba_dewa3zan_back.jpg",
+            "date": "2020/09/20 14:07:15",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/144/tachiba_dewa3zan_back.jpg",
+            "small_thumbnail": "./small_thumbs/144/tachiba_dewa3zan_back.jpg"
+          }
+        ],
+        "path": "./images/144/tachiba_dewa3zan.jpg",
+        "small_thumbnail": "./small_thumbs/144/tachiba_dewa3zan.jpg",
+        "mid_thumbnail": "./mid_thumbs/144/tachiba_dewa3zan.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56447990566042,
+          36.23377788786504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 145,
+        "name": "他宗場の湯殿山納経供養塔",
+        "year": 1829,
+        "japanese_calendar": "文政12年",
+        "shape": "駒型",
+        "inscription": "　神社 羽付村 安全\n湯殿山納経供養塔\n　仏閣 祈願主 正宝院 快元\n文政十二己丑歳 正月吉日\n東板くら□てん 南子のごんげん\n十二社道 西疫除大し一丁",
+        "note": "「道しるべ」かねる 現在東向きに建っているが、本来南向きに建つべきもの。",
+        "place": "他宗場 不動堂境内",
+        "type": "湯殿山供養塔",
+        "table_id": null,
+        "book_id": 2,
+        "book_page": 71,
+        "confirmed": "2020/09/20",
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": 94,
+        "statue_height": null,
+        "contradiction": "高さ幅奥行などは71ページのもの。65ページに重複掲載されており、そちらでは高さ87cm、幅33cm、奥行23cmとなっている。",
+        "width": 36,
+        "depth": 23,
+        "need_action": null,
+        "status": null,
+        "files": [
+          {
+            "fid": 93,
+            "poiid": 145,
+            "description": "他宗場 湯殿山供養塔",
+            "path": "./images/145/tachiba_yudonoyama.jpg",
+            "date": "2020/09/20 14:07:06",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/145/tachiba_yudonoyama.jpg",
+            "small_thumbnail": "./small_thumbs/145/tachiba_yudonoyama.jpg"
+          },
+          {
+            "fid": 94,
+            "poiid": 145,
+            "description": "他宗場 湯殿山供養塔 背後",
+            "path": "./images/145/tachiba_yudonoyama_back.jpg",
+            "date": "2020/09/20 14:07:18",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/145/tachiba_yudonoyama_back.jpg",
+            "small_thumbnail": "./small_thumbs/145/tachiba_yudonoyama_back.jpg"
+          }
+        ],
+        "path": "./images/145/tachiba_yudonoyama.jpg",
+        "small_thumbnail": "./small_thumbs/145/tachiba_yudonoyama.jpg",
+        "mid_thumbnail": "./mid_thumbs/145/tachiba_yudonoyama.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56449115531552,
+          36.23379356132045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 146,
+        "name": "他宗場の名号",
+        "year": 1822,
+        "japanese_calendar": "文政5年",
+        "shape": "柱型",
+        "inscription": "百万遍供養塔 慈救咒 七福即主\n　　　　　　　祈願主 正宝院\n文政五壬午年 七月吉祥日\n　　宝珠庵什物 不動免庵東\n　　　　　寄附之施主 正宝院",
+        "note": "柱石上部に不動明王の彫像あり",
+        "place": "他宗場 不動堂境内",
+        "type": "名号",
+        "table_id": null,
+        "book_id": 2,
+        "book_page": 72,
+        "confirmed": "2020/09/20",
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": 102.5,
+        "statue_height": null,
+        "contradiction": "刻銘の「七福即主」は「七福即生」ではないか、また写真からは「七難即滅」も見える。",
+        "width": 33,
+        "depth": 23,
+        "need_action": null,
+        "status": null,
+        "files": [
+          {
+            "fid": 95,
+            "poiid": 146,
+            "description": "他宗場 不動明王の名号",
+            "path": "./images/146/tachiba_fudo_myogo.jpg",
+            "date": "2020/09/20 14:09:02",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/146/tachiba_fudo_myogo.jpg",
+            "small_thumbnail": "./small_thumbs/146/tachiba_fudo_myogo.jpg"
+          },
+          {
+            "fid": 96,
+            "poiid": 146,
+            "description": "他宗場 不動明王の名号 背面",
+            "path": "./images/146/tachiba_fudo_myogo_back.jpg",
+            "date": "2020/09/20 14:12:02",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/146/tachiba_fudo_myogo_back.jpg",
+            "small_thumbnail": "./small_thumbs/146/tachiba_fudo_myogo_back.jpg"
+          }
+        ],
+        "path": "./images/146/tachiba_fudo_myogo.jpg",
+        "small_thumbnail": "./small_thumbs/146/tachiba_fudo_myogo.jpg",
+        "mid_thumbnail": "./mid_thumbs/146/tachiba_fudo_myogo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5644430672318,
+          36.233869754380066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 147,
+        "name": "他宗場の名号",
+        "year": 1751,
+        "japanese_calendar": "寛延4年",
+        "shape": "柱型",
+        "inscription": "念仏供養\n寛延四辛未歳 八月十九日\n　　羽付村 施主 講中",
+        "note": null,
+        "place": "他宗場 墓地",
+        "type": "名号",
+        "table_id": null,
+        "book_id": 2,
+        "book_page": 72,
+        "confirmed": "2020/09/20",
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": 134.5,
+        "statue_height": null,
+        "contradiction": null,
+        "width": null,
+        "depth": null,
+        "need_action": null,
+        "status": null,
+        "files": [
+          {
+            "fid": 101,
+            "poiid": 147,
+            "description": "他宗場 如意輪観音名号",
+            "path": "./images/147/tachiba_nyoirin_myogo.jpg",
+            "date": "2020/09/20 14:11:28",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/147/tachiba_nyoirin_myogo.jpg",
+            "small_thumbnail": "./small_thumbs/147/tachiba_nyoirin_myogo.jpg"
+          },
+          {
+            "fid": 102,
+            "poiid": 147,
+            "description": "他宗場 如意輪観音名号 背面",
+            "path": "./images/147/tachiba_nyoirin_myogo_back.jpg",
+            "date": "2020/09/20 14:12:16",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/147/tachiba_nyoirin_myogo_back.jpg",
+            "small_thumbnail": "./small_thumbs/147/tachiba_nyoirin_myogo_back.jpg"
+          },
+          {
+            "fid": 103,
+            "poiid": 147,
+            "description": "他宗場 如意輪観音名号 台座右方",
+            "path": "./images/147/tachiba_nyoirin_myogo_base_left.jpg",
+            "date": "2020/09/20 14:12:37",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/147/tachiba_nyoirin_myogo_base_left.jpg",
+            "small_thumbnail": "./small_thumbs/147/tachiba_nyoirin_myogo_base_left.jpg"
+          },
+          {
+            "fid": 104,
+            "poiid": 147,
+            "description": "他宗場 如意輪観音名号 台座左方",
+            "path": "./images/147/tachiba_nyoirin_myogo_base_right.jpg",
+            "date": "2020/09/20 14:12:51",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/147/tachiba_nyoirin_myogo_base_right.jpg",
+            "small_thumbnail": "./small_thumbs/147/tachiba_nyoirin_myogo_base_right.jpg"
+          }
+        ],
+        "path": "./images/147/tachiba_nyoirin_myogo.jpg",
+        "small_thumbnail": "./small_thumbs/147/tachiba_nyoirin_myogo.jpg",
+        "mid_thumbnail": "./mid_thumbs/147/tachiba_nyoirin_myogo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5645037497181,
+          36.23383636847075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 148,
+        "name": "他宗場の地蔵菩薩",
+        "year": 1795,
+        "japanese_calendar": "寛政7年",
+        "shape": "舟型背面",
+        "inscription": null,
+        "note": "刻銘に「寛政七卯年」と見える",
+        "place": "他宗場 墓地",
+        "type": "地蔵菩薩像",
+        "table_id": null,
+        "book_id": null,
+        "book_page": null,
+        "confirmed": "2020/09/20",
+        "map_page": null,
+        "color": null,
+        "material": null,
+        "whole_height": null,
+        "statue_height": null,
+        "contradiction": null,
+        "width": null,
+        "depth": null,
+        "need_action": null,
+        "status": "new",
+        "files": [
+          {
+            "fid": 108,
+            "poiid": 148,
+            "description": "他宗場 寛政7年地蔵",
+            "path": "./images/148/tachiba_kansei7_jizo.jpg",
+            "date": "2020/09/20 14:20:59",
+            "author": "Kohei Otsuka",
+            "mid_thumbnail": "./mid_thumbs/148/tachiba_kansei7_jizo.jpg",
+            "small_thumbnail": "./small_thumbs/148/tachiba_kansei7_jizo.jpg"
+          }
+        ],
+        "path": "./images/148/tachiba_kansei7_jizo.jpg",
+        "small_thumbnail": "./small_thumbs/148/tachiba_kansei7_jizo.jpg",
+        "mid_thumbnail": "./mid_thumbs/148/tachiba_kansei7_jizo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.56460800152948,
+          36.233953377148076
         ]
       }
     }
