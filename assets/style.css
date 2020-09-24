@@ -31,9 +31,9 @@ img.represent {
 
 .leaflet-popup-content {
     border-radius: 6px;
-    min-width: 300px !important;
-    max-width: 400px !important;
-    max-height: 200px;
+    min-width: 400px !important;
+    max-width: 500px !important;
+    max-height: 300px;
     overflow: auto;
 }
 

@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
     <link rel="stylesheet" href="./assets/L.Control.Locate.min.css" />
@@ -11,7 +12,7 @@
 <body>
 <div id="mapid"></div>
 
-<a href="https://github.com/code4history/TatebayashiStones"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: 500" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+<a class="github-fork-ribbon" href="https://github.com/code4history/TatebayashiStones" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 
 <script type="text/html" id="popup-template">
     <div class="poi">
@@ -61,33 +62,41 @@
     icon: (point, latlng) => {
         const props = point.properties;
         let iconUrl = './assets/sekihi.png';
-        let width = 48;
-        let height = 48;
+        let width = 32;
+        let height = 32;
         if (props.type === 'その他仏像' || props.type === '愛染明王像' || props.type === '十一面観音菩薩像' || props.type === '聖観音像' || props.type === '聖徳太子像' || props.type === '大日如来像' || props.type === '如意輪観音菩薩像' || props.type === '不動明王像' || props.type === '薬師如来像' || props.type === '阿弥陀如来像') {
             iconUrl = './assets/hotoke.png';
-            width = 43;
+            width = 29;
         } else if (props.type === '地蔵菩薩像' || props.type === '六地蔵菩薩像') {
             iconUrl = './assets/jizo.png';
-            width = 35;
+            width = 23;
         } else if (props.type === '庚申') {
             iconUrl = './assets/sanzaru.png';
-            width = 36;
+            width = 24;
         } else if (props.type === '馬頭観世音') {
             iconUrl = './assets/bato.png';
-            width = 48;
+            width = 23;
         } else if (props.type === '十九夜' || props.type === '二十三夜' || props.type === '如意輪観音') {
             iconUrl = './assets/19ya.png';
-            width = 48;
+            width = 32;
         }
 
-        if (props.status == 'lost' || props.status == 'lost?') iconUrl = iconUrl.replace('.png', '_sepia.png');
-        else if (props.need_action || !props.confirmed || props.contradiction) iconUrl = iconUrl.replace('.png', '_surprise.png');
+        if (props.status == 'lost' || props.status == 'lost?') {
+            iconUrl = iconUrl.replace('.png', '_sepia.png');
+            height = 24;
+            width = Math.round(width * 24 / 32);
+        } else if (props.need_action || !props.confirmed || props.contradiction) {
+            iconUrl = iconUrl.replace('.png', '_surprise.png');
+            height = 24;
+            width = Math.round(width * 24 / 32);
+        }
 
         return L.marker(latlng, {
             icon: L.icon({
                 iconUrl: iconUrl,
                 iconSize: [width, height],
-                iconAnchor: [width / 2, height]
+                iconAnchor: [width / 2, height],
+                popupAnchor: [0, -1 * height]
             })
         });
     }
