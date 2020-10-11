@@ -2001,11 +2001,20 @@ module.exports = function (WIN, superagent, lodashish, VERSION) {
 
   W.console.debug('Map config:', CFG);
 
-  var mymap = L.map(CFG.mapId).setView(CFG.latLng, CFG.zoom);
+  var mymap = L.map(CFG.mapId, {
+    maxZoom: CFG.maxZoom
+  }).setView(CFG.latLng, CFG.zoom);
   var popupTemplateFn = _.template(CFG.popupTemplate, null, CFG.templateSettings);
   var accessToken = _.template(CFG.accessToken);
 
-  L.tileLayer(CFG.tileUrl, {
+  L.mapboxGL({
+    accessToken: CFG.accessToken,
+    style: CFG.style || 'mapbox://styles/mapbox/bright-v8',
+    maxZoom: CFG.maxZoom,
+    //maxNativeZoom: CFG.maxNativeZoom || CFG.maxZoom,
+    minZoom: CFG.minZoom,
+  }).addTo(mymap);
+/*  L.tileLayer(CFG.tileUrl, {
     subdomains: CFG.subdomains,
     attribution: CFG.attribution,
     maxZoom: CFG.maxZoom,
@@ -2013,7 +2022,7 @@ module.exports = function (WIN, superagent, lodashish, VERSION) {
     minZoom: CFG.minZoom,
     
     accessToken: accessToken(W.ENV || { ENV: {} })
-  }).addTo(mymap);
+  }).addTo(mymap);*/
 
   L.control.locate({
     icon: 'fa fa-crosshairs'

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="./assets/L.Control.Locate.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
@@ -49,6 +50,8 @@
 </script>
 
 <script> MAP_CFG = {
+    accessToken: 'pk.eyJ1IjoicmVraXNoaWtva3VkbyIsImEiOiJjazRoMmF3dncwODU2M2ttdzI2aDVqYXVwIn0.8Hb9sekgjfck6Setxk5uVg',
+    style: 'mapbox://styles/moritoru/ck4s6w8bd0sb51cpp9vn7ztty',
     latLng: [
         36.231734,
         139.567348
@@ -56,7 +59,7 @@
     zoom: 15,
     minZoom: 5,
     maxZoom: 20,
-    maxNativeZoom: 19,
+//    maxNativeZoom: 19,
     geoJson: './tatebayashi_stones.geojson',
     checkProperty: 'name',
     icon: (point, latlng) => {
@@ -104,6 +107,8 @@
 
 <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
 <script src="./assets/L.Control.Locate.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+<script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
 <script src="./assets/geojson-popup.js"></script>
 </body>
 </html>
