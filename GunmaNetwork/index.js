@@ -17,7 +17,7 @@ const references_csv = [
   ["館林市誌編集委員会編","館林市誌 歴史編",1969]
 ];
 
-const areas = {
+/*const areas = {
   "館林": [[2,193],[224,325],[1801,1803]],
   "郷谷": [[194,223],[326,475]],
   "大島": [[476,609]],
@@ -29,7 +29,7 @@ const areas = {
   "不明": [[1767]],
   "明和町": [[1797]],
   "邑楽町": [[1798,1800]]
-};
+};*/
 
 const suppress = ["経度_度","経度_分","経度_秒","緯度_度","緯度_分","緯度_秒"];
 const change = {
@@ -42,8 +42,10 @@ const change = {
   "所在地①": "place_1",
   "所在地②": "place_2",
   "詳細": "detail",
-  "備考": "note",
+  "備考①": "note_1",
+  "備考②": "note_2",
   "参考文献": "references",
+  "地区": "area",
   "調査日": "surveyed",
   "解説": "description",
   "写真": "photo",
@@ -314,7 +316,7 @@ const conditions = [
   [/下早川田町/,/.*/,/天王神社/,/渡瀬/, [36.271123913576126, 139.54992742706577]],
   [/大新田/,/.*/,/稲荷神社/,/渡瀬/, [36.26021894411145, 139.547974289416]],
   [/大新田/,/.*/,/薬師堂墓地/,/渡瀬/, [36.25950926180332, 139.54468547240725]],
-  [/不明/,"","",/不明/, [36.24624614348363, 139.52799321361624]],
+  [/不明/,"","",/-/, [36.24624614348363, 139.52799321361624]],
   [/傍示塚町/,/悪土舟中/,"",/渡瀬/, [36.27600948749526, 139.526828737848]],
   [/傍示塚町/,/.*/,/堤防下/,/渡瀬/, [36.27600948749526, 139.526828737848]],
   [/傍示塚町/,/.*/,/赤城神社/,/渡瀬/, [36.279636487795514, 139.52721303733023]],
@@ -323,10 +325,10 @@ const conditions = [
   [/傍示塚町/,/.*/,/会館/,/渡瀬/, [36.27887425665467, 139.5296633833262]],
   [/渡瀬地区/,/.*/,/(金子|館林市)/,/渡瀬/, [36.267738793635225, 139.5354273672936]],
   [/.*/,/.*/,/小新田集会所/,/渡瀬/, [36.267738793635225, 139.5354273672936]],
-  [/明和村/,/.*/,/入ケ谷地蔵堂/,/明和町/, [36.213285017855554, 139.5012891549121]],
-  [/邑楽町/,/鶉/,/新田桜土手/,/邑楽町/, [36.25486876055699, 139.48599537472785]],
-  [/邑楽町/,/開拓/,/八幡宮/,/邑楽町/, [36.239298765616425, 139.49150276113622]],
-  [/邑楽町/,/開拓/,/八幡宮/,/邑楽町/, [36.239298765616425, 139.49150276113622]]
+  [/明和村/,/.*/,/入ケ谷地蔵堂/,/-/, [36.213285017855554, 139.5012891549121]],
+  [/邑楽町/,/鶉/,/新田桜土手/,/-/, [36.25486876055699, 139.48599537472785]],
+  [/邑楽町/,/開拓/,/八幡宮/,/-/, [36.239298765616425, 139.49150276113622]],
+  [/邑楽町/,/開拓/,/八幡宮/,/-/, [36.239298765616425, 139.49150276113622]]
 ];
 
 async function run() {
@@ -364,14 +366,14 @@ async function run() {
       prev1[curr1] = val;
       return prev1;
     }, {});
-    properties.area = Object.keys(areas).reduce((prev2, curr2, index2, arr2) => {
+    /*properties.area = Object.keys(areas).reduce((prev2, curr2, index2, arr2) => {
       if (prev2) return prev2;
       const bands = areas[curr2];
       return bands.reduce((prev3, curr3, index3, arr3) => {
         if (prev3) return prev3;
         return curr3.length === 1 ? index === curr3[0] - 2 : (index >= curr3[0] - 2 && index <= curr3[1] - 2);
       }, false) ? curr2 : prev2;
-    }, null);
+    }, null);*/
     properties = addLocation(properties);
 
     //refs
@@ -406,12 +408,15 @@ async function run() {
 
 //images
 
-  const images = await fs.readdirSync('.').filter(fname => fname.match(/JPG$/i)).reduce(async (prev_pr, curr, index, arr) => {
+  const images = await fs.readdirSync('./images').filter(fname => fname.match(/JPG$/i)).reduce(async (prev_pr, curr, index, arr) => {
     const prev = await prev_pr;
-    const poi_id = parseInt(curr.match(/^no(\d+)[^\d]/)[1]);
-    const from = `./${curr}`;
+    const matchArr = curr.match(/^no(\d+)[^\d](DSC)?/);
+    console.log(matchArr);
+    const poi_id = parseInt(matchArr[1]);
+    const shooter = matchArr[2] ? "宮田圭祐" : "井坂優斗";
+    const from = `./images/${curr}`;
     const to = `./images/${curr}`;
-    fs.copySync(from, to);
+    //fs.copySync(from, to);
     const shootingDate = await new Promise(res => {
       new ExifImage({ image : from }, function (error, exifData) {
         res(exifData.exif.CreateDate);
@@ -422,7 +427,7 @@ async function run() {
       poi: poi_id,
       path: to,
       shootingDate,
-      shooter: "Keisuke Miyata",
+      shooter,
       description: "",
       note: ""
     }));
