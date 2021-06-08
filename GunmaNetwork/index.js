@@ -348,7 +348,7 @@ async function run() {
 
 //data_csv1
 
-  const content1 = fs.readFileSync("石仏・石碑等リスト_最新.csv", { encoding: "utf8" });
+  const content1 = fs.readFileSync("石仏・石碑等リスト.csv", { encoding: "utf8" });
   let lines1 = csvSync(content1);
   const attributes1 = lines1.shift().
       //filter(key => suppress.indexOf(key) < 0).
