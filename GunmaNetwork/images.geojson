@@ -772,6 +772,28 @@
     {
       "type": "Feature",
       "properties": {
+        "poi": 238,
+        "path": "./images/no238.JPG",
+        "shooter": "宮田圭祐",
+        "description": "",
+        "note": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 239,
+        "path": "./images/no239.JPG",
+        "shooter": "宮田圭祐",
+        "description": "",
+        "note": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "poi": 241,
         "path": "./images/no241-DSC_7175.JPG",
         "shootingDate": "2021:01:04 15:22:22",
@@ -832,6 +854,18 @@
     {
       "type": "Feature",
       "properties": {
+        "poi": 25,
+        "path": "./images/no25.JPG",
+        "shootingDate": "2017:02:18 10:10:48",
+        "shooter": "井坂優斗",
+        "description": "",
+        "note": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "poi": 256,
         "path": "./images/no256-DSC_7083.JPG",
         "shootingDate": "2020:11:28 14:43:07",
@@ -848,6 +882,18 @@
         "path": "./images/no258-DSC_7145.JPG",
         "shootingDate": "2021:01:04 13:44:26",
         "shooter": "宮田圭祐",
+        "description": "",
+        "note": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 26,
+        "path": "./images/no26.JPG",
+        "shootingDate": "2017:02:18 10:05:57",
+        "shooter": "井坂優斗",
         "description": "",
         "note": ""
       },
@@ -880,6 +926,18 @@
     {
       "type": "Feature",
       "properties": {
+        "poi": 28,
+        "path": "./images/no28.JPG",
+        "shootingDate": "2017:02:18 10:04:01",
+        "shooter": "井坂優斗",
+        "description": "",
+        "note": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "poi": 3,
         "path": "./images/no3.JPG",
         "shootingDate": "2020:11:28 11:11:11",
@@ -892,9 +950,33 @@
     {
       "type": "Feature",
       "properties": {
+        "poi": 35,
+        "path": "./images/no35.JPG",
+        "shootingDate": "2017:04:07 11:20:49",
+        "shooter": "井坂優斗",
+        "description": "",
+        "note": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "poi": 4,
         "path": "./images/no4.JPG",
         "shootingDate": "2020:11:28 11:10:11",
+        "shooter": "井坂優斗",
+        "description": "",
+        "note": ""
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 43,
+        "path": "./images/no43.JPG",
+        "shootingDate": "2019:03:15 17:10:45",
         "shooter": "井坂優斗",
         "description": "",
         "note": ""

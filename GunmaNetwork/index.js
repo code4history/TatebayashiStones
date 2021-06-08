@@ -4,6 +4,7 @@ const { featureCollection, feature, point } = require("@turf/helpers");
 const fs = require("fs-extra");
 const csvSync = require('csv-parse/lib/sync');
 const ExifImage = require('exif').ExifImage;
+const format = require('date-format');
 
 //references
 const references_csv = [
@@ -44,6 +45,7 @@ const change = {
   "詳細": "detail",
   "備考①": "note_1",
   "備考②": "note_2",
+  "備考③": "note_3",
   "参考文献": "references",
   "地区": "area",
   "調査日": "surveyed",
@@ -51,9 +53,7 @@ const change = {
   "写真": "photo",
   "広報": "public_relations",
   "緯度（世界）": "latitude",
-  "経度（世界）": "longitude",
-  "重複文献①": "duplicated_book_1",
-  "重複文献②": "duplicated_book_2",
+  "経度（世界）": "longitude"
 };
 
 const conditions = [
@@ -88,7 +88,7 @@ const conditions = [
   [/尾曳町/,/.*/,/秋元別邸/,/館林/, [36.24358304732986, 139.54607404838342]],
   [/尾曳町/,/.*/,/尾曳(稲荷)?神社/,/館林/, [36.2449884054216, 139.54750266722624]],
   [/加法師町/,/.*/,/教王院/,/館林/, [36.25080287077809, 139.5463118762876]],
-  [/城町/,/.*/,/市立(資料|図書)館/,/館林/, [36.24471691341662, 139.54073869783002]],
+  [/城町/,/.*/,/(資料|図書)館/,/.*/, [36.24471691341662, 139.54073869783002]],
   [/城町/,/.*/,/小林/,/館林/, [36.246055484651706, 139.54132453261167]],
   [/城町/,/.*/,/三の丸/,/館林/, [36.245798269583396, 139.5413680916824]],
   [/城町/,/.*/,/つつじが岡第二公園/,/館林/, [36.24303370449626, 139.54512017117122]],
@@ -332,6 +332,7 @@ const conditions = [
 ];
 
 async function run() {
+  try {
   const books = references_csv.reduce((prev, curr, index, arr) => {
     prev.push(feature(null, {
       name: curr[1],
@@ -347,7 +348,7 @@ async function run() {
 
 //data_csv1
 
-  const content1 = fs.readFileSync("石仏・石碑等リスト.csv", { encoding: "utf8" });
+  const content1 = fs.readFileSync("石仏・石碑等リスト_最新.csv", { encoding: "utf8" });
   let lines1 = csvSync(content1);
   const attributes1 = lines1.shift().
       //filter(key => suppress.indexOf(key) < 0).
@@ -377,7 +378,7 @@ async function run() {
     properties = addLocation(properties);
 
     //refs
-    properties.references.split("").map((ref) => {
+    /*properties.references.split("").map((ref) => {
       const idx_ref = prev_refs.length;
       const ref_id = ref.charCodeAt(0) - 9311;
       prev_refs.push(feature(null, {
@@ -388,8 +389,50 @@ async function run() {
         description: "",
         note: ""
       }));
+    });*/
+    [...properties.references.matchAll(/([①②③④⑤⑥⑦⑧⑨])(\d*)/g)].map((refs) => {
+      const idx_ref = prev_refs.length;
+      const ref_id = refs[1].charCodeAt(0) - 9311;
+      const pages = refs[2] !== "" ? parseInt(refs[2]) : undefined;
+      prev_refs.push(feature(null, {
+        fid: idx_ref + 1,
+        book: ref_id,
+        poi: properties.fid,
+        pages: pages,
+        description: "",
+        note: ""
+      }));
     });
     delete properties.references;
+
+    //size
+    properties.height = undefined;
+    properties.width = undefined;
+    properties.depth = undefined;
+    [...properties.note_3.matchAll(/([高幅厚])([\d\.]*)/g)].map((size) => {
+      if (size[1] && size[2] !== "") {
+        const key = size[1] === "高" ? "height" : size[1] === "幅" ? "width" : "depth";
+        const value = parseFloat(size[2]);
+        properties[key] = value;
+      }
+    });
+
+    //Surveyed
+    if (properties.surveyed.match(/^\d{4}\/\d{1,2}\/\d{1,2}$/)) {
+      properties.note_3 = "";
+      properties.surveyed = format("yyyy/MM/dd", new Date(properties.surveyed));
+    } else if (properties.surveyed === "H25市史") {
+      properties.note_3 = "2013年、市史調査で現存";
+      properties.surveyed = "";
+    } else if (properties.surveyed === "2014無") {
+      properties.note_3 = "2014年調査で発見されず";
+      properties.surveyed = "";
+    } else {
+      properties.note_3 = "";
+    }
+
+    //public_relations
+    if (properties.public_relations !== "") properties.public_relations = format("yyyy/MM", new Date(`20${properties.public_relations}`));
 
     const lnglat = [properties.longitude, properties.latitude];
     delete properties.longitude;
@@ -413,7 +456,7 @@ async function run() {
     const matchArr = curr.match(/^no(\d+)[^\d](DSC)?/);
     console.log(matchArr);
     const poi_id = parseInt(matchArr[1]);
-    const shooter = matchArr[2] ? "宮田圭祐" : "井坂優斗";
+    const shooter = (matchArr[2] || poi_id === 238 || poi_id === 239) ? "宮田圭祐" : "井坂優斗";
     const from = `./images/${curr}`;
     const to = `./images/${curr}`;
     //fs.copySync(from, to);
@@ -435,6 +478,9 @@ async function run() {
   }, []);
 
   fs.writeFileSync("images.geojson", JSON.stringify(images, null, 2), { encoding: "utf8", flag: "w" });
+  } catch (e) {
+    console.log(e);
+  }
 }
 
 function addLocation(line) {
