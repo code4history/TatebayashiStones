@@ -1,5 +1,6 @@
 {
   "type": "FeatureCollection",
+  "name": "refs",
   "features": [
     {
       "type": "Feature",
@@ -139,9 +140,9 @@
         "fid": 13,
         "book": 2,
         "poi": 1519,
-        "pages": 468,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 468
       },
       "geometry": null
     },
@@ -151,9 +152,9 @@
         "fid": 14,
         "book": 2,
         "poi": 1520,
-        "pages": 468,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 468
       },
       "geometry": null
     },
@@ -163,9 +164,9 @@
         "fid": 15,
         "book": 2,
         "poi": 1521,
-        "pages": 468,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 468
       },
       "geometry": null
     },
@@ -175,9 +176,9 @@
         "fid": 16,
         "book": 2,
         "poi": 1568,
-        "pages": 484,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 484
       },
       "geometry": null
     },
@@ -539,9 +540,9 @@
         "fid": 49,
         "book": 2,
         "poi": 149,
-        "pages": 434,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 434
       },
       "geometry": null
     },
@@ -562,9 +563,9 @@
         "fid": 51,
         "book": 8,
         "poi": 149,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -574,9 +575,9 @@
         "fid": 52,
         "book": 2,
         "poi": 208,
-        "pages": 450,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 450
       },
       "geometry": null
     },
@@ -652,9 +653,9 @@
         "fid": 59,
         "book": 2,
         "poi": 1462,
-        "pages": 450,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 450
       },
       "geometry": null
     },
@@ -697,9 +698,9 @@
         "fid": 63,
         "book": 2,
         "poi": 1460,
-        "pages": 450,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 450
       },
       "geometry": null
     },
@@ -709,9 +710,9 @@
         "fid": 64,
         "book": 8,
         "poi": 1460,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -765,9 +766,9 @@
         "fid": 69,
         "book": 1,
         "poi": 10,
-        "pages": 43,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 43
       },
       "geometry": null
     },
@@ -777,9 +778,9 @@
         "fid": 70,
         "book": 1,
         "poi": 11,
-        "pages": 41,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 41
       },
       "geometry": null
     },
@@ -811,9 +812,9 @@
         "fid": 73,
         "book": 1,
         "poi": 48,
-        "pages": 40,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 40
       },
       "geometry": null
     },
@@ -922,9 +923,9 @@
         "fid": 83,
         "book": 1,
         "poi": 65,
-        "pages": 55,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 55
       },
       "geometry": null
     },
@@ -989,9 +990,9 @@
         "fid": 89,
         "book": 1,
         "poi": 63,
-        "pages": 51,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 51
       },
       "geometry": null
     },
@@ -1001,9 +1002,9 @@
         "fid": 90,
         "book": 1,
         "poi": 64,
-        "pages": 53,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 53
       },
       "geometry": null
     },
@@ -1024,9 +1025,9 @@
         "fid": 92,
         "book": 2,
         "poi": 145,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -1047,9 +1048,9 @@
         "fid": 94,
         "book": 8,
         "poi": 145,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -1180,9 +1181,9 @@
         "fid": 106,
         "book": 1,
         "poi": 45,
-        "pages": 45,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 45
       },
       "geometry": null
     },
@@ -1302,9 +1303,9 @@
         "fid": 117,
         "book": 2,
         "poi": 1451,
-        "pages": 448,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 448
       },
       "geometry": null
     },
@@ -1314,9 +1315,9 @@
         "fid": 118,
         "book": 8,
         "poi": 1451,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -1326,9 +1327,9 @@
         "fid": 119,
         "book": 2,
         "poi": 1480,
-        "pages": 456,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 456
       },
       "geometry": null
     },
@@ -1338,9 +1339,9 @@
         "fid": 120,
         "book": 2,
         "poi": 1488,
-        "pages": 460,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 460
       },
       "geometry": null
     },
@@ -1350,9 +1351,9 @@
         "fid": 121,
         "book": 8,
         "poi": 1488,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -1362,9 +1363,9 @@
         "fid": 122,
         "book": 2,
         "poi": 1491,
-        "pages": 462,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 462
       },
       "geometry": null
     },
@@ -1374,9 +1375,9 @@
         "fid": 123,
         "book": 2,
         "poi": 1508,
-        "pages": 466,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 466
       },
       "geometry": null
     },
@@ -1386,9 +1387,9 @@
         "fid": 124,
         "book": 8,
         "poi": 1508,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -1486,9 +1487,9 @@
         "fid": 133,
         "book": 1,
         "poi": 5,
-        "pages": 26,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 26
       },
       "geometry": null
     },
@@ -1674,9 +1675,9 @@
         "fid": 150,
         "book": 2,
         "poi": 154,
-        "pages": 438,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 438
       },
       "geometry": null
     },
@@ -1697,9 +1698,9 @@
         "fid": 152,
         "book": 2,
         "poi": 165,
-        "pages": 452,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 452
       },
       "geometry": null
     },
@@ -1720,9 +1721,9 @@
         "fid": 154,
         "book": 8,
         "poi": 165,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -1732,9 +1733,9 @@
         "fid": 155,
         "book": 2,
         "poi": 174,
-        "pages": 460,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 460
       },
       "geometry": null
     },
@@ -1755,9 +1756,9 @@
         "fid": 157,
         "book": 8,
         "poi": 174,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -1778,9 +1779,9 @@
         "fid": 159,
         "book": 2,
         "poi": 237,
-        "pages": 489,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 489
       },
       "geometry": null
     },
@@ -1801,9 +1802,9 @@
         "fid": 161,
         "book": 1,
         "poi": 2,
-        "pages": 29,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 29
       },
       "geometry": null
     },
@@ -1824,9 +1825,9 @@
         "fid": 163,
         "book": 1,
         "poi": 4,
-        "pages": 24,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 24
       },
       "geometry": null
     },
@@ -2023,9 +2024,9 @@
         "fid": 181,
         "book": 2,
         "poi": 1573,
-        "pages": 486,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 486
       },
       "geometry": null
     },
@@ -2101,9 +2102,9 @@
         "fid": 188,
         "book": 1,
         "poi": 17,
-        "pages": 47,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 47
       },
       "geometry": null
     },
@@ -2124,9 +2125,9 @@
         "fid": 190,
         "book": 1,
         "poi": 19,
-        "pages": 58,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 58
       },
       "geometry": null
     },
@@ -2653,9 +2654,9 @@
         "fid": 238,
         "book": 2,
         "poi": 158,
-        "pages": 444,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 444
       },
       "geometry": null
     },
@@ -2676,9 +2677,9 @@
         "fid": 240,
         "book": 8,
         "poi": 158,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -2732,9 +2733,9 @@
         "fid": 245,
         "book": 1,
         "poi": 35,
-        "pages": 49,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 49
       },
       "geometry": null
     },
@@ -2810,9 +2811,9 @@
         "fid": 252,
         "book": 2,
         "poi": 238,
-        "pages": 489,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 489
       },
       "geometry": null
     },
@@ -2910,9 +2911,9 @@
         "fid": 261,
         "book": 2,
         "poi": 1422,
-        "pages": 436,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 436
       },
       "geometry": null
     },
@@ -2922,9 +2923,9 @@
         "fid": 262,
         "book": 2,
         "poi": 1566,
-        "pages": 484,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 484
       },
       "geometry": null
     },
@@ -2934,9 +2935,9 @@
         "fid": 263,
         "book": 2,
         "poi": 1572,
-        "pages": 486,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 486
       },
       "geometry": null
     },
@@ -2946,9 +2947,9 @@
         "fid": 264,
         "book": 2,
         "poi": 1525,
-        "pages": 468,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 468
       },
       "geometry": null
     },
@@ -2958,9 +2959,9 @@
         "fid": 265,
         "book": 2,
         "poi": 1458,
-        "pages": 450,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 450
       },
       "geometry": null
     },
@@ -2970,9 +2971,9 @@
         "fid": 266,
         "book": 8,
         "poi": 1458,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -2982,9 +2983,9 @@
         "fid": 267,
         "book": 2,
         "poi": 1473,
-        "pages": 454,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 454
       },
       "geometry": null
     },
@@ -2994,9 +2995,9 @@
         "fid": 268,
         "book": 8,
         "poi": 1473,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -3006,9 +3007,9 @@
         "fid": 269,
         "book": 2,
         "poi": 1475,
-        "pages": 454,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 454
       },
       "geometry": null
     },
@@ -3018,9 +3019,9 @@
         "fid": 270,
         "book": 8,
         "poi": 1475,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -3030,9 +3031,9 @@
         "fid": 271,
         "book": 2,
         "poi": 1486,
-        "pages": 458,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 458
       },
       "geometry": null
     },
@@ -3053,9 +3054,9 @@
         "fid": 273,
         "book": 2,
         "poi": 1517,
-        "pages": 468,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 468
       },
       "geometry": null
     },
@@ -3065,9 +3066,9 @@
         "fid": 274,
         "book": 2,
         "poi": 1512,
-        "pages": 466,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 466
       },
       "geometry": null
     },
@@ -3077,9 +3078,9 @@
         "fid": 275,
         "book": 2,
         "poi": 1513,
-        "pages": 466,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 466
       },
       "geometry": null
     },
@@ -3089,9 +3090,9 @@
         "fid": 276,
         "book": 2,
         "poi": 1518,
-        "pages": 468,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 468
       },
       "geometry": null
     },
@@ -3112,9 +3113,9 @@
         "fid": 278,
         "book": 1,
         "poi": 25,
-        "pages": 37,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 37
       },
       "geometry": null
     },
@@ -3124,9 +3125,9 @@
         "fid": 279,
         "book": 1,
         "poi": 26,
-        "pages": 35,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 35
       },
       "geometry": null
     },
@@ -3147,9 +3148,9 @@
         "fid": 281,
         "book": 1,
         "poi": 28,
-        "pages": 32,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 32
       },
       "geometry": null
     },
@@ -3203,9 +3204,9 @@
         "fid": 286,
         "book": 2,
         "poi": 1570,
-        "pages": 486,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 486
       },
       "geometry": null
     },
@@ -3215,9 +3216,9 @@
         "fid": 287,
         "book": 2,
         "poi": 1409,
-        "pages": 434,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 434
       },
       "geometry": null
     },
@@ -3227,9 +3228,9 @@
         "fid": 288,
         "book": 8,
         "poi": 1409,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -3239,9 +3240,9 @@
         "fid": 289,
         "book": 2,
         "poi": 1463,
-        "pages": 450,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 450
       },
       "geometry": null
     },
@@ -3251,9 +3252,9 @@
         "fid": 290,
         "book": 2,
         "poi": 1465,
-        "pages": 452,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 452
       },
       "geometry": null
     },
@@ -3263,9 +3264,9 @@
         "fid": 291,
         "book": 2,
         "poi": 1467,
-        "pages": 452,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 452
       },
       "geometry": null
     },
@@ -3286,9 +3287,9 @@
         "fid": 293,
         "book": 8,
         "poi": 1499,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -3331,9 +3332,9 @@
         "fid": 297,
         "book": 2,
         "poi": 1415,
-        "pages": 434,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 434
       },
       "geometry": null
     },
@@ -3354,9 +3355,9 @@
         "fid": 299,
         "book": 2,
         "poi": 1435,
-        "pages": 442,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 442
       },
       "geometry": null
     },
@@ -3366,9 +3367,9 @@
         "fid": 300,
         "book": 2,
         "poi": 1454,
-        "pages": 448,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 448
       },
       "geometry": null
     },
@@ -3378,9 +3379,9 @@
         "fid": 301,
         "book": 8,
         "poi": 1454,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -3390,9 +3391,9 @@
         "fid": 302,
         "book": 2,
         "poi": 1496,
-        "pages": 462,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 462
       },
       "geometry": null
     },
@@ -3402,9 +3403,9 @@
         "fid": 303,
         "book": 2,
         "poi": 1440,
-        "pages": 444,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 444
       },
       "geometry": null
     },
@@ -3414,9 +3415,9 @@
         "fid": 304,
         "book": 2,
         "poi": 1489,
-        "pages": 460,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 460
       },
       "geometry": null
     },
@@ -3426,9 +3427,9 @@
         "fid": 305,
         "book": 2,
         "poi": 1515,
-        "pages": 466,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 466
       },
       "geometry": null
     },
@@ -3438,9 +3439,9 @@
         "fid": 306,
         "book": 2,
         "poi": 1571,
-        "pages": 486,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 486
       },
       "geometry": null
     },
@@ -3472,9 +3473,9 @@
         "fid": 309,
         "book": 2,
         "poi": 147,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -3495,9 +3496,9 @@
         "fid": 311,
         "book": 8,
         "poi": 147,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -3507,9 +3508,9 @@
         "fid": 312,
         "book": 2,
         "poi": 148,
-        "pages": 434,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 434
       },
       "geometry": null
     },
@@ -3530,9 +3531,9 @@
         "fid": 314,
         "book": 8,
         "poi": 148,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -3553,9 +3554,9 @@
         "fid": 316,
         "book": 2,
         "poi": 151,
-        "pages": 436,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 436
       },
       "geometry": null
     },
@@ -3576,9 +3577,9 @@
         "fid": 318,
         "book": 8,
         "poi": 151,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -3599,9 +3600,9 @@
         "fid": 320,
         "book": 8,
         "poi": 152,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -3611,9 +3612,9 @@
         "fid": 321,
         "book": 2,
         "poi": 153,
-        "pages": 438,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 438
       },
       "geometry": null
     },
@@ -3634,9 +3635,9 @@
         "fid": 323,
         "book": 8,
         "poi": 153,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -3646,9 +3647,9 @@
         "fid": 324,
         "book": 2,
         "poi": 155,
-        "pages": 440,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 440
       },
       "geometry": null
     },
@@ -3669,9 +3670,9 @@
         "fid": 326,
         "book": 2,
         "poi": 156,
-        "pages": 440,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 440
       },
       "geometry": null
     },
@@ -3692,9 +3693,9 @@
         "fid": 328,
         "book": 8,
         "poi": 156,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -3704,9 +3705,9 @@
         "fid": 329,
         "book": 2,
         "poi": 157,
-        "pages": 442,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 442
       },
       "geometry": null
     },
@@ -3727,9 +3728,9 @@
         "fid": 331,
         "book": 2,
         "poi": 159,
-        "pages": 444,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 444
       },
       "geometry": null
     },
@@ -3761,9 +3762,9 @@
         "fid": 334,
         "book": 2,
         "poi": 161,
-        "pages": 446,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 446
       },
       "geometry": null
     },
@@ -3784,9 +3785,9 @@
         "fid": 336,
         "book": 8,
         "poi": 161,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -3807,9 +3808,9 @@
         "fid": 338,
         "book": 8,
         "poi": 162,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -3819,9 +3820,9 @@
         "fid": 339,
         "book": 2,
         "poi": 163,
-        "pages": 448,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 448
       },
       "geometry": null
     },
@@ -3853,9 +3854,9 @@
         "fid": 342,
         "book": 2,
         "poi": 166,
-        "pages": 452,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 452
       },
       "geometry": null
     },
@@ -3876,9 +3877,9 @@
         "fid": 344,
         "book": 8,
         "poi": 166,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -3888,9 +3889,9 @@
         "fid": 345,
         "book": 2,
         "poi": 167,
-        "pages": 456,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 456
       },
       "geometry": null
     },
@@ -3911,9 +3912,9 @@
         "fid": 347,
         "book": 2,
         "poi": 168,
-        "pages": 458,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 458
       },
       "geometry": null
     },
@@ -3934,9 +3935,9 @@
         "fid": 349,
         "book": 2,
         "poi": 169,
-        "pages": 458,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 458
       },
       "geometry": null
     },
@@ -3968,9 +3969,9 @@
         "fid": 352,
         "book": 2,
         "poi": 171,
-        "pages": 460,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 460
       },
       "geometry": null
     },
@@ -3991,9 +3992,9 @@
         "fid": 354,
         "book": 2,
         "poi": 172,
-        "pages": 460,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 460
       },
       "geometry": null
     },
@@ -4014,9 +4015,9 @@
         "fid": 356,
         "book": 2,
         "poi": 173,
-        "pages": 460,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 460
       },
       "geometry": null
     },
@@ -4037,9 +4038,9 @@
         "fid": 358,
         "book": 2,
         "poi": 175,
-        "pages": 462,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 462
       },
       "geometry": null
     },
@@ -4060,9 +4061,9 @@
         "fid": 360,
         "book": 8,
         "poi": 175,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -4094,9 +4095,9 @@
         "fid": 363,
         "book": 2,
         "poi": 483,
-        "pages": 452,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 452
       },
       "geometry": null
     },
@@ -4117,9 +4118,9 @@
         "fid": 365,
         "book": 2,
         "poi": 484,
-        "pages": 462,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 462
       },
       "geometry": null
     },
@@ -4140,9 +4141,9 @@
         "fid": 367,
         "book": 2,
         "poi": 487,
-        "pages": 466,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 466
       },
       "geometry": null
     },
@@ -4174,9 +4175,9 @@
         "fid": 370,
         "book": 2,
         "poi": 1011,
-        "pages": 438,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 438
       },
       "geometry": null
     },
@@ -4197,9 +4198,9 @@
         "fid": 372,
         "book": 8,
         "poi": 1011,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -4209,9 +4210,9 @@
         "fid": 373,
         "book": 2,
         "poi": 1128,
-        "pages": 434,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 434
       },
       "geometry": null
     },
@@ -4232,9 +4233,9 @@
         "fid": 375,
         "book": 8,
         "poi": 1128,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -4244,9 +4245,9 @@
         "fid": 376,
         "book": 2,
         "poi": 1444,
-        "pages": 446,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 446
       },
       "geometry": null
     },
@@ -4256,9 +4257,9 @@
         "fid": 377,
         "book": 2,
         "poi": 239,
-        "pages": 489,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 489
       },
       "geometry": null
     },
@@ -4279,9 +4280,9 @@
         "fid": 379,
         "book": 2,
         "poi": 1405,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -4291,9 +4292,9 @@
         "fid": 380,
         "book": 2,
         "poi": 1522,
-        "pages": 468,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 468
       },
       "geometry": null
     },
@@ -4303,9 +4304,9 @@
         "fid": 381,
         "book": 2,
         "poi": 1441,
-        "pages": 444,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 444
       },
       "geometry": null
     },
@@ -4315,9 +4316,9 @@
         "fid": 382,
         "book": 8,
         "poi": 1441,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -4327,9 +4328,9 @@
         "fid": 383,
         "book": 2,
         "poi": 1524,
-        "pages": 468,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 468
       },
       "geometry": null
     },
@@ -4339,9 +4340,9 @@
         "fid": 384,
         "book": 2,
         "poi": 1523,
-        "pages": 468,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 468
       },
       "geometry": null
     },
@@ -4351,9 +4352,9 @@
         "fid": 385,
         "book": 2,
         "poi": 1479,
-        "pages": 456,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 456
       },
       "geometry": null
     },
@@ -4363,9 +4364,9 @@
         "fid": 386,
         "book": 8,
         "poi": 1479,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -4386,9 +4387,9 @@
         "fid": 388,
         "book": 2,
         "poi": 332,
-        "pages": 444,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 444
       },
       "geometry": null
     },
@@ -4409,9 +4410,9 @@
         "fid": 390,
         "book": 2,
         "poi": 333,
-        "pages": 444,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 444
       },
       "geometry": null
     },
@@ -4432,9 +4433,9 @@
         "fid": 392,
         "book": 2,
         "poi": 334,
-        "pages": 450,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 450
       },
       "geometry": null
     },
@@ -5115,9 +5116,9 @@
         "fid": 454,
         "book": 2,
         "poi": 336,
-        "pages": 456,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 456
       },
       "geometry": null
     },
@@ -5138,9 +5139,9 @@
         "fid": 456,
         "book": 8,
         "poi": 336,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -5436,9 +5437,9 @@
         "fid": 483,
         "book": 2,
         "poi": 1504,
-        "pages": 464,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 464
       },
       "geometry": null
     },
@@ -5448,9 +5449,9 @@
         "fid": 484,
         "book": 2,
         "poi": 1569,
-        "pages": 484,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 484
       },
       "geometry": null
     },
@@ -5460,9 +5461,9 @@
         "fid": 485,
         "book": 1,
         "poi": 1589,
-        "pages": 64,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 64
       },
       "geometry": null
     },
@@ -5472,9 +5473,9 @@
         "fid": 486,
         "book": 1,
         "poi": 1590,
-        "pages": 66,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 66
       },
       "geometry": null
     },
@@ -5484,9 +5485,9 @@
         "fid": 487,
         "book": 1,
         "poi": 1594,
-        "pages": 71,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 71
       },
       "geometry": null
     },
@@ -5496,9 +5497,9 @@
         "fid": 488,
         "book": 1,
         "poi": 1591,
-        "pages": 67,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 67
       },
       "geometry": null
     },
@@ -5519,9 +5520,9 @@
         "fid": 490,
         "book": 1,
         "poi": 1593,
-        "pages": 69,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 69
       },
       "geometry": null
     },
@@ -5531,9 +5532,9 @@
         "fid": 491,
         "book": 1,
         "poi": 1588,
-        "pages": 61,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 61
       },
       "geometry": null
     },
@@ -5642,9 +5643,9 @@
         "fid": 501,
         "book": 2,
         "poi": 374,
-        "pages": 490,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 490
       },
       "geometry": null
     },
@@ -5665,9 +5666,9 @@
         "fid": 503,
         "book": 1,
         "poi": 1587,
-        "pages": 59,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 59
       },
       "geometry": null
     },
@@ -5798,9 +5799,9 @@
         "fid": 515,
         "book": 2,
         "poi": 280,
-        "pages": 490,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 490
       },
       "geometry": null
     },
@@ -5821,9 +5822,9 @@
         "fid": 517,
         "book": 8,
         "poi": 280,
-        "pages": 771,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 771
       },
       "geometry": null
     },
@@ -5833,9 +5834,9 @@
         "fid": 518,
         "book": 2,
         "poi": 1137,
-        "pages": 458,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 458
       },
       "geometry": null
     },
@@ -5856,9 +5857,9 @@
         "fid": 520,
         "book": 8,
         "poi": 1137,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -5912,9 +5913,9 @@
         "fid": 525,
         "book": 2,
         "poi": 330,
-        "pages": 436,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 436
       },
       "geometry": null
     },
@@ -6045,9 +6046,9 @@
         "fid": 537,
         "book": 2,
         "poi": 372,
-        "pages": 490,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 490
       },
       "geometry": null
     },
@@ -6068,9 +6069,9 @@
         "fid": 539,
         "book": 8,
         "poi": 372,
-        "pages": 772,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 772
       },
       "geometry": null
     },
@@ -6333,9 +6334,9 @@
         "fid": 563,
         "book": 2,
         "poi": 1153,
-        "pages": 491,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 491
       },
       "geometry": null
     },
@@ -6356,9 +6357,9 @@
         "fid": 565,
         "book": 2,
         "poi": 1154,
-        "pages": 491,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 491
       },
       "geometry": null
     },
@@ -6390,9 +6391,9 @@
         "fid": 568,
         "book": 1,
         "poi": 1085,
-        "pages": 74,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 74
       },
       "geometry": null
     },
@@ -6424,9 +6425,9 @@
         "fid": 571,
         "book": 2,
         "poi": 1152,
-        "pages": 491,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 491
       },
       "geometry": null
     },
@@ -6447,9 +6448,9 @@
         "fid": 573,
         "book": 8,
         "poi": 1152,
-        "pages": 777,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 777
       },
       "geometry": null
     },
@@ -6591,9 +6592,9 @@
         "fid": 586,
         "book": 8,
         "poi": 1134,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -6603,9 +6604,9 @@
         "fid": 587,
         "book": 2,
         "poi": 1135,
-        "pages": 460,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 460
       },
       "geometry": null
     },
@@ -6637,9 +6638,9 @@
         "fid": 590,
         "book": 8,
         "poi": 1136,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -6891,9 +6892,9 @@
         "fid": 613,
         "book": 2,
         "poi": 1156,
-        "pages": 491,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 491
       },
       "geometry": null
     },
@@ -6914,9 +6915,9 @@
         "fid": 615,
         "book": 2,
         "poi": 1155,
-        "pages": 491,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 491
       },
       "geometry": null
     },
@@ -7102,9 +7103,9 @@
         "fid": 632,
         "book": 2,
         "poi": 1366,
-        "pages": 493,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 493
       },
       "geometry": null
     },
@@ -7148,7 +7149,8 @@
         "book": 7,
         "poi": 1178,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 7
       },
       "geometry": null
     },
@@ -7159,7 +7161,8 @@
         "book": 7,
         "poi": 1219,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 24
       },
       "geometry": null
     },
@@ -7323,9 +7326,9 @@
         "fid": 652,
         "book": 2,
         "poi": 1157,
-        "pages": 491,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 491
       },
       "geometry": null
     },
@@ -7346,9 +7349,9 @@
         "fid": 654,
         "book": 8,
         "poi": 1157,
-        "pages": 772,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 772
       },
       "geometry": null
     },
@@ -7380,9 +7383,9 @@
         "fid": 657,
         "book": 8,
         "poi": 1453,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -7436,9 +7439,9 @@
         "fid": 662,
         "book": 8,
         "poi": 1421,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -7448,9 +7451,9 @@
         "fid": 663,
         "book": 2,
         "poi": 1129,
-        "pages": 438,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 438
       },
       "geometry": null
     },
@@ -7471,9 +7474,9 @@
         "fid": 665,
         "book": 8,
         "poi": 1129,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -7494,9 +7497,9 @@
         "fid": 667,
         "book": 2,
         "poi": 1131,
-        "pages": 450,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 450
       },
       "geometry": null
     },
@@ -7517,9 +7520,9 @@
         "fid": 669,
         "book": 8,
         "poi": 1131,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -7529,9 +7532,9 @@
         "fid": 670,
         "book": 2,
         "poi": 1132,
-        "pages": 452,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 452
       },
       "geometry": null
     },
@@ -7552,9 +7555,9 @@
         "fid": 672,
         "book": 8,
         "poi": 1132,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -7564,9 +7567,9 @@
         "fid": 673,
         "book": 2,
         "poi": 1133,
-        "pages": 458,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 458
       },
       "geometry": null
     },
@@ -7609,9 +7612,9 @@
         "fid": 677,
         "book": 1,
         "poi": 1606,
-        "pages": 85,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 85
       },
       "geometry": null
     },
@@ -7753,9 +7756,9 @@
         "fid": 690,
         "book": 1,
         "poi": 1607,
-        "pages": 89,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 89
       },
       "geometry": null
     },
@@ -7787,9 +7790,9 @@
         "fid": 693,
         "book": 2,
         "poi": 1158,
-        "pages": 491,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 491
       },
       "geometry": null
     },
@@ -7810,9 +7813,9 @@
         "fid": 695,
         "book": 8,
         "poi": 1158,
-        "pages": 772,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 772
       },
       "geometry": null
     },
@@ -7822,9 +7825,9 @@
         "fid": 696,
         "book": 2,
         "poi": 1159,
-        "pages": 491,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 491
       },
       "geometry": null
     },
@@ -7845,9 +7848,9 @@
         "fid": 698,
         "book": 1,
         "poi": 1411,
-        "pages": 78,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 78
       },
       "geometry": null
     },
@@ -7890,9 +7893,9 @@
         "fid": 702,
         "book": 1,
         "poi": 1603,
-        "pages": 83,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 83
       },
       "geometry": null
     },
@@ -7902,9 +7905,9 @@
         "fid": 703,
         "book": 1,
         "poi": 1604,
-        "pages": 79,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 79
       },
       "geometry": null
     },
@@ -7925,9 +7928,9 @@
         "fid": 705,
         "book": 2,
         "poi": 1602,
-        "pages": 434,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 434
       },
       "geometry": null
     },
@@ -7937,9 +7940,9 @@
         "fid": 706,
         "book": 2,
         "poi": 1536,
-        "pages": 472,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 472
       },
       "geometry": null
     },
@@ -7949,9 +7952,9 @@
         "fid": 707,
         "book": 2,
         "poi": 1537,
-        "pages": 472,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 472
       },
       "geometry": null
     },
@@ -7961,9 +7964,9 @@
         "fid": 708,
         "book": 2,
         "poi": 1538,
-        "pages": 472,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 472
       },
       "geometry": null
     },
@@ -7973,9 +7976,9 @@
         "fid": 709,
         "book": 2,
         "poi": 1539,
-        "pages": 472,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 472
       },
       "geometry": null
     },
@@ -7985,9 +7988,9 @@
         "fid": 710,
         "book": 2,
         "poi": 1540,
-        "pages": 472,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 472
       },
       "geometry": null
     },
@@ -7997,9 +8000,9 @@
         "fid": 711,
         "book": 2,
         "poi": 1433,
-        "pages": 442,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 442
       },
       "geometry": null
     },
@@ -8009,9 +8012,9 @@
         "fid": 712,
         "book": 2,
         "poi": 1457,
-        "pages": 448,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 448
       },
       "geometry": null
     },
@@ -8021,9 +8024,9 @@
         "fid": 713,
         "book": 8,
         "poi": 1457,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -8033,9 +8036,9 @@
         "fid": 714,
         "book": 2,
         "poi": 1456,
-        "pages": 448,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 448
       },
       "geometry": null
     },
@@ -8045,9 +8048,9 @@
         "fid": 715,
         "book": 8,
         "poi": 1456,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -8057,9 +8060,9 @@
         "fid": 716,
         "book": 2,
         "poi": 1535,
-        "pages": 470,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 470
       },
       "geometry": null
     },
@@ -8069,9 +8072,9 @@
         "fid": 717,
         "book": 2,
         "poi": 1437,
-        "pages": 442,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 442
       },
       "geometry": null
     },
@@ -8081,9 +8084,9 @@
         "fid": 718,
         "book": 2,
         "poi": 1544,
-        "pages": 472,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 472
       },
       "geometry": null
     },
@@ -8093,9 +8096,9 @@
         "fid": 719,
         "book": 2,
         "poi": 1541,
-        "pages": 472,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 472
       },
       "geometry": null
     },
@@ -8105,9 +8108,9 @@
         "fid": 720,
         "book": 2,
         "poi": 1485,
-        "pages": 458,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 458
       },
       "geometry": null
     },
@@ -8117,9 +8120,9 @@
         "fid": 721,
         "book": 2,
         "poi": 1403,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -8129,9 +8132,9 @@
         "fid": 722,
         "book": 2,
         "poi": 1404,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -8141,9 +8144,9 @@
         "fid": 723,
         "book": 2,
         "poi": 1406,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -8153,9 +8156,9 @@
         "fid": 724,
         "book": 2,
         "poi": 1464,
-        "pages": 452,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 452
       },
       "geometry": null
     },
@@ -8165,9 +8168,9 @@
         "fid": 725,
         "book": 2,
         "poi": 1542,
-        "pages": 472,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 472
       },
       "geometry": null
     },
@@ -8177,9 +8180,9 @@
         "fid": 726,
         "book": 2,
         "poi": 1543,
-        "pages": 472,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 472
       },
       "geometry": null
     },
@@ -8189,9 +8192,9 @@
         "fid": 727,
         "book": 2,
         "poi": 1438,
-        "pages": 442,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 442
       },
       "geometry": null
     },
@@ -8201,9 +8204,9 @@
         "fid": 728,
         "book": 2,
         "poi": 1507,
-        "pages": 466,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 466
       },
       "geometry": null
     },
@@ -8213,9 +8216,9 @@
         "fid": 729,
         "book": 2,
         "poi": 1510,
-        "pages": 466,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 466
       },
       "geometry": null
     },
@@ -8226,7 +8229,8 @@
         "book": 7,
         "poi": 1235,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 27
       },
       "geometry": null
     },
@@ -8237,7 +8241,8 @@
         "book": 7,
         "poi": 1184,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 9
       },
       "geometry": null
     },
@@ -8247,9 +8252,9 @@
         "fid": 732,
         "book": 2,
         "poi": 1332,
-        "pages": 440,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 440
       },
       "geometry": null
     },
@@ -8270,9 +8275,9 @@
         "fid": 734,
         "book": 8,
         "poi": 1332,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -8294,7 +8299,8 @@
         "book": 7,
         "poi": 1314,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 59
       },
       "geometry": null
     },
@@ -8304,9 +8310,9 @@
         "fid": 737,
         "book": 2,
         "poi": 1340,
-        "pages": 450,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 450
       },
       "geometry": null
     },
@@ -8327,9 +8333,9 @@
         "fid": 739,
         "book": 8,
         "poi": 1340,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -8339,9 +8345,9 @@
         "fid": 740,
         "book": 2,
         "poi": 1333,
-        "pages": 442,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 442
       },
       "geometry": null
     },
@@ -8362,9 +8368,9 @@
         "fid": 742,
         "book": 8,
         "poi": 1333,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -8385,9 +8391,9 @@
         "fid": 744,
         "book": 8,
         "poi": 1338,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -8408,9 +8414,9 @@
         "fid": 746,
         "book": 8,
         "poi": 1339,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -8421,7 +8427,8 @@
         "book": 7,
         "poi": 1275,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 39
       },
       "geometry": null
     },
@@ -8476,7 +8483,8 @@
         "book": 7,
         "poi": 1224,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 25
       },
       "geometry": null
     },
@@ -8487,7 +8495,8 @@
         "book": 7,
         "poi": 1223,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 25
       },
       "geometry": null
     },
@@ -8509,7 +8518,8 @@
         "book": 7,
         "poi": 1183,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 8
       },
       "geometry": null
     },
@@ -8542,7 +8552,8 @@
         "book": 7,
         "poi": 1326,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 57
       },
       "geometry": null
     },
@@ -8553,7 +8564,8 @@
         "book": 7,
         "poi": 1225,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 26
       },
       "geometry": null
     },
@@ -8575,7 +8587,8 @@
         "book": 7,
         "poi": 1233,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 27
       },
       "geometry": null
     },
@@ -8586,7 +8599,8 @@
         "book": 7,
         "poi": 1234,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 27
       },
       "geometry": null
     },
@@ -8597,7 +8611,8 @@
         "book": 7,
         "poi": 1189,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 10
       },
       "geometry": null
     },
@@ -8608,7 +8623,8 @@
         "book": 7,
         "poi": 1278,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 40
       },
       "geometry": null
     },
@@ -8619,7 +8635,8 @@
         "book": 7,
         "poi": 1279,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 40
       },
       "geometry": null
     },
@@ -8630,7 +8647,8 @@
         "book": 7,
         "poi": 1281,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 41
       },
       "geometry": null
     },
@@ -8641,7 +8659,8 @@
         "book": 7,
         "poi": 1282,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 40
       },
       "geometry": null
     },
@@ -8652,7 +8671,8 @@
         "book": 7,
         "poi": 1283,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 41
       },
       "geometry": null
     },
@@ -8663,7 +8683,8 @@
         "book": 7,
         "poi": 1284,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 41
       },
       "geometry": null
     },
@@ -8674,7 +8695,8 @@
         "book": 7,
         "poi": 1285,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 41
       },
       "geometry": null
     },
@@ -8685,7 +8707,8 @@
         "book": 7,
         "poi": 1280,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 40
       },
       "geometry": null
     },
@@ -8695,9 +8718,9 @@
         "fid": 772,
         "book": 1,
         "poi": 1619,
-        "pages": 107,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 107
       },
       "geometry": null
     },
@@ -8707,9 +8730,9 @@
         "fid": 773,
         "book": 2,
         "poi": 1574,
-        "pages": 494,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 494
       },
       "geometry": null
     },
@@ -8720,7 +8743,8 @@
         "book": 7,
         "poi": 1229,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 26
       },
       "geometry": null
     },
@@ -8731,7 +8755,8 @@
         "book": 7,
         "poi": 1230,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 26
       },
       "geometry": null
     },
@@ -8742,7 +8767,8 @@
         "book": 7,
         "poi": 1231,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 27
       },
       "geometry": null
     },
@@ -8753,7 +8779,8 @@
         "book": 7,
         "poi": 1232,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 27
       },
       "geometry": null
     },
@@ -8764,7 +8791,8 @@
         "book": 7,
         "poi": 1163,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 4
       },
       "geometry": null
     },
@@ -8775,7 +8803,8 @@
         "book": 7,
         "poi": 1162,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 4
       },
       "geometry": null
     },
@@ -8786,7 +8815,8 @@
         "book": 7,
         "poi": 1164,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 4
       },
       "geometry": null
     },
@@ -8797,7 +8827,8 @@
         "book": 7,
         "poi": 1165,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 5
       },
       "geometry": null
     },
@@ -8807,9 +8838,9 @@
         "fid": 782,
         "book": 1,
         "poi": 1612,
-        "pages": 97,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 97
       },
       "geometry": null
     },
@@ -8819,9 +8850,9 @@
         "fid": 783,
         "book": 1,
         "poi": 1613,
-        "pages": 98,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 98
       },
       "geometry": null
     },
@@ -8831,9 +8862,9 @@
         "fid": 784,
         "book": 1,
         "poi": 1614,
-        "pages": 99,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 99
       },
       "geometry": null
     },
@@ -8843,9 +8874,9 @@
         "fid": 785,
         "book": 1,
         "poi": 1615,
-        "pages": 101,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 101
       },
       "geometry": null
     },
@@ -8867,7 +8898,8 @@
         "book": 7,
         "poi": 1179,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 7
       },
       "geometry": null
     },
@@ -8878,7 +8910,8 @@
         "book": 7,
         "poi": 1180,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 7
       },
       "geometry": null
     },
@@ -8889,7 +8922,8 @@
         "book": 7,
         "poi": 1181,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 8
       },
       "geometry": null
     },
@@ -8900,7 +8934,8 @@
         "book": 7,
         "poi": 1274,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 39
       },
       "geometry": null
     },
@@ -8911,7 +8946,8 @@
         "book": 7,
         "poi": 1220,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 24
       },
       "geometry": null
     },
@@ -8976,9 +9012,9 @@
         "fid": 797,
         "book": 2,
         "poi": 1367,
-        "pages": 493,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 493
       },
       "geometry": null
     },
@@ -8989,7 +9025,8 @@
         "book": 7,
         "poi": 1367,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 65
       },
       "geometry": null
     },
@@ -9000,7 +9037,8 @@
         "book": 7,
         "poi": 1276,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 39
       },
       "geometry": null
     },
@@ -9011,7 +9049,8 @@
         "book": 7,
         "poi": 1221,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 24
       },
       "geometry": null
     },
@@ -9022,7 +9061,8 @@
         "book": 7,
         "poi": 1222,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 25
       },
       "geometry": null
     },
@@ -9044,7 +9084,8 @@
         "book": 7,
         "poi": 1277,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 40
       },
       "geometry": null
     },
@@ -9054,9 +9095,9 @@
         "fid": 804,
         "book": 2,
         "poi": 1218,
-        "pages": 493,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 493
       },
       "geometry": null
     },
@@ -9067,7 +9108,8 @@
         "book": 7,
         "poi": 1218,
         "description": "",
-        "note": ""
+        "note": "同本の道標条にも重複",
+        "pages": 24
       },
       "geometry": null
     },
@@ -9077,9 +9119,9 @@
         "fid": 806,
         "book": 8,
         "poi": 1218,
-        "pages": 773,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 773
       },
       "geometry": null
     },
@@ -9090,7 +9132,8 @@
         "book": 7,
         "poi": 1182,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 8
       },
       "geometry": null
     },
@@ -9101,7 +9144,8 @@
         "book": 7,
         "poi": 1161,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 4
       },
       "geometry": null
     },
@@ -9112,7 +9156,8 @@
         "book": 7,
         "poi": 1325,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 57
       },
       "geometry": null
     },
@@ -9134,7 +9179,8 @@
         "book": 7,
         "poi": 1385,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 73
       },
       "geometry": null
     },
@@ -9155,9 +9201,9 @@
         "fid": 813,
         "book": 1,
         "poi": 1618,
-        "pages": 105,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 105
       },
       "geometry": null
     },
@@ -9168,7 +9214,8 @@
         "book": 7,
         "poi": 1188,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 9
       },
       "geometry": null
     },
@@ -9179,42 +9226,8 @@
         "book": 7,
         "poi": 1272,
         "description": "",
-        "note": ""
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 816,
-        "book": 2,
-        "poi": 1365,
-        "pages": 493,
-        "description": "",
-        "note": ""
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 817,
-        "book": 7,
-        "poi": 1365,
-        "description": "",
-        "note": ""
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 818,
-        "book": 8,
-        "poi": 1365,
-        "pages": 773,
-        "description": "",
-        "note": ""
+        "note": "",
+        "page": 39
       },
       "geometry": null
     },
@@ -9225,7 +9238,8 @@
         "book": 7,
         "poi": 1160,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 4
       },
       "geometry": null
     },
@@ -9235,9 +9249,9 @@
         "fid": 820,
         "book": 2,
         "poi": 1364,
-        "pages": 495,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 495
       },
       "geometry": null
     },
@@ -9258,9 +9272,9 @@
         "fid": 822,
         "book": 8,
         "poi": 1364,
-        "pages": 773,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 773
       },
       "geometry": null
     },
@@ -9271,7 +9285,8 @@
         "book": 7,
         "poi": 1177,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 7
       },
       "geometry": null
     },
@@ -9282,7 +9297,8 @@
         "book": 7,
         "poi": 1214,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 22
       },
       "geometry": null
     },
@@ -9292,9 +9308,9 @@
         "fid": 825,
         "book": 2,
         "poi": 1215,
-        "pages": 495,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 495
       },
       "geometry": null
     },
@@ -9305,7 +9321,8 @@
         "book": 7,
         "poi": 1215,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 22
       },
       "geometry": null
     },
@@ -9316,7 +9333,8 @@
         "book": 7,
         "poi": 1216,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 23
       },
       "geometry": null
     },
@@ -9327,7 +9345,8 @@
         "book": 7,
         "poi": 1217,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 24
       },
       "geometry": null
     },
@@ -9360,7 +9379,8 @@
         "book": 7,
         "poi": 1176,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 6
       },
       "geometry": null
     },
@@ -9393,7 +9413,8 @@
         "book": 7,
         "poi": 1175,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 6
       },
       "geometry": null
     },
@@ -9415,7 +9436,8 @@
         "book": 7,
         "poi": 1265,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 37
       },
       "geometry": null
     },
@@ -9426,7 +9448,8 @@
         "book": 7,
         "poi": 1266,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 38
       },
       "geometry": null
     },
@@ -9437,7 +9460,8 @@
         "book": 7,
         "poi": 1267,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 38
       },
       "geometry": null
     },
@@ -9448,7 +9472,8 @@
         "book": 7,
         "poi": 1268,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 37
       },
       "geometry": null
     },
@@ -9459,7 +9484,8 @@
         "book": 7,
         "poi": 1269,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 38
       },
       "geometry": null
     },
@@ -9470,7 +9496,8 @@
         "book": 7,
         "poi": 1270,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 38
       },
       "geometry": null
     },
@@ -9481,7 +9508,8 @@
         "book": 7,
         "poi": 1271,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 38
       },
       "geometry": null
     },
@@ -9491,9 +9519,9 @@
         "fid": 843,
         "book": 1,
         "poi": 1608,
-        "pages": 91,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 91
       },
       "geometry": null
     },
@@ -9503,9 +9531,9 @@
         "fid": 844,
         "book": 1,
         "poi": 1610,
-        "pages": 95,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 95
       },
       "geometry": null
     },
@@ -9527,7 +9555,8 @@
         "book": 7,
         "poi": 1209,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 14
       },
       "geometry": null
     },
@@ -9538,7 +9567,8 @@
         "book": 7,
         "poi": 1253,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 31
       },
       "geometry": null
     },
@@ -9549,7 +9579,8 @@
         "book": 7,
         "poi": 1206,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 14
       },
       "geometry": null
     },
@@ -9560,7 +9591,8 @@
         "book": 7,
         "poi": 1207,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 14
       },
       "geometry": null
     },
@@ -9570,9 +9602,9 @@
         "fid": 850,
         "book": 2,
         "poi": 1330,
-        "pages": 438,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 438
       },
       "geometry": null
     },
@@ -9593,9 +9625,9 @@
         "fid": 852,
         "book": 8,
         "poi": 1330,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -9616,9 +9648,9 @@
         "fid": 854,
         "book": 8,
         "poi": 1331,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -9629,7 +9661,8 @@
         "book": 7,
         "poi": 1256,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 32
       },
       "geometry": null
     },
@@ -9640,7 +9673,8 @@
         "book": 7,
         "poi": 1257,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 32
       },
       "geometry": null
     },
@@ -9650,9 +9684,9 @@
         "fid": 857,
         "book": 1,
         "poi": 1633,
-        "pages": 131,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 131
       },
       "geometry": null
     },
@@ -9662,9 +9696,9 @@
         "fid": 858,
         "book": 1,
         "poi": 1634,
-        "pages": 134,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 134
       },
       "geometry": null
     },
@@ -9696,9 +9730,9 @@
         "fid": 861,
         "book": 1,
         "poi": 1637,
-        "pages": 137,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 137
       },
       "geometry": null
     },
@@ -9731,7 +9765,8 @@
         "book": 7,
         "poi": 1252,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 31
       },
       "geometry": null
     },
@@ -9741,9 +9776,9 @@
         "fid": 865,
         "book": 2,
         "poi": 1370,
-        "pages": 493,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 493
       },
       "geometry": null
     },
@@ -9764,9 +9799,9 @@
         "fid": 867,
         "book": 2,
         "poi": 1379,
-        "pages": 493,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 493
       },
       "geometry": null
     },
@@ -9777,7 +9812,8 @@
         "book": 7,
         "poi": 1379,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 71
       },
       "geometry": null
     },
@@ -9787,9 +9823,9 @@
         "fid": 869,
         "book": 8,
         "poi": 1379,
-        "pages": 773,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 773
       },
       "geometry": null
     },
@@ -9800,7 +9836,8 @@
         "book": 7,
         "poi": 1383,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 72
       },
       "geometry": null
     },
@@ -9811,7 +9848,8 @@
         "book": 7,
         "poi": 1384,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 72
       },
       "geometry": null
     },
@@ -9822,7 +9860,8 @@
         "book": 7,
         "poi": 1378,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 71
       },
       "geometry": null
     },
@@ -9833,7 +9872,8 @@
         "book": 7,
         "poi": 1203,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 13
       },
       "geometry": null
     },
@@ -9844,7 +9884,8 @@
         "book": 7,
         "poi": 1204,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 13
       },
       "geometry": null
     },
@@ -9855,7 +9896,8 @@
         "book": 7,
         "poi": 1205,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 13
       },
       "geometry": null
     },
@@ -9866,7 +9908,8 @@
         "book": 7,
         "poi": 1174,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 6
       },
       "geometry": null
     },
@@ -9877,7 +9920,8 @@
         "book": 7,
         "poi": 1248,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 30
       },
       "geometry": null
     },
@@ -9888,7 +9932,8 @@
         "book": 7,
         "poi": 1249,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 30
       },
       "geometry": null
     },
@@ -9899,7 +9944,8 @@
         "book": 7,
         "poi": 1250,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 30
       },
       "geometry": null
     },
@@ -9910,7 +9956,8 @@
         "book": 7,
         "poi": 1251,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 31
       },
       "geometry": null
     },
@@ -9921,7 +9968,8 @@
         "book": 7,
         "poi": 1293,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 43
       },
       "geometry": null
     },
@@ -9943,7 +9991,8 @@
         "book": 7,
         "poi": 1247,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 30
       },
       "geometry": null
     },
@@ -9954,7 +10003,8 @@
         "book": 7,
         "poi": 1246,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 30
       },
       "geometry": null
     },
@@ -9965,7 +10015,8 @@
         "book": 7,
         "poi": 1197,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 12
       },
       "geometry": null
     },
@@ -9976,7 +10027,8 @@
         "book": 7,
         "poi": 1292,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 43
       },
       "geometry": null
     },
@@ -9987,7 +10039,8 @@
         "book": 7,
         "poi": 1195,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 11
       },
       "geometry": null
     },
@@ -9998,7 +10051,8 @@
         "book": 7,
         "poi": 1196,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 12
       },
       "geometry": null
     },
@@ -10009,7 +10063,8 @@
         "book": 7,
         "poi": 1238,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 28
       },
       "geometry": null
     },
@@ -10020,7 +10075,8 @@
         "book": 7,
         "poi": 1239,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 28
       },
       "geometry": null
     },
@@ -10031,7 +10087,8 @@
         "book": 7,
         "poi": 1244,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 29
       },
       "geometry": null
     },
@@ -10042,7 +10099,8 @@
         "book": 7,
         "poi": 1327,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 58
       },
       "geometry": null
     },
@@ -10063,9 +10121,9 @@
         "fid": 894,
         "book": 1,
         "poi": 1631,
-        "pages": 127,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 127
       },
       "geometry": null
     },
@@ -10087,7 +10145,8 @@
         "book": 7,
         "poi": 1318,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 54
       },
       "geometry": null
     },
@@ -10098,7 +10157,8 @@
         "book": 7,
         "poi": 1240,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 28
       },
       "geometry": null
     },
@@ -10109,7 +10169,8 @@
         "book": 7,
         "poi": 1241,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 29
       },
       "geometry": null
     },
@@ -10120,7 +10181,8 @@
         "book": 7,
         "poi": 1242,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 29
       },
       "geometry": null
     },
@@ -10131,7 +10193,8 @@
         "book": 7,
         "poi": 1243,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 29
       },
       "geometry": null
     },
@@ -10142,7 +10205,8 @@
         "book": 7,
         "poi": 1286,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 42
       },
       "geometry": null
     },
@@ -10153,7 +10217,8 @@
         "book": 7,
         "poi": 1287,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 42
       },
       "geometry": null
     },
@@ -10197,7 +10262,8 @@
         "book": 7,
         "poi": 1245,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 29
       },
       "geometry": null
     },
@@ -10207,9 +10273,9 @@
         "fid": 907,
         "book": 1,
         "poi": 1620,
-        "pages": 109,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 109
       },
       "geometry": null
     },
@@ -10219,9 +10285,9 @@
         "fid": 908,
         "book": 1,
         "poi": 1621,
-        "pages": 112,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 112
       },
       "geometry": null
     },
@@ -10231,9 +10297,9 @@
         "fid": 909,
         "book": 1,
         "poi": 1622,
-        "pages": 114,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 114
       },
       "geometry": null
     },
@@ -10243,9 +10309,9 @@
         "fid": 910,
         "book": 1,
         "poi": 1623,
-        "pages": 116,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 116
       },
       "geometry": null
     },
@@ -10266,9 +10332,9 @@
         "fid": 912,
         "book": 1,
         "poi": 1625,
-        "pages": 120,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 120
       },
       "geometry": null
     },
@@ -10300,9 +10366,9 @@
         "fid": 915,
         "book": 1,
         "poi": 1628,
-        "pages": 121,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 121
       },
       "geometry": null
     },
@@ -10312,9 +10378,9 @@
         "fid": 916,
         "book": 1,
         "poi": 1629,
-        "pages": 123,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 123
       },
       "geometry": null
     },
@@ -10324,9 +10390,9 @@
         "fid": 917,
         "book": 1,
         "poi": 1630,
-        "pages": 125,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 125
       },
       "geometry": null
     },
@@ -10348,7 +10414,8 @@
         "book": 7,
         "poi": 1211,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 15
       },
       "geometry": null
     },
@@ -10359,7 +10426,8 @@
         "book": 7,
         "poi": 1212,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 15
       },
       "geometry": null
     },
@@ -10370,7 +10438,8 @@
         "book": 7,
         "poi": 1213,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 15
       },
       "geometry": null
     },
@@ -10381,7 +10450,8 @@
         "book": 7,
         "poi": 1264,
         "description": "",
-        "note": ""
+        "note": "同本の道標項にも重複掲載",
+        "pages": 34
       },
       "geometry": null
     },
@@ -10402,9 +10472,9 @@
         "fid": 924,
         "book": 8,
         "poi": 1323,
-        "pages": 773,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 773
       },
       "geometry": null
     },
@@ -10414,9 +10484,9 @@
         "fid": 925,
         "book": 2,
         "poi": 1368,
-        "pages": 493,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 493
       },
       "geometry": null
     },
@@ -10449,7 +10519,8 @@
         "book": 7,
         "poi": 1321,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 56
       },
       "geometry": null
     },
@@ -10460,7 +10531,8 @@
         "book": 7,
         "poi": 1322,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 56
       },
       "geometry": null
     },
@@ -10482,7 +10554,8 @@
         "book": 7,
         "poi": 1320,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 55
       },
       "geometry": null
     },
@@ -10493,7 +10566,8 @@
         "book": 7,
         "poi": 1259,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 32
       },
       "geometry": null
     },
@@ -10504,7 +10578,8 @@
         "book": 7,
         "poi": 1260,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 33
       },
       "geometry": null
     },
@@ -10515,7 +10590,8 @@
         "book": 7,
         "poi": 1261,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 33
       },
       "geometry": null
     },
@@ -10526,7 +10602,8 @@
         "book": 7,
         "poi": 1262,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 33
       },
       "geometry": null
     },
@@ -10646,9 +10723,9 @@
         "fid": 946,
         "book": 2,
         "poi": 1575,
-        "pages": 494,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 494
       },
       "geometry": null
     },
@@ -10658,9 +10735,9 @@
         "fid": 947,
         "book": 2,
         "poi": 1263,
-        "pages": 493,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 493
       },
       "geometry": null
     },
@@ -10671,7 +10748,8 @@
         "book": 7,
         "poi": 1263,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 33
       },
       "geometry": null
     },
@@ -10682,7 +10760,8 @@
         "book": 7,
         "poi": 1310,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 47
       },
       "geometry": null
     },
@@ -10704,7 +10783,8 @@
         "book": 7,
         "poi": 1198,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 12
       },
       "geometry": null
     },
@@ -10726,7 +10806,8 @@
         "book": 7,
         "poi": 1254,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 31
       },
       "geometry": null
     },
@@ -10737,7 +10818,8 @@
         "book": 7,
         "poi": 1210,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 15
       },
       "geometry": null
     },
@@ -10748,7 +10830,8 @@
         "book": 7,
         "poi": 1324,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 57
       },
       "geometry": null
     },
@@ -10814,7 +10897,8 @@
         "book": 7,
         "poi": 1199,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 12
       },
       "geometry": null
     },
@@ -10825,7 +10909,8 @@
         "book": 7,
         "poi": 1200,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 12
       },
       "geometry": null
     },
@@ -10836,7 +10921,8 @@
         "book": 7,
         "poi": 1201,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 13
       },
       "geometry": null
     },
@@ -10847,7 +10933,8 @@
         "book": 7,
         "poi": 1202,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 13
       },
       "geometry": null
     },
@@ -10858,7 +10945,8 @@
         "book": 7,
         "poi": 1255,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 31
       },
       "geometry": null
     },
@@ -10880,7 +10968,8 @@
         "book": 7,
         "poi": 1307,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 46
       },
       "geometry": null
     },
@@ -10913,7 +11002,8 @@
         "book": 7,
         "poi": 1258,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 32
       },
       "geometry": null
     },
@@ -10934,9 +11024,9 @@
         "fid": 972,
         "book": 8,
         "poi": 1335,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -10957,9 +11047,9 @@
         "fid": 974,
         "book": 8,
         "poi": 1341,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -10981,30 +11071,8 @@
         "book": 7,
         "poi": 1236,
         "description": "",
-        "note": ""
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 977,
-        "book": 2,
-        "poi": 1369,
-        "pages": 495,
-        "description": "",
-        "note": ""
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 978,
-        "book": 7,
-        "poi": 1369,
-        "description": "",
-        "note": ""
+        "note": "",
+        "page": 28
       },
       "geometry": null
     },
@@ -11025,9 +11093,9 @@
         "fid": 980,
         "book": 8,
         "poi": 1328,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -11037,9 +11105,9 @@
         "fid": 981,
         "book": 2,
         "poi": 1336,
-        "pages": 448,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 448
       },
       "geometry": null
     },
@@ -11060,9 +11128,9 @@
         "fid": 983,
         "book": 8,
         "poi": 1336,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -11073,7 +11141,8 @@
         "book": 7,
         "poi": 1208,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 14
       },
       "geometry": null
     },
@@ -11083,9 +11152,9 @@
         "fid": 985,
         "book": 2,
         "poi": 1371,
-        "pages": 493,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 493
       },
       "geometry": null
     },
@@ -11106,9 +11175,9 @@
         "fid": 987,
         "book": 2,
         "poi": 1329,
-        "pages": 436,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 436
       },
       "geometry": null
     },
@@ -11129,9 +11198,9 @@
         "fid": 989,
         "book": 8,
         "poi": 1329,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -11141,9 +11210,9 @@
         "fid": 990,
         "book": 2,
         "poi": 1337,
-        "pages": 448,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 448
       },
       "geometry": null
     },
@@ -11164,9 +11233,9 @@
         "fid": 992,
         "book": 8,
         "poi": 1337,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -11188,7 +11257,8 @@
         "book": 7,
         "poi": 1170,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 5
       },
       "geometry": null
     },
@@ -11199,7 +11269,8 @@
         "book": 7,
         "poi": 1171,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 6
       },
       "geometry": null
     },
@@ -11210,7 +11281,8 @@
         "book": 7,
         "poi": 1172,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 6
       },
       "geometry": null
     },
@@ -11221,7 +11293,8 @@
         "book": 7,
         "poi": 1173,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 6
       },
       "geometry": null
     },
@@ -11254,7 +11327,8 @@
         "book": 7,
         "poi": 1190,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 10
       },
       "geometry": null
     },
@@ -11265,7 +11339,8 @@
         "book": 7,
         "poi": 1191,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 11
       },
       "geometry": null
     },
@@ -11276,7 +11351,8 @@
         "book": 7,
         "poi": 1192,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 11
       },
       "geometry": null
     },
@@ -11287,7 +11363,8 @@
         "book": 7,
         "poi": 1193,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 11
       },
       "geometry": null
     },
@@ -11298,7 +11375,8 @@
         "book": 7,
         "poi": 1194,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 11
       },
       "geometry": null
     },
@@ -11309,7 +11387,8 @@
         "book": 7,
         "poi": 1316,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 53
       },
       "geometry": null
     },
@@ -11320,7 +11399,8 @@
         "book": 7,
         "poi": 1237,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 28
       },
       "geometry": null
     },
@@ -11331,7 +11411,8 @@
         "book": 7,
         "poi": 1317,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 54
       },
       "geometry": null
     },
@@ -11342,7 +11423,8 @@
         "book": 7,
         "poi": 1166,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 5
       },
       "geometry": null
     },
@@ -11353,7 +11435,8 @@
         "book": 7,
         "poi": 1167,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 5
       },
       "geometry": null
     },
@@ -11364,7 +11447,8 @@
         "book": 7,
         "poi": 1168,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 5
       },
       "geometry": null
     },
@@ -11375,7 +11459,8 @@
         "book": 7,
         "poi": 1169,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 5
       },
       "geometry": null
     },
@@ -11441,7 +11526,8 @@
         "book": 7,
         "poi": 1185,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 9
       },
       "geometry": null
     },
@@ -11452,7 +11538,8 @@
         "book": 7,
         "poi": 1186,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 9
       },
       "geometry": null
     },
@@ -11463,7 +11550,8 @@
         "book": 7,
         "poi": 1187,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 9
       },
       "geometry": null
     },
@@ -11474,7 +11562,8 @@
         "book": 7,
         "poi": 1227,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 26
       },
       "geometry": null
     },
@@ -11485,7 +11574,8 @@
         "book": 7,
         "poi": 1228,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 26
       },
       "geometry": null
     },
@@ -11539,9 +11629,9 @@
         "fid": 1026,
         "book": 8,
         "poi": 1334,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -11562,9 +11652,9 @@
         "fid": 1028,
         "book": 8,
         "poi": 1342,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -11597,7 +11687,8 @@
         "book": 7,
         "poi": 1226,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 26
       },
       "geometry": null
     },
@@ -11652,7 +11743,8 @@
         "book": 7,
         "poi": 1295,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 43
       },
       "geometry": null
     },
@@ -11663,7 +11755,8 @@
         "book": 7,
         "poi": 1273,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 39
       },
       "geometry": null
     },
@@ -11674,7 +11767,8 @@
         "book": 7,
         "poi": 1319,
         "description": "",
-        "note": ""
+        "note": "",
+        "page": 54
       },
       "geometry": null
     },
@@ -11684,9 +11778,9 @@
         "fid": 1039,
         "book": 2,
         "poi": 1372,
-        "pages": 493,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 493
       },
       "geometry": null
     },
@@ -11707,9 +11801,9 @@
         "fid": 1041,
         "book": 2,
         "poi": 1490,
-        "pages": 462,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 462
       },
       "geometry": null
     },
@@ -11719,9 +11813,9 @@
         "fid": 1042,
         "book": 2,
         "poi": 1478,
-        "pages": 456,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 456
       },
       "geometry": null
     },
@@ -11731,9 +11825,9 @@
         "fid": 1043,
         "book": 2,
         "poi": 1445,
-        "pages": 446,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 446
       },
       "geometry": null
     },
@@ -11743,9 +11837,9 @@
         "fid": 1044,
         "book": 2,
         "poi": 1450,
-        "pages": 446,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 446
       },
       "geometry": null
     },
@@ -11755,9 +11849,9 @@
         "fid": 1045,
         "book": 2,
         "poi": 1534,
-        "pages": 470,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 470
       },
       "geometry": null
     },
@@ -11767,9 +11861,9 @@
         "fid": 1046,
         "book": 2,
         "poi": 1565,
-        "pages": 484,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 484
       },
       "geometry": null
     },
@@ -11801,9 +11895,9 @@
         "fid": 1049,
         "book": 2,
         "poi": 481,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -12165,9 +12259,9 @@
         "fid": 1082,
         "book": 2,
         "poi": 485,
-        "pages": 460,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 460
       },
       "geometry": null
     },
@@ -12408,9 +12502,9 @@
         "fid": 1104,
         "book": 2,
         "poi": 876,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -12431,9 +12525,9 @@
         "fid": 1106,
         "book": 8,
         "poi": 876,
-        "pages": 775,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 775
       },
       "geometry": null
     },
@@ -12509,9 +12603,9 @@
         "fid": 1113,
         "book": 1,
         "poi": 1678,
-        "pages": 150,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 150
       },
       "geometry": null
     },
@@ -12521,9 +12615,9 @@
         "fid": 1114,
         "book": 1,
         "poi": 1679,
-        "pages": 152,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 152
       },
       "geometry": null
     },
@@ -12533,9 +12627,9 @@
         "fid": 1115,
         "book": 1,
         "poi": 1684,
-        "pages": 165,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 165
       },
       "geometry": null
     },
@@ -12545,9 +12639,9 @@
         "fid": 1116,
         "book": 2,
         "poi": 534,
-        "pages": 496,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 496
       },
       "geometry": null
     },
@@ -12568,9 +12662,9 @@
         "fid": 1118,
         "book": 8,
         "poi": 534,
-        "pages": 773,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 773
       },
       "geometry": null
     },
@@ -12668,9 +12762,9 @@
         "fid": 1127,
         "book": 1,
         "poi": 1673,
-        "pages": 146,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 146
       },
       "geometry": null
     },
@@ -12702,9 +12796,9 @@
         "fid": 1130,
         "book": 2,
         "poi": 476,
-        "pages": 496,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 496
       },
       "geometry": null
     },
@@ -12725,9 +12819,9 @@
         "fid": 1132,
         "book": 8,
         "poi": 476,
-        "pages": 774,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 774
       },
       "geometry": null
     },
@@ -12814,9 +12908,9 @@
         "fid": 1140,
         "book": 8,
         "poi": 1410,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -12969,9 +13063,9 @@
         "fid": 1154,
         "book": 1,
         "poi": 1669,
-        "pages": 143,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 143
       },
       "geometry": null
     },
@@ -13113,9 +13207,9 @@
         "fid": 1167,
         "book": 1,
         "poi": 1658,
-        "pages": 138,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 138
       },
       "geometry": null
     },
@@ -13136,9 +13230,9 @@
         "fid": 1169,
         "book": 1,
         "poi": 1681,
-        "pages": 157,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 157
       },
       "geometry": null
     },
@@ -13148,9 +13242,9 @@
         "fid": 1170,
         "book": 1,
         "poi": 1682,
-        "pages": 158,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 158
       },
       "geometry": null
     },
@@ -13644,9 +13738,9 @@
         "fid": 1215,
         "book": 1,
         "poi": 1680,
-        "pages": 154,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 154
       },
       "geometry": null
     },
@@ -13678,9 +13772,9 @@
         "fid": 1218,
         "book": 2,
         "poi": 535,
-        "pages": 496,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 496
       },
       "geometry": null
     },
@@ -13701,9 +13795,9 @@
         "fid": 1220,
         "book": 8,
         "poi": 535,
-        "pages": 774,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 774
       },
       "geometry": null
     },
@@ -13713,9 +13807,9 @@
         "fid": 1221,
         "book": 2,
         "poi": 531,
-        "pages": 496,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 496
       },
       "geometry": null
     },
@@ -13736,9 +13830,9 @@
         "fid": 1223,
         "book": 2,
         "poi": 407,
-        "pages": 496,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 496
       },
       "geometry": null
     },
@@ -13759,9 +13853,9 @@
         "fid": 1225,
         "book": 2,
         "poi": 536,
-        "pages": 497,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 497
       },
       "geometry": null
     },
@@ -13782,9 +13876,9 @@
         "fid": 1227,
         "book": 2,
         "poi": 533,
-        "pages": 496,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 496
       },
       "geometry": null
     },
@@ -14278,9 +14372,9 @@
         "fid": 1272,
         "book": 1,
         "poi": 1677,
-        "pages": 148,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 148
       },
       "geometry": null
     },
@@ -14312,9 +14406,9 @@
         "fid": 1275,
         "book": 8,
         "poi": 1470,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -14335,9 +14429,9 @@
         "fid": 1277,
         "book": 8,
         "poi": 1471,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -14358,9 +14452,9 @@
         "fid": 1279,
         "book": 8,
         "poi": 1472,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -14392,9 +14486,9 @@
         "fid": 1282,
         "book": 8,
         "poi": 1481,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -14415,9 +14509,9 @@
         "fid": 1284,
         "book": 8,
         "poi": 1483,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -14515,9 +14609,9 @@
         "fid": 1293,
         "book": 8,
         "poi": 1414,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -14527,9 +14621,9 @@
         "fid": 1294,
         "book": 2,
         "poi": 1417,
-        "pages": 436,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 436
       },
       "geometry": null
     },
@@ -14539,9 +14633,9 @@
         "fid": 1295,
         "book": 8,
         "poi": 1417,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -14562,9 +14656,9 @@
         "fid": 1297,
         "book": 8,
         "poi": 1418,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -14585,9 +14679,9 @@
         "fid": 1299,
         "book": 8,
         "poi": 1420,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -14608,9 +14702,9 @@
         "fid": 1301,
         "book": 8,
         "poi": 1424,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -14631,9 +14725,9 @@
         "fid": 1303,
         "book": 8,
         "poi": 1425,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -14654,9 +14748,9 @@
         "fid": 1305,
         "book": 8,
         "poi": 1429,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -15216,9 +15310,9 @@
         "fid": 1356,
         "book": 2,
         "poi": 580,
-        "pages": 498,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 498
       },
       "geometry": null
     },
@@ -15239,9 +15333,9 @@
         "fid": 1358,
         "book": 8,
         "poi": 580,
-        "pages": 774,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 774
       },
       "geometry": null
     },
@@ -15515,9 +15609,9 @@
         "fid": 1383,
         "book": 1,
         "poi": 1704,
-        "pages": 171,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 171
       },
       "geometry": null
     },
@@ -15604,9 +15698,9 @@
         "fid": 1391,
         "book": 2,
         "poi": 685,
-        "pages": 460,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 460
       },
       "geometry": null
     },
@@ -15748,9 +15842,9 @@
         "fid": 1404,
         "book": 2,
         "poi": 582,
-        "pages": 498,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 498
       },
       "geometry": null
     },
@@ -15771,9 +15865,9 @@
         "fid": 1406,
         "book": 8,
         "poi": 582,
-        "pages": 774,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 774
       },
       "geometry": null
     },
@@ -15827,9 +15921,9 @@
         "fid": 1411,
         "book": 2,
         "poi": 704,
-        "pages": 498,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 498
       },
       "geometry": null
     },
@@ -15938,9 +16032,9 @@
         "fid": 1421,
         "book": 2,
         "poi": 703,
-        "pages": 498,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 498
       },
       "geometry": null
     },
@@ -16203,9 +16297,9 @@
         "fid": 1445,
         "book": 2,
         "poi": 681,
-        "pages": 446,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 446
       },
       "geometry": null
     },
@@ -16226,9 +16320,9 @@
         "fid": 1447,
         "book": 8,
         "poi": 681,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -16249,9 +16343,9 @@
         "fid": 1449,
         "book": 8,
         "poi": 682,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -16272,9 +16366,9 @@
         "fid": 1451,
         "book": 8,
         "poi": 683,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -16295,9 +16389,9 @@
         "fid": 1453,
         "book": 8,
         "poi": 687,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -16725,9 +16819,9 @@
         "fid": 1492,
         "book": 1,
         "poi": 1715,
-        "pages": 174,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 174
       },
       "geometry": null
     },
@@ -16737,9 +16831,9 @@
         "fid": 1493,
         "book": 1,
         "poi": 1716,
-        "pages": 180,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 180
       },
       "geometry": null
     },
@@ -16859,9 +16953,9 @@
         "fid": 1504,
         "book": 8,
         "poi": 678,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -16871,9 +16965,9 @@
         "fid": 1505,
         "book": 2,
         "poi": 679,
-        "pages": 440,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 440
       },
       "geometry": null
     },
@@ -16927,9 +17021,9 @@
         "fid": 1510,
         "book": 2,
         "poi": 700,
-        "pages": 498,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 498
       },
       "geometry": null
     },
@@ -16950,9 +17044,9 @@
         "fid": 1512,
         "book": 8,
         "poi": 700,
-        "pages": 776,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 776
       },
       "geometry": null
     },
@@ -16973,9 +17067,9 @@
         "fid": 1514,
         "book": 8,
         "poi": 577,
-        "pages": 776,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 776
       },
       "geometry": null
     },
@@ -17260,9 +17354,9 @@
         "fid": 1540,
         "book": 1,
         "poi": 1685,
-        "pages": 167,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 167
       },
       "geometry": null
     },
@@ -17305,9 +17399,9 @@
         "fid": 1544,
         "book": 2,
         "poi": 1408,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -17328,9 +17422,9 @@
         "fid": 1546,
         "book": 8,
         "poi": 1426,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -17351,9 +17445,9 @@
         "fid": 1548,
         "book": 8,
         "poi": 1436,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -17374,9 +17468,9 @@
         "fid": 1550,
         "book": 8,
         "poi": 1439,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -17397,9 +17491,9 @@
         "fid": 1552,
         "book": 8,
         "poi": 1442,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -17420,9 +17514,9 @@
         "fid": 1554,
         "book": 8,
         "poi": 1443,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -17443,9 +17537,9 @@
         "fid": 1556,
         "book": 8,
         "poi": 1452,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -17466,9 +17560,9 @@
         "fid": 1558,
         "book": 8,
         "poi": 1459,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -17489,9 +17583,9 @@
         "fid": 1560,
         "book": 2,
         "poi": 1407,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -17501,9 +17595,9 @@
         "fid": 1561,
         "book": 8,
         "poi": 1407,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -17524,9 +17618,9 @@
         "fid": 1563,
         "book": 8,
         "poi": 1430,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -17558,9 +17652,9 @@
         "fid": 1566,
         "book": 8,
         "poi": 1476,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -17581,9 +17675,9 @@
         "fid": 1568,
         "book": 8,
         "poi": 1477,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -17604,9 +17698,9 @@
         "fid": 1570,
         "book": 8,
         "poi": 1412,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -17627,9 +17721,9 @@
         "fid": 1572,
         "book": 8,
         "poi": 1416,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -17650,9 +17744,9 @@
         "fid": 1574,
         "book": 8,
         "poi": 1419,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -17673,9 +17767,9 @@
         "fid": 1576,
         "book": 8,
         "poi": 1434,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -17861,9 +17955,9 @@
         "fid": 1593,
         "book": 2,
         "poi": 1017,
-        "pages": 501,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 501
       },
       "geometry": null
     },
@@ -17884,9 +17978,9 @@
         "fid": 1595,
         "book": 8,
         "poi": 1017,
-        "pages": 776,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 776
       },
       "geometry": null
     },
@@ -18160,9 +18254,9 @@
         "fid": 1620,
         "book": 2,
         "poi": 873,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -18183,9 +18277,9 @@
         "fid": 1622,
         "book": 8,
         "poi": 873,
-        "pages": 776,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 776
       },
       "geometry": null
     },
@@ -18195,9 +18289,9 @@
         "fid": 1623,
         "book": 2,
         "poi": 834,
-        "pages": 444,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 444
       },
       "geometry": null
     },
@@ -18218,9 +18312,9 @@
         "fid": 1625,
         "book": 8,
         "poi": 834,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -18230,9 +18324,9 @@
         "fid": 1626,
         "book": 2,
         "poi": 836,
-        "pages": 450,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 450
       },
       "geometry": null
     },
@@ -18253,9 +18347,9 @@
         "fid": 1628,
         "book": 2,
         "poi": 838,
-        "pages": 456,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 456
       },
       "geometry": null
     },
@@ -18276,9 +18370,9 @@
         "fid": 1630,
         "book": 2,
         "poi": 840,
-        "pages": 462,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 462
       },
       "geometry": null
     },
@@ -18552,9 +18646,9 @@
         "fid": 1655,
         "book": 2,
         "poi": 872,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -18575,9 +18669,9 @@
         "fid": 1657,
         "book": 8,
         "poi": 872,
-        "pages": 775,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 775
       },
       "geometry": null
     },
@@ -18587,9 +18681,9 @@
         "fid": 1658,
         "book": 2,
         "poi": 878,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -18632,9 +18726,9 @@
         "fid": 1662,
         "book": 1,
         "poi": 1724,
-        "pages": 182,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 182
       },
       "geometry": null
     },
@@ -18765,9 +18859,9 @@
         "fid": 1674,
         "book": 1,
         "poi": 1728,
-        "pages": 184,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 184
       },
       "geometry": null
     },
@@ -18788,9 +18882,9 @@
         "fid": 1676,
         "book": 2,
         "poi": 839,
-        "pages": 458,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 458
       },
       "geometry": null
     },
@@ -18877,9 +18971,9 @@
         "fid": 1684,
         "book": 2,
         "poi": 835,
-        "pages": 446,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 446
       },
       "geometry": null
     },
@@ -19054,9 +19148,9 @@
         "fid": 1700,
         "book": 8,
         "poi": 1494,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -19308,9 +19402,9 @@
         "fid": 1723,
         "book": 8,
         "poi": 1461,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -19331,9 +19425,9 @@
         "fid": 1725,
         "book": 8,
         "poi": 1482,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -19453,9 +19547,9 @@
         "fid": 1736,
         "book": 8,
         "poi": 1469,
-        "pages": 957,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 957
       },
       "geometry": null
     },
@@ -19476,9 +19570,9 @@
         "fid": 1738,
         "book": 8,
         "poi": 1423,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -19521,9 +19615,9 @@
         "fid": 1742,
         "book": 8,
         "poi": 1506,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -19555,9 +19649,9 @@
         "fid": 1745,
         "book": 2,
         "poi": 869,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -19622,9 +19716,9 @@
         "fid": 1751,
         "book": 1,
         "poi": 1742,
-        "pages": 191,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 191
       },
       "geometry": null
     },
@@ -19755,9 +19849,9 @@
         "fid": 1763,
         "book": 2,
         "poi": 482,
-        "pages": 442,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 442
       },
       "geometry": null
     },
@@ -19954,9 +20048,9 @@
         "fid": 1781,
         "book": 2,
         "poi": 831,
-        "pages": 432,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 432
       },
       "geometry": null
     },
@@ -19988,9 +20082,9 @@
         "fid": 1784,
         "book": 2,
         "poi": 874,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -20088,9 +20182,9 @@
         "fid": 1793,
         "book": 1,
         "poi": 1736,
-        "pages": 189,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 189
       },
       "geometry": null
     },
@@ -20155,9 +20249,9 @@
         "fid": 1799,
         "book": 5,
         "poi": 837,
-        "pages": 452,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 452
       },
       "geometry": null
     },
@@ -20167,9 +20261,9 @@
         "fid": 1800,
         "book": 2,
         "poi": 870,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -20190,9 +20284,9 @@
         "fid": 1802,
         "book": 8,
         "poi": 870,
-        "pages": 775,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 775
       },
       "geometry": null
     },
@@ -20202,9 +20296,9 @@
         "fid": 1803,
         "book": 2,
         "poi": 832,
-        "pages": 438,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 438
       },
       "geometry": null
     },
@@ -20225,9 +20319,9 @@
         "fid": 1805,
         "book": 2,
         "poi": 833,
-        "pages": 440,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 440
       },
       "geometry": null
     },
@@ -20248,9 +20342,9 @@
         "fid": 1807,
         "book": 8,
         "poi": 833,
-        "pages": 956,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 956
       },
       "geometry": null
     },
@@ -20359,9 +20453,9 @@
         "fid": 1817,
         "book": 2,
         "poi": 875,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -20382,9 +20476,9 @@
         "fid": 1819,
         "book": 8,
         "poi": 875,
-        "pages": 775,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 775
       },
       "geometry": null
     },
@@ -20394,9 +20488,9 @@
         "fid": 1820,
         "book": 2,
         "poi": 877,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -20417,9 +20511,9 @@
         "fid": 1822,
         "book": 8,
         "poi": 877,
-        "pages": 775,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 775
       },
       "geometry": null
     },
@@ -20429,9 +20523,9 @@
         "fid": 1823,
         "book": 2,
         "poi": 871,
-        "pages": 499,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 499
       },
       "geometry": null
     },
@@ -20452,9 +20546,9 @@
         "fid": 1825,
         "book": 8,
         "poi": 871,
-        "pages": 775,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 775
       },
       "geometry": null
     },
@@ -20651,9 +20745,9 @@
         "fid": 1843,
         "book": 8,
         "poi": 765,
-        "pages": 775,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 775
       },
       "geometry": null
     },
@@ -20674,9 +20768,9 @@
         "fid": 1845,
         "book": 8,
         "poi": 766,
-        "pages": 775,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 775
       },
       "geometry": null
     },
@@ -20697,9 +20791,9 @@
         "fid": 1847,
         "book": 1,
         "poi": 1732,
-        "pages": 186,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 186
       },
       "geometry": null
     },
@@ -20885,9 +20979,9 @@
         "fid": 1864,
         "book": 5,
         "poi": 1010,
-        "pages": 462,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 462
       },
       "geometry": null
     },
@@ -20897,9 +20991,9 @@
         "fid": 1865,
         "book": 2,
         "poi": 1009,
-        "pages": 434,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 434
       },
       "geometry": null
     },
@@ -20920,9 +21014,9 @@
         "fid": 1867,
         "book": 8,
         "poi": 1009,
-        "pages": 955,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 955
       },
       "geometry": null
     },
@@ -21075,9 +21169,9 @@
         "fid": 1881,
         "book": 2,
         "poi": 1013,
-        "pages": 454,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 454
       },
       "geometry": null
     },
@@ -21098,9 +21192,9 @@
         "fid": 1883,
         "book": 8,
         "poi": 1013,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -21110,9 +21204,9 @@
         "fid": 1884,
         "book": 2,
         "poi": 1014,
-        "pages": 458,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 458
       },
       "geometry": null
     },
@@ -21133,9 +21227,9 @@
         "fid": 1886,
         "book": 8,
         "poi": 1014,
-        "pages": 958,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 958
       },
       "geometry": null
     },
@@ -21222,9 +21316,9 @@
         "fid": 1894,
         "book": 1,
         "poi": 1790,
-        "pages": 226,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 226
       },
       "geometry": null
     },
@@ -21234,9 +21328,9 @@
         "fid": 1895,
         "book": 1,
         "poi": 1786,
-        "pages": 219,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 219
       },
       "geometry": null
     },
@@ -21741,9 +21835,9 @@
         "fid": 1941,
         "book": 1,
         "poi": 1787,
-        "pages": 222,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 222
       },
       "geometry": null
     },
@@ -21753,9 +21847,9 @@
         "fid": 1942,
         "book": 1,
         "poi": 1788,
-        "pages": 223,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 223
       },
       "geometry": null
     },
@@ -21930,9 +22024,9 @@
         "fid": 1958,
         "book": 1,
         "poi": 1769,
-        "pages": 208,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 208
       },
       "geometry": null
     },
@@ -22063,9 +22157,9 @@
         "fid": 1970,
         "book": 2,
         "poi": 1020,
-        "pages": 501,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 501
       },
       "geometry": null
     },
@@ -22251,9 +22345,9 @@
         "fid": 1987,
         "book": 1,
         "poi": 1780,
-        "pages": 217,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 217
       },
       "geometry": null
     },
@@ -22307,9 +22401,9 @@
         "fid": 1992,
         "book": 2,
         "poi": 1018,
-        "pages": 501,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 501
       },
       "geometry": null
     },
@@ -22330,9 +22424,9 @@
         "fid": 1994,
         "book": 1,
         "poi": 1766,
-        "pages": 204,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 204
       },
       "geometry": null
     },
@@ -22342,9 +22436,9 @@
         "fid": 1995,
         "book": 1,
         "poi": 1777,
-        "pages": 211,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 211
       },
       "geometry": null
     },
@@ -22365,9 +22459,9 @@
         "fid": 1997,
         "book": 1,
         "poi": 1779,
-        "pages": 214,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 214
       },
       "geometry": null
     },
@@ -22410,9 +22504,9 @@
         "fid": 2001,
         "book": 2,
         "poi": 1019,
-        "pages": 501,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 501
       },
       "geometry": null
     },
@@ -22587,9 +22681,9 @@
         "fid": 2017,
         "book": 2,
         "poi": 1012,
-        "pages": 442,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 442
       },
       "geometry": null
     },
@@ -22742,9 +22836,9 @@
         "fid": 2031,
         "book": 1,
         "poi": 1795,
-        "pages": 229,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 229
       },
       "geometry": null
     },
@@ -22809,9 +22903,9 @@
         "fid": 2037,
         "book": 1,
         "poi": 1755,
-        "pages": 196,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 196
       },
       "geometry": null
     },
@@ -22821,9 +22915,9 @@
         "fid": 2038,
         "book": 1,
         "poi": 1756,
-        "pages": 199,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 199
       },
       "geometry": null
     },
@@ -22833,12 +22927,47 @@
         "fid": 2039,
         "book": 1,
         "poi": 1757,
-        "pages": 202,
         "description": "",
-        "note": ""
+        "note": "",
+        "pages": 202
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 2040,
+        "book": 7,
+        "poi": 1218,
+        "description": "",
+        "note": "同本の庚申条にも重複",
+        "pages": 64
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 2041,
+        "book": 7,
+        "poi": 1264,
+        "description": "",
+        "note": "同本の庚申項にも重複掲載",
+        "pages": 65
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 2042,
+        "book": 2,
+        "poi": 1264,
+        "description": "",
+        "note": "",
+        "pages": 495
       },
       "geometry": null
     }
-  ],
-  "name": "refs"
+  ]
 }
