@@ -70,12 +70,12 @@
         let iconUrl = './assets/sekihi.png';
         let width = 32;
         let height = 32;
-        if (props.type.match('その他仏像') || props.type.match('明王像') || props.type.match('菩薩像') || props.type.match('如来像')) {
-            iconUrl = './assets/hotoke.png';
-            width = 29;
-        } else if (props.type.match('地蔵菩薩像')) {
+        if (props.type.match('地蔵菩薩像')) {
             iconUrl = './assets/jizo.png';
             width = 23;
+        } else if (props.type.match('その他仏像') || props.type.match('明王像') || props.type.match('菩薩像') || props.type.match('如来像')) {
+            iconUrl = './assets/hotoke.png';
+            width = 29;
         } else if (props.type.match('庚申')) {
             iconUrl = './assets/sanzaru.png';
             width = 24;
