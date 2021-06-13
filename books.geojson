@@ -14,9 +14,9 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "館林市史特別編第4巻",
+        "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
         "editor": "館林市史編さん委員会編",
-        "publishedAt": "館林城と中近世の遺跡",
+        "publishedAt": 2010,
         "fid": 2
       },
       "geometry": null

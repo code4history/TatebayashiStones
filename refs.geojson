@@ -142,7 +142,7 @@
         "poi": 1519,
         "description": "",
         "note": "",
-        "page": 468
+        "pages": "468"
       },
       "geometry": null
     },
@@ -154,7 +154,7 @@
         "poi": 1520,
         "description": "",
         "note": "",
-        "page": 468
+        "pages": "468"
       },
       "geometry": null
     },
@@ -166,7 +166,7 @@
         "poi": 1521,
         "description": "",
         "note": "",
-        "page": 468
+        "pages": "468"
       },
       "geometry": null
     },
@@ -178,7 +178,7 @@
         "poi": 1568,
         "description": "",
         "note": "",
-        "page": 484
+        "pages": "484"
       },
       "geometry": null
     },
@@ -542,7 +542,7 @@
         "poi": 149,
         "description": "",
         "note": "",
-        "page": 434
+        "pages": "434"
       },
       "geometry": null
     },
@@ -565,7 +565,7 @@
         "poi": 149,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -577,7 +577,7 @@
         "poi": 208,
         "description": "",
         "note": "",
-        "page": 450
+        "pages": "450"
       },
       "geometry": null
     },
@@ -655,7 +655,7 @@
         "poi": 1462,
         "description": "",
         "note": "",
-        "page": 450
+        "pages": "450"
       },
       "geometry": null
     },
@@ -700,7 +700,7 @@
         "poi": 1460,
         "description": "",
         "note": "",
-        "page": 450
+        "pages": "450"
       },
       "geometry": null
     },
@@ -712,7 +712,7 @@
         "poi": 1460,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -768,7 +768,7 @@
         "poi": 10,
         "description": "",
         "note": "",
-        "page": 43
+        "pages": "43"
       },
       "geometry": null
     },
@@ -780,7 +780,7 @@
         "poi": 11,
         "description": "",
         "note": "",
-        "page": 41
+        "pages": "41"
       },
       "geometry": null
     },
@@ -814,7 +814,7 @@
         "poi": 48,
         "description": "",
         "note": "",
-        "page": 40
+        "pages": "40"
       },
       "geometry": null
     },
@@ -925,7 +925,7 @@
         "poi": 65,
         "description": "",
         "note": "",
-        "page": 55
+        "pages": "55"
       },
       "geometry": null
     },
@@ -992,7 +992,7 @@
         "poi": 63,
         "description": "",
         "note": "",
-        "page": 51
+        "pages": "51"
       },
       "geometry": null
     },
@@ -1004,7 +1004,7 @@
         "poi": 64,
         "description": "",
         "note": "",
-        "page": 53
+        "pages": "53"
       },
       "geometry": null
     },
@@ -1027,7 +1027,7 @@
         "poi": 145,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -1050,7 +1050,7 @@
         "poi": 145,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -1183,7 +1183,7 @@
         "poi": 45,
         "description": "",
         "note": "",
-        "page": 45
+        "pages": "45"
       },
       "geometry": null
     },
@@ -1305,7 +1305,7 @@
         "poi": 1451,
         "description": "",
         "note": "",
-        "page": 448
+        "pages": "448"
       },
       "geometry": null
     },
@@ -1317,7 +1317,7 @@
         "poi": 1451,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -1329,7 +1329,7 @@
         "poi": 1480,
         "description": "",
         "note": "",
-        "page": 456
+        "pages": "456"
       },
       "geometry": null
     },
@@ -1341,7 +1341,7 @@
         "poi": 1488,
         "description": "",
         "note": "",
-        "page": 460
+        "pages": "460"
       },
       "geometry": null
     },
@@ -1353,7 +1353,7 @@
         "poi": 1488,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -1365,7 +1365,7 @@
         "poi": 1491,
         "description": "",
         "note": "",
-        "page": 462
+        "pages": "462"
       },
       "geometry": null
     },
@@ -1377,7 +1377,7 @@
         "poi": 1508,
         "description": "",
         "note": "",
-        "page": 466
+        "pages": "466"
       },
       "geometry": null
     },
@@ -1389,7 +1389,7 @@
         "poi": 1508,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -1489,7 +1489,7 @@
         "poi": 5,
         "description": "",
         "note": "",
-        "page": 26
+        "pages": "26"
       },
       "geometry": null
     },
@@ -1677,7 +1677,7 @@
         "poi": 154,
         "description": "",
         "note": "",
-        "page": 438
+        "pages": "438"
       },
       "geometry": null
     },
@@ -1700,7 +1700,7 @@
         "poi": 165,
         "description": "",
         "note": "",
-        "page": 452
+        "pages": "452"
       },
       "geometry": null
     },
@@ -1723,7 +1723,7 @@
         "poi": 165,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -1735,7 +1735,7 @@
         "poi": 174,
         "description": "",
         "note": "",
-        "page": 460
+        "pages": "460"
       },
       "geometry": null
     },
@@ -1758,7 +1758,7 @@
         "poi": 174,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -1781,7 +1781,7 @@
         "poi": 237,
         "description": "",
         "note": "",
-        "page": 489
+        "pages": "489"
       },
       "geometry": null
     },
@@ -1804,7 +1804,7 @@
         "poi": 2,
         "description": "",
         "note": "",
-        "page": 29
+        "pages": "29"
       },
       "geometry": null
     },
@@ -1827,7 +1827,7 @@
         "poi": 4,
         "description": "",
         "note": "",
-        "page": 24
+        "pages": "24"
       },
       "geometry": null
     },
@@ -2026,7 +2026,7 @@
         "poi": 1573,
         "description": "",
         "note": "",
-        "page": 486
+        "pages": "486"
       },
       "geometry": null
     },
@@ -2104,7 +2104,7 @@
         "poi": 17,
         "description": "",
         "note": "",
-        "page": 47
+        "pages": "47"
       },
       "geometry": null
     },
@@ -2127,7 +2127,7 @@
         "poi": 19,
         "description": "",
         "note": "",
-        "page": 58
+        "pages": "58"
       },
       "geometry": null
     },
@@ -2656,7 +2656,7 @@
         "poi": 158,
         "description": "",
         "note": "",
-        "page": 444
+        "pages": "444"
       },
       "geometry": null
     },
@@ -2679,7 +2679,7 @@
         "poi": 158,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -2735,7 +2735,7 @@
         "poi": 35,
         "description": "",
         "note": "",
-        "page": 49
+        "pages": "49"
       },
       "geometry": null
     },
@@ -2813,7 +2813,7 @@
         "poi": 238,
         "description": "",
         "note": "",
-        "page": 489
+        "pages": "489"
       },
       "geometry": null
     },
@@ -2913,7 +2913,7 @@
         "poi": 1422,
         "description": "",
         "note": "",
-        "page": 436
+        "pages": "436"
       },
       "geometry": null
     },
@@ -2925,7 +2925,7 @@
         "poi": 1566,
         "description": "",
         "note": "",
-        "page": 484
+        "pages": "484"
       },
       "geometry": null
     },
@@ -2937,7 +2937,7 @@
         "poi": 1572,
         "description": "",
         "note": "",
-        "page": 486
+        "pages": "486"
       },
       "geometry": null
     },
@@ -2949,7 +2949,7 @@
         "poi": 1525,
         "description": "",
         "note": "",
-        "page": 468
+        "pages": "468"
       },
       "geometry": null
     },
@@ -2961,7 +2961,7 @@
         "poi": 1458,
         "description": "",
         "note": "",
-        "page": 450
+        "pages": "450"
       },
       "geometry": null
     },
@@ -2973,7 +2973,7 @@
         "poi": 1458,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -2985,7 +2985,7 @@
         "poi": 1473,
         "description": "",
         "note": "",
-        "page": 454
+        "pages": "454"
       },
       "geometry": null
     },
@@ -2997,7 +2997,7 @@
         "poi": 1473,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -3009,7 +3009,7 @@
         "poi": 1475,
         "description": "",
         "note": "",
-        "page": 454
+        "pages": "454"
       },
       "geometry": null
     },
@@ -3021,7 +3021,7 @@
         "poi": 1475,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -3033,7 +3033,7 @@
         "poi": 1486,
         "description": "",
         "note": "",
-        "page": 458
+        "pages": "458"
       },
       "geometry": null
     },
@@ -3056,7 +3056,7 @@
         "poi": 1517,
         "description": "",
         "note": "",
-        "page": 468
+        "pages": "468"
       },
       "geometry": null
     },
@@ -3068,7 +3068,7 @@
         "poi": 1512,
         "description": "",
         "note": "",
-        "page": 466
+        "pages": "466"
       },
       "geometry": null
     },
@@ -3080,7 +3080,7 @@
         "poi": 1513,
         "description": "",
         "note": "",
-        "page": 466
+        "pages": "466"
       },
       "geometry": null
     },
@@ -3092,7 +3092,7 @@
         "poi": 1518,
         "description": "",
         "note": "",
-        "page": 468
+        "pages": "468"
       },
       "geometry": null
     },
@@ -3115,7 +3115,7 @@
         "poi": 25,
         "description": "",
         "note": "",
-        "page": 37
+        "pages": "37"
       },
       "geometry": null
     },
@@ -3127,7 +3127,7 @@
         "poi": 26,
         "description": "",
         "note": "",
-        "page": 35
+        "pages": "35"
       },
       "geometry": null
     },
@@ -3150,7 +3150,7 @@
         "poi": 28,
         "description": "",
         "note": "",
-        "page": 32
+        "pages": "32"
       },
       "geometry": null
     },
@@ -3206,7 +3206,7 @@
         "poi": 1570,
         "description": "",
         "note": "",
-        "page": 486
+        "pages": "486"
       },
       "geometry": null
     },
@@ -3218,7 +3218,7 @@
         "poi": 1409,
         "description": "",
         "note": "",
-        "page": 434
+        "pages": "434"
       },
       "geometry": null
     },
@@ -3230,7 +3230,7 @@
         "poi": 1409,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -3242,7 +3242,7 @@
         "poi": 1463,
         "description": "",
         "note": "",
-        "page": 450
+        "pages": "450"
       },
       "geometry": null
     },
@@ -3254,7 +3254,7 @@
         "poi": 1465,
         "description": "",
         "note": "",
-        "page": 452
+        "pages": "452"
       },
       "geometry": null
     },
@@ -3266,7 +3266,7 @@
         "poi": 1467,
         "description": "",
         "note": "",
-        "page": 452
+        "pages": "452"
       },
       "geometry": null
     },
@@ -3289,7 +3289,7 @@
         "poi": 1499,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -3334,7 +3334,7 @@
         "poi": 1415,
         "description": "",
         "note": "",
-        "page": 434
+        "pages": "434"
       },
       "geometry": null
     },
@@ -3357,7 +3357,7 @@
         "poi": 1435,
         "description": "",
         "note": "",
-        "page": 442
+        "pages": "442"
       },
       "geometry": null
     },
@@ -3369,7 +3369,7 @@
         "poi": 1454,
         "description": "",
         "note": "",
-        "page": 448
+        "pages": "448"
       },
       "geometry": null
     },
@@ -3381,7 +3381,7 @@
         "poi": 1454,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -3393,7 +3393,7 @@
         "poi": 1496,
         "description": "",
         "note": "",
-        "page": 462
+        "pages": "462"
       },
       "geometry": null
     },
@@ -3405,7 +3405,7 @@
         "poi": 1440,
         "description": "",
         "note": "",
-        "page": 444
+        "pages": "444"
       },
       "geometry": null
     },
@@ -3417,7 +3417,7 @@
         "poi": 1489,
         "description": "",
         "note": "",
-        "page": 460
+        "pages": "460"
       },
       "geometry": null
     },
@@ -3429,7 +3429,7 @@
         "poi": 1515,
         "description": "",
         "note": "",
-        "page": 466
+        "pages": "466"
       },
       "geometry": null
     },
@@ -3441,7 +3441,7 @@
         "poi": 1571,
         "description": "",
         "note": "",
-        "page": 486
+        "pages": "486"
       },
       "geometry": null
     },
@@ -3475,7 +3475,7 @@
         "poi": 147,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -3498,7 +3498,7 @@
         "poi": 147,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -3510,7 +3510,7 @@
         "poi": 148,
         "description": "",
         "note": "",
-        "page": 434
+        "pages": "434"
       },
       "geometry": null
     },
@@ -3533,7 +3533,7 @@
         "poi": 148,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -3556,7 +3556,7 @@
         "poi": 151,
         "description": "",
         "note": "",
-        "page": 436
+        "pages": "436"
       },
       "geometry": null
     },
@@ -3579,7 +3579,7 @@
         "poi": 151,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -3602,7 +3602,7 @@
         "poi": 152,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -3614,7 +3614,7 @@
         "poi": 153,
         "description": "",
         "note": "",
-        "page": 438
+        "pages": "438"
       },
       "geometry": null
     },
@@ -3637,7 +3637,7 @@
         "poi": 153,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -3649,7 +3649,7 @@
         "poi": 155,
         "description": "",
         "note": "",
-        "page": 440
+        "pages": "440"
       },
       "geometry": null
     },
@@ -3672,7 +3672,7 @@
         "poi": 156,
         "description": "",
         "note": "",
-        "page": 440
+        "pages": "440"
       },
       "geometry": null
     },
@@ -3695,7 +3695,7 @@
         "poi": 156,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -3707,7 +3707,7 @@
         "poi": 157,
         "description": "",
         "note": "",
-        "page": 442
+        "pages": "442"
       },
       "geometry": null
     },
@@ -3730,7 +3730,7 @@
         "poi": 159,
         "description": "",
         "note": "",
-        "page": 444
+        "pages": "444"
       },
       "geometry": null
     },
@@ -3764,7 +3764,7 @@
         "poi": 161,
         "description": "",
         "note": "",
-        "page": 446
+        "pages": "446"
       },
       "geometry": null
     },
@@ -3787,7 +3787,7 @@
         "poi": 161,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -3810,7 +3810,7 @@
         "poi": 162,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -3822,7 +3822,7 @@
         "poi": 163,
         "description": "",
         "note": "",
-        "page": 448
+        "pages": "448"
       },
       "geometry": null
     },
@@ -3856,7 +3856,7 @@
         "poi": 166,
         "description": "",
         "note": "",
-        "page": 452
+        "pages": "452"
       },
       "geometry": null
     },
@@ -3879,7 +3879,7 @@
         "poi": 166,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -3891,7 +3891,7 @@
         "poi": 167,
         "description": "",
         "note": "",
-        "page": 456
+        "pages": "456"
       },
       "geometry": null
     },
@@ -3914,7 +3914,7 @@
         "poi": 168,
         "description": "",
         "note": "",
-        "page": 458
+        "pages": "458"
       },
       "geometry": null
     },
@@ -3937,7 +3937,7 @@
         "poi": 169,
         "description": "",
         "note": "",
-        "page": 458
+        "pages": "458"
       },
       "geometry": null
     },
@@ -3971,7 +3971,7 @@
         "poi": 171,
         "description": "",
         "note": "",
-        "page": 460
+        "pages": "460"
       },
       "geometry": null
     },
@@ -3994,7 +3994,7 @@
         "poi": 172,
         "description": "",
         "note": "",
-        "page": 460
+        "pages": "460"
       },
       "geometry": null
     },
@@ -4017,7 +4017,7 @@
         "poi": 173,
         "description": "",
         "note": "",
-        "page": 460
+        "pages": "460"
       },
       "geometry": null
     },
@@ -4040,7 +4040,7 @@
         "poi": 175,
         "description": "",
         "note": "",
-        "page": 462
+        "pages": "462"
       },
       "geometry": null
     },
@@ -4063,7 +4063,7 @@
         "poi": 175,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -4097,7 +4097,7 @@
         "poi": 483,
         "description": "",
         "note": "",
-        "page": 452
+        "pages": "452"
       },
       "geometry": null
     },
@@ -4120,7 +4120,7 @@
         "poi": 484,
         "description": "",
         "note": "",
-        "page": 462
+        "pages": "462"
       },
       "geometry": null
     },
@@ -4143,7 +4143,7 @@
         "poi": 487,
         "description": "",
         "note": "",
-        "page": 466
+        "pages": "466"
       },
       "geometry": null
     },
@@ -4177,7 +4177,7 @@
         "poi": 1011,
         "description": "",
         "note": "",
-        "page": 438
+        "pages": "438"
       },
       "geometry": null
     },
@@ -4200,7 +4200,7 @@
         "poi": 1011,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -4212,7 +4212,7 @@
         "poi": 1128,
         "description": "",
         "note": "",
-        "page": 434
+        "pages": "434"
       },
       "geometry": null
     },
@@ -4235,7 +4235,7 @@
         "poi": 1128,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -4247,7 +4247,7 @@
         "poi": 1444,
         "description": "",
         "note": "",
-        "page": 446
+        "pages": "446"
       },
       "geometry": null
     },
@@ -4259,7 +4259,7 @@
         "poi": 239,
         "description": "",
         "note": "",
-        "page": 489
+        "pages": "489"
       },
       "geometry": null
     },
@@ -4282,7 +4282,7 @@
         "poi": 1405,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -4294,7 +4294,7 @@
         "poi": 1522,
         "description": "",
         "note": "",
-        "page": 468
+        "pages": "468"
       },
       "geometry": null
     },
@@ -4306,7 +4306,7 @@
         "poi": 1441,
         "description": "",
         "note": "",
-        "page": 444
+        "pages": "444"
       },
       "geometry": null
     },
@@ -4318,7 +4318,7 @@
         "poi": 1441,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -4330,7 +4330,7 @@
         "poi": 1524,
         "description": "",
         "note": "",
-        "page": 468
+        "pages": "468"
       },
       "geometry": null
     },
@@ -4342,7 +4342,7 @@
         "poi": 1523,
         "description": "",
         "note": "",
-        "page": 468
+        "pages": "468"
       },
       "geometry": null
     },
@@ -4354,7 +4354,7 @@
         "poi": 1479,
         "description": "",
         "note": "",
-        "page": 456
+        "pages": "456"
       },
       "geometry": null
     },
@@ -4366,7 +4366,7 @@
         "poi": 1479,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -4389,7 +4389,7 @@
         "poi": 332,
         "description": "",
         "note": "",
-        "page": 444
+        "pages": "444"
       },
       "geometry": null
     },
@@ -4412,7 +4412,7 @@
         "poi": 333,
         "description": "",
         "note": "",
-        "page": 444
+        "pages": "444"
       },
       "geometry": null
     },
@@ -4435,7 +4435,7 @@
         "poi": 334,
         "description": "",
         "note": "",
-        "page": 450
+        "pages": "450"
       },
       "geometry": null
     },
@@ -5118,7 +5118,7 @@
         "poi": 336,
         "description": "",
         "note": "",
-        "page": 456
+        "pages": "456"
       },
       "geometry": null
     },
@@ -5141,7 +5141,7 @@
         "poi": 336,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -5439,7 +5439,7 @@
         "poi": 1504,
         "description": "",
         "note": "",
-        "page": 464
+        "pages": "464"
       },
       "geometry": null
     },
@@ -5451,7 +5451,7 @@
         "poi": 1569,
         "description": "",
         "note": "",
-        "page": 484
+        "pages": "484"
       },
       "geometry": null
     },
@@ -5463,7 +5463,7 @@
         "poi": 1589,
         "description": "",
         "note": "",
-        "page": 64
+        "pages": "64"
       },
       "geometry": null
     },
@@ -5475,7 +5475,7 @@
         "poi": 1590,
         "description": "",
         "note": "",
-        "page": 66
+        "pages": "66"
       },
       "geometry": null
     },
@@ -5487,7 +5487,7 @@
         "poi": 1594,
         "description": "",
         "note": "",
-        "page": 71
+        "pages": "71"
       },
       "geometry": null
     },
@@ -5499,7 +5499,7 @@
         "poi": 1591,
         "description": "",
         "note": "",
-        "page": 67
+        "pages": "67"
       },
       "geometry": null
     },
@@ -5522,7 +5522,7 @@
         "poi": 1593,
         "description": "",
         "note": "",
-        "page": 69
+        "pages": "69"
       },
       "geometry": null
     },
@@ -5534,7 +5534,7 @@
         "poi": 1588,
         "description": "",
         "note": "",
-        "page": 61
+        "pages": "61"
       },
       "geometry": null
     },
@@ -5645,7 +5645,7 @@
         "poi": 374,
         "description": "",
         "note": "",
-        "page": 490
+        "pages": "490"
       },
       "geometry": null
     },
@@ -5668,7 +5668,7 @@
         "poi": 1587,
         "description": "",
         "note": "",
-        "page": 59
+        "pages": "59"
       },
       "geometry": null
     },
@@ -5801,7 +5801,7 @@
         "poi": 280,
         "description": "",
         "note": "",
-        "page": 490
+        "pages": "490"
       },
       "geometry": null
     },
@@ -5824,7 +5824,7 @@
         "poi": 280,
         "description": "",
         "note": "",
-        "page": 771
+        "pages": "771"
       },
       "geometry": null
     },
@@ -5836,7 +5836,7 @@
         "poi": 1137,
         "description": "",
         "note": "",
-        "page": 458
+        "pages": "458"
       },
       "geometry": null
     },
@@ -5859,7 +5859,7 @@
         "poi": 1137,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -5915,7 +5915,7 @@
         "poi": 330,
         "description": "",
         "note": "",
-        "page": 436
+        "pages": "436"
       },
       "geometry": null
     },
@@ -6048,7 +6048,7 @@
         "poi": 372,
         "description": "",
         "note": "",
-        "page": 490
+        "pages": "490"
       },
       "geometry": null
     },
@@ -6071,7 +6071,7 @@
         "poi": 372,
         "description": "",
         "note": "",
-        "page": 772
+        "pages": "772"
       },
       "geometry": null
     },
@@ -6336,7 +6336,7 @@
         "poi": 1153,
         "description": "",
         "note": "",
-        "page": 491
+        "pages": "491"
       },
       "geometry": null
     },
@@ -6359,7 +6359,7 @@
         "poi": 1154,
         "description": "",
         "note": "",
-        "page": 491
+        "pages": "491"
       },
       "geometry": null
     },
@@ -6393,7 +6393,7 @@
         "poi": 1085,
         "description": "",
         "note": "",
-        "page": 74
+        "pages": "74"
       },
       "geometry": null
     },
@@ -6427,7 +6427,7 @@
         "poi": 1152,
         "description": "",
         "note": "",
-        "page": 491
+        "pages": "491"
       },
       "geometry": null
     },
@@ -6450,7 +6450,7 @@
         "poi": 1152,
         "description": "",
         "note": "",
-        "page": 777
+        "pages": "777"
       },
       "geometry": null
     },
@@ -6594,7 +6594,7 @@
         "poi": 1134,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -6606,7 +6606,7 @@
         "poi": 1135,
         "description": "",
         "note": "",
-        "page": 460
+        "pages": "460"
       },
       "geometry": null
     },
@@ -6640,7 +6640,7 @@
         "poi": 1136,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -6894,7 +6894,7 @@
         "poi": 1156,
         "description": "",
         "note": "",
-        "page": 491
+        "pages": "491"
       },
       "geometry": null
     },
@@ -6917,7 +6917,7 @@
         "poi": 1155,
         "description": "",
         "note": "",
-        "page": 491
+        "pages": "491"
       },
       "geometry": null
     },
@@ -7105,7 +7105,7 @@
         "poi": 1366,
         "description": "",
         "note": "",
-        "page": 493
+        "pages": "493"
       },
       "geometry": null
     },
@@ -7150,7 +7150,7 @@
         "poi": 1178,
         "description": "",
         "note": "",
-        "page": 7
+        "pages": "7"
       },
       "geometry": null
     },
@@ -7162,7 +7162,7 @@
         "poi": 1219,
         "description": "",
         "note": "",
-        "page": 24
+        "pages": "24"
       },
       "geometry": null
     },
@@ -7328,7 +7328,7 @@
         "poi": 1157,
         "description": "",
         "note": "",
-        "page": 491
+        "pages": "491"
       },
       "geometry": null
     },
@@ -7351,7 +7351,7 @@
         "poi": 1157,
         "description": "",
         "note": "",
-        "page": 772
+        "pages": "772"
       },
       "geometry": null
     },
@@ -7385,7 +7385,7 @@
         "poi": 1453,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -7441,7 +7441,7 @@
         "poi": 1421,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -7453,7 +7453,7 @@
         "poi": 1129,
         "description": "",
         "note": "",
-        "page": 438
+        "pages": "438"
       },
       "geometry": null
     },
@@ -7476,7 +7476,7 @@
         "poi": 1129,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -7499,7 +7499,7 @@
         "poi": 1131,
         "description": "",
         "note": "",
-        "page": 450
+        "pages": "450"
       },
       "geometry": null
     },
@@ -7522,7 +7522,7 @@
         "poi": 1131,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -7534,7 +7534,7 @@
         "poi": 1132,
         "description": "",
         "note": "",
-        "page": 452
+        "pages": "452"
       },
       "geometry": null
     },
@@ -7557,7 +7557,7 @@
         "poi": 1132,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -7569,7 +7569,7 @@
         "poi": 1133,
         "description": "",
         "note": "",
-        "page": 458
+        "pages": "458"
       },
       "geometry": null
     },
@@ -7614,7 +7614,7 @@
         "poi": 1606,
         "description": "",
         "note": "",
-        "page": 85
+        "pages": "85"
       },
       "geometry": null
     },
@@ -7758,7 +7758,7 @@
         "poi": 1607,
         "description": "",
         "note": "",
-        "page": 89
+        "pages": "89"
       },
       "geometry": null
     },
@@ -7792,7 +7792,7 @@
         "poi": 1158,
         "description": "",
         "note": "",
-        "page": 491
+        "pages": "491"
       },
       "geometry": null
     },
@@ -7815,7 +7815,7 @@
         "poi": 1158,
         "description": "",
         "note": "",
-        "page": 772
+        "pages": "772"
       },
       "geometry": null
     },
@@ -7827,7 +7827,7 @@
         "poi": 1159,
         "description": "",
         "note": "",
-        "page": 491
+        "pages": "491"
       },
       "geometry": null
     },
@@ -7850,7 +7850,7 @@
         "poi": 1411,
         "description": "",
         "note": "",
-        "page": 78
+        "pages": "78"
       },
       "geometry": null
     },
@@ -7895,7 +7895,7 @@
         "poi": 1603,
         "description": "",
         "note": "",
-        "page": 83
+        "pages": "83"
       },
       "geometry": null
     },
@@ -7907,7 +7907,7 @@
         "poi": 1604,
         "description": "",
         "note": "",
-        "page": 79
+        "pages": "79"
       },
       "geometry": null
     },
@@ -7930,7 +7930,7 @@
         "poi": 1602,
         "description": "",
         "note": "",
-        "page": 434
+        "pages": "434"
       },
       "geometry": null
     },
@@ -7942,7 +7942,7 @@
         "poi": 1536,
         "description": "",
         "note": "",
-        "page": 472
+        "pages": "472"
       },
       "geometry": null
     },
@@ -7954,7 +7954,7 @@
         "poi": 1537,
         "description": "",
         "note": "",
-        "page": 472
+        "pages": "472"
       },
       "geometry": null
     },
@@ -7966,7 +7966,7 @@
         "poi": 1538,
         "description": "",
         "note": "",
-        "page": 472
+        "pages": "472"
       },
       "geometry": null
     },
@@ -7978,7 +7978,7 @@
         "poi": 1539,
         "description": "",
         "note": "",
-        "page": 472
+        "pages": "472"
       },
       "geometry": null
     },
@@ -7990,7 +7990,7 @@
         "poi": 1540,
         "description": "",
         "note": "",
-        "page": 472
+        "pages": "472"
       },
       "geometry": null
     },
@@ -8002,7 +8002,7 @@
         "poi": 1433,
         "description": "",
         "note": "",
-        "page": 442
+        "pages": "442"
       },
       "geometry": null
     },
@@ -8014,7 +8014,7 @@
         "poi": 1457,
         "description": "",
         "note": "",
-        "page": 448
+        "pages": "448"
       },
       "geometry": null
     },
@@ -8026,7 +8026,7 @@
         "poi": 1457,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -8038,7 +8038,7 @@
         "poi": 1456,
         "description": "",
         "note": "",
-        "page": 448
+        "pages": "448"
       },
       "geometry": null
     },
@@ -8050,7 +8050,7 @@
         "poi": 1456,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -8062,7 +8062,7 @@
         "poi": 1535,
         "description": "",
         "note": "",
-        "page": 470
+        "pages": "470"
       },
       "geometry": null
     },
@@ -8074,7 +8074,7 @@
         "poi": 1437,
         "description": "",
         "note": "",
-        "page": 442
+        "pages": "442"
       },
       "geometry": null
     },
@@ -8086,7 +8086,7 @@
         "poi": 1544,
         "description": "",
         "note": "",
-        "page": 472
+        "pages": "472"
       },
       "geometry": null
     },
@@ -8098,7 +8098,7 @@
         "poi": 1541,
         "description": "",
         "note": "",
-        "page": 472
+        "pages": "472"
       },
       "geometry": null
     },
@@ -8110,7 +8110,7 @@
         "poi": 1485,
         "description": "",
         "note": "",
-        "page": 458
+        "pages": "458"
       },
       "geometry": null
     },
@@ -8122,7 +8122,7 @@
         "poi": 1403,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -8134,7 +8134,7 @@
         "poi": 1404,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -8146,7 +8146,7 @@
         "poi": 1406,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -8158,7 +8158,7 @@
         "poi": 1464,
         "description": "",
         "note": "",
-        "page": 452
+        "pages": "452"
       },
       "geometry": null
     },
@@ -8170,7 +8170,7 @@
         "poi": 1542,
         "description": "",
         "note": "",
-        "page": 472
+        "pages": "472"
       },
       "geometry": null
     },
@@ -8182,7 +8182,7 @@
         "poi": 1543,
         "description": "",
         "note": "",
-        "page": 472
+        "pages": "472"
       },
       "geometry": null
     },
@@ -8194,7 +8194,7 @@
         "poi": 1438,
         "description": "",
         "note": "",
-        "page": 442
+        "pages": "442"
       },
       "geometry": null
     },
@@ -8206,7 +8206,7 @@
         "poi": 1507,
         "description": "",
         "note": "",
-        "page": 466
+        "pages": "466"
       },
       "geometry": null
     },
@@ -8218,7 +8218,7 @@
         "poi": 1510,
         "description": "",
         "note": "",
-        "page": 466
+        "pages": "466"
       },
       "geometry": null
     },
@@ -8230,7 +8230,7 @@
         "poi": 1235,
         "description": "",
         "note": "",
-        "page": 27
+        "pages": "27"
       },
       "geometry": null
     },
@@ -8242,7 +8242,7 @@
         "poi": 1184,
         "description": "",
         "note": "",
-        "page": 9
+        "pages": "9"
       },
       "geometry": null
     },
@@ -8254,7 +8254,7 @@
         "poi": 1332,
         "description": "",
         "note": "",
-        "page": 440
+        "pages": "440"
       },
       "geometry": null
     },
@@ -8277,7 +8277,7 @@
         "poi": 1332,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -8300,7 +8300,7 @@
         "poi": 1314,
         "description": "",
         "note": "",
-        "page": 59
+        "pages": "59"
       },
       "geometry": null
     },
@@ -8312,7 +8312,7 @@
         "poi": 1340,
         "description": "",
         "note": "",
-        "page": 450
+        "pages": "450"
       },
       "geometry": null
     },
@@ -8335,7 +8335,7 @@
         "poi": 1340,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -8347,7 +8347,7 @@
         "poi": 1333,
         "description": "",
         "note": "",
-        "page": 442
+        "pages": "442"
       },
       "geometry": null
     },
@@ -8370,7 +8370,7 @@
         "poi": 1333,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -8393,7 +8393,7 @@
         "poi": 1338,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -8416,7 +8416,7 @@
         "poi": 1339,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -8428,7 +8428,7 @@
         "poi": 1275,
         "description": "",
         "note": "",
-        "page": 39
+        "pages": "39"
       },
       "geometry": null
     },
@@ -8484,7 +8484,7 @@
         "poi": 1224,
         "description": "",
         "note": "",
-        "page": 25
+        "pages": "25"
       },
       "geometry": null
     },
@@ -8496,7 +8496,7 @@
         "poi": 1223,
         "description": "",
         "note": "",
-        "page": 25
+        "pages": "25"
       },
       "geometry": null
     },
@@ -8519,7 +8519,7 @@
         "poi": 1183,
         "description": "",
         "note": "",
-        "page": 8
+        "pages": "8"
       },
       "geometry": null
     },
@@ -8553,7 +8553,7 @@
         "poi": 1326,
         "description": "",
         "note": "",
-        "page": 57
+        "pages": "57"
       },
       "geometry": null
     },
@@ -8565,7 +8565,7 @@
         "poi": 1225,
         "description": "",
         "note": "",
-        "page": 26
+        "pages": "26"
       },
       "geometry": null
     },
@@ -8588,7 +8588,7 @@
         "poi": 1233,
         "description": "",
         "note": "",
-        "page": 27
+        "pages": "27"
       },
       "geometry": null
     },
@@ -8600,7 +8600,7 @@
         "poi": 1234,
         "description": "",
         "note": "",
-        "page": 27
+        "pages": "27"
       },
       "geometry": null
     },
@@ -8612,7 +8612,7 @@
         "poi": 1189,
         "description": "",
         "note": "",
-        "page": 10
+        "pages": "10"
       },
       "geometry": null
     },
@@ -8624,7 +8624,7 @@
         "poi": 1278,
         "description": "",
         "note": "",
-        "page": 40
+        "pages": "40"
       },
       "geometry": null
     },
@@ -8636,7 +8636,7 @@
         "poi": 1279,
         "description": "",
         "note": "",
-        "page": 40
+        "pages": "40"
       },
       "geometry": null
     },
@@ -8648,7 +8648,7 @@
         "poi": 1281,
         "description": "",
         "note": "",
-        "page": 41
+        "pages": "41"
       },
       "geometry": null
     },
@@ -8660,7 +8660,7 @@
         "poi": 1282,
         "description": "",
         "note": "",
-        "page": 40
+        "pages": "40"
       },
       "geometry": null
     },
@@ -8672,7 +8672,7 @@
         "poi": 1283,
         "description": "",
         "note": "",
-        "page": 41
+        "pages": "41"
       },
       "geometry": null
     },
@@ -8684,7 +8684,7 @@
         "poi": 1284,
         "description": "",
         "note": "",
-        "page": 41
+        "pages": "41"
       },
       "geometry": null
     },
@@ -8696,7 +8696,7 @@
         "poi": 1285,
         "description": "",
         "note": "",
-        "page": 41
+        "pages": "41"
       },
       "geometry": null
     },
@@ -8708,7 +8708,7 @@
         "poi": 1280,
         "description": "",
         "note": "",
-        "page": 40
+        "pages": "40"
       },
       "geometry": null
     },
@@ -8720,7 +8720,7 @@
         "poi": 1619,
         "description": "",
         "note": "",
-        "page": 107
+        "pages": "107"
       },
       "geometry": null
     },
@@ -8732,7 +8732,7 @@
         "poi": 1574,
         "description": "",
         "note": "",
-        "page": 494
+        "pages": "494"
       },
       "geometry": null
     },
@@ -8744,7 +8744,7 @@
         "poi": 1229,
         "description": "",
         "note": "",
-        "page": 26
+        "pages": "26"
       },
       "geometry": null
     },
@@ -8756,7 +8756,7 @@
         "poi": 1230,
         "description": "",
         "note": "",
-        "page": 26
+        "pages": "26"
       },
       "geometry": null
     },
@@ -8768,7 +8768,7 @@
         "poi": 1231,
         "description": "",
         "note": "",
-        "page": 27
+        "pages": "27"
       },
       "geometry": null
     },
@@ -8780,7 +8780,7 @@
         "poi": 1232,
         "description": "",
         "note": "",
-        "page": 27
+        "pages": "27"
       },
       "geometry": null
     },
@@ -8792,7 +8792,7 @@
         "poi": 1163,
         "description": "",
         "note": "",
-        "page": 4
+        "pages": "4"
       },
       "geometry": null
     },
@@ -8804,7 +8804,7 @@
         "poi": 1162,
         "description": "",
         "note": "",
-        "page": 4
+        "pages": "4"
       },
       "geometry": null
     },
@@ -8816,7 +8816,7 @@
         "poi": 1164,
         "description": "",
         "note": "",
-        "page": 4
+        "pages": "4"
       },
       "geometry": null
     },
@@ -8828,7 +8828,7 @@
         "poi": 1165,
         "description": "",
         "note": "",
-        "page": 5
+        "pages": "5"
       },
       "geometry": null
     },
@@ -8840,7 +8840,7 @@
         "poi": 1612,
         "description": "",
         "note": "",
-        "page": 97
+        "pages": "97"
       },
       "geometry": null
     },
@@ -8852,7 +8852,7 @@
         "poi": 1613,
         "description": "",
         "note": "",
-        "page": 98
+        "pages": "98"
       },
       "geometry": null
     },
@@ -8864,7 +8864,7 @@
         "poi": 1614,
         "description": "",
         "note": "",
-        "page": 99
+        "pages": "99"
       },
       "geometry": null
     },
@@ -8876,7 +8876,7 @@
         "poi": 1615,
         "description": "",
         "note": "",
-        "page": 101
+        "pages": "101"
       },
       "geometry": null
     },
@@ -8899,7 +8899,7 @@
         "poi": 1179,
         "description": "",
         "note": "",
-        "page": 7
+        "pages": "7"
       },
       "geometry": null
     },
@@ -8911,7 +8911,7 @@
         "poi": 1180,
         "description": "",
         "note": "",
-        "page": 7
+        "pages": "7"
       },
       "geometry": null
     },
@@ -8923,7 +8923,7 @@
         "poi": 1181,
         "description": "",
         "note": "",
-        "page": 8
+        "pages": "8"
       },
       "geometry": null
     },
@@ -8935,7 +8935,7 @@
         "poi": 1274,
         "description": "",
         "note": "",
-        "page": 39
+        "pages": "39"
       },
       "geometry": null
     },
@@ -8947,7 +8947,7 @@
         "poi": 1220,
         "description": "",
         "note": "",
-        "page": 24
+        "pages": "24"
       },
       "geometry": null
     },
@@ -9014,7 +9014,7 @@
         "poi": 1367,
         "description": "",
         "note": "",
-        "page": 493
+        "pages": "493"
       },
       "geometry": null
     },
@@ -9026,7 +9026,7 @@
         "poi": 1367,
         "description": "",
         "note": "",
-        "page": 65
+        "pages": "65"
       },
       "geometry": null
     },
@@ -9038,7 +9038,7 @@
         "poi": 1276,
         "description": "",
         "note": "",
-        "page": 39
+        "pages": "39"
       },
       "geometry": null
     },
@@ -9050,7 +9050,7 @@
         "poi": 1221,
         "description": "",
         "note": "",
-        "page": 24
+        "pages": "24"
       },
       "geometry": null
     },
@@ -9062,7 +9062,7 @@
         "poi": 1222,
         "description": "",
         "note": "",
-        "page": 25
+        "pages": "25"
       },
       "geometry": null
     },
@@ -9085,7 +9085,7 @@
         "poi": 1277,
         "description": "",
         "note": "",
-        "page": 40
+        "pages": "40"
       },
       "geometry": null
     },
@@ -9097,19 +9097,7 @@
         "poi": 1218,
         "description": "",
         "note": "",
-        "page": 493
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 805,
-        "book": 7,
-        "poi": 1218,
-        "description": "",
-        "note": "同本の道標条にも重複",
-        "page": 24
+        "pages": "493"
       },
       "geometry": null
     },
@@ -9121,7 +9109,7 @@
         "poi": 1218,
         "description": "",
         "note": "",
-        "page": 773
+        "pages": "773"
       },
       "geometry": null
     },
@@ -9133,7 +9121,7 @@
         "poi": 1182,
         "description": "",
         "note": "",
-        "page": 8
+        "pages": "8"
       },
       "geometry": null
     },
@@ -9145,7 +9133,7 @@
         "poi": 1161,
         "description": "",
         "note": "",
-        "page": 4
+        "pages": "4"
       },
       "geometry": null
     },
@@ -9157,7 +9145,7 @@
         "poi": 1325,
         "description": "",
         "note": "",
-        "page": 57
+        "pages": "57"
       },
       "geometry": null
     },
@@ -9180,7 +9168,7 @@
         "poi": 1385,
         "description": "",
         "note": "",
-        "page": 73
+        "pages": "73"
       },
       "geometry": null
     },
@@ -9203,7 +9191,7 @@
         "poi": 1618,
         "description": "",
         "note": "",
-        "page": 105
+        "pages": "105"
       },
       "geometry": null
     },
@@ -9215,7 +9203,7 @@
         "poi": 1188,
         "description": "",
         "note": "",
-        "page": 9
+        "pages": "9"
       },
       "geometry": null
     },
@@ -9227,7 +9215,7 @@
         "poi": 1272,
         "description": "",
         "note": "",
-        "page": 39
+        "pages": "39"
       },
       "geometry": null
     },
@@ -9239,7 +9227,7 @@
         "poi": 1160,
         "description": "",
         "note": "",
-        "page": 4
+        "pages": "4"
       },
       "geometry": null
     },
@@ -9251,7 +9239,7 @@
         "poi": 1364,
         "description": "",
         "note": "",
-        "page": 495
+        "pages": "495"
       },
       "geometry": null
     },
@@ -9274,7 +9262,7 @@
         "poi": 1364,
         "description": "",
         "note": "",
-        "page": 773
+        "pages": "773"
       },
       "geometry": null
     },
@@ -9286,7 +9274,7 @@
         "poi": 1177,
         "description": "",
         "note": "",
-        "page": 7
+        "pages": "7"
       },
       "geometry": null
     },
@@ -9298,7 +9286,7 @@
         "poi": 1214,
         "description": "",
         "note": "",
-        "page": 22
+        "pages": "22"
       },
       "geometry": null
     },
@@ -9310,7 +9298,7 @@
         "poi": 1215,
         "description": "",
         "note": "",
-        "page": 495
+        "pages": "495"
       },
       "geometry": null
     },
@@ -9322,7 +9310,7 @@
         "poi": 1215,
         "description": "",
         "note": "",
-        "page": 22
+        "pages": "22"
       },
       "geometry": null
     },
@@ -9334,7 +9322,7 @@
         "poi": 1216,
         "description": "",
         "note": "",
-        "page": 23
+        "pages": "23"
       },
       "geometry": null
     },
@@ -9346,7 +9334,7 @@
         "poi": 1217,
         "description": "",
         "note": "",
-        "page": 24
+        "pages": "24"
       },
       "geometry": null
     },
@@ -9380,7 +9368,7 @@
         "poi": 1176,
         "description": "",
         "note": "",
-        "page": 6
+        "pages": "6"
       },
       "geometry": null
     },
@@ -9414,7 +9402,7 @@
         "poi": 1175,
         "description": "",
         "note": "",
-        "page": 6
+        "pages": "6"
       },
       "geometry": null
     },
@@ -9437,7 +9425,7 @@
         "poi": 1265,
         "description": "",
         "note": "",
-        "page": 37
+        "pages": "37"
       },
       "geometry": null
     },
@@ -9449,7 +9437,7 @@
         "poi": 1266,
         "description": "",
         "note": "",
-        "page": 38
+        "pages": "38"
       },
       "geometry": null
     },
@@ -9461,7 +9449,7 @@
         "poi": 1267,
         "description": "",
         "note": "",
-        "page": 38
+        "pages": "38"
       },
       "geometry": null
     },
@@ -9473,7 +9461,7 @@
         "poi": 1268,
         "description": "",
         "note": "",
-        "page": 37
+        "pages": "37"
       },
       "geometry": null
     },
@@ -9485,7 +9473,7 @@
         "poi": 1269,
         "description": "",
         "note": "",
-        "page": 38
+        "pages": "38"
       },
       "geometry": null
     },
@@ -9497,7 +9485,7 @@
         "poi": 1270,
         "description": "",
         "note": "",
-        "page": 38
+        "pages": "38"
       },
       "geometry": null
     },
@@ -9509,7 +9497,7 @@
         "poi": 1271,
         "description": "",
         "note": "",
-        "page": 38
+        "pages": "38"
       },
       "geometry": null
     },
@@ -9521,7 +9509,7 @@
         "poi": 1608,
         "description": "",
         "note": "",
-        "page": 91
+        "pages": "91"
       },
       "geometry": null
     },
@@ -9533,7 +9521,7 @@
         "poi": 1610,
         "description": "",
         "note": "",
-        "page": 95
+        "pages": "95"
       },
       "geometry": null
     },
@@ -9556,7 +9544,7 @@
         "poi": 1209,
         "description": "",
         "note": "",
-        "page": 14
+        "pages": "14"
       },
       "geometry": null
     },
@@ -9568,7 +9556,7 @@
         "poi": 1253,
         "description": "",
         "note": "",
-        "page": 31
+        "pages": "31"
       },
       "geometry": null
     },
@@ -9580,7 +9568,7 @@
         "poi": 1206,
         "description": "",
         "note": "",
-        "page": 14
+        "pages": "14"
       },
       "geometry": null
     },
@@ -9592,7 +9580,7 @@
         "poi": 1207,
         "description": "",
         "note": "",
-        "page": 14
+        "pages": "14"
       },
       "geometry": null
     },
@@ -9604,7 +9592,7 @@
         "poi": 1330,
         "description": "",
         "note": "",
-        "page": 438
+        "pages": "438"
       },
       "geometry": null
     },
@@ -9627,7 +9615,7 @@
         "poi": 1330,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -9650,7 +9638,7 @@
         "poi": 1331,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -9662,7 +9650,7 @@
         "poi": 1256,
         "description": "",
         "note": "",
-        "page": 32
+        "pages": "32"
       },
       "geometry": null
     },
@@ -9674,7 +9662,7 @@
         "poi": 1257,
         "description": "",
         "note": "",
-        "page": 32
+        "pages": "32"
       },
       "geometry": null
     },
@@ -9686,7 +9674,7 @@
         "poi": 1633,
         "description": "",
         "note": "",
-        "page": 131
+        "pages": "131"
       },
       "geometry": null
     },
@@ -9698,7 +9686,7 @@
         "poi": 1634,
         "description": "",
         "note": "",
-        "page": 134
+        "pages": "134"
       },
       "geometry": null
     },
@@ -9732,7 +9720,7 @@
         "poi": 1637,
         "description": "",
         "note": "",
-        "page": 137
+        "pages": "137"
       },
       "geometry": null
     },
@@ -9766,7 +9754,7 @@
         "poi": 1252,
         "description": "",
         "note": "",
-        "page": 31
+        "pages": "31"
       },
       "geometry": null
     },
@@ -9778,7 +9766,7 @@
         "poi": 1370,
         "description": "",
         "note": "",
-        "page": 493
+        "pages": "493"
       },
       "geometry": null
     },
@@ -9801,7 +9789,7 @@
         "poi": 1379,
         "description": "",
         "note": "",
-        "page": 493
+        "pages": "493"
       },
       "geometry": null
     },
@@ -9813,7 +9801,7 @@
         "poi": 1379,
         "description": "",
         "note": "",
-        "page": 71
+        "pages": "71"
       },
       "geometry": null
     },
@@ -9825,7 +9813,7 @@
         "poi": 1379,
         "description": "",
         "note": "",
-        "page": 773
+        "pages": "773"
       },
       "geometry": null
     },
@@ -9837,7 +9825,7 @@
         "poi": 1383,
         "description": "",
         "note": "",
-        "page": 72
+        "pages": "72"
       },
       "geometry": null
     },
@@ -9849,7 +9837,7 @@
         "poi": 1384,
         "description": "",
         "note": "",
-        "page": 72
+        "pages": "72"
       },
       "geometry": null
     },
@@ -9861,7 +9849,7 @@
         "poi": 1378,
         "description": "",
         "note": "",
-        "page": 71
+        "pages": "71"
       },
       "geometry": null
     },
@@ -9873,7 +9861,7 @@
         "poi": 1203,
         "description": "",
         "note": "",
-        "page": 13
+        "pages": "13"
       },
       "geometry": null
     },
@@ -9885,7 +9873,7 @@
         "poi": 1204,
         "description": "",
         "note": "",
-        "page": 13
+        "pages": "13"
       },
       "geometry": null
     },
@@ -9897,7 +9885,7 @@
         "poi": 1205,
         "description": "",
         "note": "",
-        "page": 13
+        "pages": "13"
       },
       "geometry": null
     },
@@ -9909,7 +9897,7 @@
         "poi": 1174,
         "description": "",
         "note": "",
-        "page": 6
+        "pages": "6"
       },
       "geometry": null
     },
@@ -9921,7 +9909,7 @@
         "poi": 1248,
         "description": "",
         "note": "",
-        "page": 30
+        "pages": "30"
       },
       "geometry": null
     },
@@ -9933,7 +9921,7 @@
         "poi": 1249,
         "description": "",
         "note": "",
-        "page": 30
+        "pages": "30"
       },
       "geometry": null
     },
@@ -9945,7 +9933,7 @@
         "poi": 1250,
         "description": "",
         "note": "",
-        "page": 30
+        "pages": "30"
       },
       "geometry": null
     },
@@ -9957,7 +9945,7 @@
         "poi": 1251,
         "description": "",
         "note": "",
-        "page": 31
+        "pages": "31"
       },
       "geometry": null
     },
@@ -9969,7 +9957,7 @@
         "poi": 1293,
         "description": "",
         "note": "",
-        "page": 43
+        "pages": "43"
       },
       "geometry": null
     },
@@ -9992,7 +9980,7 @@
         "poi": 1247,
         "description": "",
         "note": "",
-        "page": 30
+        "pages": "30"
       },
       "geometry": null
     },
@@ -10004,7 +9992,7 @@
         "poi": 1246,
         "description": "",
         "note": "",
-        "page": 30
+        "pages": "30"
       },
       "geometry": null
     },
@@ -10016,7 +10004,7 @@
         "poi": 1197,
         "description": "",
         "note": "",
-        "page": 12
+        "pages": "12"
       },
       "geometry": null
     },
@@ -10028,7 +10016,7 @@
         "poi": 1292,
         "description": "",
         "note": "",
-        "page": 43
+        "pages": "43"
       },
       "geometry": null
     },
@@ -10040,7 +10028,7 @@
         "poi": 1195,
         "description": "",
         "note": "",
-        "page": 11
+        "pages": "11"
       },
       "geometry": null
     },
@@ -10052,7 +10040,7 @@
         "poi": 1196,
         "description": "",
         "note": "",
-        "page": 12
+        "pages": "12"
       },
       "geometry": null
     },
@@ -10064,7 +10052,7 @@
         "poi": 1238,
         "description": "",
         "note": "",
-        "page": 28
+        "pages": "28"
       },
       "geometry": null
     },
@@ -10076,7 +10064,7 @@
         "poi": 1239,
         "description": "",
         "note": "",
-        "page": 28
+        "pages": "28"
       },
       "geometry": null
     },
@@ -10088,7 +10076,7 @@
         "poi": 1244,
         "description": "",
         "note": "",
-        "page": 29
+        "pages": "29"
       },
       "geometry": null
     },
@@ -10100,7 +10088,7 @@
         "poi": 1327,
         "description": "",
         "note": "",
-        "page": 58
+        "pages": "58"
       },
       "geometry": null
     },
@@ -10123,7 +10111,7 @@
         "poi": 1631,
         "description": "",
         "note": "",
-        "page": 127
+        "pages": "127"
       },
       "geometry": null
     },
@@ -10146,7 +10134,7 @@
         "poi": 1318,
         "description": "",
         "note": "",
-        "page": 54
+        "pages": "54"
       },
       "geometry": null
     },
@@ -10158,7 +10146,7 @@
         "poi": 1240,
         "description": "",
         "note": "",
-        "page": 28
+        "pages": "28"
       },
       "geometry": null
     },
@@ -10170,7 +10158,7 @@
         "poi": 1241,
         "description": "",
         "note": "",
-        "page": 29
+        "pages": "29"
       },
       "geometry": null
     },
@@ -10182,7 +10170,7 @@
         "poi": 1242,
         "description": "",
         "note": "",
-        "page": 29
+        "pages": "29"
       },
       "geometry": null
     },
@@ -10194,7 +10182,7 @@
         "poi": 1243,
         "description": "",
         "note": "",
-        "page": 29
+        "pages": "29"
       },
       "geometry": null
     },
@@ -10206,7 +10194,7 @@
         "poi": 1286,
         "description": "",
         "note": "",
-        "page": 42
+        "pages": "42"
       },
       "geometry": null
     },
@@ -10218,7 +10206,7 @@
         "poi": 1287,
         "description": "",
         "note": "",
-        "page": 42
+        "pages": "42"
       },
       "geometry": null
     },
@@ -10263,7 +10251,7 @@
         "poi": 1245,
         "description": "",
         "note": "",
-        "page": 29
+        "pages": "29"
       },
       "geometry": null
     },
@@ -10275,7 +10263,7 @@
         "poi": 1620,
         "description": "",
         "note": "",
-        "page": 109
+        "pages": "109"
       },
       "geometry": null
     },
@@ -10287,7 +10275,7 @@
         "poi": 1621,
         "description": "",
         "note": "",
-        "page": 112
+        "pages": "112"
       },
       "geometry": null
     },
@@ -10299,7 +10287,7 @@
         "poi": 1622,
         "description": "",
         "note": "",
-        "page": 114
+        "pages": "114"
       },
       "geometry": null
     },
@@ -10311,7 +10299,7 @@
         "poi": 1623,
         "description": "",
         "note": "",
-        "page": 116
+        "pages": "116"
       },
       "geometry": null
     },
@@ -10334,7 +10322,7 @@
         "poi": 1625,
         "description": "",
         "note": "",
-        "page": 120
+        "pages": "120"
       },
       "geometry": null
     },
@@ -10368,7 +10356,7 @@
         "poi": 1628,
         "description": "",
         "note": "",
-        "page": 121
+        "pages": "121"
       },
       "geometry": null
     },
@@ -10380,7 +10368,7 @@
         "poi": 1629,
         "description": "",
         "note": "",
-        "page": 123
+        "pages": "123"
       },
       "geometry": null
     },
@@ -10392,7 +10380,7 @@
         "poi": 1630,
         "description": "",
         "note": "",
-        "page": 125
+        "pages": "125"
       },
       "geometry": null
     },
@@ -10415,7 +10403,7 @@
         "poi": 1211,
         "description": "",
         "note": "",
-        "page": 15
+        "pages": "15"
       },
       "geometry": null
     },
@@ -10427,7 +10415,7 @@
         "poi": 1212,
         "description": "",
         "note": "",
-        "page": 15
+        "pages": "15"
       },
       "geometry": null
     },
@@ -10439,7 +10427,7 @@
         "poi": 1213,
         "description": "",
         "note": "",
-        "page": 15
+        "pages": "15"
       },
       "geometry": null
     },
@@ -10450,8 +10438,8 @@
         "book": 7,
         "poi": 1264,
         "description": "",
-        "note": "同本の道標項にも重複掲載",
-        "page": 34
+        "note": "庚申の項、道標の項に重複記述",
+        "pages": "34,65"
       },
       "geometry": null
     },
@@ -10474,7 +10462,7 @@
         "poi": 1323,
         "description": "",
         "note": "",
-        "page": 773
+        "pages": "773"
       },
       "geometry": null
     },
@@ -10486,7 +10474,7 @@
         "poi": 1368,
         "description": "",
         "note": "",
-        "page": 493
+        "pages": "493"
       },
       "geometry": null
     },
@@ -10520,7 +10508,7 @@
         "poi": 1321,
         "description": "",
         "note": "",
-        "page": 56
+        "pages": "56"
       },
       "geometry": null
     },
@@ -10532,7 +10520,7 @@
         "poi": 1322,
         "description": "",
         "note": "",
-        "page": 56
+        "pages": "56"
       },
       "geometry": null
     },
@@ -10555,7 +10543,7 @@
         "poi": 1320,
         "description": "",
         "note": "",
-        "page": 55
+        "pages": "55"
       },
       "geometry": null
     },
@@ -10567,7 +10555,7 @@
         "poi": 1259,
         "description": "",
         "note": "",
-        "page": 32
+        "pages": "32"
       },
       "geometry": null
     },
@@ -10579,7 +10567,7 @@
         "poi": 1260,
         "description": "",
         "note": "",
-        "page": 33
+        "pages": "33"
       },
       "geometry": null
     },
@@ -10591,7 +10579,7 @@
         "poi": 1261,
         "description": "",
         "note": "",
-        "page": 33
+        "pages": "33"
       },
       "geometry": null
     },
@@ -10603,7 +10591,7 @@
         "poi": 1262,
         "description": "",
         "note": "",
-        "page": 33
+        "pages": "33"
       },
       "geometry": null
     },
@@ -10725,7 +10713,7 @@
         "poi": 1575,
         "description": "",
         "note": "",
-        "page": 494
+        "pages": "494"
       },
       "geometry": null
     },
@@ -10737,7 +10725,7 @@
         "poi": 1263,
         "description": "",
         "note": "",
-        "page": 493
+        "pages": "493"
       },
       "geometry": null
     },
@@ -10749,7 +10737,7 @@
         "poi": 1263,
         "description": "",
         "note": "",
-        "page": 33
+        "pages": "33"
       },
       "geometry": null
     },
@@ -10761,7 +10749,7 @@
         "poi": 1310,
         "description": "",
         "note": "",
-        "page": 47
+        "pages": "47"
       },
       "geometry": null
     },
@@ -10784,7 +10772,7 @@
         "poi": 1198,
         "description": "",
         "note": "",
-        "page": 12
+        "pages": "12"
       },
       "geometry": null
     },
@@ -10807,7 +10795,7 @@
         "poi": 1254,
         "description": "",
         "note": "",
-        "page": 31
+        "pages": "31"
       },
       "geometry": null
     },
@@ -10819,7 +10807,7 @@
         "poi": 1210,
         "description": "",
         "note": "",
-        "page": 15
+        "pages": "15"
       },
       "geometry": null
     },
@@ -10831,7 +10819,7 @@
         "poi": 1324,
         "description": "",
         "note": "",
-        "page": 57
+        "pages": "57"
       },
       "geometry": null
     },
@@ -10898,7 +10886,7 @@
         "poi": 1199,
         "description": "",
         "note": "",
-        "page": 12
+        "pages": "12"
       },
       "geometry": null
     },
@@ -10910,7 +10898,7 @@
         "poi": 1200,
         "description": "",
         "note": "",
-        "page": 12
+        "pages": "12"
       },
       "geometry": null
     },
@@ -10922,7 +10910,7 @@
         "poi": 1201,
         "description": "",
         "note": "",
-        "page": 13
+        "pages": "13"
       },
       "geometry": null
     },
@@ -10934,7 +10922,7 @@
         "poi": 1202,
         "description": "",
         "note": "",
-        "page": 13
+        "pages": "13"
       },
       "geometry": null
     },
@@ -10946,7 +10934,7 @@
         "poi": 1255,
         "description": "",
         "note": "",
-        "page": 31
+        "pages": "31"
       },
       "geometry": null
     },
@@ -10969,7 +10957,7 @@
         "poi": 1307,
         "description": "",
         "note": "",
-        "page": 46
+        "pages": "46"
       },
       "geometry": null
     },
@@ -11003,7 +10991,7 @@
         "poi": 1258,
         "description": "",
         "note": "",
-        "page": 32
+        "pages": "32"
       },
       "geometry": null
     },
@@ -11026,7 +11014,7 @@
         "poi": 1335,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -11049,7 +11037,7 @@
         "poi": 1341,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -11072,7 +11060,7 @@
         "poi": 1236,
         "description": "",
         "note": "",
-        "page": 28
+        "pages": "28"
       },
       "geometry": null
     },
@@ -11095,7 +11083,7 @@
         "poi": 1328,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -11107,7 +11095,7 @@
         "poi": 1336,
         "description": "",
         "note": "",
-        "page": 448
+        "pages": "448"
       },
       "geometry": null
     },
@@ -11130,7 +11118,7 @@
         "poi": 1336,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -11142,7 +11130,7 @@
         "poi": 1208,
         "description": "",
         "note": "",
-        "page": 14
+        "pages": "14"
       },
       "geometry": null
     },
@@ -11154,7 +11142,7 @@
         "poi": 1371,
         "description": "",
         "note": "",
-        "page": 493
+        "pages": "493"
       },
       "geometry": null
     },
@@ -11177,7 +11165,7 @@
         "poi": 1329,
         "description": "",
         "note": "",
-        "page": 436
+        "pages": "436"
       },
       "geometry": null
     },
@@ -11200,7 +11188,7 @@
         "poi": 1329,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -11212,7 +11200,7 @@
         "poi": 1337,
         "description": "",
         "note": "",
-        "page": 448
+        "pages": "448"
       },
       "geometry": null
     },
@@ -11235,7 +11223,7 @@
         "poi": 1337,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -11258,7 +11246,7 @@
         "poi": 1170,
         "description": "",
         "note": "",
-        "page": 5
+        "pages": "5"
       },
       "geometry": null
     },
@@ -11270,7 +11258,7 @@
         "poi": 1171,
         "description": "",
         "note": "",
-        "page": 6
+        "pages": "6"
       },
       "geometry": null
     },
@@ -11282,7 +11270,7 @@
         "poi": 1172,
         "description": "",
         "note": "",
-        "page": 6
+        "pages": "6"
       },
       "geometry": null
     },
@@ -11294,7 +11282,7 @@
         "poi": 1173,
         "description": "",
         "note": "",
-        "page": 6
+        "pages": "6"
       },
       "geometry": null
     },
@@ -11328,7 +11316,7 @@
         "poi": 1190,
         "description": "",
         "note": "",
-        "page": 10
+        "pages": "10"
       },
       "geometry": null
     },
@@ -11340,7 +11328,7 @@
         "poi": 1191,
         "description": "",
         "note": "",
-        "page": 11
+        "pages": "11"
       },
       "geometry": null
     },
@@ -11352,7 +11340,7 @@
         "poi": 1192,
         "description": "",
         "note": "",
-        "page": 11
+        "pages": "11"
       },
       "geometry": null
     },
@@ -11364,7 +11352,7 @@
         "poi": 1193,
         "description": "",
         "note": "",
-        "page": 11
+        "pages": "11"
       },
       "geometry": null
     },
@@ -11376,7 +11364,7 @@
         "poi": 1194,
         "description": "",
         "note": "",
-        "page": 11
+        "pages": "11"
       },
       "geometry": null
     },
@@ -11388,7 +11376,7 @@
         "poi": 1316,
         "description": "",
         "note": "",
-        "page": 53
+        "pages": "53"
       },
       "geometry": null
     },
@@ -11400,7 +11388,7 @@
         "poi": 1237,
         "description": "",
         "note": "",
-        "page": 28
+        "pages": "28"
       },
       "geometry": null
     },
@@ -11412,7 +11400,7 @@
         "poi": 1317,
         "description": "",
         "note": "",
-        "page": 54
+        "pages": "54"
       },
       "geometry": null
     },
@@ -11424,7 +11412,7 @@
         "poi": 1166,
         "description": "",
         "note": "",
-        "page": 5
+        "pages": "5"
       },
       "geometry": null
     },
@@ -11436,7 +11424,7 @@
         "poi": 1167,
         "description": "",
         "note": "",
-        "page": 5
+        "pages": "5"
       },
       "geometry": null
     },
@@ -11448,7 +11436,7 @@
         "poi": 1168,
         "description": "",
         "note": "",
-        "page": 5
+        "pages": "5"
       },
       "geometry": null
     },
@@ -11460,7 +11448,7 @@
         "poi": 1169,
         "description": "",
         "note": "",
-        "page": 5
+        "pages": "5"
       },
       "geometry": null
     },
@@ -11527,7 +11515,7 @@
         "poi": 1185,
         "description": "",
         "note": "",
-        "page": 9
+        "pages": "9"
       },
       "geometry": null
     },
@@ -11539,7 +11527,7 @@
         "poi": 1186,
         "description": "",
         "note": "",
-        "page": 9
+        "pages": "9"
       },
       "geometry": null
     },
@@ -11551,7 +11539,7 @@
         "poi": 1187,
         "description": "",
         "note": "",
-        "page": 9
+        "pages": "9"
       },
       "geometry": null
     },
@@ -11563,7 +11551,7 @@
         "poi": 1227,
         "description": "",
         "note": "",
-        "page": 26
+        "pages": "26"
       },
       "geometry": null
     },
@@ -11575,7 +11563,7 @@
         "poi": 1228,
         "description": "",
         "note": "",
-        "page": 26
+        "pages": "26"
       },
       "geometry": null
     },
@@ -11631,7 +11619,7 @@
         "poi": 1334,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -11654,7 +11642,7 @@
         "poi": 1342,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -11688,7 +11676,7 @@
         "poi": 1226,
         "description": "",
         "note": "",
-        "page": 26
+        "pages": "26"
       },
       "geometry": null
     },
@@ -11744,7 +11732,7 @@
         "poi": 1295,
         "description": "",
         "note": "",
-        "page": 43
+        "pages": "43"
       },
       "geometry": null
     },
@@ -11756,7 +11744,7 @@
         "poi": 1273,
         "description": "",
         "note": "",
-        "page": 39
+        "pages": "39"
       },
       "geometry": null
     },
@@ -11768,7 +11756,7 @@
         "poi": 1319,
         "description": "",
         "note": "",
-        "page": 54
+        "pages": "54"
       },
       "geometry": null
     },
@@ -11780,7 +11768,7 @@
         "poi": 1372,
         "description": "",
         "note": "",
-        "page": 493
+        "pages": "493"
       },
       "geometry": null
     },
@@ -11803,7 +11791,7 @@
         "poi": 1490,
         "description": "",
         "note": "",
-        "page": 462
+        "pages": "462"
       },
       "geometry": null
     },
@@ -11815,7 +11803,7 @@
         "poi": 1478,
         "description": "",
         "note": "",
-        "page": 456
+        "pages": "456"
       },
       "geometry": null
     },
@@ -11827,7 +11815,7 @@
         "poi": 1445,
         "description": "",
         "note": "",
-        "page": 446
+        "pages": "446"
       },
       "geometry": null
     },
@@ -11839,7 +11827,7 @@
         "poi": 1450,
         "description": "",
         "note": "",
-        "page": 446
+        "pages": "446"
       },
       "geometry": null
     },
@@ -11851,7 +11839,7 @@
         "poi": 1534,
         "description": "",
         "note": "",
-        "page": 470
+        "pages": "470"
       },
       "geometry": null
     },
@@ -11863,7 +11851,7 @@
         "poi": 1565,
         "description": "",
         "note": "",
-        "page": 484
+        "pages": "484"
       },
       "geometry": null
     },
@@ -11897,7 +11885,7 @@
         "poi": 481,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -12261,7 +12249,7 @@
         "poi": 485,
         "description": "",
         "note": "",
-        "page": 460
+        "pages": "460"
       },
       "geometry": null
     },
@@ -12504,7 +12492,7 @@
         "poi": 876,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -12527,7 +12515,7 @@
         "poi": 876,
         "description": "",
         "note": "",
-        "page": 775
+        "pages": "775"
       },
       "geometry": null
     },
@@ -12605,7 +12593,7 @@
         "poi": 1678,
         "description": "",
         "note": "",
-        "page": 150
+        "pages": "150"
       },
       "geometry": null
     },
@@ -12617,7 +12605,7 @@
         "poi": 1679,
         "description": "",
         "note": "",
-        "page": 152
+        "pages": "152"
       },
       "geometry": null
     },
@@ -12629,7 +12617,7 @@
         "poi": 1684,
         "description": "",
         "note": "",
-        "page": 165
+        "pages": "165"
       },
       "geometry": null
     },
@@ -12641,7 +12629,7 @@
         "poi": 534,
         "description": "",
         "note": "",
-        "page": 496
+        "pages": "496"
       },
       "geometry": null
     },
@@ -12664,7 +12652,7 @@
         "poi": 534,
         "description": "",
         "note": "",
-        "page": 773
+        "pages": "773"
       },
       "geometry": null
     },
@@ -12764,7 +12752,7 @@
         "poi": 1673,
         "description": "",
         "note": "",
-        "page": 146
+        "pages": "146"
       },
       "geometry": null
     },
@@ -12798,7 +12786,7 @@
         "poi": 476,
         "description": "",
         "note": "",
-        "page": 496
+        "pages": "496"
       },
       "geometry": null
     },
@@ -12821,7 +12809,7 @@
         "poi": 476,
         "description": "",
         "note": "",
-        "page": 774
+        "pages": "774"
       },
       "geometry": null
     },
@@ -12910,7 +12898,7 @@
         "poi": 1410,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -13065,7 +13053,7 @@
         "poi": 1669,
         "description": "",
         "note": "",
-        "page": 143
+        "pages": "143"
       },
       "geometry": null
     },
@@ -13209,7 +13197,7 @@
         "poi": 1658,
         "description": "",
         "note": "",
-        "page": 138
+        "pages": "138"
       },
       "geometry": null
     },
@@ -13232,7 +13220,7 @@
         "poi": 1681,
         "description": "",
         "note": "",
-        "page": 157
+        "pages": "157"
       },
       "geometry": null
     },
@@ -13244,7 +13232,7 @@
         "poi": 1682,
         "description": "",
         "note": "",
-        "page": 158
+        "pages": "158"
       },
       "geometry": null
     },
@@ -13740,7 +13728,7 @@
         "poi": 1680,
         "description": "",
         "note": "",
-        "page": 154
+        "pages": "154"
       },
       "geometry": null
     },
@@ -13774,7 +13762,7 @@
         "poi": 535,
         "description": "",
         "note": "",
-        "page": 496
+        "pages": "496"
       },
       "geometry": null
     },
@@ -13797,7 +13785,7 @@
         "poi": 535,
         "description": "",
         "note": "",
-        "page": 774
+        "pages": "774"
       },
       "geometry": null
     },
@@ -13809,7 +13797,7 @@
         "poi": 531,
         "description": "",
         "note": "",
-        "page": 496
+        "pages": "496"
       },
       "geometry": null
     },
@@ -13832,7 +13820,7 @@
         "poi": 407,
         "description": "",
         "note": "",
-        "page": 496
+        "pages": "496"
       },
       "geometry": null
     },
@@ -13855,7 +13843,7 @@
         "poi": 536,
         "description": "",
         "note": "",
-        "page": 497
+        "pages": "497"
       },
       "geometry": null
     },
@@ -13878,7 +13866,7 @@
         "poi": 533,
         "description": "",
         "note": "",
-        "page": 496
+        "pages": "496"
       },
       "geometry": null
     },
@@ -14374,7 +14362,7 @@
         "poi": 1677,
         "description": "",
         "note": "",
-        "page": 148
+        "pages": "148"
       },
       "geometry": null
     },
@@ -14408,7 +14396,7 @@
         "poi": 1470,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -14431,7 +14419,7 @@
         "poi": 1471,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -14454,7 +14442,7 @@
         "poi": 1472,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -14488,7 +14476,7 @@
         "poi": 1481,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -14511,7 +14499,7 @@
         "poi": 1483,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -14611,7 +14599,7 @@
         "poi": 1414,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -14623,7 +14611,7 @@
         "poi": 1417,
         "description": "",
         "note": "",
-        "page": 436
+        "pages": "436"
       },
       "geometry": null
     },
@@ -14635,7 +14623,7 @@
         "poi": 1417,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -14658,7 +14646,7 @@
         "poi": 1418,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -14681,7 +14669,7 @@
         "poi": 1420,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -14704,7 +14692,7 @@
         "poi": 1424,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -14727,7 +14715,7 @@
         "poi": 1425,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -14750,7 +14738,7 @@
         "poi": 1429,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -15312,7 +15300,7 @@
         "poi": 580,
         "description": "",
         "note": "",
-        "page": 498
+        "pages": "498"
       },
       "geometry": null
     },
@@ -15335,7 +15323,7 @@
         "poi": 580,
         "description": "",
         "note": "",
-        "page": 774
+        "pages": "774"
       },
       "geometry": null
     },
@@ -15611,7 +15599,7 @@
         "poi": 1704,
         "description": "",
         "note": "",
-        "page": 171
+        "pages": "171"
       },
       "geometry": null
     },
@@ -15700,7 +15688,7 @@
         "poi": 685,
         "description": "",
         "note": "",
-        "page": 460
+        "pages": "460"
       },
       "geometry": null
     },
@@ -15844,7 +15832,7 @@
         "poi": 582,
         "description": "",
         "note": "",
-        "page": 498
+        "pages": "498"
       },
       "geometry": null
     },
@@ -15867,7 +15855,7 @@
         "poi": 582,
         "description": "",
         "note": "",
-        "page": 774
+        "pages": "774"
       },
       "geometry": null
     },
@@ -15923,7 +15911,7 @@
         "poi": 704,
         "description": "",
         "note": "",
-        "page": 498
+        "pages": "498"
       },
       "geometry": null
     },
@@ -16034,7 +16022,7 @@
         "poi": 703,
         "description": "",
         "note": "",
-        "page": 498
+        "pages": "498"
       },
       "geometry": null
     },
@@ -16299,7 +16287,7 @@
         "poi": 681,
         "description": "",
         "note": "",
-        "page": 446
+        "pages": "446"
       },
       "geometry": null
     },
@@ -16322,7 +16310,7 @@
         "poi": 681,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -16345,7 +16333,7 @@
         "poi": 682,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -16368,7 +16356,7 @@
         "poi": 683,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -16391,7 +16379,7 @@
         "poi": 687,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -16821,7 +16809,7 @@
         "poi": 1715,
         "description": "",
         "note": "",
-        "page": 174
+        "pages": "174"
       },
       "geometry": null
     },
@@ -16833,7 +16821,7 @@
         "poi": 1716,
         "description": "",
         "note": "",
-        "page": 180
+        "pages": "180"
       },
       "geometry": null
     },
@@ -16955,7 +16943,7 @@
         "poi": 678,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -16967,7 +16955,7 @@
         "poi": 679,
         "description": "",
         "note": "",
-        "page": 440
+        "pages": "440"
       },
       "geometry": null
     },
@@ -17023,7 +17011,7 @@
         "poi": 700,
         "description": "",
         "note": "",
-        "page": 498
+        "pages": "498"
       },
       "geometry": null
     },
@@ -17046,7 +17034,7 @@
         "poi": 700,
         "description": "",
         "note": "",
-        "page": 776
+        "pages": "776"
       },
       "geometry": null
     },
@@ -17069,7 +17057,7 @@
         "poi": 577,
         "description": "",
         "note": "",
-        "page": 776
+        "pages": "776"
       },
       "geometry": null
     },
@@ -17356,7 +17344,7 @@
         "poi": 1685,
         "description": "",
         "note": "",
-        "page": 167
+        "pages": "167"
       },
       "geometry": null
     },
@@ -17401,7 +17389,7 @@
         "poi": 1408,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -17424,7 +17412,7 @@
         "poi": 1426,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -17447,7 +17435,7 @@
         "poi": 1436,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -17470,7 +17458,7 @@
         "poi": 1439,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -17493,7 +17481,7 @@
         "poi": 1442,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -17516,7 +17504,7 @@
         "poi": 1443,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -17539,7 +17527,7 @@
         "poi": 1452,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -17562,7 +17550,7 @@
         "poi": 1459,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -17585,7 +17573,7 @@
         "poi": 1407,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -17597,7 +17585,7 @@
         "poi": 1407,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -17620,7 +17608,7 @@
         "poi": 1430,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -17654,7 +17642,7 @@
         "poi": 1476,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -17677,7 +17665,7 @@
         "poi": 1477,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -17700,7 +17688,7 @@
         "poi": 1412,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -17723,7 +17711,7 @@
         "poi": 1416,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -17746,7 +17734,7 @@
         "poi": 1419,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -17769,7 +17757,7 @@
         "poi": 1434,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -17957,7 +17945,7 @@
         "poi": 1017,
         "description": "",
         "note": "",
-        "page": 501
+        "pages": "501"
       },
       "geometry": null
     },
@@ -17980,7 +17968,7 @@
         "poi": 1017,
         "description": "",
         "note": "",
-        "page": 776
+        "pages": "776"
       },
       "geometry": null
     },
@@ -18256,7 +18244,7 @@
         "poi": 873,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -18279,7 +18267,7 @@
         "poi": 873,
         "description": "",
         "note": "",
-        "page": 776
+        "pages": "776"
       },
       "geometry": null
     },
@@ -18291,7 +18279,7 @@
         "poi": 834,
         "description": "",
         "note": "",
-        "page": 444
+        "pages": "444"
       },
       "geometry": null
     },
@@ -18314,7 +18302,7 @@
         "poi": 834,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -18326,7 +18314,7 @@
         "poi": 836,
         "description": "",
         "note": "",
-        "page": 450
+        "pages": "450"
       },
       "geometry": null
     },
@@ -18349,7 +18337,7 @@
         "poi": 838,
         "description": "",
         "note": "",
-        "page": 456
+        "pages": "456"
       },
       "geometry": null
     },
@@ -18372,7 +18360,7 @@
         "poi": 840,
         "description": "",
         "note": "",
-        "page": 462
+        "pages": "462"
       },
       "geometry": null
     },
@@ -18648,7 +18636,7 @@
         "poi": 872,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -18671,7 +18659,7 @@
         "poi": 872,
         "description": "",
         "note": "",
-        "page": 775
+        "pages": "775"
       },
       "geometry": null
     },
@@ -18683,7 +18671,7 @@
         "poi": 878,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -18728,7 +18716,7 @@
         "poi": 1724,
         "description": "",
         "note": "",
-        "page": 182
+        "pages": "182"
       },
       "geometry": null
     },
@@ -18861,7 +18849,7 @@
         "poi": 1728,
         "description": "",
         "note": "",
-        "page": 184
+        "pages": "184"
       },
       "geometry": null
     },
@@ -18884,7 +18872,7 @@
         "poi": 839,
         "description": "",
         "note": "",
-        "page": 458
+        "pages": "458"
       },
       "geometry": null
     },
@@ -18973,7 +18961,7 @@
         "poi": 835,
         "description": "",
         "note": "",
-        "page": 446
+        "pages": "446"
       },
       "geometry": null
     },
@@ -19150,7 +19138,7 @@
         "poi": 1494,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -19404,7 +19392,7 @@
         "poi": 1461,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -19427,7 +19415,7 @@
         "poi": 1482,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -19549,7 +19537,7 @@
         "poi": 1469,
         "description": "",
         "note": "",
-        "page": 957
+        "pages": "957"
       },
       "geometry": null
     },
@@ -19572,7 +19560,7 @@
         "poi": 1423,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -19617,7 +19605,7 @@
         "poi": 1506,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -19651,7 +19639,7 @@
         "poi": 869,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -19718,7 +19706,7 @@
         "poi": 1742,
         "description": "",
         "note": "",
-        "page": 191
+        "pages": "191"
       },
       "geometry": null
     },
@@ -19851,7 +19839,7 @@
         "poi": 482,
         "description": "",
         "note": "",
-        "page": 442
+        "pages": "442"
       },
       "geometry": null
     },
@@ -20050,7 +20038,7 @@
         "poi": 831,
         "description": "",
         "note": "",
-        "page": 432
+        "pages": "432"
       },
       "geometry": null
     },
@@ -20084,7 +20072,7 @@
         "poi": 874,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -20184,7 +20172,7 @@
         "poi": 1736,
         "description": "",
         "note": "",
-        "page": 189
+        "pages": "189"
       },
       "geometry": null
     },
@@ -20251,7 +20239,7 @@
         "poi": 837,
         "description": "",
         "note": "",
-        "page": 452
+        "pages": "452"
       },
       "geometry": null
     },
@@ -20263,7 +20251,7 @@
         "poi": 870,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -20286,7 +20274,7 @@
         "poi": 870,
         "description": "",
         "note": "",
-        "page": 775
+        "pages": "775"
       },
       "geometry": null
     },
@@ -20298,7 +20286,7 @@
         "poi": 832,
         "description": "",
         "note": "",
-        "page": 438
+        "pages": "438"
       },
       "geometry": null
     },
@@ -20321,7 +20309,7 @@
         "poi": 833,
         "description": "",
         "note": "",
-        "page": 440
+        "pages": "440"
       },
       "geometry": null
     },
@@ -20344,7 +20332,7 @@
         "poi": 833,
         "description": "",
         "note": "",
-        "page": 956
+        "pages": "956"
       },
       "geometry": null
     },
@@ -20455,7 +20443,7 @@
         "poi": 875,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -20478,7 +20466,7 @@
         "poi": 875,
         "description": "",
         "note": "",
-        "page": 775
+        "pages": "775"
       },
       "geometry": null
     },
@@ -20490,7 +20478,7 @@
         "poi": 877,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -20513,7 +20501,7 @@
         "poi": 877,
         "description": "",
         "note": "",
-        "page": 775
+        "pages": "775"
       },
       "geometry": null
     },
@@ -20525,7 +20513,7 @@
         "poi": 871,
         "description": "",
         "note": "",
-        "page": 499
+        "pages": "499"
       },
       "geometry": null
     },
@@ -20548,7 +20536,7 @@
         "poi": 871,
         "description": "",
         "note": "",
-        "page": 775
+        "pages": "775"
       },
       "geometry": null
     },
@@ -20747,7 +20735,7 @@
         "poi": 765,
         "description": "",
         "note": "",
-        "page": 775
+        "pages": "775"
       },
       "geometry": null
     },
@@ -20770,7 +20758,7 @@
         "poi": 766,
         "description": "",
         "note": "",
-        "page": 775
+        "pages": "775"
       },
       "geometry": null
     },
@@ -20793,7 +20781,7 @@
         "poi": 1732,
         "description": "",
         "note": "",
-        "page": 186
+        "pages": "186"
       },
       "geometry": null
     },
@@ -20981,7 +20969,7 @@
         "poi": 1010,
         "description": "",
         "note": "",
-        "page": 462
+        "pages": "462"
       },
       "geometry": null
     },
@@ -20993,7 +20981,7 @@
         "poi": 1009,
         "description": "",
         "note": "",
-        "page": 434
+        "pages": "434"
       },
       "geometry": null
     },
@@ -21016,7 +21004,7 @@
         "poi": 1009,
         "description": "",
         "note": "",
-        "page": 955
+        "pages": "955"
       },
       "geometry": null
     },
@@ -21171,7 +21159,7 @@
         "poi": 1013,
         "description": "",
         "note": "",
-        "page": 454
+        "pages": "454"
       },
       "geometry": null
     },
@@ -21194,7 +21182,7 @@
         "poi": 1013,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -21206,7 +21194,7 @@
         "poi": 1014,
         "description": "",
         "note": "",
-        "page": 458
+        "pages": "458"
       },
       "geometry": null
     },
@@ -21229,7 +21217,7 @@
         "poi": 1014,
         "description": "",
         "note": "",
-        "page": 958
+        "pages": "958"
       },
       "geometry": null
     },
@@ -21318,7 +21306,7 @@
         "poi": 1790,
         "description": "",
         "note": "",
-        "page": 226
+        "pages": "226"
       },
       "geometry": null
     },
@@ -21330,7 +21318,7 @@
         "poi": 1786,
         "description": "",
         "note": "",
-        "page": 219
+        "pages": "219"
       },
       "geometry": null
     },
@@ -21837,7 +21825,7 @@
         "poi": 1787,
         "description": "",
         "note": "",
-        "page": 222
+        "pages": "222"
       },
       "geometry": null
     },
@@ -21849,7 +21837,7 @@
         "poi": 1788,
         "description": "",
         "note": "",
-        "page": 223
+        "pages": "223"
       },
       "geometry": null
     },
@@ -22026,7 +22014,7 @@
         "poi": 1769,
         "description": "",
         "note": "",
-        "page": 208
+        "pages": "208"
       },
       "geometry": null
     },
@@ -22159,7 +22147,7 @@
         "poi": 1020,
         "description": "",
         "note": "",
-        "page": 501
+        "pages": "501"
       },
       "geometry": null
     },
@@ -22347,7 +22335,7 @@
         "poi": 1780,
         "description": "",
         "note": "",
-        "page": 217
+        "pages": "217"
       },
       "geometry": null
     },
@@ -22403,7 +22391,7 @@
         "poi": 1018,
         "description": "",
         "note": "",
-        "page": 501
+        "pages": "501"
       },
       "geometry": null
     },
@@ -22426,7 +22414,7 @@
         "poi": 1766,
         "description": "",
         "note": "",
-        "page": 204
+        "pages": "204"
       },
       "geometry": null
     },
@@ -22438,7 +22426,7 @@
         "poi": 1777,
         "description": "",
         "note": "",
-        "page": 211
+        "pages": "211"
       },
       "geometry": null
     },
@@ -22461,7 +22449,7 @@
         "poi": 1779,
         "description": "",
         "note": "",
-        "page": 214
+        "pages": "214"
       },
       "geometry": null
     },
@@ -22506,7 +22494,7 @@
         "poi": 1019,
         "description": "",
         "note": "",
-        "page": 501
+        "pages": "501"
       },
       "geometry": null
     },
@@ -22683,7 +22671,7 @@
         "poi": 1012,
         "description": "",
         "note": "",
-        "page": 442
+        "pages": "442"
       },
       "geometry": null
     },
@@ -22838,7 +22826,7 @@
         "poi": 1795,
         "description": "",
         "note": "",
-        "page": 229
+        "pages": "229"
       },
       "geometry": null
     },
@@ -22905,7 +22893,7 @@
         "poi": 1755,
         "description": "",
         "note": "",
-        "page": 196
+        "pages": "196"
       },
       "geometry": null
     },
@@ -22917,7 +22905,7 @@
         "poi": 1756,
         "description": "",
         "note": "",
-        "page": 199
+        "pages": "199"
       },
       "geometry": null
     },
@@ -22929,7 +22917,7 @@
         "poi": 1757,
         "description": "",
         "note": "",
-        "page": 202
+        "pages": "202"
       },
       "geometry": null
     },
@@ -22940,20 +22928,8 @@
         "book": 7,
         "poi": 1218,
         "description": "",
-        "note": "同本の庚申条にも重複",
-        "page": 64
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 2041,
-        "book": 7,
-        "poi": 1264,
-        "description": "",
-        "note": "同本の庚申項にも重複掲載",
-        "page": 65
+        "note": "庚申の項、道標の項に重複記述",
+        "pages": "24,64"
       },
       "geometry": null
     },
@@ -22965,7 +22941,7 @@
         "poi": 1264,
         "description": "",
         "note": "",
-        "page": 495
+        "pages": "495"
       },
       "geometry": null
     }
