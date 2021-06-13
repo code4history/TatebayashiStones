@@ -8,9 +8,19 @@ const books = fs.readJsonSync('../books.geojson');
 pois.features.forEach((poi) => {
   const props = poi.properties;
   const poiid = props.fid;
+
+  props.path = '';
+  props.mid_thumbnail = '';
+  props.small_thumbnail = '';
+
   props.images = images.features.map(x => x.properties).filter((image) => {
     return image.poi === poiid;
   }).map((image) => {
+    if (image.fid === props.primary_image) {
+      props.path = image.path;
+      props.mid_thumbnail = image.mid_thumbnail;
+      props.small_thumbnail = image.small_thumbnail;
+    }
     const ret = Object.assign({}, image);
     delete ret.poi;
     delete ret.fid;
@@ -31,6 +41,13 @@ pois.features.forEach((poi) => {
     ret.editor = book.editor;
     ret.publishedAt = book.publishedAt;
     return ret;
+  });
+
+  ['status', 'shape', 'material', 'inscription', 'need_action', 'contradiction', 'type', 'year'].forEach((key) => {
+    if (typeof props[key] === "undefined" || props[key] === null) props[key] = '';
+  });
+  ['height', 'statue_height', 'width', 'depth'].forEach((key) => {
+    if (typeof props[key] === "undefined") props[key] = null;
   });
 });
 fs.writeJsonSync('../tatebayashi_stones.geojson', pois, {
