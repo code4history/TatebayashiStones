@@ -22944,6 +22944,7 @@
         "pages": "495"
       },
       "geometry": null
-    }
-  ]
+    },
+{ "type": "Feature", "properties": { "fid": 2043, "book": 7, "poi": 1810, "description": "", "note": "", "pages": "16" }, "geometry": null }
+]
 }
