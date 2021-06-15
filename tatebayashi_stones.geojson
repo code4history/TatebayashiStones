@@ -34962,130 +34962,6 @@
     {
       "type": "Feature",
       "properties": {
-        "fid": 1457,
-        "area_no": "8",
-        "name": "阿弥陀如来種子板碑",
-        "type": "",
-        "era": "延文2年",
-        "year": "1357",
-        "place_1": "赤羽地区",
-        "place_2": "",
-        "detail": "塩田 正",
-        "note_1": "種子 キリーク",
-        "note_2": "",
-        "note_3": "",
-        "area": "赤羽",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "height": 71,
-        "width": 228,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "pages": "448",
-            "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
-            "editor": "館林市史編さん委員会編",
-            "publishedAt": 2010
-          },
-          {
-            "description": "",
-            "note": "",
-            "pages": "957",
-            "name": "館林市誌 歴史編",
-            "editor": "館林市誌編集委員会編",
-            "publishedAt": 1969
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "statue_height": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.5623952229011,
-          36.23178788902865
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1456,
-        "area_no": "9",
-        "name": "阿弥陀如来種子板碑",
-        "type": "",
-        "era": "延文2年",
-        "year": "1357",
-        "place_1": "赤羽地区",
-        "place_2": "",
-        "detail": "下新田墓地",
-        "note_1": "種子 キリーク",
-        "note_2": "",
-        "note_3": "",
-        "area": "赤羽",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "height": 50,
-        "width": 17.5,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "pages": "448",
-            "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
-            "editor": "館林市史編さん委員会編",
-            "publishedAt": 2010
-          },
-          {
-            "description": "",
-            "note": "",
-            "pages": "957",
-            "name": "館林市誌 歴史編",
-            "editor": "館林市誌編集委員会編",
-            "publishedAt": 1969
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "statue_height": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.57797632590854,
-          36.224750596262425
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "fid": 1535,
         "area_no": "10",
         "name": "阿弥陀三尊種子板碑",
@@ -35680,60 +35556,6 @@
     {
       "type": "Feature",
       "properties": {
-        "fid": 1438,
-        "area_no": "21",
-        "name": "阿弥陀如来種子板碑",
-        "type": "",
-        "era": "建武4年",
-        "year": "1337",
-        "place_1": "赤羽地区",
-        "place_2": "",
-        "detail": "松本 富貴子",
-        "note_1": "種子 キリーク",
-        "note_2": "",
-        "note_3": "",
-        "area": "赤羽",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "height": 31,
-        "width": 14,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "pages": "442",
-            "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
-            "editor": "館林市史編さん委員会編",
-            "publishedAt": 2010
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "statue_height": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.56234904183228,
-          36.231654530584336
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "fid": 1507,
         "area_no": "22",
         "name": "種子不明板碑",
@@ -36003,16 +35825,16 @@
       "properties": {
         "fid": 1332,
         "area_no": "26",
-        "name": "嘉暦板碑",
-        "type": "",
-        "era": "嘉暦1年",
+        "name": "赤生田嘉暦板碑",
+        "type": "板碑",
+        "era": "嘉暦元年",
         "year": "1326",
-        "place_1": "赤生田町",
+        "place_1": "赤生田",
         "place_2": "",
-        "detail": "塩田 浅治",
-        "note_1": "華瓶一ヶ上下欠",
+        "detail": "塩田浅次郎",
+        "note_1": "種子不明 華瓶一ヶ上下欠",
         "note_2": "",
-        "note_3": "",
+        "note_3": "赤生田・羽附の石仏本では塩田浅治蔵、市史特別編では塩田浅次郎蔵となっているが、他の塩田浅治旧蔵品と同様塩田正宅に配置した",
         "area": "赤羽",
         "surveyed": "",
         "description": "",
@@ -36021,6 +35843,9 @@
         "confirmed": false,
         "height": 49,
         "width": 25,
+        "shape": "板碑",
+        "inscription": "嘉暦元年十一月十五日",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -36037,6 +35862,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -36051,9 +35877,6 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "statue_height": null,
@@ -36062,8 +35885,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56476445760669,
-          36.227727424091746
+          139.56061747088918,
+          36.22719031518706
         ]
       }
     },
@@ -36260,14 +36083,14 @@
       "properties": {
         "fid": 1333,
         "area_no": "30",
-        "name": "建武板碑",
-        "type": "",
+        "name": "下新田建武板碑",
+        "type": "板碑",
         "era": "建武2年",
         "year": "1335",
         "place_1": "赤生田町",
-        "place_2": "",
+        "place_2": "下新田",
         "detail": "下新田墓地",
-        "note_1": "上下欠",
+        "note_1": "種子不明 上下欠",
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
@@ -36278,6 +36101,9 @@
         "confirmed": false,
         "height": 20,
         "width": 20.5,
+        "shape": "板碑",
+        "inscription": "建武二年二月",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -36294,6 +36120,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -36308,9 +36135,6 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "statue_height": null,
@@ -36319,8 +36143,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57777651583874,
-          36.22457918974631
+          139.57778303325202,
+          36.22468081503473
         ]
       }
     },
@@ -36329,15 +36153,15 @@
       "properties": {
         "fid": 1338,
         "area_no": "31",
-        "name": "延文釈迦板碑（1）",
-        "type": "",
+        "name": "下新田延文阿弥陀板碑",
+        "type": "板碑",
         "era": "延文2年",
         "year": "1357",
         "place_1": "赤生田町",
-        "place_2": "",
+        "place_2": "下新田",
         "detail": "下新田墓地",
-        "note_1": "",
-        "note_2": "",
+        "note_1": "種子キリーク",
+        "note_2": "拓本、飯塚多右衛門採拓83,85",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "",
@@ -36345,6 +36169,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 50,
+        "width": 17.5,
+        "shape": "板碑",
+        "inscription": "延文二年 六月 五日",
+        "material": "石造",
+        "contradiction": "赤生田・羽附の石仏本では釈迦としている",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -36364,24 +36194,26 @@
             "name": "館林市誌 歴史編",
             "editor": "館林市誌編集委員会編",
             "publishedAt": 1969
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "448",
+            "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
+            "editor": "館林市史編さん委員会編",
+            "publishedAt": 2010
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
         "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5779643829757,
-          36.22472866644964
+          139.5778184619957,
+          36.22466449674465
         ]
       }
     },
@@ -36390,15 +36222,15 @@
       "properties": {
         "fid": 1339,
         "area_no": "32",
-        "name": "延文釈迦板碑（2）",
-        "type": "",
+        "name": "赤生田延文阿弥陀板碑",
+        "type": "板碑",
         "era": "延文2年",
         "year": "1357",
         "place_1": "赤生田町",
         "place_2": "",
-        "detail": "塩田 浅治",
-        "note_1": "",
-        "note_2": "",
+        "detail": "塩田正",
+        "note_1": "種子キリーク",
+        "note_2": "拓本、飯塚多右衛門採拓84、県史資料1227 塩田浅治旧蔵",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "",
@@ -36406,6 +36238,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 71,
+        "width": 22.8,
+        "shape": "板碑",
+        "inscription": "延文二年 十一月 十一日",
+        "material": "石造",
+        "contradiction": "赤生田・羽附の石仏本では釈迦としている",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -36414,6 +36252,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -36425,24 +36264,26 @@
             "name": "館林市誌 歴史編",
             "editor": "館林市誌編集委員会編",
             "publishedAt": 1969
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "448",
+            "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
+            "editor": "館林市史編さん委員会編",
+            "publishedAt": 2010
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
         "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56486511129964,
-          36.22791798618395
+          139.56082368542872,
+          36.22708634690981
         ]
       }
     },
@@ -37050,8 +36891,8 @@
         "place_1": "赤生田町",
         "place_2": "中島",
         "detail": "恵下稲荷境内",
-        "note_1": "板型",
-        "note_2": null,
+        "note_1": "",
+        "note_2": "",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "2020/09/20",
@@ -37067,7 +36908,7 @@
         "statue_height": 100,
         "inscription": "二十三夜月讀尊\n明治十七年申旧九月二十三日",
         "color": null,
-        "material": "",
+        "material": "石造",
         "contradiction": "",
         "need_action": "",
         "status": "",
@@ -39968,11 +39809,11 @@
         "era": "嘉永2年",
         "year": "1849",
         "place_1": "赤生田本町",
-        "place_2": "",
+        "place_2": "中新田",
         "detail": "長良神社",
-        "note_1": "柱型",
-        "note_2": null,
-        "note_3": "",
+        "note_1": "",
+        "note_2": "",
+        "note_3": "最新の確認では中新田集会所前に存在",
         "area": "赤羽",
         "surveyed": "2020/09/20",
         "description": "",
@@ -39987,7 +39828,7 @@
         "statue_height": 81,
         "inscription": "嘉永二酉年十月吉日",
         "color": null,
-        "material": "",
+        "material": "石造",
         "contradiction": "",
         "need_action": "",
         "status": "",
@@ -42024,15 +41865,15 @@
       "properties": {
         "fid": 1330,
         "area_no": "128",
-        "name": "楠木神社弥陀三尊板碑",
-        "type": "",
+        "name": "楠木神社阿弥陀三尊板碑",
+        "type": "板碑",
         "era": "正和2年",
         "year": "1313",
         "place_1": "楠町",
-        "place_2": "",
+        "place_2": "町谷",
         "detail": "楠木神社",
-        "note_1": "上下共欠",
-        "note_2": "",
+        "note_1": "種子キリーク他 上下共欠",
+        "note_2": "拓本、飯塚多右衛門採拓30 楠木神社他旧蔵、現在は市立資料館蔵",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "",
@@ -42042,6 +41883,9 @@
         "confirmed": false,
         "height": 52,
         "width": 29.5,
+        "shape": "板碑",
+        "inscription": "正和二",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -42058,6 +41902,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -42072,9 +41917,6 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "statue_height": null,
@@ -42083,8 +41925,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57081181317574,
-          36.23868715471632
+          139.57097145914423,
+          36.23867471165459
         ]
       }
     },
@@ -44462,10 +44304,10 @@
         "era": "明治5年",
         "year": "1872",
         "place_1": "花山町",
-        "place_2": "",
+        "place_2": "富士山",
         "detail": "富士嶽神社境内",
-        "note_1": "柱型",
-        "note_2": null,
+        "note_1": "",
+        "note_2": "",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "2021/02/02",
@@ -44481,7 +44323,7 @@
         "statue_height": 93,
         "inscription": "当組中\n明治五壬申十月吉日\n若者中立 世話人",
         "color": null,
-        "material": "",
+        "material": "石造",
         "contradiction": "",
         "need_action": "",
         "status": "",
@@ -44693,14 +44535,14 @@
         "fid": 1318,
         "area_no": "167",
         "name": "冨士山十九夜",
-        "type": "月待塔",
+        "type": "月待塔,如意輪観音像",
         "era": "文化元年",
         "year": "1804",
         "place_1": "花山町",
-        "place_2": "",
+        "place_2": "富士山",
         "detail": "富士嶽神社横",
-        "note_1": "柱型、トタン屋根あり、十九夜の文字の上に如意賃観音像あり",
-        "note_2": "トタン屋根があり、十九夜の文字の上に如意輪観音像がある。東向き。",
+        "note_1": "トタン屋根あり、十九夜の文字の上に如意輪観音像あり 東向き",
+        "note_2": "",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "2020/09/20",
@@ -44716,7 +44558,7 @@
         "statue_height": 57,
         "inscription": "文化元甲子年 十月大吉祥日\n奉建立聖如意輪観自在尊\n具一切功徳慈眼視衆生福寿海無量是\n故應順礼願以比功徳普及於一切我等\n輿衆生皆具成仏道\n上野国邑楽郡館林領羽附村大袋講中\n願主覚心 (戒名十二名あり) 圓成\n　　　　　　　　　　　　　宗八",
         "color": null,
-        "material": "",
+        "material": "石造",
         "contradiction": "",
         "need_action": "",
         "status": "",
@@ -46375,67 +46217,6 @@
     {
       "type": "Feature",
       "properties": {
-        "fid": 1323,
-        "area_no": "194",
-        "name": "長竹道しるべ十九夜",
-        "type": "",
-        "era": "天保2年",
-        "year": "1841",
-        "place_1": "羽附旭町",
-        "place_2": "",
-        "detail": "長竹の辻角",
-        "note_1": "柱型、浮刻の如意輪観音像あり、道しるべを兼ねる",
-        "note_2": "",
-        "note_3": "",
-        "area": "赤羽",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
-            "editor": "館林地方史研究会編",
-            "publishedAt": 1973
-          },
-          {
-            "description": "",
-            "note": "",
-            "pages": "773",
-            "name": "館林市誌 歴史編",
-            "editor": "館林市誌編集委員会編",
-            "publishedAt": 1969
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.57789623706958,
-          36.23082184156752
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "fid": 1368,
         "area_no": "195",
         "name": "渕ノ上供養塔道標",
@@ -46553,16 +46334,16 @@
       "properties": {
         "fid": 1321,
         "area_no": "197",
-        "name": "二世安楽十九夜",
-        "type": "月待塔",
+        "name": "渕ノ上二世安楽十九夜",
+        "type": "月待塔,如意輪観音像",
         "era": "宝暦2年",
         "year": "1752",
         "place_1": "羽附旭町",
-        "place_2": "",
+        "place_2": "渕ノ上",
         "detail": "渕ノ上釈迦堂境内",
-        "note_1": "柱型、柱型台の上に如意輪観音像あり",
-        "note_2": "柱型台の上に如意輪観音像あり、北向き (現地調査では東向き)",
-        "note_3": "",
+        "note_1": "柱型台の上に如意輪観音像あり 北向き",
+        "note_2": "",
+        "note_3": "最新現地調査では東向き",
         "area": "赤羽",
         "surveyed": "2021/02/02",
         "description": "",
@@ -46577,7 +46358,7 @@
         "statue_height": 57,
         "inscription": "宝暦二壬申天九月吉祥日\n当村近村善男女為二世安楽\n渕上江中",
         "color": null,
-        "material": "",
+        "material": "石造",
         "contradiction": "",
         "need_action": "",
         "status": "",
@@ -46619,16 +46400,16 @@
       "properties": {
         "fid": 1322,
         "area_no": "198",
-        "name": "渕上十九夜",
-        "type": "月待塔",
+        "name": "渕ノ上十九夜",
+        "type": "月待塔,如意輪観音像",
         "era": "文政8年",
         "year": "1825",
         "place_1": "羽附旭町",
-        "place_2": "",
+        "place_2": "渕ノ上",
         "detail": "渕ノ上釈迦堂境内",
-        "note_1": "柱型、十九夜の文字の上に如意輪観音像あり",
-        "note_2": "十九夜の文字の上に如意輪観音像あり、北向き (現地調査では東向き)",
-        "note_3": "",
+        "note_1": "十九夜の文字の上に如意輪観音像あり 北向き",
+        "note_2": "",
+        "note_3": "最新現地調査では東向き",
         "area": "赤羽",
         "surveyed": "2021/02/02",
         "description": "",
@@ -46643,7 +46424,7 @@
         "statue_height": 60.5,
         "inscription": "文政八己酉年十一月吉日\n十九夜女人講中 世話人 渕上郷中",
         "color": null,
-        "material": "",
+        "material": "石造",
         "contradiction": "",
         "need_action": "",
         "status": "",
@@ -46747,15 +46528,15 @@
       "properties": {
         "fid": 1320,
         "area_no": "200",
-        "name": "自然石十九夜",
+        "name": "渕ノ上自然石十九夜",
         "type": "月待塔",
         "era": "明治38年",
         "year": "1905",
         "place_1": "羽附旭町",
-        "place_2": "",
+        "place_2": "渕ノ上",
         "detail": "渕ノ上釈迦堂境内",
-        "note_1": "玉石造り、文字塔",
-        "note_2": "東向き",
+        "note_1": "東向き",
+        "note_2": "",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "2021/02/02",
@@ -46767,11 +46548,11 @@
         "height": 109,
         "width": 45,
         "depth": 36.5,
-        "shape": "玉石造り、文字塔",
+        "shape": "玉石造り 文字塔",
         "statue_height": 74,
         "inscription": "十九夜供養塔 明治卅八年十一月十九日建之",
         "color": null,
-        "material": "",
+        "material": "石造",
         "contradiction": "",
         "need_action": "",
         "status": "",
@@ -48104,8 +47885,8 @@
         "place_1": "羽附旭町",
         "place_2": "長竹",
         "detail": "神明神社前",
-        "note_1": "柱型",
-        "note_2": null,
+        "note_1": "",
+        "note_2": "",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "2021/02/02",
@@ -48121,7 +47902,7 @@
         "statue_height": 47,
         "inscription": "風化著しく不詳",
         "color": null,
-        "material": "",
+        "material": "石造",
         "contradiction": "",
         "need_action": "",
         "status": "",
@@ -49058,15 +48839,15 @@
       "properties": {
         "fid": 1335,
         "area_no": "239",
-        "name": "康永弥陀板碑",
-        "type": "",
+        "name": "宝秀寺康永阿弥陀板碑",
+        "type": "板碑",
         "era": "康永2年",
         "year": "1343",
         "place_1": "羽附町",
-        "place_2": "",
-        "detail": "小林 己一郎",
-        "note_1": "",
-        "note_2": "",
+        "place_2": "本宿",
+        "detail": "宝秀寺",
+        "note_1": "種子キリーク ",
+        "note_2": "拓本、飯塚多右衛門採拓71、県史資料904 小林己一郎旧蔵",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "",
@@ -49074,6 +48855,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 68,
+        "width": 21.8,
+        "shape": "板碑",
+        "inscription": "康永二年 正月 六日",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -49082,6 +48868,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -49093,24 +48880,27 @@
             "name": "館林市誌 歴史編",
             "editor": "館林市誌編集委員会編",
             "publishedAt": 1969
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "446",
+            "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
+            "editor": "館林市史編さん委員会編",
+            "publishedAt": 2010
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56150703715093,
-          36.23279192272589
+          139.57176413199903,
+          36.22966493598895
         ]
       }
     },
@@ -49317,14 +49107,14 @@
       "properties": {
         "fid": 1328,
         "area_no": "244",
-        "name": "正安板碑",
-        "type": "",
+        "name": "羽附正安板碑",
+        "type": "板碑",
         "era": "正安3年",
         "year": "1301",
         "place_1": "羽附町",
         "place_2": "",
         "detail": "第五小学校",
-        "note_1": "上下共欠",
+        "note_1": "種子不明 上下共欠",
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
@@ -49333,6 +49123,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 22.5,
+        "width": 18,
+        "shape": "板碑",
+        "inscription": "正安三、七",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -49341,6 +49136,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -49355,21 +49151,16 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5613721579047,
-          36.23253197296825
+          139.56145390632088,
+          36.23222763108633
         ]
       }
     },
@@ -49378,16 +49169,16 @@
       "properties": {
         "fid": 1336,
         "area_no": "245",
-        "name": "貞和板碑",
-        "type": "",
-        "era": "貞和2年",
-        "year": "1346",
+        "name": "羽附貞和阿弥陀板碑",
+        "type": "板碑",
+        "era": "貞和6年",
+        "year": "1350",
         "place_1": "羽附町",
         "place_2": "",
-        "detail": "田部井 初男",
-        "note_1": "頭部欠",
-        "note_2": "",
-        "note_3": "",
+        "detail": "田部井初男",
+        "note_1": "種子キリーク 頭部欠",
+        "note_2": "拓本、飯塚多右衛門採拓77",
+        "note_3": "羽附の田部井家は町谷に多いためここに仮置き 1970年住宅地図からの位置特定はできず",
         "area": "赤羽",
         "surveyed": "",
         "description": "",
@@ -49396,6 +49187,9 @@
         "confirmed": false,
         "height": 45,
         "width": 19,
+        "shape": "板碑",
+        "inscription": "貞和六年 二月 廿八日",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -49412,6 +49206,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -49426,9 +49221,6 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "statue_height": null,
@@ -49437,8 +49229,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5616994221043,
-          36.23295559881747
+          139.57087966495058,
+          36.237569335737206
         ]
       }
     },
@@ -49447,11 +49239,11 @@
       "properties": {
         "fid": 1208,
         "area_no": "246",
-        "name": "町谷地蔵菩薩",
+        "name": "羽附町谷地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "元禄2年",
         "year": "1689",
-        "place_1": "羽附町",
+        "place_1": "楠町",
         "place_2": "町谷",
         "detail": "田部井家前 (現在楠木神社境内)",
         "note_1": "右肩部及び左肩上部欠損 ",
@@ -49514,13 +49306,13 @@
         "fid": 1371,
         "area_no": "247",
         "name": "長竹十九夜供養塔",
-        "type": "道標",
+        "type": "道標,月待塔,如意輪観音像",
         "era": "天保12年",
         "year": "1841",
-        "place_1": "羽附町",
-        "place_2": "",
+        "place_1": "羽附旭町",
+        "place_2": "長竹",
         "detail": "長竹集会所前",
-        "note_1": "柱型",
+        "note_1": "浮刻の如意輪観音像あり 兼道標 南向き",
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
@@ -49529,11 +49321,26 @@
         "photo": "",
         "public_relations": "2015/07",
         "confirmed": false,
+        "height": 122,
+        "width": 43,
+        "depth": 42.5,
+        "shape": "柱型",
+        "inscription": "十九夜塔\n天保十二丑年二月吉日\n向南 あこうだ せんづゐ\n 北 もみや ふじおか\n 東 いゝの加し こが\n 西 すぎのわたし たてばやし\n上州邑楽郡佐貫庄羽附村長竹\n一、金一分 籾谷村 横塚はま\n 同 内倉新田 桜井きよ\n 同 当所 半田九兵エ\n 同 荒井助太郎\n 同 枩本清右エ門\n 同 同 音吉\n 同 同 清太郎\n 同 同 七右エ門\n 同 同 繁太郎\n一、金二朱 渡辺八右エ門\n 同 同 佐五右エ門\n 同 森田紋蔵\n 同 半田勇助\n青銅二十疋 吉野屋常右エ門\n一、金一分 [横書き: 人 ハ セ] 枩本幸右エ門\n 村田四乃兵エ\n 同 藤七\n 同 平右エ門\n 同 佐右エ門\n 渡辺重兵エ\n 願主 村田伊兵エ 八十一才妻くに\n 同 枩本清七 母くま九十五才\n 同 田村想八 妻みの六十九才\n 一、金二朱 本宿 今泉八右エ門\n 一、一朱 フチ庄蔵\n  石工 宗 満銘",
+        "material": "石造",
+        "contradiction": "赤生田・羽附の石仏で重複記載されているが、サイズに差あり（総高199.8、高125、幅43.5、奥42.3）",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
         "images": [],
         "books": [
+          {
+            "description": "",
+            "note": "",
+            "pages": "773",
+            "name": "館林市誌 歴史編",
+            "editor": "館林市誌編集委員会編",
+            "publishedAt": 1969
+          },
           {
             "description": "",
             "note": "",
@@ -49545,27 +49352,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "57,66",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5749574375724,
-          36.230919061009836
+          139.57519883738516,
+          36.231072194954386
         ]
       }
     },
@@ -49574,15 +49375,15 @@
       "properties": {
         "fid": 1329,
         "area_no": "248",
-        "name": "延慶弥陀三尊板碑",
-        "type": "",
+        "name": "町谷延慶阿弥陀三尊板碑",
+        "type": "板碑",
         "era": "延慶2年",
         "year": "1309",
-        "place_1": "羽附町",
-        "place_2": "",
-        "detail": "半田 隆伯",
-        "note_1": "華瓶一対、上下共欠",
-        "note_2": "",
+        "place_1": "楠町",
+        "place_2": "町谷",
+        "detail": "半田隆伯",
+        "note_1": "種子キリーク他 華瓶一対 上下共欠",
+        "note_2": "拓本、飯塚多右衛門採拓160、県史資料294",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "",
@@ -49592,6 +49393,9 @@
         "confirmed": false,
         "height": 35.5,
         "width": 28,
+        "shape": "板碑",
+        "inscription": "延慶二年己酉二月日",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -49608,6 +49412,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -49622,9 +49427,6 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "statue_height": null,
@@ -49633,8 +49435,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5616628482486,
-          36.2328576979749
+          139.56864729953696,
+          36.237133015297935
         ]
       }
     },
@@ -49643,15 +49445,15 @@
       "properties": {
         "fid": 1337,
         "area_no": "249",
-        "name": "貞和弥陀板碑",
-        "type": "",
+        "name": "町谷貞和阿弥陀板碑",
+        "type": "板碑",
         "era": "貞和4年",
         "year": "1348",
-        "place_1": "羽附町",
-        "place_2": "",
-        "detail": "半田 隆伯",
-        "note_1": "",
-        "note_2": "",
+        "place_1": "楠町",
+        "place_2": "町谷",
+        "detail": "半田隆伯",
+        "note_1": "種子キリーク",
+        "note_2": "拓本、飯塚多右衛門採拓79、県史資料1016",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "",
@@ -49661,6 +49463,9 @@
         "confirmed": false,
         "height": 51.5,
         "width": 18,
+        "shape": "板碑",
+        "inscription": "貞和四年 十一月日",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -49677,6 +49482,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -49691,9 +49497,6 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "statue_height": null,
@@ -49702,8 +49505,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56147770575902,
-          36.23290017503812
+          139.5685339745633,
+          36.237134458585146
         ]
       }
     },
@@ -51636,15 +51439,15 @@
       "properties": {
         "fid": 1334,
         "area_no": "282",
-        "name": "建武弥陀板碑",
-        "type": "",
+        "name": "長竹建武阿弥陀板碑",
+        "type": "板碑",
         "era": "建武4年",
         "year": "1337",
-        "place_1": "羽附町",
-        "place_2": "",
-        "detail": "松本 宗吉",
-        "note_1": "上部欠",
-        "note_2": "",
+        "place_1": "羽附旭町",
+        "place_2": "長竹",
+        "detail": "松本富貴子",
+        "note_1": "種子キリーク 上部欠",
+        "note_2": "拓本、飯塚多右衛門採拓58、県史資料781 松本幸太郎旧蔵",
         "note_3": "",
         "area": "赤羽",
         "surveyed": "",
@@ -51652,6 +51455,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 31,
+        "width": 14,
+        "shape": "板碑",
+        "inscription": "建武四年 正月 廿四日",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -51660,6 +51468,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "60",
             "name": "たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1973
@@ -51671,24 +51480,27 @@
             "name": "館林市誌 歴史編",
             "editor": "館林市誌編集委員会編",
             "publishedAt": 1969
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "442",
+            "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
+            "editor": "館林市史編さん委員会編",
+            "publishedAt": 2010
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56164292619985,
-          36.23273746484313
+          139.57817505568397,
+          36.22979084948739
         ]
       }
     },
@@ -52213,7 +52025,7 @@
         "type": "馬頭観世音",
         "era": "昭和13年",
         "year": "1938",
-        "place_1": "羽附町",
+        "place_1": "楠町",
         "place_2": "町谷",
         "detail": "",
         "note_1": "",
@@ -52285,15 +52097,15 @@
         "fid": 1319,
         "area_no": "293",
         "name": "羽附町谷十九夜",
-        "type": "月待塔",
+        "type": "月待塔,如意輪観音像",
         "era": "昭和10年",
         "year": "1935",
-        "place_1": "羽附町",
+        "place_1": "楠町",
         "place_2": "町谷",
-        "detail": "",
-        "note_1": "柱型、浮刻の如意輪観音像あり",
-        "note_2": "調査時は楠木神社境内に存在",
-        "note_3": "浮刻の如意輪観音像がある 南向き (調査時は東向き)",
+        "detail": "楠木神社境内",
+        "note_1": "浮刻の如意輪観音像あり 南向き",
+        "note_2": "",
+        "note_3": "最新調査時は楠木神社境内に存在し、東向き",
         "area": "赤羽",
         "surveyed": "2021/02/02",
         "description": "",
@@ -52308,7 +52120,7 @@
         "statue_height": 64.7,
         "inscription": "十九夜町谷講中\n昭和十年九月十九日建之\n寄附者芳名\n一、金二円二十銭 笠原岩吉\n一、金弍円也 半田幸太郎\n一、金弍円也 田部井又三郎\n一、金弍円也 半田勘蔵\n一、金弍円也 田部井甚作\n一、金弍円也 田部井正一\n一、金弍円也 田部井常重\n一、金弍円也 小林浅次郎\n一、金弍円也 半田秋雄\n一、金弍円也 田部井伊之吉\n一、金壱円也 半田順一\n一、金五拾銭 前原たか\n一、金五拾銭 田部井十郎\n一、金五拾銭 伊藤忠吉\n一、金五拾銭 中野嘉吉\n一、金五拾銭 小林文五郎\n一、金五拾銭 半田佐助\n一、金四拾銭 田部井定吉\n一、金四拾銭 小林門蔵\n一、金四拾銭 小倉利平\n一、金三拾銭 田部井寅吉\n一、金三拾銭 田部井茂三郎\n一、金三拾銭 森 ノイ\n一、金壱円也 松原、田部井理十郎 \n一、金五拾銭 館林、尾島佐吉\n一、金七拾銭 下志柄、半田金次郎\n一、金七拾銭 半田丑五郎\n一、金五拾銭 山田はな\n発起人\n一、金十円也 年長順\n半田マス 小林とい\n半田とみ 田部井いつ\n半田いし 田部井いせ\n田部井ふさ 田部井りう",
         "color": null,
-        "material": "",
+        "material": "石造",
         "contradiction": "",
         "need_action": "",
         "status": "",
@@ -52511,60 +52323,6 @@
         "coordinates": [
           139.54945878501982,
           36.23463332816932
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1445,
-        "area_no": "297",
-        "name": "阿弥陀如来種子板碑",
-        "type": "",
-        "era": "康永2年",
-        "year": "1343",
-        "place_1": "羽附町",
-        "place_2": "",
-        "detail": "宝秀寺",
-        "note_1": "種子 キリーク",
-        "note_2": "",
-        "note_3": "",
-        "area": "赤羽",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "height": 68,
-        "width": 21.8,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "pages": "446",
-            "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
-            "editor": "館林市史編さん委員会編",
-            "publishedAt": 2010
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "statue_height": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.57159101014736,
-          36.22949268671567
         ]
       }
     },
@@ -101310,7 +101068,7 @@
         "type": "馬頭観世音",
         "era": "大正7年?",
         "year": "1918",
-        "place_1": "",
+        "place_1": "楠町",
         "place_2": "町谷",
         "detail": "",
         "note_1": "2021/2/2調査で発見。刻銘は読み取りにくい",
