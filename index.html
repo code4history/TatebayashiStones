@@ -17,14 +17,14 @@
 
 <script type="text/html" id="popup-template">
     <div class="poi">
-        <h2><%= name %> (<%= area %> / <%= place_1 %> / <%= place_2 %> /  <%= detail %> )</h2>
+        <h2><%= name %> (<%= area %> <% if (place_1) { %>/ <%= place_1 %> <% } %><% if (place_2) { %>/ <%= place_2 %> <% } %><% if (detail) { %>/ <%= detail %> <% } %>)</h2>
         <% if (type) { %><b>種別:</b> <%= type %><br><% } %>
         <a href="<%- path %>" target="_blank"><img class="represent" src="<%- mid_thumbnail %>"></a><br>
         <b>年代:</b> <%= era %><% if (year) { %> (<%= year %>)<% } %><br>
         <% if (shape) { %><b>形状:</b> <%= shape %><br><% } %>
-        <% if (note_1 || note_2 || note_3) { %><b>メモ:</b>
-          <% note_1.replace(/\n/g,'<br>') %><br>
-        <% } %>
+        <% if (note_1) { %><b>付帯情報:</b><%= note_1.replace(/\n/g,'<br>') %><br><% } %>
+        <% if (note_2) { %><b>伝承等:</b><%= note_2.replace(/\n/g,'<br>') %><br><% } %>
+        <% if (note_3) { %><b>調査時メモ:</b><%= note_3.replace(/\n/g,'<br>') %><br><% } %>
         <% if (material) { %><b>材質:</b> <%= material %><br><% } %>
         <% if (height) { %><b>総高:</b> <%= height %>cm<br><% } %>
         <% if (statue_height) { %><b>像高:</b> <%= statue_height %>cm<br><% } %>
@@ -32,11 +32,19 @@
         <% if (depth) { %><b>奥行:</b> <%= depth %>cm<br><% } %>
         <% if (inscription) { %><b>刻銘:</b> <%= inscription.replace(/\n/g,'<br>') %><br><% } %>
         <b>最終現地調査日:</b> <% if (confirmed) { %><%= surveyed %><% } else { %>未調査<% } %><br>
-        <b>現況:</b> <% if (status == 'lost') {%>喪失<% } else if (status == 'lost?') { %>喪失疑い<% } else if (status == 'new') { %>新規追加(タネ本にない) <% }
+        <b>現況:</b> <% if (status == '消失') {%>喪失<% } else if (status == '消失?') { %>喪失疑い<% } else if (status == '新規発見') { %>新規追加(資料にない) <% }
             else if (confirmed) { %>現存<% } else { %>不明(未調査)<% } %><br>
         <% if (need_action) { %><b>アクション要:</b> <%= need_action %><br><% } %>
-        <% if (contradiction) { %><b>タネ本の矛盾:</b> <%= contradiction %><br><% } %>
+        <% if (contradiction) { %><b>資料の矛盾:</b> <%= contradiction %><br><% } %>
         <% if (status) { %><b>状況:</b> <%= status %><br><% } %>
+        <% if (books.length > 0) { %>
+        <b>言及資料:</b><br>
+        <ul class="parent">
+            <% books.map(function(book) { %>
+            <li><b><%= book.name %></b>(<%= book.editor %>, <%= book.publishedAt %>): <%= book.pages %>ページ</li>
+            <% }) %>
+        </ul>
+        <% } %>
         <% if (images.length > 1) { %>
         <b>その他の画像:</b><br>
         <div class="parent">
