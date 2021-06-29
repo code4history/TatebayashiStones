@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "「たてばやしの野仏巡り」全5巻相当のデータのオープンデータ化＆現況調査プロジェクト",
   "main": "tatebayashi_merge.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@turf/turf": "^6.3.0",
+    "argv": "0.0.2",
+    "exif": "^0.6.0",
     "fs-extra": "^10.0.0",
     "sharp": "^0.28.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
