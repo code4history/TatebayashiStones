@@ -2,8 +2,39 @@
   "type": "FeatureCollection",
   "name": "pois",
   "hoshu:relation": {
-    "test": "hoge",
-    "test2": 2
+    "resources": {
+      "images": "./images.geojson",
+      "refs": "./refs.geojson",
+      "books": "./books.geojson"
+    },
+    "relations": {
+      "pois": {
+        "images": {
+          "is_many": true,
+          "resource": "images",
+          "relations": {
+            "fid": "poi"
+          }
+        },
+        "books": {
+          "is_many": true,
+          "resource": "refs",
+          "relations": {
+            "fid": "poi"
+          }
+        }
+      },
+      "refs": {
+        "_books": {
+          "is_many": false,
+          "resource": "books",
+          "relations": {
+            "book": "fid"
+          }
+        }
+      }
+    },
+    "attributes": {}
   },
   "features": [
     {
