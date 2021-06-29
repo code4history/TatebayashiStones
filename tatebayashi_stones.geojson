@@ -65660,14 +65660,14 @@
       "properties": {
         "fid": 658,
         "area_no": "10",
-        "name": "元文青面金剛",
+        "name": "上三林宝暦青面金剛",
         "type": "庚申",
-        "era": "元文5年",
-        "year": "1740",
+        "era": "宝暦4年",
+        "year": "1754",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "1734",
-        "note_1": "吉間 文一郎",
+        "detail": "吉間 文一郎",
+        "note_1": "西向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -65676,6 +65676,14 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 81.5,
+        "width": 31,
+        "depth": 19,
+        "shape": "舟型背面",
+        "inscription": "(表)宝暦四申 勧化隣村\n念仏供養 一連倍生\n九月吉祥日 入阿字",
+        "material": "石造",
+        "statue_height": 69.5,
+        "contradiction": "同じページの雷光寺山門脇の青面金剛と刻銘内容が入れ替わってるように思われるため、現実にしたがって修正。",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -65684,27 +65692,20 @@
           {
             "description": "",
             "note": "",
+            "pages": "115",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "need_action": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48486470400167,
-          36.21902289771362
+          139.48215260984264,
+          36.22469050090483
         ]
       }
     },
@@ -67044,45 +67045,57 @@
         "year": "",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "釈迦堂墓地",
-        "note_1": "丸彫",
+        "detail": "雷光寺墓地",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "立像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 234,
+        "width": 47,
+        "depth": 32,
+        "shape": "立像 丸彫",
+        "inscription": "不明",
+        "material": "石造",
+        "statue_height": 146,
+        "primary_image": 317,
+        "path": "./images/562/PXL_20210620_054716041.jpg",
+        "mid_thumbnail": "./mid_thumbs/562/PXL_20210620_054716041.jpg",
+        "small_thumbnail": "./small_thumbs/562/PXL_20210620_054716041.jpg",
+        "images": [
+          {
+            "path": "./images/562/PXL_20210620_054716041.jpg",
+            "shootingDate": "2021-06-20T14:47:16",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺無銘地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/562/PXL_20210620_054716041.jpg",
+            "small_thumbnail": "./small_thumbs/562/PXL_20210620_054716041.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "81",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48463995446977,
-          36.21900379593634
+          139.4844706041027,
+          36.220464799170024
         ]
       }
     },
@@ -67091,51 +67104,72 @@
       "properties": {
         "fid": 563,
         "area_no": "37",
-        "name": "無縁銅佛地蔵尊",
+        "name": "雷光寺無縁銅仏地蔵尊",
         "type": "地蔵菩薩像",
         "era": "不明",
         "year": "",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "釈迦堂墓地",
-        "note_1": "銅製",
+        "detail": "雷光寺墓地",
+        "note_1": "右手錫杖欠",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
+        "height": 151.5,
+        "width": 38,
+        "depth": 26,
         "shape": "立像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "inscription": "不明",
+        "material": "銅製",
+        "statue_height": 127,
+        "primary_image": 318,
+        "path": "./images/563/PXL_20210620_054932532.jpg",
+        "mid_thumbnail": "./mid_thumbs/563/PXL_20210620_054932532.jpg",
+        "small_thumbnail": "./small_thumbs/563/PXL_20210620_054932532.jpg",
+        "images": [
+          {
+            "path": "./images/563/PXL_20210620_054932532.jpg",
+            "shootingDate": "2021-06-20T14:49:32",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺無縁銅仏地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/563/PXL_20210620_054932532.jpg",
+            "small_thumbnail": "./small_thumbs/563/PXL_20210620_054932532.jpg"
+          },
+          {
+            "path": "./images/563/PXL_20210620_054947775.jpg",
+            "shootingDate": "2021-06-20T14:49:47",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺無縁銅仏地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/563/PXL_20210620_054947775.jpg",
+            "small_thumbnail": "./small_thumbs/563/PXL_20210620_054947775.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "81",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48486149619865,
-          36.219042043250354
+          139.48455827213277,
+          36.22059162952624
         ]
       }
     },
@@ -69385,8 +69419,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48483218966516,
-          36.21903035979992
+          139.48429795312757,
+          36.21921457228049
         ]
       }
     },
@@ -69438,8 +69472,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48460763778593,
-          36.219107501341874
+          139.48434463032598,
+          36.219234214924874
         ]
       }
     },
@@ -69448,51 +69482,63 @@
       "properties": {
         "fid": 554,
         "area_no": "81",
-        "name": "宥聖地蔵尊",
+        "name": "雷光寺宥聖地蔵尊",
         "type": "地蔵菩薩像",
         "era": "元禄14年",
         "year": "1701",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "雷光寺",
-        "note_1": "舟型背面、浮彫",
+        "detail": "雷光寺山門脇",
+        "note_1": "台高28cm、幅53cm、奥52cm 錫杖下部欠",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "立像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 146,
+        "width": 56.5,
+        "depth": 29,
+        "shape": "立像 舟型背面浮彫",
+        "inscription": "(表)想旦那結衆願主法印宥聖敬白\n   (像)\n干時 元禄十四辛己天五月吉 上列上三林村雷光寺",
+        "material": "石造",
+        "statue_height": 118,
+        "primary_image": 316,
+        "path": "./images/554/PXL_20210620_045039611.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/554/PXL_20210620_045039611.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/554/PXL_20210620_045039611.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/554/PXL_20210620_045039611.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:50:39",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺宥聖地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/554/PXL_20210620_045039611.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/554/PXL_20210620_045039611.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "79",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48477797215588,
-          36.2191422032248
+          139.4822752784841,
+          36.2211642589844
         ]
       }
     },
@@ -69501,14 +69547,14 @@
       "properties": {
         "fid": 634,
         "area_no": "82",
-        "name": "雷光寺本尊",
-        "type": "",
+        "name": "雷光寺本尊不動明王",
+        "type": "明王像",
         "era": "不明",
         "year": "",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷光寺",
-        "note_1": "木像",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -69517,6 +69563,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 93,
+        "shape": "立像",
+        "inscription": "不明",
+        "material": "木造",
+        "statue_height": 48.5,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -69525,27 +69576,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "106",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48487037580188,
-          36.21908358968046
+          139.48240971860673,
+          36.221444641930624
         ]
       }
     },
@@ -69597,8 +69644,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48479014907193,
-          36.21898294913653
+          139.4844434847427,
+          36.21919117704473
         ]
       }
     },
@@ -69650,8 +69697,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48473572063733,
-          36.21914981778062
+          139.48446174332173,
+          36.21921023982996
         ]
       }
     },
@@ -69660,51 +69707,63 @@
       "properties": {
         "fid": 569,
         "area_no": "85",
-        "name": "寛延馬頭尊",
+        "name": "雷光寺寛延馬頭尊",
         "type": "馬頭観世音",
         "era": "寛延4年",
         "year": "1751",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "雷光寺境内",
-        "note_1": "舟型背面像",
+        "detail": "雷光寺山門脇",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 61,
+        "width": 29,
+        "depth": 18.5,
+        "shape": "舟型背面 浮彫り",
+        "inscription": "(表)奉造立馬頭観音\n 寛延四辛未二月十三日\n(台) 施主\n  川嶋\n  [八]左ェ[門]",
+        "material": "石造",
+        "statue_height": 51,
+        "primary_image": 320,
+        "path": "./images/569/PXL_20210620_045152033.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/569/PXL_20210620_045152033.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/569/PXL_20210620_045152033.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/569/PXL_20210620_045152033.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:51:52",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺寛延馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/569/PXL_20210620_045152033.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/569/PXL_20210620_045152033.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "86",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48474557483075,
-          36.21913199478511
+          139.48218546238576,
+          36.221200758960954
         ]
       }
     },
@@ -69713,51 +69772,63 @@
       "properties": {
         "fid": 572,
         "area_no": "86",
-        "name": "六忠馬頭尊",
+        "name": "雷光寺六忠馬頭尊",
         "type": "馬頭観世音",
         "era": "明和6年",
         "year": "1769",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "雷光寺境内",
-        "note_1": "舟型背面像",
+        "detail": "雷光寺山門脇",
+        "note_1": "南向き 頂部欠損",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 65.5,
+        "width": 27,
+        "depth": 17.5,
+        "shape": "舟型背面像 浮彫り",
+        "inscription": "(表)奉造立馬頭観世音 \n明和六己丑六月廿四日\n  今井六兵衛\n 願主\n  小倉忠左ェ門\n(下段)\n十月\n 十四日\n七月\n 十四日\n五月\n 十二日",
+        "material": "石造",
+        "statue_height": 57,
+        "primary_image": 321,
+        "path": "./images/572/PXL_20210620_045158444.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/572/PXL_20210620_045158444.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/572/PXL_20210620_045158444.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/572/PXL_20210620_045158444.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:51:58",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺六忠馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/572/PXL_20210620_045158444.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/572/PXL_20210620_045158444.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "86",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48486469583813,
-          36.21903658702385
+          139.48217633309616,
+          36.221204658067194
         ]
       }
     },
@@ -69825,8 +69896,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48477293711238,
-          36.218942084287505
+          139.484385218395,
+          36.21912619024201
         ]
       }
     },
@@ -69878,8 +69949,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48464111155693,
-          36.219051137384874
+          139.48447677979863,
+          36.219080916070865
         ]
       }
     },
@@ -69888,51 +69959,63 @@
       "properties": {
         "fid": 626,
         "area_no": "89",
-        "name": "ひつじ馬頭尊",
+        "name": "雷光寺ひつじ馬頭尊",
         "type": "馬頭観世音",
         "era": "不明",
         "year": "",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "雷光寺境内",
-        "note_1": "柱型、文字",
+        "detail": "雷光寺山門脇",
+        "note_1": "南向き 上半部欠損",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 63.5,
+        "width": 26.5,
+        "depth": 19,
+        "shape": "柱型文字",
+        "inscription": "(表)馬頭観世音\n(右)  未年十一月廿日",
+        "material": "石造",
+        "statue_height": 54.5,
+        "primary_image": 323,
+        "path": "./images/626/PXL_20210620_045210197.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/626/PXL_20210620_045210197.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/626/PXL_20210620_045210197.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/626/PXL_20210620_045210197.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:52:10",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺ひつじ馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/626/PXL_20210620_045210197.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/626/PXL_20210620_045210197.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "96",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48480254446022,
-          36.219104752923485
+          139.48215591729831,
+          36.221214166059674
         ]
       }
     },
@@ -69947,45 +70030,57 @@
         "year": "1754",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "雷光寺境内",
-        "note_1": "柱型",
+        "detail": "雷光寺山門脇",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 180,
+        "width": 44,
+        "depth": 27,
+        "shape": "柱型",
+        "inscription": "(表)宝暦四甲戌天\n念仏供養\n九月吉祥日\n(左)願主 当村壇中\n(右)勧化隣村一蓮托生入阿字",
+        "material": "石造",
+        "statue_height": 99.8,
+        "contradiction": "これを柱型とするのは間違いではないか？舟形背面？",
+        "primary_image": 324,
+        "path": "./images/628/PXL_20210620_045144252.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/628/PXL_20210620_045144252.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/628/PXL_20210620_045144252.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/628/PXL_20210620_045144252.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:51:44",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺如意輪観音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/628/PXL_20210620_045144252.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/628/PXL_20210620_045144252.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "104",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "need_action": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48475584854737,
-          36.2190230468354
+          139.48219542209324,
+          36.221196106834235
         ]
       }
     },
@@ -69994,51 +70089,63 @@
       "properties": {
         "fid": 651,
         "area_no": "91",
-        "name": "上三林元禄庚申",
+        "name": "雷光寺元禄庚申",
         "type": "庚申",
         "era": "元禄13年",
         "year": "1700",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "雷光寺境内",
-        "note_1": "三猿浮彫",
+        "detail": "雷光寺山門脇",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 124,
+        "width": 37,
+        "depth": 21.5,
+        "shape": "舟型背面 三猿浮彫",
+        "inscription": "(表)奉造立庚申供養上三林結衆\n元禄十三庚辰天八月吉日敬白\n(台)山岸純次衛\n奥沢彦右門\n小暮紋左門\n荒川想誉\n山ノ井安右門\n石川武左門\n前原木兵一",
+        "material": "石造",
+        "statue_height": 107.5,
+        "primary_image": 336,
+        "path": "./images/651/PXL_20210620_045135140.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/651/PXL_20210620_045135140.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/651/PXL_20210620_045135140.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/651/PXL_20210620_045135140.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:51:35",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺元禄庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/651/PXL_20210620_045135140.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/651/PXL_20210620_045135140.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "115",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48475721464172,
-          36.219058437379424
+          139.48220525351545,
+          36.22119059640687
         ]
       }
     },
@@ -70098,8 +70205,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48460406539596,
-          36.21908293227846
+          139.4843654978105,
+          36.2192481912277
         ]
       }
     },
@@ -70151,8 +70258,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48477852412455,
-          36.219007922532896
+          139.4844413366746,
+          36.21909672954031
         ]
       }
     },
@@ -70204,8 +70311,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48483258385033,
-          36.21898124668316
+          139.48443704053835,
+          36.219080699447964
         ]
       }
     },
@@ -70363,8 +70470,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4846421435893,
-          36.2189658148559
+          139.484448854913,
+          36.2191084271732
         ]
       }
     },
@@ -70380,44 +70487,56 @@
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷光寺山門脇",
-        "note_1": "三猿浮彫",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 137.8,
+        "width": 44,
+        "depth": 27,
+        "shape": "舟型文字",
+        "inscription": "(表)元文五庚申年 講中\n(梵字)大青面金剛\n十月廿三日 敬白",
+        "material": "石造",
+        "statue_height": 99.8,
+        "contradiction": "同じページの吉間氏宅の庚申と刻銘内容が入れ替わってるように思われるため、現実にしたがって修正。",
+        "primary_image": 337,
+        "path": "./images/656/PXL_20210620_045129289.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/656/PXL_20210620_045129289.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/656/PXL_20210620_045129289.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/656/PXL_20210620_045129289.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:51:29",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺大青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/656/PXL_20210620_045129289.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/656/PXL_20210620_045129289.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "115",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "need_action": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48474062254297,
-          36.21899426917007
+          139.48221696742166,
+          36.221184148104385
         ]
       }
     },
@@ -70426,51 +70545,72 @@
       "properties": {
         "fid": 632,
         "area_no": "99",
-        "name": "慶範二十二夜待供養尊",
-        "type": "",
+        "name": "雷光寺慶範二十二夜待供養尊",
+        "type": "月待塔,如意輪観音像",
         "era": "天明2年",
         "year": "1782",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷光寺墓地",
-        "note_1": "像あり",
+        "note_1": "西向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 177,
+        "width": 37.5,
+        "depth": 24,
+        "shape": "柱型 像あり",
+        "inscription": "(表) 天明二壬寅歳\n(梵字)二十二夜待供養尊\n 十一月吉祥日\n(左)施主 当村講中\n(右)供養導師\n法印慶範",
+        "material": "石造",
+        "statue_height": 76,
+        "primary_image": 325,
+        "path": "./images/632/PXL_20210620_054640184.MP.jpg",
+        "mid_thumbnail": "./mid_thumbs/632/PXL_20210620_054640184.MP.jpg",
+        "small_thumbnail": "./small_thumbs/632/PXL_20210620_054640184.MP.jpg",
+        "images": [
+          {
+            "path": "./images/632/PXL_20210620_054640184.MP.jpg",
+            "shootingDate": "2021-06-20T14:46:40",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺慶範二十二夜待供養尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/632/PXL_20210620_054640184.MP.jpg",
+            "small_thumbnail": "./small_thumbs/632/PXL_20210620_054640184.MP.jpg"
+          },
+          {
+            "path": "./images/632/PXL_20210620_054648143.jpg",
+            "shootingDate": "2021-06-20T14:46:48",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺慶範二十二夜待供養尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/632/PXL_20210620_054648143.jpg",
+            "small_thumbnail": "./small_thumbs/632/PXL_20210620_054648143.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "104",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48481448070447,
-          36.21901543978189
+          139.4845291463259,
+          36.220473627852286
         ]
       }
     },
@@ -70479,51 +70619,63 @@
       "properties": {
         "fid": 575,
         "area_no": "100",
-        "name": "清水や馬頭尊",
+        "name": "雷光寺清水や馬頭尊",
         "type": "馬頭観世音",
         "era": "享和元年",
         "year": "1801",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "雷光寺前",
-        "note_1": "柱型文字",
+        "detail": "雷光寺山門脇",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 55.5,
+        "width": 24,
+        "depth": 15,
+        "shape": "柱型文字",
+        "inscription": "(表) 享和元辛酉年\n(梵字) 馬頭観世音菩薩\n 九月十叉七日\n  施主 清水や",
+        "material": "石造",
+        "statue_height": 50,
+        "primary_image": 322,
+        "path": "./images/575/PXL_20210620_045205117.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/575/PXL_20210620_045205117.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/575/PXL_20210620_045205117.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/575/PXL_20210620_045205117.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:52:05",
+            "shooter": "Kohei Otsuka",
+            "description": "雷光寺清水や馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/575/PXL_20210620_045205117.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/575/PXL_20210620_045205117.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "87",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48469587810143,
-          36.21905074314108
+          139.48216611528727,
+          36.221209718955905
         ]
       }
     },
@@ -70534,24 +70686,51 @@
         "area_no": "101",
         "name": "上三林雷電神社入口道標",
         "type": "道標",
-        "era": "昭和7年",
+        "era": "昭和7年1月",
         "year": "1932",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷電神社入口",
-        "note_1": "柱型",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "@",
         "photo": "",
         "public_relations": "2014/09",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 181,
+        "width": 24,
+        "depth": 19,
+        "shape": "柱型",
+        "inscription": "(表)雷電神社入口\n(裏)昭和七年一月建之\n 日光町神橋前 小暮貞次郎\n  上州屋旅館 三野谷出身",
+        "material": "石造",
+        "statue_height": 138,
+        "primary_image": 346,
+        "path": "./images/703/PXL_20210620_055810454.jpg",
+        "mid_thumbnail": "./mid_thumbs/703/PXL_20210620_055810454.jpg",
+        "small_thumbnail": "./small_thumbs/703/PXL_20210620_055810454.jpg",
+        "images": [
+          {
+            "path": "./images/703/PXL_20210620_055810454.jpg",
+            "shootingDate": "2021-06-20T14:58:10",
+            "shooter": "Kohei Otsuka",
+            "description": "上三林雷電神社入口道標",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/703/PXL_20210620_055810454.jpg",
+            "small_thumbnail": "./small_thumbs/703/PXL_20210620_055810454.jpg"
+          },
+          {
+            "path": "./images/703/PXL_20210620_055818538.jpg",
+            "shootingDate": "2021-06-20T14:58:18",
+            "shooter": "Kohei Otsuka",
+            "description": "上三林雷電神社入口道標",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/703/PXL_20210620_055818538.jpg",
+            "small_thumbnail": "./small_thumbs/703/PXL_20210620_055818538.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -70564,27 +70743,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "129",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48476645122034,
-          36.219214888290715
+          139.48242994019074,
+          36.21993525049023
         ]
       }
     },
@@ -70636,8 +70809,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4846056008271,
-          36.21912316605886
+          139.48441077631463,
+          36.219235803141224
         ]
       }
     },
@@ -70689,8 +70862,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4847834766715,
-          36.21901604435544
+          139.48444939193004,
+          36.219152184969566
         ]
       }
     },
@@ -70742,8 +70915,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48466324730742,
-          36.21915861632955
+          139.48438557784277,
+          36.21922341505281
         ]
       }
     },
@@ -70795,8 +70968,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48472356232955,
-          36.21921106360135
+          139.48431982558026,
+          36.219245014795455
         ]
       }
     },
@@ -70848,8 +71021,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48484322586927,
-          36.21897409364603
+          139.48447570576454,
+          36.21914048734323
         ]
       }
     },
@@ -70901,8 +71074,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48484462706614,
-          36.21911654901665
+          139.48431728574064,
+          36.21921240605525
         ]
       }
     },
@@ -70954,8 +71127,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48465667118163,
-          36.21903801527338
+          139.48449235329244,
+          36.21923710101944
         ]
       }
     },
@@ -71007,8 +71180,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48467119943808,
-          36.21900563648671
+          139.48447892786672,
+          36.219086331642956
         ]
       }
     },
@@ -71113,8 +71286,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48470420525513,
-          36.21916024607647
+          139.4842947310254,
+          36.21918771108327
         ]
       }
     },
@@ -71123,51 +71296,63 @@
       "properties": {
         "fid": 636,
         "area_no": "112",
-        "name": "宝暦浮彫弁財天",
-        "type": "",
+        "name": "雷電神社宝暦浮彫弁財天",
+        "type": "天部像",
         "era": "宝暦11年",
         "year": "1761",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷電神社参道脇",
-        "note_1": "舟型背面像、浮彫",
+        "note_1": "八臂 頭上に鳥居 南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 89,
+        "width": 30,
+        "depth": 18,
+        "shape": "舟型背面像 浮彫",
+        "inscription": "(左)  別当 真観寺\n(右) 宝暦十一辛巳四月吉日",
+        "material": "石造",
+        "statue_height": 69,
+        "primary_image": 327,
+        "path": "./images/636/PXL_20210620_044725773.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/636/PXL_20210620_044725773.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/636/PXL_20210620_044725773.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/636/PXL_20210620_044725773.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:47:25",
+            "shooter": "Kohei Otsuka",
+            "description": "雷電神社宝暦浮彫弁財天",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/636/PXL_20210620_044725773.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/636/PXL_20210620_044725773.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "107",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48485149319447,
-          36.21903493774373
+          139.48280501963393,
+          36.22149196942683
         ]
       }
     },
@@ -71176,42 +71361,63 @@
       "properties": {
         "fid": 640,
         "area_no": "113",
-        "name": "弘化丙午弁天",
-        "type": "",
+        "name": "雷電神社弘化丙午弁天",
+        "type": "天部像",
         "era": "弘化3年",
         "year": "1846",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷電神社参道脇",
-        "note_1": "石祠型、屋根一部欠",
+        "note_1": "南向き 屋根一部欠",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 44,
+        "shape": "石祠型",
+        "inscription": "(表)弁天\n(右) 弘化三丙午年四月吉日",
+        "material": "石造",
+        "primary_image": 328,
+        "path": "./images/640/PXL_20210620_044700448.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/640/PXL_20210620_044700448.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/640/PXL_20210620_044700448.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/640/PXL_20210620_044700448.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:47:00",
+            "shooter": "Kohei Otsuka",
+            "description": "雷電神社弘化丙午弁天",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/640/PXL_20210620_044700448.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/640/PXL_20210620_044700448.PORTRAIT.jpg"
+          },
+          {
+            "path": "./images/640/PXL_20210620_052549454.jpg",
+            "shootingDate": "2021-06-20T14:25:49",
+            "shooter": "Kohei Otsuka",
+            "description": "雷電神社弘化丙午弁天",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/640/PXL_20210620_052549454.jpg",
+            "small_thumbnail": "./small_thumbs/640/PXL_20210620_052549454.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "107",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -71219,8 +71425,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48468241646128,
-          36.21896788833303
+          139.4827566339727,
+          36.22151545675123
         ]
       }
     },
@@ -71229,42 +71435,54 @@
       "properties": {
         "fid": 642,
         "area_no": "114",
-        "name": "石川氏弁才天",
-        "type": "",
+        "name": "雷電神社石川氏弁才天",
+        "type": "天部像",
         "era": "不明",
         "year": "",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷電神社参道脇",
-        "note_1": "石祠型、身一部欠",
+        "note_1": "身一部欠 南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 49,
+        "shape": "石祠型",
+        "inscription": "(右)石川氏",
+        "material": "石造",
+        "primary_image": 330,
+        "path": "./images/642/PXL_20210620_044708068.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/642/PXL_20210620_044708068.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/642/PXL_20210620_044708068.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/642/PXL_20210620_044708068.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:47:08",
+            "shooter": "Kohei Otsuka",
+            "description": "雷電神社石川氏弁才天",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/642/PXL_20210620_044708068.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/642/PXL_20210620_044708068.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "108",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -71272,8 +71490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4848716791497,
-          36.2191203315563
+          139.48278653888622,
+          36.2215003366556
         ]
       }
     },
@@ -71282,42 +71500,72 @@
       "properties": {
         "fid": 643,
         "area_no": "115",
-        "name": "石祠型二氏弁才天",
-        "type": "",
+        "name": "雷電神社石祠型二氏弁才天",
+        "type": "天部像",
         "era": "不明",
         "year": "",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷電神社参道脇",
-        "note_1": "石祠型",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 52,
+        "shape": "石祠型",
+        "inscription": "(左)上岡氏\n(右)早川氏",
+        "material": "石造",
+        "primary_image": 331,
+        "path": "./images/643/PXL_20210620_044704559.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/643/PXL_20210620_044704559.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/643/PXL_20210620_044704559.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/643/PXL_20210620_044704559.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:47:04",
+            "shooter": "Kohei Otsuka",
+            "description": "雷電神社石祠型二氏弁才天",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/643/PXL_20210620_044704559.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/643/PXL_20210620_044704559.PORTRAIT.jpg"
+          },
+          {
+            "path": "./images/643/PXL_20210620_052632813.jpg",
+            "shootingDate": "2021-06-20T14:26:32",
+            "shooter": "Kohei Otsuka",
+            "description": "雷電神社石祠型二氏弁才天",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/643/PXL_20210620_052632813.jpg",
+            "small_thumbnail": "./small_thumbs/643/PXL_20210620_052632813.jpg"
+          },
+          {
+            "path": "./images/643/PXL_20210620_053119351.jpg",
+            "shootingDate": "2021-06-20T14:31:19",
+            "shooter": "Kohei Otsuka",
+            "description": "雷電神社石祠型二氏弁才天",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/643/PXL_20210620_053119351.jpg",
+            "small_thumbnail": "./small_thumbs/643/PXL_20210620_053119351.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "108",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -71325,8 +71573,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48462911551704,
-          36.2190694508292
+          139.48277165533474,
+          36.22150856376681
         ]
       }
     },
@@ -74743,15 +74991,35 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 334,
+        "path": "./images/649/PXL_20210620_081623748.jpg",
+        "mid_thumbnail": "./mid_thumbs/649/PXL_20210620_081623748.jpg",
+        "small_thumbnail": "./small_thumbs/649/PXL_20210620_081623748.jpg",
+        "images": [
+          {
+            "path": "./images/649/PXL_20210620_081623748.jpg",
+            "shootingDate": "2021-06-20T17:16:23",
+            "shooter": "Kohei Otsuka",
+            "description": "貞享三猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/649/PXL_20210620_081623748.jpg",
+            "small_thumbnail": "./small_thumbs/649/PXL_20210620_081623748.jpg"
+          },
+          {
+            "path": "./images/649/PXL_20210620_081629945.MP.jpg",
+            "shootingDate": "2021-06-20T17:16:29",
+            "shooter": "Kohei Otsuka",
+            "description": "貞享三猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/649/PXL_20210620_081629945.MP.jpg",
+            "small_thumbnail": "./small_thumbs/649/PXL_20210620_081629945.MP.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -74775,8 +75043,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.46948803356287,
-          36.21751747436297
+          139.46637604529482,
+          36.21949967763971
         ]
       }
     },
@@ -74785,8 +75053,8 @@
       "properties": {
         "fid": 688,
         "area_no": "180",
-        "name": "松林堂宝篋印塔（1）",
-        "type": "",
+        "name": "松林堂明暦宝篋印塔",
+        "type": "宝篋印塔",
         "era": "明暦3年",
         "year": "1657",
         "place_1": "野辺町",
@@ -74796,31 +75064,52 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 170,
+        "shape": "宝篋印塔",
+        "inscription": "(表)竜源院受明僧阿遮黎清誉浄心居士\n(右)明暦三丁酉四月十六日\n  カヤノ\n   俗名\n  松沢織部",
+        "material": "石造",
+        "primary_image": 342,
+        "path": "./images/688/PXL_20210620_080807583.MP.jpg",
+        "mid_thumbnail": "./mid_thumbs/688/PXL_20210620_080807583.MP.jpg",
+        "small_thumbnail": "./small_thumbs/688/PXL_20210620_080807583.MP.jpg",
+        "images": [
+          {
+            "path": "./images/688/PXL_20210620_080807583.MP.jpg",
+            "shootingDate": "2021-06-20T17:08:07",
+            "shooter": "Kohei Otsuka",
+            "description": "松林堂明暦宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/688/PXL_20210620_080807583.MP.jpg",
+            "small_thumbnail": "./small_thumbs/688/PXL_20210620_080807583.MP.jpg"
+          },
+          {
+            "path": "./images/688/PXL_20210620_080801529.jpg",
+            "shootingDate": "2021-06-20T17:08:01",
+            "shooter": "Kohei Otsuka",
+            "description": "松林堂明暦宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/688/PXL_20210620_080801529.jpg",
+            "small_thumbnail": "./small_thumbs/688/PXL_20210620_080801529.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "124",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -74828,8 +75117,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4696319011361,
-          36.217484190862734
+          139.46634462446386,
+          36.219770511718515
         ]
       }
     },
@@ -74838,8 +75127,8 @@
       "properties": {
         "fid": 689,
         "area_no": "181",
-        "name": "松林堂宝篋印塔（2）",
-        "type": "",
+        "name": "松林堂寛文宝篋印塔",
+        "type": "宝篋印塔",
         "era": "寛文8年",
         "year": "1668",
         "place_1": "野辺町",
@@ -74849,31 +75138,52 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 181,
+        "shape": "宝篋印塔",
+        "inscription": "(表)清窓院得寿妙栄大姉\n(右)寛文八戊申十月廿八日\n  藤原正長",
+        "material": "石造",
+        "primary_image": 344,
+        "path": "./images/689/PXL_20210620_080723359.jpg",
+        "mid_thumbnail": "./mid_thumbs/689/PXL_20210620_080723359.jpg",
+        "small_thumbnail": "./small_thumbs/689/PXL_20210620_080723359.jpg",
+        "images": [
+          {
+            "path": "./images/689/PXL_20210620_080723359.jpg",
+            "shootingDate": "2021-06-20T17:07:23",
+            "shooter": "Kohei Otsuka",
+            "description": "松林堂寛文宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/689/PXL_20210620_080723359.jpg",
+            "small_thumbnail": "./small_thumbs/689/PXL_20210620_080723359.jpg"
+          },
+          {
+            "path": "./images/689/PXL_20210620_080728360.jpg",
+            "shootingDate": "2021-06-20T17:07:28",
+            "shooter": "Kohei Otsuka",
+            "description": "松林堂寛文宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/689/PXL_20210620_080728360.jpg",
+            "small_thumbnail": "./small_thumbs/689/PXL_20210620_080728360.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "124",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -74881,8 +75191,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.46942547525427,
-          36.217379943423886
+          139.46633800955212,
+          36.21975272297363
         ]
       }
     },
@@ -74950,8 +75260,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.46952517234214,
-          36.21758648751709
+          139.46630879369192,
+          36.21952636084183
         ]
       }
     },
@@ -75021,51 +75331,72 @@
       "properties": {
         "fid": 668,
         "area_no": "184",
-        "name": "舞木萬延庚申",
+        "name": "松林堂舞木萬延庚申",
         "type": "庚申",
-        "era": "万延1",
+        "era": "萬延元年",
         "year": "1860",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "松林堂前",
-        "note_1": "柱型、文字",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 86,
+        "width": 27,
+        "depth": 21,
+        "shape": "舟型文字",
+        "inscription": "(表)(梵字)庚申\n(右)上州邑楽郡舞木村\n萬延元庚申年十月十五日\n(左)佐藤織右ェ門 原田左ェ門 武藤市兵ェ 武藤喜左ェ門\n酒巻万右ェ門 大谷太左ェ門 金子[藤]左ェ門 星野市左ェ門\n原田八百蔵 藤倉四郎兵ェ 酒巻直□ 大谷佑八郎",
+        "material": "石造",
+        "statue_height": 62,
+        "primary_image": 338,
+        "path": "./images/668/PXL_20210620_080515021.jpg",
+        "mid_thumbnail": "./mid_thumbs/668/PXL_20210620_080515021.jpg",
+        "small_thumbnail": "./small_thumbs/668/PXL_20210620_080515021.jpg",
+        "images": [
+          {
+            "path": "./images/668/PXL_20210620_080515021.jpg",
+            "shootingDate": "2021-06-20T17:05:15",
+            "shooter": "Kohei Otsuka",
+            "description": "松林堂舞木萬延庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/668/PXL_20210620_080515021.jpg",
+            "small_thumbnail": "./small_thumbs/668/PXL_20210620_080515021.jpg"
+          },
+          {
+            "path": "./images/668/PXL_20210620_080507114.jpg",
+            "shootingDate": "2021-06-20T17:05:07",
+            "shooter": "Kohei Otsuka",
+            "description": "松林堂舞木萬延庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/668/PXL_20210620_080507114.jpg",
+            "small_thumbnail": "./small_thumbs/668/PXL_20210620_080507114.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "111",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.46947704759384,
-          36.217593192387156
+          139.46637218659615,
+          36.219722926816885
         ]
       }
     },
@@ -75074,51 +75405,72 @@
       "properties": {
         "fid": 677,
         "area_no": "185",
-        "name": "玉石庚申",
+        "name": "松林堂玉石庚申",
         "type": "庚申",
         "era": "不明",
         "year": "",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "松林堂前",
-        "note_1": "玉石、文字",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 25.5,
+        "width": 22,
+        "depth": 10,
+        "shape": "玉石 文字",
+        "inscription": "庚申",
+        "material": "石造",
+        "primary_image": 340,
+        "path": "./images/677/PXL_20210620_080327982.MP.jpg",
+        "mid_thumbnail": "./mid_thumbs/677/PXL_20210620_080327982.MP.jpg",
+        "small_thumbnail": "./small_thumbs/677/PXL_20210620_080327982.MP.jpg",
+        "images": [
+          {
+            "path": "./images/677/PXL_20210620_080327982.MP.jpg",
+            "shootingDate": "2021-06-20T17:03:27",
+            "shooter": "Kohei Otsuka",
+            "description": "松林堂玉石庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/677/PXL_20210620_080327982.MP.jpg",
+            "small_thumbnail": "./small_thumbs/677/PXL_20210620_080327982.MP.jpg"
+          },
+          {
+            "path": "./images/677/PXL_20210620_080522985.jpg",
+            "shootingDate": "2021-06-20T17:05:22",
+            "shooter": "Kohei Otsuka",
+            "description": "松林堂玉石庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/677/PXL_20210620_080522985.jpg",
+            "small_thumbnail": "./small_thumbs/677/PXL_20210620_080522985.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "111",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.46945623414567,
-          36.21744755993498
+          139.4663650204417,
+          36.21970602749907
         ]
       }
     },
@@ -75170,8 +75522,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.46940956408295,
-          36.21753808541341
+          139.4662646942802,
+          36.21954059187923
         ]
       }
     },
@@ -75191,15 +75543,26 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 348,
+        "path": "./images/717/PXL_20210620_075033173.MP.jpg",
+        "mid_thumbnail": "./mid_thumbs/717/PXL_20210620_075033173.MP.jpg",
+        "small_thumbnail": "./small_thumbs/717/PXL_20210620_075033173.MP.jpg",
+        "images": [
+          {
+            "path": "./images/717/PXL_20210620_075033173.MP.jpg",
+            "shootingDate": "2021-06-20T16:50:33",
+            "shooter": "Kohei Otsuka",
+            "description": "松沢氏大乗妙典供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/717/PXL_20210620_075033173.MP.jpg",
+            "small_thumbnail": "./small_thumbs/717/PXL_20210620_075033173.MP.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -75223,8 +75586,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.46947228785402,
-          36.2174862063729
+          139.46636391795658,
+          36.219684680987164
         ]
       }
     },
@@ -100858,6 +101221,53 @@
         "coordinates": [
           139.56869252362273,
           36.236921594155966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": null,
+        "area_no": null,
+        "name": "なにかある",
+        "type": "不明",
+        "era": null,
+        "year": "",
+        "place_1": null,
+        "place_2": null,
+        "detail": null,
+        "note_1": null,
+        "note_2": null,
+        "note_3": null,
+        "area": null,
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": false,
+        "primary_image": null,
+        "height": null,
+        "width": null,
+        "depth": null,
+        "shape": "",
+        "inscription": "",
+        "material": "",
+        "statue_height": null,
+        "color": null,
+        "contradiction": "",
+        "need_action": "要調査",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4819580211884,
+          36.22478144007966
         ]
       }
     }
