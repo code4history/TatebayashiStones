@@ -5220,6 +5220,141 @@
         "small_thumbnail": "./small_thumbs/717/PXL_20210620_075033173.MP.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 583,
+        "path": "./images/583/PXL_20210620_065316435.jpg",
+        "shootingDate": "2021-06-20T15:53:16",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺上岡遷馬頭尊",
+        "note": "",
+        "fid": 349,
+        "mid_thumbnail": "./mid_thumbs/583/PXL_20210620_065316435.jpg",
+        "small_thumbnail": "./small_thumbs/583/PXL_20210620_065316435.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 583,
+        "path": "./images/583/PXL_20210620_065342745.jpg",
+        "shootingDate": "2021-06-20T15:53:42",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺上岡遷馬頭尊",
+        "note": "",
+        "fid": 350,
+        "mid_thumbnail": "./mid_thumbs/583/PXL_20210620_065342745.jpg",
+        "small_thumbnail": "./small_thumbs/583/PXL_20210620_065342745.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 592,
+        "path": "./images/592/PXL_20210620_065322350.jpg",
+        "shootingDate": "2021-06-20T15:53:22",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺宇兵衛馬頭尊",
+        "note": "",
+        "fid": 351,
+        "mid_thumbnail": "./mid_thumbs/592/PXL_20210620_065322350.jpg",
+        "small_thumbnail": "./small_thumbs/592/PXL_20210620_065322350.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 629,
+        "path": "./images/629/PXL_20210620_065644520.jpg",
+        "shootingDate": "2021-06-20T15:56:44",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺如意輪念仏供養塔",
+        "note": "",
+        "fid": 352,
+        "mid_thumbnail": "./mid_thumbs/629/PXL_20210620_065644520.jpg",
+        "small_thumbnail": "./small_thumbs/629/PXL_20210620_065644520.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 629,
+        "path": "./images/629/PXL_20210620_065650354.jpg",
+        "shootingDate": "2021-06-20T15:56:50",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺如意輪念仏供養塔",
+        "note": "",
+        "fid": 353,
+        "mid_thumbnail": "./mid_thumbs/629/PXL_20210620_065650354.jpg",
+        "small_thumbnail": "./small_thumbs/629/PXL_20210620_065650354.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 709,
+        "path": "./images/709/PXL_20210620_065516638.MP.jpg",
+        "shootingDate": "2021-06-20T15:55:16",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺智光六十六部供養塔",
+        "note": "",
+        "fid": 354,
+        "mid_thumbnail": "./mid_thumbs/709/PXL_20210620_065516638.MP.jpg",
+        "small_thumbnail": "./small_thumbs/709/PXL_20210620_065516638.MP.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 709,
+        "path": "./images/709/PXL_20210620_065521517.jpg",
+        "shootingDate": "2021-06-20T15:55:21",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺智光六十六部供養塔",
+        "note": "",
+        "fid": 355,
+        "mid_thumbnail": "./mid_thumbs/709/PXL_20210620_065521517.jpg",
+        "small_thumbnail": "./small_thumbs/709/PXL_20210620_065521517.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 716,
+        "path": "./images/716/PXL_20210620_065431775.jpg",
+        "shootingDate": "2021-06-20T15:54:31",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺常休六十六部供養塔",
+        "note": "",
+        "fid": 356,
+        "mid_thumbnail": "./mid_thumbs/716/PXL_20210620_065431775.jpg",
+        "small_thumbnail": "./small_thumbs/716/PXL_20210620_065431775.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 716,
+        "path": "./images/716/PXL_20210620_065447969.jpg",
+        "shootingDate": "2021-06-20T15:54:47",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺常休六十六部供養塔",
+        "note": "",
+        "fid": 357,
+        "mid_thumbnail": "./mid_thumbs/716/PXL_20210620_065447969.jpg",
+        "small_thumbnail": "./small_thumbs/716/PXL_20210620_065447969.jpg"
+      },
+      "geometry": null
     }
   ]
 }

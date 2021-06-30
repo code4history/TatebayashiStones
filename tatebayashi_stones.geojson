@@ -8,7 +8,7 @@
       "books": "./books.geojson"
     },
     "relations": {
-      "pois": {
+      "main": {
         "images": {
           "is_many": true,
           "resource": "images",
@@ -65416,8 +65416,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48477831215897,
-          36.2190804810978
+          139.48200508755338,
+          36.22260211425348
         ]
       }
     },
@@ -65681,8 +65681,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48479675778924,
-          36.21895089164631
+          139.49466264429043,
+          36.22223593708234
         ]
       }
     },
@@ -67086,6 +67086,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 317,
         "height": 234,
         "width": 47,
         "depth": 32,
@@ -67093,7 +67094,6 @@
         "inscription": "不明",
         "material": "石造",
         "statue_height": 146,
-        "primary_image": 317,
         "path": "./images/562/PXL_20210620_054716041.jpg",
         "mid_thumbnail": "./mid_thumbs/562/PXL_20210620_054716041.jpg",
         "small_thumbnail": "./small_thumbs/562/PXL_20210620_054716041.jpg",
@@ -67151,6 +67151,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 318,
         "height": 151.5,
         "width": 38,
         "depth": 26,
@@ -67158,7 +67159,6 @@
         "inscription": "不明",
         "material": "銅製",
         "statue_height": 127,
-        "primary_image": 318,
         "path": "./images/563/PXL_20210620_054932532.jpg",
         "mid_thumbnail": "./mid_thumbs/563/PXL_20210620_054932532.jpg",
         "small_thumbnail": "./small_thumbs/563/PXL_20210620_054932532.jpg",
@@ -67586,8 +67586,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48474658592838,
-          36.21904249813076
+          139.48682016642127,
+          36.2188374812285
         ]
       }
     },
@@ -67639,8 +67639,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48463422616945,
-          36.21909380479169
+          139.48663438117796,
+          36.21886816638862
         ]
       }
     },
@@ -67692,8 +67692,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4846137118374,
-          36.21907403751037
+          139.486654861441,
+          36.21861914416474
         ]
       }
     },
@@ -67745,8 +67745,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4846293493054,
-          36.218942211291484
+          139.48655940878652,
+          36.21879012574142
         ]
       }
     },
@@ -67851,8 +67851,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48475919712854,
-          36.219130425018115
+          139.48646029894212,
+          36.21871238006652
         ]
       }
     },
@@ -67904,8 +67904,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48472345996862,
-          36.219085326476545
+          139.486484802114,
+          36.21883261290872
         ]
       }
     },
@@ -68010,8 +68010,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4846572218214,
-          36.219068394213394
+          139.48695182525512,
+          36.21888114856812
         ]
       }
     },
@@ -68063,8 +68063,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48466443321385,
-          36.218946473979514
+          139.48653746564753,
+          36.21890814559361
         ]
       }
     },
@@ -68116,8 +68116,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48470648760605,
-          36.21911391311285
+          139.48682309217315,
+          36.21875958807567
         ]
       }
     },
@@ -68169,8 +68169,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48472451869227,
-          36.21906743029399
+          139.48674117112097,
+          36.21872890287296
         ]
       }
     },
@@ -68222,8 +68222,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48483101179946,
-          36.21897426091363
+          139.48678359452296,
+          36.21866871263269
         ]
       }
     },
@@ -68275,8 +68275,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48467798912125,
-          36.21914279570434
+          139.48645298456245,
+          36.21878319206957
         ]
       }
     },
@@ -68328,8 +68328,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48471959353557,
-          36.21913988962917
+          139.48674117112097,
+          36.21858845890695
         ]
       }
     },
@@ -68381,8 +68381,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48482993789665,
-          36.219075164972736
+          139.48672215373387,
+          36.21881505745004
         ]
       }
     },
@@ -68434,8 +68434,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4847290039473,
-          36.21913140561765
+          139.4869050132253,
+          36.2187938138645
         ]
       }
     },
@@ -68487,8 +68487,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48472897122542,
-          36.21903107023466
+          139.48687575570668,
+          36.21891301390869
         ]
       }
     },
@@ -68540,8 +68540,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4846992349519,
-          36.219041236661404
+          139.48669728484302,
+          36.218876427775825
         ]
       }
     },
@@ -68593,8 +68593,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48463076603062,
-          36.21921377363334
+          139.48667534170403,
+          36.21868287504633
         ]
       }
     },
@@ -68646,8 +68646,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4848535769704,
-          36.219004232003684
+          139.48663547833493,
+          36.21899902075846
         ]
       }
     },
@@ -68699,8 +68699,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48469574454546,
-          36.21921267316975
+          139.486591592057,
+          36.21902144448419
         ]
       }
     },
@@ -68752,8 +68752,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48459619830072,
-          36.21903030531006
+          139.48654514574613,
+          36.218658090820774
         ]
       }
     },
@@ -69450,8 +69450,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48429795312757,
-          36.21921457228049
+          139.4823875924747,
+          36.22140972367311
         ]
       }
     },
@@ -69503,8 +69503,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48434463032598,
-          36.219234214924874
+          139.48236022850972,
+          36.221449110333104
         ]
       }
     },
@@ -69529,6 +69529,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 316,
         "height": 146,
         "width": 56.5,
         "depth": 29,
@@ -69536,7 +69537,6 @@
         "inscription": "(表)想旦那結衆願主法印宥聖敬白\n   (像)\n干時 元禄十四辛己天五月吉 上列上三林村雷光寺",
         "material": "石造",
         "statue_height": 118,
-        "primary_image": 316,
         "path": "./images/554/PXL_20210620_045039611.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/554/PXL_20210620_045039611.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/554/PXL_20210620_045039611.PORTRAIT.jpg",
@@ -69675,8 +69675,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4844434847427,
-          36.21919117704473
+          139.48220017884367,
+          36.22137097226245
         ]
       }
     },
@@ -69728,8 +69728,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48446174332173,
-          36.21921023982996
+          139.48222321182143,
+          36.22133222083257
         ]
       }
     },
@@ -69754,6 +69754,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 320,
         "height": 61,
         "width": 29,
         "depth": 18.5,
@@ -69761,7 +69762,6 @@
         "inscription": "(表)奉造立馬頭観音\n 寛延四辛未二月十三日\n(台) 施主\n  川嶋\n  [八]左ェ[門]",
         "material": "石造",
         "statue_height": 51,
-        "primary_image": 320,
         "path": "./images/569/PXL_20210620_045152033.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/569/PXL_20210620_045152033.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/569/PXL_20210620_045152033.PORTRAIT.jpg",
@@ -69819,6 +69819,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 321,
         "height": 65.5,
         "width": 27,
         "depth": 17.5,
@@ -69826,7 +69827,6 @@
         "inscription": "(表)奉造立馬頭観世音 \n明和六己丑六月廿四日\n  今井六兵衛\n 願主\n  小倉忠左ェ門\n(下段)\n十月\n 十四日\n七月\n 十四日\n五月\n 十二日",
         "material": "石造",
         "statue_height": 57,
-        "primary_image": 321,
         "path": "./images/572/PXL_20210620_045158444.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/572/PXL_20210620_045158444.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/572/PXL_20210620_045158444.PORTRAIT.jpg",
@@ -69927,8 +69927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.484385218395,
-          36.21912619024201
+          139.48225116637568,
+          36.221174673838085
         ]
       }
     },
@@ -69980,8 +69980,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48447677979863,
-          36.219080916070865
+          139.4823861894727,
+          36.22123678838655
         ]
       }
     },
@@ -70006,6 +70006,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 323,
         "height": 63.5,
         "width": 26.5,
         "depth": 19,
@@ -70013,7 +70014,6 @@
         "inscription": "(表)馬頭観世音\n(右)  未年十一月廿日",
         "material": "石造",
         "statue_height": 54.5,
-        "primary_image": 323,
         "path": "./images/626/PXL_20210620_045210197.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/626/PXL_20210620_045210197.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/626/PXL_20210620_045210197.PORTRAIT.jpg",
@@ -70071,6 +70071,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 324,
         "height": 180,
         "width": 44,
         "depth": 27,
@@ -70079,7 +70080,6 @@
         "material": "石造",
         "statue_height": 99.8,
         "contradiction": "これを柱型とするのは間違いではないか？舟形背面？",
-        "primary_image": 324,
         "path": "./images/628/PXL_20210620_045144252.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/628/PXL_20210620_045144252.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/628/PXL_20210620_045144252.PORTRAIT.jpg",
@@ -70136,6 +70136,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 336,
         "height": 124,
         "width": 37,
         "depth": 21.5,
@@ -70143,7 +70144,6 @@
         "inscription": "(表)奉造立庚申供養上三林結衆\n元禄十三庚辰天八月吉日敬白\n(台)山岸純次衛\n奥沢彦右門\n小暮紋左門\n荒川想誉\n山ノ井安右門\n石川武左門\n前原木兵一",
         "material": "石造",
         "statue_height": 107.5,
-        "primary_image": 336,
         "path": "./images/651/PXL_20210620_045135140.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/651/PXL_20210620_045135140.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/651/PXL_20210620_045135140.PORTRAIT.jpg",
@@ -70236,8 +70236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4843654978105,
-          36.2192481912277
+          139.48240983800025,
+          36.22129505755803
         ]
       }
     },
@@ -70289,8 +70289,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4844413366746,
-          36.21909672954031
+          139.48232164335036,
+          36.2211171818115
         ]
       }
     },
@@ -70342,8 +70342,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48443704053835,
-          36.219080699447964
+          139.48226652169419,
+          36.22116768585925
         ]
       }
     },
@@ -70395,8 +70395,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48478909147076,
-          36.21897755033268
+          139.48460226364958,
+          36.21913297291936
         ]
       }
     },
@@ -70448,8 +70448,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48482384720253,
-          36.21896661543794
+          139.4846913162219,
+          36.21885031588829
         ]
       }
     },
@@ -70501,8 +70501,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.484448854913,
-          36.2191084271732
+          139.4815656892083,
+          36.22155964698268
         ]
       }
     },
@@ -70527,6 +70527,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 337,
         "height": 137.8,
         "width": 44,
         "depth": 27,
@@ -70535,7 +70536,6 @@
         "material": "石造",
         "statue_height": 99.8,
         "contradiction": "同じページの吉間氏宅の庚申と刻銘内容が入れ替わってるように思われるため、現実にしたがって修正。",
-        "primary_image": 337,
         "path": "./images/656/PXL_20210620_045129289.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/656/PXL_20210620_045129289.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/656/PXL_20210620_045129289.PORTRAIT.jpg",
@@ -70592,6 +70592,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 325,
         "height": 177,
         "width": 37.5,
         "depth": 24,
@@ -70599,7 +70600,6 @@
         "inscription": "(表) 天明二壬寅歳\n(梵字)二十二夜待供養尊\n 十一月吉祥日\n(左)施主 当村講中\n(右)供養導師\n法印慶範",
         "material": "石造",
         "statue_height": 76,
-        "primary_image": 325,
         "path": "./images/632/PXL_20210620_054640184.MP.jpg",
         "mid_thumbnail": "./mid_thumbs/632/PXL_20210620_054640184.MP.jpg",
         "small_thumbnail": "./small_thumbs/632/PXL_20210620_054640184.MP.jpg",
@@ -70666,6 +70666,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 322,
         "height": 55.5,
         "width": 24,
         "depth": 15,
@@ -70673,7 +70674,6 @@
         "inscription": "(表) 享和元辛酉年\n(梵字) 馬頭観世音菩薩\n 九月十叉七日\n  施主 清水や",
         "material": "石造",
         "statue_height": 50,
-        "primary_image": 322,
         "path": "./images/575/PXL_20210620_045205117.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/575/PXL_20210620_045205117.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/575/PXL_20210620_045205117.PORTRAIT.jpg",
@@ -70731,6 +70731,7 @@
         "photo": "",
         "public_relations": "2014/09",
         "confirmed": true,
+        "primary_image": 346,
         "height": 181,
         "width": 24,
         "depth": 19,
@@ -70738,7 +70739,6 @@
         "inscription": "(表)雷電神社入口\n(裏)昭和七年一月建之\n 日光町神橋前 小暮貞次郎\n  上州屋旅館 三野谷出身",
         "material": "石造",
         "statue_height": 138,
-        "primary_image": 346,
         "path": "./images/703/PXL_20210620_055810454.jpg",
         "mid_thumbnail": "./mid_thumbs/703/PXL_20210620_055810454.jpg",
         "small_thumbnail": "./small_thumbs/703/PXL_20210620_055810454.jpg",
@@ -70840,8 +70840,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48441077631463,
-          36.219235803141224
+          139.48164915914484,
+          36.22171592266901
         ]
       }
     },
@@ -70893,8 +70893,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48444939193004,
-          36.219152184969566
+          139.48168223213855,
+          36.2214500632359
         ]
       }
     },
@@ -70946,8 +70946,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48438557784277,
-          36.21922341505281
+          139.48188519795116,
+          36.22178008454743
         ]
       }
     },
@@ -70999,8 +70999,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48431982558026,
-          36.219245014795455
+          139.48181137430447,
+          36.22166637187545
         ]
       }
     },
@@ -71052,8 +71052,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48447570576454,
-          36.21914048734323
+          139.48174522831704,
+          36.22154440055754
         ]
       }
     },
@@ -71105,8 +71105,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48431728574064,
-          36.21921240605525
+          139.48172002984563,
+          36.22184932849571
         ]
       }
     },
@@ -71158,8 +71158,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48449235329244,
-          36.21923710101944
+          139.4824444858984,
+          36.221653666538714
         ]
       }
     },
@@ -71211,8 +71211,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48447892786672,
-          36.219086331642956
+          139.48245055601365,
+          36.22134359301992
         ]
       }
     },
@@ -71264,8 +71264,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4848139082747,
-          36.21914772538566
+          139.4821784610904,
+          36.22191183842401
         ]
       }
     },
@@ -71317,8 +71317,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4842947310254,
-          36.21918771108327
+          139.48148379417626,
+          36.221432275714704
         ]
       }
     },
@@ -71343,6 +71343,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 327,
         "height": 89,
         "width": 30,
         "depth": 18,
@@ -71350,7 +71351,6 @@
         "inscription": "(左)  別当 真観寺\n(右) 宝暦十一辛巳四月吉日",
         "material": "石造",
         "statue_height": 69,
-        "primary_image": 327,
         "path": "./images/636/PXL_20210620_044725773.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/636/PXL_20210620_044725773.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/636/PXL_20210620_044725773.PORTRAIT.jpg",
@@ -71408,11 +71408,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 328,
         "height": 44,
         "shape": "石祠型",
         "inscription": "(表)弁天\n(右) 弘化三丙午年四月吉日",
         "material": "石造",
-        "primary_image": 328,
         "path": "./images/640/PXL_20210620_044700448.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/640/PXL_20210620_044700448.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/640/PXL_20210620_044700448.PORTRAIT.jpg",
@@ -71482,11 +71482,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 330,
         "height": 49,
         "shape": "石祠型",
         "inscription": "(右)石川氏",
         "material": "石造",
-        "primary_image": 330,
         "path": "./images/642/PXL_20210620_044708068.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/642/PXL_20210620_044708068.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/642/PXL_20210620_044708068.PORTRAIT.jpg",
@@ -71547,11 +71547,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 331,
         "height": 52,
         "shape": "石祠型",
         "inscription": "(左)上岡氏\n(右)早川氏",
         "material": "石造",
-        "primary_image": 331,
         "path": "./images/643/PXL_20210620_044704559.PORTRAIT.jpg",
         "mid_thumbnail": "./mid_thumbs/643/PXL_20210620_044704559.PORTRAIT.jpg",
         "small_thumbnail": "./small_thumbs/643/PXL_20210620_044704559.PORTRAIT.jpg",
@@ -75100,11 +75100,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 342,
         "height": 170,
         "shape": "宝篋印塔",
         "inscription": "(表)竜源院受明僧阿遮黎清誉浄心居士\n(右)明暦三丁酉四月十六日\n  カヤノ\n   俗名\n  松沢織部",
         "material": "石造",
-        "primary_image": 342,
         "path": "./images/688/PXL_20210620_080807583.MP.jpg",
         "mid_thumbnail": "./mid_thumbs/688/PXL_20210620_080807583.MP.jpg",
         "small_thumbnail": "./small_thumbs/688/PXL_20210620_080807583.MP.jpg",
@@ -75174,11 +75174,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 344,
         "height": 181,
         "shape": "宝篋印塔",
         "inscription": "(表)清窓院得寿妙栄大姉\n(右)寛文八戊申十月廿八日\n  藤原正長",
         "material": "石造",
-        "primary_image": 344,
         "path": "./images/689/PXL_20210620_080723359.jpg",
         "mid_thumbnail": "./mid_thumbs/689/PXL_20210620_080723359.jpg",
         "small_thumbnail": "./small_thumbs/689/PXL_20210620_080723359.jpg",
@@ -75378,6 +75378,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 338,
         "height": 86,
         "width": 27,
         "depth": 21,
@@ -75385,7 +75386,6 @@
         "inscription": "(表)(梵字)庚申\n(右)上州邑楽郡舞木村\n萬延元庚申年十月十五日\n(左)佐藤織右ェ門 原田左ェ門 武藤市兵ェ 武藤喜左ェ門\n酒巻万右ェ門 大谷太左ェ門 金子[藤]左ェ門 星野市左ェ門\n原田八百蔵 藤倉四郎兵ェ 酒巻直□ 大谷佑八郎",
         "material": "石造",
         "statue_height": 62,
-        "primary_image": 338,
         "path": "./images/668/PXL_20210620_080515021.jpg",
         "mid_thumbnail": "./mid_thumbs/668/PXL_20210620_080515021.jpg",
         "small_thumbnail": "./small_thumbs/668/PXL_20210620_080515021.jpg",
@@ -75452,13 +75452,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 340,
         "height": 25.5,
         "width": 22,
         "depth": 10,
         "shape": "玉石 文字",
         "inscription": "庚申",
         "material": "石造",
-        "primary_image": 340,
         "path": "./images/677/PXL_20210620_080327982.MP.jpg",
         "mid_thumbnail": "./mid_thumbs/677/PXL_20210620_080327982.MP.jpg",
         "small_thumbnail": "./small_thumbs/677/PXL_20210620_080327982.MP.jpg",
@@ -75570,7 +75570,7 @@
         "place_1": "野辺町",
         "place_2": "",
         "detail": "松林堂前",
-        "note_1": "",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -75580,6 +75580,10 @@
         "public_relations": "",
         "confirmed": true,
         "primary_image": 348,
+        "height": 195,
+        "shape": "碑型",
+        "inscription": "(表)  浄誉法師\n明和八辛卯年 願主法名\n  林貞大姉\n(梵字) 奉読誦大乗妙典一千部供羪塔\n夏四月吉日俗名松沢氏隠人 正苗 貴代\n(台:横書き)邑辺野州上",
+        "material": "石造",
         "path": "./images/717/PXL_20210620_075033173.MP.jpg",
         "mid_thumbnail": "./mid_thumbs/717/PXL_20210620_075033173.MP.jpg",
         "small_thumbnail": "./small_thumbs/717/PXL_20210620_075033173.MP.jpg",
@@ -75598,18 +75602,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "131",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -75723,8 +75724,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47042359733717,
-          36.21897656185973
+          139.4704070615925,
+          36.21895081505624
         ]
       }
     },
@@ -75776,8 +75777,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4704341465089,
-          36.219088480978854
+          139.4703678593489,
+          36.218695632447314
         ]
       }
     },
@@ -75829,8 +75830,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4702964244777,
-          36.21897861486653
+          139.4703281200883,
+          36.218739823722714
         ]
       }
     },
@@ -75882,8 +75883,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4703504889801,
-          36.2189143692067
+          139.47017936636945,
+          36.21884856881373
         ]
       }
     },
@@ -75935,8 +75936,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47029225339523,
-          36.2189238130544
+          139.4703662482978,
+          36.21896207946462
         ]
       }
     },
@@ -75988,8 +75989,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4705112428319,
-          36.219038842142545
+          139.47034852673565,
+          36.21883903737753
         ]
       }
     },
@@ -76041,8 +76042,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47049279411212,
-          36.218894285612784
+          139.4702540117374,
+          36.21874805542812
         ]
       }
     },
@@ -76147,8 +76148,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4704687633943,
-          36.21887005157032
+          139.47033724937788,
+          36.21876235259861
         ]
       }
     },
@@ -76200,8 +76201,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4703806616161,
-          36.21902431719522
+          139.47039256213256,
+          36.21882647320986
         ]
       }
     },
@@ -76210,51 +76211,72 @@
       "properties": {
         "fid": 583,
         "area_no": "199",
-        "name": "上岡遷馬頭尊",
+        "name": "龍福寺上岡遷馬頭尊",
         "type": "馬頭観世音",
         "era": "安政6年",
         "year": "1859",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺境内",
-        "note_1": "柱型、文字",
+        "note_1": "文字 東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 127.5,
+        "width": 44.5,
+        "depth": 44.4,
+        "shape": "柱型",
+        "inscription": "(表)(最上段横書き)遷岡上\n馬頭観世音\n 新田源俊純拝書\n(右)安政六年竜集乙未二月穀日\n(台)野辺村(横書き)中持馬\n板倉村 鈴木堪次\n日向村 中島孫惣\n赤土村 駒宮金助\n赤生田村 原 善座ェ門\n林 関口文右ェ門\n同 松沢□長蔵\n青柳村 武井甚五郎\n大輪村 嶋田堪蔵\n赤堀村 矢嶋六兵衛\n下三林村 萩原周蔵\n同 同 藤助\n堀工村 菅沼七右ェ門\n同 藤倉平右ェ門\n同 中村新左ェ門\n同 須永甚助\n羽附村 栗原栄吉\n\n上三林村  木崎村\n狸塚村  萱野村\n赤堀村 鍋谷村\n下三林村  荒井伴右ェ門\n堀工村 当所\n大輪村  星野重右ェ門\n下中森村 同\n上中森村  車崎せき\n瀬戸井村\n鍋谷村 石塚村\n   島田惣七",
+        "material": "石造",
+        "statue_height": 91,
+        "primary_image": 349,
+        "path": "./images/583/PXL_20210620_065316435.jpg",
+        "mid_thumbnail": "./mid_thumbs/583/PXL_20210620_065316435.jpg",
+        "small_thumbnail": "./small_thumbs/583/PXL_20210620_065316435.jpg",
+        "images": [
+          {
+            "path": "./images/583/PXL_20210620_065316435.jpg",
+            "shootingDate": "2021-06-20T15:53:16",
+            "shooter": "Shooter not reported - must update",
+            "description": "龍福寺上岡遷馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/583/PXL_20210620_065316435.jpg",
+            "small_thumbnail": "./small_thumbs/583/PXL_20210620_065316435.jpg"
+          },
+          {
+            "path": "./images/583/PXL_20210620_065342745.jpg",
+            "shootingDate": "2021-06-20T15:53:42",
+            "shooter": "Shooter not reported - must update",
+            "description": "龍福寺上岡遷馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/583/PXL_20210620_065342745.jpg",
+            "small_thumbnail": "./small_thumbs/583/PXL_20210620_065342745.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "84",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47035686635243,
-          36.21893257022578
+          139.47016768624889,
+          36.218737657484276
         ]
       }
     },
@@ -76263,51 +76285,63 @@
       "properties": {
         "fid": 592,
         "area_no": "200",
-        "name": "宇兵衛馬頭尊",
+        "name": "龍福寺宇兵衛馬頭尊",
         "type": "馬頭観世音",
         "era": "明治33年",
         "year": "1900",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺境内",
-        "note_1": "碑型、文字（上部欠）",
+        "note_1": "文字（上部欠） 東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 56.5,
+        "width": 35,
+        "depth": 10,
+        "shape": "碑型",
+        "inscription": "(表)頭観世音\n(裏) 功徳主 峰岸宇兵衛 建之\n明治三十三年十月",
+        "material": "石造",
+        "primary_image": 351,
+        "path": "./images/592/PXL_20210620_065322350.jpg",
+        "mid_thumbnail": "./mid_thumbs/592/PXL_20210620_065322350.jpg",
+        "small_thumbnail": "./small_thumbs/592/PXL_20210620_065322350.jpg",
+        "images": [
+          {
+            "path": "./images/592/PXL_20210620_065322350.jpg",
+            "shootingDate": "2021-06-20T15:53:22",
+            "shooter": "Shooter not reported - must update",
+            "description": "龍福寺宇兵衛馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/592/PXL_20210620_065322350.jpg",
+            "small_thumbnail": "./small_thumbs/592/PXL_20210620_065322350.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "85",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4704800127576,
-          36.21902904529649
+          139.47016500116374,
+          36.21872552654808
         ]
       }
     },
@@ -76316,51 +76350,72 @@
       "properties": {
         "fid": 629,
         "area_no": "201",
-        "name": "野辺如意輪念仏供養塔",
+        "name": "龍福寺如意輪念仏供養塔",
         "type": "如意輪観音像",
         "era": "明和5年",
         "year": "1768",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺境内",
-        "note_1": "像あり",
+        "note_1": "南向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "最新の調査では東向き",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 181,
+        "width": 46,
+        "depth": 38,
+        "shape": "柱型 像あり",
+        "inscription": "(表)明和五戊子年\n念仏供養塔\n十月吉日\n(台)野辺村\n施主\n講中",
+        "material": "石造",
+        "statue_height": 92,
+        "primary_image": 352,
+        "path": "./images/629/PXL_20210620_065644520.jpg",
+        "mid_thumbnail": "./mid_thumbs/629/PXL_20210620_065644520.jpg",
+        "small_thumbnail": "./small_thumbs/629/PXL_20210620_065644520.jpg",
+        "images": [
+          {
+            "path": "./images/629/PXL_20210620_065644520.jpg",
+            "shootingDate": "2021-06-20T15:56:44",
+            "shooter": "Shooter not reported - must update",
+            "description": "龍福寺如意輪念仏供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/629/PXL_20210620_065644520.jpg",
+            "small_thumbnail": "./small_thumbs/629/PXL_20210620_065644520.jpg"
+          },
+          {
+            "path": "./images/629/PXL_20210620_065650354.jpg",
+            "shootingDate": "2021-06-20T15:56:50",
+            "shooter": "Shooter not reported - must update",
+            "description": "龍福寺如意輪念仏供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/629/PXL_20210620_065650354.jpg",
+            "small_thumbnail": "./small_thumbs/629/PXL_20210620_065650354.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "104",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47047148551135,
-          36.21883705840244
+          139.47019493986346,
+          36.21881087630926
         ]
       }
     },
@@ -76412,8 +76467,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47049115635974,
-          36.21890031065608
+          139.47028730679358,
+          36.21875152140908
         ]
       }
     },
@@ -76465,8 +76520,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47038531677347,
-          36.218968500891705
+          139.47029912116838,
+          36.21878531471544
         ]
       }
     },
@@ -76571,8 +76626,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47038439106035,
-          36.21895729972632
+          139.47034745270156,
+          36.218780982241064
         ]
       }
     },
@@ -76581,51 +76636,72 @@
       "properties": {
         "fid": 709,
         "area_no": "206",
-        "name": "智光六十六部供養塔",
-        "type": "",
+        "name": "龍福寺智光六十六部供養塔",
+        "type": "回国供養",
         "era": "享保10年",
         "year": "1725",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺境内",
-        "note_1": "",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 124,
+        "width": 31,
+        "depth": 25,
+        "shape": "柱型",
+        "inscription": "(表)  天下泰平\n(梵字)奉納大乗妙典六拾六部供羪塔\n  国土安穏\n(左)東上野国邑楽郡野辺村住\n(右)享保十乙巳歳十一月吉日\n  願主\n  蓮室浄観\n  施主\n  天桂智光",
+        "statue_height": 82,
+        "primary_image": 354,
+        "path": "./images/709/PXL_20210620_065516638.MP.jpg",
+        "mid_thumbnail": "./mid_thumbs/709/PXL_20210620_065516638.MP.jpg",
+        "small_thumbnail": "./small_thumbs/709/PXL_20210620_065516638.MP.jpg",
+        "images": [
+          {
+            "path": "./images/709/PXL_20210620_065516638.MP.jpg",
+            "shootingDate": "2021-06-20T15:55:16",
+            "shooter": "Shooter not reported - must update",
+            "description": "龍福寺智光六十六部供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/709/PXL_20210620_065516638.MP.jpg",
+            "small_thumbnail": "./small_thumbs/709/PXL_20210620_065516638.MP.jpg"
+          },
+          {
+            "path": "./images/709/PXL_20210620_065521517.jpg",
+            "shootingDate": "2021-06-20T15:55:21",
+            "shooter": "Shooter not reported - must update",
+            "description": "龍福寺智光六十六部供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/709/PXL_20210620_065521517.jpg",
+            "small_thumbnail": "./small_thumbs/709/PXL_20210620_065521517.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "131",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
         "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47028117513963,
-          36.21887829091835
+          139.4701831254887,
+          36.21878271523085
         ]
       }
     },
@@ -76634,51 +76710,72 @@
       "properties": {
         "fid": 716,
         "area_no": "207",
-        "name": "常休六十六部供養塔",
-        "type": "",
+        "name": "龍福寺常休六十六部供養塔",
+        "type": "回国供養",
         "era": "明和5年",
         "year": "1768",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺境内",
-        "note_1": "",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 81,
+        "width": 24,
+        "depth": 17,
+        "shape": "柱型",
+        "inscription": "(表)  天下泰平\n(梵字)奉納大乗妙典六拾六部供養\n  国土安穏\n(左)上州邑楽郡野辺村\n  願主 現誉常休\n  施主 斉藤平右ェ門\n(右)  狸塚村\n  上三林村\n明和五丁子十一月吉日 萱野村\n  木崎村\n  鍋谷村",
+        "material": "石造",
+        "statue_height": 65,
+        "primary_image": 356,
+        "path": "./images/716/PXL_20210620_065431775.jpg",
+        "mid_thumbnail": "./mid_thumbs/716/PXL_20210620_065431775.jpg",
+        "small_thumbnail": "./small_thumbs/716/PXL_20210620_065431775.jpg",
+        "images": [
+          {
+            "path": "./images/716/PXL_20210620_065431775.jpg",
+            "shootingDate": "2021-06-20T15:54:31",
+            "shooter": "Shooter not reported - must update",
+            "description": "龍福寺常休六十六部供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/716/PXL_20210620_065431775.jpg",
+            "small_thumbnail": "./small_thumbs/716/PXL_20210620_065431775.jpg"
+          },
+          {
+            "path": "./images/716/PXL_20210620_065447969.jpg",
+            "shootingDate": "2021-06-20T15:54:47",
+            "shooter": "Shooter not reported - must update",
+            "description": "龍福寺常休六十六部供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/716/PXL_20210620_065447969.jpg",
+            "small_thumbnail": "./small_thumbs/716/PXL_20210620_065447969.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "131",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47035006653866,
-          36.218910310084844
+          139.47017936636945,
+          36.21876971780664
         ]
       }
     },
@@ -76730,8 +76827,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47042455065628,
-          36.219070255141844
+          139.47028838082764,
+          36.21867223705612
         ]
       }
     },
@@ -76837,8 +76934,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47027401981381,
-          36.218816297653724
+          139.4701607050275,
+          36.21871177093069
         ]
       }
     },
@@ -76890,8 +76987,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47034777423644,
-          36.21899253822728
+          139.4701906437272,
+          36.218978109581435
         ]
       }
     },
