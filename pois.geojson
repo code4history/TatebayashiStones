@@ -8,33 +8,35 @@
       "books": "./books.geojson"
     },
     "relations": {
-      "main": {
-        "images": {
-          "is_many": true,
-          "resource": "images",
-          "relations": {
-            "fid": "poi"
-          }
-        },
-        "books": {
-          "is_many": true,
-          "resource": "refs",
-          "relations": {
-            "fid": "poi"
-          }
+      "main.images": {
+        "is_many": true,
+        "resource": "images",
+        "relations": {
+          "fid": "poi"
         }
       },
-      "refs": {
-        "_books": {
-          "is_many": false,
-          "resource": "books",
-          "relations": {
-            "book": "fid"
-          }
+      "main.books": {
+        "is_many": true,
+        "resource": "refs",
+        "relations": {
+          "fid": "poi"
+        }
+      },
+      "refs._books": {
+        "is_many": false,
+        "resource": "books",
+        "relations": {
+          "book": "fid"
         }
       }
     },
-    "attributes": {}
+    "attributes": {
+      "refs.name": "_books.name",
+      "refs.editor": "_books.editor",
+      "refs.publishedAt": "_books.publishedAt"
+    },
+    "keep": [],
+    "delete": ["refs.fid"]
   },
   "features": [
     {
