@@ -5355,6 +5355,111 @@
         "small_thumbnail": "./small_thumbs/716/PXL_20210620_065447969.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 559,
+        "path": "./images/559/PXL_20210620_065124725.jpg",
+        "shootingDate": "2021-06-20T15:51:24",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺常念地蔵尊",
+        "note": "",
+        "fid": 358,
+        "mid_thumbnail": "./mid_thumbs/559/PXL_20210620_065124725.jpg",
+        "small_thumbnail": "./small_thumbs/559/PXL_20210620_065124725.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 559,
+        "path": "./images/559/PXL_20210620_065154637.jpg",
+        "shootingDate": "2021-06-20T15:51:54",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺常念地蔵尊",
+        "note": "",
+        "fid": 359,
+        "mid_thumbnail": "./mid_thumbs/559/PXL_20210620_065154637.jpg",
+        "small_thumbnail": "./small_thumbs/559/PXL_20210620_065154637.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 560,
+        "path": "./images/560/PXL_20210620_065139408.MP.jpg",
+        "shootingDate": "2021-06-20T15:51:39",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺正盛地蔵尊",
+        "note": "",
+        "fid": 360,
+        "mid_thumbnail": "./mid_thumbs/560/PXL_20210620_065139408.MP.jpg",
+        "small_thumbnail": "./small_thumbs/560/PXL_20210620_065139408.MP.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 560,
+        "path": "./images/560/PXL_20210620_065145337.jpg",
+        "shootingDate": "2021-06-20T15:51:45",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺正盛地蔵尊",
+        "note": "",
+        "fid": 361,
+        "mid_thumbnail": "./mid_thumbs/560/PXL_20210620_065145337.jpg",
+        "small_thumbnail": "./small_thumbs/560/PXL_20210620_065145337.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 564,
+        "path": "./images/564/PXL_20210620_072806522.jpg",
+        "shootingDate": "2021-06-20T16:28:06",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺六地蔵尊",
+        "note": "",
+        "fid": 362,
+        "mid_thumbnail": "./mid_thumbs/564/PXL_20210620_072806522.jpg",
+        "small_thumbnail": "./small_thumbs/564/PXL_20210620_072806522.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 564,
+        "path": "./images/564/PXL_20210620_072817705.jpg",
+        "shootingDate": "2021-06-20T16:28:17",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺六地蔵尊",
+        "note": "",
+        "fid": 363,
+        "mid_thumbnail": "./mid_thumbs/564/PXL_20210620_072817705.jpg",
+        "small_thumbnail": "./small_thumbs/564/PXL_20210620_072817705.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 564,
+        "path": "./images/564/PXL_20210620_072821898.jpg",
+        "shootingDate": "2021-06-20T16:28:21",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺六地蔵尊",
+        "note": "",
+        "fid": 364,
+        "mid_thumbnail": "./mid_thumbs/564/PXL_20210620_072821898.jpg",
+        "small_thumbnail": "./small_thumbs/564/PXL_20210620_072821898.jpg"
+      },
+      "geometry": null
     }
   ]
 }
