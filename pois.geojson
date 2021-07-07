@@ -36,7 +36,9 @@
       "refs.publishedAt": "_books.publishedAt"
     },
     "keep": [],
-    "delete": ["refs.fid"]
+    "delete": [
+      "refs.fid"
+    ]
   },
   "features": [
     {
@@ -38540,7 +38542,7 @@
         "place_1": "上三林町",
         "place_2": "",
         "detail": "真観寺",
-        "note_1": "碑型、文字、如来",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -38548,13 +38550,18 @@
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false
+        "confirmed": false,
+        "height": 73,
+        "width": 46.5,
+        "depth": 9.5,
+        "shape": "碑型 文字如来",
+        "inscription": "天保十一庚子年三月吉日\n大 日 如 来\n 上三林町\n  真観寺"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48682016642127,
-          36.2188374812285
+          139.48652368062355,
+          36.21882675518193
         ]
       }
     },
@@ -38570,7 +38577,7 @@
         "place_1": "上三林町",
         "place_2": "",
         "detail": "真観寺",
-        "note_1": "木造",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -38579,13 +38586,19 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "丸彫立像"
+        "height": 227.5,
+        "width": 57,
+        "depth": 34,
+        "shape": "丸彫立像",
+        "inscription": "なし",
+        "material": "木造",
+        "statue_height": 194
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48663438117796,
-          36.21886816638862
+          139.48650872135545,
+          36.21880606609625
         ]
       }
     },
@@ -39613,7 +39626,7 @@
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷光寺",
-        "note_1": "木造",
+        "note_1": "両手欠損 厨子入り",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -39622,13 +39635,19 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "丸彫座像"
+        "height": 44.9,
+        "width": 19.5,
+        "depth": 13,
+        "shape": "丸彫座像",
+        "inscription": "なし",
+        "material": "木造",
+        "statue_height": 22.5
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4823875924747,
-          36.22140972367311
+          139.48237568934707,
+          36.22142750208682
         ]
       }
     },
@@ -39644,7 +39663,7 @@
         "place_1": "上三林町",
         "place_2": "",
         "detail": "雷光寺",
-        "note_1": "木造",
+        "note_1": "両腕欠け",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -39653,13 +39672,19 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "丸彫立像"
+        "height": 38,
+        "width": 5.5,
+        "depth": 5.7,
+        "shape": "丸彫立像",
+        "inscription": "なし",
+        "material": "木造",
+        "statue_height": 25.5
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48236022850972,
-          36.221449110333104
+          139.48234897636848,
+          36.22143827729187
         ]
       }
     },
@@ -41588,14 +41613,14 @@
       "properties": {
         "fid": 546,
         "area_no": "140",
-        "name": "下三林釈迦如来",
+        "name": "下三林釈迦堂釈迦如来",
         "type": "如来像",
         "era": "不明",
         "year": "",
         "place_1": "下三林町",
         "place_2": "",
         "detail": "釈迦堂",
-        "note_1": "木造",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -41604,13 +41629,19 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "丸彫座像"
+        "height": 78,
+        "width": 24,
+        "depth": 21,
+        "shape": "丸彫座像",
+        "inscription": "なし",
+        "material": "木造",
+        "statue_height": 30
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50404545550498,
-          36.222298185319715
+          139.50403617496357,
+          36.222351147274985
         ]
       }
     },
@@ -41619,14 +41650,14 @@
       "properties": {
         "fid": 548,
         "area_no": "141",
-        "name": "下三林薬師如来",
+        "name": "下三林釈迦堂薬師如来",
         "type": "如来像",
         "era": "不明",
         "year": "",
         "place_1": "下三林町",
         "place_2": "",
         "detail": "釈迦堂",
-        "note_1": "木造",
+        "note_1": "厨子入り",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -41635,13 +41666,19 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "丸彫座像"
+        "height": 73.5,
+        "width": 18.5,
+        "depth": 14.5,
+        "shape": "丸彫座像",
+        "inscription": "なし",
+        "material": "木造",
+        "statue_height": 23
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50412091873062,
-          36.22252752143886
+          139.5040399147801,
+          36.22237269742911
         ]
       }
     },
@@ -43132,7 +43169,7 @@
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺",
-        "note_1": "木造",
+        "note_1": "厨子入り",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -43141,7 +43178,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "丸彫立像"
+        "height": 63,
+        "width": 18,
+        "depth": 10,
+        "shape": "丸彫立像",
+        "inscription": "なし",
+        "material": "木造",
+        "statue_height": 35
       },
       "geometry": {
         "type": "Point",
@@ -43156,29 +43199,36 @@
       "properties": {
         "fid": 559,
         "area_no": "190",
-        "name": "常念地蔵尊",
+        "name": "龍福寺常念地蔵尊",
         "type": "地蔵菩薩像",
         "era": "享保5年",
         "year": "1720",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺",
-        "note_1": "丸彫",
+        "note_1": "参道右側",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "立像"
+        "confirmed": true,
+        "height": 192,
+        "width": 39,
+        "depth": 25,
+        "shape": "丸彫 立像",
+        "inscription": "(台)享保五庚子歳\n 十一月二十四\n(表) 願主\n 常念\n(右)地蔵菩薩\n[ム又]大慈悲\n若聞名号\n不堕黒闇",
+        "material": "石造",
+        "statue_height": 116,
+        "primary_image": 358
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4703678593489,
-          36.218695632447314
+          139.47023891476763,
+          36.21856124483336
         ]
       }
     },
@@ -43187,29 +43237,36 @@
       "properties": {
         "fid": 560,
         "area_no": "191",
-        "name": "正盛地蔵尊",
+        "name": "龍福寺正盛地蔵尊",
         "type": "地蔵菩薩像",
         "era": "延享5年",
         "year": "1748",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺",
-        "note_1": "丸彫",
+        "note_1": "参道左側",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "立像"
+        "confirmed": true,
+        "height": 249,
+        "width": 38.5,
+        "depth": 32,
+        "shape": "丸彫 立像",
+        "inscription": "(台表)奉造立者地蔵大菩薩壱軀\n意趣者桜香院蓮室光曄\n大姉為佛果増進也蓋於\n當寺毎年冬十一月七日\n四箇法事可有修行予為\n子孫者必以不可惣之也\n(左)四箇法事者讃唄呂律\n衆四重回檀耳底演五智\n三密奥義同茲聖霊弥智\n光圓理研倍到証大菩薩\n旹延享五戊辰初夏欽記\n  施主 松沢氏正盛\n(右)地蔵菩薩以大慈悲\n若聞名号不堕黒闇",
+        "material": "石造",
+        "statue_height": 117,
+        "primary_image": 360
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4703281200883,
-          36.218739823722714
+          139.47018121473442,
+          36.21857331350511
         ]
       }
     },
@@ -43225,15 +43282,19 @@
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺",
-        "note_1": "舟型背面、浮彫",
+        "note_1": "6体東向きに並んでいる\n向って右より\n(1)高98 幅51\n(2)高100 幅52\n(3)高86 幅51 上部欠\n(4)高97 幅51\n(5)高74 幅41 上部欠損\n(6)高100 幅52",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false
+        "confirmed": true,
+        "shape": "舟型背面 浮彫立像",
+        "inscription": "(表)(向かって1に)\n奉建立近邨當村善男善女為志也\n(向かって3に)\n化二乙巳年九月吉日\n(台)野辺村\n 念佛講中\n  岡村いの 峰岸いせ 松沢ひな\n  恩田との 津久井さよ\n  松沢いせ 松沢たか 世 恩田三左ェ門\n  谷沢をん 車崎ちい 話 松沢滝造\n  松沢みよ 峰岸とそ 人 峰岸勇右ェ門\n  荻原とり 峰岸寿て\n  杉山ゑい 渡辺りよ\n  庄田むつ 金子つる",
+        "material": "石造",
+        "primary_image": 362
       },
       "geometry": {
         "type": "Point",
@@ -43444,14 +43505,14 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 349,
         "height": 127.5,
         "width": 44.5,
         "depth": 44.4,
         "shape": "柱型",
         "inscription": "(表)(最上段横書き)遷岡上\n馬頭観世音\n 新田源俊純拝書\n(右)安政六年竜集乙未二月穀日\n(台)野辺村(横書き)中持馬\n板倉村 鈴木堪次\n日向村 中島孫惣\n赤土村 駒宮金助\n赤生田村 原 善座ェ門\n林 関口文右ェ門\n同 松沢□長蔵\n青柳村 武井甚五郎\n大輪村 嶋田堪蔵\n赤堀村 矢嶋六兵衛\n下三林村 萩原周蔵\n同 同 藤助\n堀工村 菅沼七右ェ門\n同 藤倉平右ェ門\n同 中村新左ェ門\n同 須永甚助\n羽附村 栗原栄吉\n\n上三林村  木崎村\n狸塚村  萱野村\n赤堀村 鍋谷村\n下三林村  荒井伴右ェ門\n堀工村 当所\n大輪村  星野重右ェ門\n下中森村 同\n上中森村  車崎せき\n瀬戸井村\n鍋谷村 石塚村\n   島田惣七",
         "material": "石造",
-        "statue_height": 91,
-        "primary_image": 349
+        "statue_height": 91
       },
       "geometry": {
         "type": "Point",
@@ -43482,13 +43543,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 351,
         "height": 56.5,
         "width": 35,
         "depth": 10,
         "shape": "碑型",
         "inscription": "(表)頭観世音\n(裏) 功徳主 峰岸宇兵衛 建之\n明治三十三年十月",
-        "material": "石造",
-        "primary_image": 351
+        "material": "石造"
       },
       "geometry": {
         "type": "Point",
@@ -43519,14 +43580,14 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 352,
         "height": 181,
         "width": 46,
         "depth": 38,
         "shape": "柱型 像あり",
         "inscription": "(表)明和五戊子年\n念仏供養塔\n十月吉日\n(台)野辺村\n施主\n講中",
         "material": "石造",
-        "statue_height": 92,
-        "primary_image": 352
+        "statue_height": 92
       },
       "geometry": {
         "type": "Point",
@@ -43677,13 +43738,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 354,
         "height": 124,
         "width": 31,
         "depth": 25,
         "shape": "柱型",
         "inscription": "(表)  天下泰平\n(梵字)奉納大乗妙典六拾六部供羪塔\n  国土安穏\n(左)東上野国邑楽郡野辺村住\n(右)享保十乙巳歳十一月吉日\n  願主\n  蓮室浄観\n  施主\n  天桂智光",
-        "statue_height": 82,
-        "primary_image": 354
+        "statue_height": 82
       },
       "geometry": {
         "type": "Point",
@@ -43714,14 +43775,14 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 356,
         "height": 81,
         "width": 24,
         "depth": 17,
         "shape": "柱型",
         "inscription": "(表)  天下泰平\n(梵字)奉納大乗妙典六拾六部供養\n  国土安穏\n(左)上州邑楽郡野辺村\n  願主 現誉常休\n  施主 斉藤平右ェ門\n(右)  狸塚村\n  上三林村\n明和五丁子十一月吉日 萱野村\n  木崎村\n  鍋谷村",
         "material": "石造",
-        "statue_height": 65,
-        "primary_image": 356
+        "statue_height": 65
       },
       "geometry": {
         "type": "Point",
