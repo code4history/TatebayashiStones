@@ -5460,6 +5460,36 @@
         "small_thumbnail": "./small_thumbs/564/PXL_20210620_072821898.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 571,
+        "path": "./images/571/PXL_20210620_065617147.jpg",
+        "shootingDate": "2021-06-20T15:56:17",
+        "shooter": "Shooter not reported - must update",
+        "description": "野辺龍福寺舟型馬頭尊",
+        "note": "",
+        "fid": 365,
+        "mid_thumbnail": "./mid_thumbs/571/PXL_20210620_065617147.jpg",
+        "small_thumbnail": "./small_thumbs/571/PXL_20210620_065617147.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 582,
+        "path": "./images/582/PXL_20210620_045034644.PORTRAIT.jpg",
+        "shootingDate": "2021-06-20T13:50:34",
+        "shooter": "Shooter not reported - must update",
+        "description": "雷光寺安政道標馬頭尊",
+        "note": "",
+        "fid": 366,
+        "mid_thumbnail": "./mid_thumbs/582/PXL_20210620_045034644.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/582/PXL_20210620_045034644.PORTRAIT.jpg"
+      },
+      "geometry": null
     }
   ]
 }

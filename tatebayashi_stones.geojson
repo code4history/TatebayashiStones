@@ -65908,14 +65908,14 @@
       "properties": {
         "fid": 578,
         "area_no": "14",
-        "name": "弘化荒川馬頭尊",
+        "name": "上三林弘化荒川馬頭尊",
         "type": "馬頭観世音",
         "era": "弘化3年",
         "year": "1846",
         "place_1": "上三林町",
-        "place_2": "",
+        "place_2": "新田畑中",
         "detail": "荒川家別墓地",
-        "note_1": "柱型像",
+        "note_1": "西向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -65924,6 +65924,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 58,
+        "width": 25.5,
+        "depth": 18,
+        "shape": "柱型 像浮彫 台石なし",
+        "inscription": "(表)弘化三丙午年十一月吉日\n  荒川氏",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -65932,27 +65938,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "87",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48482171631974,
-          36.21897066947161
+          139.489430823436,
+          36.21693817395726
         ]
       }
     },
@@ -66120,14 +66121,14 @@
       "properties": {
         "fid": 579,
         "area_no": "18",
-        "name": "紺屋馬頭尊",
+        "name": "本郷紺屋馬頭尊",
         "type": "馬頭観世音",
         "era": "嘉永3年",
         "year": "1850",
         "place_1": "上三林町",
-        "place_2": "",
+        "place_2": "本郷",
         "detail": "岩瀬 藤吉",
-        "note_1": "厚碑型、文字",
+        "note_1": "南向き 中断",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -66136,6 +66137,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 49,
+        "width": 21.5,
+        "depth": 12.5,
+        "shape": "厚碑型文字 台石なし",
+        "inscription": "(表)  嘉永三庚戌年正月吉日\n馬頭観世音\n  紺屋 七郎兵衛",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -66144,27 +66151,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "88",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48481206074925,
-          36.219145142661745
+          139.49117264459824,
+          36.22031508676675
         ]
       }
     },
@@ -66549,9 +66551,9 @@
         "era": "正徳6年",
         "year": "1716",
         "place_1": "上三林町",
-        "place_2": "",
-        "detail": "小曽根",
-        "note_1": "丸彫",
+        "place_2": "小曽根",
+        "detail": "荒川日出雄",
+        "note_1": "頭部は欠損したらしく、現在は石質の異なったものとなっている 台石の中段柱型のところが、前後が逆になっている",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -66560,7 +66562,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 112,
+        "width": 22,
+        "depth": 19,
+        "shape": "丸彫 立像",
+        "inscription": "(台表)周防國大市村\n  森三右ェ門\n 正徳六丙申天三月四日\n(梵)奉納大乗妙典六十六部所\n 國々並宿々供養 施主\n  荒川角右ェ門\n  同名 治兵衛",
+        "material": "石造",
+        "statue_height": 61,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -66569,26 +66577,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "80",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.484692615564,
-          36.21916702387475
+          139.4884012023053,
+          36.22119895963786
         ]
       }
     },
@@ -66809,14 +66812,14 @@
       "properties": {
         "fid": 587,
         "area_no": "31",
-        "name": "朝鮮事件馬頭尊",
+        "name": "上三林朝鮮事件馬頭尊",
         "type": "馬頭観世音",
         "era": "明治27年",
         "year": "1894",
         "place_1": "上三林町",
-        "place_2": "",
-        "detail": "川島 陞",
-        "note_1": "碑型、文字",
+        "place_2": "小曽根",
+        "detail": "川島陞",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -66825,6 +66828,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 70.5,
+        "width": 27,
+        "depth": 10,
+        "shape": "自然石 碑型 文字",
+        "inscription": "(表)馬頭観世音\n(裏) 維時二十有七年朝鮮事件ニ付徴馬川島市郎ヲ以テ旧八月一日朝出立ス翌日古河町ニ於テ合格相成三日二時頃発大宮駅一泊青山練兵所迄送ル\n  同年旧九月日 川島林太郎 立之",
+        "material": "石造",
+        "statue_height": 62.5,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -66833,27 +66843,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "89",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48477302183028,
-          36.21908080690178
+          139.49160447701723,
+          36.21629843036082
         ]
       }
     },
@@ -66968,14 +66972,14 @@
       "properties": {
         "fid": 586,
         "area_no": "34",
-        "name": "恒三郎馬頭尊",
+        "name": "上三林恒三郎馬頭尊",
         "type": "馬頭観世音",
         "era": "明治17年",
         "year": "1884",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "島野 嘉一",
-        "note_1": "柱型、文字",
+        "detail": "島野嘉一",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -66984,6 +66988,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 66.5,
+        "width": 24,
+        "depth": 16,
+        "shape": "柱型 文字",
+        "inscription": "(表)馬頭観世音\n(左)   島野常三郎 立之\n(右) 明治十七年申二月二日",
+        "material": "石造",
+        "statue_height": 49,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -66992,27 +67003,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "89",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4847985816577,
-          36.21920214105148
+          139.49461243546787,
+          36.21970150584346
         ]
       }
     },
@@ -67213,14 +67218,14 @@
       "properties": {
         "fid": 557,
         "area_no": "38",
-        "name": "十九夜念佛地蔵尊",
-        "type": "地蔵菩薩像,月待塔",
+        "name": "十九夜堂念仏地蔵尊",
+        "type": "地蔵菩薩像",
         "era": "享保3年",
         "year": "1718",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "十九夜堂",
-        "note_1": "丸彫",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -67229,7 +67234,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 138,
+        "width": 30,
+        "depth": 22,
+        "shape": "丸彫 立像",
+        "inscription": "(表)奉造地蔵大菩薩念佛供養\n(台)享保戊戌天\n當所願主講中\n 十月吉日",
+        "material": "石造",
+        "statue_height": 88.5,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -67238,26 +67249,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "80",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48462198357038,
-          36.21904322509656
+          139.49513981822122,
+          36.219005952606636
         ]
       }
     },
@@ -67425,14 +67431,14 @@
       "properties": {
         "fid": 580,
         "area_no": "42",
-        "name": "嘉永道標馬頭尊",
+        "name": "十九夜堂嘉永道標馬頭尊",
         "type": "道標,馬頭観世音",
         "era": "嘉永7年",
         "year": "1854",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "十九夜堂前",
-        "note_1": "柱型、文字（兼道標）",
+        "note_1": "兼道標 北向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -67441,6 +67447,13 @@
         "photo": "",
         "public_relations": "2015/09",
         "confirmed": false,
+        "height": 75.5,
+        "width": 25.5,
+        "depth": 19,
+        "shape": "柱型文字",
+        "inscription": "(表)  あかい己 一り半\n 向 右\n  くまか以 四り\n馬頭観世音\n  たてばやし 一り半\n 向 左\n  さの 三り\n(左)  願主\n   嶋野五郎兵衛\n(右) 嘉永七甲寅年\n   閏七月朔日",
+        "material": "石造",
+        "statue_height": 58.5,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -67457,6 +67470,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "87",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
@@ -67471,21 +67485,14 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4846840880174,
-          36.21903034884167
+          139.4951605943838,
+          36.219007756416985
         ]
       }
     },
@@ -67537,8 +67544,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48460970538912,
-          36.219059537466165
+          139.48471331284176,
+          36.21915682136114
         ]
       }
     },
@@ -67662,8 +67669,8 @@
         "place_1": "上三林町",
         "place_2": "",
         "detail": "真観寺",
-        "note_1": "丸彫",
-        "note_2": "",
+        "note_1": "",
+        "note_2": "明治22年に大日畑より現在地に移した",
         "note_3": "",
         "area": "三野谷",
         "surveyed": "",
@@ -67671,7 +67678,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 198,
+        "width": 36,
+        "depth": 28,
+        "shape": "丸彫 立像",
+        "inscription": "(台表)奉造立地蔵尊\n當墓所檀衆為菩薩也\n(左)正徳三癸巳天三月吉日\n(右)上州邑楽郡上三林村",
+        "material": "石造",
+        "statue_height": 112,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -67680,26 +67693,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "79",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.486654861441,
-          36.21861914416474
+          139.4866985170661,
+          36.218563292197445
         ]
       }
     },
@@ -67708,14 +67716,14 @@
       "properties": {
         "fid": 558,
         "area_no": "47",
-        "name": "享保念佛地蔵尊",
+        "name": "真観寺享保念仏地蔵尊",
         "type": "地蔵菩薩像",
         "era": "享保3年",
         "year": "1718",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "真観寺",
-        "note_1": "丸彫",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -67724,7 +67732,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 201,
+        "width": 36,
+        "depth": 24,
+        "shape": "丸彫 立像",
+        "inscription": "(台表) 念佛\n奉造立地蔵菩薩\n 供養\n(左)上三林村講中\n  敬白\n(右)享保三歳\n 戌十月 日",
+        "material": "石造",
+        "statue_height": 117,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -67733,26 +67747,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "80",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48655940878652,
-          36.21879012574142
+          139.48665257074316,
+          36.21858527441898
         ]
       }
     },
@@ -67767,8 +67776,8 @@
         "year": "",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "真観寺",
-        "note_1": "舟型背面、浮彫",
+        "detail": "真観寺入口",
+        "note_1": "六基共同し法量",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -67777,6 +67786,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 81,
+        "width": 26.5,
+        "depth": 18,
+        "shape": "舟型背面 浮彫 立像",
+        "inscription": "不明",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -67785,27 +67800,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "81",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48466767310256,
-          36.219142830876635
+          139.48684169862977,
+          36.218626437189805
         ]
       }
     },
@@ -68185,14 +68195,14 @@
       "properties": {
         "fid": 570,
         "area_no": "56",
-        "name": "明和舟型馬頭尊",
+        "name": "真観寺明和舟型馬頭尊",
         "type": "馬頭観世音",
         "era": "明和3年",
         "year": "1766",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "真観寺前",
-        "note_1": "舟型背面像",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -68201,6 +68211,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 67,
+        "width": 32,
+        "depth": 17,
+        "shape": "舟型背面 像浮彫 台石なし",
+        "inscription": "(表)施主本願 江森武兵衛 同 八左衛門\n  同 孫左衛門 同 清三郎\n  川島藤左衛門 同 長兵衛\n   明和三戌十一月三日",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -68209,27 +68225,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "86",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48678359452296,
-          36.21866871263269
+          139.4868262533525,
+          36.21860633772977
         ]
       }
     },
@@ -68238,14 +68249,14 @@
       "properties": {
         "fid": 574,
         "area_no": "57",
-        "name": "江森馬頭尊",
+        "name": "真観寺江森馬頭尊",
         "type": "馬頭観世音",
         "era": "寛政3年",
         "year": "1791",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "真観寺前",
-        "note_1": "舟型背面像",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -68254,6 +68265,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 52.5,
+        "width": 23.5,
+        "depth": 14,
+        "shape": "舟型背面 像浮彫",
+        "inscription": "(表)[寛][政]三辛亥十一月□日\n  江森 武□□\n    治左衛門",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -68262,27 +68279,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "86",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48645298456245,
-          36.21878319206957
+          139.48680879904813,
+          36.21858078226102
         ]
       }
     },
@@ -68291,14 +68303,14 @@
       "properties": {
         "fid": 576,
         "area_no": "58",
-        "name": "久右ェ門馬頭尊",
+        "name": "真観寺久右ェ門馬頭尊",
         "type": "馬頭観世音",
         "era": "天保2年",
         "year": "1831",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "真観寺前",
-        "note_1": "舟型背面像",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -68307,6 +68319,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 48,
+        "width": 24,
+        "depth": 15,
+        "shape": "舟型背面 像浮彫",
+        "inscription": "(表)天保二卯年十二月十五日\n上劦邑楽郡上三林村\n  川嶋久右ェ門",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -68315,27 +68333,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "87",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48674117112097,
-          36.21858845890695
+          139.48678681955377,
+          36.21855366216261
         ]
       }
     },
@@ -68344,14 +68357,14 @@
       "properties": {
         "fid": 585,
         "area_no": "59",
-        "name": "明治文字馬頭尊",
+        "name": "真観寺明治文字馬頭尊",
         "type": "馬頭観世音",
         "era": "明治12年",
         "year": "1879",
         "place_1": "上三林町",
         "place_2": "",
         "detail": "真観寺前",
-        "note_1": "柱型、文字",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -68360,6 +68373,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 59,
+        "width": 24,
+        "depth": 14,
+        "shape": "柱型 文字 台石なし",
+        "inscription": "(表)  明治十二卯年\n馬頭観世音\n  十一月十四日\n(左)   施主 川島丈吉\n    島埜弥左ェ門",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -68368,27 +68387,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "88",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48672215373387,
-          36.21881505745004
+          139.48676769534333,
+          36.21852126823254
         ]
       }
     },
@@ -69140,14 +69154,14 @@
       "properties": {
         "fid": 567,
         "area_no": "74",
-        "name": "寛保四疋馬頭尊",
+        "name": "本郷寛保四疋馬頭尊",
         "type": "馬頭観世音",
         "era": "寛保2年",
         "year": "1742",
         "place_1": "上三林町",
-        "place_2": "",
-        "detail": "本郷沼際",
-        "note_1": "舟型背面像",
+        "place_2": "本郷",
+        "detail": "近藤沼際",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -69156,6 +69170,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 46,
+        "width": 21.5,
+        "depth": 8.5,
+        "shape": "厚碑型 文字 台石なし",
+        "inscription": "(表)   □□衛門\n  寛保二壬戌天 次兵衛\n   兵右ェ門\n (梵字)連寂馬四疋開墳県甲草門 点\n   小三郎\n   源右ェ門",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -69164,27 +69184,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "85",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48461827678494,
-          36.219057404348305
+          139.49645504964172,
+          36.22537902495094
         ]
       }
     },
@@ -69876,26 +69891,44 @@
       "properties": {
         "fid": 582,
         "area_no": "87",
-        "name": "安政道標馬頭尊",
+        "name": "雷光寺安政道標馬頭尊",
         "type": "道標,馬頭観世音",
         "era": "安政5年",
         "year": "1858",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "雷光寺境内",
-        "note_1": "柱型、文字（兼道標）",
-        "note_2": "",
+        "detail": "雷光寺山門脇",
+        "note_1": "兼道標 南向き",
+        "note_2": "移動されたもの",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "@",
         "photo": "",
         "public_relations": "2015/03",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 81,
+        "width": 30.2,
+        "depth": 21.4,
+        "shape": "柱型 文字",
+        "inscription": "(表)  安政五年八月 立\n馬頭観世音\n  南 あ可い己かし\n(左)  左 やぎ\n(右)  右 たてばやし",
+        "material": "石造",
+        "statue_height": 61,
+        "primary_image": 366,
+        "path": "./images/582/PXL_20210620_045034644.PORTRAIT.jpg",
+        "mid_thumbnail": "./mid_thumbs/582/PXL_20210620_045034644.PORTRAIT.jpg",
+        "small_thumbnail": "./small_thumbs/582/PXL_20210620_045034644.PORTRAIT.jpg",
+        "images": [
+          {
+            "path": "./images/582/PXL_20210620_045034644.PORTRAIT.jpg",
+            "shootingDate": "2021-06-20T13:50:34",
+            "shooter": "Shooter not reported - must update",
+            "description": "雷光寺安政道標馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/582/PXL_20210620_045034644.PORTRAIT.jpg",
+            "small_thumbnail": "./small_thumbs/582/PXL_20210620_045034644.PORTRAIT.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -69908,6 +69941,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "88",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
@@ -69922,21 +69956,14 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.48225116637568,
-          36.221174673838085
+          139.48228646431377,
+          36.22115891565402
         ]
       }
     },
@@ -69951,8 +69978,8 @@
         "year": "1863",
         "place_1": "上三林町",
         "place_2": "",
-        "detail": "雷光寺境内",
-        "note_1": "駒型、文字（下半欠）",
+        "detail": "雷光寺山門脇",
+        "note_1": "下半欠",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -69961,6 +69988,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 45,
+        "width": 31,
+        "depth": 9,
+        "shape": "駒型 文字",
+        "inscription": "(表)  文久三亥二月十七\n馬頭観世音\n   荒川氏",
+        "material": "石造",
+        "contradiction": "雷光寺にはなかった。荒川氏の馬頭尊なので、いぼ地蔵の辺りの間違いではないか？",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -69969,21 +70003,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "88",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
@@ -72563,14 +72591,14 @@
       "properties": {
         "fid": 553,
         "area_no": "133",
-        "name": "小堀地蔵尊",
+        "name": "下耕地小堀地蔵尊",
         "type": "地蔵菩薩像",
         "era": "元禄14年",
         "year": "1701",
         "place_1": "下三林町",
         "place_2": "",
         "detail": "下耕地墓地",
-        "note_1": "丸彫",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -72579,7 +72607,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 165,
+        "width": 28,
+        "depth": 22,
+        "shape": "丸彫 立像",
+        "inscription": "(台)道 忠\n妙 夏\n宗 栄\n妙 光\n道 夏\n 邑楽郡館林下三林村\n  施主\n   小堀兵左衛門\n元禄十四辛巳天\n   三月六日",
+        "material": "石造",
+        "statue_height": 94,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -72588,26 +72622,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "81",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50219267814927,
-          36.2213330297957
+          139.5022566899103,
+          36.221681042268294
         ]
       }
     },
@@ -73572,14 +73601,14 @@
       "properties": {
         "fid": 561,
         "area_no": "152",
-        "name": "廻向佛地蔵尊",
+        "name": "下三林釈迦堂廻向仏地蔵尊",
         "type": "地蔵菩薩像",
         "era": "宝永7年",
         "year": "1778",
         "place_1": "下三林町",
         "place_2": "",
         "detail": "釈迦堂墓地",
-        "note_1": "丸彫",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -73588,7 +73617,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 287,
+        "width": 44,
+        "depth": 32,
+        "shape": "丸彫 立像",
+        "inscription": "(台)當村惣旦那\n  為菩提也\n隣帰合銭[場]\n  願主 生[倍]\n館林領下三林村\n   西 谷\n万日廻向佛常念\n 宝永七庚寅天二月吉祥□\n 猶収□無辺十万念□",
+        "material": "石造",
+        "statue_height": 151,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -73597,26 +73632,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "82",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50415615954134,
-          36.222449974909864
+          139.50413888636413,
+          36.22235513405377
         ]
       }
     },
@@ -75240,16 +75270,16 @@
     {
       "type": "Feature",
       "properties": {
-        "fid": 700,
-        "area_no": "182",
-        "name": "野辺馬頭尊道標",
+        "fid": 577,
+        "area_no": "183",
+        "name": "野辺天保道標馬頭尊",
         "type": "道標,馬頭観世音",
         "era": "天保11年",
         "year": "1840",
         "place_1": "野辺町",
         "place_2": "",
-        "detail": "松林堂入口",
-        "note_1": "柱型",
+        "detail": "松林堂前",
+        "note_1": "兼道標 南向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
@@ -75258,6 +75288,12 @@
         "photo": "",
         "public_relations": "2013/09",
         "confirmed": false,
+        "height": 67,
+        "width": 23,
+        "depth": 17,
+        "shape": "柱型文字",
+        "inscription": "(表)武劦上岡写\n馬頭観世音\n天保十一庚子年正月 栗原傳八 立\n(左)此方 赤岩かし道\n(右)此方 小泉 太田\n  八木 足利 道",
+        "material": "石造",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -75274,96 +75310,30 @@
           {
             "description": "",
             "note": "",
-            "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
-            "editor": "館林地方史研究会編",
-            "publishedAt": 1976
-          },
-          {
-            "description": "",
-            "note": "",
             "pages": "776",
             "name": "館林市誌 歴史編",
             "editor": "館林市誌編集委員会編",
             "publishedAt": 1969
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.46630879369192,
-          36.21952636084183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 577,
-        "area_no": "183",
-        "name": "天保道標馬頭尊",
-        "type": "道標,馬頭観世音",
-        "era": "天保11年",
-        "year": "1840",
-        "place_1": "野辺町",
-        "place_2": "",
-        "detail": "松林堂前",
-        "note_1": "柱型文字（兼道標）",
-        "note_2": "",
-        "note_3": "",
-        "area": "三野谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
-            "editor": "館林地方史研究会編",
-            "publishedAt": 1976
           },
           {
             "description": "",
             "note": "",
-            "pages": "776",
-            "name": "館林市誌 歴史編",
-            "editor": "館林市誌編集委員会編",
-            "publishedAt": 1969
+            "pages": "84,128",
+            "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
+            "editor": "館林地方史研究会編",
+            "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.46950409201025,
-          36.21737215984146
+          139.46633777298192,
+          36.21948397104414
         ]
       }
     },
@@ -75761,6 +75731,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 358,
         "height": 192,
         "width": 39,
         "depth": 25,
@@ -75768,7 +75739,6 @@
         "inscription": "(台)享保五庚子歳\n 十一月二十四\n(表) 願主\n 常念\n(右)地蔵菩薩\n[ム又]大慈悲\n若聞名号\n不堕黒闇",
         "material": "石造",
         "statue_height": 116,
-        "primary_image": 358,
         "path": "./images/559/PXL_20210620_065124725.jpg",
         "mid_thumbnail": "./mid_thumbs/559/PXL_20210620_065124725.jpg",
         "small_thumbnail": "./small_thumbs/559/PXL_20210620_065124725.jpg",
@@ -75835,6 +75805,7 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 360,
         "height": 249,
         "width": 38.5,
         "depth": 32,
@@ -75842,7 +75813,6 @@
         "inscription": "(台表)奉造立者地蔵大菩薩壱軀\n意趣者桜香院蓮室光曄\n大姉為佛果増進也蓋於\n當寺毎年冬十一月七日\n四箇法事可有修行予為\n子孫者必以不可惣之也\n(左)四箇法事者讃唄呂律\n衆四重回檀耳底演五智\n三密奥義同茲聖霊弥智\n光圓理研倍到証大菩薩\n旹延享五戊辰初夏欽記\n  施主 松沢氏正盛\n(右)地蔵菩薩以大慈悲\n若聞名号不堕黒闇",
         "material": "石造",
         "statue_height": 117,
-        "primary_image": 360,
         "path": "./images/560/PXL_20210620_065139408.MP.jpg",
         "mid_thumbnail": "./mid_thumbs/560/PXL_20210620_065139408.MP.jpg",
         "small_thumbnail": "./small_thumbs/560/PXL_20210620_065139408.MP.jpg",
@@ -75909,10 +75879,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 362,
         "shape": "舟型背面 浮彫立像",
         "inscription": "(表)(向かって1に)\n奉建立近邨當村善男善女為志也\n(向かって3に)\n化二乙巳年九月吉日\n(台)野辺村\n 念佛講中\n  岡村いの 峰岸いせ 松沢ひな\n  恩田との 津久井さよ\n  松沢いせ 松沢たか 世 恩田三左ェ門\n  谷沢をん 車崎ちい 話 松沢滝造\n  松沢みよ 峰岸とそ 人 峰岸勇右ェ門\n  荻原とり 峰岸寿て\n  杉山ゑい 渡辺りよ\n  庄田むつ 金子つる",
         "material": "石造",
-        "primary_image": 362,
         "path": "./images/564/PXL_20210620_072806522.jpg",
         "mid_thumbnail": "./mid_thumbs/564/PXL_20210620_072806522.jpg",
         "small_thumbnail": "./small_thumbs/564/PXL_20210620_072806522.jpg",
@@ -76241,51 +76211,63 @@
       "properties": {
         "fid": 571,
         "area_no": "198",
-        "name": "野辺舟型馬頭尊",
+        "name": "野辺龍福寺舟型馬頭尊",
         "type": "馬頭観世音",
         "era": "明和5年",
         "year": "1768",
         "place_1": "野辺町",
         "place_2": "",
         "detail": "龍福寺境内",
-        "note_1": "舟型背面像",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/06/20",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 113.5,
+        "width": 39,
+        "shape": "舟型背面 像浮彫",
+        "inscription": "(表)明和五戊子天\n十二月吉日\n(台)  願主\n  某甲\n  野辺村中",
+        "material": "石造",
+        "statue_height": 75,
+        "primary_image": 365,
+        "path": "./images/571/PXL_20210620_065617147.jpg",
+        "mid_thumbnail": "./mid_thumbs/571/PXL_20210620_065617147.jpg",
+        "small_thumbnail": "./small_thumbs/571/PXL_20210620_065617147.jpg",
+        "images": [
+          {
+            "path": "./images/571/PXL_20210620_065617147.jpg",
+            "shootingDate": "2021-06-20T15:56:17",
+            "shooter": "Shooter not reported - must update",
+            "description": "野辺龍福寺舟型馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/571/PXL_20210620_065617147.jpg",
+            "small_thumbnail": "./small_thumbs/571/PXL_20210620_065617147.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "84",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": 1976
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.47039256213256,
-          36.21882647320986
+          139.47018930306913,
+          36.21879804903969
         ]
       }
     },
@@ -101438,7 +101420,7 @@
     {
       "type": "Feature",
       "properties": {
-        "fid": null,
+        "fid": 1824,
         "area_no": null,
         "name": "なにかある",
         "type": "不明",
@@ -101479,6 +101461,109 @@
         "coordinates": [
           139.4819580211884,
           36.22478144007966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1825,
+        "area_no": null,
+        "name": "下三林釈迦堂千手十一面観音",
+        "type": "菩薩像",
+        "era": "不明",
+        "year": "",
+        "place_1": "下三林町",
+        "place_2": null,
+        "detail": "釈迦堂",
+        "note_1": null,
+        "note_2": null,
+        "note_3": null,
+        "area": "三野谷",
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": false,
+        "primary_image": null,
+        "height": 117,
+        "width": 33,
+        "depth": 16.5,
+        "shape": "丸彫 立像",
+        "inscription": "なし",
+        "material": "木造",
+        "statue_height": 59,
+        "color": null,
+        "contradiction": "",
+        "need_action": "",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": [
+          {
+            "description": null,
+            "note": null,
+            "pages": "76",
+            "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
+            "editor": "館林地方史研究会編",
+            "publishedAt": 1976
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.50403363722978,
+          36.22233078237377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1826,
+        "area_no": null,
+        "name": "なにかある 地蔵?",
+        "type": "不明",
+        "era": null,
+        "year": "",
+        "place_1": null,
+        "place_2": null,
+        "detail": null,
+        "note_1": null,
+        "note_2": null,
+        "note_3": null,
+        "area": null,
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": false,
+        "primary_image": null,
+        "height": null,
+        "width": null,
+        "depth": null,
+        "shape": "",
+        "inscription": "",
+        "material": "",
+        "statue_height": null,
+        "color": null,
+        "contradiction": "",
+        "need_action": "要調査",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4883269402256,
+          36.22092526813205
         ]
       }
     }
