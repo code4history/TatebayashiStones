@@ -5490,6 +5490,381 @@
         "small_thumbnail": "./small_thumbs/582/PXL_20210620_045034644.PORTRAIT.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 604,
+        "path": "./images/604/PXL_20210620_061449950.jpg",
+        "shootingDate": "2021-06-20T15:14:49",
+        "shooter": "Shooter not reported - must update",
+        "description": "羽沼鞍之丞碑型馬頭尊",
+        "note": "",
+        "fid": 367,
+        "mid_thumbnail": "./mid_thumbs/604/PXL_20210620_061449950.jpg",
+        "small_thumbnail": "./small_thumbs/604/PXL_20210620_061449950.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 604,
+        "path": "./images/604/PXL_20210620_061456999.jpg",
+        "shootingDate": "2021-06-20T15:14:56",
+        "shooter": "Shooter not reported - must update",
+        "description": "羽沼鞍之丞碑型馬頭尊",
+        "note": "",
+        "fid": 368,
+        "mid_thumbnail": "./mid_thumbs/604/PXL_20210620_061456999.jpg",
+        "small_thumbnail": "./small_thumbs/604/PXL_20210620_061456999.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1827,
+        "path": "./images/1827/PXL_20210620_065532547.jpg",
+        "shootingDate": "2021-06-20T15:55:32",
+        "shooter": "Shooter not reported - must update",
+        "description": "不明",
+        "note": "",
+        "fid": 369,
+        "mid_thumbnail": "./mid_thumbs/1827/prim_PXL_20210620_065532547.jpg",
+        "small_thumbnail": "./small_thumbs/1827/prim_PXL_20210620_065532547.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1827,
+        "path": "./images/1827/PXL_20210620_065541640.jpg",
+        "shootingDate": "2021-06-20T15:55:41",
+        "shooter": "Shooter not reported - must update",
+        "description": "不明",
+        "note": "",
+        "fid": 370,
+        "mid_thumbnail": "./mid_thumbs/1827/PXL_20210620_065541640.jpg",
+        "small_thumbnail": "./small_thumbs/1827/PXL_20210620_065541640.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1827,
+        "path": "./images/1827/PXL_20210620_065552522.jpg",
+        "shootingDate": "2021-06-20T15:55:52",
+        "shooter": "Shooter not reported - must update",
+        "description": "不明",
+        "note": "",
+        "fid": 371,
+        "mid_thumbnail": "./mid_thumbs/1827/PXL_20210620_065552522.jpg",
+        "small_thumbnail": "./small_thumbs/1827/PXL_20210620_065552522.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 667,
+        "path": "./images/667/PXL_20210620_065759958.MP.jpg",
+        "shootingDate": "2021-06-20T15:57:59",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺野辺庚申",
+        "note": "",
+        "fid": 372,
+        "mid_thumbnail": "./mid_thumbs/667/PRIM_PXL_20210620_065759958.MP.jpg",
+        "small_thumbnail": "./small_thumbs/667/PRIM_PXL_20210620_065759958.MP.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 667,
+        "path": "./images/667/PXL_20210620_071510585.jpg",
+        "shootingDate": "2021-06-20T16:15:10",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺野辺庚申",
+        "note": "",
+        "fid": 373,
+        "mid_thumbnail": "./mid_thumbs/667/PXL_20210620_071510585.jpg",
+        "small_thumbnail": "./small_thumbs/667/PXL_20210620_071510585.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 673,
+        "path": "./images/673/PXL_20210620_065559365.jpg",
+        "shootingDate": "2021-06-20T15:55:59",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺萬延野辺庚申",
+        "note": "",
+        "fid": 374,
+        "mid_thumbnail": "./mid_thumbs/673/PRIM_PXL_20210620_065559365.jpg",
+        "small_thumbnail": "./small_thumbs/673/PRIM_PXL_20210620_065559365.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 673,
+        "path": "./images/673/PXL_20210620_065605236.jpg",
+        "shootingDate": "2021-06-20T15:56:05",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺萬延野辺庚申",
+        "note": "",
+        "fid": 375,
+        "mid_thumbnail": "./mid_thumbs/673/PXL_20210620_065605236.jpg",
+        "small_thumbnail": "./small_thumbs/673/PXL_20210620_065605236.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 694,
+        "path": "./images/694/PXL_20210620_065351053.jpg",
+        "shootingDate": "2021-06-20T15:53:51",
+        "shooter": "Kohei Otsuka",
+        "description": "龍福寺享保宝篋印塔",
+        "note": "",
+        "fid": 376,
+        "mid_thumbnail": "./mid_thumbs/694/PXL_20210620_065351053.jpg",
+        "small_thumbnail": "./small_thumbs/694/PXL_20210620_065351053.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 694,
+        "path": "./images/694/PXL_20210620_065400583.jpg",
+        "shootingDate": "2021-06-20T15:54:00",
+        "shooter": "Kohei Otsuka",
+        "description": "龍福寺享保宝篋印塔",
+        "note": "",
+        "fid": 377,
+        "mid_thumbnail": "./mid_thumbs/694/PXL_20210620_065400583.jpg",
+        "small_thumbnail": "./small_thumbs/694/PXL_20210620_065400583.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 694,
+        "path": "./images/694/PXL_20210620_072422916.jpg",
+        "shootingDate": "2021-06-20T16:24:22",
+        "shooter": "Kohei Otsuka",
+        "description": "龍福寺享保宝篋印塔",
+        "note": "",
+        "fid": 378,
+        "mid_thumbnail": "./mid_thumbs/694/PXL_20210620_072422916.jpg",
+        "small_thumbnail": "./small_thumbs/694/PXL_20210620_072422916.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 694,
+        "path": "./images/694/PXL_20210620_072433835.jpg",
+        "shootingDate": "2021-06-20T16:24:33",
+        "shooter": "Kohei Otsuka",
+        "description": "龍福寺享保宝篋印塔",
+        "note": "",
+        "fid": 379,
+        "mid_thumbnail": "./mid_thumbs/694/PXL_20210620_072433835.jpg",
+        "small_thumbnail": "./small_thumbs/694/PXL_20210620_072433835.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 695,
+        "path": "./images/695/PXL_20210620_065709112.jpg",
+        "shootingDate": "2021-06-20T15:57:09",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺明和宝篋印塔",
+        "note": "",
+        "fid": 380,
+        "mid_thumbnail": "./mid_thumbs/695/PXL_20210620_065709112.jpg",
+        "small_thumbnail": "./small_thumbs/695/PXL_20210620_065709112.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 695,
+        "path": "./images/695/PXL_20210620_065718748.jpg",
+        "shootingDate": "2021-06-20T15:57:18",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺明和宝篋印塔",
+        "note": "",
+        "fid": 381,
+        "mid_thumbnail": "./mid_thumbs/695/PXL_20210620_065718748.jpg",
+        "small_thumbnail": "./small_thumbs/695/PXL_20210620_065718748.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 695,
+        "path": "./images/695/PXL_20210620_065726149.jpg",
+        "shootingDate": "2021-06-20T15:57:26",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺明和宝篋印塔",
+        "note": "",
+        "fid": 382,
+        "mid_thumbnail": "./mid_thumbs/695/PXL_20210620_065726149.jpg",
+        "small_thumbnail": "./small_thumbs/695/PXL_20210620_065726149.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 695,
+        "path": "./images/695/PXL_20210620_065740700.jpg",
+        "shootingDate": "2021-06-20T15:57:40",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺明和宝篋印塔",
+        "note": "",
+        "fid": 383,
+        "mid_thumbnail": "./mid_thumbs/695/PXL_20210620_065740700.jpg",
+        "small_thumbnail": "./small_thumbs/695/PXL_20210620_065740700.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 693,
+        "path": "./images/693/PXL_20210620_072637828.jpg",
+        "shootingDate": "2021-06-20T16:26:37",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺元禄宝篋印塔",
+        "note": "",
+        "fid": 384,
+        "mid_thumbnail": "./mid_thumbs/693/PXL_20210620_072637828.jpg",
+        "small_thumbnail": "./small_thumbs/693/PXL_20210620_072637828.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 693,
+        "path": "./images/693/PXL_20210620_072631384.jpg",
+        "shootingDate": "2021-06-20T16:26:31",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺元禄宝篋印塔",
+        "note": "",
+        "fid": 385,
+        "mid_thumbnail": "./mid_thumbs/693/PXL_20210620_072631384.jpg",
+        "small_thumbnail": "./small_thumbs/693/PXL_20210620_072631384.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 690,
+        "path": "./images/690/PXL_20210620_072731161.jpg",
+        "shootingDate": "2021-06-20T16:27:31",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺延宝元宝篋印塔",
+        "note": "",
+        "fid": 386,
+        "mid_thumbnail": "./mid_thumbs/690/PXL_20210620_072731161.jpg",
+        "small_thumbnail": "./small_thumbs/690/PXL_20210620_072731161.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 690,
+        "path": "./images/690/PXL_20210620_072722068.jpg",
+        "shootingDate": "2021-06-20T16:27:22",
+        "shooter": "Shooter not reported - must update",
+        "description": "龍福寺延宝元宝篋印塔",
+        "note": "",
+        "fid": 387,
+        "mid_thumbnail": "./mid_thumbs/690/PXL_20210620_072722068.jpg",
+        "small_thumbnail": "./small_thumbs/690/PXL_20210620_072722068.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 697,
+        "path": "./images/697/PXL_20210620_053923496.jpg",
+        "shootingDate": "2021-06-20T14:39:23",
+        "shooter": "Shooter not reported - must update",
+        "description": "雷光寺明和宝篋印塔",
+        "note": "",
+        "fid": 388,
+        "mid_thumbnail": "./mid_thumbs/697/PXL_20210620_053923496.jpg",
+        "small_thumbnail": "./small_thumbs/697/PXL_20210620_053923496.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 697,
+        "path": "./images/697/PXL_20210620_053941788.jpg",
+        "shootingDate": "2021-06-20T14:39:41",
+        "shooter": "Shooter not reported - must update",
+        "description": "雷光寺明和宝篋印塔",
+        "note": "",
+        "fid": 389,
+        "mid_thumbnail": "./mid_thumbs/697/PXL_20210620_053941788.jpg",
+        "small_thumbnail": "./small_thumbs/697/PXL_20210620_053941788.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 697,
+        "path": "./images/697/PXL_20210620_053947582.jpg",
+        "shootingDate": "2021-06-20T14:39:47",
+        "shooter": "Shooter not reported - must update",
+        "description": "雷光寺明和宝篋印塔",
+        "note": "",
+        "fid": 390,
+        "mid_thumbnail": "./mid_thumbs/697/PXL_20210620_053947582.jpg",
+        "small_thumbnail": "./small_thumbs/697/PXL_20210620_053947582.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 697,
+        "path": "./images/697/PXL_20210620_053953114.jpg",
+        "shootingDate": "2021-06-20T14:39:53",
+        "shooter": "Shooter not reported - must update",
+        "description": "雷光寺明和宝篋印塔",
+        "note": "",
+        "fid": 391,
+        "mid_thumbnail": "./mid_thumbs/697/PXL_20210620_053953114.jpg",
+        "small_thumbnail": "./small_thumbs/697/PXL_20210620_053953114.jpg"
+      },
+      "geometry": null
     }
   ]
 }
