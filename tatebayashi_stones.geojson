@@ -71895,11 +71895,12 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/08/09",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
+        "primary_image": 405,
         "height": 109.5,
         "width": 31,
         "depth": 7,
@@ -71907,10 +71908,20 @@
         "material": "石造",
         "inscription": "(表)  昭和二十八年六月\n馬頭観世音\n  川島利市郎 建立",
         "statue_height": 88.5,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/622/IMG_2597.jpg",
+        "mid_thumbnail": "./mid_thumbs/622/IMG_2597.jpg",
+        "small_thumbnail": "./small_thumbs/622/IMG_2597.jpg",
+        "images": [
+          {
+            "path": "./images/622/IMG_2597.jpg",
+            "shootingDate": "2021-08-09T16:17:21",
+            "shooter": "Kohei Otsuka",
+            "description": "下耕地利市郎馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/622/IMG_2597.jpg",
+            "small_thumbnail": "./small_thumbs/622/IMG_2597.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -71928,8 +71939,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50410324327046,
-          36.22122250619779
+          139.50370620370884,
+          36.220796642205386
         ]
       }
     },
@@ -72281,21 +72292,41 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/08/09",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
         "height": 44,
         "width": 21,
         "depth": 11.5,
         "shape": "柱型 文字",
         "material": "石造",
         "inscription": "(表)馬頭観世音\n(右)  大正十五年 立之\n   小暮末吉",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "primary_image": 407,
+        "path": "./images/605/IMG_2592.jpg",
+        "mid_thumbnail": "./mid_thumbs/605/IMG_2592.jpg",
+        "small_thumbnail": "./small_thumbs/605/IMG_2592.jpg",
+        "images": [
+          {
+            "path": "./images/605/IMG_2593.jpg",
+            "shootingDate": "2021-08-09T16:13:43",
+            "shooter": "Kohei Otsuka",
+            "description": "下耕地末吉馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/605/IMG_2593.jpg",
+            "small_thumbnail": "./small_thumbs/605/IMG_2593.jpg"
+          },
+          {
+            "path": "./images/605/IMG_2592.jpg",
+            "shootingDate": "2021-08-09T16:13:39",
+            "shooter": "Kohei Otsuka",
+            "description": "下耕地末吉馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/605/IMG_2592.jpg",
+            "small_thumbnail": "./small_thumbs/605/IMG_2592.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -72314,8 +72345,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5042603155832,
-          36.220098425706425
+          139.50413412026015,
+          36.219756138825794
         ]
       }
     },
@@ -72335,21 +72366,41 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/08/09",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
         "height": 46,
         "width": 34,
         "depth": 4.5,
         "shape": "自然石 碑型 文字 台石埋没",
         "material": "石造",
         "inscription": "(表)馬頭観世音\n  第二北光号\n(裏) 昭和十八年十二月\n  小暮末吉 建",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "primary_image": 409,
+        "path": "./images/615/IMG_2590.jpg",
+        "mid_thumbnail": "./mid_thumbs/615/IMG_2590.jpg",
+        "small_thumbnail": "./small_thumbs/615/IMG_2590.jpg",
+        "images": [
+          {
+            "path": "./images/615/IMG_2593.jpg",
+            "shootingDate": "2021-08-09T16:13:43",
+            "shooter": "Kohei Otsuka",
+            "description": "下耕地北光馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/615/IMG_2593.jpg",
+            "small_thumbnail": "./small_thumbs/615/IMG_2593.jpg"
+          },
+          {
+            "path": "./images/615/IMG_2590.jpg",
+            "shootingDate": "2021-08-09T16:12:57",
+            "shooter": "Kohei Otsuka",
+            "description": "下耕地北光馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/615/IMG_2590.jpg",
+            "small_thumbnail": "./small_thumbs/615/IMG_2590.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -72368,8 +72419,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5042806174467,
-          36.22015618176948
+          139.50415960040505,
+          36.21975251124767
         ]
       }
     },
@@ -73680,11 +73731,12 @@
         "note_2": "現在でも婚礼のさい花嫁は、この前を通って嫁入りすると不縁になるといわれている。\n又「旅の神」として、とくに足の悪い人などの信仰を集めている。",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/08/09",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
+        "primary_image": 395,
         "height": 79,
         "width": 23,
         "depth": 14,
@@ -73692,10 +73744,47 @@
         "material": "石造",
         "inscription": "なし",
         "statue_height": 55,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/705/IMG_2587.jpg",
+        "mid_thumbnail": "./mid_thumbs/705/IMG_2587.jpg",
+        "small_thumbnail": "./small_thumbs/705/IMG_2587.jpg",
+        "images": [
+          {
+            "path": "./images/705/IMG_2583.jpg",
+            "shootingDate": "2021-08-09T16:05:46",
+            "shooter": "Kohei Ostuka",
+            "description": "下三林どうろくじん",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/705/IMG_2583.jpg",
+            "small_thumbnail": "./small_thumbs/705/IMG_2583.jpg"
+          },
+          {
+            "path": "./images/705/IMG_2586.jpg",
+            "shootingDate": "2021-08-09T16:06:35",
+            "shooter": "Kohei Otsuka",
+            "description": "下三林どうろくじん",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/705/IMG_2586.jpg",
+            "small_thumbnail": "./small_thumbs/705/IMG_2586.jpg"
+          },
+          {
+            "path": "./images/705/IMG_2588.jpg",
+            "shootingDate": "2021-08-09T16:07:05",
+            "shooter": "Kohei Otsuka",
+            "description": "下三林どうろくじん",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/705/IMG_2588.jpg",
+            "small_thumbnail": "./small_thumbs/705/IMG_2588.jpg"
+          },
+          {
+            "path": "./images/705/IMG_2587.jpg",
+            "shootingDate": "2021-08-09T16:06:52",
+            "shooter": "Kohei Otsuka",
+            "description": "下三林どうろくじん",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/705/IMG_2587.jpg",
+            "small_thumbnail": "./small_thumbs/705/IMG_2587.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -73713,8 +73802,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5085957320083,
-          36.218552727478745
+          139.5079923013207,
+          36.21893623446555
         ]
       }
     },
@@ -73734,11 +73823,12 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/08/09",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
+        "primary_image": 403,
         "height": 46,
         "width": 20,
         "depth": 14,
@@ -73746,10 +73836,20 @@
         "material": "石造",
         "inscription": "(表)馬頭観世音\n(左)  昭和卅一年六月\n    三田豊作 立",
         "statue_height": 36,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/624/IMG_2601.jpg",
+        "mid_thumbnail": "./mid_thumbs/624/IMG_2601.jpg",
+        "small_thumbnail": "./small_thumbs/624/IMG_2601.jpg",
+        "images": [
+          {
+            "path": "./images/624/IMG_2601.jpg",
+            "shootingDate": "2021-08-09T16:25:45",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸豊作馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/624/IMG_2601.jpg",
+            "small_thumbnail": "./small_thumbs/624/IMG_2601.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -73767,8 +73867,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5059282739506,
-          36.22256551983925
+          139.50619445227213,
+          36.222508515237415
         ]
       }
     },
@@ -73788,11 +73888,12 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/08/09",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
+        "primary_image": 404,
         "height": 47.5,
         "width": 21.5,
         "depth": 13.5,
@@ -73800,10 +73901,20 @@
         "material": "石造",
         "inscription": "(表) 昭和五年四月吉日\n妙馬観世音\n 下三林 三田松三郎",
         "statue_height": 32,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/608/IMG_2636.jpg",
+        "mid_thumbnail": "./mid_thumbs/608/IMG_2636.jpg",
+        "small_thumbnail": "./small_thumbs/608/IMG_2636.jpg",
+        "images": [
+          {
+            "path": "./images/608/IMG_2636.jpg",
+            "shootingDate": "2021-08-09T17:05:38",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸妙馬観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/608/IMG_2636.jpg",
+            "small_thumbnail": "./small_thumbs/608/IMG_2636.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -73821,8 +73932,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50453278796226,
-          36.22288446064059
+          139.50453955433068,
+          36.2228670274301
         ]
       }
     },
@@ -73842,11 +73953,12 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/08/09",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
+        "primary_image": 398,
         "height": 79,
         "width": 23,
         "depth": 14,
@@ -73854,10 +73966,38 @@
         "material": "石造",
         "inscription": "(表)  安政三丙辰年\n馬頭観世音\n  二月七日\n(左)   願主 吉田角右ェ門\n     三田幸七\n     萩原藤助\n(右)  安政三丙辰年二月吉日\n(台)          当村\n          馬持中",
         "statue_height": 52,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/581/IMG_2605.jpg",
+        "mid_thumbnail": "./mid_thumbs/581/IMG_2605.jpg",
+        "small_thumbnail": "./small_thumbs/581/IMG_2605.jpg",
+        "images": [
+          {
+            "path": "./images/581/IMG_2606.jpg",
+            "shootingDate": "2021-08-09T16:27:44",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸安政馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/581/IMG_2606.jpg",
+            "small_thumbnail": "./small_thumbs/581/IMG_2606.jpg"
+          },
+          {
+            "path": "./images/581/IMG_2609.jpg",
+            "shootingDate": "2021-08-09T16:28:25",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸安政馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/581/IMG_2609.jpg",
+            "small_thumbnail": "./small_thumbs/581/IMG_2609.jpg"
+          },
+          {
+            "path": "./images/581/IMG_2605.jpg",
+            "shootingDate": "2021-08-09T16:27:33",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸安政馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/581/IMG_2605.jpg",
+            "small_thumbnail": "./small_thumbs/581/IMG_2605.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -73875,8 +74015,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50643047794358,
-          36.222393980870514
+          139.50648897277074,
+          36.22239848249799
         ]
       }
     },
@@ -73896,11 +74036,12 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/08/09",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
+        "primary_image": 400,
         "height": 58,
         "width": 23,
         "depth": 14,
@@ -73908,10 +74049,29 @@
         "material": "石造",
         "inscription": "(表)  昭和廿七年七月\n馬頭観世音\n  施主 吉田多蔵",
         "statue_height": 44,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/621/IMG_2608.jpg",
+        "mid_thumbnail": "./mid_thumbs/621/IMG_2608.jpg",
+        "small_thumbnail": "./small_thumbs/621/IMG_2608.jpg",
+        "images": [
+          {
+            "path": "./images/621/IMG_2609.jpg",
+            "shootingDate": "2021-08-09T16:28:25",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸多蔵馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/621/IMG_2609.jpg",
+            "small_thumbnail": "./small_thumbs/621/IMG_2609.jpg"
+          },
+          {
+            "path": "./images/621/IMG_2608.jpg",
+            "shootingDate": "2021-08-09T16:28:09",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸多蔵馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/621/IMG_2608.jpg",
+            "small_thumbnail": "./small_thumbs/621/IMG_2608.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -73929,8 +74089,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50639254551422,
-          36.2223991529052
+          139.50648222802653,
+          36.22241238774283
         ]
       }
     },
@@ -73950,11 +74110,12 @@
         "note_2": "",
         "note_3": "",
         "area": "三野谷",
-        "surveyed": "",
+        "surveyed": "2021/08/09",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
+        "primary_image": 402,
         "height": 64,
         "width": 23.5,
         "depth": 18.5,
@@ -73962,10 +74123,29 @@
         "material": "石造",
         "inscription": "(表)馬頭観世音\n(左) 大正八年四月十三日\n   吉田仁平 立之\n(右) 栗毛 年令五才\n 身長 四尺八寸",
         "statue_height": 54,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/601/IMG_2615.jpg",
+        "mid_thumbnail": "./mid_thumbs/601/IMG_2615.jpg",
+        "small_thumbnail": "./small_thumbs/601/IMG_2615.jpg",
+        "images": [
+          {
+            "path": "./images/601/IMG_2616.jpg",
+            "shootingDate": "2021-08-09T16:37:16",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸仁平馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/601/IMG_2616.jpg",
+            "small_thumbnail": "./small_thumbs/601/IMG_2616.jpg"
+          },
+          {
+            "path": "./images/601/IMG_2615.jpg",
+            "shootingDate": "2021-08-09T16:37:05",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸仁平馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/601/IMG_2615.jpg",
+            "small_thumbnail": "./small_thumbs/601/IMG_2615.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -73983,8 +74163,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50673927997317,
-          36.22299824461174
+          139.5068839150169,
+          36.222396064194264
         ]
       }
     },

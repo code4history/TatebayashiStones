@@ -5865,6 +5865,276 @@
         "small_thumbnail": "./small_thumbs/697/PXL_20210620_053953114.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 705,
+        "path": "./images/705/IMG_2583.jpg",
+        "shootingDate": "2021-08-09T16:05:46",
+        "shooter": "Kohei Ostuka",
+        "description": "下三林どうろくじん",
+        "note": "",
+        "fid": 392,
+        "mid_thumbnail": "./mid_thumbs/705/IMG_2583.jpg",
+        "small_thumbnail": "./small_thumbs/705/IMG_2583.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 705,
+        "path": "./images/705/IMG_2586.jpg",
+        "shootingDate": "2021-08-09T16:06:35",
+        "shooter": "Kohei Otsuka",
+        "description": "下三林どうろくじん",
+        "note": "",
+        "fid": 393,
+        "mid_thumbnail": "./mid_thumbs/705/IMG_2586.jpg",
+        "small_thumbnail": "./small_thumbs/705/IMG_2586.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 705,
+        "path": "./images/705/IMG_2588.jpg",
+        "shootingDate": "2021-08-09T16:07:05",
+        "shooter": "Kohei Otsuka",
+        "description": "下三林どうろくじん",
+        "note": "",
+        "fid": 394,
+        "mid_thumbnail": "./mid_thumbs/705/IMG_2588.jpg",
+        "small_thumbnail": "./small_thumbs/705/IMG_2588.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 705,
+        "path": "./images/705/IMG_2587.jpg",
+        "shootingDate": "2021-08-09T16:06:52",
+        "shooter": "Kohei Otsuka",
+        "description": "下三林どうろくじん",
+        "note": "",
+        "fid": 395,
+        "mid_thumbnail": "./mid_thumbs/705/IMG_2587.jpg",
+        "small_thumbnail": "./small_thumbs/705/IMG_2587.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 581,
+        "path": "./images/581/IMG_2606.jpg",
+        "shootingDate": "2021-08-09T16:27:44",
+        "shooter": "Kohei Otsuka",
+        "description": "舟戸安政馬頭尊",
+        "note": "",
+        "fid": 396,
+        "mid_thumbnail": "./mid_thumbs/581/IMG_2606.jpg",
+        "small_thumbnail": "./small_thumbs/581/IMG_2606.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 581,
+        "path": "./images/581/IMG_2609.jpg",
+        "shootingDate": "2021-08-09T16:28:25",
+        "shooter": "Kohei Otsuka",
+        "description": "舟戸安政馬頭尊",
+        "note": "",
+        "fid": 397,
+        "mid_thumbnail": "./mid_thumbs/581/IMG_2609.jpg",
+        "small_thumbnail": "./small_thumbs/581/IMG_2609.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 581,
+        "path": "./images/581/IMG_2605.jpg",
+        "shootingDate": "2021-08-09T16:27:33",
+        "shooter": "Kohei Otsuka",
+        "description": "舟戸安政馬頭尊",
+        "note": "",
+        "fid": 398,
+        "mid_thumbnail": "./mid_thumbs/581/IMG_2605.jpg",
+        "small_thumbnail": "./small_thumbs/581/IMG_2605.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 621,
+        "path": "./images/621/IMG_2609.jpg",
+        "shootingDate": "2021-08-09T16:28:25",
+        "shooter": "Kohei Otsuka",
+        "description": "舟戸多蔵馬頭尊",
+        "note": "",
+        "fid": 399,
+        "mid_thumbnail": "./mid_thumbs/621/IMG_2609.jpg",
+        "small_thumbnail": "./small_thumbs/621/IMG_2609.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 621,
+        "path": "./images/621/IMG_2608.jpg",
+        "shootingDate": "2021-08-09T16:28:09",
+        "shooter": "Kohei Otsuka",
+        "description": "舟戸多蔵馬頭尊",
+        "note": "",
+        "fid": 400,
+        "mid_thumbnail": "./mid_thumbs/621/IMG_2608.jpg",
+        "small_thumbnail": "./small_thumbs/621/IMG_2608.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 601,
+        "path": "./images/601/IMG_2616.jpg",
+        "shootingDate": "2021-08-09T16:37:16",
+        "shooter": "Kohei Otsuka",
+        "description": "舟戸仁平馬頭尊",
+        "note": "",
+        "fid": 401,
+        "mid_thumbnail": "./mid_thumbs/601/IMG_2616.jpg",
+        "small_thumbnail": "./small_thumbs/601/IMG_2616.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 601,
+        "path": "./images/601/IMG_2615.jpg",
+        "shootingDate": "2021-08-09T16:37:05",
+        "shooter": "Kohei Otsuka",
+        "description": "舟戸仁平馬頭尊",
+        "note": "",
+        "fid": 402,
+        "mid_thumbnail": "./mid_thumbs/601/IMG_2615.jpg",
+        "small_thumbnail": "./small_thumbs/601/IMG_2615.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 624,
+        "path": "./images/624/IMG_2601.jpg",
+        "shootingDate": "2021-08-09T16:25:45",
+        "shooter": "Kohei Otsuka",
+        "description": "舟戸豊作馬頭尊",
+        "note": "",
+        "fid": 403,
+        "mid_thumbnail": "./mid_thumbs/624/IMG_2601.jpg",
+        "small_thumbnail": "./small_thumbs/624/IMG_2601.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 608,
+        "path": "./images/608/IMG_2636.jpg",
+        "shootingDate": "2021-08-09T17:05:38",
+        "shooter": "Kohei Otsuka",
+        "description": "舟戸妙馬観世音",
+        "note": "",
+        "fid": 404,
+        "mid_thumbnail": "./mid_thumbs/608/IMG_2636.jpg",
+        "small_thumbnail": "./small_thumbs/608/IMG_2636.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 622,
+        "path": "./images/622/IMG_2597.jpg",
+        "shootingDate": "2021-08-09T16:17:21",
+        "shooter": "Kohei Otsuka",
+        "description": "下耕地利市郎馬頭尊",
+        "note": "",
+        "fid": 405,
+        "mid_thumbnail": "./mid_thumbs/622/IMG_2597.jpg",
+        "small_thumbnail": "./small_thumbs/622/IMG_2597.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 605,
+        "path": "./images/605/IMG_2593.jpg",
+        "shootingDate": "2021-08-09T16:13:43",
+        "shooter": "Kohei Otsuka",
+        "description": "下耕地末吉馬頭尊",
+        "note": "",
+        "fid": 406,
+        "mid_thumbnail": "./mid_thumbs/605/IMG_2593.jpg",
+        "small_thumbnail": "./small_thumbs/605/IMG_2593.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 605,
+        "path": "./images/605/IMG_2592.jpg",
+        "shootingDate": "2021-08-09T16:13:39",
+        "shooter": "Kohei Otsuka",
+        "description": "下耕地末吉馬頭尊",
+        "note": "",
+        "fid": 407,
+        "mid_thumbnail": "./mid_thumbs/605/IMG_2592.jpg",
+        "small_thumbnail": "./small_thumbs/605/IMG_2592.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 615,
+        "path": "./images/615/IMG_2593.jpg",
+        "shootingDate": "2021-08-09T16:13:43",
+        "shooter": "Kohei Otsuka",
+        "description": "下耕地北光馬頭尊",
+        "note": "",
+        "fid": 408,
+        "mid_thumbnail": "./mid_thumbs/615/IMG_2593.jpg",
+        "small_thumbnail": "./small_thumbs/615/IMG_2593.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 615,
+        "path": "./images/615/IMG_2590.jpg",
+        "shootingDate": "2021-08-09T16:12:57",
+        "shooter": "Kohei Otsuka",
+        "description": "下耕地北光馬頭尊",
+        "note": "",
+        "fid": 409,
+        "mid_thumbnail": "./mid_thumbs/615/IMG_2590.jpg",
+        "small_thumbnail": "./small_thumbs/615/IMG_2590.jpg"
+      },
+      "geometry": null
     }
   ]
 }

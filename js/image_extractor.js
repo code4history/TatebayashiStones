@@ -13,7 +13,7 @@ const args = argv.option([
     "example": "'script --shooter=\"value\"' or 'script -s \"value\"'"
   }
 ]).run();
-const shooter = args.options.shooter || 'Shooter not reported - must update';
+const shooter = args.options.shooter || 'Kohei Otsuka';//'Shooter not reported - must update';
 async function doWork() {
   let maxImageId;
   // Images list from Geojson
@@ -24,6 +24,7 @@ async function doWork() {
 
   // Images list from FS
   const fsList = fs.readdirSync('../images').reduce((arr, imgid) => {
+    if (imgid === '.DS_Store') return arr;
     fs.readdirSync(`../images/${imgid}`).forEach((imgFile) => {
       arr.push(`./images/${imgid}/${imgFile}`);
     });
@@ -49,7 +50,7 @@ async function doWork() {
   }
 
   const jsonRemains = jsonList.filter(x=>x);
-  const fsRemains = fsList.filter(x=>x);
+  const fsRemains = fsList.filter(x=>x).filter(x=>!x.match(/\.DS_Store$/));
 
   if (!fsRemains.length) {
     console.log('No new images. finished.');
@@ -57,6 +58,7 @@ async function doWork() {
   }
 
   const newImages = await fsRemains.reduce(async(prms_buf, newImg) => {
+    console.log(newImg);
     const buf = await prms_buf;
     const pathes = newImg.split("/");
     const poiid = parseInt(pathes[2]);
@@ -81,6 +83,10 @@ async function doWork() {
       pathes[3] = pathes[3].replace(/^PRIM\./, '');
       path = pathes.join('/');
       buf[poiid].primary_image = fid;
+    }
+    if (pathes[3].match(/\.jpe?g$/i)) {
+      pathes[3] = pathes[3].replace(/\.jpe?g$/i, '.jpg');
+      path = pathes.join('/');
     }
     const mid_thumb = path.replace('./images', './mid_thumbs');
     const small_thumb = path.replace('./images', './small_thumbs');
