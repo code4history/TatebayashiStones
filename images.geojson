@@ -6135,6 +6135,486 @@
         "small_thumbnail": "./small_thumbs/615/IMG_2590.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1045,
+        "path": "./images/1045/IMG_2796.jpg",
+        "shootingDate": "2021-08-10T12:37:32",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂阿弥陀如来",
+        "note": "",
+        "fid": 410,
+        "mid_thumbnail": "./mid_thumbs/1045/IMG_2796.jpg",
+        "small_thumbnail": "./small_thumbs/1045/IMG_2796.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1046,
+        "path": "./images/1046/IMG_2805.jpg",
+        "shootingDate": "2021-08-10T12:39:59",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂享保地蔵菩薩",
+        "note": "",
+        "fid": 411,
+        "mid_thumbnail": "./mid_thumbs/1046/IMG_2805.jpg",
+        "small_thumbnail": "./small_thumbs/1046/IMG_2805.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1047,
+        "path": "./images/1047/IMG_2797.jpg",
+        "shootingDate": "2021-08-10T12:38:01",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂寛保地蔵菩薩",
+        "note": "",
+        "fid": 412,
+        "mid_thumbnail": "./mid_thumbs/1047/IMG_2797.jpg",
+        "small_thumbnail": "./small_thumbs/1047/IMG_2797.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1048,
+        "path": "./images/1048/IMG_2792.jpg",
+        "shootingDate": "2021-08-10T12:37:07",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂明和地蔵菩薩",
+        "note": "",
+        "fid": 413,
+        "mid_thumbnail": "./mid_thumbs/1048/IMG_2792.jpg",
+        "small_thumbnail": "./small_thumbs/1048/IMG_2792.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1078,
+        "path": "./images/1078/IMG_2804.jpg",
+        "shootingDate": "2021-08-10T12:39:43",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂青面金剛",
+        "note": "",
+        "fid": 414,
+        "mid_thumbnail": "./mid_thumbs/1078/IMG_2804.jpg",
+        "small_thumbnail": "./small_thumbs/1078/IMG_2804.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1123,
+        "path": "./images/1123/IMG_2801.jpg",
+        "shootingDate": "2021-08-10T12:39:02",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂十九夜念仏供養",
+        "note": "",
+        "fid": 415,
+        "mid_thumbnail": "./mid_thumbs/1123/IMG_2801.jpg",
+        "small_thumbnail": "./small_thumbs/1123/IMG_2801.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1123,
+        "path": "./images/1123/IMG_2800.jpg",
+        "shootingDate": "2021-08-10T12:38:52",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂十九夜念仏供養",
+        "note": "",
+        "fid": 416,
+        "mid_thumbnail": "./mid_thumbs/1123/IMG_2800.jpg",
+        "small_thumbnail": "./small_thumbs/1123/IMG_2800.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1106,
+        "path": "./images/1106/IMG_2807.jpg",
+        "shootingDate": "2021-08-10T12:40:33",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂松島家馬頭観世音",
+        "note": "",
+        "fid": 417,
+        "mid_thumbnail": "./mid_thumbs/1106/IMG_2807.jpg",
+        "small_thumbnail": "./small_thumbs/1106/IMG_2807.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1106,
+        "path": "./images/1106/IMG_2806.jpg",
+        "shootingDate": "2021-08-10T12:40:27",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂松島家馬頭観世音",
+        "note": "",
+        "fid": 418,
+        "mid_thumbnail": "./mid_thumbs/1106/IMG_2806.jpg",
+        "small_thumbnail": "./small_thumbs/1106/IMG_2806.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1104,
+        "path": "./images/1104/IMG_2794.jpg",
+        "shootingDate": "2021-08-10T12:37:18",
+        "shooter": "Kohei Otsuka",
+        "description": "上新田釈迦堂中村家馬頭観世音",
+        "note": "",
+        "fid": 419,
+        "mid_thumbnail": "./mid_thumbs/1104/IMG_2794.jpg",
+        "small_thumbnail": "./small_thumbs/1104/IMG_2794.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1073,
+        "path": "./images/1073/IMG_2734.jpg",
+        "shootingDate": "2021-08-10T11:45:47",
+        "shooter": "Kohei Otsuka",
+        "description": "観音青面金剛三猿庚申",
+        "note": "",
+        "fid": 420,
+        "mid_thumbnail": "./mid_thumbs/1073/IMG_2734.jpg",
+        "small_thumbnail": "./small_thumbs/1073/IMG_2734.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1076,
+        "path": "./images/1076/IMG_2776.jpg",
+        "shootingDate": "2021-08-10T12:29:43",
+        "shooter": "Kohei Otsuka",
+        "description": "岡里青面金剛三猿庚申",
+        "note": "",
+        "fid": 421,
+        "mid_thumbnail": "./mid_thumbs/1076/IMG_2776.jpg",
+        "small_thumbnail": "./small_thumbs/1076/IMG_2776.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1076,
+        "path": "./images/1076/IMG_2778.jpg",
+        "shootingDate": "2021-08-10T12:30:08",
+        "shooter": "Kohei Otsuka",
+        "description": "岡里青面金剛三猿庚申",
+        "note": "",
+        "fid": 422,
+        "mid_thumbnail": "./mid_thumbs/1076/IMG_2778.jpg",
+        "small_thumbnail": "./small_thumbs/1076/IMG_2778.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1077,
+        "path": "./images/1077/IMG_2767.jpg",
+        "shootingDate": "2021-08-10T12:19:55",
+        "shooter": "Kohei Otsuka",
+        "description": "岡里倉持家屋敷庚申",
+        "note": "",
+        "fid": 423,
+        "mid_thumbnail": "./mid_thumbs/1077/IMG_2767.jpg",
+        "small_thumbnail": "./small_thumbs/1077/IMG_2767.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1077,
+        "path": "./images/1077/IMG_2768.jpg",
+        "shootingDate": "2021-08-10T12:20:05",
+        "shooter": "Kohei Otsuka",
+        "description": "岡里倉持家屋敷庚申",
+        "note": "",
+        "fid": 424,
+        "mid_thumbnail": "./mid_thumbs/1077/IMG_2768.jpg",
+        "small_thumbnail": "./small_thumbs/1077/IMG_2768.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1080,
+        "path": "./images/1080/IMG_2847.jpg",
+        "shootingDate": "2021-08-10T13:12:50",
+        "shooter": "Kohei Otsuka",
+        "description": "本郷青面金剛",
+        "note": "",
+        "fid": 425,
+        "mid_thumbnail": "./mid_thumbs/1080/IMG_2847.jpg",
+        "small_thumbnail": "./small_thumbs/1080/IMG_2847.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1080,
+        "path": "./images/1080/IMG_2848.jpg",
+        "shootingDate": "2021-08-10T13:12:58",
+        "shooter": "Kohei Otsuka",
+        "description": "本郷青面金剛",
+        "note": "",
+        "fid": 426,
+        "mid_thumbnail": "./mid_thumbs/1080/IMG_2848.jpg",
+        "small_thumbnail": "./small_thumbs/1080/IMG_2848.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1080,
+        "path": "./images/1080/IMG_2849.jpg",
+        "shootingDate": "2021-08-10T13:13:10",
+        "shooter": "Kohei Otsuka",
+        "description": "本郷青面金剛",
+        "note": "",
+        "fid": 427,
+        "mid_thumbnail": "./mid_thumbs/1080/IMG_2849.jpg",
+        "small_thumbnail": "./small_thumbs/1080/IMG_2849.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1080,
+        "path": "./images/1080/IMG_2846.jpg",
+        "shootingDate": "2021-08-10T13:12:38",
+        "shooter": "Kohei Otsuka",
+        "description": "本郷青面金剛",
+        "note": "",
+        "fid": 428,
+        "mid_thumbnail": "./mid_thumbs/1080/IMG_2846.jpg",
+        "small_thumbnail": "./small_thumbs/1080/IMG_2846.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1155,
+        "path": "./images/1155/IMG_2860.jpg",
+        "shootingDate": "2021-08-10T13:19:45",
+        "shooter": "Kohei Otsuka",
+        "description": "山王日限地蔵前庚申",
+        "note": "",
+        "fid": 429,
+        "mid_thumbnail": "./mid_thumbs/1155/IMG_2860.jpg",
+        "small_thumbnail": "./small_thumbs/1155/IMG_2860.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1155,
+        "path": "./images/1155/IMG_2861.jpg",
+        "shootingDate": "2021-08-10T13:20:16",
+        "shooter": "Kohei Otsuka",
+        "description": "山王日限地蔵前庚申",
+        "note": "",
+        "fid": 430,
+        "mid_thumbnail": "./mid_thumbs/1155/IMG_2861.jpg",
+        "small_thumbnail": "./small_thumbs/1155/IMG_2861.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1155,
+        "path": "./images/1155/IMG_2859.jpg",
+        "shootingDate": "2021-08-10T13:19:36",
+        "shooter": "Kohei Otsuka",
+        "description": "山王日限地蔵前庚申",
+        "note": "",
+        "fid": 431,
+        "mid_thumbnail": "./mid_thumbs/1155/IMG_2859.jpg",
+        "small_thumbnail": "./small_thumbs/1155/IMG_2859.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1601,
+        "path": "./images/1601/IMG_2888.jpg",
+        "shootingDate": "2021-08-10T13:34:55",
+        "shooter": "Kohei Otsuka",
+        "description": "吉祥寺庚申",
+        "note": "",
+        "fid": 432,
+        "mid_thumbnail": "./mid_thumbs/1601/IMG_2888.jpg",
+        "small_thumbnail": "./small_thumbs/1601/IMG_2888.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 319,
+        "path": "./images/319/IMG_2900.jpg",
+        "shootingDate": "2021-08-10T13:43:09",
+        "shooter": "Kohei Otsuka",
+        "description": "田谷宝永庚申塔",
+        "note": "",
+        "fid": 433,
+        "mid_thumbnail": "./mid_thumbs/319/IMG_2900.jpg",
+        "small_thumbnail": "./small_thumbs/319/IMG_2900.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1595,
+        "path": "./images/1595/IMG_2895.jpg",
+        "shootingDate": "2021-08-10T13:38:53",
+        "shooter": "Kohei Otsuka",
+        "description": "寄居二猿庚申",
+        "note": "",
+        "fid": 434,
+        "mid_thumbnail": "./mid_thumbs/1595/IMG_2895.jpg",
+        "small_thumbnail": "./small_thumbs/1595/IMG_2895.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1595,
+        "path": "./images/1595/IMG_2896.jpg",
+        "shootingDate": "2021-08-10T13:39:02",
+        "shooter": "Kohei Otsuka",
+        "description": "寄居二猿庚申",
+        "note": "",
+        "fid": 435,
+        "mid_thumbnail": "./mid_thumbs/1595/IMG_2896.jpg",
+        "small_thumbnail": "./small_thumbs/1595/IMG_2896.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1595,
+        "path": "./images/1595/IMG_2894.jpg",
+        "shootingDate": "2021-08-10T13:38:45",
+        "shooter": "Kohei Otsuka",
+        "description": "寄居二猿庚申",
+        "note": "",
+        "fid": 436,
+        "mid_thumbnail": "./mid_thumbs/1595/IMG_2894.jpg",
+        "small_thumbnail": "./small_thumbs/1595/IMG_2894.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 314,
+        "path": "./images/314/IMG_2963.jpg",
+        "shootingDate": "2021-08-10T14:23:44",
+        "shooter": "Kohei Otsuka",
+        "description": "判官塚延宝庚申塔",
+        "note": "",
+        "fid": 437,
+        "mid_thumbnail": "./mid_thumbs/314/IMG_2963.jpg",
+        "small_thumbnail": "./small_thumbs/314/IMG_2963.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 321,
+        "path": "./images/321/IMG_2964.jpg",
+        "shootingDate": "2021-08-10T14:23:59",
+        "shooter": "Kohei Otsuka",
+        "description": "判官塚享保青面金剛",
+        "note": "",
+        "fid": 438,
+        "mid_thumbnail": "./mid_thumbs/321/IMG_2964.jpg",
+        "small_thumbnail": "./small_thumbs/321/IMG_2964.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 322,
+        "path": "./images/322/IMG_2965.jpg",
+        "shootingDate": "2021-08-10T14:24:03",
+        "shooter": "Kohei Otsuka",
+        "description": "判官塚寛政庚申塔",
+        "note": "",
+        "fid": 439,
+        "mid_thumbnail": "./mid_thumbs/322/IMG_2965.jpg",
+        "small_thumbnail": "./small_thumbs/322/IMG_2965.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 325,
+        "path": "./images/325/IMG_2962.jpg",
+        "shootingDate": "2021-08-10T14:23:31",
+        "shooter": "Kohei Otsuka",
+        "description": "判官塚萬延庚申塔",
+        "note": "",
+        "fid": 440,
+        "mid_thumbnail": "./mid_thumbs/325/IMG_2962.jpg",
+        "small_thumbnail": "./small_thumbs/325/IMG_2962.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1100,
+        "path": "./images/1100/IMG_2999.jpg",
+        "shootingDate": "2021-08-10T14:49:51",
+        "shooter": "Kohei Otsuka",
+        "description": "正儀内新田庚申",
+        "note": "",
+        "fid": 441,
+        "mid_thumbnail": "./mid_thumbs/1100/IMG_2999.jpg",
+        "small_thumbnail": "./small_thumbs/1100/IMG_2999.jpg"
+      },
+      "geometry": null
     }
   ]
 }
