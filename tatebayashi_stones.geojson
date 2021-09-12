@@ -19510,15 +19510,15 @@
       "properties": {
         "fid": 1112,
         "area_no": "32",
-        "name": "田谷馬頭観世音",
+        "name": "田谷谷中馬頭観世音",
         "type": "馬頭観世音",
         "era": "明治13年",
         "year": "1880",
         "place_1": "田谷町",
-        "place_2": "谷中（田谷東端）",
+        "place_2": "谷中",
         "detail": "",
-        "note_1": "柱型、土地改良のため南寄り現在地へ移動する",
-        "note_2": "",
+        "note_1": "西向き",
+        "note_2": "土地改良のため南より現在地へ移動する",
         "note_3": "",
         "area": "郷谷",
         "surveyed": "",
@@ -19526,6 +19526,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 181,
+        "width": 49,
+        "depth": 44,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)馬頭観世音\n(左)   大出弥十郎\n 願 増山源七郎\n 主 大出庄次郎\n   梅沢 善吉\n 願 小池 権六\n   小池鉄太郎\n 主 山田 鉄也\n   蓮見 保蔵\n(右)明治十三年庚辰歳\n  冬十二月穀旦\n   惣 村 中\n  竹園新居晋拝書\n(以下台石1,2に寄付者名多数あるが略す)",
+        "statue_height": 120,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -19534,27 +19541,29 @@
           {
             "description": "",
             "note": "",
+            "pages": "19",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "128",
+            "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
+            "editor": "館林石仏調査研究会編",
+            "publishedAt": 1979
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59270006204503,
-          36.25176448762029
+          139.59322521780766,
+          36.25484578100851
         ]
       }
     },
@@ -19799,51 +19808,71 @@
       "properties": {
         "fid": 307,
         "area_no": "37",
-        "name": "田谷十九夜塔",
+        "name": "田谷嘉永十九夜塔",
         "type": "月待塔",
         "era": "嘉永2年",
         "year": "1849",
         "place_1": "田谷町",
         "place_2": "",
-        "detail": "観音堂",
-        "note_1": "柱型、文字",
+        "detail": "田谷墓地",
+        "note_1": "十九夜の文字の上に如意輪観音像がある 西向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 454,
+        "height": 110,
+        "width": 34,
+        "depth": 32.2,
+        "shape": "柱型 笠部がある",
+        "material": "石造",
+        "inscription": "十九夜 田谷村女人講中\n嘉永二酉年三月吉日 立之",
+        "path": "./images/307/IMG_2901.jpg",
+        "mid_thumbnail": "./mid_thumbs/307/IMG_2901.jpg",
+        "small_thumbnail": "./small_thumbs/307/IMG_2901.jpg",
+        "images": [
+          {
+            "path": "./images/307/IMG_2901.jpg",
+            "shootingDate": "2021-08-10T13:43:29",
+            "shooter": "Kohei Otsuka",
+            "description": "田谷嘉永十九夜塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/307/IMG_2901.jpg",
+            "small_thumbnail": "./small_thumbs/307/IMG_2901.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "23",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "23",
+            "name": "大島田谷千塚の石仏等の文化財",
+            "editor": "落合敏男・小林一吉編",
+            "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58076475312393,
-          36.25804275236849
+          139.58090087114445,
+          36.25770248439087
         ]
       }
     },
@@ -19905,15 +19934,15 @@
       "properties": {
         "fid": 1064,
         "area_no": "39",
-        "name": "聖観音菩薩",
+        "name": "田谷観音堂聖観音菩薩",
         "type": "菩薩像",
         "era": "大正年間",
         "year": "1912～1926",
         "place_1": "田谷町",
         "place_2": "",
         "detail": "観音堂",
-        "note_1": "銅造",
-        "note_2": "",
+        "note_1": "観音堂の本尊",
+        "note_2": "年代は小倉藤悦氏の話より、以前の本尊は明治初期の火災で消失したらしい",
         "note_3": "",
         "area": "郷谷",
         "surveyed": "",
@@ -19921,7 +19950,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 108,
         "shape": "立像",
+        "material": "銅造",
+        "inscription": "なし",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -19930,17 +19962,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "8",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -19948,8 +19978,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5810014574798,
-          36.25807523308271
+          139.5808660018694,
+          36.2578128178785
         ]
       }
     },
@@ -19958,15 +19988,15 @@
       "properties": {
         "fid": 1065,
         "area_no": "40",
-        "name": "観音菩薩座像",
+        "name": "田谷観音堂観音菩薩座像",
         "type": "",
         "era": "不明",
         "year": "",
         "place_1": "田谷町",
         "place_2": "",
         "detail": "観音堂",
-        "note_1": "銅造",
-        "note_2": "",
+        "note_1": "",
+        "note_2": "小倉藤悦氏によると、当観音菩薩が元の観音堂の本尊ではないかと言われている",
         "note_3": "",
         "area": "郷谷",
         "surveyed": "",
@@ -19974,7 +20004,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 8.5,
         "shape": "座像",
+        "material": "銅造",
+        "inscription": "(御厨子に)\n昭和十九年四月七日 蓮見磯吉氏観音堂裏の堀ざらいの時発見\n昭和十九年八月十日入仏(要旨)",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -19983,17 +20016,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "8",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -20001,61 +20032,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58091095516954,
-          36.25801455039564
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1125,
-        "area_no": "41",
-        "name": "田谷十九夜",
-        "type": "月待塔",
-        "era": "嘉永2年",
-        "year": "1849",
-        "place_1": "田谷町",
-        "place_2": "",
-        "detail": "観音堂境内",
-        "note_1": "柱型",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "大島田谷千塚の石仏等の文化財",
-            "editor": "落合敏男・小林一吉編",
-            "publishedAt": 1972
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.58097647481404,
-          36.25795781961985
+          139.58090618555676,
+          36.257814669460046
         ]
       }
     },
@@ -20071,23 +20049,41 @@
         "place_1": "田谷町",
         "place_2": "",
         "detail": "田谷墓地",
-        "note_1": "舟型背面、青面金剛三猿浮彫",
+        "note_1": "西向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "現況は北向き",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 433,
+        "height": 124,
+        "width": 50,
+        "depth": 30,
+        "shape": "舟型背面 青面金剛 三猿浮彫",
+        "material": "石造",
+        "inscription": "奉造立庚申供養塔 上野国邑楽郡\n旹宝永五年戊子十月吉祥日 佐実(貫)庄田谷村",
+        "path": "./images/319/IMG_2900.jpg",
+        "mid_thumbnail": "./mid_thumbs/319/IMG_2900.jpg",
+        "small_thumbnail": "./small_thumbs/319/IMG_2900.jpg",
+        "images": [
+          {
+            "path": "./images/319/IMG_2900.jpg",
+            "shootingDate": "2021-08-10T13:43:09",
+            "shooter": "Kohei Otsuka",
+            "description": "田谷宝永庚申塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/319/IMG_2900.jpg",
+            "small_thumbnail": "./small_thumbs/319/IMG_2900.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "137",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
@@ -20095,27 +20091,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "13",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58080233842952,
-          36.2576612187116
+          139.58093359521118,
+          36.25770292872961
         ]
       }
     },
@@ -20167,61 +20158,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58509384773896,
-          36.2567020020308
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 290,
-        "area_no": "44",
-        "name": "田谷、谷中馬頭尊",
-        "type": "馬頭観世音",
-        "era": "明治13年",
-        "year": "1880",
-        "place_1": "田谷町",
-        "place_2": "",
-        "detail": "",
-        "note_1": "柱型、文字",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
-            "editor": "館林石仏調査研究会編",
-            "publishedAt": 1979
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.58522330321534,
-          36.256524835593595
+          139.59309754700132,
+          36.254874337323095
         ]
       }
     },
@@ -20237,24 +20175,41 @@
         "place_1": "千塚町",
         "place_2": "",
         "detail": "常栄寺",
-        "note_1": "丸彫、柱型",
+        "note_1": "十九夜の文字の上に如意輪観音像がある 東向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "座像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 455,
+        "height": 163,
+        "width": 36,
+        "depth": 33,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "十九夜 女人講\n明治二十九年旧四月十九日建之\n世話人 浜野平三郎 寄付者\n  同  済作\n  青山 唯八",
+        "path": "./images/308/IMG_2947.jpg",
+        "mid_thumbnail": "./mid_thumbs/308/IMG_2947.jpg",
+        "small_thumbnail": "./small_thumbs/308/IMG_2947.jpg",
+        "images": [
+          {
+            "path": "./images/308/IMG_2947.jpg",
+            "shootingDate": "2021-08-10T14:15:42",
+            "shooter": "Kohei Otsuka",
+            "description": "千塚十九夜塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/308/IMG_2947.jpg",
+            "small_thumbnail": "./small_thumbs/308/IMG_2947.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "131",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
@@ -20262,26 +20217,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "23",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57216084565263,
-          36.26007173425041
+          139.57203240962355,
+          36.25983057489189
         ]
       }
     },
@@ -20290,51 +20241,80 @@
       "properties": {
         "fid": 283,
         "area_no": "46",
-        "name": "千塚天保馬頭尊",
+        "name": "判官塚天保馬頭尊",
         "type": "馬頭観世音",
         "era": "天保12年",
         "year": "1841",
         "place_1": "千塚町",
         "place_2": "",
-        "detail": "千塚判官塚",
-        "note_1": "柱型、文字",
+        "detail": "判官塚",
+        "note_1": "南東向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 445,
+        "height": 71.5,
+        "width": 29.5,
+        "depth": 25,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)馬頭観世音\n(右)上州邑楽郡\n  千塚村 惣村中\n(左)天保十二年辛丑秋\n    八月吉日",
+        "path": "./images/283/IMG_2957.jpg",
+        "mid_thumbnail": "./mid_thumbs/283/IMG_2957.jpg",
+        "small_thumbnail": "./small_thumbs/283/IMG_2957.jpg",
+        "images": [
+          {
+            "path": "./images/283/IMG_2956.jpg",
+            "shootingDate": "2021-08-10T14:22:43",
+            "shooter": "Kohei Otsuka",
+            "description": "判官塚天保馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/283/IMG_2956.jpg",
+            "small_thumbnail": "./small_thumbs/283/IMG_2956.jpg"
+          },
+          {
+            "path": "./images/283/IMG_2957.jpg",
+            "shootingDate": "2021-08-10T14:22:50",
+            "shooter": "Kohei Otsuka",
+            "description": "判官塚天保馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/283/IMG_2957.jpg",
+            "small_thumbnail": "./small_thumbs/283/IMG_2957.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "127",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "20",
+            "name": "大島田谷千塚の石仏等の文化財",
+            "editor": "落合敏男・小林一吉編",
+            "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56969995303908,
-          36.258160335999456
+          139.56977021340197,
+          36.25805679444137
         ]
       }
     },
@@ -20343,14 +20323,14 @@
       "properties": {
         "fid": 284,
         "area_no": "47",
-        "name": "千塚弘化馬頭尊",
+        "name": "判官塚弘化馬頭尊",
         "type": "馬頭観世音",
         "era": "弘化3年",
         "year": "1846",
         "place_1": "千塚町",
         "place_2": "",
-        "detail": "千塚判官塚",
-        "note_1": "厚碑型、文字",
+        "detail": "判官塚",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
@@ -20359,6 +20339,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 42.5,
+        "width": 22,
+        "depth": 13,
+        "shape": "厚碑型 文字",
+        "material": "石造",
+        "inscription": "(表)馬頭観世音\n(右)弘化二丙午",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -20367,27 +20353,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "127",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56983433820594,
-          36.258164781761415
+          139.56975623484652,
+          36.25802598493555
         ]
       }
     },
@@ -20396,51 +20377,71 @@
       "properties": {
         "fid": 288,
         "area_no": "48",
-        "name": "小暮馬頭尊",
+        "name": "判官塚小暮馬頭観世音",
         "type": "馬頭観世音",
         "era": "明治8年",
         "year": "1875",
         "place_1": "千塚町",
         "place_2": "",
-        "detail": "千塚判官塚",
-        "note_1": "厚碑型、文字",
+        "detail": "判官塚",
+        "note_1": "南東向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 446,
+        "height": 32.5,
+        "width": 24,
+        "depth": 15,
+        "shape": "厚碑型 文字",
+        "material": "石造",
+        "inscription": "(表)明治八年卯天\n馬頭観世音\n三月廿八日 小暮氏",
+        "path": "./images/288/IMG_2958.jpg",
+        "mid_thumbnail": "./mid_thumbs/288/IMG_2958.jpg",
+        "small_thumbnail": "./small_thumbs/288/IMG_2958.jpg",
+        "images": [
+          {
+            "path": "./images/288/IMG_2958.jpg",
+            "shootingDate": "2021-08-10T14:23:02",
+            "shooter": "Kohei Otsuka",
+            "description": "判官塚小暮馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/288/IMG_2958.jpg",
+            "small_thumbnail": "./small_thumbs/288/IMG_2958.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "126",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "20",
+            "name": "大島田谷千塚の石仏等の文化財",
+            "editor": "落合敏男・小林一吉編",
+            "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56987792140055,
-          36.25834483937175
+          139.5697888514759,
+          36.25804852847759
         ]
       }
     },
@@ -20449,51 +20450,71 @@
       "properties": {
         "fid": 291,
         "area_no": "49",
-        "name": "浜野馬頭尊",
+        "name": "判官塚浜野馬頭観世音",
         "type": "馬頭観世音",
         "era": "明治18年",
         "year": "1885",
         "place_1": "千塚町",
         "place_2": "",
-        "detail": "千塚判官塚",
-        "note_1": "柱型、文字",
+        "detail": "判官塚",
+        "note_1": "南東向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 447,
+        "height": 36,
+        "width": 19,
+        "depth": 20,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)明治十八年\n馬頭観世音\n 六月十日\n(左) 新當郷村\n  浜野平三郎",
+        "path": "./images/291/IMG_2959.jpg",
+        "mid_thumbnail": "./mid_thumbs/291/IMG_2959.jpg",
+        "small_thumbnail": "./small_thumbs/291/IMG_2959.jpg",
+        "images": [
+          {
+            "path": "./images/291/IMG_2959.jpg",
+            "shootingDate": "2021-08-10T14:23:07",
+            "shooter": "Kohei Otsuka",
+            "description": "判官塚浜野馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/291/IMG_2959.jpg",
+            "small_thumbnail": "./small_thumbs/291/IMG_2959.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "127",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "20",
+            "name": "大島田谷千塚の石仏等の文化財",
+            "editor": "落合敏男・小林一吉編",
+            "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56970824824856,
-          36.258165100724625
+          139.5698074895498,
+          36.25804777702629
         ]
       }
     },
@@ -20502,104 +20523,71 @@
       "properties": {
         "fid": 314,
         "area_no": "50",
-        "name": "千塚延宝庚申塔",
+        "name": "判官塚延宝庚申塔",
         "type": "庚申",
         "era": "延宝8年",
         "year": "1680",
         "place_1": "千塚町",
         "place_2": "",
-        "detail": "千塚判官塚",
-        "note_1": "舟型背面、像浮彫",
+        "detail": "判官塚",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 437,
+        "height": 110,
+        "width": 47,
+        "depth": 19,
+        "shape": "舟型背面 青面金剛像 三猿浮彫",
+        "material": "石造",
+        "inscription": "奉造立庚申供養□□□館林領\n延宝八庚申十二月吉日 千塚村",
+        "path": "./images/314/IMG_2963.jpg",
+        "mid_thumbnail": "./mid_thumbs/314/IMG_2963.jpg",
+        "small_thumbnail": "./small_thumbs/314/IMG_2963.jpg",
+        "images": [
+          {
+            "path": "./images/314/IMG_2963.jpg",
+            "shootingDate": "2021-08-10T14:23:44",
+            "shooter": "Kohei Otsuka",
+            "description": "判官塚延宝庚申塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/314/IMG_2963.jpg",
+            "small_thumbnail": "./small_thumbs/314/IMG_2963.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "136",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.5698110600298,
-          36.25833476709017
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 316,
-        "area_no": "51",
-        "name": "千塚延宝庚申塔",
-        "type": "庚申",
-        "era": "延宝8年",
-        "year": "1680",
-        "place_1": "千塚町",
-        "place_2": "",
-        "detail": "千塚判官塚",
-        "note_1": "舟型背面、像浮彫",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
+          },
           {
             "description": "",
             "note": "",
-            "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
-            "editor": "館林石仏調査研究会編",
-            "publishedAt": 1979
+            "pages": "14",
+            "name": "大島田谷千塚の石仏等の文化財",
+            "editor": "落合敏男・小林一吉編",
+            "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56977045087783,
-          36.25829906028483
+          139.56979548223936,
+          36.258118482027726
         ]
       }
     },
@@ -20608,51 +20596,71 @@
       "properties": {
         "fid": 321,
         "area_no": "52",
-        "name": "享保青面金剛尊",
+        "name": "判官塚享保青面金剛",
         "type": "庚申",
         "era": "享保20年",
         "year": "1735",
         "place_1": "千塚町",
         "place_2": "",
-        "detail": "千塚判官塚",
-        "note_1": "柱型、文字",
+        "detail": "判官塚",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 438,
+        "height": 98,
+        "width": 32,
+        "depth": 25,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)青面金剛供養塔\n(右)享保廿乙卯天十一月吉祥日",
+        "path": "./images/321/IMG_2964.jpg",
+        "mid_thumbnail": "./mid_thumbs/321/IMG_2964.jpg",
+        "small_thumbnail": "./small_thumbs/321/IMG_2964.jpg",
+        "images": [
+          {
+            "path": "./images/321/IMG_2964.jpg",
+            "shootingDate": "2021-08-10T14:23:59",
+            "shooter": "Kohei Otsuka",
+            "description": "判官塚享保青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/321/IMG_2964.jpg",
+            "small_thumbnail": "./small_thumbs/321/IMG_2964.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "138",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "14",
+            "name": "大島田谷千塚の石仏等の文化財",
+            "editor": "落合敏男・小林一吉編",
+            "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5698876006081,
-          36.258172023347775
+          139.5698113246022,
+          36.25813351103868
         ]
       }
     },
@@ -20661,51 +20669,71 @@
       "properties": {
         "fid": 322,
         "area_no": "53",
-        "name": "寛政小暮庚申塔",
+        "name": "判官塚寛政庚申塔",
         "type": "庚申",
         "era": "寛政12年",
         "year": "1800",
         "place_1": "千塚町",
         "place_2": "",
-        "detail": "千塚判官塚",
-        "note_1": "柱型、文字",
+        "detail": "判官塚",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 439,
+        "height": 105.5,
+        "width": 40,
+        "depth": 24,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)  導師興蔵寺\n庚 申\n  小暮林玉拝書[印]\n(右)寛政十二庚申歳\n    當邑中\n十一月 日",
+        "path": "./images/322/IMG_2965.jpg",
+        "mid_thumbnail": "./mid_thumbs/322/IMG_2965.jpg",
+        "small_thumbnail": "./small_thumbs/322/IMG_2965.jpg",
+        "images": [
+          {
+            "path": "./images/322/IMG_2965.jpg",
+            "shootingDate": "2021-08-10T14:24:03",
+            "shooter": "Kohei Otsuka",
+            "description": "判官塚寛政庚申塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/322/IMG_2965.jpg",
+            "small_thumbnail": "./small_thumbs/322/IMG_2965.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "138",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "14",
+            "name": "大島田谷千塚の石仏等の文化財",
+            "editor": "落合敏男・小林一吉編",
+            "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56991658392977,
-          36.25836071863579
+          139.569827166965,
+          36.258144782794986
         ]
       }
     },
@@ -20714,263 +20742,71 @@
       "properties": {
         "fid": 325,
         "area_no": "54",
-        "name": "千塚萬延庚申塔",
+        "name": "判官塚萬延庚申塔",
         "type": "庚申",
         "era": "萬延元年",
         "year": "1860",
         "place_1": "千塚町",
         "place_2": "",
-        "detail": "千塚判官塚",
-        "note_1": "自然石、卵型",
+        "detail": "判官塚",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 440,
+        "height": 127.5,
+        "width": 59,
+        "depth": 27,
+        "shape": "自然石 碑型 文字",
+        "material": "石造",
+        "inscription": "(表)庚 申\n(右)萬延元庚申季十月吉日\n  千塚中",
+        "path": "./images/325/IMG_2962.jpg",
+        "mid_thumbnail": "./mid_thumbs/325/IMG_2962.jpg",
+        "small_thumbnail": "./small_thumbs/325/IMG_2962.jpg",
+        "images": [
+          {
+            "path": "./images/325/IMG_2962.jpg",
+            "shootingDate": "2021-08-10T14:23:31",
+            "shooter": "Kohei Otsuka",
+            "description": "判官塚萬延庚申塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/325/IMG_2962.jpg",
+            "small_thumbnail": "./small_thumbs/325/IMG_2962.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "139",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.56995573439414,
-          36.25835991536217
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1116,
-        "area_no": "55",
-        "name": "千塚馬頭観世音",
-        "type": "馬頭観世音",
-        "era": "天保12年",
-        "year": "1841",
-        "place_1": "千塚町",
-        "place_2": "",
-        "detail": "判官塚",
-        "note_1": "柱型",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
+          },
           {
             "description": "",
             "note": "",
+            "pages": "15",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.569702674639,
-          36.25812569712005
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1117,
-        "area_no": "56",
-        "name": "浜野家馬頭観世音",
-        "type": "馬頭観世音",
-        "era": "明治18年",
-        "year": "1885",
-        "place_1": "千塚町",
-        "place_2": "",
-        "detail": "判官塚",
-        "note_1": "柱型",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "大島田谷千塚の石仏等の文化財",
-            "editor": "落合敏男・小林一吉編",
-            "publishedAt": 1972
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.56987595757914,
-          36.25828544317527
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1115,
-        "area_no": "57",
-        "name": "腰高家馬頭観世音",
-        "type": "馬頭観世音",
-        "era": "文化3年",
-        "year": "1806",
-        "place_1": "千塚町",
-        "place_2": "",
-        "detail": "判官塚",
-        "note_1": "駒型",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "大島田谷千塚の石仏等の文化財",
-            "editor": "落合敏男・小林一吉編",
-            "publishedAt": 1972
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.5697176770311,
-          36.258266564589974
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1118,
-        "area_no": "58",
-        "name": "小暮家馬頭観世音",
-        "type": "馬頭観世音",
-        "era": "明治8年",
-        "year": "1875",
-        "place_1": "千塚町",
-        "place_2": "",
-        "detail": "判官塚",
-        "note_1": "柱型、治→和の訂正書き有",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "大島田谷千塚の石仏等の文化財",
-            "editor": "落合敏男・小林一吉編",
-            "publishedAt": 1972
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.56992165714396,
-          36.25825554159756
+          139.56977311655064,
+          36.258102701563125
         ]
       }
     },
@@ -20986,7 +20822,7 @@
         "place_1": "千塚町",
         "place_2": "",
         "detail": "千塚墓地",
-        "note_1": "丸彫",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
@@ -20995,7 +20831,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "座像",
+        "height": 122,
+        "width": 57,
+        "depth": 54,
+        "shape": "蓮台に丸彫座像",
+        "material": "石造",
+        "inscription": "(敷茄子)壬十月十五日\n寛文九己酉年\n念佛供養\n千塚村\n上劦館林",
+        "statue_height": 94,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -21004,79 +20846,29 @@
           {
             "description": "",
             "note": "",
+            "pages": "115",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
-          }
-        ],
-        "status": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.57322901225436,
-          36.25889820236093
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1070,
-        "area_no": "60",
-        "name": "釈迦如来",
-        "type": "如来像",
-        "era": "寛文9年",
-        "year": "1669",
-        "place_1": "千塚町",
-        "place_2": "",
-        "detail": "千塚墓地中央",
-        "note_1": "石造",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "shape": "坐像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
+          },
           {
             "description": "",
             "note": "",
+            "pages": "9",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57320831718403,
-          36.25888141138248
+          139.57322901225436,
+          36.25889820236093
         ]
       }
     },
@@ -24976,218 +24768,6 @@
     {
       "type": "Feature",
       "properties": {
-        "fid": 1089,
-        "area_no": "134",
-        "name": "判官塚庚申",
-        "type": "庚申",
-        "era": "延宝8年",
-        "year": "1680",
-        "place_1": "当郷町",
-        "place_2": "",
-        "detail": "新当郷判官塚",
-        "note_1": "舟型背面、青面金剛三猿浮彫",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "大島田谷千塚の石仏等の文化財",
-            "editor": "落合敏男・小林一吉編",
-            "publishedAt": 1972
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.56127562877685,
-          36.25021910930531
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1090,
-        "area_no": "135",
-        "name": "判官塚青面金剛",
-        "type": "庚申",
-        "era": "享保20年",
-        "year": "1735",
-        "place_1": "当郷町",
-        "place_2": "",
-        "detail": "新当郷判官塚",
-        "note_1": "柱型、文字",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "大島田谷千塚の石仏等の文化財",
-            "editor": "落合敏男・小林一吉編",
-            "publishedAt": 1972
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.56115042700478,
-          36.25023372270221
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1091,
-        "area_no": "136",
-        "name": "判官塚庚申（1）",
-        "type": "庚申",
-        "era": "寛政12年",
-        "year": "1800",
-        "place_1": "当郷町",
-        "place_2": "",
-        "detail": "新当郷判官塚",
-        "note_1": "柱型、文字",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "大島田谷千塚の石仏等の文化財",
-            "editor": "落合敏男・小林一吉編",
-            "publishedAt": 1972
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.56109196214703,
-          36.25017320929931
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1092,
-        "area_no": "137",
-        "name": "判官塚庚申（2）",
-        "type": "庚申",
-        "era": "萬延元年",
-        "year": "1860",
-        "place_1": "当郷町",
-        "place_2": "",
-        "detail": "新当郷判官塚",
-        "note_1": "自然石、碑型",
-        "note_2": "",
-        "note_3": "",
-        "area": "郷谷",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "大島田谷千塚の石仏等の文化財",
-            "editor": "落合敏男・小林一吉編",
-            "publishedAt": 1972
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.56123578153225,
-          36.25020622053461
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "fid": 313,
         "area_no": "138",
         "name": "亀井の庚申塔",
@@ -25786,10 +25366,10 @@
         "type": "庚申",
         "era": "明治30年",
         "year": "1897",
-        "place_1": "当郷町",
+        "place_1": "千塚町",
         "place_2": "",
         "detail": "谷津 隆",
-        "note_1": "柱型、文字",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
@@ -25798,6 +25378,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 60,
+        "width": 25,
+        "depth": 17.5,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)庚申塔\n(右)明治三十年\n  旧八月\n(左)谷津多平",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -25806,6 +25392,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "139",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
@@ -25813,27 +25400,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "15",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5611431487623,
-          36.250225386694744
+          139.57154932499515,
+          36.258403281293575
         ]
       }
     },
@@ -26139,14 +25721,14 @@
       "properties": {
         "fid": 277,
         "area_no": "155",
-        "name": "腰高文化馬頭尊",
+        "name": "細内文化馬頭尊",
         "type": "馬頭観世音",
         "era": "文化3年",
         "year": "1806",
         "place_1": "細内町",
         "place_2": "",
         "detail": "細内墓地",
-        "note_1": "駒型、文字",
+        "note_1": "西向き",
         "note_2": "",
         "note_3": "",
         "area": "郷谷",
@@ -26155,6 +25737,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 33,
+        "width": 22,
+        "depth": 13,
+        "shape": "駒型 文字",
+        "material": "石造",
+        "inscription": "(表)文化三寅七月一日\n馬頭観世音\n腰高喜太郎",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -26163,27 +25751,30 @@
           {
             "description": "",
             "note": "",
+            "pages": "20",
+            "name": "大島田谷千塚の石仏等の文化財",
+            "editor": "落合敏男・小林一吉編",
+            "publishedAt": 1972
+          },
+          {
+            "description": "",
+            "note": "",
+            "pages": "128",
             "name": "文化財総合調査 館林市の石造文化財 館林・郷谷の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1979
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56032920207775,
-          36.25974200858468
+          139.56051175018433,
+          36.259476272886445
         ]
       }
     },
@@ -27322,14 +26913,14 @@
       "properties": {
         "fid": 1107,
         "area_no": "1",
-        "name": "神村家馬頭観世音",
+        "name": "本郷神村家馬頭観世音",
         "type": "馬頭観世音",
         "era": "昭和6年",
         "year": "1931",
         "place_1": "大島町",
         "place_2": "本郷",
-        "detail": "神村家屋敷内3-903",
-        "note_1": "柱型",
+        "detail": "神村家屋敷",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -27338,6 +26929,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 39,
+        "width": 23,
+        "depth": 10,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "馬頭観世音 昭和六年二月三日\n神村健三郎",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27346,27 +26943,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "18",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58400211006997,
-          36.26511344219783
+          139.58497608600604,
+          36.2648052862618
         ]
       }
     },
@@ -27375,14 +26967,14 @@
       "properties": {
         "fid": 1059,
         "area_no": "2",
-        "name": "地蔵菩薩（3）",
+        "name": "本郷地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "本郷",
-        "detail": "大島文館裏",
-        "note_1": "石造",
+        "detail": "大島分館裏",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -27391,7 +26983,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 129,
+        "shape": "蓮台上に立像",
+        "material": "石造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27400,17 +26995,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "7",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -27418,8 +27011,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58268289651411,
-          36.26368381848923
+          139.58376611599164,
+          36.26565063232926
         ]
       }
     },
@@ -27428,14 +27021,14 @@
       "properties": {
         "fid": 1054,
         "area_no": "3",
-        "name": "釈迦如来",
+        "name": "本郷釈迦如来",
         "type": "如来像",
         "era": "延宝5年",
         "year": "1677",
         "place_1": "大島町",
         "place_2": "本郷",
-        "detail": "大島文館裏",
-        "note_1": "舟型背面、浮彫、石造",
+        "detail": "大島分館裏",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -27444,7 +27037,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 166,
+        "shape": "舟型背面 立像浮彫",
+        "material": "石造",
+        "inscription": "千日供養仏\n施主 西岡村 細谷村 大荷場村\n   大曲村\n   同(西岡) 新田村 除川村\n   観音村 四谷村\n   千塚村 正儀内村 寄居村\n   北大嶋村 田谷村 細内村\n   新田村 新田村 (2つ重なりママ)\n延宝五丁巳暦二月廿九日 敬白",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27453,17 +27049,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "6",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -27471,8 +27065,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5825809980096,
-          36.26375412553615
+          139.58392627668843,
+          36.265654335120736
         ]
       }
     },
@@ -27481,14 +27075,14 @@
       "properties": {
         "fid": 1055,
         "area_no": "4",
-        "name": "聖観音菩薩",
+        "name": "本郷聖観音菩薩",
         "type": "菩薩像",
         "era": "延宝4年",
         "year": "1676",
         "place_1": "大島町",
         "place_2": "本郷",
-        "detail": "大島文館裏",
-        "note_1": "舟型背面、浮彫、石造",
+        "detail": "大島分館裏",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -27497,7 +27091,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 173,
+        "shape": "舟型背面 立像浮彫",
+        "material": "石造",
+        "inscription": "念仏供養 諸衆敬白\n于時 延宝四丙辰年今月今日",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27506,17 +27103,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "6",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -27524,8 +27119,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58257250842362,
-          36.26373852152934
+          139.58389183352782,
+          36.265654335120736
         ]
       }
     },
@@ -27534,14 +27129,14 @@
       "properties": {
         "fid": 1056,
         "area_no": "5",
-        "name": "如意輪観音",
+        "name": "本郷如意輪観音",
         "type": "如意輪観音像",
         "era": "享保5年",
         "year": "1720",
         "place_1": "大島町",
         "place_2": "本郷",
-        "detail": "大島文館裏",
-        "note_1": "舟型背面、浮彫、石造",
+        "detail": "大島分館裏",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -27550,7 +27145,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "座像",
+        "height": 140,
+        "shape": "舟型背面 座像浮彫",
+        "material": "石造",
+        "inscription": "奉造立念仏供養仏\n享保五庚子年十一月吉日\n北大島村 女中衆 敬白",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27559,17 +27157,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "6",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -27577,8 +27173,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.582534984662,
-          36.26367779705925
+          139.58385624226187,
+          36.26565248372503
         ]
       }
     },
@@ -27587,15 +27183,15 @@
       "properties": {
         "fid": 1057,
         "area_no": "6",
-        "name": "地蔵菩薩（1）",
+        "name": "本郷明暦地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "明暦2年",
         "year": "1656",
         "place_1": "大島町",
         "place_2": "本郷",
-        "detail": "大島文館裏",
-        "note_1": "舟型背面、浮彫、石造",
-        "note_2": "",
+        "detail": "大島分館裏",
+        "note_1": "北向き",
+        "note_2": "本郷 大島分館裏に存在する石仏で一番古いもの",
         "note_3": "",
         "area": "大島",
         "surveyed": "",
@@ -27603,7 +27199,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 50,
+        "shape": "舟型背面、浮彫立像",
+        "material": "石造",
+        "inscription": "明暦二年丙[申]\n 以下略",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27612,17 +27211,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "7",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -27630,8 +27227,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58258372405047,
-          36.26372738189093
+          139.58382294720664,
+          36.26565063232926
         ]
       }
     },
@@ -27640,14 +27237,14 @@
       "properties": {
         "fid": 1058,
         "area_no": "7",
-        "name": "地蔵菩薩（2）",
+        "name": "本郷延宝地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "延宝元年",
         "year": "1673",
         "place_1": "大島町",
         "place_2": "本郷",
-        "detail": "大島文館裏",
-        "note_1": "舟型背面、浮彫、石造",
+        "detail": "大島分館裏",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -27656,7 +27253,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 137,
+        "shape": "舟型背面 立像浮彫",
+        "material": "石造",
+        "inscription": "阿闍利浄心栄誉 木不生位\n 旹延宝元丑暦九月廿一日",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27665,17 +27265,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "7",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -27683,8 +27281,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5824855667158,
-          36.26353419865784
+          139.58379166133577,
+          36.26565040090478
         ]
       }
     },
@@ -27700,44 +27298,83 @@
         "place_1": "大島町",
         "place_2": "本郷",
         "detail": "本郷天満宮前",
-        "note_1": "柱型、笠、文字、二猿",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 428,
+        "height": 260,
+        "width": 51,
+        "depth": 53,
+        "shape": "柱型 笠 文字 二猿",
+        "material": "石造",
+        "inscription": "南無青面金剛 享保十八年癸丑歳十月大吉日\n  施主 当村中",
+        "path": "./images/1080/IMG_2846.jpg",
+        "mid_thumbnail": "./mid_thumbs/1080/IMG_2846.jpg",
+        "small_thumbnail": "./small_thumbs/1080/IMG_2846.jpg",
+        "images": [
+          {
+            "path": "./images/1080/IMG_2847.jpg",
+            "shootingDate": "2021-08-10T13:12:50",
+            "shooter": "Kohei Otsuka",
+            "description": "本郷青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1080/IMG_2847.jpg",
+            "small_thumbnail": "./small_thumbs/1080/IMG_2847.jpg"
+          },
+          {
+            "path": "./images/1080/IMG_2848.jpg",
+            "shootingDate": "2021-08-10T13:12:58",
+            "shooter": "Kohei Otsuka",
+            "description": "本郷青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1080/IMG_2848.jpg",
+            "small_thumbnail": "./small_thumbs/1080/IMG_2848.jpg"
+          },
+          {
+            "path": "./images/1080/IMG_2849.jpg",
+            "shootingDate": "2021-08-10T13:13:10",
+            "shooter": "Kohei Otsuka",
+            "description": "本郷青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1080/IMG_2849.jpg",
+            "small_thumbnail": "./small_thumbs/1080/IMG_2849.jpg"
+          },
+          {
+            "path": "./images/1080/IMG_2846.jpg",
+            "shootingDate": "2021-08-10T13:12:38",
+            "shooter": "Kohei Otsuka",
+            "description": "本郷青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1080/IMG_2846.jpg",
+            "small_thumbnail": "./small_thumbs/1080/IMG_2846.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "12",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58358133991916,
-          36.26573221476881
+          139.58342958750683,
+          36.265648448791595
         ]
       }
     },
@@ -27752,45 +27389,66 @@
         "year": "1860",
         "place_1": "大島町",
         "place_2": "岡里",
-        "detail": "2-310",
-        "note_1": "碑型、文字",
+        "detail": "",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 424,
+        "height": 80,
+        "width": 42,
+        "depth": 8.7,
+        "shape": "碑型 文字",
+        "material": "石造",
+        "inscription": "萬延元季庚申十月吉日\n庚申 下新田中",
+        "path": "./images/1077/IMG_2768.jpg",
+        "mid_thumbnail": "./mid_thumbs/1077/IMG_2768.jpg",
+        "small_thumbnail": "./small_thumbs/1077/IMG_2768.jpg",
+        "images": [
+          {
+            "path": "./images/1077/IMG_2767.jpg",
+            "shootingDate": "2021-08-10T12:19:55",
+            "shooter": "Kohei Otsuka",
+            "description": "岡里倉持家屋敷庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1077/IMG_2767.jpg",
+            "small_thumbnail": "./small_thumbs/1077/IMG_2767.jpg"
+          },
+          {
+            "path": "./images/1077/IMG_2768.jpg",
+            "shootingDate": "2021-08-10T12:20:05",
+            "shooter": "Kohei Otsuka",
+            "description": "岡里倉持家屋敷庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1077/IMG_2768.jpg",
+            "small_thumbnail": "./small_thumbs/1077/IMG_2768.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "12",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59724059714028,
-          36.26356733925352
+          139.59608250993625,
+          36.26312095954186
         ]
       }
     },
@@ -27799,14 +27457,14 @@
       "properties": {
         "fid": 1102,
         "area_no": "10",
-        "name": "関沢家馬頭観世音",
+        "name": "岡里関沢家馬頭観世音",
         "type": "馬頭観世音",
         "era": "明和9年",
         "year": "1934",
         "place_1": "大島町",
         "place_2": "岡里",
         "detail": "岡里堤防",
-        "note_1": "碑型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -27815,6 +27473,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 69.5,
+        "width": 32,
+        "depth": 4.5,
+        "shape": "碑型",
+        "material": "石造",
+        "inscription": "寛政四壬子七月十日\n中村氏",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27823,27 +27487,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "17",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5971260966354,
-          36.26374811584126
+          139.59630446830266,
+          36.26613571958979
         ]
       }
     },
@@ -27912,8 +27571,8 @@
         "place_1": "大島町",
         "place_2": "岡里",
         "detail": "岡里墓地",
-        "note_1": "柱型、笠、二猿",
-        "note_2": "",
+        "note_1": "見猿 聞か猿浮彫 南向き",
+        "note_2": "境内より移動",
         "note_3": "",
         "area": "大島",
         "surveyed": "",
@@ -27921,6 +27580,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "柱型 笠 二猿",
+        "material": "石造",
+        "inscription": "寛文五乙巳年 施主\n[種子]奉供養庚申待之正堂□□□\n  八月七日 敬白",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27929,15 +27591,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "11",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -27958,51 +27618,63 @@
       "properties": {
         "fid": 1103,
         "area_no": "13",
-        "name": "小林家馬頭観世音",
+        "name": "岡里小林家馬頭観世音",
         "type": "馬頭観世音",
         "era": "昭和25年",
         "year": "1950",
         "place_1": "大島町",
         "place_2": "岡里",
         "detail": "小林安二郎家屋敷",
-        "note_1": "碑型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 443,
+        "height": 92.5,
+        "width": 47,
+        "depth": 10,
+        "shape": "碑型",
+        "material": "石造",
+        "inscription": "馬頭観世音\n馬名 金花号 昭和二十五年七月廿八日二才\n馬名 春駒号 昭和二十六年□月廿四日三才\n施主 小林徳次郎",
+        "path": "./images/1103/IMG_2774.jpg",
+        "mid_thumbnail": "./mid_thumbs/1103/IMG_2774.jpg",
+        "small_thumbnail": "./small_thumbs/1103/IMG_2774.jpg",
+        "images": [
+          {
+            "path": "./images/1103/IMG_2774.jpg",
+            "shootingDate": "2021-08-10T12:28:26",
+            "shooter": "Kohei Otsuka",
+            "description": "岡里小林家馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1103/IMG_2774.jpg",
+            "small_thumbnail": "./small_thumbs/1103/IMG_2774.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "17",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5972239061471,
-          36.26381036429173
+          139.59440322379254,
+          36.2655206027358
         ]
       }
     },
@@ -28011,14 +27683,14 @@
       "properties": {
         "fid": 1044,
         "area_no": "14",
-        "name": "大聖歓喜天",
+        "name": "元善定院大聖歓喜天",
         "type": "",
-        "era": "",
+        "era": "延享4年以前 (御厨子より)",
         "year": "",
         "place_1": "大島町",
         "place_2": "岡里",
         "detail": "元善定院",
-        "note_1": "銅造、延享4年以前のもの（御厨子より）",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -28027,7 +27699,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 9.8,
         "shape": "立像",
+        "material": "銅造",
+        "inscription": "(御厨子の文字)\n北大島村善定院物\n青龍山蔵院現□\n奉寄附聖天御宮殿\n延享四丁卯 二月七日",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -28036,17 +27711,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "4",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -28054,8 +27727,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59720107387426,
-          36.26550436384187
+          139.596240854707,
+          36.26539236219046
         ]
       }
     },
@@ -28064,14 +27737,14 @@
       "properties": {
         "fid": 1043,
         "area_no": "15",
-        "name": "大日如来",
+        "name": "元善定院大日如来",
         "type": "如来像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "岡里",
         "detail": "元善定院",
-        "note_1": "木造",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -28080,7 +27753,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 116,
         "shape": "坐像",
+        "material": "木造",
+        "inscription": "不明",
+        "statue_height": 60,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -28089,26 +27766,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "4",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59699311356616,
-          36.265569131092654
+          139.59623166986415,
+          36.2654775266317
         ]
       }
     },
@@ -28117,15 +27791,15 @@
       "properties": {
         "fid": 1122,
         "area_no": "16",
-        "name": "岡里十九夜",
+        "name": "元善定院十九夜",
         "type": "月待塔",
         "era": "明治24年",
         "year": "1891",
         "place_1": "大島町",
         "place_2": "岡里",
         "detail": "元善定院境内",
-        "note_1": "柱型",
-        "note_2": "",
+        "note_1": "十九夜の文字の上に如意輪観音像がある 小屋の中にある 西向き 絵馬が奉納されている",
+        "note_2": "「北居まつ」とは関沢家の先祖の詩人のペンネームである",
         "note_3": "",
         "area": "大島",
         "surveyed": "",
@@ -28133,6 +27807,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 164,
+        "width": 35,
+        "depth": 32,
+        "shape": "柱型 台石三段",
+        "material": "石造",
+        "inscription": "十九夜 女人講 当村中\n明治二十四年十二月吉日\n上劦邑楽郡大島岡里\n我おもふ 女の文字は四ッ能角\n多ゞ○○と 安く産せよ 北居まつ",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -28141,27 +27821,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "22",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59699186190136,
-          36.265614847072015
+          139.59598786775757,
+          36.26533767451247
         ]
       }
     },
@@ -28221,8 +27896,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5971085775877,
-          36.265562760183805
+          139.5959826816118,
+          36.265254044102555
         ]
       }
     },
@@ -28299,44 +27974,65 @@
         "place_1": "大島町",
         "place_2": "岡里",
         "detail": "",
-        "note_1": "舟型、像青面金剛三猿浮彫",
+        "note_1": "鳥居あり 東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 422,
+        "height": 110,
+        "width": 45,
+        "depth": 30,
+        "shape": "舟型 像青面金剛 三猿浮彫",
+        "material": "石造",
+        "inscription": "奉供養庚申如意満尼之所 願主\n元禄十五壬午九月吉日□□□□□",
+        "path": "./images/1076/IMG_2778.jpg",
+        "mid_thumbnail": "./mid_thumbs/1076/IMG_2778.jpg",
+        "small_thumbnail": "./small_thumbs/1076/IMG_2778.jpg",
+        "images": [
+          {
+            "path": "./images/1076/IMG_2776.jpg",
+            "shootingDate": "2021-08-10T12:29:43",
+            "shooter": "Kohei Otsuka",
+            "description": "岡里青面金剛三猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1076/IMG_2776.jpg",
+            "small_thumbnail": "./small_thumbs/1076/IMG_2776.jpg"
+          },
+          {
+            "path": "./images/1076/IMG_2778.jpg",
+            "shootingDate": "2021-08-10T12:30:08",
+            "shooter": "Kohei Otsuka",
+            "description": "岡里青面金剛三猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1076/IMG_2778.jpg",
+            "small_thumbnail": "./small_thumbs/1076/IMG_2778.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "12",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59723163226818,
-          36.263804573652834
+          139.59432237683083,
+          36.26620803568614
         ]
       }
     },
@@ -28399,51 +28095,63 @@
       "properties": {
         "fid": 1101,
         "area_no": "21",
-        "name": "峯木家馬頭観世音",
+        "name": "観音堂峯木家馬頭観世音",
         "type": "馬頭観世音",
         "era": "嘉永4年",
         "year": "1851",
         "place_1": "大島町",
         "place_2": "観音",
         "detail": "観音堂境内",
-        "note_1": "柱型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 442,
+        "height": 62.5,
+        "width": 25.5,
+        "depth": 17,
+        "shape": "柱型 台石なし ",
+        "material": "石造",
+        "inscription": "馬頭観世音 嘉永四年亥八月吉日\n峯木宗左ェ門",
+        "path": "./images/1101/IMG_2745.jpg",
+        "mid_thumbnail": "./mid_thumbs/1101/IMG_2745.jpg",
+        "small_thumbnail": "./small_thumbs/1101/IMG_2745.jpg",
+        "images": [
+          {
+            "path": "./images/1101/IMG_2745.jpg",
+            "shootingDate": "2021-08-10T11:47:46",
+            "shooter": "Kohei Otsuka",
+            "description": "観音堂峯木家馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1101/IMG_2745.jpg",
+            "small_thumbnail": "./small_thumbs/1101/IMG_2745.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "17",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.60220901850693,
-          36.25177479522345
+          139.60222107133472,
+          36.251591109267295
         ]
       }
     },
@@ -28452,22 +28160,28 @@
       "properties": {
         "fid": 1121,
         "area_no": "22",
-        "name": "観音十九夜",
+        "name": "観音堂十九夜",
         "type": "月待塔",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "観音",
         "detail": "観音堂境内",
-        "note_1": "柱型",
+        "note_1": "風化がひどい 東向き 十九夜の文字の上に如意輪観音像がある",
         "note_2": "",
-        "note_3": "",
+        "note_3": "観音堂境内に如意輪観音があるが、刻銘などが異なる",
         "area": "大島",
         "surveyed": "",
         "description": "",
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 94,
+        "width": 32,
+        "depth": 29,
+        "shape": "柱型 台石二段",
+        "material": "石造",
+        "inscription": "十九夜 □□中 (他は全く判別できない)",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -28476,27 +28190,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "22",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.6021455714794,
-          36.251866986092004
+          139.60221770223362,
+          36.25166431317298
         ]
       }
     },
@@ -28581,7 +28290,7 @@
         "place_1": "大島町",
         "place_2": "観音",
         "detail": "観音堂境内",
-        "note_1": "柱型、文字",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -28590,6 +28299,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 99.5,
+        "width": 33,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "庚申塔 村中 萬延元庚申季十月吉日\n   セハ人 浜野仔右ェ門\n上劦邑楽郡北大島村観音 小倉佐五兵ェ\n    峯木宗左ェ門\n    小倉 七良平",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -28598,27 +28312,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "11",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.60213001967065,
-          36.25178828927186
+          139.60220289635134,
+          36.25173889684768
         ]
       }
     },
@@ -28627,51 +28337,63 @@
       "properties": {
         "fid": 1073,
         "area_no": "25",
-        "name": "観音青面金剛三猿庚申",
+        "name": "観音堂青面金剛三猿庚申",
         "type": "庚申",
         "era": "享保20年",
         "year": "1735",
         "place_1": "大島町",
         "place_2": "観音",
         "detail": "観音堂境内",
-        "note_1": "舟型、像青面金剛三猿浮彫",
-        "note_2": "",
+        "note_1": "東向き",
+        "note_2": "境内内移動1回",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 420,
+        "height": 107,
+        "width": 46,
+        "depth": 30,
+        "shape": "舟型 像青面金剛 三猿浮彫",
+        "material": "石造",
+        "inscription": "享保元年丙申十二月吉日 当村中施主敬白",
+        "path": "./images/1073/IMG_2734.jpg",
+        "mid_thumbnail": "./mid_thumbs/1073/IMG_2734.jpg",
+        "small_thumbnail": "./small_thumbs/1073/IMG_2734.jpg",
+        "images": [
+          {
+            "path": "./images/1073/IMG_2734.jpg",
+            "shootingDate": "2021-08-10T11:45:47",
+            "shooter": "Kohei Otsuka",
+            "description": "観音青面金剛三猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1073/IMG_2734.jpg",
+            "small_thumbnail": "./small_thumbs/1073/IMG_2734.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "11",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.6021795210403,
-          36.251800977228484
+          139.60220569206246,
+          36.251721612070156
         ]
       }
     },
@@ -28680,15 +28402,15 @@
       "properties": {
         "fid": 1042,
         "area_no": "26",
-        "name": "薬師如来",
+        "name": "観音堂薬師如来",
         "type": "如来像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "観音",
         "detail": "観音堂内",
-        "note_1": "木造",
-        "note_2": "",
+        "note_1": "",
+        "note_2": "この外、観音堂には\n大日如来坐像 (木造) 一体\n阿弥陀如来像 (木造) 一体\n如来像三体等安置されている",
         "note_3": "",
         "area": "大島",
         "surveyed": "",
@@ -28696,7 +28418,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 61.5,
         "shape": "坐像",
+        "material": "木造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -28705,17 +28430,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "4",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -28723,8 +28446,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.60222386867795,
-          36.25180129725195
+          139.6021370128505,
+          36.251685734873675
         ]
       }
     },
@@ -28733,14 +28456,14 @@
       "properties": {
         "fid": 1041,
         "area_no": "27",
-        "name": "地蔵菩薩",
+        "name": "観音堂地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "宝永5年",
         "year": "1708",
         "place_1": "大島町",
         "place_2": "観音",
         "detail": "観音堂境内地蔵堂",
-        "note_1": "銅造",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -28749,7 +28472,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 136,
         "shape": "立像",
+        "material": "銅造",
+        "inscription": "奉造立六十六部供養仏\n宝永五戊子 九月吉日\n願主\n上劦邑楽郡観音村 敬白 かんおん\n法印祐慶□□ (供養者多数氏名略)",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -28758,17 +28484,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "3",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -28776,61 +28500,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.60207554633936,
-          36.25192108639163
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "fid": 1081,
-        "area_no": "28",
-        "name": "山王日限地蔵前庚申",
-        "type": "地蔵菩薩像,庚申",
-        "era": "寛政6年",
-        "year": "1794",
-        "place_1": "大島町",
-        "place_2": "山王",
-        "detail": "4228",
-        "note_1": "柱型、文字",
-        "note_2": "",
-        "note_3": "",
-        "area": "大島",
-        "surveyed": "",
-        "description": "",
-        "photo": "",
-        "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
-        "books": [
-          {
-            "description": "",
-            "note": "",
-            "name": "大島田谷千塚の石仏等の文化財",
-            "editor": "落合敏男・小林一吉編",
-            "publishedAt": 1972
-          }
-        ],
-        "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.58094135806118,
-          36.26290173338916
+          139.602163106154,
+          36.251609080561664
         ]
       }
     },
@@ -28839,14 +28510,14 @@
       "properties": {
         "fid": 1083,
         "area_no": "29",
-        "name": "小熊家猿田彦大神",
+        "name": "山王小熊家猿田彦大神",
         "type": "庚申",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "小熊家屋敷",
-        "note_1": "柱型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -28855,6 +28526,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 44.5,
+        "width": 20,
+        "depth": 12.7,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "猿田彦大神(他に刻なし)",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -28863,27 +28540,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "13",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58102565417977,
-          36.26286601375351
+          139.5808515876859,
+          36.26446422474588
         ]
       }
     },
@@ -28892,51 +28564,63 @@
       "properties": {
         "fid": 1601,
         "area_no": "30",
-        "name": "山王庚申",
+        "name": "吉祥寺庚申",
         "type": "庚申",
         "era": "萬延元年",
         "year": "1860",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "吉祥寺山門入口左",
-        "note_1": "碑型、文字",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 432,
+        "height": 141,
+        "width": 79,
+        "depth": 7.5,
+        "shape": "碑型 文字",
+        "material": "石造",
+        "inscription": "庚申 萬延元季庚申十二月吉日 村中",
+        "path": "./images/1601/IMG_2888.jpg",
+        "mid_thumbnail": "./mid_thumbs/1601/IMG_2888.jpg",
+        "small_thumbnail": "./small_thumbs/1601/IMG_2888.jpg",
+        "images": [
+          {
+            "path": "./images/1601/IMG_2888.jpg",
+            "shootingDate": "2021-08-10T13:34:55",
+            "shooter": "Kohei Otsuka",
+            "description": "吉祥寺庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1601/IMG_2888.jpg",
+            "small_thumbnail": "./small_thumbs/1601/IMG_2888.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "13",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58019043288218,
-          36.263895175618835
+          139.57965188290012,
+          36.263019520139004
         ]
       }
     },
@@ -29340,14 +29024,14 @@
       "properties": {
         "fid": 1063,
         "area_no": "38",
-        "name": "大日如来",
+        "name": "吉祥寺大日如来",
         "type": "如来像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "吉祥寺",
-        "note_1": "舟型光背、銅造",
+        "note_1": "吉祥寺本尊 南向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -29356,7 +29040,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "座像",
+        "height": 143.5,
+        "shape": "舟型光背 座像",
+        "material": "銅造",
+        "inscription": "奉納者名多数(略)",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29365,17 +29052,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "8",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -29383,8 +29068,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5802253957477,
-          36.26390189547578
+          139.5802540617161,
+          36.26363397343564
         ]
       }
     },
@@ -29393,15 +29078,15 @@
       "properties": {
         "fid": 1062,
         "area_no": "39",
-        "name": "不動明王",
+        "name": "吉祥寺不動明王",
         "type": "明王像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "吉祥寺",
-        "note_1": "木造",
-        "note_2": "",
+        "note_1": "本尊大日如来前に立っている 南向き",
+        "note_2": "戦後修理1回",
         "note_3": "",
         "area": "大島",
         "surveyed": "",
@@ -29409,7 +29094,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "width": 40,
         "shape": "立像",
+        "material": "木造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29418,26 +29106,24 @@
           {
             "description": "",
             "note": "",
+            "pages": "8",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
         "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5803542119122,
-          36.26383659940365
+          139.58024487687328,
+          36.26359879599952
         ]
       }
     },
@@ -29552,14 +29238,14 @@
       "properties": {
         "fid": 1061,
         "area_no": "42",
-        "name": "阿弥陀如来",
+        "name": "吉祥寺阿弥陀如来",
         "type": "如来像",
         "era": "延宝4年",
         "year": "1767",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "吉祥寺境内",
-        "note_1": "舟型背面、浮彫、石造",
+        "note_1": "西向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -29568,7 +29254,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 145,
+        "shape": "舟型背面 立像浮彫",
+        "material": "石造",
+        "inscription": "  延宝四天丙辰二月吉日\n諸衆 敬白",
+        "statue_height": 126,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29577,26 +29267,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "8",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58024396332948,
-          36.26385654208569
+          139.58022076666086,
+          36.26341087416443
         ]
       }
     },
@@ -30195,7 +29882,7 @@
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "山王堤防",
-        "note_1": "柱型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -30204,6 +29891,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "馬頭観世音 □明治二十七八年為日清戦争陸軍馬匹依徴\n発左記之馬種被撰用困為紀念干慈刻之\n鹿毛馬持主 高山吉次郎 青木茂次郎\n河原毛持主 神村浅七\n明治三十年十二月 建設\n  両坪馬持中 村中",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -30212,15 +29902,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "18",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -30231,8 +29919,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5809820320933,
-          36.26280891449897
+          139.58071355850154,
+          36.26650941177921
         ]
       }
     },
@@ -30241,14 +29929,14 @@
       "properties": {
         "fid": 1111,
         "area_no": "55",
-        "name": "青木家馬頭観世音",
+        "name": "山王青木家馬頭観世音",
         "type": "馬頭観世音",
         "era": "明治45年",
         "year": "1912",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "山王堤防",
-        "note_1": "柱型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -30257,6 +29945,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 184.5,
+        "width": 23.5,
+        "depth": 14.7,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "馬頭観世音 明治三十七・八年 日露戦役徴発馬也\n大島村字本郷\n馬主 青木兵吉 建立\n明治四十五年一月",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -30265,27 +29959,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "19",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58081479023895,
-          36.26286532336856
+          139.58070610327198,
+          36.26633509376872
         ]
       }
     },
@@ -30294,14 +29983,14 @@
       "properties": {
         "fid": 1108,
         "area_no": "56",
-        "name": "高山家馬頭観世音",
+        "name": "山王高山家馬頭観世音",
         "type": "馬頭観世音",
         "era": "文政10年",
         "year": "1827",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "高山家屋敷",
-        "note_1": "柱型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -30310,6 +29999,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 60,
+        "width": 28.6,
+        "depth": 17,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "馬頭観世音 文政十年丁亥五月十日\n施主 高山伊右ェ門",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -30318,27 +30013,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "18",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58096476934756,
-          36.26274458327516
+          139.5807676089159,
+          36.264979607687
         ]
       }
     },
@@ -30347,14 +30037,14 @@
       "properties": {
         "fid": 1110,
         "area_no": "57",
-        "name": "山本家馬頭観世音",
+        "name": "山王山本家馬頭観世音",
         "type": "馬頭観世音",
         "era": "明治38年",
         "year": "1905",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "山本義一家屋敷",
-        "note_1": "自然石",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -30363,6 +30053,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 56,
+        "width": 26,
+        "depth": 11,
+        "shape": "自然石",
+        "material": "石造",
+        "inscription": "馬頭観世音 明治三十八年五月一日\n山本茂八郎立",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -30371,27 +30067,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "18",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58082301581078,
-          36.26275921747591
+          139.5824282613018,
+          36.266184819309466
         ]
       }
     },
@@ -30400,42 +30091,63 @@
       "properties": {
         "fid": 1060,
         "area_no": "58",
-        "name": "地蔵菩薩",
+        "name": "山王地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "宝暦8年",
         "year": "1758",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "地蔵堂内",
-        "note_1": "銅造",
+        "note_1": "日限地蔵菩薩",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "坐像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 453,
+        "height": 147,
+        "shape": "蓮台に坐像",
+        "material": "銅造",
+        "inscription": "開眼導師\n法印慈観 吉祥寺一代\n供養仏\n奉納経日本西国六十六部\n別当吉祥寺\n願主 西岸\n施主 惣邑中\n宝暦八年歳戊寅 春二月二十四日\n上野国邑楽郡大島邑(以下略)",
+        "path": "./images/1060/IMG_2868.jpg",
+        "mid_thumbnail": "./mid_thumbs/1060/IMG_2868.jpg",
+        "small_thumbnail": "./small_thumbs/1060/IMG_2868.jpg",
+        "images": [
+          {
+            "path": "./images/1060/IMG_2867.jpg",
+            "shootingDate": "2021-08-10T13:21:02",
+            "shooter": "Kohei Otsuka",
+            "description": "山王地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1060/IMG_2867.jpg",
+            "small_thumbnail": "./small_thumbs/1060/IMG_2867.jpg"
+          },
+          {
+            "path": "./images/1060/IMG_2868.jpg",
+            "shootingDate": "2021-08-10T13:21:15",
+            "shooter": "Kohei Otsuka",
+            "description": "山王地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1060/IMG_2868.jpg",
+            "small_thumbnail": "./small_thumbs/1060/IMG_2868.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "7",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -30443,8 +30155,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58028335627108,
-          36.26489441097693
+          139.58025635792686,
+          36.264593015326916
         ]
       }
     },
@@ -30453,51 +30165,90 @@
       "properties": {
         "fid": 1124,
         "area_no": "59",
-        "name": "山王十九夜",
+        "name": "山王日限地蔵前十九夜",
         "type": "月待塔",
         "era": "嘉永2年",
         "year": "1849",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "日限地蔵前",
-        "note_1": "柱型",
+        "note_1": "十九夜の文字の上に如意輪観音の像がある 小屋の中にある 南向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 451,
+        "height": 148,
+        "width": 44.5,
+        "depth": 44.5,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "十九夜 女人講中\n嘉永二酉年八月吉日建之\n上劦邑楽郡大嶋村山王",
+        "path": "./images/1124/IMG_2863.jpg",
+        "mid_thumbnail": "./mid_thumbs/1124/IMG_2863.jpg",
+        "small_thumbnail": "./small_thumbs/1124/IMG_2863.jpg",
+        "images": [
+          {
+            "path": "./images/1124/IMG_2862.jpg",
+            "shootingDate": "2021-08-10T13:20:25",
+            "shooter": "Kohei Otsuka",
+            "description": "山王日限地蔵前十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1124/IMG_2862.jpg",
+            "small_thumbnail": "./small_thumbs/1124/IMG_2862.jpg"
+          },
+          {
+            "path": "./images/1124/IMG_2865.jpg",
+            "shootingDate": "2021-08-10T13:20:45",
+            "shooter": "Kohei Otsuka",
+            "description": "山王日限地蔵前十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1124/IMG_2865.jpg",
+            "small_thumbnail": "./small_thumbs/1124/IMG_2865.jpg"
+          },
+          {
+            "path": "./images/1124/IMG_2866.jpg",
+            "shootingDate": "2021-08-10T13:20:54",
+            "shooter": "Kohei Otsuka",
+            "description": "山王日限地蔵前十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1124/IMG_2866.jpg",
+            "small_thumbnail": "./small_thumbs/1124/IMG_2866.jpg"
+          },
+          {
+            "path": "./images/1124/IMG_2863.jpg",
+            "shootingDate": "2021-08-10T13:20:33",
+            "shooter": "Kohei Otsuka",
+            "description": "山王日限地蔵前十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1124/IMG_2863.jpg",
+            "small_thumbnail": "./small_thumbs/1124/IMG_2863.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "23",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58095631160694,
-          36.262900697647005
+          139.5802909401756,
+          36.26454380339461
         ]
       }
     },
@@ -30567,26 +30318,61 @@
       "properties": {
         "fid": 1155,
         "area_no": "61",
-        "name": "日限地蔵前道標",
-        "type": "道標,地蔵菩薩像",
+        "name": "山王日限地蔵前庚申",
+        "type": "道標,庚申",
         "era": "寛政6年",
         "year": "1794",
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "",
-        "note_1": "柱型",
+        "note_1": "兼道標 南向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "@",
         "photo": "",
         "public_relations": "2013/06",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 431,
+        "height": 80,
+        "width": 27,
+        "depth": 23.5,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "庚申 寛政六甲寅六月吉日\n南たてばやし 東ふじおか 西あしかが\n北杉のわたし さの道",
+        "path": "./images/1155/IMG_2859.jpg",
+        "mid_thumbnail": "./mid_thumbs/1155/IMG_2859.jpg",
+        "small_thumbnail": "./small_thumbs/1155/IMG_2859.jpg",
+        "images": [
+          {
+            "path": "./images/1155/IMG_2860.jpg",
+            "shootingDate": "2021-08-10T13:19:45",
+            "shooter": "Kohei Otsuka",
+            "description": "山王日限地蔵前庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1155/IMG_2860.jpg",
+            "small_thumbnail": "./small_thumbs/1155/IMG_2860.jpg"
+          },
+          {
+            "path": "./images/1155/IMG_2861.jpg",
+            "shootingDate": "2021-08-10T13:20:16",
+            "shooter": "Kohei Otsuka",
+            "description": "山王日限地蔵前庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1155/IMG_2861.jpg",
+            "small_thumbnail": "./small_thumbs/1155/IMG_2861.jpg"
+          },
+          {
+            "path": "./images/1155/IMG_2859.jpg",
+            "shootingDate": "2021-08-10T13:19:36",
+            "shooter": "Kohei Otsuka",
+            "description": "山王日限地蔵前庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1155/IMG_2859.jpg",
+            "small_thumbnail": "./small_thumbs/1155/IMG_2859.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -30599,27 +30385,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "13,29",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58081747827057,
-          36.26293692486351
+          139.5802469034099,
+          36.264519307069435
         ]
       }
     },
@@ -30628,51 +30409,63 @@
       "properties": {
         "fid": 1046,
         "area_no": "62",
-        "name": "地蔵菩薩（1）",
+        "name": "上新田釈迦堂享保地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "享保21年",
         "year": "1736",
         "place_1": "大島町",
         "place_2": "上新田",
         "detail": "釈迦堂境内",
-        "note_1": "石造",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "立像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 411,
+        "height": 147,
+        "shape": "蓮台上に立像",
+        "material": "石造",
+        "statue_height": 95,
+        "path": "./images/1046/IMG_2805.jpg",
+        "mid_thumbnail": "./mid_thumbs/1046/IMG_2805.jpg",
+        "small_thumbnail": "./small_thumbs/1046/IMG_2805.jpg",
+        "images": [
+          {
+            "path": "./images/1046/IMG_2805.jpg",
+            "shootingDate": "2021-08-10T12:39:59",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂享保地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1046/IMG_2805.jpg",
+            "small_thumbnail": "./small_thumbs/1046/IMG_2805.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "4",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
         "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5924401346632,
-          36.26436250404365
+          139.59200974861506,
+          36.26554420308881
         ]
       }
     },
@@ -30681,42 +30474,54 @@
       "properties": {
         "fid": 1047,
         "area_no": "63",
-        "name": "地蔵菩薩（2）",
+        "name": "上新田釈迦堂寛保地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "寛保元年",
         "year": "1741",
         "place_1": "大島町",
         "place_2": "上新田",
         "detail": "釈迦堂境内",
-        "note_1": "舟型、浮彫、石造",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "立像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 412,
+        "height": 103,
+        "shape": "舟型に立像浮彫",
+        "material": "石造",
+        "inscription": "奉納大乗妙典十六部供養\n寛保元辛酉歳八月吉日\n願主 西入  相田立之",
+        "path": "./images/1047/IMG_2797.jpg",
+        "mid_thumbnail": "./mid_thumbs/1047/IMG_2797.jpg",
+        "small_thumbnail": "./small_thumbs/1047/IMG_2797.jpg",
+        "images": [
+          {
+            "path": "./images/1047/IMG_2797.jpg",
+            "shootingDate": "2021-08-10T12:38:01",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂寛保地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1047/IMG_2797.jpg",
+            "small_thumbnail": "./small_thumbs/1047/IMG_2797.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "5",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -30724,8 +30529,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.592626444018,
-          36.26418047519093
+          139.59201098450274,
+          36.26561334446755
         ]
       }
     },
@@ -30734,42 +30539,54 @@
       "properties": {
         "fid": 1048,
         "area_no": "64",
-        "name": "地蔵菩薩（3）",
+        "name": "上新田釈迦堂明和地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "明和3年",
         "year": "1766",
         "place_1": "大島町",
         "place_2": "上新田",
         "detail": "釈迦堂境内",
-        "note_1": "石造",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "立像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 413,
+        "height": 125,
+        "shape": "台石上に立像",
+        "material": "石造",
+        "inscription": "明和三年二月吉日\n阿部太良左衞門",
+        "path": "./images/1048/IMG_2792.jpg",
+        "mid_thumbnail": "./mid_thumbs/1048/IMG_2792.jpg",
+        "small_thumbnail": "./small_thumbs/1048/IMG_2792.jpg",
+        "images": [
+          {
+            "path": "./images/1048/IMG_2792.jpg",
+            "shootingDate": "2021-08-10T12:37:07",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂明和地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1048/IMG_2792.jpg",
+            "small_thumbnail": "./small_thumbs/1048/IMG_2792.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "5",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -30777,8 +30594,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59252251487217,
-          36.26422932951991
+          139.5920128110994,
+          36.26569868304407
         ]
       }
     },
@@ -30787,51 +30604,63 @@
       "properties": {
         "fid": 1104,
         "area_no": "65",
-        "name": "中村家馬頭観世音",
+        "name": "上新田釈迦堂中村家馬頭観世音",
         "type": "馬頭観世音",
         "era": "寛政4年",
         "year": "1792",
         "place_1": "大島町",
         "place_2": "上新田",
         "detail": "釈迦堂境内",
-        "note_1": "柱型",
-        "note_2": "",
+        "note_1": "観音像の頭上部に馬頭の像あり",
+        "note_2": "数少ない馬頭観世音である",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 419,
+        "height": 78.5,
+        "width": 27.4,
+        "depth": 17.2,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "寛政四壬子七月十日\n中村氏",
+        "path": "./images/1104/IMG_2794.jpg",
+        "mid_thumbnail": "./mid_thumbs/1104/IMG_2794.jpg",
+        "small_thumbnail": "./small_thumbs/1104/IMG_2794.jpg",
+        "images": [
+          {
+            "path": "./images/1104/IMG_2794.jpg",
+            "shootingDate": "2021-08-10T12:37:18",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂中村家馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1104/IMG_2794.jpg",
+            "small_thumbnail": "./small_thumbs/1104/IMG_2794.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "17",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59248480577656,
-          36.26439695362124
+          139.59201066020023,
+          36.26566597400669
         ]
       }
     },
@@ -30840,51 +30669,72 @@
       "properties": {
         "fid": 1106,
         "area_no": "66",
-        "name": "松島家馬頭観世音",
+        "name": "上新田釈迦堂松島家馬頭観世音",
         "type": "馬頭観世音",
         "era": "明治19年",
         "year": "1886",
         "place_1": "大島町",
         "place_2": "上新田",
         "detail": "釈迦堂境内",
-        "note_1": "柱型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 418,
+        "height": 89,
+        "width": 28.7,
+        "depth": 27,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "馬頭観世音\n応智量盛信士\n応 明治十九年二月廿日\n馬 同 十九年十二月廿九日\n施主 松島常次郎",
+        "path": "./images/1106/IMG_2806.jpg",
+        "mid_thumbnail": "./mid_thumbs/1106/IMG_2806.jpg",
+        "small_thumbnail": "./small_thumbs/1106/IMG_2806.jpg",
+        "images": [
+          {
+            "path": "./images/1106/IMG_2807.jpg",
+            "shootingDate": "2021-08-10T12:40:33",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂松島家馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1106/IMG_2807.jpg",
+            "small_thumbnail": "./small_thumbs/1106/IMG_2807.jpg"
+          },
+          {
+            "path": "./images/1106/IMG_2806.jpg",
+            "shootingDate": "2021-08-10T12:40:27",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂松島家馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1106/IMG_2806.jpg",
+            "small_thumbnail": "./small_thumbs/1106/IMG_2806.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "18",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5924334564962,
-          36.264219827000225
+          139.59200972829655,
+          36.265523963433466
         ]
       }
     },
@@ -30893,14 +30743,14 @@
       "properties": {
         "fid": 1105,
         "area_no": "67",
-        "name": "釈迦堂馬頭観世音",
+        "name": "上新田釈迦堂文久馬頭観世音",
         "type": "馬頭観世音",
         "era": "文久2年",
         "year": "1862",
         "place_1": "大島町",
         "place_2": "上新田",
         "detail": "釈迦堂境内",
-        "note_1": "柱型",
+        "note_1": "欠損箇所が多い",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -30909,6 +30759,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 48,
+        "width": 23.5,
+        "depth": 14,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "文久二年十月□□日\n施主 □□□",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -30917,27 +30773,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "17",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59252980148608,
-          36.26442884696945
+          139.59200951242778,
+          36.265481923706275
         ]
       }
     },
@@ -30946,51 +30797,72 @@
       "properties": {
         "fid": 1123,
         "area_no": "68",
-        "name": "上新田十九夜念仏供養",
+        "name": "上新田釈迦堂十九夜念仏供養",
         "type": "月待塔",
         "era": "文化3年",
         "year": "1806",
         "place_1": "大島町",
         "place_2": "上新田",
         "detail": "釈迦堂境内",
-        "note_1": "柱型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 416,
+        "height": 179,
+        "width": 42.5,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "十九夜念仏供養 女人講中\n文化三丙寅年十月吉祥日\n上列邑楽郡北大島上新田",
+        "statue_height": 52,
+        "path": "./images/1123/IMG_2800.jpg",
+        "mid_thumbnail": "./mid_thumbs/1123/IMG_2800.jpg",
+        "small_thumbnail": "./small_thumbs/1123/IMG_2800.jpg",
+        "images": [
+          {
+            "path": "./images/1123/IMG_2801.jpg",
+            "shootingDate": "2021-08-10T12:39:02",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂十九夜念仏供養",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1123/IMG_2801.jpg",
+            "small_thumbnail": "./small_thumbs/1123/IMG_2801.jpg"
+          },
+          {
+            "path": "./images/1123/IMG_2800.jpg",
+            "shootingDate": "2021-08-10T12:38:52",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂十九夜念仏供養",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1123/IMG_2800.jpg",
+            "small_thumbnail": "./small_thumbs/1123/IMG_2800.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "22",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5926487015627,
-          36.264323677721464
+          139.59200983639738,
+          36.265594830498685
         ]
       }
     },
@@ -30999,42 +30871,54 @@
       "properties": {
         "fid": 1045,
         "area_no": "69",
-        "name": "阿弥陀如来",
+        "name": "上新田釈迦堂阿弥陀如来",
         "type": "如来像",
         "era": "寛文7年",
         "year": "1667年",
         "place_1": "大島町",
         "place_2": "上新田",
         "detail": "釈迦堂境内",
-        "note_1": "舟型、浮彫、石造",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "立像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 410,
+        "height": 127,
+        "shape": "舟型(上部欠損) 立像浮彫",
+        "material": "石造",
+        "inscription": "為念仏供養二世安楽也 諸主\n寛文七丁未十月十五日 敬白",
+        "path": "./images/1045/IMG_2796.jpg",
+        "mid_thumbnail": "./mid_thumbs/1045/IMG_2796.jpg",
+        "small_thumbnail": "./small_thumbs/1045/IMG_2796.jpg",
+        "images": [
+          {
+            "path": "./images/1045/IMG_2796.jpg",
+            "shootingDate": "2021-08-10T12:37:32",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂阿弥陀如来",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1045/IMG_2796.jpg",
+            "small_thumbnail": "./small_thumbs/1045/IMG_2796.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "4",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -31042,8 +30926,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59257991579736,
-          36.264403881469846
+          139.59200983639738,
+          36.26563556122441
         ]
       }
     },
@@ -31052,14 +30936,14 @@
       "properties": {
         "fid": 1049,
         "area_no": "70",
-        "name": "不動明王（1）",
+        "name": "上新田釈迦堂不動明王(1)",
         "type": "明王像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "上新田",
-        "detail": "釈迦堂境内",
-        "note_1": "木造",
+        "detail": "釈迦堂内",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31068,7 +30952,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 52,
         "shape": "立像",
+        "material": "木造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31077,17 +30964,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "5",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -31095,8 +30980,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5924892292409,
-          36.2642056633807
+          139.5920560106946,
+          36.265704554212824
         ]
       }
     },
@@ -31105,14 +30990,14 @@
       "properties": {
         "fid": 1050,
         "area_no": "71",
-        "name": "不動明王（2）",
+        "name": "上新田釈迦堂不動明王(2)",
         "type": "明王像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "上新田",
-        "detail": "釈迦堂境内",
-        "note_1": "木造",
+        "detail": "釈迦堂内",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31121,7 +31006,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 61,
         "shape": "立像",
+        "material": "木造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31130,17 +31018,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "5",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -31148,8 +31034,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59267747979248,
-          36.264419736381015
+          139.5920829911704,
+          36.265705479910075
         ]
       }
     },
@@ -31158,14 +31044,14 @@
       "properties": {
         "fid": 1051,
         "area_no": "72",
-        "name": "聖観音菩薩",
+        "name": "上新田釈迦堂聖観音菩薩",
         "type": "菩薩像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "上新田",
-        "detail": "釈迦堂境内",
-        "note_1": "木造",
+        "detail": "釈迦堂内",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31174,7 +31060,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "座像",
+        "height": 58,
+        "shape": "蓮台上に座像",
+        "material": "木造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31183,17 +31072,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "5",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -31201,8 +31088,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59249627811326,
-          36.26430509505195
+          139.5921105456989,
+          36.26570733130454
         ]
       }
     },
@@ -31211,14 +31098,14 @@
       "properties": {
         "fid": 1052,
         "area_no": "73",
-        "name": "釈迦如来",
+        "name": "上新田釈迦堂釈迦如来",
         "type": "如来像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "上新田",
-        "detail": "釈迦堂境内",
-        "note_1": "木造",
+        "detail": "釈迦堂内",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31227,7 +31114,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "座像",
+        "height": 110,
+        "shape": "蓮台上に座像",
+        "material": "木造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31236,17 +31126,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "6",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -31254,8 +31142,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59264183052542,
-          36.26426583228152
+          139.59213637806928,
+          36.26570640560732
         ]
       }
     },
@@ -31264,14 +31152,14 @@
       "properties": {
         "fid": 1053,
         "area_no": "74",
-        "name": "普賢菩薩",
+        "name": "上新田釈迦堂普賢菩薩",
         "type": "",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "上新田",
-        "detail": "釈迦堂境内",
-        "note_1": "木造",
+        "detail": "釈迦堂内",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31280,7 +31168,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "座像",
+        "height": 62,
+        "shape": "象上の蓮台に座像",
+        "material": "木造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31289,17 +31180,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "6",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -31307,8 +31196,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59242296404648,
-          36.26433251596675
+          139.59216163638706,
+          36.26570640560732
         ]
       }
     },
@@ -31323,45 +31212,57 @@
         "year": "1738",
         "place_1": "大島町",
         "place_2": "上新田",
-        "detail": "上新田釈迦堂境内",
-        "note_1": "柱型、文字",
+        "detail": "釈迦堂境内",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 414,
+        "height": 141,
+        "width": 36,
+        "depth": 27,
+        "shape": "蓮台 柱型 文字",
+        "material": "石造",
+        "inscription": "青面金剛\n上野国邑楽郡当村中\n青面金剛\n元文三戊午十一 吉日",
+        "path": "./images/1078/IMG_2804.jpg",
+        "mid_thumbnail": "./mid_thumbs/1078/IMG_2804.jpg",
+        "small_thumbnail": "./small_thumbs/1078/IMG_2804.jpg",
+        "images": [
+          {
+            "path": "./images/1078/IMG_2804.jpg",
+            "shootingDate": "2021-08-10T12:39:43",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1078/IMG_2804.jpg",
+            "small_thumbnail": "./small_thumbs/1078/IMG_2804.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "12",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59258914346577,
-          36.264219593158145
+          139.59201098450274,
+          36.265564282440465
         ]
       }
     },
@@ -31370,14 +31271,14 @@
       "properties": {
         "fid": 1079,
         "area_no": "76",
-        "name": "上新田釈迦堂庚申",
+        "name": "上新田釈迦堂萬延庚申",
         "type": "庚申",
         "era": "萬延元年",
         "year": "1860",
         "place_1": "大島町",
         "place_2": "上新田",
-        "detail": "上新田釈迦堂境内",
-        "note_1": "柱型、文字",
+        "detail": "釈迦堂境内",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31386,6 +31287,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 62,
+        "width": 24.5,
+        "depth": 18,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "庚申 萬延元庚申季十月吉日\n上劦邑楽郡上新田村",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31394,27 +31301,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "12",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.59262705215284,
-          36.26435709081173
+          139.59200951242778,
+          36.26544674710249
         ]
       }
     },
@@ -31655,14 +31557,14 @@
       "properties": {
         "fid": 1087,
         "area_no": "81",
-        "name": "笠原家屋敷庚申",
+        "name": "寄居笠原家屋敷庚申",
         "type": "庚申",
         "era": "寛政12年",
         "year": "1800",
         "place_1": "大島町",
         "place_2": "寄居",
-        "detail": "4778",
-        "note_1": "柱型、文字",
+        "detail": "",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31671,6 +31573,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 60,
+        "width": 25,
+        "depth": 16.5,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "□庚申 寛政十二歳 冬□□□□□",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31679,27 +31587,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "14",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57614179249705,
-          36.260392747274054
+          139.57730103460503,
+          36.26074926634776
         ]
       }
     },
@@ -31708,14 +31611,14 @@
       "properties": {
         "fid": 1069,
         "area_no": "82",
-        "name": "不動明王",
+        "name": "寄居不動明王",
         "type": "明王像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "寄居",
         "detail": "荒井守一家",
-        "note_1": "木造",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31724,7 +31627,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 44,
         "shape": "立像",
+        "material": "木造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31733,17 +31639,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "9",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -31751,8 +31655,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57590113482024,
-          36.26031870243586
+          139.576594648743,
+          36.260312050914955
         ]
       }
     },
@@ -31761,14 +31665,14 @@
       "properties": {
         "fid": 1088,
         "area_no": "83",
-        "name": "大出家庚申",
+        "name": "寄居大出家庚申",
         "type": "庚申",
         "era": "大正10年",
         "year": "1921",
         "place_1": "大島町",
         "place_2": "寄居",
-        "detail": "大出喜市家屋敷　769",
-        "note_1": "柱型",
+        "detail": "大出喜市家屋敷",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31777,6 +31681,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 96.5,
+        "width": 31,
+        "depth": 26,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "庚申塔 大正十年旧八月廿九日 大出氏",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31785,27 +31695,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "14",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5761012296364,
-          36.26024107025603
+          139.57632812714664,
+          36.260550889813324
         ]
       }
     },
@@ -31814,14 +31719,14 @@
       "properties": {
         "fid": 1114,
         "area_no": "84",
-        "name": "大出家馬頭観世音",
+        "name": "寄居大出家馬頭観世音",
         "type": "馬頭観世音",
         "era": "昭和15年",
         "year": "1940",
         "place_1": "大島町",
         "place_2": "寄居",
         "detail": "大出家屋敷",
-        "note_1": "柱型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31830,6 +31735,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 67.5,
+        "width": 23,
+        "depth": 15,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "馬頭観世音 昭和十五年十一月二日建立",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31838,27 +31749,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "19",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5759506489704,
-          36.26028381243508
+          139.57635504491637,
+          36.260618449624964
         ]
       }
     },
@@ -31973,14 +31879,14 @@
       "properties": {
         "fid": 1066,
         "area_no": "87",
-        "name": "大日如来",
+        "name": "明善寺大日如来",
         "type": "如来像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "寄居",
         "detail": "明善寺",
-        "note_1": "木造",
+        "note_1": "明善寺本尊",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31989,7 +31895,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 158,
         "shape": "座像",
+        "material": "木造",
+        "inscription": "不明",
+        "statue_height": 63,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31998,26 +31908,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "9",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57410761786784,
-          36.25992500230183
+          139.5741746504464,
+          36.26003113599956
         ]
       }
     },
@@ -32026,14 +31933,14 @@
       "properties": {
         "fid": 1067,
         "area_no": "88",
-        "name": "不動明王",
+        "name": "明善寺不動明王",
         "type": "明王像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "寄居",
         "detail": "明善寺",
-        "note_1": "木造",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -32042,7 +31949,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 166,
         "shape": "立像",
+        "material": "木造",
+        "inscription": "不明",
+        "statue_height": 97,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -32051,26 +31962,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "9",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57406742512967,
-          36.26012416928202
+          139.57419592863008,
+          36.26006182448446
         ]
       }
     },
@@ -32086,7 +31994,7 @@
         "place_1": "大島町",
         "place_2": "寄居",
         "detail": "明善寺境内",
-        "note_1": "自然石",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -32095,6 +32003,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 58.5,
+        "width": 37,
+        "depth": 13,
+        "shape": "自然石",
+        "material": "石造",
+        "inscription": "馬頭観世音 明治八年八月\n馬持",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -32103,27 +32017,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "19",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5742474933515,
-          36.260101293251616
+          139.57438779621452,
+          36.259987248755
         ]
       }
     },
@@ -32132,14 +32041,14 @@
       "properties": {
         "fid": 1068,
         "area_no": "90",
-        "name": "阿弥陀如来",
+        "name": "明善寺阿弥陀如来",
         "type": "如来像",
         "era": "享保11年",
         "year": "1726",
         "place_1": "大島町",
         "place_2": "寄居",
         "detail": "明善寺境内",
-        "note_1": "石造",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -32148,7 +32057,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "坐像",
+        "height": 170,
+        "shape": "蓮台上に坐像",
+        "material": "石造",
+        "inscription": "奉読誦一切経供養仏\n享保十一年十二月吉日",
+        "statue_height": 76,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -32157,26 +32070,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "9",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5742023424092,
-          36.25998472022636
+          139.57435342035467,
+          36.26000321277227
         ]
       }
     },
@@ -32185,14 +32095,14 @@
       "properties": {
         "fid": 1126,
         "area_no": "91",
-        "name": "寄居十九夜",
+        "name": "明善寺十九夜",
         "type": "月待塔",
         "era": "明治11年",
         "year": "1878",
         "place_1": "大島町",
         "place_2": "寄居",
         "detail": "明善寺境内",
-        "note_1": "柱型",
+        "note_1": "十九夜の文字の上に如意輪観音像がある 南向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -32201,6 +32111,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 151.5,
+        "width": 36,
+        "depth": 34.8,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "十九夜 女人講人 世話人村方",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -32209,27 +32125,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "23",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5741818032175,
-          36.26017158130788
+          139.57442087879585,
+          36.25996733578751
         ]
       }
     },
@@ -32351,35 +32262,65 @@
         "place_1": "大島町",
         "place_2": "寄居",
         "detail": "",
-        "note_1": "舟型、文字、二猿",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 436,
+        "height": 157,
+        "shape": "舟型 文字 二猿",
+        "material": "石造",
+        "inscription": "万治四辛丑年三月十日建之大出氏浜野氏諸衆敬白\n(以下略) 「庚申」の文字あり",
+        "path": "./images/1595/IMG_2894.jpg",
+        "mid_thumbnail": "./mid_thumbs/1595/IMG_2894.jpg",
+        "small_thumbnail": "./small_thumbs/1595/IMG_2894.jpg",
+        "images": [
+          {
+            "path": "./images/1595/IMG_2895.jpg",
+            "shootingDate": "2021-08-10T13:38:53",
+            "shooter": "Kohei Otsuka",
+            "description": "寄居二猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1595/IMG_2895.jpg",
+            "small_thumbnail": "./small_thumbs/1595/IMG_2895.jpg"
+          },
+          {
+            "path": "./images/1595/IMG_2896.jpg",
+            "shootingDate": "2021-08-10T13:39:02",
+            "shooter": "Kohei Otsuka",
+            "description": "寄居二猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1595/IMG_2896.jpg",
+            "small_thumbnail": "./small_thumbs/1595/IMG_2896.jpg"
+          },
+          {
+            "path": "./images/1595/IMG_2894.jpg",
+            "shootingDate": "2021-08-10T13:38:45",
+            "shooter": "Kohei Otsuka",
+            "description": "寄居二猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1595/IMG_2894.jpg",
+            "small_thumbnail": "./small_thumbs/1595/IMG_2894.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "13",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -32387,8 +32328,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57612137108927,
-          36.26020212075555
+          139.57906419639738,
+          36.259841539295856
         ]
       }
     },
@@ -33281,14 +33222,14 @@
       "properties": {
         "fid": 1095,
         "area_no": "110",
-        "name": "春昌寺庚申",
+        "name": "春昌寺萬延庚申",
         "type": "庚申",
         "era": "萬延元年",
         "year": "1860",
         "place_1": "大島町",
         "place_2": "正儀内",
         "detail": "春昌寺境内",
-        "note_1": "自然石、碑型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33297,6 +33238,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 202,
+        "width": 90,
+        "depth": 25,
+        "shape": "自然石 碑型",
+        "material": "石造",
+        "inscription": "庚申 萬延元年庚申十月之吉梧岡陽書 村中",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33305,27 +33252,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "15",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56650818387067,
-          36.26325419963833
+          139.56616105782615,
+          36.263268754785834
         ]
       }
     },
@@ -33334,14 +33276,14 @@
       "properties": {
         "fid": 1071,
         "area_no": "111",
-        "name": "六地蔵菩薩",
+        "name": "春昌寺六地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "正儀内",
         "detail": "春昌寺境内",
-        "note_1": "石造",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33350,7 +33292,10 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 59,
+        "shape": "柱型背面 立像浮彫",
+        "material": "石造",
+        "inscription": "なし",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33359,17 +33304,15 @@
           {
             "description": "",
             "note": "",
+            "pages": "9",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -33377,8 +33320,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56637150996963,
-          36.263447413880336
+          139.56618947802784,
+          36.263335369071505
         ]
       }
     },
@@ -33387,14 +33330,14 @@
       "properties": {
         "fid": 1072,
         "area_no": "112",
-        "name": "地蔵菩薩",
+        "name": "春昌寺地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "正徳4年",
         "year": "1714",
         "place_1": "大島町",
         "place_2": "正儀内",
         "detail": "春昌寺境内",
-        "note_1": "石造",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33403,7 +33346,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 229,
+        "shape": "蓮台上に立像",
+        "material": "石造",
+        "inscription": "有縁無縁 為 三界万霊\n正徳四甲午年月日\n施主惣村中",
+        "statue_height": 123,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33412,26 +33359,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "10",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56641681494193,
-          36.263267405574716
+          139.56617922708716,
+          36.26331508125717
         ]
       }
     },
@@ -33440,14 +33384,14 @@
       "properties": {
         "fid": 1099,
         "area_no": "113",
-        "name": "春昌寺庚申",
+        "name": "春昌寺三猿庚申",
         "type": "庚申",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "正儀内",
         "detail": "春昌寺境内",
-        "note_1": "舟型、青面金剛",
+        "note_1": "西向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33456,6 +33400,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 134.5,
+        "width": 51,
+        "depth": 35,
+        "shape": "舟型 像 青面金剛 三猿",
+        "material": "石造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33464,27 +33414,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "16",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56648092854442,
-          36.26319664715851
+          139.56616851305571,
+          36.26328829121133
         ]
       }
     },
@@ -33652,14 +33597,14 @@
       "properties": {
         "fid": 1094,
         "area_no": "117",
-        "name": "正儀内庚申",
+        "name": "正儀内寛政庚申",
         "type": "庚申",
         "era": "寛政12年",
         "year": "1800",
         "place_1": "大島町",
         "place_2": "正儀内",
         "detail": "大関家角",
-        "note_1": "柱型、文字",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33668,6 +33613,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 98.5,
+        "width": 26.5,
+        "depth": 15,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "庚申塔 寛政十二年庚申十月吉日 村中",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33676,27 +33627,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "15",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56729597741716,
-          36.2627290194232
+          139.56634371095055,
+          36.26485569773251
         ]
       }
     },
@@ -33705,14 +33651,14 @@
       "properties": {
         "fid": 1097,
         "area_no": "118",
-        "name": "板碑型庚申",
+        "name": "正儀内板碑型庚申",
         "type": "庚申",
         "era": "大正2年",
         "year": "1913",
         "place_1": "大島町",
         "place_2": "正儀内",
         "detail": "岩上家屋敷",
-        "note_1": "緑泥片岩",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33721,6 +33667,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 46,
+        "width": 20,
+        "shape": "緑泥片岩",
+        "material": "石造",
+        "inscription": "庚申 大正二年三月吉日岩上七彌立",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33729,27 +33680,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "16",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
-        "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5671408906884,
-          36.26286147923107
+          139.5667220638512,
+          36.26354301569652
         ]
       }
     },
@@ -33758,14 +33705,14 @@
       "properties": {
         "fid": 1119,
         "area_no": "119",
-        "name": "木村家馬頭観世音",
+        "name": "正儀内天保馬頭観世音",
         "type": "馬頭観世音",
         "era": "天保9年",
         "year": "1838",
         "place_1": "大島町",
         "place_2": "正儀内",
-        "detail": "渡瀬堤防",
-        "note_1": "柱型",
+        "detail": "渡良瀬堤防",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33774,6 +33721,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 46.7,
+        "width": 23.5,
+        "depth": 10.3,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "馬頭観世音 天保九戊戌九月吉日\n木村氏",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33782,27 +33735,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "20",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56734541159955,
-          36.26292923795669
+          139.56591539376439,
+          36.26552623808123
         ]
       }
     },
@@ -33811,14 +33759,14 @@
       "properties": {
         "fid": 1120,
         "area_no": "120",
-        "name": "正儀内馬頭観世音",
+        "name": "正儀内嘉永馬頭観世音",
         "type": "馬頭観世音",
         "era": "嘉永4年",
         "year": "1851",
         "place_1": "大島町",
         "place_2": "正儀内",
-        "detail": "渡瀬堤防",
-        "note_1": "柱型",
+        "detail": "渡良瀬堤防",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33827,6 +33775,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 142.5,
+        "width": 36,
+        "depth": 35,
+        "shape": "柱型 台石二段",
+        "material": "石造",
+        "inscription": "馬頭観世音 嘉永四辛亥年十一月吉日建之\n上野国邑楽郡北大島村字正儀内\n春昌二十二世代王乗□眼之\n惣村中\n鳥羽八郎兵衛 村役人\n 同 勘蔵 大 光 院\n小野嘉左ェ門 関根 又右門\n 同 吉右ェ門 久保田 善兵衛\n松島仲右ェ門 大塚 源左ェ門\n□□藤右ェ門 小野 八兵衛\n大関 兼太郎 田村八郎左ェ門\n秋山茂左ェ門 稲葉 ふ左ェ門\n木村金左ェ門 諏訪 六右ェ門\n菊地惣左ェ門 恩田 文右ェ門\n恩田 庄兵衛 松本 茂平治\n 同 庄三郎  同 卯平治\n荒井 源兵衛 亀田 □三郎\n      吉住 倉右ェ門\n細 井\n 阿部保右ェ門\n 渡辺 権之門\n 岩上彦左ェ門\n  同 重右ェ門\n梅園村\n 岩上 豊俊正",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33835,27 +33789,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "21",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56719629444422,
-          36.262893269265675
+          139.56558736366344,
+          36.26555028221691
         ]
       }
     },
@@ -33864,14 +33813,14 @@
       "properties": {
         "fid": 1098,
         "area_no": "121",
-        "name": "吉住家猿彦大神",
+        "name": "正儀内猿彦大神",
         "type": "",
         "era": "大正14年",
         "year": "1915",
         "place_1": "大島町",
         "place_2": "正儀内",
         "detail": "",
-        "note_1": "柱型",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33880,6 +33829,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 31,
+        "width": 19.5,
+        "depth": 15,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "猿彦大神 大正十四年三月十四日\n吉住喜一郎立",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33888,27 +33843,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "16",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56719697217076,
-          36.26272939633566
+          139.5662626353292,
+          36.26238961058101
         ]
       }
     },
@@ -33971,51 +33921,63 @@
       "properties": {
         "fid": 1100,
         "area_no": "123",
-        "name": "正儀内新田庚申",
+        "name": "正儀内新田三猿庚申",
         "type": "庚申",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "正儀内新田",
         "detail": "松本茂平治宅東",
-        "note_1": "舟型、青面金剛、三猿浮彫",
+        "note_1": "西向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2021/08/10",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 441,
+        "height": 124,
+        "width": 41,
+        "depth": 27,
+        "shape": "舟型 像 青面金剛 三猿浮彫",
+        "material": "石造",
+        "path": "./images/1100/IMG_2999.jpg",
+        "mid_thumbnail": "./mid_thumbs/1100/IMG_2999.jpg",
+        "small_thumbnail": "./small_thumbs/1100/IMG_2999.jpg",
+        "images": [
+          {
+            "path": "./images/1100/IMG_2999.jpg",
+            "shootingDate": "2021-08-10T14:49:51",
+            "shooter": "Kohei Otsuka",
+            "description": "正儀内新田庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1100/IMG_2999.jpg",
+            "small_thumbnail": "./small_thumbs/1100/IMG_2999.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "16",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
         "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56741192681454,
-          36.26276780846173
+          139.5616236187314,
+          36.26081839744604
         ]
       }
     },
@@ -34031,7 +33993,7 @@
         "place_1": "大島町",
         "place_2": "正儀内新田",
         "detail": "",
-        "note_1": "柱型、文字",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -34040,6 +34002,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 55,
+        "width": 24,
+        "depth": 21.5,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "庚申塔 明治四十一年七月二日立之\n代々長命祈 願主 恩田和吉",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -34048,27 +34016,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "15",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56739912216895,
-          36.26284363256236
+          139.5606991702652,
+          36.2610212818374
         ]
       }
     },
@@ -72297,13 +72260,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 407,
         "height": 44,
         "width": 21,
         "depth": 11.5,
         "shape": "柱型 文字",
         "material": "石造",
         "inscription": "(表)馬頭観世音\n(右)  大正十五年 立之\n   小暮末吉",
-        "primary_image": 407,
         "path": "./images/605/IMG_2592.jpg",
         "mid_thumbnail": "./mid_thumbs/605/IMG_2592.jpg",
         "small_thumbnail": "./small_thumbs/605/IMG_2592.jpg",
@@ -72371,13 +72334,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 409,
         "height": 46,
         "width": 34,
         "depth": 4.5,
         "shape": "自然石 碑型 文字 台石埋没",
         "material": "石造",
         "inscription": "(表)馬頭観世音\n  第二北光号\n(裏) 昭和十八年十二月\n  小暮末吉 建",
-        "primary_image": 409,
         "path": "./images/615/IMG_2590.jpg",
         "mid_thumbnail": "./mid_thumbs/615/IMG_2590.jpg",
         "small_thumbnail": "./small_thumbs/615/IMG_2590.jpg",
@@ -101923,6 +101886,88 @@
           36.22516763548861
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": null,
+        "area_no": null,
+        "name": null,
+        "type": "",
+        "era": null,
+        "year": "",
+        "place_1": null,
+        "place_2": null,
+        "detail": null,
+        "note_1": null,
+        "note_2": null,
+        "note_3": null,
+        "area": null,
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": null,
+        "primary_image": null,
+        "height": null,
+        "width": null,
+        "depth": null,
+        "shape": "",
+        "material": "",
+        "inscription": "",
+        "statue_height": null,
+        "color": null,
+        "contradiction": "",
+        "need_action": "",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": []
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": null,
+        "area_no": null,
+        "name": null,
+        "type": "",
+        "era": null,
+        "year": "",
+        "place_1": null,
+        "place_2": null,
+        "detail": null,
+        "note_1": null,
+        "note_2": null,
+        "note_3": null,
+        "area": null,
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": null,
+        "primary_image": null,
+        "height": null,
+        "width": null,
+        "depth": null,
+        "shape": "",
+        "material": "",
+        "inscription": "",
+        "statue_height": null,
+        "color": null,
+        "contradiction": "",
+        "need_action": "",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": []
+      },
+      "geometry": null
     }
   ]
 }

@@ -6615,6 +6615,216 @@
         "small_thumbnail": "./small_thumbs/1100/IMG_2999.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1101,
+        "path": "./images/1101/IMG_2745.jpg",
+        "shootingDate": "2021-08-10T11:47:46",
+        "shooter": "Kohei Otsuka",
+        "description": "観音堂峯木家馬頭観世音",
+        "note": "",
+        "fid": 442,
+        "mid_thumbnail": "./mid_thumbs/1101/IMG_2745.jpg",
+        "small_thumbnail": "./small_thumbs/1101/IMG_2745.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1103,
+        "path": "./images/1103/IMG_2774.jpg",
+        "shootingDate": "2021-08-10T12:28:26",
+        "shooter": "Kohei Otsuka",
+        "description": "岡里小林家馬頭観世音",
+        "note": "",
+        "fid": 443,
+        "mid_thumbnail": "./mid_thumbs/1103/IMG_2774.jpg",
+        "small_thumbnail": "./small_thumbs/1103/IMG_2774.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 283,
+        "path": "./images/283/IMG_2956.jpg",
+        "shootingDate": "2021-08-10T14:22:43",
+        "shooter": "Kohei Otsuka",
+        "description": "判官塚天保馬頭尊",
+        "note": "",
+        "fid": 444,
+        "mid_thumbnail": "./mid_thumbs/283/IMG_2956.jpg",
+        "small_thumbnail": "./small_thumbs/283/IMG_2956.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 283,
+        "path": "./images/283/IMG_2957.jpg",
+        "shootingDate": "2021-08-10T14:22:50",
+        "shooter": "Kohei Otsuka",
+        "description": "判官塚天保馬頭尊",
+        "note": "",
+        "fid": 445,
+        "mid_thumbnail": "./mid_thumbs/283/IMG_2957.jpg",
+        "small_thumbnail": "./small_thumbs/283/IMG_2957.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 288,
+        "path": "./images/288/IMG_2958.jpg",
+        "shootingDate": "2021-08-10T14:23:02",
+        "shooter": "Kohei Otsuka",
+        "description": "判官塚小暮馬頭観世音",
+        "note": "",
+        "fid": 446,
+        "mid_thumbnail": "./mid_thumbs/288/IMG_2958.jpg",
+        "small_thumbnail": "./small_thumbs/288/IMG_2958.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 291,
+        "path": "./images/291/IMG_2959.jpg",
+        "shootingDate": "2021-08-10T14:23:07",
+        "shooter": "Kohei Otsuka",
+        "description": "判官塚浜野馬頭観世音",
+        "note": "",
+        "fid": 447,
+        "mid_thumbnail": "./mid_thumbs/291/IMG_2959.jpg",
+        "small_thumbnail": "./small_thumbs/291/IMG_2959.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1124,
+        "path": "./images/1124/IMG_2862.jpg",
+        "shootingDate": "2021-08-10T13:20:25",
+        "shooter": "Kohei Otsuka",
+        "description": "山王日限地蔵前十九夜",
+        "note": "",
+        "fid": 448,
+        "mid_thumbnail": "./mid_thumbs/1124/IMG_2862.jpg",
+        "small_thumbnail": "./small_thumbs/1124/IMG_2862.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1124,
+        "path": "./images/1124/IMG_2865.jpg",
+        "shootingDate": "2021-08-10T13:20:45",
+        "shooter": "Kohei Otsuka",
+        "description": "山王日限地蔵前十九夜",
+        "note": "",
+        "fid": 449,
+        "mid_thumbnail": "./mid_thumbs/1124/IMG_2865.jpg",
+        "small_thumbnail": "./small_thumbs/1124/IMG_2865.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1124,
+        "path": "./images/1124/IMG_2866.jpg",
+        "shootingDate": "2021-08-10T13:20:54",
+        "shooter": "Kohei Otsuka",
+        "description": "山王日限地蔵前十九夜",
+        "note": "",
+        "fid": 450,
+        "mid_thumbnail": "./mid_thumbs/1124/IMG_2866.jpg",
+        "small_thumbnail": "./small_thumbs/1124/IMG_2866.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1124,
+        "path": "./images/1124/IMG_2863.jpg",
+        "shootingDate": "2021-08-10T13:20:33",
+        "shooter": "Kohei Otsuka",
+        "description": "山王日限地蔵前十九夜",
+        "note": "",
+        "fid": 451,
+        "mid_thumbnail": "./mid_thumbs/1124/IMG_2863.jpg",
+        "small_thumbnail": "./small_thumbs/1124/IMG_2863.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1060,
+        "path": "./images/1060/IMG_2867.jpg",
+        "shootingDate": "2021-08-10T13:21:02",
+        "shooter": "Kohei Otsuka",
+        "description": "山王地蔵菩薩",
+        "note": "",
+        "fid": 452,
+        "mid_thumbnail": "./mid_thumbs/1060/IMG_2867.jpg",
+        "small_thumbnail": "./small_thumbs/1060/IMG_2867.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 1060,
+        "path": "./images/1060/IMG_2868.jpg",
+        "shootingDate": "2021-08-10T13:21:15",
+        "shooter": "Kohei Otsuka",
+        "description": "山王地蔵菩薩",
+        "note": "",
+        "fid": 453,
+        "mid_thumbnail": "./mid_thumbs/1060/IMG_2868.jpg",
+        "small_thumbnail": "./small_thumbs/1060/IMG_2868.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 307,
+        "path": "./images/307/IMG_2901.jpg",
+        "shootingDate": "2021-08-10T13:43:29",
+        "shooter": "Kohei Otsuka",
+        "description": "田谷嘉永十九夜塔",
+        "note": "",
+        "fid": 454,
+        "mid_thumbnail": "./mid_thumbs/307/IMG_2901.jpg",
+        "small_thumbnail": "./small_thumbs/307/IMG_2901.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 308,
+        "path": "./images/308/IMG_2947.jpg",
+        "shootingDate": "2021-08-10T14:15:42",
+        "shooter": "Kohei Otsuka",
+        "description": "千塚十九夜塔",
+        "note": "",
+        "fid": 455,
+        "mid_thumbnail": "./mid_thumbs/308/IMG_2947.jpg",
+        "small_thumbnail": "./small_thumbs/308/IMG_2947.jpg"
+      },
+      "geometry": null
     }
   ]
 }
