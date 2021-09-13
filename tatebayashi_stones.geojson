@@ -27511,8 +27511,8 @@
       "properties": {
         "fid": 1138,
         "area_no": "11",
-        "name": "延宝宝篋印塔",
-        "type": "",
+        "name": "岡里延宝宝篋印塔",
+        "type": "宝篋印塔",
         "era": "延宝5年",
         "year": "1677",
         "place_1": "大島町",
@@ -27527,6 +27527,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "延宝五丁巳天\n 今月 今日\n道鏡 施主",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27535,15 +27538,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "26",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -27554,8 +27555,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5962199655998,
-          36.26467072818516
+          139.59604939237298,
+          36.26457170970115
         ]
       }
     },
@@ -27845,15 +27846,15 @@
       "properties": {
         "fid": 1153,
         "area_no": "17",
-        "name": "岡里道標",
+        "name": "元善定院道標",
         "type": "道標",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
         "place_2": "岡里",
-        "detail": "元善定院境内北西の角",
-        "note_1": "柱型",
-        "note_2": "",
+        "detail": "岡里区民会館前",
+        "note_1": "",
+        "note_2": "関沢竹司氏の話によると明治24年",
         "note_3": "",
         "area": "大島",
         "surveyed": "",
@@ -27861,6 +27862,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 37,
+        "width": 26,
+        "depth": 20,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "(右)南 いたくら\n(正)西 たてばやし\n(左)北 さの\n(背)東 ふじおか",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27877,27 +27884,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "28",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5959826816118,
-          36.265254044102555
+          139.5965480024698,
+          36.265524903987924
         ]
       }
     },
@@ -27906,14 +27908,14 @@
       "properties": {
         "fid": 1154,
         "area_no": "18",
-        "name": "根本神社前道標",
+        "name": "岡里根本神社前道標",
         "type": "道標",
         "era": "大正13年",
         "year": "1924",
         "place_1": "大島町",
         "place_2": "岡里",
-        "detail": "根本神社の辻",
-        "note_1": "柱型、コンクリート製",
+        "detail": "根本神社前",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -27922,6 +27924,12 @@
         "photo": "",
         "public_relations": "2013/12",
         "confirmed": false,
+        "height": 94,
+        "width": 19,
+        "depth": 19,
+        "shape": "柱型",
+        "material": "コンクリート製",
+        "inscription": "(右)御成婚記念 大正十三年一月二十六日大島村軍人会\n     仝 青年会\n     仝 淑女会\n(左)西→板倉雷電神社へ 約一里\n ←渡良瀬川堤防へ\n(背)北→郷谷村ヲヘテ館林町へ 約二里\n ←西谷田村ヲヘテ藤岡町へ 約三里",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -27938,27 +27946,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "29",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5972688336106,
-          36.26372468647493
+          139.59407752829847,
+          36.26351807458341
         ]
       }
     },
@@ -28214,15 +28217,15 @@
       "properties": {
         "fid": 1152,
         "area_no": "23",
-        "name": "観音堂境内道標",
+        "name": "観音堂道標",
         "type": "道標",
         "era": "天保7年",
         "year": "1836",
         "place_1": "大島町",
         "place_2": "観音",
         "detail": "観音堂境内",
-        "note_1": "柱型",
-        "note_2": "",
+        "note_1": "宝篋印塔の基礎石の中に入っている 下部破損",
+        "note_2": "元、岡里より南に行き用水堀を越えた大曲観音への三叉路に立っていた",
         "note_3": "",
         "area": "大島",
         "surveyed": "",
@@ -28230,6 +28233,12 @@
         "photo": "",
         "public_relations": "2014/06",
         "confirmed": false,
+        "height": 51,
+        "width": 21.5,
+        "depth": 14.5,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "(右)  □ノわたし\n北 まかどかし\n  さの\n(正)天保七丙申十二月\n観音 浜野伊右ェ門 立\n館林 山口伊右ェ門\n(左)東 ふじをか\n  [    ]\n(背)西 たてばやし\n  すぎのわたし",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -28246,6 +28255,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "28",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
@@ -28260,21 +28270,15 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.60206010542052,
-          36.25193212300035
+          139.60222050026596,
+          36.251635548624016
         ]
       }
     },
@@ -29451,8 +29455,8 @@
       "properties": {
         "fid": 1139,
         "area_no": "46",
-        "name": "寛永宝篋印塔（1）",
-        "type": "",
+        "name": "吉祥寺寛永二宝篋印塔",
+        "type": "宝篋印塔",
         "era": "寛永2年",
         "year": "1625",
         "place_1": "大島町",
@@ -29467,6 +29471,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "寛永二乙丑二月日\n    敬白\n以下不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29475,15 +29482,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "26",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -29494,8 +29499,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58036404777178,
-          36.263700042004835
+          139.58076062195923,
+          36.263703539160744
         ]
       }
     },
@@ -29504,8 +29509,8 @@
       "properties": {
         "fid": 1140,
         "area_no": "47",
-        "name": "寛永宝篋印塔（2）",
-        "type": "",
+        "name": "吉祥寺寛永十宝篋印塔",
+        "type": "宝篋印塔",
         "era": "寛永10年",
         "year": "1633",
         "place_1": "大島町",
@@ -29520,6 +29525,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "寛永十年九月七日\n為□□信女",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29528,15 +29536,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "26",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -29547,8 +29553,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58023917697992,
-          36.263744631278065
+          139.58075130292227,
+          36.26367198048493
         ]
       }
     },
@@ -29557,8 +29563,8 @@
       "properties": {
         "fid": 1141,
         "area_no": "48",
-        "name": "寛文宝篋印塔",
-        "type": "",
+        "name": "吉祥寺寛文宝篋印塔",
+        "type": "宝篋印塔",
         "era": "寛文5年",
         "year": "1665",
         "place_1": "大島町",
@@ -29573,6 +29579,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "寛文五年七月吉日",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29581,15 +29590,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "26",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -29600,8 +29607,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58015324623935,
-          36.26367487696294
+          139.5807438476927,
+          36.26364568157867
         ]
       }
     },
@@ -29610,8 +29617,8 @@
       "properties": {
         "fid": 1142,
         "area_no": "49",
-        "name": "吉祥寺宝篋印塔（1）",
-        "type": "",
+        "name": "吉祥寺塔身欠宝篋印塔",
+        "type": "宝篋印塔",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
@@ -29626,6 +29633,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29634,15 +29644,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "26",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -29653,8 +29661,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58013734702735,
-          36.26365920682725
+          139.58073452865574,
+          36.263611117288406
         ]
       }
     },
@@ -29663,8 +29671,8 @@
       "properties": {
         "fid": 1143,
         "area_no": "50",
-        "name": "吉祥寺宝篋印塔（2）",
-        "type": "",
+        "name": "吉祥寺相輪欠宝篋印塔",
+        "type": "宝篋印塔",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
@@ -29679,6 +29687,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29687,15 +29698,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "26",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -29706,8 +29715,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58035219514088,
-          36.26373068016283
+          139.58072520961878,
+          36.26357955857524
         ]
       }
     },
@@ -29716,8 +29725,8 @@
       "properties": {
         "fid": 1144,
         "area_no": "51",
-        "name": "吉祥寺宝篋印塔（3）",
-        "type": "",
+        "name": "吉祥寺笠部欠宝篋印塔",
+        "type": "宝篋印塔",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
@@ -29732,6 +29741,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29740,15 +29752,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "27",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -29759,8 +29769,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58036055997647,
-          36.263889364176855
+          139.5807196181966,
+          36.26370579335139
         ]
       }
     },
@@ -29769,8 +29779,8 @@
       "properties": {
         "fid": 1145,
         "area_no": "52",
-        "name": "吉祥寺宝篋印塔（4）",
-        "type": "",
+        "name": "吉祥寺塔身相輪欠宝篋印塔",
+        "type": "宝篋印塔",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
@@ -29785,6 +29795,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29793,15 +29806,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "27",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -29812,8 +29823,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58033661680213,
-          36.26365100791098
+          139.58071029915968,
+          36.26367573747081
         ]
       }
     },
@@ -29822,8 +29833,8 @@
       "properties": {
         "fid": 1146,
         "area_no": "53",
-        "name": "吉祥寺宝篋印塔（5）",
-        "type": "",
+        "name": "吉祥寺基礎欠宝篋印塔",
+        "type": "宝篋印塔",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
@@ -29838,6 +29849,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "不明",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -29846,15 +29860,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "27",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -29865,8 +29877,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5801683380603,
-          36.26369279361056
+          139.58069725250792,
+          36.26364417878375
         ]
       }
     },
@@ -30264,7 +30276,7 @@
         "place_1": "大島町",
         "place_2": "山王",
         "detail": "",
-        "note_1": "柱型、コンクリート製",
+        "note_1": "",
         "note_2": "",
         "note_3": "2014年調査で発見されず",
         "area": "大島",
@@ -30273,6 +30285,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 123,
+        "width": 18.5,
+        "depth": 18,
+        "shape": "柱型",
+        "material": "コンクリート製",
+        "inscription": "御成婚記念 大正十三年一月廿六日\n大島村\n 仝 青年会\n 仝 淑女会\n→西谷田村 藤岡町へ約二里\n←郷谷村 館林町へ約一里半",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -30289,27 +30307,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "29",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.58100718803138,
-          36.26281538407001
+          139.58169911278026,
+          36.26386545485567
         ]
       }
     },
@@ -31387,14 +31400,14 @@
       "properties": {
         "fid": 1567,
         "area_no": "78",
-        "name": "宝篋印塔基礎銘",
-        "type": "",
+        "name": "寄居十二社宝篋印塔",
+        "type": "宝篋印塔",
         "era": "応永7年",
         "year": "1400",
         "place_1": "大島町",
         "place_2": "寄居",
         "detail": "十二社権現神社",
-        "note_1": "基礎のみ現存",
+        "note_1": "基礎のみ現存 基礎銘25x20",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -31403,6 +31416,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "応永七\n庚辰\n三月二日\n咸□\n上人",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -31411,6 +31427,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "484",
             "name": "館林市史特別編第4巻 館林城と中近世の遺跡",
             "editor": "館林市史編さん委員会編",
             "publishedAt": 2010
@@ -31418,15 +31435,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "27",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -31437,8 +31452,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5761867143349,
-          36.26166398763015
+          139.57620361288687,
+          36.26140648508552
         ]
       }
     },
@@ -32202,8 +32217,8 @@
       "properties": {
         "fid": 1148,
         "area_no": "93",
-        "name": "正保宝篋印塔",
-        "type": "",
+        "name": "明善寺正保宝篋印塔",
+        "type": "宝篋印塔",
         "era": "正保3年",
         "year": "1644",
         "place_1": "大島町",
@@ -32218,6 +32233,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "正保三年",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -32226,15 +32244,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "27",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -32245,8 +32261,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57405476367148,
-          36.26016731078053
+          139.57439199210225,
+          36.260061433512476
         ]
       }
     },
@@ -32344,8 +32360,8 @@
         "year": "",
         "place_1": "大島町",
         "place_2": "寄居",
-        "detail": "寄居東端三叉路、小山自転車店前",
-        "note_1": "柱型",
+        "detail": "寄居東端三叉路",
+        "note_1": "小山自転車店前",
         "note_2": "",
         "note_3": "2014年調査で発見されず",
         "area": "大島",
@@ -32354,6 +32370,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 55,
+        "width": 18,
+        "depth": 12,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "北大島村笠原五左衛門\n東ふじをか\n すぎのわたし さの\n西たてばやし\n ひなた",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -32370,6 +32392,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "29",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
@@ -32384,21 +32407,15 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.57611323571797,
-          36.26021370143882
+          139.57824640958736,
+          36.260035498938734
         ]
       }
     },
@@ -33439,7 +33456,7 @@
         "fid": 1150,
         "area_no": "114",
         "name": "春昌寺宝篋印塔",
-        "type": "",
+        "type": "宝篋印塔",
         "era": "不明",
         "year": "",
         "place_1": "大島町",
@@ -33454,6 +33471,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "大禅\n芳雲院殿妙厳\n  定 尼",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33462,15 +33482,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "27",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -33481,8 +33499,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56653976988636,
-          36.26327980242643
+          139.56612507441713,
+          36.263311308998524
         ]
       }
     },
@@ -33491,14 +33509,14 @@
       "properties": {
         "fid": 1149,
         "area_no": "115",
-        "name": "寛文宝篋印塔",
-        "type": "",
+        "name": "春昌寺寛文宝篋印塔",
+        "type": "宝篋印塔",
         "era": "寛文5年",
         "year": "1665",
         "place_1": "大島町",
         "place_2": "正儀内",
         "detail": "春昌寺墓地",
-        "note_1": "刻銘は判読に疑問な点もある、植村家墓地",
+        "note_1": "刻銘は判読に疑問な点もある 植村家墓地",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -33507,6 +33525,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "寛[文]五乙[巳]\n □□三日\n□□院殿□□□□",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33515,15 +33536,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "27",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -33534,8 +33553,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56636549831137,
-          36.26322642144985
+          139.5661362572615,
+          36.26334737622212
         ]
       }
     },
@@ -33544,8 +33563,8 @@
       "properties": {
         "fid": 1151,
         "area_no": "116",
-        "name": "寛永宝篋印塔",
-        "type": "",
+        "name": "正儀内新田宝篋印塔",
+        "type": "宝篋印塔",
         "era": "寛永12年",
         "year": "1635",
         "place_1": "大島町",
@@ -33560,6 +33579,9 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "shape": "宝篋印塔",
+        "material": "石造",
+        "inscription": "寛永十二乙亥五月七日\n地真翁籠正禅尼",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -33568,15 +33590,13 @@
           {
             "description": "",
             "note": "",
+            "pages": "27",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
         "height": null,
@@ -33587,8 +33607,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56600039549465,
-          36.263778806002065
+          139.56166824499203,
+          36.26118556759006
         ]
       }
     },
@@ -34040,14 +34060,14 @@
       "properties": {
         "fid": 1158,
         "area_no": "125",
-        "name": "正儀内根無道標（1)",
+        "name": "正儀内根無嘉永道標",
         "type": "道標",
         "era": "嘉永7年",
         "year": "1854",
         "place_1": "大島町",
         "place_2": "正儀内根無",
         "detail": "",
-        "note_1": "柱型",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -34056,6 +34076,12 @@
         "photo": "",
         "public_relations": "2015/06",
         "confirmed": false,
+        "height": 55,
+        "width": 18,
+        "depth": 12,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "(右)左いいのいたくら\n(正)嘉永七甲寅正月日\n 北大嶋村\n  字正儀内\n   願主志\n(左)右たてばやし\n[かわ]また\n(背)向 さの くずう道",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -34072,6 +34098,7 @@
           {
             "description": "",
             "note": "",
+            "pages": "30",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
@@ -34086,21 +34113,15 @@
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56717075956254,
-          36.26286944299596
+          139.56976049453365,
+          36.261944113355014
         ]
       }
     },
@@ -34109,14 +34130,14 @@
       "properties": {
         "fid": 1159,
         "area_no": "126",
-        "name": "正儀内根無道標（2)",
+        "name": "正儀内根無大正道標",
         "type": "道標",
         "era": "大正13年",
         "year": "1924",
         "place_1": "大島町",
         "place_2": "正儀内根無",
         "detail": "",
-        "note_1": "柱型、コンクリート製",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "大島",
@@ -34125,6 +34146,12 @@
         "photo": "",
         "public_relations": "2014/12",
         "confirmed": false,
+        "height": 75,
+        "width": 18.5,
+        "depth": 18.5,
+        "shape": "柱型",
+        "material": "コンクリート製",
+        "inscription": "(正)御成婚記念 大正十三年一月廿六年\n大島村軍人会   仝　青年会\n      仝 淑女会\n(左)→郷谷村ヲヘテ赤羽村へ約一里\n←本村正儀内ヲヘテ館林町へ約一里\n(背)西中ノ渡ヲヘテ舟津川へ約五丁\n←山王ヲヘテ藤岡町へ約二里",
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -34141,27 +34168,22 @@
           {
             "description": "",
             "note": "",
+            "pages": "30",
             "name": "大島田谷千塚の石仏等の文化財",
             "editor": "落合敏男・小林一吉編",
             "publishedAt": 1972
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "statue_height": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.56721001638928,
-          36.26288833062042
+          139.5697157631562,
+          36.26196815859348
         ]
       }
     },
