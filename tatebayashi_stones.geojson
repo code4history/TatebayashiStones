@@ -81177,51 +81177,63 @@
       "properties": {
         "fid": 727,
         "area_no": "50",
-        "name": "延宝念仏阿弥陀尊",
-        "type": "",
+        "name": "常楽寺延宝念仏阿弥陀尊",
+        "type": "如来像",
         "era": "延宝8年",
         "year": "1680",
         "place_1": "木戸町",
         "place_2": "",
         "detail": "常楽寺入口",
-        "note_1": "舟型背面、浮彫",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
-        "surveyed": "",
+        "surveyed": "2021/08/11",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 456,
+        "height": 136,
+        "shape": "舟型背面 浮彫立像",
+        "material": "石造",
+        "inscription": "(表)奉造立念仏供養二世安楽処\n干時延宝第[八]庚申天八月吉日 敬白 木戸村一結施主",
+        "statue_height": 92,
+        "path": "./images/727/IMG_3427.jpg",
+        "mid_thumbnail": "./mid_thumbs/727/IMG_3427.jpg",
+        "small_thumbnail": "./small_thumbs/727/IMG_3427.jpg",
+        "images": [
+          {
+            "path": "./images/727/IMG_3427.jpg",
+            "shootingDate": "2021-08-11T14:08:44",
+            "shooter": "Kohei Otsuka",
+            "description": "常楽寺延宝念仏阿弥陀尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/727/IMG_3427.jpg",
+            "small_thumbnail": "./small_thumbs/727/IMG_3427.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "31",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.51399235493923,
-          36.27795853113301
+          139.5143983226336,
+          36.277499161677795
         ]
       }
     },
@@ -81230,51 +81242,81 @@
       "properties": {
         "fid": 730,
         "area_no": "51",
-        "name": "宝暦飯島聖観音",
+        "name": "常楽寺宝暦飯島聖観音",
         "type": "菩薩像",
         "era": "宝暦12年",
         "year": "1762",
         "place_1": "木戸町",
         "place_2": "",
         "detail": "常楽寺入口",
-        "note_1": "丸彫",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
-        "surveyed": "",
+        "surveyed": "2021/08/11",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "立像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "height": 232,
+        "shape": "丸彫 立像",
+        "material": "石造",
+        "inscription": "(塔表) 寶暦十二壬午天\n[梵字]為先祖代々菩提也\n 四月日\n(塔左) 施主 飯島氏",
+        "statue_height": 110,
+        "primary_image": 464,
+        "path": "./images/730/IMG_3430.jpg",
+        "mid_thumbnail": "./mid_thumbs/730/IMG_3430.jpg",
+        "small_thumbnail": "./small_thumbs/730/IMG_3430.jpg",
+        "images": [
+          {
+            "path": "./images/730/IMG_3431.jpg",
+            "shootingDate": "2021-08-11T14:09:26",
+            "shooter": "Kohei Otsuka",
+            "description": "常楽寺宝暦飯島聖観音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/730/IMG_3431.jpg",
+            "small_thumbnail": "./small_thumbs/730/IMG_3431.jpg"
+          },
+          {
+            "path": "./images/730/IMG_3432.jpg",
+            "shootingDate": "2021-08-11T14:09:35",
+            "shooter": "Kohei Otsuka",
+            "description": "常楽寺宝暦飯島聖観音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/730/IMG_3432.jpg",
+            "small_thumbnail": "./small_thumbs/730/IMG_3432.jpg"
+          },
+          {
+            "path": "./images/730/IMG_3430.jpg",
+            "shootingDate": "2021-08-11T14:09:13",
+            "shooter": "Kohei Otsuka",
+            "description": "常楽寺宝暦飯島聖観音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/730/IMG_3430.jpg",
+            "small_thumbnail": "./small_thumbs/730/IMG_3430.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "32",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.51383340964722,
-          36.277980521067164
+          139.5143861792116,
+          36.27749293196408
         ]
       }
     },
@@ -81336,42 +81378,63 @@
       "properties": {
         "fid": 729,
         "area_no": "53",
-        "name": "廻国聖観音",
+        "name": "常楽寺廻国聖観音",
         "type": "菩薩像",
         "era": "寛文10年",
         "year": "1670",
         "place_1": "木戸町",
         "place_2": "",
         "detail": "常楽寺境内",
-        "note_1": "舟型背面",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
-        "surveyed": "",
+        "surveyed": "2021/08/11",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "浮彫立像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 461,
+        "height": 121,
+        "shape": "舟型背面 浮彫立像",
+        "material": "石造",
+        "inscription": "(表) 西國卅三所 西田彦左衛門 □□□□\n 坂東卅三所 中村新右衛門 □□□□\n 秩父卅四所   □□□□\n奉納為二世安楽\n 寛文十年庚 小島長兵衛 今泉□衞門\n 戌十月吉日 川田清兵衛 □□□衞門",
+        "path": "./images/729/IMG_3413.jpg",
+        "mid_thumbnail": "./mid_thumbs/729/IMG_3413.jpg",
+        "small_thumbnail": "./small_thumbs/729/IMG_3413.jpg",
+        "images": [
+          {
+            "path": "./images/729/IMG_3407.jpg",
+            "shootingDate": "2021-08-11T14:02:46",
+            "shooter": "Kohei Otsuka",
+            "description": "常楽寺廻国聖観音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/729/IMG_3407.jpg",
+            "small_thumbnail": "./small_thumbs/729/IMG_3407.jpg"
+          },
+          {
+            "path": "./images/729/IMG_3413.jpg",
+            "shootingDate": "2021-08-11T14:03:34",
+            "shooter": "Kohei Otsuka",
+            "description": "常楽寺廻国聖観音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/729/IMG_3413.jpg",
+            "small_thumbnail": "./small_thumbs/729/IMG_3413.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "32",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
         "statue_height": null,
         "width": null,
         "depth": null
@@ -81379,8 +81442,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5137588181556,
-          36.27785940232546
+          139.51366695744468,
+          36.277680268137644
         ]
       }
     },
@@ -82078,51 +82141,81 @@
       "properties": {
         "fid": 728,
         "area_no": "67",
-        "name": "木戸阿?如来供養塔",
+        "name": "木戸阿閦如来供養塔",
         "type": "如来像",
         "era": "寛政3年",
         "year": "1791",
         "place_1": "木戸町",
         "place_2": "",
         "detail": "馬場火の見下",
-        "note_1": "自然石",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
-        "surveyed": "",
+        "surveyed": "2021/08/11",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 459,
+        "height": 120,
+        "width": 43,
+        "depth": 40,
+        "shape": "自然石",
+        "material": "石造",
+        "inscription": "(表)寛政三辛亥 願主\n[梵字]供養 惣村\n九月吉祥日\n(台表)東さの(佐野)\n南たてばやし\n(台右)北あしか加(足利)",
+        "statue_height": 90,
+        "path": "./images/728/IMG_3368.jpg",
+        "mid_thumbnail": "./mid_thumbs/728/IMG_3368.jpg",
+        "small_thumbnail": "./small_thumbs/728/IMG_3368.jpg",
+        "images": [
+          {
+            "path": "./images/728/IMG_3369.jpg",
+            "shootingDate": "2021-08-11T13:24:29",
+            "shooter": "Kohei Otsuka",
+            "description": "木戸阿閦如来供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/728/IMG_3369.jpg",
+            "small_thumbnail": "./small_thumbs/728/IMG_3369.jpg"
+          },
+          {
+            "path": "./images/728/IMG_3370.jpg",
+            "shootingDate": "2021-08-11T13:24:33",
+            "shooter": "Kohei Otsuka",
+            "description": "木戸阿閦如来供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/728/IMG_3370.jpg",
+            "small_thumbnail": "./small_thumbs/728/IMG_3370.jpg"
+          },
+          {
+            "path": "./images/728/IMG_3368.jpg",
+            "shootingDate": "2021-08-11T13:24:17",
+            "shooter": "Kohei Otsuka",
+            "description": "木戸阿閦如来供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/728/IMG_3368.jpg",
+            "small_thumbnail": "./small_thumbs/728/IMG_3368.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "32",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5191246811399,
-          36.27749670851877
+          139.5165029984566,
+          36.27789741734395
         ]
       }
     },
@@ -90467,7 +90560,7 @@
         "place_1": "日向町",
         "place_2": "",
         "detail": "宝生寺境内",
-        "note_1": "丸彫",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
@@ -90476,7 +90569,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "座像",
+        "height": 343,
+        "shape": "丸彫 座像",
+        "material": "石造",
+        "inscription": "(表)奉書写陀羅尼千巻\n宝篋印陀羅尼塔\n奉読誦陀羅尼千万巻\n(右)経云若人書写此経安置塔\n中者即為九千九百千万倶\n胝如来塔即為一切如来稱\n力所諛若人以一香一花禮\n拝供養八十億劫生死重罪\n業一時消滅免災殃死生佛\n家若應堕阿鼻地獄者一禮\n一達塞地獄門心得解脱得\n不退転無上菩提願主\n     亀井氏\n勵篤信為二世悉地造\n立宝\n塔冀以斯善平等利潤群生\n(左)(梵字 七文字)\n願以此功徳普及於一切\n我等與衆生皆共成佛道\n(裏)旹享保十三戊申次歲\n 上野國邑楽郡日向村\n  供養導師\n   宝生寺住 重誉\n    石工、足利下町\n  七月吉祥日\n   内田文右衛門",
+        "statue_height": 93,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -90485,26 +90582,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "31",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.49958605601046,
-          36.27048682141344
+          139.50792187283378,
+          36.275766678469175
         ]
       }
     },

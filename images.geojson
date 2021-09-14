@@ -6825,6 +6825,141 @@
         "small_thumbnail": "./small_thumbs/308/IMG_2947.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 727,
+        "path": "./images/727/IMG_3427.jpg",
+        "shootingDate": "2021-08-11T14:08:44",
+        "shooter": "Kohei Otsuka",
+        "description": "常楽寺延宝念仏阿弥陀尊",
+        "note": "",
+        "fid": 456,
+        "mid_thumbnail": "./mid_thumbs/727/IMG_3427.jpg",
+        "small_thumbnail": "./small_thumbs/727/IMG_3427.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 728,
+        "path": "./images/728/IMG_3369.jpg",
+        "shootingDate": "2021-08-11T13:24:29",
+        "shooter": "Kohei Otsuka",
+        "description": "木戸阿閦如来供養塔",
+        "note": "",
+        "fid": 457,
+        "mid_thumbnail": "./mid_thumbs/728/IMG_3369.jpg",
+        "small_thumbnail": "./small_thumbs/728/IMG_3369.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 728,
+        "path": "./images/728/IMG_3370.jpg",
+        "shootingDate": "2021-08-11T13:24:33",
+        "shooter": "Kohei Otsuka",
+        "description": "木戸阿閦如来供養塔",
+        "note": "",
+        "fid": 458,
+        "mid_thumbnail": "./mid_thumbs/728/IMG_3370.jpg",
+        "small_thumbnail": "./small_thumbs/728/IMG_3370.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 728,
+        "path": "./images/728/IMG_3368.jpg",
+        "shootingDate": "2021-08-11T13:24:17",
+        "shooter": "Kohei Otsuka",
+        "description": "木戸阿閦如来供養塔",
+        "note": "",
+        "fid": 459,
+        "mid_thumbnail": "./mid_thumbs/728/IMG_3368.jpg",
+        "small_thumbnail": "./small_thumbs/728/IMG_3368.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 729,
+        "path": "./images/729/IMG_3407.jpg",
+        "shootingDate": "2021-08-11T14:02:46",
+        "shooter": "Kohei Otsuka",
+        "description": "常楽寺廻国聖観音",
+        "note": "",
+        "fid": 460,
+        "mid_thumbnail": "./mid_thumbs/729/IMG_3407.jpg",
+        "small_thumbnail": "./small_thumbs/729/IMG_3407.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 729,
+        "path": "./images/729/IMG_3413.jpg",
+        "shootingDate": "2021-08-11T14:03:34",
+        "shooter": "Kohei Otsuka",
+        "description": "常楽寺廻国聖観音",
+        "note": "",
+        "fid": 461,
+        "mid_thumbnail": "./mid_thumbs/729/IMG_3413.jpg",
+        "small_thumbnail": "./small_thumbs/729/IMG_3413.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 730,
+        "path": "./images/730/IMG_3431.jpg",
+        "shootingDate": "2021-08-11T14:09:26",
+        "shooter": "Kohei Otsuka",
+        "description": "常楽寺宝暦飯島聖観音",
+        "note": "",
+        "fid": 462,
+        "mid_thumbnail": "./mid_thumbs/730/IMG_3431.jpg",
+        "small_thumbnail": "./small_thumbs/730/IMG_3431.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 730,
+        "path": "./images/730/IMG_3432.jpg",
+        "shootingDate": "2021-08-11T14:09:35",
+        "shooter": "Kohei Otsuka",
+        "description": "常楽寺宝暦飯島聖観音",
+        "note": "",
+        "fid": 463,
+        "mid_thumbnail": "./mid_thumbs/730/IMG_3432.jpg",
+        "small_thumbnail": "./small_thumbs/730/IMG_3432.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 730,
+        "path": "./images/730/IMG_3430.jpg",
+        "shootingDate": "2021-08-11T14:09:13",
+        "shooter": "Kohei Otsuka",
+        "description": "常楽寺宝暦飯島聖観音",
+        "note": "",
+        "fid": 464,
+        "mid_thumbnail": "./mid_thumbs/730/IMG_3430.jpg",
+        "small_thumbnail": "./small_thumbs/730/IMG_3430.jpg"
+      },
+      "geometry": null
     }
   ]
 }
