@@ -79692,12 +79692,12 @@
         "area_no": "23",
         "name": "休泊十一面観世音",
         "type": "菩薩像",
-        "era": "不明",
+        "era": "江戸後期",
         "year": "",
         "place_1": "北成島町",
         "place_2": "",
         "detail": "休泊墓域内",
-        "note_1": "丸彫",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
@@ -79706,7 +79706,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "坐像",
+        "height": 158,
+        "width": 52.5,
+        "depth": 32.5,
+        "shape": "丸彫 坐像",
+        "material": "石造",
+        "inscription": "(裏)天正六戊寅月生\n大谷休泊閏月居士覚位\n八月二十九日\n    願主 熊倉吉□",
+        "statue_height": 76,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -79715,26 +79721,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "33",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5069716249579,
-          36.25552663768629
+          139.50688328150713,
+          36.25562987817322
         ]
       }
     },
@@ -81258,12 +81259,12 @@
         "photo": "",
         "public_relations": "",
         "confirmed": true,
+        "primary_image": 464,
         "height": 232,
         "shape": "丸彫 立像",
         "material": "石造",
         "inscription": "(塔表) 寶暦十二壬午天\n[梵字]為先祖代々菩提也\n 四月日\n(塔左) 施主 飯島氏",
         "statue_height": 110,
-        "primary_image": 464,
         "path": "./images/730/IMG_3430.jpg",
         "mid_thumbnail": "./mid_thumbs/730/IMG_3430.jpg",
         "small_thumbnail": "./small_thumbs/730/IMG_3430.jpg",
@@ -81876,51 +81877,81 @@
       "properties": {
         "fid": 731,
         "area_no": "62",
-        "name": "聖観音普門品供養",
+        "name": "深諦寺聖観音普門品供養",
         "type": "菩薩像",
-        "era": "安政2年",
+        "era": "安政2年再建",
         "year": "1855",
         "place_1": "木戸町",
         "place_2": "",
         "detail": "深諦寺境内",
-        "note_1": "丸彫、文字",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
-        "surveyed": "",
+        "surveyed": "2021/08/11",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 467,
+        "height": 244,
+        "shape": "丸彫",
+        "material": "石造",
+        "inscription": "(台表)具一切功徳慈眼視衆生\n普門品供養\n福聚海無量是故應頂礼\n(台左)乃至法界平等普利\n上野國邑楽郡木戸村\n宝暦三癸酉年十月 日\n(台裏)願以此功徳普及所一切\n干時安政二乙卯年正月吉日\n當寺廿九世存空\n有因縁遷爰者也\n我等與衆生皆共成佛道\n(台右)導師 光明山主法印 慧寿\n本願 東光寺法印 宥海\n   宿東講中\n施入 惣村中\n   隣近村々",
+        "statue_height": 92,
+        "path": "./images/731/IMG_3449.jpg",
+        "mid_thumbnail": "./mid_thumbs/731/IMG_3449.jpg",
+        "small_thumbnail": "./small_thumbs/731/IMG_3449.jpg",
+        "images": [
+          {
+            "path": "./images/731/IMG_3450.jpg",
+            "shootingDate": "2021-08-11T14:18:47",
+            "shooter": "Kohei Otsuka",
+            "description": "深諦寺聖観音普門品供養",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/731/IMG_3450.jpg",
+            "small_thumbnail": "./small_thumbs/731/IMG_3450.jpg"
+          },
+          {
+            "path": "./images/731/IMG_3451.jpg",
+            "shootingDate": "2021-08-11T14:18:58",
+            "shooter": "Kohei Otsuka",
+            "description": "深諦寺聖観音普門品供養",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/731/IMG_3451.jpg",
+            "small_thumbnail": "./small_thumbs/731/IMG_3451.jpg"
+          },
+          {
+            "path": "./images/731/IMG_3449.jpg",
+            "shootingDate": "2021-08-11T14:18:37",
+            "shooter": "Kohei Otsuka",
+            "description": "深諦寺聖観音普門品供養",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/731/IMG_3449.jpg",
+            "small_thumbnail": "./small_thumbs/731/IMG_3449.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "33",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5148410375719,
-          36.27971170509984
+          139.51503804697796,
+          36.27988060664918
         ]
       }
     },
@@ -82283,8 +82314,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.51904274339606,
-          36.27742220183613
+          139.5165110482254,
+          36.27784083663929
         ]
       }
     },
@@ -88707,14 +88738,14 @@
       "properties": {
         "fid": 732,
         "area_no": "188",
-        "name": "長命観世音",
-        "type": "",
+        "name": "高根長命観世音",
+        "type": "菩薩像",
         "era": "明治22年",
         "year": "1889",
         "place_1": "西高根町",
         "place_2": "",
         "detail": "多々良農協前",
-        "note_1": "柱型、文字",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
@@ -88723,6 +88754,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 59,
+        "width": 22.5,
+        "depth": 14.5,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)長命観世音\n(左)当所 早川勘十郎建之\n(右)明治二十二年旧十一月二日亡\n此観世音ヲ念ズレバ安産うたがへ[な]し",
+        "statue_height": 44,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -88731,27 +88769,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "33",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.51302259286373,
-          36.26314590333657
+          139.51371557681543,
+          36.26304467540052
         ]
       }
     },
@@ -89445,14 +89477,14 @@
       "properties": {
         "fid": 748,
         "area_no": "201",
-        "name": "日向台口六地蔵尊",
+        "name": "日向台口六地蔵尊(1)",
         "type": "地蔵菩薩像",
         "era": "明和2年",
         "year": "1765",
         "place_1": "日向町",
-        "place_2": "",
+        "place_2": "台口",
         "detail": "日向共同墓地",
-        "note_1": "丸彫",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
@@ -89461,6 +89493,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
+        "height": 97,
+        "width": 21,
+        "depth": 15,
+        "shape": "丸彫",
+        "material": "石造",
+        "inscription": "(台表)[梵]爲貧窮者作如意宝當所村中\n(右)龍泉院母\n木村与兵衛妻\n木村与七郎母\n上山庄八妻\n(左)原松太郎母\n中嶋源七妻\n小林小兵衛妻\n中井十内母",
+        "statue_height": 49,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -89469,27 +89508,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "36",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50493912283486,
-          36.27633423185423
+          139.50487846809855,
+          36.27642587038628
         ]
       }
     },
@@ -89551,14 +89584,14 @@
       "properties": {
         "fid": 752,
         "area_no": "203",
-        "name": "逆修専誉念佛尊",
-        "type": "",
+        "name": "日向新田逆修専誉念西地蔵尊",
+        "type": "地蔵菩薩像",
         "era": "不明",
         "year": "",
         "place_1": "日向町",
-        "place_2": "",
+        "place_2": "日向新田",
         "detail": "日向新田共同墓地",
-        "note_1": "丸彫",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
@@ -89567,7 +89600,13 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 107,
+        "width": 27,
+        "depth": 18,
+        "shape": "丸彫 立像",
+        "material": "石造",
+        "inscription": "(表)逆修専誉念西 霊位",
+        "statue_height": 76,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -89576,26 +89615,21 @@
           {
             "description": "",
             "note": "",
+            "pages": "35",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
-        "contradiction": "",
-        "height": null,
-        "statue_height": null,
-        "width": null,
-        "depth": null
+        "contradiction": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50139279248458,
-          36.26663069917519
+          139.50161384703912,
+          36.266754551102025
         ]
       }
     },
@@ -89816,14 +89850,14 @@
       "properties": {
         "fid": 741,
         "area_no": "208",
-        "name": "享保首なし地蔵尊",
+        "name": "日向新田享保首なし地蔵尊",
         "type": "地蔵菩薩像",
         "era": "享保13年",
         "year": "1728",
         "place_1": "日向町",
-        "place_2": "",
-        "detail": "日向新田大日尊集会所",
-        "note_1": "丸彫",
+        "place_2": "日向新田",
+        "detail": "大日尊集会所",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
@@ -89832,7 +89866,11 @@
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "shape": "立像",
+        "height": 146,
+        "shape": "丸彫 立像",
+        "material": "石造",
+        "inscription": "(表)爲十方具越聖霊菩提也\n月 参 供 養 塔\n願以此功徳普及於一切\n我等輿衆生皆共成佛道\n(右)享保十三戊申七月吉日\n上野國邑楽郡日向村\n 願主 理白宗圓",
+        "statue_height": 74,
         "path": "",
         "mid_thumbnail": "",
         "small_thumbnail": "",
@@ -89841,26 +89879,23 @@
           {
             "description": "",
             "note": "",
+            "pages": "38",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.502019265158,
-          36.26542240534698
+          139.50216944455354,
+          36.2653863738407
         ]
       }
     },
@@ -90189,44 +90224,74 @@
         "place_1": "日向町",
         "place_2": "",
         "detail": "宝生寺",
-        "note_1": "地蔵、丸彫",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "多々良",
-        "surveyed": "",
+        "surveyed": "2021/08/11",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "shape": "座像",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "confirmed": true,
+        "primary_image": 475,
+        "height": 315,
+        "shape": "座像 丸彫",
+        "material": "石造",
+        "inscription": "(台右)經曰 未来世中若有善男\n子善女人聞是地藏菩薩\n摩訶薩名者或合掌者讚\n歎者作禮者或彩画形像\n或土石膠漆金銀銅銕作\n此菩薩像一瞻一禮者是\n人百返生於三十三天永\n不随於悪道尓時世尊説\n偈言吾観地蔵威神力恒\n河沙劫誰難盡見聞瞻禮\n一念間利益人天無量事\n(表)夫地蔵薩埵者殊勝功徳\n之伏蔵解脱珍寶之出處\n也広照行善之因同日之\n光耀速除煩惱之熱如月\n之清冷[小刀]利之付嘱是重\n囘方倭於元佛之時忍士\n之機緣最決於是奉彫刻\n地蔵大士之尊像而追薦\n歷代幽魂並蓮室妙華大\n姉之冥祉者也引導三有\n法界同一性故入阿字\n(左)(梵字十字)\n願以此功徳\n普及於一切\n我等與衆生\n皆共成佛道\n(裏)施主 上州邑楽郡日向村 亀井氏\n唱導 宝生寺住純高[タ]敬禮\n時 寬政七稔乙卯仲冬穀旦",
+        "statue_height": 85,
+        "path": "./images/750/IMG_3532.jpg",
+        "mid_thumbnail": "./mid_thumbs/750/IMG_3532.jpg",
+        "small_thumbnail": "./small_thumbs/750/IMG_3532.jpg",
+        "images": [
+          {
+            "path": "./images/750/IMG_3533.jpg",
+            "shootingDate": "2021-08-11T15:16:07",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/750/IMG_3533.jpg",
+            "small_thumbnail": "./small_thumbs/750/IMG_3533.jpg"
+          },
+          {
+            "path": "./images/750/IMG_3534.jpg",
+            "shootingDate": "2021-08-11T15:16:16",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/750/IMG_3534.jpg",
+            "small_thumbnail": "./small_thumbs/750/IMG_3534.jpg"
+          },
+          {
+            "path": "./images/750/IMG_3532.jpg",
+            "shootingDate": "2021-08-11T15:16:00",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/750/IMG_3532.jpg",
+            "small_thumbnail": "./small_thumbs/750/IMG_3532.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
+            "pages": "35",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": 1978
           }
         ],
         "status": "",
-        "material": "",
-        "inscription": "",
         "need_action": "",
         "contradiction": "",
-        "height": null,
-        "statue_height": null,
         "width": null,
         "depth": null
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.49960234901417,
-          36.270462059330995
+          139.50767685348137,
+          36.275470538324356
         ]
       }
     },
@@ -90278,8 +90343,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4995075169517,
-          36.270384948486544
+          139.5086287513207,
+          36.27645092811911
         ]
       }
     },
@@ -90331,8 +90396,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.49943257440543,
-          36.27059131061953
+          139.5083956334825,
+          36.27610011912788
         ]
       }
     },
@@ -90384,8 +90449,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.4995655415136,
-          36.27044052131448
+          139.5087997044021,
+          36.27564907667992
         ]
       }
     },
@@ -90437,8 +90502,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.49953402403978,
-          36.2704827106898
+          139.5086287513207,
+          36.27617529261585
         ]
       }
     },
@@ -90543,8 +90608,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.49950130309136,
-          36.27047441724857
+          139.508504421807,
+          36.27592471404111
         ]
       }
     },
@@ -90564,20 +90629,67 @@
         "note_2": "",
         "note_3": "",
         "area": "多々良",
-        "surveyed": "",
+        "surveyed": "2021/08/11",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
+        "confirmed": true,
+        "primary_image": 472,
         "height": 343,
         "shape": "丸彫 座像",
         "material": "石造",
         "inscription": "(表)奉書写陀羅尼千巻\n宝篋印陀羅尼塔\n奉読誦陀羅尼千万巻\n(右)経云若人書写此経安置塔\n中者即為九千九百千万倶\n胝如来塔即為一切如来稱\n力所諛若人以一香一花禮\n拝供養八十億劫生死重罪\n業一時消滅免災殃死生佛\n家若應堕阿鼻地獄者一禮\n一達塞地獄門心得解脱得\n不退転無上菩提願主\n     亀井氏\n勵篤信為二世悉地造\n立宝\n塔冀以斯善平等利潤群生\n(左)(梵字 七文字)\n願以此功徳普及於一切\n我等與衆生皆共成佛道\n(裏)旹享保十三戊申次歲\n 上野國邑楽郡日向村\n  供養導師\n   宝生寺住 重誉\n    石工、足利下町\n  七月吉祥日\n   内田文右衛門",
         "statue_height": 93,
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/726/IMG_3525.jpg",
+        "mid_thumbnail": "./mid_thumbs/726/IMG_3525.jpg",
+        "small_thumbnail": "./small_thumbs/726/IMG_3525.jpg",
+        "images": [
+          {
+            "path": "./images/726/IMG_3526.jpg",
+            "shootingDate": "2021-08-11T15:15:14",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺大日如来像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/726/IMG_3526.jpg",
+            "small_thumbnail": "./small_thumbs/726/IMG_3526.jpg"
+          },
+          {
+            "path": "./images/726/IMG_3527.jpg",
+            "shootingDate": "2021-08-11T15:15:20",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺大日如来像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/726/IMG_3527.jpg",
+            "small_thumbnail": "./small_thumbs/726/IMG_3527.jpg"
+          },
+          {
+            "path": "./images/726/IMG_3528.jpg",
+            "shootingDate": "2021-08-11T15:15:27",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺大日如来像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/726/IMG_3528.jpg",
+            "small_thumbnail": "./small_thumbs/726/IMG_3528.jpg"
+          },
+          {
+            "path": "./images/726/IMG_3529.jpg",
+            "shootingDate": "2021-08-11T15:15:38",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺大日如来像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/726/IMG_3529.jpg",
+            "small_thumbnail": "./small_thumbs/726/IMG_3529.jpg"
+          },
+          {
+            "path": "./images/726/IMG_3525.jpg",
+            "shootingDate": "2021-08-11T15:15:08",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺大日如来像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/726/IMG_3525.jpg",
+            "small_thumbnail": "./small_thumbs/726/IMG_3525.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -90597,8 +90709,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.50792187283378,
-          36.275766678469175
+          139.50780118299502,
+          36.27548619959996
         ]
       }
     },
@@ -90650,8 +90762,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.49943903989413,
-          36.27047705881859
+          139.50791385661688,
+          36.27648851470323
         ]
       }
     },
@@ -102084,6 +102196,286 @@
         "books": []
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1829,
+        "area_no": null,
+        "name": "日向台口六地蔵尊(2)",
+        "type": "地蔵菩薩像",
+        "era": "明和2年",
+        "year": "1765",
+        "place_1": "日向町",
+        "place_2": "台口",
+        "detail": "日向共同墓地",
+        "note_1": "東向き",
+        "note_2": null,
+        "note_3": null,
+        "area": "多々良",
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": false,
+        "primary_image": null,
+        "height": 95,
+        "width": 21,
+        "depth": 15,
+        "shape": "丸彫",
+        "material": "石造",
+        "inscription": "(台表)[梵]爲飢乏者作諸其果當所講中\n(右)原源右衛門妻\n亀井彦右衛門妻\n滝野瀬政右衛門妻\n原富次郎妻\n(左)堀越二郎左衛門妻\n長倉義左衛門母\n原孫右衛門母\n吉田宗八伯母",
+        "statue_height": 52,
+        "color": null,
+        "contradiction": "",
+        "need_action": "",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": [
+          {
+            "description": null,
+            "note": null,
+            "pages": "37",
+            "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
+            "editor": "館林石仏調査研究会編",
+            "publishedAt": 1978
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5048726401526,
+          36.276404727917964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1830,
+        "area_no": null,
+        "name": "日向台口六地蔵尊(3)",
+        "type": "地蔵菩薩像",
+        "era": "明和2年",
+        "year": "1765",
+        "place_1": "日向町",
+        "place_2": "台口",
+        "detail": "日向共同墓地",
+        "note_1": "東向き",
+        "note_2": null,
+        "note_3": null,
+        "area": "多々良",
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": false,
+        "primary_image": null,
+        "height": 101.5,
+        "width": 22,
+        "depth": 16,
+        "shape": "丸彫",
+        "material": "石造",
+        "inscription": "(台表)[梵]爲疾病者作良薬念佛講中\n(右)野村彦七妻\n滝野瀬伝蔵妻\n原三郎右衛門妻\n川嶋喜左衛門妻\n(左)原喜右衛門母\n内村八左衛門妻\n井上義兵衛妻\n木村宗右衛門妻",
+        "statue_height": 54.5,
+        "color": null,
+        "contradiction": "",
+        "need_action": "",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": [
+          {
+            "description": null,
+            "note": null,
+            "pages": "37",
+            "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
+            "editor": "館林石仏調査研究会編",
+            "publishedAt": 1978
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.50486681220664,
+          36.276382019334505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1831,
+        "area_no": null,
+        "name": "日向台口六地蔵尊(4)",
+        "type": "地蔵菩薩像",
+        "era": "明和2年",
+        "year": "1765",
+        "place_1": "日向町",
+        "place_2": "台口",
+        "detail": "日向共同墓地",
+        "note_1": "東向き",
+        "note_2": null,
+        "note_3": null,
+        "area": "多々良",
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": false,
+        "primary_image": null,
+        "height": 94,
+        "width": 20,
+        "depth": 15,
+        "shape": "丸彫",
+        "material": "石造",
+        "inscription": "(台表)[梵]爲利六堂持六輪鍋供養宝生寺高根\n(右)福田弥兵衛母\n時崎茂兵衛母\n遠藤茂左衛門妻\n中嶋伴助妻\n(左)中村孫七母\n林文次郎母\n石井六郎左衛門母\n原三郎左衛門妻",
+        "statue_height": 48,
+        "color": null,
+        "contradiction": "",
+        "need_action": "",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": [
+          {
+            "description": null,
+            "note": null,
+            "pages": "37",
+            "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
+            "editor": "館林石仏調査研究会編",
+            "publishedAt": 1978
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5048609842607,
+          36.27636087685432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1832,
+        "area_no": null,
+        "name": "日向台口六地蔵尊(5)",
+        "type": "地蔵菩薩像",
+        "era": "明和2年",
+        "year": "1765",
+        "place_1": "日向町",
+        "place_2": "台口",
+        "detail": "日向共同墓地",
+        "note_1": "東向き",
+        "note_2": null,
+        "note_3": null,
+        "area": "多々良",
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": false,
+        "primary_image": null,
+        "height": 98,
+        "width": 20,
+        "depth": 15,
+        "shape": "丸彫",
+        "material": "石造",
+        "inscription": "(台表)[梵]爲露形者作諸衣服當村女中\n(右)原忠兵衛母\n内藤文助母\n江原幸七母\n小林市兵衛妻\n(左)堀越藤右衛門妻\n原磯右衛門母\n原重兵衛妻\n大槻一郎右衛門母",
+        "statue_height": 51,
+        "color": null,
+        "contradiction": "",
+        "need_action": "",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": [
+          {
+            "description": null,
+            "note": null,
+            "pages": "38",
+            "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
+            "editor": "館林石仏調査研究会編",
+            "publishedAt": 1978
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.50485515631473,
+          36.276339734368406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1833,
+        "area_no": null,
+        "name": "日向台口六地蔵尊(6)",
+        "type": "地蔵菩薩像",
+        "era": "明和2年",
+        "year": "1765",
+        "place_1": "日向町",
+        "place_2": "台口",
+        "detail": "日向共同墓地",
+        "note_1": "東向き",
+        "note_2": null,
+        "note_3": null,
+        "area": "多々良",
+        "surveyed": null,
+        "description": null,
+        "photo": null,
+        "public_relations": null,
+        "confirmed": false,
+        "primary_image": null,
+        "height": 99,
+        "width": 21,
+        "depth": 15,
+        "shape": "丸彫",
+        "material": "石造",
+        "inscription": "(台表)明和二乙酉天\n爲熱腦者作清涼水\n正月吉日\n(右)原伝右衛門妻\n原伝兵衛母\n原九郎右衛門母\n原政次郎母\n原権右衛門母\n(左)中嶋市右衛門妻\n中嶋孫太郎母\n遠藤太兵衛妻\n堀越四郎左衛門母",
+        "statue_height": 51,
+        "color": null,
+        "contradiction": "",
+        "need_action": "",
+        "status": "",
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
+        "books": [
+          {
+            "description": null,
+            "note": null,
+            "pages": "38",
+            "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
+            "editor": "館林石仏調査研究会編",
+            "publishedAt": 1978
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.50484738572013,
+          36.2763131104891
+        ]
+      }
     }
   ]
 }

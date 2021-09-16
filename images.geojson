@@ -6960,6 +6960,171 @@
         "small_thumbnail": "./small_thumbs/730/IMG_3430.jpg"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 731,
+        "path": "./images/731/IMG_3450.jpg",
+        "shootingDate": "2021-08-11T14:18:47",
+        "shooter": "Kohei Otsuka",
+        "description": "深諦寺聖観音普門品供養",
+        "note": "",
+        "fid": 465,
+        "mid_thumbnail": "./mid_thumbs/731/IMG_3450.jpg",
+        "small_thumbnail": "./small_thumbs/731/IMG_3450.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 731,
+        "path": "./images/731/IMG_3451.jpg",
+        "shootingDate": "2021-08-11T14:18:58",
+        "shooter": "Kohei Otsuka",
+        "description": "深諦寺聖観音普門品供養",
+        "note": "",
+        "fid": 466,
+        "mid_thumbnail": "./mid_thumbs/731/IMG_3451.jpg",
+        "small_thumbnail": "./small_thumbs/731/IMG_3451.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 731,
+        "path": "./images/731/IMG_3449.jpg",
+        "shootingDate": "2021-08-11T14:18:37",
+        "shooter": "Kohei Otsuka",
+        "description": "深諦寺聖観音普門品供養",
+        "note": "",
+        "fid": 467,
+        "mid_thumbnail": "./mid_thumbs/731/IMG_3449.jpg",
+        "small_thumbnail": "./small_thumbs/731/IMG_3449.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 726,
+        "path": "./images/726/IMG_3526.jpg",
+        "shootingDate": "2021-08-11T15:15:14",
+        "shooter": "Kohei Otsuka",
+        "description": "宝生寺大日如来像",
+        "note": "",
+        "fid": 468,
+        "mid_thumbnail": "./mid_thumbs/726/IMG_3526.jpg",
+        "small_thumbnail": "./small_thumbs/726/IMG_3526.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 726,
+        "path": "./images/726/IMG_3527.jpg",
+        "shootingDate": "2021-08-11T15:15:20",
+        "shooter": "Kohei Otsuka",
+        "description": "宝生寺大日如来像",
+        "note": "",
+        "fid": 469,
+        "mid_thumbnail": "./mid_thumbs/726/IMG_3527.jpg",
+        "small_thumbnail": "./small_thumbs/726/IMG_3527.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 726,
+        "path": "./images/726/IMG_3528.jpg",
+        "shootingDate": "2021-08-11T15:15:27",
+        "shooter": "Kohei Otsuka",
+        "description": "宝生寺大日如来像",
+        "note": "",
+        "fid": 470,
+        "mid_thumbnail": "./mid_thumbs/726/IMG_3528.jpg",
+        "small_thumbnail": "./small_thumbs/726/IMG_3528.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 726,
+        "path": "./images/726/IMG_3529.jpg",
+        "shootingDate": "2021-08-11T15:15:38",
+        "shooter": "Kohei Otsuka",
+        "description": "宝生寺大日如来像",
+        "note": "",
+        "fid": 471,
+        "mid_thumbnail": "./mid_thumbs/726/IMG_3529.jpg",
+        "small_thumbnail": "./small_thumbs/726/IMG_3529.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 726,
+        "path": "./images/726/IMG_3525.jpg",
+        "shootingDate": "2021-08-11T15:15:08",
+        "shooter": "Kohei Otsuka",
+        "description": "宝生寺大日如来像",
+        "note": "",
+        "fid": 472,
+        "mid_thumbnail": "./mid_thumbs/726/IMG_3525.jpg",
+        "small_thumbnail": "./small_thumbs/726/IMG_3525.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 750,
+        "path": "./images/750/IMG_3533.jpg",
+        "shootingDate": "2021-08-11T15:16:07",
+        "shooter": "Kohei Otsuka",
+        "description": "宝生寺地蔵尊",
+        "note": "",
+        "fid": 473,
+        "mid_thumbnail": "./mid_thumbs/750/IMG_3533.jpg",
+        "small_thumbnail": "./small_thumbs/750/IMG_3533.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 750,
+        "path": "./images/750/IMG_3534.jpg",
+        "shootingDate": "2021-08-11T15:16:16",
+        "shooter": "Kohei Otsuka",
+        "description": "宝生寺地蔵尊",
+        "note": "",
+        "fid": 474,
+        "mid_thumbnail": "./mid_thumbs/750/IMG_3534.jpg",
+        "small_thumbnail": "./small_thumbs/750/IMG_3534.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 750,
+        "path": "./images/750/IMG_3532.jpg",
+        "shootingDate": "2021-08-11T15:16:00",
+        "shooter": "Kohei Otsuka",
+        "description": "宝生寺地蔵尊",
+        "note": "",
+        "fid": 475,
+        "mid_thumbnail": "./mid_thumbs/750/IMG_3532.jpg",
+        "small_thumbnail": "./small_thumbs/750/IMG_3532.jpg"
+      },
+      "geometry": null
     }
   ]
 }
