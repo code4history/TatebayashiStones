@@ -7088,7 +7088,7 @@
         "path": "./images/750/IMG_3533.jpg",
         "shootingDate": "2021-08-11T15:16:07",
         "shooter": "Kohei Otsuka",
-        "description": "宝生寺地蔵尊",
+        "description": "宝生寺寛政地蔵尊",
         "note": "",
         "fid": 473,
         "mid_thumbnail": "./mid_thumbs/750/IMG_3533.jpg",
@@ -7103,7 +7103,7 @@
         "path": "./images/750/IMG_3534.jpg",
         "shootingDate": "2021-08-11T15:16:16",
         "shooter": "Kohei Otsuka",
-        "description": "宝生寺地蔵尊",
+        "description": "宝生寺寛政地蔵尊",
         "note": "",
         "fid": 474,
         "mid_thumbnail": "./mid_thumbs/750/IMG_3534.jpg",
@@ -7118,11 +7118,71 @@
         "path": "./images/750/IMG_3532.jpg",
         "shootingDate": "2021-08-11T15:16:00",
         "shooter": "Kohei Otsuka",
-        "description": "宝生寺地蔵尊",
+        "description": "宝生寺寛政地蔵尊",
         "note": "",
         "fid": 475,
         "mid_thumbnail": "./mid_thumbs/750/IMG_3532.jpg",
         "small_thumbnail": "./small_thumbs/750/IMG_3532.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 737,
+        "path": "./images/737/IMG_3559.jpg",
+        "shootingDate": "2021-08-11T15:34:47",
+        "shooter": "Kohei Otsuka",
+        "description": "日向義民地蔵尊",
+        "note": "",
+        "fid": 476,
+        "mid_thumbnail": "./mid_thumbs/737/IMG_3559.jpg",
+        "small_thumbnail": "./small_thumbs/737/IMG_3559.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 737,
+        "path": "./images/737/IMG_3560.jpg",
+        "shootingDate": "2021-08-11T15:35:01",
+        "shooter": "Kohei Otsuka",
+        "description": "日向義民地蔵尊",
+        "note": "",
+        "fid": 477,
+        "mid_thumbnail": "./mid_thumbs/737/IMG_3560.jpg",
+        "small_thumbnail": "./small_thumbs/737/IMG_3560.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 753,
+        "path": "./images/753/IMG_3421.jpg",
+        "shootingDate": "2021-08-11T14:06:42",
+        "shooter": "Kohei Otsuka",
+        "description": "やきもち地蔵尊",
+        "note": "",
+        "fid": 478,
+        "mid_thumbnail": "./mid_thumbs/753/IMG_3421.jpg",
+        "small_thumbnail": "./small_thumbs/753/IMG_3421.jpg"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "poi": 753,
+        "path": "./images/753/IMG_3422.jpg",
+        "shootingDate": "2021-08-11T14:06:49",
+        "shooter": "Kohei Otsuka",
+        "description": "やきもち地蔵尊",
+        "note": "",
+        "fid": 479,
+        "mid_thumbnail": "./mid_thumbs/753/IMG_3422.jpg",
+        "small_thumbnail": "./small_thumbs/753/IMG_3422.jpg"
       },
       "geometry": null
     }
