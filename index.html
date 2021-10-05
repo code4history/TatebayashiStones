@@ -86,7 +86,7 @@
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
     <script>
-      MAP_CFG = {
+      const MAP_CFG = {
         accessToken:
           "pk.eyJ1IjoicmVraXNoaWtva3VkbyIsImEiOiJjazRoMmF3dncwODU2M2ttdzI2aDVqYXVwIn0.8Hb9sekgjfck6Setxk5uVg",
         style: "mapbox://styles/moritoru/ck4s6w8bd0sb51cpp9vn7ztty",
@@ -95,8 +95,11 @@
         minZoom: 5,
         maxZoom: 21,
         //    maxNativeZoom: 19,
+      };
+
+      const MARKER_CFG = {
         geoJson: "./tatebayashi_stones.geojson",
-        checkProperty: "name",
+        checkProperties: ["name"],
         icon: (point, latlng) => {
           const props = point.properties;
           let iconUrl = "./assets/sekihi.png";
@@ -168,6 +171,22 @@
           icon: "fa fa-crosshairs",
         })
         .addTo(mymap);
+
+      fetch(MARKER_CFG.geoJson)
+        .then(async (data) => data.json())
+        .then((geoData) => {
+          geoData.features.forEach((feature) => {
+            if (feature.geometry) {
+              const icon = MARKER_CFG.icon(
+                feature,
+                // source file coordinates are ordered by lnglat, but should be latlng.
+                feature.geometry.coordinates.reverse()
+              )
+                .bindPopup("popup content")
+                .addTo(mymap);
+            }
+          });
+        });
     </script>
   </body>
 </html>
