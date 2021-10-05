@@ -81,6 +81,10 @@
     </div>
 </script> -->
 
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
+    <script src="./assets/L.Control.Locate.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
     <script>
       MAP_CFG = {
         accessToken:
@@ -147,12 +151,23 @@
           });
         },
       };
-    </script>
 
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
-    <script src="./assets/L.Control.Locate.js"></script>
-    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
-    <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
-    <script src="./assets/geojson-popup.js"></script>
+      const mymap = L.map("mapid", {
+        maxZoom: MAP_CFG.maxZoom,
+      }).setView(MAP_CFG.latLng, MAP_CFG.zoom);
+
+      L.mapboxGL({
+        accessToken: MAP_CFG.accessToken,
+        style: MAP_CFG.style,
+        maxZoom: MAP_CFG.maxZoom,
+        minZoom: MAP_CFG.minZoom,
+      }).addTo(mymap);
+
+      L.control
+        .locate({
+          icon: "fa fa-crosshairs",
+        })
+        .addTo(mymap);
+    </script>
   </body>
 </html>
