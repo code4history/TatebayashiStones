@@ -36,55 +36,90 @@
       >Fork me on GitHub</a
     >
 
-    <!-- <script type="text/html" id="popup-template">
-    <div class="poi">
-        <h2><%= name %> (<%= area %> <% if (place_1) { %>/ <%= place_1 %> <% } %><% if (place_2) { %>/ <%= place_2 %> <% } %><% if (detail) { %>/ <%= detail %> <% } %>)</h2>
-        <% if (type) { %><b>種別:</b> <%= type %><br><% } %>
-        <a href="<%- path %>" target="_blank"><img class="represent" src="<%- mid_thumbnail %>"></a><br>
-        <b>年代:</b> <%= era %><% if (year) { %> (<%= year %>)<% } %><br>
-        <% if (shape) { %><b>形状:</b> <%= shape %><br><% } %>
-        <% if (note_1) { %><b>付帯情報:</b><%= note_1.replace(/\n/g,'<br>') %><br><% } %>
-        <% if (note_2) { %><b>伝承等:</b><%= note_2.replace(/\n/g,'<br>') %><br><% } %>
-        <% if (note_3) { %><b>調査時メモ:</b><%= note_3.replace(/\n/g,'<br>') %><br><% } %>
-        <% if (material) { %><b>材質:</b> <%= material %><br><% } %>
-        <% if (height) { %><b>総高:</b> <%= height %>cm<br><% } %>
-        <% if (statue_height) { %><b>像高:</b> <%= statue_height %>cm<br><% } %>
-        <% if (width) { %><b>幅:</b> <%= width %>cm<br><% } %>
-        <% if (depth) { %><b>奥行:</b> <%= depth %>cm<br><% } %>
-        <% if (inscription) { %><b>刻銘:</b> <%= inscription.replace(/\n/g,'<br>') %><br><% } %>
-        <b>最終現地調査日:</b> <% if (confirmed) { %><%= surveyed %><% } else { %>未調査<% } %><br>
-        <b>現況:</b> <% if (status == '消失') {%>喪失<% } else if (status == '消失?') { %>喪失疑い<% } else if (status == '新規発見') { %>新規追加(資料にない) <% }
-            else if (confirmed) { %>現存<% } else { %>不明(未調査)<% } %><br>
-        <% if (need_action) { %><b>アクション要:</b> <%= need_action %><br><% } %>
-        <% if (contradiction) { %><b>資料の矛盾:</b> <%= contradiction %><br><% } %>
-        <% if (status) { %><b>状況:</b> <%= status %><br><% } %>
-        <% if (books.length > 0) { %>
-        <b>言及資料:</b><br>
-        <ul class="parent">
-            <% books.map(function(book) { %>
-            <li><b><%= book.name %></b>(<%= book.editor %>, <%= book.publishedAt %>): <%= book.pages %>ページ</li>
-            <% }) %>
-        </ul>
-        <% } %>
-        <% if (images.length > 1) { %>
-        <b>その他の画像:</b><br>
-        <div class="parent">
-            <% images.map(function(image) { %>
-            <% if (image.path != path) { %>
-            <div class="child">
-                <div><a href="<%- image.path %>" target="_blank"><img src="<%- image.small_thumbnail %>"></a></div>
-            </div>
-            <% } %>
-            <% }) %>
-        </div>
-        <% } %>
-    </div>
-</script> -->
-
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
     <script src="./assets/L.Control.Locate.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
+    <script src="https://unpkg.com/handlebars/dist/handlebars.min.js"></script>
+    <script>
+      // https://stackoverflow.com/a/12397602
+      Handlebars.registerHelper("breaklines", (text) => {
+        text = Handlebars.Utils.escapeExpression(text);
+        text = text.replace(/(\r\n|\n|\r)/gm, "<br>");
+        return new Handlebars.SafeString(text);
+      });
+
+      // https://stackoverflow.com/a/31632215
+      Handlebars.registerHelper({
+        eq: (v1, v2) => v1 === v2,
+        ne: (v1, v2) => v1 !== v2,
+        lt: (v1, v2) => v1 < v2,
+        gt: (v1, v2) => v1 > v2,
+        lte: (v1, v2) => v1 <= v2,
+        gte: (v1, v2) => v1 >= v2,
+        and: () => Array.prototype.slice.call(arguments).every(Boolean),
+        or: () => Array.prototype.slice.call(arguments, 0, -1).some(Boolean),
+      });
+    </script>
+    <script>
+      let popup = `<div class="poi">`;
+      popup += `<h2>{{name}} (`;
+      popup += `{{area}}`;
+      popup += "{{#if place_1}} / {{place_1}} {{/if}}";
+      popup += "{{#if place_2}} / {{place_2}} {{/if}}";
+      popup += "{{#if detail}} / {{detail}} {{/if}}";
+      popup += `)</h2>`;
+      popup += `{{#if type}} <b>種別:</b> {{ type }} <br> {{/if}}`;
+      popup += `<a href="{{{ path }}}" target="_blank">
+              <img class="represent" src="{{{ mid_thumbnail }}}">
+            </a><br>`;
+      popup += `<b>年代:</b> {{ era }} {{#if year}} ({{ year }}) {{/if}}<br>`;
+      popup += `{{#if shape}}         <b>形状:</b> {{ shape }}<br> {{/if}}`;
+      popup += `{{#if note_1}}        <b>付帯情報:</b> {{ breaklines note_1 }}<br> {{/if}}`;
+      popup += `{{#if note_2}}        <b>伝承等:</b> {{ breaklines note_2 }}<br> {{/if}}`;
+      popup += `{{#if note_3}}        <b>調査時メモ:</b> {{ breaklines note_3 }}<br> {{/if}}`;
+      popup += `{{#if material}}      <b>材質:</b> {{ material }}<br> {{/if}}`;
+      popup += `{{#if height}}        <b>総高:</b> {{ height }}cm<br> {{/if}}`;
+      popup += `{{#if statue_height}} <b>像高:</b> {{ statue_height }}cm<br> {{/if}}`;
+      popup += `{{#if width}}         <b>幅:</b> {{ width }}cm<br> {{/if}}`;
+      popup += `{{#if depth}}         <b>奥行:</b> {{ depth }}cm<br> {{/if}}`;
+      popup += `{{#if inscription}}   <b>刻銘:</b> {{ breaklines inscription }}<br> {{/if}}`;
+      popup += `<b>最終現地調査日:</b> {{#if confirmed }} {{ surveyed }} {{else}} 未調査 {{/if}}<br>`;
+      popup += `<b>現況:</b>
+        {{#if (eq status '消失')}} 喪失
+        {{else if (eq status '消失?')}} 喪失疑い
+        {{else if (eq status '新規発見')}} 新規追加(資料にない)
+        {{else if confirmed }} 現存
+        {{else}} 不明(未調査) {{/if}}<br>`;
+      popup += `{{#if need_action }}   <b>アクション要:</b> {{need_action}} <br> {{/if}}`;
+      popup += `{{#if contradiction }} <b>資料の矛盾:</b> {{contradiction}} <br> {{/if}}`;
+      popup += `{{#if status }}        <b>状況:</b> {{status}} <br> {{/if}}`;
+      popup += `<b>言及資料:</b><br>`;
+      popup += `<ul class="parent">
+        {{#each books}}
+          <li><b>{{this.name}}</b>({{this.editor}}, {{this.publishedAt}}): {{this.pages}}ページ</li>
+        {{/each}}
+      </ul>`;
+
+      popup += `{{#if (gt images.length 1)}}
+        <b>その他の画像:</b><br>
+        <div class="parent">
+          {{#each images}}
+            {{#if (ne image.path path)}}
+              <div class="child">
+                <div>
+                  <a href="{{{this.path}}}" target="_blank">
+                    <img src="{{{this.small_thumbnail}}}">
+                  </a>
+                </div>
+              </div>
+            {{/if}}
+          {{/each}}
+        </div>
+      {{/if}}`;
+      popup += `</div>`;
+      const popupTemplate = Handlebars.compile(popup);
+    </script>
     <script>
       const MAP_CFG = {
         accessToken:
@@ -182,7 +217,7 @@
                 // source file coordinates are ordered by lnglat, but should be latlng.
                 feature.geometry.coordinates.reverse()
               )
-                .bindPopup("popup content")
+                .bindPopup(popupTemplate(feature.properties))
                 .addTo(mymap);
             }
           });
