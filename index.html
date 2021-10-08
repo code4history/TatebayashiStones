@@ -58,59 +58,6 @@
       const MARKER_CFG = {
         geoJson: "./tatebayashi_stones.geojson",
         checkProperties: ["name"],
-        icon: (point, latlng) => {
-          const props = point.properties;
-          let iconUrl = "./assets/sekihi.png";
-          let width = 32;
-          let height = 32;
-          if (props.type.match("地蔵菩薩像")) {
-            iconUrl = "./assets/jizo.png";
-            width = 23;
-          } else if (
-            props.type.match("その他仏像") ||
-            props.type.match("明王像") ||
-            props.type.match("菩薩像") ||
-            props.type.match("如来像")
-          ) {
-            iconUrl = "./assets/hotoke.png";
-            width = 29;
-          } else if (props.type.match("庚申")) {
-            iconUrl = "./assets/sanzaru.png";
-            width = 24;
-          } else if (props.type.match("馬頭観世音")) {
-            iconUrl = "./assets/bato.png";
-            width = 23;
-          } else if (
-            props.type.match("月待塔") ||
-            props.type.match("如意輪観音像")
-          ) {
-            iconUrl = "./assets/19ya.png";
-            width = 32;
-          }
-
-          if (props.status.match("消失")) {
-            iconUrl = iconUrl.replace(".png", "_sepia.png");
-            height = 24;
-            width = Math.round((width * 24) / 32);
-          } else if (
-            props.need_action ||
-            !props.confirmed ||
-            props.contradiction
-          ) {
-            iconUrl = iconUrl.replace(".png", "_surprise.png");
-            height = 24;
-            width = Math.round((width * 24) / 32);
-          }
-
-          return L.marker(latlng, {
-            icon: L.icon({
-              iconUrl: iconUrl,
-              iconSize: [width, height],
-              iconAnchor: [width / 2, height],
-              popupAnchor: [0, -1 * height],
-            }),
-          });
-        },
       };
 
       const mymap = L.map("mapid", {
