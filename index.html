@@ -45,6 +45,42 @@
     <script src="./assets/popup_template.js"></script>
     <script src="./assets/icon_template.js"></script>
     <script>
+      // geojson
+      // {
+      //   ...,
+      //   "features": [
+      //     {
+      //       ...,
+      //       "properties": {
+      //         "type": "jizo"
+      //       }
+      //     }
+      //   ],
+      //   ...
+      // }
+
+      // templates
+      // {
+      //   "pin": "{{{type}}}.png",
+      // }
+
+      // return: embed geojson
+      // {
+      //   ...,
+      //   "features": [
+      //     {
+      //       ...,
+      //       "properties": {
+      //         "type": "jizo"
+      //       },
+      //       "results": {
+      //         "ping": "jizo.png"
+      //       }
+      //     }
+      //   ],
+      //   ...
+      // }
+
       const templateExtractor = ({ geojson, templates }) => {
         const compiledTemplates = {};
         for (const [key, templateRaw] of Object.entries(templates)) {
