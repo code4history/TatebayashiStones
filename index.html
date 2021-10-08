@@ -43,6 +43,24 @@
     <script src="https://unpkg.com/handlebars/dist/handlebars.min.js"></script>
     <script src="./assets/handlebars_helper.js"></script>
     <script src="./assets/popup_template.js"></script>
+    <script src="./assets/icon_template.js"></script>
+    <script>
+      const templateExtractor = ({ geojson, templates }) => {
+        const compiledTemplates = {};
+        for (const [key, templateRaw] of Object.entries(templates)) {
+          compiledTemplates[key] = Handlebars.compile(templateRaw);
+        }
+
+        geojson.features.forEach((feature) => {
+          for (const key of Object.keys(templates)) {
+            feature.result = {};
+            feature.result[key] = compiledTemplates[key](feature.properties);
+          }
+        });
+
+        return geojson;
+      };
+    </script>
     <script>
       const MAP_CFG = {
         accessToken:
@@ -57,7 +75,6 @@
 
       const MARKER_CFG = {
         geoJson: "./tatebayashi_stones.geojson",
-        checkProperties: ["name"],
       };
 
       const mymap = L.map("mapid", {
@@ -79,16 +96,27 @@
 
       fetch(MARKER_CFG.geoJson)
         .then(async (data) => data.json())
-        .then((geoData) => {
-          geoData.features.forEach((feature) => {
+        .then((geojson) => {
+          return templateExtractor({
+            geojson,
+            templates: {
+              pin: "{{{type}}}.png",
+              selected_pin: "{{{type}}}_selected.png",
+              html: popupHtmlTemplate,
+            },
+          });
+        })
+        .then((geojson) => {
+          geojson.features.forEach((feature) => {
             if (feature.geometry) {
-              const icon = MARKER_CFG.icon(
-                feature,
-                // source file coordinates are ordered by lnglat, but should be latlng.
-                feature.geometry.coordinates.reverse()
-              )
-                .bindPopup(popupTemplate(feature.properties))
-                .addTo(mymap);
+              const iconOptions = createIcon(feature.properties);
+
+              // source file coordinates are ordered by lnglat, but should be latlng.
+              const marker = L.marker(feature.geometry.coordinates.reverse(), {
+                icon: L.icon(iconOptions),
+              }).bindPopup(feature.result.html);
+
+              marker.addTo(mymap);
             }
           });
         });
