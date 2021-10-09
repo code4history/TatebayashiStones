@@ -44,6 +44,7 @@
     <script src="./assets/handlebars_helper.js"></script>
     <script src="./assets/popup_template.js"></script>
     <script src="./assets/icon_template.js"></script>
+    <script src="./assets/twitter_Intent_url.js"></script>
     <script>
       // geojson
       // {
@@ -156,6 +157,23 @@
             }
           });
         });
+
+      mymap.on("click", (e) => {
+        const text = `緯度:${e.latlng.lat}, 経度:${e.latlng.lng}`;
+
+        const href = createTwitterIntentUrl({
+          text,
+          url: "https://code4history.dev/TatebayashiStones/",
+          hashtags: [],
+        });
+        const aTag = `<a href="${href}" target="_blank" rel="noreferrer">Twitterで投稿する</a>`;
+        const content = `緯度:${e.latlng.lat}, 経度:${e.latlng.lng} ${aTag}`;
+
+        const marker = L.marker(e.latlng, {
+          draggable: true,
+        }).bindPopup(content);
+        marker.addTo(mymap);
+      });
     </script>
   </body>
 </html>
