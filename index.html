@@ -45,6 +45,7 @@
     <script src="./assets/popup_template.js"></script>
     <script src="./assets/icon_template.js"></script>
     <script src="./assets/twitter_Intent_url.js"></script>
+    <script src="./assets/oms.min.js"></script>
     <script>
       // geojson
       // {
@@ -131,6 +132,11 @@
         })
         .addTo(mymap);
 
+      // see here: https://github.com/Fallstop/OverlappingMarkerSpiderfier-Leaflet#construction
+      const oms = new OverlappingMarkerSpiderfier(mymap, L, {
+        keepSpiderfied: true,
+      });
+
       fetch(MARKER_CFG.geoJson)
         .then(async (data) => data.json())
         .then((geojson) => {
@@ -154,9 +160,14 @@
               }).bindPopup(feature.result.html);
 
               marker.addTo(mymap);
+              oms.addMarker(marker);
             }
           });
         });
+
+      oms.addListener("spiderfy", (markers) => {
+        mymap.closePopup();
+      });
 
       mymap.on("click", (e) => {
         const ok = window.confirm(
