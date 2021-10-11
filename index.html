@@ -159,6 +159,10 @@
         });
 
       mymap.on("click", (e) => {
+        const ok = window.confirm(
+          "POIの新規申請を行いますか？\nOKをクリックすると、マーカーが生成されるので任意の地点にドラッグして動かし、マーカーをクリックしたのち申請してください。"
+        );
+        if (!ok) return;
         const createContent = (latlng) => {
           const text = `緯度:${latlng.lat}, 経度:${latlng.lng}`;
           const href = createTwitterIntentUrl({
