@@ -1,125 +1,161 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    />
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/L.Control.Locate.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
-</head>
-<body>
-<div id="mapid"></div>
+  </head>
+  <body>
+    <div id="mapid"></div>
 
-<a class="github-fork-ribbon" href="https://github.com/code4history/TatebayashiStones" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+    <a
+      class="github-fork-ribbon"
+      href="https://github.com/code4history/TatebayashiStones"
+      data-ribbon="Fork me on GitHub"
+      title="Fork me on GitHub"
+      >Fork me on GitHub</a
+    >
 
-<script type="text/html" id="popup-template">
-    <div class="poi">
-        <h2><%= name %> (<%= area %> <% if (place_1) { %>/ <%= place_1 %> <% } %><% if (place_2) { %>/ <%= place_2 %> <% } %><% if (detail) { %>/ <%= detail %> <% } %>)</h2>
-        <% if (type) { %><b>種別:</b> <%= type %><br><% } %>
-        <a href="<%- path %>" target="_blank"><img class="represent" src="<%- mid_thumbnail %>"></a><br>
-        <b>年代:</b> <%= era %><% if (year) { %> (<%= year %>)<% } %><br>
-        <% if (shape) { %><b>形状:</b> <%= shape %><br><% } %>
-        <% if (note_1) { %><b>付帯情報:</b><%= note_1.replace(/\n/g,'<br>') %><br><% } %>
-        <% if (note_2) { %><b>伝承等:</b><%= note_2.replace(/\n/g,'<br>') %><br><% } %>
-        <% if (note_3) { %><b>調査時メモ:</b><%= note_3.replace(/\n/g,'<br>') %><br><% } %>
-        <% if (material) { %><b>材質:</b> <%= material %><br><% } %>
-        <% if (height) { %><b>総高:</b> <%= height %>cm<br><% } %>
-        <% if (statue_height) { %><b>像高:</b> <%= statue_height %>cm<br><% } %>
-        <% if (width) { %><b>幅:</b> <%= width %>cm<br><% } %>
-        <% if (depth) { %><b>奥行:</b> <%= depth %>cm<br><% } %>
-        <% if (inscription) { %><b>刻銘:</b> <%= inscription.replace(/\n/g,'<br>') %><br><% } %>
-        <b>最終現地調査日:</b> <% if (confirmed) { %><%= surveyed %><% } else { %>未調査<% } %><br>
-        <b>現況:</b> <% if (status == '消失') {%>喪失<% } else if (status == '消失?') { %>喪失疑い<% } else if (status == '新規発見') { %>新規追加(資料にない) <% }
-            else if (confirmed) { %>現存<% } else { %>不明(未調査)<% } %><br>
-        <% if (need_action) { %><b>アクション要:</b> <%= need_action %><br><% } %>
-        <% if (contradiction) { %><b>資料の矛盾:</b> <%= contradiction %><br><% } %>
-        <% if (status) { %><b>状況:</b> <%= status %><br><% } %>
-        <% if (books.length > 0) { %>
-        <b>言及資料:</b><br>
-        <ul class="parent">
-            <% books.map(function(book) { %>
-            <li><b><%= book.name %></b>(<%= book.editor %>, <%= book.publishedAt %>): <%= book.pages %>ページ</li>
-            <% }) %>
-        </ul>
-        <% } %>
-        <% if (images.length > 1) { %>
-        <b>その他の画像:</b><br>
-        <div class="parent">
-            <% images.map(function(image) { %>
-            <% if (image.path != path) { %>
-            <div class="child">
-                <div><a href="<%- image.path %>" target="_blank"><img src="<%- image.small_thumbnail %>"></a></div>
-            </div>
-            <% } %>
-            <% }) %>
-        </div>
-        <% } %>
-    </div>
-</script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
+    <script src="./assets/L.Control.Locate.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
+    <script src="https://unpkg.com/handlebars/dist/handlebars.min.js"></script>
+    <script src="./assets/handlebars_helper.js"></script>
+    <script src="./assets/popup_template.js"></script>
+    <script src="./assets/icon_template.js"></script>
+    <script>
+      // geojson
+      // {
+      //   ...,
+      //   "features": [
+      //     {
+      //       ...,
+      //       "properties": {
+      //         "type": "jizo"
+      //       }
+      //     }
+      //   ],
+      //   ...
+      // }
 
-<script> MAP_CFG = {
-    accessToken: 'pk.eyJ1IjoicmVraXNoaWtva3VkbyIsImEiOiJjazRoMmF3dncwODU2M2ttdzI2aDVqYXVwIn0.8Hb9sekgjfck6Setxk5uVg',
-    style: 'mapbox://styles/moritoru/ck4s6w8bd0sb51cpp9vn7ztty',
-    latLng: [
-        36.2461984,
-        139.5278149
-    ],
-    zoom: 15,
-    minZoom: 5,
-    maxZoom: 21,
-//    maxNativeZoom: 19,
-    geoJson: './tatebayashi_stones.geojson',
-    checkProperty: 'name',
-    icon: (point, latlng) => {
-        const props = point.properties;
-        let iconUrl = './assets/sekihi.png';
-        let width = 32;
-        let height = 32;
-        if (props.type.match('地蔵菩薩像')) {
-            iconUrl = './assets/jizo.png';
-            width = 23;
-        } else if (props.type.match('その他仏像') || props.type.match('明王像') || props.type.match('菩薩像') || props.type.match('如来像')) {
-            iconUrl = './assets/hotoke.png';
-            width = 29;
-        } else if (props.type.match('庚申')) {
-            iconUrl = './assets/sanzaru.png';
-            width = 24;
-        } else if (props.type.match('馬頭観世音')) {
-            iconUrl = './assets/bato.png';
-            width = 23;
-        } else if (props.type.match('月待塔') || props.type.match('如意輪観音像')) {
-            iconUrl = './assets/19ya.png';
-            width = 32;
+      // templates
+      // {
+      //   "pin": "{{{type}}}.png",
+      // }
+
+      // return: embed geojson
+      // {
+      //   ...,
+      //   "features": [
+      //     {
+      //       ...,
+      //       "properties": {
+      //         "type": "jizo"
+      //       },
+      //       "results": {
+      //         "ping": "jizo.png"
+      //       }
+      //     }
+      //   ],
+      //   ...
+      // }
+
+      const templateExtractor = ({ geojson, templates }) => {
+        const compiledTemplates = {};
+        for (const [key, templateRaw] of Object.entries(templates)) {
+          compiledTemplates[key] = Handlebars.compile(templateRaw);
         }
 
-        if (props.status.match('消失')) {
-            iconUrl = iconUrl.replace('.png', '_sepia.png');
-            height = 24;
-            width = Math.round(width * 24 / 32);
-        } else if (props.need_action || !props.confirmed || props.contradiction) {
-            iconUrl = iconUrl.replace('.png', '_surprise.png');
-            height = 24;
-            width = Math.round(width * 24 / 32);
-        }
-
-        return L.marker(latlng, {
-            icon: L.icon({
-                iconUrl: iconUrl,
-                iconSize: [width, height],
-                iconAnchor: [width / 2, height],
-                popupAnchor: [0, -1 * height]
-            })
+        geojson.features.forEach((feature) => {
+          for (const key of Object.keys(templates)) {
+            feature.result = {};
+            feature.result[key] = compiledTemplates[key](feature.properties);
+          }
         });
-    }
-} </script>
 
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
-<script src="./assets/L.Control.Locate.js"></script>
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
-<script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
-<script src="./assets/geojson-popup.js"></script>
-</body>
+        return geojson;
+      };
+    </script>
+    <script>
+      const MAP_CFG = {
+        accessToken:
+          "pk.eyJ1IjoicmVraXNoaWtva3VkbyIsImEiOiJjazRoMmF3dncwODU2M2ttdzI2aDVqYXVwIn0.8Hb9sekgjfck6Setxk5uVg",
+        style: "mapbox://styles/moritoru/ck4s6w8bd0sb51cpp9vn7ztty",
+        latLng: [36.2461984, 139.5278149],
+        zoom: 15,
+        minZoom: 5,
+        maxZoom: 21,
+        //    maxNativeZoom: 19,
+      };
+
+      const MARKER_CFG = {
+        geoJson: "./tatebayashi_stones.geojson",
+      };
+
+      const mymap = L.map("mapid", {
+        maxZoom: MAP_CFG.maxZoom,
+      }).setView(MAP_CFG.latLng, MAP_CFG.zoom);
+
+      L.mapboxGL({
+        accessToken: MAP_CFG.accessToken,
+        style: MAP_CFG.style,
+        maxZoom: MAP_CFG.maxZoom,
+        minZoom: MAP_CFG.minZoom,
+      }).addTo(mymap);
+
+      L.control
+        .locate({
+          icon: "fa fa-crosshairs",
+        })
+        .addTo(mymap);
+
+      fetch(MARKER_CFG.geoJson)
+        .then(async (data) => data.json())
+        .then((geojson) => {
+          return templateExtractor({
+            geojson,
+            templates: {
+              pin: "{{{type}}}.png",
+              selected_pin: "{{{type}}}_selected.png",
+              html: popupHtmlTemplate,
+            },
+          });
+        })
+        .then((geojson) => {
+          geojson.features.forEach((feature) => {
+            if (feature.geometry) {
+              const iconOptions = createIcon(feature.properties);
+
+              // source file coordinates are ordered by lnglat, but should be latlng.
+              const marker = L.marker(feature.geometry.coordinates.reverse(), {
+                icon: L.icon(iconOptions),
+              }).bindPopup(feature.result.html);
+
+              marker.addTo(mymap);
+            }
+          });
+        });
+    </script>
+  </body>
 </html>
