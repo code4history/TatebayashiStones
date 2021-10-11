@@ -44,6 +44,7 @@
     <script src="./assets/handlebars_helper.js"></script>
     <script src="./assets/popup_template.js"></script>
     <script src="./assets/icon_template.js"></script>
+    <script src="./assets/twitter_Intent_url.js"></script>
     <script src="./assets/oms.min.js"></script>
     <script>
       // geojson
@@ -166,6 +167,34 @@
 
       oms.addListener("spiderfy", (markers) => {
         mymap.closePopup();
+      });
+
+      mymap.on("click", (e) => {
+        const ok = window.confirm(
+          "POIの新規申請を行いますか？\nOKをクリックすると、マーカーが生成されるので任意の地点にドラッグして動かし、マーカーをクリックしたのち申請してください。"
+        );
+        if (!ok) return;
+        const createContent = (latlng) => {
+          const text = `緯度:${latlng.lat}, 経度:${latlng.lng}`;
+          const href = createTwitterIntentUrl({
+            text,
+            url: "https://code4history.dev/TatebayashiStones/",
+            hashtags: [],
+          });
+          const aTag = `<a href="${href}" target="_blank" rel="noreferrer">Twitterで投稿する</a>`;
+          const content = `緯度:${latlng.lat}, 経度:${latlng.lng} ${aTag}`;
+          return content;
+        };
+
+        const marker = L.marker(e.latlng, {
+          draggable: true,
+        }).bindPopup(createContent(e.latlng));
+        marker.on("dragend", () => {
+          const newLatlng = marker.getLatLng();
+          const newContent = createContent(newLatlng);
+          marker.setPopupContent(newContent);
+        });
+        marker.addTo(mymap);
       });
     </script>
   </body>
