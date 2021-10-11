@@ -159,19 +159,26 @@
         });
 
       mymap.on("click", (e) => {
-        const text = `緯度:${e.latlng.lat}, 経度:${e.latlng.lng}`;
-
-        const href = createTwitterIntentUrl({
-          text,
-          url: "https://code4history.dev/TatebayashiStones/",
-          hashtags: [],
-        });
-        const aTag = `<a href="${href}" target="_blank" rel="noreferrer">Twitterで投稿する</a>`;
-        const content = `緯度:${e.latlng.lat}, 経度:${e.latlng.lng} ${aTag}`;
+        const createContent = (latlng) => {
+          const text = `緯度:${latlng.lat}, 経度:${latlng.lng}`;
+          const href = createTwitterIntentUrl({
+            text,
+            url: "https://code4history.dev/TatebayashiStones/",
+            hashtags: [],
+          });
+          const aTag = `<a href="${href}" target="_blank" rel="noreferrer">Twitterで投稿する</a>`;
+          const content = `緯度:${latlng.lat}, 経度:${latlng.lng} ${aTag}`;
+          return content;
+        };
 
         const marker = L.marker(e.latlng, {
           draggable: true,
-        }).bindPopup(content);
+        }).bindPopup(createContent(e.latlng));
+        marker.on("dragend", () => {
+          const newLatlng = marker.getLatLng();
+          const newContent = createContent(newLatlng);
+          marker.setPopupContent(newContent);
+        });
         marker.addTo(mymap);
       });
     </script>
