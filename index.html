@@ -137,6 +137,8 @@
         keepSpiderfied: true,
       });
       let lastClickedMarker = null;
+      let lastClickedMarkerOriginalLatlng = null;
+      let isEditingMarker = false;
 
       fetch(MARKER_CFG.geoJson)
         .then(async (data) => data.json())
@@ -160,7 +162,10 @@
                 icon: L.icon(iconOptions),
               }).bindPopup(feature.result.html);
               marker.on("click", (e) => {
-                lastClickedMarker = e.sourceTarget;
+                if (!isEditingMarker) {
+                  lastClickedMarker = e.sourceTarget;
+                  lastClickedMarkerOriginalLatlng = e.latlng;
+                }
               });
 
               marker.addTo(mymap);
@@ -215,7 +220,38 @@
           });
           window.open(href, "_blank", "noreferrer");
           lastClickedMarker.closePopup();
+        } else {
+          hiddenMarkers();
+          lastClickedMarker.getElement().style.visibility = "visible";
+          oms.removeMarker(lastClickedMarker);
+          lastClickedMarker.dragging.enable();
+          isEditingMarker = true;
         }
+      };
+
+      const proposeEditedMarker = (poiId) => {
+        if (!isEditingMarker) {
+          window.alert(
+            "「修正提案をする」をクリックしてから使用してください。"
+          );
+          return;
+        }
+
+        const newLatlng = lastClickedMarker.getLatLng();
+        const text =
+          `POI ID: ${poiId}\n` + `緯度:${newLatlng.lat}, 経度:${newLatlng.lng}`;
+        const href = createTwitterIntentUrl({
+          text,
+          url: "https://code4history.dev/TatebayashiStones/",
+          hashtags: [],
+        });
+        window.open(href, "_blank", "noreferrer");
+        lastClickedMarker.closePopup();
+        lastClickedMarker.dragging.disable();
+        lastClickedMarker.setLatLng(lastClickedMarkerOriginalLatlng);
+        isEditingMarker = false;
+        oms.addMarker(lastClickedMarker);
+        visibleMarkers();
       };
 
       mymap.on("click", (e) => {
