@@ -188,7 +188,7 @@
       };
 
       let newMarker = null;
-      const removeMarker = () => {
+      const removeNewMarker = () => {
         if (newMarker) {
           mymap.removeLayer(newMarker);
           newMarker = null;
@@ -209,7 +209,7 @@
             url: "https://code4history.dev/TatebayashiStones/",
             hashtags: [],
           });
-          const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="visibleMarkers();removeMarker();">Twitterで投稿する</a>`;
+          const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="visibleMarkers();removeNewMarker();">Twitterで投稿する</a>`;
           const content = `緯度:${latlng.lat}, 経度:${latlng.lng} ${aTag}`;
           return content;
         };
