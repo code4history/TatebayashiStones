@@ -200,7 +200,7 @@
             url: "https://code4history.dev/TatebayashiStones/",
             hashtags: [],
           });
-          const aTag = `<a href="${href}" target="_blank" rel="noreferrer">Twitterで投稿する</a>`;
+          const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="visibleMarkers();">Twitterで投稿する</a>`;
           const content = `緯度:${latlng.lat}, 経度:${latlng.lng} ${aTag}`;
           return content;
         };
