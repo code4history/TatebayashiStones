@@ -65,4 +65,5 @@ popupHtmlTemplate += `{{#if (gt images.length 1)}}
   </div>
 {{/if}}`;
 
+popupHtmlTemplate += `<a href="javascript:void(0)" onclick="proposeEditMarker({{{fid}}});">修正提案をする</a>`;
 popupHtmlTemplate += `</div>`;
