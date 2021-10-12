@@ -172,10 +172,8 @@
       const hiddenMarkers = () => {
         mymap.eachLayer((layer) => {
           if (layer.options.icon instanceof L.Icon) {
-            console.log(layer);
             layer._hiddenForApplyPoi = true;
             layer.getElement().style.visibility = "hidden";
-            console.log(layer);
           }
         });
       };
