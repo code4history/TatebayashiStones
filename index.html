@@ -137,6 +137,7 @@
         keepSpiderfied: true,
       });
       let lastClickedMarker = null;
+      let lastClickedMarkerOriginalPopupContent = null;
       let lastClickedMarkerOriginalLatlng = null;
       let isEditingMarker = false;
 
@@ -221,12 +222,28 @@
             hashtags: [],
           });
           window.open(href, "_blank", "noreferrer");
-          lastClickedMarker.closePopup();
         } else {
           hiddenMarkers();
+          lastClickedMarkerOriginalPopupContent = lastClickedMarker
+            .getPopup()
+            .getContent();
           lastClickedMarker.getElement().style.visibility = "visible";
           oms.removeMarker(lastClickedMarker);
           lastClickedMarker.dragging.enable();
+
+          lastClickedMarker.on("dragend", () => {
+            const latlng = lastClickedMarker.getLatLng();
+            const text =
+              `POI ID: ${poiId}\n` + `緯度:${latlng.lat}, 経度:${latlng.lng}`;
+            const href = createTwitterIntentUrl({
+              text,
+              url: "https://code4history.dev/TatebayashiStones/",
+              hashtags: [],
+            });
+            const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="proposeEditedMarker(${poiId});">Twitterで投稿する</a>`;
+            const content = `POI ID: ${poiId}, 緯度:${latlng.lat}, 経度:${latlng.lng}<br>${aTag}`;
+            lastClickedMarker.setPopupContent(content);
+          });
           isEditingMarker = true;
         }
       };
@@ -250,6 +267,9 @@
         window.open(href, "_blank", "noreferrer");
         lastClickedMarker.closePopup();
         lastClickedMarker.dragging.disable();
+        lastClickedMarker.setPopupContent(
+          lastClickedMarkerOriginalPopupContent
+        );
         lastClickedMarker.setLatLng(lastClickedMarkerOriginalLatlng);
         isEditingMarker = false;
         oms.addMarker(lastClickedMarker);
