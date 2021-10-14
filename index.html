@@ -211,6 +211,8 @@
         const proposeMovingPosition =
           window.confirm("POIの位置も修正しますか？");
 
+        lastClickedMarker.closePopup();
+
         if (!proposeMovingPosition) {
           const text = `POI ID: ${poiId}`;
           const href = createTwitterIntentUrl({
