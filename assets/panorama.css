@@ -1,0 +1,36 @@
+#panorama-container {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(0,0,0,0.9);
+  transform: scale(0,0);
+  opacity: 0;
+}
+
+#panorama-container.open {
+  z-index: 1000;
+  transform: scale(1,1);
+  opacity: 1;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.close > i {
+  color: #fff;
+  font-size: 30px;
+}
+
+#viewer {
+  width: 100%;
+  height: 80%;
+  align-self: center;
+  background-color: #000;
+}

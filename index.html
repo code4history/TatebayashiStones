@@ -28,6 +28,7 @@
     />
     <link rel="stylesheet" href="./assets/L.Control.Locate.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/panorama.css" />
     <style>
       .swiper-wrapper {
         text-align: center;
@@ -39,6 +40,13 @@
   </head>
   <body>
     <div id="mapid"></div>
+
+    <div id="panorama-container">
+      <div class="close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <div id="viewer"></div>
+    </div>
 
     <a
       class="github-fork-ribbon"
@@ -54,6 +62,9 @@
     <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
     <script src="https://unpkg.com/handlebars/dist/handlebars.min.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/three@0.117.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/panolens@0.12.0/build/panolens.min.js"></script>
+    <script src="./assets/panorama.js"></script>
     <script src="./assets/handlebars_helper.js"></script>
     <script src="./assets/popup_template.js"></script>
     <script src="./assets/icon_template.js"></script>
