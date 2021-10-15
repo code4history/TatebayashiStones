@@ -50,19 +50,22 @@ popupHtmlTemplate += `<ul class="parent">
 
 popupHtmlTemplate += `{{#if (gt images.length 1)}}
   <b>その他の画像:</b><br>
-  <div class="parent">
-    {{#each images}}
-      {{#if (ne image.path path)}}
-        <div class="child">
-          <div>
+  <div class="swiper swiper-images">
+    <div class="swiper-wrapper">
+      {{#each images}}
+        {{#if (ne image.path path)}}
+          <div class="swiper-slide">
             <a href="{{{this.path}}}" target="_blank">
               <img src="{{{this.small_thumbnail}}}">
             </a>
           </div>
-        </div>
-      {{/if}}
-    {{/each}}
-  </div>
+        {{/if}}
+      {{/each}}
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
 {{/if}}`;
 
 popupHtmlTemplate += `<a href="javascript:void(0)" onclick="prepareEditMarker({{{fid}}});">修正提案をする</a>`;
