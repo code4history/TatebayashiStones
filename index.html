@@ -28,6 +28,11 @@
     />
     <link rel="stylesheet" href="./assets/L.Control.Locate.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <style>
+      .swiper-wrapper {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <div id="mapid"></div>
@@ -171,6 +176,18 @@
                   lastClickedMarker = e.sourceTarget;
                   lastClickedMarkerOriginalLatlng = e.latlng;
                 }
+                const swiper = new Swiper(".swiper", {
+                  loop: true,
+                  autoHeight: true,
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                  },
+                  pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                  },
+                });
               });
 
               marker.addTo(mymap);
