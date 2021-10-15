@@ -11,8 +11,8 @@
         "type": "demo type",
         "era": "不明",
         "year": "",
-        "place_1": "demo place_1",
-        "place_2": "demo place_2",
+        "place_1": "",
+        "place_2": "",
         "detail": "",
         "note_1": "",
         "note_2": "",
@@ -34,17 +34,17 @@
             "description": "",
             "note": "",
             "mid_thumbnail": "",
-            "small_thumbnail": "",
+            "small_thumbnail": "./demos/1.png",
             "panorama_image": true
           },
           {
-            "path": "./demos/no_panorama.JPG",
+            "path": "./images/2/no2.JPG",
             "shootingDate": "2021-06-20T15:55:41",
             "shooter": "",
             "description": "",
             "note": "",
-            "mid_thumbnail": "",
-            "small_thumbnail": "",
+            "mid_thumbnail": "./mid_thumbs/2/no2.JPG",
+            "small_thumbnail": "./small_thumbs/2/no2.JPG",
             "panorama_image": false
           },
           {
@@ -54,7 +54,7 @@
             "description": "",
             "note": "",
             "mid_thumbnail": "",
-            "small_thumbnail": "",
+            "small_thumbnail": "./demos/2.png",
             "panorama_image": true
           }
         ],
