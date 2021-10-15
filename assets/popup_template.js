@@ -56,7 +56,7 @@ popupHtmlTemplate += `{{#if (gt images.length 1)}}
         {{#if (ne image.path path)}}
           <div class="swiper-slide">
             {{#if this.panorama_image}}
-              <img src="{{{this.path}}}" onclick="openPanorama('{{{this.path}}}');">
+              <img src="{{{this.path}}}" onclick="openPanorama('{{{this.path}}}');" class="panorama">
             {{else}}
               <a href="{{{this.path}}}" target="_blank">
                 <img src="{{{this.small_thumbnail}}}">
