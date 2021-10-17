@@ -61,7 +61,7 @@ popupHtmlTemplate += `{{#if (gt images.length 1)}}
               <a href="{{{this.path}}}" target="_blank">
                 <img src="{{{this.small_thumbnail}}}">
               </a>
-            {{/if}};
+            {{/if}}
           </div>
         {{/if}}
       {{/each}}
