@@ -35,6 +35,12 @@
       }
       .swiper-slide {
         background-color: white;
+        height: 200px;
+      }
+      .swiper-slide img {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
       }
     </style>
   </head>
@@ -194,10 +200,9 @@
                 const slideCount = document.querySelectorAll(
                   ":scope .swiper .swiper-slide"
                 ).length;
-    
+
                 const swiper = new Swiper(".swiper", {
                   loop: slideCount > 1,
-                  autoHeight: true,
                   navigation: {
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
