@@ -191,8 +191,12 @@
                   lastClickedMarker = e.sourceTarget;
                   lastClickedMarkerOriginalLatlng = e.latlng;
                 }
+                const slideCount = document.querySelectorAll(
+                  ":scope .swiper .swiper-slide"
+                ).length;
+    
                 const swiper = new Swiper(".swiper", {
-                  loop: true,
+                  loop: slideCount > 1,
                   autoHeight: true,
                   navigation: {
                     nextEl: ".swiper-button-next",
