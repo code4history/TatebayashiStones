@@ -22,27 +22,8 @@
       href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
     <link rel="stylesheet" href="./assets/L.Control.Locate.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="stylesheet" href="./assets/panorama.css" />
-    <style>
-      .swiper-wrapper {
-        text-align: center;
-      }
-      .swiper-slide {
-        background-color: white;
-        height: 200px;
-      }
-      .swiper-slide img {
-        object-fit: contain;
-        height: 100%;
-        width: 100%;
-      }
-    </style>
   </head>
   <body>
     <div id="mapid"></div>
@@ -66,69 +47,11 @@
     <script src="./assets/L.Control.Locate.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
-    <script src="https://unpkg.com/handlebars/dist/handlebars.min.js"></script>
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/three@0.117.0/build/three.min.js"></script>
-    <script src="https://unpkg.com/panolens@0.12.0/build/panolens.min.js"></script>
-    <script src="./assets/panorama.js"></script>
-    <script src="./assets/handlebars_helper.js"></script>
+    <script src="https://unpkg.com/chuquyuan@0.0.3/dist/chuquyuan.min.js"></script>
     <script src="./assets/popup_template.js"></script>
     <script src="./assets/icon_template.js"></script>
     <script src="./assets/twitter_Intent_url.js"></script>
     <script src="./assets/oms.min.js"></script>
-    <script>
-      // geojson
-      // {
-      //   ...,
-      //   "features": [
-      //     {
-      //       ...,
-      //       "properties": {
-      //         "type": "jizo"
-      //       }
-      //     }
-      //   ],
-      //   ...
-      // }
-
-      // templates
-      // {
-      //   "pin": "{{{type}}}.png",
-      // }
-
-      // return: embed geojson
-      // {
-      //   ...,
-      //   "features": [
-      //     {
-      //       ...,
-      //       "properties": {
-      //         "type": "jizo"
-      //       },
-      //       "results": {
-      //         "ping": "jizo.png"
-      //       }
-      //     }
-      //   ],
-      //   ...
-      // }
-
-      const templateExtractor = ({ geojson, templates }) => {
-        const compiledTemplates = {};
-        for (const [key, templateRaw] of Object.entries(templates)) {
-          compiledTemplates[key] = Handlebars.compile(templateRaw);
-        }
-
-        geojson.features.forEach((feature) => {
-          for (const key of Object.keys(templates)) {
-            feature.result = {};
-            feature.result[key] = compiledTemplates[key](feature.properties);
-          }
-        });
-
-        return geojson;
-      };
-    </script>
     <script>
       const MAP_CFG = {
         accessToken:
@@ -174,7 +97,7 @@
       fetch(MARKER_CFG.geoJson)
         .then(async (data) => data.json())
         .then((geojson) => {
-          return templateExtractor({
+          return ChuQuyuan.templateExtractor({
             geojson,
             templates: {
               pin: "{{{type}}}.png",
@@ -201,17 +124,7 @@
                   ":scope .swiper .swiper-slide"
                 ).length;
 
-                const swiper = new Swiper(".swiper", {
-                  loop: slideCount > 1,
-                  navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                  },
-                  pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                  },
-                });
+                ChuQuyuan.createSwiper({ loop: slideCount > 1 });
               });
 
               marker.addTo(mymap);
