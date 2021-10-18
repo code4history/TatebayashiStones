@@ -48,7 +48,7 @@ popupHtmlTemplate += `<ul class="parent">
   {{/each}}
 </ul>`;
 
-popupHtmlTemplate += `{{#if (gt images.length 0)}}
+popupHtmlTemplate += `{{#if (gt images.length 1)}}
   <b>その他の画像:</b><br>
   <div class="swiper swiper-images">
     <div class="swiper-wrapper">
