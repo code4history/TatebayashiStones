@@ -53,30 +53,27 @@
     <script src="./assets/twitter_Intent_url.js"></script>
     <script src="./assets/oms.min.js"></script>
     <script>
-      const MAP_CFG = {
-        accessToken:
-          "pk.eyJ1IjoicmVraXNoaWtva3VkbyIsImEiOiJjazRoMmF3dncwODU2M2ttdzI2aDVqYXVwIn0.8Hb9sekgjfck6Setxk5uVg",
-        style: "mapbox://styles/moritoru/ck4s6w8bd0sb51cpp9vn7ztty",
-        latLng: [36.2461984, 139.5278149],
-        zoom: 15,
-        minZoom: 5,
-        maxZoom: 21,
-        //    maxNativeZoom: 19,
-      };
+      const accessToken =
+          "pk.eyJ1IjoicmVraXNoaWtva3VkbyIsImEiOiJjazRoMmF3dncwODU2M2ttdzI2aDVqYXVwIn0.8Hb9sekgjfck6Setxk5uVg";
+      const style = "mapbox://styles/moritoru/ck4s6w8bd0sb51cpp9vn7ztty";
+      const latLng = [36.2461984, 139.5278149];
+      const zoom = 15;
+      const minZoom = 5;
+      const maxZoom = 21;
+      const twitInit = `\n==\n* 上下の==の間を消して説明を投稿してください、その外は修正しないでください\n* 添付された写真はCreative Commons 4.0 BY-SAの条件で誰でも使えるオープンデータになることを了承されたものとみなします\n==\n`;
+      const hashTags = ['館林石仏'];
 
-      const MARKER_CFG = {
-        geoJson: "./tatebayashi_stones.geojson",
-      };
+      const geoJson = "./tatebayashi_stones.geojson";
 
       const mymap = L.map("mapid", {
-        maxZoom: MAP_CFG.maxZoom,
-      }).setView(MAP_CFG.latLng, MAP_CFG.zoom);
+        maxZoom: maxZoom,
+      }).setView(latLng, zoom);
 
       L.mapboxGL({
-        accessToken: MAP_CFG.accessToken,
-        style: MAP_CFG.style,
-        maxZoom: MAP_CFG.maxZoom,
-        minZoom: MAP_CFG.minZoom,
+        accessToken: accessToken,
+        style: style,
+        maxZoom: maxZoom,
+        minZoom: minZoom,
       }).addTo(mymap);
 
       L.control
@@ -94,7 +91,7 @@
       let lastClickedMarkerOriginalLatlng = null;
       let isEditingMarker = false;
 
-      fetch(MARKER_CFG.geoJson)
+      fetch(geoJson)
         .then(async (data) => data.json())
         .then((geojson) => {
           return ChuQuyuan.templateExtractor({
@@ -173,11 +170,11 @@
         lastClickedMarker.closePopup();
 
         if (!proposeMovingPosition) {
-          const text = `POI ID: ${poiId}`;
+          const text = `POI ID: ${poiId} ${twitInit}`;
           const href = createTwitterIntentUrl({
             text,
-            url: "https://code4history.dev/TatebayashiStones/",
-            hashtags: [],
+            //url: "https://code4history.dev/TatebayashiStones/",
+            hashtags: hashTags,
           });
           window.open(href, "_blank", "noreferrer");
         } else {
@@ -192,11 +189,11 @@
           lastClickedMarker.on("dragend", () => {
             const latlng = lastClickedMarker.getLatLng();
             const text =
-              `POI ID: ${poiId}\n` + `緯度:${latlng.lat}, 経度:${latlng.lng}`;
+              `POI ID: ${poiId}\n` + `緯度:${latlng.lat}, 経度:${latlng.lng} ${twitInit}`;
             const href = createTwitterIntentUrl({
               text,
-              url: "https://code4history.dev/TatebayashiStones/",
-              hashtags: [],
+              //url: "https://code4history.dev/TatebayashiStones/",
+              hashtags: hashTags,
             });
             const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="proposeEditedMarker(${poiId});">Twitterで投稿する</a>`;
             const content = `POI ID: ${poiId}, 緯度:${latlng.lat}, 経度:${latlng.lng}<br>${aTag}`;
@@ -216,11 +213,11 @@
 
         const newLatlng = lastClickedMarker.getLatLng();
         const text =
-          `POI ID: ${poiId}\n` + `緯度:${newLatlng.lat}, 経度:${newLatlng.lng}`;
+          `POI ID: ${poiId}\n` + `緯度:${newLatlng.lat}, 経度:${newLatlng.lng} ${twitInit}`;
         const href = createTwitterIntentUrl({
           text,
-          url: "https://code4history.dev/TatebayashiStones/",
-          hashtags: [],
+          //url: "https://code4history.dev/TatebayashiStones/",
+          hashtags: hashTags,
         });
         window.open(href, "_blank", "noreferrer");
         lastClickedMarker.closePopup();
@@ -242,11 +239,11 @@
         hiddenMarkers();
 
         const createContent = (latlng) => {
-          const text = `緯度:${latlng.lat}, 経度:${latlng.lng}`;
+          const text = `緯度:${latlng.lat}, 経度:${latlng.lng} ${twitInit}`;
           const href = createTwitterIntentUrl({
             text,
-            url: "https://code4history.dev/TatebayashiStones/",
-            hashtags: [],
+            //url: "https://code4history.dev/TatebayashiStones/",
+            hashtags: hashTags,
           });
           const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="visibleMarkers();removeNewMarker();">Twitterで投稿する</a>`;
           const content = `緯度:${latlng.lat}, 経度:${latlng.lng} ${aTag}`;

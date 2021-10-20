@@ -11,9 +11,28 @@ popupHtmlTemplate += `)</h2>`;
 
 popupHtmlTemplate += `{{#if type}} <b>種別:</b> {{ type }} <br> {{/if}}`;
 
-popupHtmlTemplate += `<a href="{{{ path }}}" target="_blank">
-            <img class="represent" src="{{{ mid_thumbnail }}}">
-          </a><br>`;
+popupHtmlTemplate += `{{#if (gt images.length 0)}}
+  <div class="swiper swiper-images">
+    <div class="swiper-wrapper">
+      {{#each images}}
+        {{#if (ne image.path path)}}
+          <div class="swiper-slide">
+            {{#if this.panorama_image}}
+              <img src="{{{this.path}}}" onclick="ChuQuyuan.openPanorama('{{{this.path}}}');" class="panorama">
+            {{else}}
+              <a href="{{{this.path}}}" target="_blank">
+                <img src="{{{this.small_thumbnail}}}">
+              </a>
+            {{/if}}
+          </div>
+        {{/if}}
+      {{/each}}
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+{{/if}}`;
 
 popupHtmlTemplate += `<b>年代:</b> {{ era }} {{#if year}} ({{ year }}) {{/if}}<br>`;
 
@@ -47,30 +66,6 @@ popupHtmlTemplate += `<ul class="parent">
     <li><b>{{this.name}}</b>({{this.editor}}, {{this.publishedAt}}): {{this.pages}}ページ</li>
   {{/each}}
 </ul>`;
-
-popupHtmlTemplate += `{{#if (gt images.length 1)}}
-  <b>その他の画像:</b><br>
-  <div class="swiper swiper-images">
-    <div class="swiper-wrapper">
-      {{#each images}}
-        {{#if (ne image.path path)}}
-          <div class="swiper-slide">
-            {{#if this.panorama_image}}
-              <img src="{{{this.path}}}" onclick="ChuQuyuan.openPanorama('{{{this.path}}}');" class="panorama">
-            {{else}}
-              <a href="{{{this.path}}}" target="_blank">
-                <img src="{{{this.small_thumbnail}}}">
-              </a>
-            {{/if}}
-          </div>
-        {{/if}}
-      {{/each}}
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-{{/if}}`;
 
 popupHtmlTemplate += `<a href="javascript:void(0)" onclick="prepareEditMarker({{{fid}}});">修正提案をする</a>`;
 popupHtmlTemplate += `</div>`;
