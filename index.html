@@ -178,6 +178,7 @@
           });
           window.open(href, "_blank", "noreferrer");
         } else {
+          oms.unspiderfy();
           hiddenMarkers();
           lastClickedMarkerOriginalPopupContent = lastClickedMarker
             .getPopup()
@@ -231,7 +232,8 @@
         visibleMarkers();
       };
 
-      mymap.on("contextmenu", (e) => {
+      mymap.on("click", (e) => {
+        if (oms.spiderfied) return;
         const ok = window.confirm(
           "POIの新規申請を行いますか？\nOKをクリックすると、マーカーが生成されるので任意の地点にドラッグして動かし、マーカーをクリックしたのち申請してください。"
         );
