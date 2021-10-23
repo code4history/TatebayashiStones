@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "name": "demo",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 0,
+        "area_no": "1",
+        "name": "demo name",
+        "type": "demo type",
+        "era": "不明",
+        "year": "",
+        "place_1": "",
+        "place_2": "",
+        "detail": "",
+        "note_1": "",
+        "note_2": "",
+        "note_3": "",
+        "area": "館林",
+        "surveyed": "",
+        "description": "",
+        "photo": "",
+        "public_relations": "",
+        "confirmed": false,
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [
+          {
+            "path": "./demos/1.png",
+            "shootingDate": "2021-06-20T15:55:32",
+            "shooter": "",
+            "description": "",
+            "note": "",
+            "mid_thumbnail": "",
+            "small_thumbnail": "./demos/1.png",
+            "panorama_image": true
+          },
+          {
+            "path": "./images/2/no2.JPG",
+            "shootingDate": "2021-06-20T15:55:41",
+            "shooter": "",
+            "description": "",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/2/no2.JPG",
+            "small_thumbnail": "./small_thumbs/2/no2.JPG",
+            "panorama_image": false
+          },
+          {
+            "path": "./demos/2.png",
+            "shootingDate": "2021-06-20T15:55:41",
+            "shooter": "",
+            "description": "",
+            "note": "",
+            "mid_thumbnail": "",
+            "small_thumbnail": "./demos/2.png",
+            "panorama_image": true
+          }
+        ],
+        "books": [
+          {
+            "description": "",
+            "note": "",
+            "name": "demo book name",
+            "editor": "demo book editor",
+            "publishedAt": 2021
+          }
+        ],
+        "status": "",
+        "shape": "",
+        "material": "",
+        "inscription": "",
+        "need_action": "",
+        "contradiction": "",
+        "height": null,
+        "statue_height": null,
+        "width": null,
+        "depth": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.5389575549848, 36.25323989331191]
+      }
+    }
+  ]
+}
