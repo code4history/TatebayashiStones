@@ -198,7 +198,7 @@
               url: "https://code4history.dev/TatebayashiStones/",
               hashtags: [],
             });
-            const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="proposeEditedMarker(${poiId});">Twitterで投稿する</a>`;
+            const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="proposeEditedMarker();">Twitterで投稿する</a>`;
             const content = `POI ID: ${poiId}, 緯度:${latlng.lat}, 経度:${latlng.lng}<br>${aTag}`;
             lastClickedMarker.setPopupContent(content);
           });
@@ -206,23 +206,7 @@
         }
       };
 
-      const proposeEditedMarker = (poiId) => {
-        if (!isEditingMarker) {
-          window.alert(
-            "「修正提案をする」をクリックしてから使用してください。"
-          );
-          return;
-        }
-
-        const newLatlng = lastClickedMarker.getLatLng();
-        const text =
-          `POI ID: ${poiId}\n` + `緯度:${newLatlng.lat}, 経度:${newLatlng.lng}`;
-        const href = createTwitterIntentUrl({
-          text,
-          url: "https://code4history.dev/TatebayashiStones/",
-          hashtags: [],
-        });
-        window.open(href, "_blank", "noreferrer");
+      const proposeEditedMarker = () => {
         lastClickedMarker.closePopup();
         lastClickedMarker.dragging.disable();
         lastClickedMarker.setPopupContent(
