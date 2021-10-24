@@ -90,6 +90,7 @@
       let lastClickedMarkerOriginalPopupContent = null;
       let lastClickedMarkerOriginalLatlng = null;
       let isEditingMarker = false;
+      let spiderfyStatus = false;
 
       fetch(geoJson)
         .then(async (data) => data.json())
@@ -131,7 +132,14 @@
         });
 
       oms.addListener("spiderfy", (markers) => {
+        spiderfyStatus = true;
         mymap.closePopup();
+      });
+
+      oms.addListener("unspiderfy", (markers) => {
+        setTimeout(() => {
+          spiderfyStatus = false;
+        }, 100)
       });
 
       const hiddenMarkers = () => {
@@ -218,7 +226,7 @@
       };
 
       mymap.on("click", (e) => {
-        if (oms.spiderfied) return;
+        if (spiderfyStatus) return;
         const ok = window.confirm(
           "POIの新規申請を行いますか？\nOKをクリックすると、マーカーが生成されるので任意の地点にドラッグして動かし、マーカーをクリックしたのち申請してください。"
         );
