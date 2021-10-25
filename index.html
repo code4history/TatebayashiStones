@@ -47,7 +47,7 @@
     <script src="./assets/L.Control.Locate.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
-    <script src="https://unpkg.com/chuquyuan@0.0.3/dist/chuquyuan.min.js"></script>
+    <script src="https://unpkg.com/chuquyuan@0.0.4/dist/chuquyuan.min.js"></script>
     <script src="./assets/popup_template.js"></script>
     <script src="./assets/icon_template.js"></script>
     <script src="./assets/twitter_Intent_url.js"></script>
@@ -98,10 +98,13 @@
           return ChuQuyuan.templateExtractor({
             geojson,
             templates: {
-              pin: "{{{type}}}.png",
-              selected_pin: "{{{type}}}_selected.png",
+              pin: "{{type}}.png",
+              selected_pin: "{{type}}_selected.png",
               html: popupHtmlTemplate,
             },
+            options: {
+              nunjucks: true,
+            }
           });
         })
         .then((geojson) => {

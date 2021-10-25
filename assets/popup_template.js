@@ -2,70 +2,68 @@ let popupHtmlTemplate = "";
 
 popupHtmlTemplate += `<div class="poi">`;
 
-popupHtmlTemplate += `<h2>{{name}} (`;
-popupHtmlTemplate += `{{area}}`;
-popupHtmlTemplate += "{{#if place_1}} / {{place_1}} {{/if}}";
-popupHtmlTemplate += "{{#if place_2}} / {{place_2}} {{/if}}";
-popupHtmlTemplate += "{{#if detail}} / {{detail}} {{/if}}";
+popupHtmlTemplate += `<h2>{{ name }} (`;
+popupHtmlTemplate += `{{ area }}`;
+popupHtmlTemplate += "{% if place_1 %} / {{ place_1 }} {% endif %}";
+popupHtmlTemplate += "{% if place_2 %} / {{ place_2 }} {% endif %}";
+popupHtmlTemplate += "{% if detail %} / {{ detail }} {% endif %}";
 popupHtmlTemplate += `)</h2>`;
 
-popupHtmlTemplate += `{{#if type}} <b>種別:</b> {{ type }} <br> {{/if}}`;
+popupHtmlTemplate += `{% if type %} <b>種別:</b> {{ type }} <br> {% endif %}`;
 
-popupHtmlTemplate += `{{#if (gt images.length 0)}}
+popupHtmlTemplate += `{% if images.length > 0 %}
   <div class="swiper swiper-images">
     <div class="swiper-wrapper">
-      {{#each images}}
-        {{#if (ne image.path path)}}
+      {%- for image in images %}
           <div class="swiper-slide">
-            {{#if this.panorama_image}}
-              <img src="{{{this.path}}}" onclick="ChuQuyuan.openPanorama('{{{this.path}}}');" class="panorama">
-            {{else}}
-              <a href="{{{this.path}}}" target="_blank">
-                <img src="{{{this.small_thumbnail}}}">
+            {%- if image.panorama_image %}
+              <img src="{{ image.path | safe }}" onclick="ChuQuyuan.openPanorama('{{ image.path | safe }}');" class="panorama">
+            {% else %}
+              <a href="{{ image.path | safe }}" target="_blank">
+                <img src="{{ image.small_thumbnail | safe }}">
               </a>
-            {{/if}}
+            {% endif %}
           </div>
-        {{/if}}
-      {{/each}}
+      {% endfor %}
       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
     </div>
-{{/if}}`;
+{% endif %}`;
 
-popupHtmlTemplate += `<b>年代:</b> {{ era }} {{#if year}} ({{ year }}) {{/if}}<br>`;
+popupHtmlTemplate += `<b>年代:</b> {{ era }} {% if year %} ({{ year }}) {% endif %}<br>`;
 
-popupHtmlTemplate += `{{#if shape}}         <b>形状:</b> {{ shape }}<br> {{/if}}`;
-popupHtmlTemplate += `{{#if note_1}}        <b>付帯情報:</b> {{ breaklines note_1 }}<br> {{/if}}`;
-popupHtmlTemplate += `{{#if note_2}}        <b>伝承等:</b> {{ breaklines note_2 }}<br> {{/if}}`;
-popupHtmlTemplate += `{{#if note_3}}        <b>調査時メモ:</b> {{ breaklines note_3 }}<br> {{/if}}`;
-popupHtmlTemplate += `{{#if material}}      <b>材質:</b> {{ material }}<br> {{/if}}`;
-popupHtmlTemplate += `{{#if height}}        <b>総高:</b> {{ height }}cm<br> {{/if}}`;
-popupHtmlTemplate += `{{#if statue_height}} <b>像高:</b> {{ statue_height }}cm<br> {{/if}}`;
-popupHtmlTemplate += `{{#if width}}         <b>幅:</b> {{ width }}cm<br> {{/if}}`;
-popupHtmlTemplate += `{{#if depth}}         <b>奥行:</b> {{ depth }}cm<br> {{/if}}`;
-popupHtmlTemplate += `{{#if inscription}}   <b>刻銘:</b> {{ breaklines inscription }}<br> {{/if}}`;
+popupHtmlTemplate += `{% if shape %}         <b>形状:</b> {{ shape }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if note_1 %}        <b>付帯情報:</b> {{ note_1 | nl2br }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if note_2 %}        <b>伝承等:</b> {{ note_2 | nl2br }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if note_3 %}        <b>調査時メモ:</b> {{ note_3 | nl2br }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if material %}      <b>材質:</b> {{ material }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if height %}        <b>総高:</b> {{ height }}cm<br> {% endif %}`;
+popupHtmlTemplate += `{% if statue_height %} <b>像高:</b> {{ statue_height }}cm<br> {% endif %}`;
+popupHtmlTemplate += `{% if width %}         <b>幅:</b> {{ width }}cm<br> {% endif %}`;
+popupHtmlTemplate += `{% if depth %}         <b>奥行:</b> {{ depth }}cm<br> {% endif %}`;
+popupHtmlTemplate += `{% if inscription %}   <b>刻銘:</b> {{ inscription | nl2br }}<br> {% endif %}`;
 
-popupHtmlTemplate += `<b>最終現地調査日:</b> {{#if confirmed }} {{ surveyed }} {{else}} 未調査 {{/if}}<br>`;
+popupHtmlTemplate += `<b>最終現地調査日:</b> {%if confirmed %} {{ surveyed }} {% else %} 未調査 {% endif %}<br>`;
 
 popupHtmlTemplate += `<b>現況:</b>
-  {{#if (eq status '消失')}} 喪失
-  {{else if (eq status '消失?')}} 喪失疑い
-  {{else if (eq status '新規発見')}} 新規追加(資料にない)
-  {{else if confirmed }} 現存
-  {{else}} 不明(未調査) {{/if}}<br>`;
+  {% if status == "消失" %} 喪失
+  {% elif status == "消失?" %} 喪失疑い
+  {% elif status == "新規発見" %} 新規追加(資料にない)
+  {% elif confirmed %} 現存
+  {% else %} 不明(未調査) {% endif %}<br>`;
 
-popupHtmlTemplate += `{{#if need_action }}   <b>アクション要:</b> {{need_action}} <br> {{/if}}`;
-popupHtmlTemplate += `{{#if contradiction }} <b>資料の矛盾:</b> {{contradiction}} <br> {{/if}}`;
-popupHtmlTemplate += `{{#if status }}        <b>状況:</b> {{status}} <br> {{/if}}`;
+popupHtmlTemplate += `{% if need_action %}   <b>アクション要:</b> {{ need_action }} <br> {% endif %}`;
+popupHtmlTemplate += `{% if contradiction %} <b>資料の矛盾:</b> {{ contradiction }} <br> {% endif %}`;
+popupHtmlTemplate += `{% if status %}        <b>状況:</b> {{ status }} <br> {% endif %}`;
 
 popupHtmlTemplate += `<b>言及資料:</b><br>`;
 popupHtmlTemplate += `<ul class="parent">
-  {{#each books}}
-    <li><b>{{this.name}}</b>({{this.editor}}, {{this.publishedAt}}): {{this.pages}}ページ</li>
-  {{/each}}
+  {% for book in books %}
+    <li><b>{{ book.name }}</b>({{ book.editor }}, {{ book.publishedAt }}): {{ book.pages }}ページ</li>
+  {% endfor %}
 </ul>`;
 
-popupHtmlTemplate += `<a href="javascript:void(0)" onclick="prepareEditMarker({{{fid}}});">修正提案をする</a>`;
+popupHtmlTemplate += `<a href="javascript:void(0)" onclick="prepareEditMarker({{ fid }});">修正提案をする</a>`;
 popupHtmlTemplate += `</div>`;
