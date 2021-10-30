@@ -9,6 +9,8 @@ popupHtmlTemplate += "{{#if place_2}} / {{place_2}} {{/if}}";
 popupHtmlTemplate += "{{#if detail}} / {{detail}} {{/if}}";
 popupHtmlTemplate += `)</h2>`;
 
+popupHtmlTemplate += `<a href="javascript:void(0)" onclick="prepareEditMarker({{{fid}}});">修正提案をする</a><br>`;
+
 popupHtmlTemplate += `{{#if type}} <b>種別:</b> {{ type }} <br> {{/if}}`;
 
 popupHtmlTemplate += `{{#if (gt images.length 0)}}
@@ -67,5 +69,4 @@ popupHtmlTemplate += `<ul class="parent">
   {{/each}}
 </ul>`;
 
-popupHtmlTemplate += `<a href="javascript:void(0)" onclick="prepareEditMarker({{{fid}}});">修正提案をする</a>`;
 popupHtmlTemplate += `</div>`;

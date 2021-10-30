@@ -1,7 +1,7 @@
 const createIcon = (properties) => {
   let iconUrl = "./assets/sekihi.png";
   let width = 32;
-  let height = 32;
+  let height = 44;
   if (properties.type.match("地蔵菩薩像")) {
     iconUrl = "./assets/jizo.png";
     width = 23;
@@ -29,7 +29,7 @@ const createIcon = (properties) => {
 
   if (properties.status.match("消失")) {
     iconUrl = iconUrl.replace(".png", "_sepia.png");
-    height = 24;
+    height = 36;
     width = Math.round((width * 24) / 32);
   } else if (
     properties.need_action ||
@@ -37,7 +37,7 @@ const createIcon = (properties) => {
     properties.contradiction
   ) {
     iconUrl = iconUrl.replace(".png", "_surprise.png");
-    height = 24;
+    height = 36;
     width = Math.round((width * 24) / 32);
   }
 
