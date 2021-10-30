@@ -9,7 +9,7 @@ popupHtmlTemplate += "{% if place_2 %} / {{ place_2 }} {% endif %}";
 popupHtmlTemplate += "{% if detail %} / {{ detail }} {% endif %}";
 popupHtmlTemplate += `)</h2>`;
 
-popupHtmlTemplate += `<a href="javascript:void(0)" onclick="prepareEditMarker({{ fid }});">修正提案をする</a>`;
+popupHtmlTemplate += `<a href="javascript:void(0)" onclick="prepareEditMarker({{ fid }});">修正提案をする</a><br>`;
 
 popupHtmlTemplate += `{% if type %} <b>種別:</b> {{ type }} <br> {% endif %}`;
 
