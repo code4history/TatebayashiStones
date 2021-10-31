@@ -47,7 +47,7 @@
     <script src="./assets/L.Control.Locate.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
-    <script src="https://unpkg.com/chuquyuan@0.0.4/dist/chuquyuan.min.js"></script>
+    <script src="https://unpkg.com/chuquyuan@0.0.5/dist/chuquyuan.min.js"></script>
     <script src="./assets/popup_template.js"></script>
     <script src="./assets/icon_template.js"></script>
     <script src="./assets/twitter_Intent_url.js"></script>
@@ -62,7 +62,6 @@
       const maxZoom = 21;
       const twitInit = `\n==\n* 上下の==の間を消して説明を投稿してください、その外は修正しないでください\n* 添付された写真はCreative Commons 4.0 BY-SAの条件で誰でも使えるオープンデータになることを了承されたものとみなします\n==\n`;
       const hashTags = ['館林石仏'];
-      const tweetTo = '@code4history';
 
       const geoJson = "./tatebayashi_stones.geojson";
 
@@ -197,7 +196,7 @@
         lastClickedMarker.closePopup();
 
         if (!proposeMovingPosition) {
-          const text = `${tweetTo} POI ID: ${poiId} ${twitInit}`;
+          const text = `POI ID: ${poiId} ${twitInit}`;
           const href = createTwitterIntentUrl({
             text,
             //url: "https://code4history.dev/TatebayashiStones/",
@@ -217,7 +216,7 @@
           lastClickedMarker.on("dragend", () => {
             const latlng = lastClickedMarker.getLatLng();
             const text =
-              `${tweetTo} POI ID: ${poiId}\n` + `緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)} ${twitInit}`;
+              `POI ID: ${poiId}\n` + `緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)} ${twitInit}`;
             const href = createTwitterIntentUrl({
               text,
               //url: "https://code4history.dev/TatebayashiStones/",
@@ -253,7 +252,7 @@
         hiddenMarkers();
 
         const createContent = (latlng) => {
-          const text = `${tweetTo} 緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)} ${twitInit}`;
+          const text = `緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)} ${twitInit}`;
           const href = createTwitterIntentUrl({
             text,
             //url: "https://code4history.dev/TatebayashiStones/",
