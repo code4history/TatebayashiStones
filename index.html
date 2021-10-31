@@ -104,8 +104,7 @@
           return ChuQuyuan.templateExtractor({
             geojson,
             templates: {
-              pin: "{{type}}.png",
-              selected_pin: "{{type}}_selected.png",
+              pin: iconTemplate,
               html: popupHtmlTemplate,
             },
             options: {
@@ -114,9 +113,20 @@
           });
         })
         .then((geojson) => {
+          console.log(geojson);
           geojson.features.forEach((feature) => {
             if (feature.geometry) {
-              const iconOptions = createIcon(feature.properties);
+              const icons = feature.result.pin.split(',');
+              const iconUrl = icons[0];
+              const width = parseInt(icons[1]);
+              const height = parseInt(icons[2]);
+
+              const iconOptions = {
+                iconUrl,
+                iconSize: [width, height],
+                iconAnchor: [width / 2, height],
+                popupAnchor: [0, -1 * height],
+              };
 
               // source file coordinates are ordered by lnglat, but should be latlng.
               const marker = L.marker(feature.geometry.coordinates.reverse(), {
