@@ -112,7 +112,6 @@
           });
         })
         .then((geojson) => {
-          console.log(geojson);
           geojson.features.forEach((feature) => {
             if (feature.geometry) {
               const icons = feature.result.pin.split(',');

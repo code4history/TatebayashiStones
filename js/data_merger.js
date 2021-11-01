@@ -36,11 +36,15 @@ const extractCsvt = async (filenameroot) => {
         let geom;
         const prop = {};
         Object.keys(jsonObj).forEach((key) => {
-          if (key == 'X' || key == 'Y') {
+          if (key == 'WKT') {
+            const wkt = jsonObj['WKT'];
+            const match = wkt.match(/POINT \(([\d\.]+) ([\d\.]+)\)/);
+            const x = parseFloat(match[1]);
+            const y = parseFloat(match[2]);
             if (!geom) {
               geom = {
                 "type": "Point",
-                "coordinates": [parseFloat(jsonObj['X']), parseFloat(jsonObj['Y'])]
+                "coordinates": [x, y]
               };
             }
             return;
@@ -67,8 +71,6 @@ const extractCsvt = async (filenameroot) => {
   });
 };
 
-
-
 const doWork = async () => {
   const pois = await extractCsvt('../pois');
   const images = await extractCsvt('../images');
@@ -85,17 +87,20 @@ const doWork = async () => {
 
     props.images = images.features.map(x => x.properties).filter((image) => {
       return image.poi === poiid;
-    }).map((image) => {
+    }).reduce((prev, image) => {
+      const ret = Object.assign({}, image);
+      delete ret.poi;
+      delete ret.fid;
       if (image.fid === props.primary_image) {
         props.path = image.path;
         props.mid_thumbnail = image.mid_thumbnail;
         props.small_thumbnail = image.small_thumbnail;
+        prev.unshift(ret);
+      } else {
+        prev.push(ret);
       }
-      const ret = Object.assign({}, image);
-      delete ret.poi;
-      delete ret.fid;
-      return ret;
-    });
+      return prev;
+    }, []);
 
     props.books = refs.features.map(x => x.properties).filter((ref) => {
       return ref.poi === poiid;

@@ -17147,15 +17147,6 @@
         "small_thumbnail": "./small_thumbs/283/IMG_2957.jpg",
         "images": [
           {
-            "path": "./images/283/IMG_2956.jpg",
-            "shootingDate": "2021/08/10 14:22:43",
-            "shooter": "Kohei Otsuka",
-            "description": "判官塚天保馬頭尊",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/283/IMG_2956.jpg",
-            "small_thumbnail": "./small_thumbs/283/IMG_2956.jpg"
-          },
-          {
             "path": "./images/283/IMG_2957.jpg",
             "shootingDate": "2021/08/10 14:22:50",
             "shooter": "Kohei Otsuka",
@@ -17163,6 +17154,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/283/IMG_2957.jpg",
             "small_thumbnail": "./small_thumbs/283/IMG_2957.jpg"
+          },
+          {
+            "path": "./images/283/IMG_2956.jpg",
+            "shootingDate": "2021/08/10 14:22:43",
+            "shooter": "Kohei Otsuka",
+            "description": "判官塚天保馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/283/IMG_2956.jpg",
+            "small_thumbnail": "./small_thumbs/283/IMG_2956.jpg"
           }
         ],
         "books": [
@@ -26740,38 +26740,57 @@
         "era": "文久2年",
         "year": "1862",
         "place_1": "堀工町",
-        "place_2": "",
+        "place_2": "下掘工",
         "detail": "三神社裏",
-        "note_1": "柱型",
+        "note_1": "南向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "現在は熊野神社にあり",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2019/02/02",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 483,
+        "height": 89,
+        "width": 28.5,
+        "depth": 22.3,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "(表)二十三夜塔\n(左)堀工村講地\n(右)文久二壬戌年九月二十三日\n(台)堀工村中講地 世話人 上講地 寺領 大原\nやす ゑん せい 志け しげ\nのふ みな なつ きち い志\nまさ いと まさ ます くま\nせい くま てう きわ さと\nつな みつ ゑい みえ つね\nすゑ せう さか とき とら\nなつ き己 ひさ やい たき",
+        "statue_height": 66,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/453/FDAsYrpacAAuMIl.jpg",
+        "mid_thumbnail": "./mid_thumbs/453/FDAsYrpacAAuMIl.jpg",
+        "small_thumbnail": "./small_thumbs/453/FDAsYrpacAAuMIl.jpg",
+        "images": [
+          {
+            "path": "./images/453/FDAsYrpacAAuMIl.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "おくまん二十三夜塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/453/FDAsYrpacAAuMIl.jpg",
+            "small_thumbnail": "./small_thumbs/453/FDAsYrpacAAuMIl.jpg"
+          },
+          {
+            "path": "./images/453/FDAsZ5lakAIgyLI.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "おくまん二十三夜塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/453/FDAsZ5lakAIgyLI.jpg",
+            "small_thumbnail": "./small_thumbs/453/FDAsZ5lakAIgyLI.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "46",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -26781,8 +26800,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5367909149,
-          36.2251095537
+          139.5376539,
+          36.2265588
         ]
       }
     },
@@ -34073,6 +34092,15 @@
         "small_thumbnail": "./small_thumbs/581/IMG_2605.jpg",
         "images": [
           {
+            "path": "./images/581/IMG_2605.jpg",
+            "shootingDate": "2021/08/09 16:27:33",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸安政馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/581/IMG_2605.jpg",
+            "small_thumbnail": "./small_thumbs/581/IMG_2605.jpg"
+          },
+          {
             "path": "./images/581/IMG_2606.jpg",
             "shootingDate": "2021/08/09 16:27:44",
             "shooter": "Kohei Otsuka",
@@ -34089,15 +34117,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/581/IMG_2609.jpg",
             "small_thumbnail": "./small_thumbs/581/IMG_2609.jpg"
-          },
-          {
-            "path": "./images/581/IMG_2605.jpg",
-            "shootingDate": "2021/08/09 16:27:33",
-            "shooter": "Kohei Otsuka",
-            "description": "舟戸安政馬頭尊",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/581/IMG_2605.jpg",
-            "small_thumbnail": "./small_thumbs/581/IMG_2605.jpg"
           }
         ],
         "books": [
@@ -35276,15 +35295,6 @@
         "small_thumbnail": "./small_thumbs/601/IMG_2615.jpg",
         "images": [
           {
-            "path": "./images/601/IMG_2616.jpg",
-            "shootingDate": "2021/08/09 16:37:16",
-            "shooter": "Kohei Otsuka",
-            "description": "舟戸仁平馬頭尊",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/601/IMG_2616.jpg",
-            "small_thumbnail": "./small_thumbs/601/IMG_2616.jpg"
-          },
-          {
             "path": "./images/601/IMG_2615.jpg",
             "shootingDate": "2021/08/09 16:37:05",
             "shooter": "Kohei Otsuka",
@@ -35292,6 +35302,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/601/IMG_2615.jpg",
             "small_thumbnail": "./small_thumbs/601/IMG_2615.jpg"
+          },
+          {
+            "path": "./images/601/IMG_2616.jpg",
+            "shootingDate": "2021/08/09 16:37:16",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸仁平馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/601/IMG_2616.jpg",
+            "small_thumbnail": "./small_thumbs/601/IMG_2616.jpg"
           }
         ],
         "books": [
@@ -35538,15 +35557,6 @@
         "small_thumbnail": "./small_thumbs/605/IMG_2592.jpg",
         "images": [
           {
-            "path": "./images/605/IMG_2593.jpg",
-            "shootingDate": "2021/08/09 16:13:43",
-            "shooter": "Kohei Otsuka",
-            "description": "下耕地末吉馬頭尊",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/605/IMG_2593.jpg",
-            "small_thumbnail": "./small_thumbs/605/IMG_2593.jpg"
-          },
-          {
             "path": "./images/605/IMG_2592.jpg",
             "shootingDate": "2021/08/09 16:13:39",
             "shooter": "Kohei Otsuka",
@@ -35554,6 +35564,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/605/IMG_2592.jpg",
             "small_thumbnail": "./small_thumbs/605/IMG_2592.jpg"
+          },
+          {
+            "path": "./images/605/IMG_2593.jpg",
+            "shootingDate": "2021/08/09 16:13:43",
+            "shooter": "Kohei Otsuka",
+            "description": "下耕地末吉馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/605/IMG_2593.jpg",
+            "small_thumbnail": "./small_thumbs/605/IMG_2593.jpg"
           }
         ],
         "books": [
@@ -36127,15 +36146,6 @@
         "small_thumbnail": "./small_thumbs/615/IMG_2590.jpg",
         "images": [
           {
-            "path": "./images/615/IMG_2593.jpg",
-            "shootingDate": "2021/08/09 16:13:43",
-            "shooter": "Kohei Otsuka",
-            "description": "下耕地北光馬頭尊",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/615/IMG_2593.jpg",
-            "small_thumbnail": "./small_thumbs/615/IMG_2593.jpg"
-          },
-          {
             "path": "./images/615/IMG_2590.jpg",
             "shootingDate": "2021/08/09 16:12:57",
             "shooter": "Kohei Otsuka",
@@ -36143,6 +36153,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/615/IMG_2590.jpg",
             "small_thumbnail": "./small_thumbs/615/IMG_2590.jpg"
+          },
+          {
+            "path": "./images/615/IMG_2593.jpg",
+            "shootingDate": "2021/08/09 16:13:43",
+            "shooter": "Kohei Otsuka",
+            "description": "下耕地北光馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/615/IMG_2593.jpg",
+            "small_thumbnail": "./small_thumbs/615/IMG_2593.jpg"
           }
         ],
         "books": [
@@ -36482,15 +36501,6 @@
         "small_thumbnail": "./small_thumbs/621/IMG_2608.jpg",
         "images": [
           {
-            "path": "./images/621/IMG_2609.jpg",
-            "shootingDate": "2021/08/09 16:28:25",
-            "shooter": "Kohei Otsuka",
-            "description": "舟戸多蔵馬頭尊",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/621/IMG_2609.jpg",
-            "small_thumbnail": "./small_thumbs/621/IMG_2609.jpg"
-          },
-          {
             "path": "./images/621/IMG_2608.jpg",
             "shootingDate": "2021/08/09 16:28:09",
             "shooter": "Kohei Otsuka",
@@ -36498,6 +36508,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/621/IMG_2608.jpg",
             "small_thumbnail": "./small_thumbs/621/IMG_2608.jpg"
+          },
+          {
+            "path": "./images/621/IMG_2609.jpg",
+            "shootingDate": "2021/08/09 16:28:25",
+            "shooter": "Kohei Otsuka",
+            "description": "舟戸多蔵馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/621/IMG_2609.jpg",
+            "small_thumbnail": "./small_thumbs/621/IMG_2609.jpg"
           }
         ],
         "books": [
@@ -41639,6 +41658,15 @@
         "small_thumbnail": "./small_thumbs/705/IMG_2587.jpg",
         "images": [
           {
+            "path": "./images/705/IMG_2587.jpg",
+            "shootingDate": "2021/08/09 16:06:52",
+            "shooter": "Kohei Otsuka",
+            "description": "下三林どうろくじん",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/705/IMG_2587.jpg",
+            "small_thumbnail": "./small_thumbs/705/IMG_2587.jpg"
+          },
+          {
             "path": "./images/705/IMG_2583.jpg",
             "shootingDate": "2021/08/09 16:05:46",
             "shooter": "Kohei Ostuka",
@@ -41664,15 +41692,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/705/IMG_2588.jpg",
             "small_thumbnail": "./small_thumbs/705/IMG_2588.jpg"
-          },
-          {
-            "path": "./images/705/IMG_2587.jpg",
-            "shootingDate": "2021/08/09 16:06:52",
-            "shooter": "Kohei Otsuka",
-            "description": "下三林どうろくじん",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/705/IMG_2587.jpg",
-            "small_thumbnail": "./small_thumbs/705/IMG_2587.jpg"
           }
         ],
         "books": [
@@ -42900,6 +42919,15 @@
         "small_thumbnail": "./small_thumbs/726/IMG_3525.jpg",
         "images": [
           {
+            "path": "./images/726/IMG_3525.jpg",
+            "shootingDate": "2021/08/11 15:15:08",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺大日如来像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/726/IMG_3525.jpg",
+            "small_thumbnail": "./small_thumbs/726/IMG_3525.jpg"
+          },
+          {
             "path": "./images/726/IMG_3526.jpg",
             "shootingDate": "2021/08/11 15:15:14",
             "shooter": "Kohei Otsuka",
@@ -42934,15 +42962,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/726/IMG_3529.jpg",
             "small_thumbnail": "./small_thumbs/726/IMG_3529.jpg"
-          },
-          {
-            "path": "./images/726/IMG_3525.jpg",
-            "shootingDate": "2021/08/11 15:15:08",
-            "shooter": "Kohei Otsuka",
-            "description": "宝生寺大日如来像",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/726/IMG_3525.jpg",
-            "small_thumbnail": "./small_thumbs/726/IMG_3525.jpg"
           }
         ],
         "books": [
@@ -43068,6 +43087,15 @@
         "small_thumbnail": "./small_thumbs/728/IMG_3368.jpg",
         "images": [
           {
+            "path": "./images/728/IMG_3368.jpg",
+            "shootingDate": "2021/08/11 13:24:17",
+            "shooter": "Kohei Otsuka",
+            "description": "木戸阿閦如来供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/728/IMG_3368.jpg",
+            "small_thumbnail": "./small_thumbs/728/IMG_3368.jpg"
+          },
+          {
             "path": "./images/728/IMG_3369.jpg",
             "shootingDate": "2021/08/11 13:24:29",
             "shooter": "Kohei Otsuka",
@@ -43084,15 +43112,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/728/IMG_3370.jpg",
             "small_thumbnail": "./small_thumbs/728/IMG_3370.jpg"
-          },
-          {
-            "path": "./images/728/IMG_3368.jpg",
-            "shootingDate": "2021/08/11 13:24:17",
-            "shooter": "Kohei Otsuka",
-            "description": "木戸阿閦如来供養塔",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/728/IMG_3368.jpg",
-            "small_thumbnail": "./small_thumbs/728/IMG_3368.jpg"
           }
         ],
         "books": [
@@ -43152,15 +43171,6 @@
         "small_thumbnail": "./small_thumbs/729/IMG_3413.jpg",
         "images": [
           {
-            "path": "./images/729/IMG_3407.jpg",
-            "shootingDate": "2021/08/11 14:02:46",
-            "shooter": "Kohei Otsuka",
-            "description": "常楽寺廻国聖観音",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/729/IMG_3407.jpg",
-            "small_thumbnail": "./small_thumbs/729/IMG_3407.jpg"
-          },
-          {
             "path": "./images/729/IMG_3413.jpg",
             "shootingDate": "2021/08/11 14:03:34",
             "shooter": "Kohei Otsuka",
@@ -43168,6 +43178,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/729/IMG_3413.jpg",
             "small_thumbnail": "./small_thumbs/729/IMG_3413.jpg"
+          },
+          {
+            "path": "./images/729/IMG_3407.jpg",
+            "shootingDate": "2021/08/11 14:02:46",
+            "shooter": "Kohei Otsuka",
+            "description": "常楽寺廻国聖観音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/729/IMG_3407.jpg",
+            "small_thumbnail": "./small_thumbs/729/IMG_3407.jpg"
           }
         ],
         "books": [
@@ -43227,6 +43246,15 @@
         "small_thumbnail": "./small_thumbs/730/IMG_3430.jpg",
         "images": [
           {
+            "path": "./images/730/IMG_3430.jpg",
+            "shootingDate": "2021/08/11 14:09:13",
+            "shooter": "Kohei Otsuka",
+            "description": "常楽寺宝暦飯島聖観音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/730/IMG_3430.jpg",
+            "small_thumbnail": "./small_thumbs/730/IMG_3430.jpg"
+          },
+          {
             "path": "./images/730/IMG_3431.jpg",
             "shootingDate": "2021/08/11 14:09:26",
             "shooter": "Kohei Otsuka",
@@ -43243,15 +43271,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/730/IMG_3432.jpg",
             "small_thumbnail": "./small_thumbs/730/IMG_3432.jpg"
-          },
-          {
-            "path": "./images/730/IMG_3430.jpg",
-            "shootingDate": "2021/08/11 14:09:13",
-            "shooter": "Kohei Otsuka",
-            "description": "常楽寺宝暦飯島聖観音",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/730/IMG_3430.jpg",
-            "small_thumbnail": "./small_thumbs/730/IMG_3430.jpg"
           }
         ],
         "books": [
@@ -43311,6 +43330,15 @@
         "small_thumbnail": "./small_thumbs/731/IMG_3449.jpg",
         "images": [
           {
+            "path": "./images/731/IMG_3449.jpg",
+            "shootingDate": "2021/08/11 14:18:37",
+            "shooter": "Kohei Otsuka",
+            "description": "深諦寺聖観音普門品供養",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/731/IMG_3449.jpg",
+            "small_thumbnail": "./small_thumbs/731/IMG_3449.jpg"
+          },
+          {
             "path": "./images/731/IMG_3450.jpg",
             "shootingDate": "2021/08/11 14:18:47",
             "shooter": "Kohei Otsuka",
@@ -43327,15 +43355,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/731/IMG_3451.jpg",
             "small_thumbnail": "./small_thumbs/731/IMG_3451.jpg"
-          },
-          {
-            "path": "./images/731/IMG_3449.jpg",
-            "shootingDate": "2021/08/11 14:18:37",
-            "shooter": "Kohei Otsuka",
-            "description": "深諦寺聖観音普門品供養",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/731/IMG_3449.jpg",
-            "small_thumbnail": "./small_thumbs/731/IMG_3449.jpg"
           }
         ],
         "books": [
@@ -43675,15 +43694,6 @@
         "small_thumbnail": "./small_thumbs/737/IMG_3560.jpg",
         "images": [
           {
-            "path": "./images/737/IMG_3559.jpg",
-            "shootingDate": "2021/08/11 15:34:47",
-            "shooter": "Kohei Otsuka",
-            "description": "日向義民地蔵尊",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/737/IMG_3559.jpg",
-            "small_thumbnail": "./small_thumbs/737/IMG_3559.jpg"
-          },
-          {
             "path": "./images/737/IMG_3560.jpg",
             "shootingDate": "2021/08/11 15:35:01",
             "shooter": "Kohei Otsuka",
@@ -43691,6 +43701,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/737/IMG_3560.jpg",
             "small_thumbnail": "./small_thumbs/737/IMG_3560.jpg"
+          },
+          {
+            "path": "./images/737/IMG_3559.jpg",
+            "shootingDate": "2021/08/11 15:34:47",
+            "shooter": "Kohei Otsuka",
+            "description": "日向義民地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/737/IMG_3559.jpg",
+            "small_thumbnail": "./small_thumbs/737/IMG_3559.jpg"
           }
         ],
         "books": [
@@ -44422,6 +44441,15 @@
         "small_thumbnail": "./small_thumbs/750/IMG_3532.jpg",
         "images": [
           {
+            "path": "./images/750/IMG_3532.jpg",
+            "shootingDate": "2021/08/11 15:16:00",
+            "shooter": "Kohei Otsuka",
+            "description": "宝生寺寛政地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/750/IMG_3532.jpg",
+            "small_thumbnail": "./small_thumbs/750/IMG_3532.jpg"
+          },
+          {
             "path": "./images/750/IMG_3533.jpg",
             "shootingDate": "2021/08/11 15:16:07",
             "shooter": "Kohei Otsuka",
@@ -44438,15 +44466,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/750/IMG_3534.jpg",
             "small_thumbnail": "./small_thumbs/750/IMG_3534.jpg"
-          },
-          {
-            "path": "./images/750/IMG_3532.jpg",
-            "shootingDate": "2021/08/11 15:16:00",
-            "shooter": "Kohei Otsuka",
-            "description": "宝生寺寛政地蔵尊",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/750/IMG_3532.jpg",
-            "small_thumbnail": "./small_thumbs/750/IMG_3532.jpg"
           }
         ],
         "books": [
@@ -44618,15 +44637,6 @@
         "small_thumbnail": "./small_thumbs/753/IMG_3422.jpg",
         "images": [
           {
-            "path": "./images/753/IMG_3421.jpg",
-            "shootingDate": "2021/08/11 14:06:42",
-            "shooter": "Kohei Otsuka",
-            "description": "やきもち地蔵尊",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/753/IMG_3421.jpg",
-            "small_thumbnail": "./small_thumbs/753/IMG_3421.jpg"
-          },
-          {
             "path": "./images/753/IMG_3422.jpg",
             "shootingDate": "2021/08/11 14:06:49",
             "shooter": "Kohei Otsuka",
@@ -44634,6 +44644,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/753/IMG_3422.jpg",
             "small_thumbnail": "./small_thumbs/753/IMG_3422.jpg"
+          },
+          {
+            "path": "./images/753/IMG_3421.jpg",
+            "shootingDate": "2021/08/11 14:06:42",
+            "shooter": "Kohei Otsuka",
+            "description": "やきもち地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/753/IMG_3421.jpg",
+            "small_thumbnail": "./small_thumbs/753/IMG_3421.jpg"
           }
         ],
         "books": [
@@ -62256,15 +62275,6 @@
         "small_thumbnail": "./small_thumbs/1060/IMG_2868.jpg",
         "images": [
           {
-            "path": "./images/1060/IMG_2867.jpg",
-            "shootingDate": "2021/08/10 13:21:02",
-            "shooter": "Kohei Otsuka",
-            "description": "山王地蔵菩薩",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1060/IMG_2867.jpg",
-            "small_thumbnail": "./small_thumbs/1060/IMG_2867.jpg"
-          },
-          {
             "path": "./images/1060/IMG_2868.jpg",
             "shootingDate": "2021/08/10 13:21:15",
             "shooter": "Kohei Otsuka",
@@ -62272,6 +62282,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1060/IMG_2868.jpg",
             "small_thumbnail": "./small_thumbs/1060/IMG_2868.jpg"
+          },
+          {
+            "path": "./images/1060/IMG_2867.jpg",
+            "shootingDate": "2021/08/10 13:21:02",
+            "shooter": "Kohei Otsuka",
+            "description": "山王地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1060/IMG_2867.jpg",
+            "small_thumbnail": "./small_thumbs/1060/IMG_2867.jpg"
           }
         ],
         "books": [
@@ -63125,15 +63144,6 @@
         "small_thumbnail": "./small_thumbs/1076/IMG_2778.jpg",
         "images": [
           {
-            "path": "./images/1076/IMG_2776.jpg",
-            "shootingDate": "2021/08/10 12:29:43",
-            "shooter": "Kohei Otsuka",
-            "description": "岡里青面金剛三猿庚申",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1076/IMG_2776.jpg",
-            "small_thumbnail": "./small_thumbs/1076/IMG_2776.jpg"
-          },
-          {
             "path": "./images/1076/IMG_2778.jpg",
             "shootingDate": "2021/08/10 12:30:08",
             "shooter": "Kohei Otsuka",
@@ -63141,6 +63151,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1076/IMG_2778.jpg",
             "small_thumbnail": "./small_thumbs/1076/IMG_2778.jpg"
+          },
+          {
+            "path": "./images/1076/IMG_2776.jpg",
+            "shootingDate": "2021/08/10 12:29:43",
+            "shooter": "Kohei Otsuka",
+            "description": "岡里青面金剛三猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1076/IMG_2776.jpg",
+            "small_thumbnail": "./small_thumbs/1076/IMG_2776.jpg"
           }
         ],
         "books": [
@@ -63200,15 +63219,6 @@
         "small_thumbnail": "./small_thumbs/1077/IMG_2768.jpg",
         "images": [
           {
-            "path": "./images/1077/IMG_2767.jpg",
-            "shootingDate": "2021/08/10 12:19:55",
-            "shooter": "Kohei Otsuka",
-            "description": "岡里倉持家屋敷庚申",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1077/IMG_2767.jpg",
-            "small_thumbnail": "./small_thumbs/1077/IMG_2767.jpg"
-          },
-          {
             "path": "./images/1077/IMG_2768.jpg",
             "shootingDate": "2021/08/10 12:20:05",
             "shooter": "Kohei Otsuka",
@@ -63216,6 +63226,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1077/IMG_2768.jpg",
             "small_thumbnail": "./small_thumbs/1077/IMG_2768.jpg"
+          },
+          {
+            "path": "./images/1077/IMG_2767.jpg",
+            "shootingDate": "2021/08/10 12:19:55",
+            "shooter": "Kohei Otsuka",
+            "description": "岡里倉持家屋敷庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1077/IMG_2767.jpg",
+            "small_thumbnail": "./small_thumbs/1077/IMG_2767.jpg"
           }
         ],
         "books": [
@@ -63397,6 +63416,15 @@
         "small_thumbnail": "./small_thumbs/1080/IMG_2846.jpg",
         "images": [
           {
+            "path": "./images/1080/IMG_2846.jpg",
+            "shootingDate": "2021/08/10 13:12:38",
+            "shooter": "Kohei Otsuka",
+            "description": "本郷青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1080/IMG_2846.jpg",
+            "small_thumbnail": "./small_thumbs/1080/IMG_2846.jpg"
+          },
+          {
             "path": "./images/1080/IMG_2847.jpg",
             "shootingDate": "2021/08/10 13:12:50",
             "shooter": "Kohei Otsuka",
@@ -63422,15 +63450,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1080/IMG_2849.jpg",
             "small_thumbnail": "./small_thumbs/1080/IMG_2849.jpg"
-          },
-          {
-            "path": "./images/1080/IMG_2846.jpg",
-            "shootingDate": "2021/08/10 13:12:38",
-            "shooter": "Kohei Otsuka",
-            "description": "本郷青面金剛",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1080/IMG_2846.jpg",
-            "small_thumbnail": "./small_thumbs/1080/IMG_2846.jpg"
           }
         ],
         "books": [
@@ -64538,15 +64557,6 @@
         "small_thumbnail": "./small_thumbs/1106/IMG_2806.jpg",
         "images": [
           {
-            "path": "./images/1106/IMG_2807.jpg",
-            "shootingDate": "2021/08/10 12:40:33",
-            "shooter": "Kohei Otsuka",
-            "description": "上新田釈迦堂松島家馬頭観世音",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1106/IMG_2807.jpg",
-            "small_thumbnail": "./small_thumbs/1106/IMG_2807.jpg"
-          },
-          {
             "path": "./images/1106/IMG_2806.jpg",
             "shootingDate": "2021/08/10 12:40:27",
             "shooter": "Kohei Otsuka",
@@ -64554,6 +64564,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1106/IMG_2806.jpg",
             "small_thumbnail": "./small_thumbs/1106/IMG_2806.jpg"
+          },
+          {
+            "path": "./images/1106/IMG_2807.jpg",
+            "shootingDate": "2021/08/10 12:40:33",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂松島家馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1106/IMG_2807.jpg",
+            "small_thumbnail": "./small_thumbs/1106/IMG_2807.jpg"
           }
         ],
         "books": [
@@ -65293,15 +65312,6 @@
         "small_thumbnail": "./small_thumbs/1123/IMG_2800.jpg",
         "images": [
           {
-            "path": "./images/1123/IMG_2801.jpg",
-            "shootingDate": "2021/08/10 12:39:02",
-            "shooter": "Kohei Otsuka",
-            "description": "上新田釈迦堂十九夜念仏供養",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1123/IMG_2801.jpg",
-            "small_thumbnail": "./small_thumbs/1123/IMG_2801.jpg"
-          },
-          {
             "path": "./images/1123/IMG_2800.jpg",
             "shootingDate": "2021/08/10 12:38:52",
             "shooter": "Kohei Otsuka",
@@ -65309,6 +65319,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1123/IMG_2800.jpg",
             "small_thumbnail": "./small_thumbs/1123/IMG_2800.jpg"
+          },
+          {
+            "path": "./images/1123/IMG_2801.jpg",
+            "shootingDate": "2021/08/10 12:39:02",
+            "shooter": "Kohei Otsuka",
+            "description": "上新田釈迦堂十九夜念仏供養",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1123/IMG_2801.jpg",
+            "small_thumbnail": "./small_thumbs/1123/IMG_2801.jpg"
           }
         ],
         "books": [
@@ -65368,6 +65387,15 @@
         "small_thumbnail": "./small_thumbs/1124/IMG_2863.jpg",
         "images": [
           {
+            "path": "./images/1124/IMG_2863.jpg",
+            "shootingDate": "2021/08/10 13:20:33",
+            "shooter": "Kohei Otsuka",
+            "description": "山王日限地蔵前十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1124/IMG_2863.jpg",
+            "small_thumbnail": "./small_thumbs/1124/IMG_2863.jpg"
+          },
+          {
             "path": "./images/1124/IMG_2862.jpg",
             "shootingDate": "2021/08/10 13:20:25",
             "shooter": "Kohei Otsuka",
@@ -65393,15 +65421,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1124/IMG_2866.jpg",
             "small_thumbnail": "./small_thumbs/1124/IMG_2866.jpg"
-          },
-          {
-            "path": "./images/1124/IMG_2863.jpg",
-            "shootingDate": "2021/08/10 13:20:33",
-            "shooter": "Kohei Otsuka",
-            "description": "山王日限地蔵前十九夜",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1124/IMG_2863.jpg",
-            "small_thumbnail": "./small_thumbs/1124/IMG_2863.jpg"
           }
         ],
         "books": [
@@ -67117,6 +67136,15 @@
         "small_thumbnail": "./small_thumbs/1155/IMG_2859.jpg",
         "images": [
           {
+            "path": "./images/1155/IMG_2859.jpg",
+            "shootingDate": "2021/08/10 13:19:36",
+            "shooter": "Kohei Otsuka",
+            "description": "山王日限地蔵前庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1155/IMG_2859.jpg",
+            "small_thumbnail": "./small_thumbs/1155/IMG_2859.jpg"
+          },
+          {
             "path": "./images/1155/IMG_2860.jpg",
             "shootingDate": "2021/08/10 13:19:45",
             "shooter": "Kohei Otsuka",
@@ -67133,15 +67161,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1155/IMG_2861.jpg",
             "small_thumbnail": "./small_thumbs/1155/IMG_2861.jpg"
-          },
-          {
-            "path": "./images/1155/IMG_2859.jpg",
-            "shootingDate": "2021/08/10 13:19:36",
-            "shooter": "Kohei Otsuka",
-            "description": "山王日限地蔵前庚申",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1155/IMG_2859.jpg",
-            "small_thumbnail": "./small_thumbs/1155/IMG_2859.jpg"
           }
         ],
         "books": [
@@ -71202,15 +71221,6 @@
         "small_thumbnail": "./small_thumbs/1218/obayashi_koshin_2019.jpg",
         "images": [
           {
-            "path": "./images/1218/obayashi_koshin_2018.jpg",
-            "shootingDate": "2018/09/24 14:50:22",
-            "shooter": "Kohei Otsuka",
-            "description": "大林の庚申",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1218/obayashi_koshin_2018.jpg",
-            "small_thumbnail": "./small_thumbs/1218/obayashi_koshin_2018.jpg"
-          },
-          {
             "path": "./images/1218/obayashi_koshin_2019.jpg",
             "shootingDate": "2019/11/03 15:55:59",
             "shooter": "Kohei Otsuka",
@@ -71218,6 +71228,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1218/obayashi_koshin_2019.jpg",
             "small_thumbnail": "./small_thumbs/1218/obayashi_koshin_2019.jpg"
+          },
+          {
+            "path": "./images/1218/obayashi_koshin_2018.jpg",
+            "shootingDate": "2018/09/24 14:50:22",
+            "shooter": "Kohei Otsuka",
+            "description": "大林の庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1218/obayashi_koshin_2018.jpg",
+            "small_thumbnail": "./small_thumbs/1218/obayashi_koshin_2018.jpg"
           }
         ],
         "books": [
@@ -71649,15 +71668,6 @@
         "small_thumbnail": "./small_thumbs/1225/nakajima_seimenkongo_2020.jpg",
         "images": [
           {
-            "path": "./images/1225/nakajima_seimenkongo.jpg",
-            "shootingDate": "2018/09/24 15:24:57",
-            "shooter": "Kohei Otsuka",
-            "description": "中島の青面金剛",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1225/nakajima_seimenkongo.jpg",
-            "small_thumbnail": "./small_thumbs/1225/nakajima_seimenkongo.jpg"
-          },
-          {
             "path": "./images/1225/nakajima_seimenkongo_2020.jpg",
             "shootingDate": "2020/09/20 16:52:07",
             "shooter": "Kohei Otsuka",
@@ -71665,6 +71675,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1225/nakajima_seimenkongo_2020.jpg",
             "small_thumbnail": "./small_thumbs/1225/nakajima_seimenkongo_2020.jpg"
+          },
+          {
+            "path": "./images/1225/nakajima_seimenkongo.jpg",
+            "shootingDate": "2018/09/24 15:24:57",
+            "shooter": "Kohei Otsuka",
+            "description": "中島の青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1225/nakajima_seimenkongo.jpg",
+            "small_thumbnail": "./small_thumbs/1225/nakajima_seimenkongo.jpg"
           }
         ],
         "books": [
@@ -71902,15 +71921,6 @@
         "small_thumbnail": "./small_thumbs/1229/shimoshinden_meiwa_koshin.jpg",
         "images": [
           {
-            "path": "./images/1229/shimoshinden_4stones.jpg",
-            "shootingDate": "2021/02/02 13:26:42",
-            "shooter": "Kohei Otsuka",
-            "description": "下新田 白山神社前 4石造物",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1229/shimoshinden_4stones.jpg",
-            "small_thumbnail": "./small_thumbs/1229/shimoshinden_4stones.jpg"
-          },
-          {
             "path": "./images/1229/shimoshinden_meiwa_koshin.jpg",
             "shootingDate": "2021/02/02 13:34:02",
             "shooter": "Kohei Otsuka",
@@ -71918,6 +71928,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1229/shimoshinden_meiwa_koshin.jpg",
             "small_thumbnail": "./small_thumbs/1229/shimoshinden_meiwa_koshin.jpg"
+          },
+          {
+            "path": "./images/1229/shimoshinden_4stones.jpg",
+            "shootingDate": "2021/02/02 13:26:42",
+            "shooter": "Kohei Otsuka",
+            "description": "下新田 白山神社前 4石造物",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1229/shimoshinden_4stones.jpg",
+            "small_thumbnail": "./small_thumbs/1229/shimoshinden_4stones.jpg"
           }
         ],
         "books": [
@@ -71977,15 +71996,6 @@
         "small_thumbnail": "./small_thumbs/1230/shimoshinden_kyoho_koshin.jpg",
         "images": [
           {
-            "path": "./images/1230/shimoshinden_4stones.jpg",
-            "shootingDate": "2021/02/02 13:26:42",
-            "shooter": "Kohei Otsuka",
-            "description": "下新田 白山神社前 4石造物",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1230/shimoshinden_4stones.jpg",
-            "small_thumbnail": "./small_thumbs/1230/shimoshinden_4stones.jpg"
-          },
-          {
             "path": "./images/1230/shimoshinden_kyoho_koshin.jpg",
             "shootingDate": "2021/02/02 13:31:09",
             "shooter": "Kohei Otsuka",
@@ -71993,6 +72003,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1230/shimoshinden_kyoho_koshin.jpg",
             "small_thumbnail": "./small_thumbs/1230/shimoshinden_kyoho_koshin.jpg"
+          },
+          {
+            "path": "./images/1230/shimoshinden_4stones.jpg",
+            "shootingDate": "2021/02/02 13:26:42",
+            "shooter": "Kohei Otsuka",
+            "description": "下新田 白山神社前 4石造物",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1230/shimoshinden_4stones.jpg",
+            "small_thumbnail": "./small_thumbs/1230/shimoshinden_4stones.jpg"
           }
         ],
         "books": [
@@ -72052,15 +72071,6 @@
         "small_thumbnail": "./small_thumbs/1231/shimoshinden_hoei_koshin.jpg",
         "images": [
           {
-            "path": "./images/1231/shimoshinden_4stones.jpg",
-            "shootingDate": "2021/02/02 13:26:42",
-            "shooter": "Kohei Otsuka",
-            "description": "下新田 白山神社前 4石造物",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1231/shimoshinden_4stones.jpg",
-            "small_thumbnail": "./small_thumbs/1231/shimoshinden_4stones.jpg"
-          },
-          {
             "path": "./images/1231/shimoshinden_hoei_koshin.jpg",
             "shootingDate": "2021/02/02 13:29:16",
             "shooter": "Kohei Otsuka",
@@ -72068,6 +72078,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1231/shimoshinden_hoei_koshin.jpg",
             "small_thumbnail": "./small_thumbs/1231/shimoshinden_hoei_koshin.jpg"
+          },
+          {
+            "path": "./images/1231/shimoshinden_4stones.jpg",
+            "shootingDate": "2021/02/02 13:26:42",
+            "shooter": "Kohei Otsuka",
+            "description": "下新田 白山神社前 4石造物",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1231/shimoshinden_4stones.jpg",
+            "small_thumbnail": "./small_thumbs/1231/shimoshinden_4stones.jpg"
           }
         ],
         "books": [
@@ -72127,15 +72146,6 @@
         "small_thumbnail": "./small_thumbs/1232/shimoshinden_kansei_koshin.jpg",
         "images": [
           {
-            "path": "./images/1232/shimoshinden_4stones.jpg",
-            "shootingDate": "2021/02/02 13:26:42",
-            "shooter": "Kohei Otsuka",
-            "description": "下新田 白山神社前 4石造物",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1232/shimoshinden_4stones.jpg",
-            "small_thumbnail": "./small_thumbs/1232/shimoshinden_4stones.jpg"
-          },
-          {
             "path": "./images/1232/shimoshinden_kansei_koshin.jpg",
             "shootingDate": "2021/02/02 13:30:12",
             "shooter": "Kohei Otsuka",
@@ -72143,6 +72153,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1232/shimoshinden_kansei_koshin.jpg",
             "small_thumbnail": "./small_thumbs/1232/shimoshinden_kansei_koshin.jpg"
+          },
+          {
+            "path": "./images/1232/shimoshinden_4stones.jpg",
+            "shootingDate": "2021/02/02 13:26:42",
+            "shooter": "Kohei Otsuka",
+            "description": "下新田 白山神社前 4石造物",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1232/shimoshinden_4stones.jpg",
+            "small_thumbnail": "./small_thumbs/1232/shimoshinden_4stones.jpg"
           },
           {
             "path": "./images/1232/shimoshinden_kansei_koshin_left.jpg",
@@ -72622,15 +72641,6 @@
         "small_thumbnail": "./small_thumbs/1239/fujitake_1zaru_seimen_2.jpg",
         "images": [
           {
-            "path": "./images/1239/fujitake_1zaru_seimen_1.jpg",
-            "shootingDate": "2021/02/02 10:59:02",
-            "shooter": "Kohei Otsuka",
-            "description": "富士山 富士嶽神社 一猿と青面金剛、藪の中に倒壊していた",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1239/fujitake_1zaru_seimen_1.jpg",
-            "small_thumbnail": "./small_thumbs/1239/fujitake_1zaru_seimen_1.jpg"
-          },
-          {
             "path": "./images/1239/fujitake_1zaru_seimen_2.jpg",
             "shootingDate": "2021/02/02 11:06:39",
             "shooter": "Kohei Otsuka",
@@ -72638,6 +72648,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1239/fujitake_1zaru_seimen_2.jpg",
             "small_thumbnail": "./small_thumbs/1239/fujitake_1zaru_seimen_2.jpg"
+          },
+          {
+            "path": "./images/1239/fujitake_1zaru_seimen_1.jpg",
+            "shootingDate": "2021/02/02 10:59:02",
+            "shooter": "Kohei Otsuka",
+            "description": "富士山 富士嶽神社 一猿と青面金剛、藪の中に倒壊していた",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1239/fujitake_1zaru_seimen_1.jpg",
+            "small_thumbnail": "./small_thumbs/1239/fujitake_1zaru_seimen_1.jpg"
           },
           {
             "path": "./images/1239/fujitake_1zaru_seimen_3.jpg",
@@ -72706,15 +72725,6 @@
         "small_thumbnail": "./small_thumbs/1240/sakamura_sarutahiko_zoom.jpg",
         "images": [
           {
-            "path": "./images/1240/sakamura_sarutahiko.jpg",
-            "shootingDate": "2020/07/11 16:02:59",
-            "shooter": "Kohei Otsuka",
-            "description": "坂村家の猿田彦大神 (遠景)",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1240/sakamura_sarutahiko.jpg",
-            "small_thumbnail": "./small_thumbs/1240/sakamura_sarutahiko.jpg"
-          },
-          {
             "path": "./images/1240/sakamura_sarutahiko_zoom.jpg",
             "shootingDate": "2020/07/11 16:02:34",
             "shooter": "Kohei Otsuka",
@@ -72722,6 +72732,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1240/sakamura_sarutahiko_zoom.jpg",
             "small_thumbnail": "./small_thumbs/1240/sakamura_sarutahiko_zoom.jpg"
+          },
+          {
+            "path": "./images/1240/sakamura_sarutahiko.jpg",
+            "shootingDate": "2020/07/11 16:02:59",
+            "shooter": "Kohei Otsuka",
+            "description": "坂村家の猿田彦大神 (遠景)",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1240/sakamura_sarutahiko.jpg",
+            "small_thumbnail": "./small_thumbs/1240/sakamura_sarutahiko.jpg"
           }
         ],
         "books": [
@@ -72781,6 +72800,15 @@
         "small_thumbnail": "./small_thumbs/1241/tamura_sarutahiko_zoom.jpg",
         "images": [
           {
+            "path": "./images/1241/tamura_sarutahiko_zoom.jpg",
+            "shootingDate": "2020/07/11 16:04:37",
+            "shooter": "Kohei Otsuka",
+            "description": "田村家の猿田彦大神",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1241/tamura_sarutahiko_zoom.jpg",
+            "small_thumbnail": "./small_thumbs/1241/tamura_sarutahiko_zoom.jpg"
+          },
+          {
             "path": "./images/1241/tamura_sarutahiko.jpg",
             "shootingDate": "2020/07/11 16:05:02",
             "shooter": "Kohei Otsuka",
@@ -72797,15 +72825,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1241/tamura_sarutahiko_side.jpg",
             "small_thumbnail": "./small_thumbs/1241/tamura_sarutahiko_side.jpg"
-          },
-          {
-            "path": "./images/1241/tamura_sarutahiko_zoom.jpg",
-            "shootingDate": "2020/07/11 16:04:37",
-            "shooter": "Kohei Otsuka",
-            "description": "田村家の猿田彦大神",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1241/tamura_sarutahiko_zoom.jpg",
-            "small_thumbnail": "./small_thumbs/1241/tamura_sarutahiko_zoom.jpg"
           }
         ],
         "books": [
@@ -72865,15 +72884,6 @@
         "small_thumbnail": "./small_thumbs/1242/kano_satahiko_zoom.jpg",
         "images": [
           {
-            "path": "./images/1242/kano_satahiko_bato.jpg",
-            "shootingDate": "2020/07/11 16:17:29",
-            "shooter": "Kohei Otsuka",
-            "description": "狩野家の佐田彦大神 馬頭観世音",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1242/kano_satahiko_bato.jpg",
-            "small_thumbnail": "./small_thumbs/1242/kano_satahiko_bato.jpg"
-          },
-          {
             "path": "./images/1242/kano_satahiko_zoom.jpg",
             "shootingDate": "2020/07/11 16:17:18",
             "shooter": "Kohei Otsuka",
@@ -72881,6 +72891,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1242/kano_satahiko_zoom.jpg",
             "small_thumbnail": "./small_thumbs/1242/kano_satahiko_zoom.jpg"
+          },
+          {
+            "path": "./images/1242/kano_satahiko_bato.jpg",
+            "shootingDate": "2020/07/11 16:17:29",
+            "shooter": "Kohei Otsuka",
+            "description": "狩野家の佐田彦大神 馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1242/kano_satahiko_bato.jpg",
+            "small_thumbnail": "./small_thumbs/1242/kano_satahiko_bato.jpg"
           }
         ],
         "books": [
@@ -72940,15 +72959,6 @@
         "small_thumbnail": "./small_thumbs/1243/mogi_koshin_zoom.jpg",
         "images": [
           {
-            "path": "./images/1243/mogi_koshin.jpg",
-            "shootingDate": "2020/07/11 16:13:18",
-            "shooter": "Kohei Otsuka",
-            "description": "茂木家の庚申 (遠景)",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1243/mogi_koshin.jpg",
-            "small_thumbnail": "./small_thumbs/1243/mogi_koshin.jpg"
-          },
-          {
             "path": "./images/1243/mogi_koshin_zoom.jpg",
             "shootingDate": "2020/07/11 16:13:12",
             "shooter": "Kohei Otsuka",
@@ -72956,6 +72966,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1243/mogi_koshin_zoom.jpg",
             "small_thumbnail": "./small_thumbs/1243/mogi_koshin_zoom.jpg"
+          },
+          {
+            "path": "./images/1243/mogi_koshin.jpg",
+            "shootingDate": "2020/07/11 16:13:18",
+            "shooter": "Kohei Otsuka",
+            "description": "茂木家の庚申 (遠景)",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1243/mogi_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/1243/mogi_koshin.jpg"
           }
         ],
         "books": [
@@ -73155,15 +73174,6 @@
         "small_thumbnail": "./small_thumbs/1246/obukuro_seimen_kongo.jpg",
         "images": [
           {
-            "path": "./images/1246/obukuro_seimen_kongo_back.jpg",
-            "shootingDate": "2020/07/11 15:52:50",
-            "shooter": "Kohei Otsuka",
-            "description": "大袋の自然石青面金剛 (背面)",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1246/obukuro_seimen_kongo_back.jpg",
-            "small_thumbnail": "./small_thumbs/1246/obukuro_seimen_kongo_back.jpg"
-          },
-          {
             "path": "./images/1246/obukuro_seimen_kongo.jpg",
             "shootingDate": "2021/02/02 10:35:56",
             "shooter": "Kohei Otsuka",
@@ -73171,6 +73181,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1246/obukuro_seimen_kongo.jpg",
             "small_thumbnail": "./small_thumbs/1246/obukuro_seimen_kongo.jpg"
+          },
+          {
+            "path": "./images/1246/obukuro_seimen_kongo_back.jpg",
+            "shootingDate": "2020/07/11 15:52:50",
+            "shooter": "Kohei Otsuka",
+            "description": "大袋の自然石青面金剛 (背面)",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1246/obukuro_seimen_kongo_back.jpg",
+            "small_thumbnail": "./small_thumbs/1246/obukuro_seimen_kongo_back.jpg"
           }
         ],
         "books": [
@@ -73850,15 +73869,6 @@
         "small_thumbnail": "./small_thumbs/1256/kusunoki_zo_koshin.jpg",
         "images": [
           {
-            "path": "./images/1256/kusunoki_2_koshin.jpg",
-            "shootingDate": "2021/02/02 15:22:00",
-            "shooter": "Kohei Otsuka",
-            "description": "楠木神社の庚申2種",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1256/kusunoki_2_koshin.jpg",
-            "small_thumbnail": "./small_thumbs/1256/kusunoki_2_koshin.jpg"
-          },
-          {
             "path": "./images/1256/kusunoki_zo_koshin.jpg",
             "shootingDate": "2021/02/02 15:22:05",
             "shooter": "Kohei Otsuka",
@@ -73866,6 +73876,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1256/kusunoki_zo_koshin.jpg",
             "small_thumbnail": "./small_thumbs/1256/kusunoki_zo_koshin.jpg"
+          },
+          {
+            "path": "./images/1256/kusunoki_2_koshin.jpg",
+            "shootingDate": "2021/02/02 15:22:00",
+            "shooter": "Kohei Otsuka",
+            "description": "楠木神社の庚申2種",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1256/kusunoki_2_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/1256/kusunoki_2_koshin.jpg"
           },
           {
             "path": "./images/1256/kusunoki_zo_koshin_back.jpg",
@@ -73934,15 +73953,6 @@
         "small_thumbnail": "./small_thumbs/1257/kusunoki_moji_koshin.jpg",
         "images": [
           {
-            "path": "./images/1257/kusunoki_2_koshin.jpg",
-            "shootingDate": "2021/02/02 15:22:00",
-            "shooter": "Kohei Otsuka",
-            "description": "楠木神社の庚申2種",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1257/kusunoki_2_koshin.jpg",
-            "small_thumbnail": "./small_thumbs/1257/kusunoki_2_koshin.jpg"
-          },
-          {
             "path": "./images/1257/kusunoki_moji_koshin.jpg",
             "shootingDate": "2021/02/02 15:22:08",
             "shooter": "Kohei Otsuka",
@@ -73950,6 +73960,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1257/kusunoki_moji_koshin.jpg",
             "small_thumbnail": "./small_thumbs/1257/kusunoki_moji_koshin.jpg"
+          },
+          {
+            "path": "./images/1257/kusunoki_2_koshin.jpg",
+            "shootingDate": "2021/02/02 15:22:00",
+            "shooter": "Kohei Otsuka",
+            "description": "楠木神社の庚申2種",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1257/kusunoki_2_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/1257/kusunoki_2_koshin.jpg"
           },
           {
             "path": "./images/1257/kusunoki_moji_koshin_back.jpg",
@@ -74338,15 +74357,6 @@
         "small_thumbnail": "./small_thumbs/1263/nagatake_stone_koshin_2.jpg",
         "images": [
           {
-            "path": "./images/1263/nagatake_stone_koshin.jpg",
-            "shootingDate": "2021/02/02 14:58:40",
-            "shooter": "Kohei Otsuka",
-            "description": "長竹の自然石庚申",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1263/nagatake_stone_koshin.jpg",
-            "small_thumbnail": "./small_thumbs/1263/nagatake_stone_koshin.jpg"
-          },
-          {
             "path": "./images/1263/nagatake_stone_koshin_2.jpg",
             "shootingDate": "2021/02/02 14:59:22",
             "shooter": "Kohei Otsuka",
@@ -74354,6 +74364,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1263/nagatake_stone_koshin_2.jpg",
             "small_thumbnail": "./small_thumbs/1263/nagatake_stone_koshin_2.jpg"
+          },
+          {
+            "path": "./images/1263/nagatake_stone_koshin.jpg",
+            "shootingDate": "2021/02/02 14:58:40",
+            "shooter": "Kohei Otsuka",
+            "description": "長竹の自然石庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1263/nagatake_stone_koshin.jpg",
+            "small_thumbnail": "./small_thumbs/1263/nagatake_stone_koshin.jpg"
           }
         ],
         "books": [
@@ -93168,6 +93187,15 @@
         "small_thumbnail": "./small_thumbs/1595/IMG_2894.jpg",
         "images": [
           {
+            "path": "./images/1595/IMG_2894.jpg",
+            "shootingDate": "2021/08/10 13:38:45",
+            "shooter": "Kohei Otsuka",
+            "description": "寄居二猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1595/IMG_2894.jpg",
+            "small_thumbnail": "./small_thumbs/1595/IMG_2894.jpg"
+          },
+          {
             "path": "./images/1595/IMG_2895.jpg",
             "shootingDate": "2021/08/10 13:38:53",
             "shooter": "Kohei Otsuka",
@@ -93184,15 +93212,6 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1595/IMG_2896.jpg",
             "small_thumbnail": "./small_thumbs/1595/IMG_2896.jpg"
-          },
-          {
-            "path": "./images/1595/IMG_2894.jpg",
-            "shootingDate": "2021/08/10 13:38:45",
-            "shooter": "Kohei Otsuka",
-            "description": "寄居二猿庚申",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1595/IMG_2894.jpg",
-            "small_thumbnail": "./small_thumbs/1595/IMG_2894.jpg"
           }
         ],
         "books": [
