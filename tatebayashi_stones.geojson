@@ -26927,38 +26927,57 @@
         "era": "大正11年",
         "year": "1922",
         "place_1": "緑町一丁目",
-        "place_2": "",
-        "detail": "新宿薬師堂境内",
-        "note_1": "像あり",
+        "place_2": "新宿",
+        "detail": "薬師堂境内",
+        "note_1": "北向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "墓地の東南端",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2019/02/02",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 487,
+        "height": 157,
+        "width": 26,
+        "depth": 17,
+        "shape": "柱型 像あり",
+        "material": "石造",
+        "inscription": "(表)十九夜尊\n寶寿寺寂証拝書\n(裏)大正十一年十月吉日\n念佛講中建之",
+        "statue_height": 46,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/456/FDAvx1DacAAVCy1.jpg",
+        "mid_thumbnail": "./mid_thumbs/456/FDAvx1DacAAVCy1.jpg",
+        "small_thumbnail": "./small_thumbs/456/FDAvx1DacAAVCy1.jpg",
+        "images": [
+          {
+            "path": "./images/456/FDAvx1DacAAVCy1.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "薬師堂十九夜尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/456/FDAvx1DacAAVCy1.jpg",
+            "small_thumbnail": "./small_thumbs/456/FDAvx1DacAAVCy1.jpg"
+          },
+          {
+            "path": "./images/456/FDAvzcMaIAA43Rx.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "薬師堂十九夜尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/456/FDAvzcMaIAA43Rx.jpg",
+            "small_thumbnail": "./small_thumbs/456/FDAvzcMaIAA43Rx.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "45",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -26968,8 +26987,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5317497946,
-          36.2393251314
+          139.532606,
+          36.2395962
         ]
       }
     },
@@ -31135,33 +31154,43 @@
         "era": "元文3年",
         "year": "1738",
         "place_1": "松原一丁目",
-        "place_2": "7-33",
+        "place_2": "",
         "detail": "瀬山 増男",
-        "note_1": "",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2019/02/02",
         "description": "@",
         "photo": "",
         "public_relations": "Mar-14",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
+        "confirmed": true,
+        "primary_image": 488,
+        "height": 43,
+        "width": 15.5,
+        "depth": 12.5,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "(表)南無觀世音菩[薩]\n(左)秩父 こ加道\n坂東\n(裏)元文三[年]\n 二月七[日]\n(右)西國\n せんづ[い]",
         "statue_height": "",
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/531/FDA7x9qaIAAfN8u.jpg",
+        "mid_thumbnail": "./mid_thumbs/531/FDA7x9qaIAAfN8u.jpg",
+        "small_thumbnail": "./small_thumbs/531/FDA7x9qaIAAfN8u.jpg",
+        "images": [
+          {
+            "path": "./images/531/FDA7x9qaIAAfN8u.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "松原観世音道標",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/531/FDA7x9qaIAAfN8u.jpg",
+            "small_thumbnail": "./small_thumbs/531/FDA7x9qaIAAfN8u.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -31174,7 +31203,7 @@
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "65",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -31184,8 +31213,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.541002356,
-          36.2379275302
+          139.540835,
+          36.2376784
         ]
       }
     },
@@ -77298,14 +77327,14 @@
         "detail": "永明寺門前",
         "note_1": "如意輪観音像あり 東向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "永明寺の門を入ってすぐ左",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2019/02/02",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 485,
         "height": 190,
         "width": 53,
         "depth": 34,
@@ -77317,10 +77346,29 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1312/FDBAMXjaUAA7_K_.jpg",
+        "mid_thumbnail": "./mid_thumbs/1312/FDBAMXjaUAA7_K_.jpg",
+        "small_thumbnail": "./small_thumbs/1312/FDBAMXjaUAA7_K_.jpg",
+        "images": [
+          {
+            "path": "./images/1312/FDBAMXjaUAA7_K_.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "待辺十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1312/FDBAMXjaUAA7_K_.jpg",
+            "small_thumbnail": "./small_thumbs/1312/FDBAMXjaUAA7_K_.jpg"
+          },
+          {
+            "path": "./images/1312/FDBAO6sagAEXdtD.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "待辺十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1312/FDBAO6sagAEXdtD.jpg",
+            "small_thumbnail": "./small_thumbs/1312/FDBAO6sagAEXdtD.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -77335,8 +77383,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5585384409,
-          36.2218119434
+          139.5584035,
+          36.2218721
         ]
       }
     },
