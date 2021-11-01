@@ -4,6 +4,9 @@
   "description": "「たてばやしの野仏巡り」全5巻相当のデータのオープンデータ化＆現況調査プロジェクト",
   "main": "tatebayashi_merge.js",
   "dependencies": {
+    "csv-parse": "^4.16.3",
+    "csv-stringify": "^5.6.5",
+    "csvtojson": "^2.0.10",
     "linebyline": "^1.3.0"
   },
   "devDependencies": {

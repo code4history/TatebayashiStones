@@ -37,15 +37,15 @@ popupHtmlTemplate += `{% if images.length > 0 %}
 popupHtmlTemplate += `<b>年代:</b> {{ era }} {% if year %} ({{ year }}) {% endif %}<br>`;
 
 popupHtmlTemplate += `{% if shape %}         <b>形状:</b> {{ shape }}<br> {% endif %}`;
-popupHtmlTemplate += `{% if note_1 %}        <b>付帯情報:</b> {{ note_1 | nl2br }}<br> {% endif %}`;
-popupHtmlTemplate += `{% if note_2 %}        <b>伝承等:</b> {{ note_2 | nl2br }}<br> {% endif %}`;
-popupHtmlTemplate += `{% if note_3 %}        <b>調査時メモ:</b> {{ note_3 | nl2br }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if note_1 %}        <b>付帯情報:</b> {{ note_1 | nl2br | safe }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if note_2 %}        <b>伝承等:</b> {{ note_2 | nl2br | safe }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if note_3 %}        <b>調査時メモ:</b> {{ note_3 | nl2br | safe }}<br> {% endif %}`;
 popupHtmlTemplate += `{% if material %}      <b>材質:</b> {{ material }}<br> {% endif %}`;
 popupHtmlTemplate += `{% if height %}        <b>総高:</b> {{ height }}cm<br> {% endif %}`;
 popupHtmlTemplate += `{% if statue_height %} <b>像高:</b> {{ statue_height }}cm<br> {% endif %}`;
 popupHtmlTemplate += `{% if width %}         <b>幅:</b> {{ width }}cm<br> {% endif %}`;
 popupHtmlTemplate += `{% if depth %}         <b>奥行:</b> {{ depth }}cm<br> {% endif %}`;
-popupHtmlTemplate += `{% if inscription %}   <b>刻銘:</b> {{ inscription | nl2br }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if inscription %}   <b>刻銘:</b> {{ inscription | nl2br | safe }}<br> {% endif %}`;
 
 popupHtmlTemplate += `<b>最終現地調査日:</b> {%if confirmed %} {{ surveyed }} {% else %} 未調査 {% endif %}<br>`;
 

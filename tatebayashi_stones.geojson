@@ -57627,36 +57627,55 @@
         "place_1": "大新田",
         "place_2": "",
         "detail": "薬師堂墓地",
-        "note_1": "柱型、文字",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "渡瀬",
-        "surveyed": "",
+        "surveyed": "2019/05/02",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
+        "confirmed": true,
+        "primary_image": 480,
+        "height": 181,
         "width": "",
         "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)十九夜 女人講\n(右)明治廿六年旧二月吉日\n(台右)  當所寄附連名\n一、金壱円五十銭 浜野 直造\n一、金壱円     大塚覚次郎\n同         坂田 磯吉\n同         関口喜太郎\n一、金八十銭    中村喜三郎\n一、金六十銭    中村 重七\n一、金五十銭    渡辺喜十郎\n同         原田 栄吉\n同         平田 國藏\n同         坂田恒次郎\n同         飯塚重太郎\n同         田口 吉造\n同         田口長次郎\n同         荒井 平藏\n一、金三十銭    大谷八□郎\n同         小林米太郎\n一、金五十銭 ホソウチ 岩上易次郎\n一、金四十銭 ホリク  川島佐四郎\n一、金三十銭    須永岩太郎\n同     タ ヤ  中里 源吉\n同     アシツギ 荒井 九平\n同         坂田 嘉七\n(台裏)金三十銭  カタ町  小沼弥太郎\n同     足ツギ  大朏 庄吉\n金二十五銭 同    荒井八太郎\n同     同    荒井國太郎\n同     同    坂田和助\n同     同    大門鶴松\n同     トウゴ  飯塚三五郎\n同     同    根岸幾次郎\n同     ヨツヤ  飯塚 藤吉\n同     チヅカ  浜野平二郎\n同     同    浜野鉄五郎\n同     アシカガ丁田口 平吉\n同     同    鍛治 半造\n同     オウシマ 小林 源七\n同     同    松島嘉七郎\n同     ショキウチ稲葉清一郎\n同     タカネ  内田 モト\n同     ホリク  中村 仙藏\n同     ナルシマ 井野口栄吉\n同     タカネ  福地浅次郎\n同     ハネツク 阿部 喜平\n同     ダイジク 渡辺伝次郎\n同  越後國桜町村  風間 寅吉\n一、金五十銭 當所   飯塚 たけ ",
         "statue_height": "",
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/981/FDAf0buagAACDw2.jpg",
+        "mid_thumbnail": "./mid_thumbs/981/FDAf0buagAACDw2.jpg",
+        "small_thumbnail": "./small_thumbs/981/FDAf0buagAACDw2.jpg",
+        "images": [
+          {
+            "path": "./images/981/FDAf0buagAACDw2.jpg",
+            "shootingDate": "2019/05/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "大新田十九夜塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/981/FDAf0buagAACDw2.jpg",
+            "small_thumbnail": "./small_thumbs/981/FDAf0buagAACDw2.jpg"
+          },
+          {
+            "path": "./images/981/FDAf1dmaQAA9_Na.jpg",
+            "shootingDate": "2019/05/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "大新田十九夜塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/981/FDAf1dmaQAA9_Na.jpg",
+            "small_thumbnail": "./small_thumbs/981/FDAf1dmaQAA9_Na.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "149",
             "name": "文化財総合調査 館林市の石造文化財 多々良・渡瀬の石仏",
             "editor": "館林石仏調査研究会編",
             "publishedAt": "1978"
@@ -57666,8 +57685,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5447588453,
-          36.2594143601
+          139.5447591,
+          36.2591958
         ]
       }
     },
