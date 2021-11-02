@@ -31160,12 +31160,12 @@
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "2019/02/02",
+        "surveyed": "",
         "description": "@",
         "photo": "",
         "public_relations": "Mar-14",
-        "confirmed": true,
-        "primary_image": 488,
+        "confirmed": false,
+        "primary_image": "",
         "height": 43,
         "width": 15.5,
         "depth": 12.5,
@@ -31177,20 +31177,10 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "./images/531/FDA7x9qaIAAfN8u.jpg",
-        "mid_thumbnail": "./mid_thumbs/531/FDA7x9qaIAAfN8u.jpg",
-        "small_thumbnail": "./small_thumbs/531/FDA7x9qaIAAfN8u.jpg",
-        "images": [
-          {
-            "path": "./images/531/FDA7x9qaIAAfN8u.jpg",
-            "shootingDate": "2019/02/02 00:00:00",
-            "shooter": "Takashi KOIKE",
-            "description": "松原観世音道標",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/531/FDA7x9qaIAAfN8u.jpg",
-            "small_thumbnail": "./small_thumbs/531/FDA7x9qaIAAfN8u.jpg"
-          }
-        ],
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
         "books": [
           {
             "description": "",
@@ -31213,8 +31203,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.540835,
-          36.2376784
+          139.541002356,
+          36.2379275302
         ]
       }
     },
@@ -31365,32 +31355,42 @@
         "year": "",
         "place_1": "松原一丁目",
         "place_2": "",
-        "detail": "交差点",
-        "note_1": "",
+        "detail": "三叉路",
+        "note_1": "西向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "コスモ石油のY字路の所 タネ本では[づ][い]、[が]が地中に埋まっているとなっているが現況は地上にある",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2019/02/02",
         "description": "@",
         "photo": "",
         "public_relations": "Feb-15",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
+        "confirmed": true,
+        "primary_image": 488,
+        "height": 91,
+        "width": 37,
+        "depth": 25,
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "(表) 右 ゑくろ せん[づ][い]\n左 いたくら こ[が]",
         "statue_height": "",
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/535/FDA7x9qaIAAfN8u.jpg",
+        "mid_thumbnail": "./mid_thumbs/535/FDA7x9qaIAAfN8u.jpg",
+        "small_thumbnail": "./small_thumbs/535/FDA7x9qaIAAfN8u.jpg",
+        "images": [
+          {
+            "path": "./images/535/FDA7x9qaIAAfN8u.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "松原道標",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/535/FDA7x9qaIAAfN8u.jpg",
+            "small_thumbnail": "./small_thumbs/535/FDA7x9qaIAAfN8u.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -31403,7 +31403,7 @@
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "66",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -31421,8 +31421,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5396194036,
-          36.2402772425
+          139.540835,
+          36.2376784
         ]
       }
     },
