@@ -23654,36 +23654,46 @@
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺",
-        "note_1": "舟型背面、浮彫",
-        "note_2": "",
+        "note_1": "",
+        "note_2": "青柳処刑場付近にあったものを、明治初期に現在地へ移した。もと首切地蔵と呼ばれていたが、今では、はしか地蔵といわれている。",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "立像",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 500,
+        "height": 281,
+        "width": 40,
+        "depth": 10.5,
+        "shape": "舟型背面 浮彫立像",
+        "material": "石造",
+        "inscription": "(表)地蔵菩薩以大慈悲若聞名号堕黒闇 元禄二己巳歳八月日\n[像]\n毎日晨朝入於諸定遊化道抜苦興楽乃至法界平等利益",
+        "statue_height": 137,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/398/IMG_4705.jpg",
+        "mid_thumbnail": "./mid_thumbs/398/IMG_4705.jpg",
+        "small_thumbnail": "./small_thumbs/398/IMG_4705.jpg",
+        "images": [
+          {
+            "path": "./images/398/IMG_4705.jpg",
+            "shootingDate": "2021-11-04T13:57:34",
+            "shooter": "Kohei Otsuka",
+            "description": "はしか地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/398/IMG_4705.jpg",
+            "small_thumbnail": "./small_thumbs/398/IMG_4705.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "32",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -23693,8 +23703,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.517273967,
-          36.2215377773
+          139.517592546898,
+          36.2214632621688
         ]
       }
     },
@@ -23710,36 +23720,55 @@
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺",
-        "note_1": "丸彫",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "立像",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 502,
+        "height": 220,
+        "width": 34,
+        "depth": 20,
+        "shape": "丸彫 立像",
+        "material": "石造",
+        "inscription": "(台)妙 栄\n妙 品\n妙 春\n身 休\n恍 頓\n妙 圓\n妙 秋\n道 性\n道 秋\n道 圓\n道 仙\n妙 休\n妙 雲\n妙 全\n妙 薫\n妙 讃\n妙 法\n元禄二己巳\n  十月廿四日",
+        "statue_height": 122,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/399/IMG_4712.jpg",
+        "mid_thumbnail": "./mid_thumbs/399/IMG_4712.jpg",
+        "small_thumbnail": "./small_thumbs/399/IMG_4712.jpg",
+        "images": [
+          {
+            "path": "./images/399/IMG_4712.jpg",
+            "shootingDate": "2021-11-04T13:59:17",
+            "shooter": "Kohei Otsuka",
+            "description": "竜積寺元禄地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/399/IMG_4712.jpg",
+            "small_thumbnail": "./small_thumbs/399/IMG_4712.jpg"
+          },
+          {
+            "path": "./images/399/IMG_4713.jpg",
+            "shootingDate": "2021-11-04T13:59:24",
+            "shooter": "Kohei Otsuka",
+            "description": "竜積寺元禄地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/399/IMG_4713.jpg",
+            "small_thumbnail": "./small_thumbs/399/IMG_4713.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "33",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -23749,8 +23778,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171017351,
-          36.2217252117
+          139.517577286585,
+          36.2213908439582
         ]
       }
     },
@@ -23871,43 +23900,62 @@
       "properties": {
         "fid": 402,
         "area_no": 6,
-        "name": "首なし地蔵尊",
+        "name": "龍積寺首なし地蔵尊",
         "type": "地蔵菩薩像",
         "era": "正徳4年",
         "year": "1714",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺",
-        "note_1": "丸彫",
+        "note_1": "頭部欠損",
         "note_2": "",
-        "note_3": "",
+        "note_3": "現況は頭部あり",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "立像",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 504,
+        "height": 145,
+        "width": 23,
+        "depth": 14,
+        "shape": "丸彫 立像",
+        "material": "石造",
+        "inscription": "(台左)大念佛供養 當村構(講)中\n正徳四甲子歳二月拾五日",
+        "statue_height": 44,
         "color": "",
-        "contradiction": "",
+        "contradiction": "刻銘よりこれに間違いないが、矛盾点2つ 1) 首がある、補修された？ 2) 刻銘がある場所は台左ではなく台表",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/402/IMG_4716.jpg",
+        "mid_thumbnail": "./mid_thumbs/402/IMG_4716.jpg",
+        "small_thumbnail": "./small_thumbs/402/IMG_4716.jpg",
+        "images": [
+          {
+            "path": "./images/402/IMG_4716.jpg",
+            "shootingDate": "2021-11-04T13:59:50",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺首なし地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/402/IMG_4716.jpg",
+            "small_thumbnail": "./small_thumbs/402/IMG_4716.jpg"
+          },
+          {
+            "path": "./images/402/IMG_4717.jpg",
+            "shootingDate": "2021-11-04T13:59:57",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺首なし地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/402/IMG_4717.jpg",
+            "small_thumbnail": "./small_thumbs/402/IMG_4717.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "33",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -23917,8 +23965,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171297691,
-          36.2216689778
+          139.517577286585,
+          36.22142753586
         ]
       }
     },
@@ -24039,43 +24087,53 @@
       "properties": {
         "fid": 405,
         "area_no": 7,
-        "name": "享保地蔵尊",
+        "name": "龍積寺享保地蔵尊",
         "type": "地蔵菩薩像",
         "era": "享保15年",
         "year": "1730",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺",
-        "note_1": "丸彫",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "立像",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 505,
+        "height": 140,
+        "width": 28,
+        "depth": 20,
+        "shape": "丸彫 立像",
+        "material": "石造",
+        "inscription": "(台)奉造立\n  □入也\n享保十五歳\n 六月十二日",
+        "statue_height": 81,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/405/IMG_4714.jpg",
+        "mid_thumbnail": "./mid_thumbs/405/IMG_4714.jpg",
+        "small_thumbnail": "./small_thumbs/405/IMG_4714.jpg",
+        "images": [
+          {
+            "path": "./images/405/IMG_4714.jpg",
+            "shootingDate": "2021-11-04T13:59:31",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺享保地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/405/IMG_4714.jpg",
+            "small_thumbnail": "./small_thumbs/405/IMG_4714.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "34",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -24085,8 +24143,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5172590531,
-          36.2216470867
+          139.517577885028,
+          36.2214055689998
         ]
       }
     },
@@ -24095,43 +24153,53 @@
       "properties": {
         "fid": 406,
         "area_no": 8,
-        "name": "法如地蔵尊",
+        "name": "龍積寺法如地蔵尊",
         "type": "地蔵菩薩像",
         "era": "享保19年",
         "year": "1734",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺",
-        "note_1": "丸彫",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "立像",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 506,
+        "height": 176,
+        "width": 28.5,
+        "depth": 19,
+        "shape": "丸彫 立像",
+        "material": "石造",
+        "inscription": "(台表) [風化のため判読できず]\n(左)享保十九寅天\n  十一月廿四日\n三界萬霊\n 願主\n   法印法如",
+        "statue_height": 89,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/406/IMG_4715.jpg",
+        "mid_thumbnail": "./mid_thumbs/406/IMG_4715.jpg",
+        "small_thumbnail": "./small_thumbs/406/IMG_4715.jpg",
+        "images": [
+          {
+            "path": "./images/406/IMG_4715.jpg",
+            "shootingDate": "2021-11-04T13:59:44",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺法如地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/406/IMG_4715.jpg",
+            "small_thumbnail": "./small_thumbs/406/IMG_4715.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "34",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -24141,8 +24209,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171486854,
-          36.2215745158
+          139.517577585807,
+          36.2214169145217
         ]
       }
     },
@@ -24439,43 +24507,62 @@
       "properties": {
         "fid": 412,
         "area_no": 37,
-        "name": "臨照院地蔵尊",
+        "name": "龍積寺臨照院地蔵尊",
         "type": "地蔵菩薩像",
         "era": "明和8年",
         "year": "1771",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺",
-        "note_1": "丸彫",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "立像",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 508,
+        "height": 256,
+        "width": 31,
+        "depth": 22,
+        "shape": "丸彫 立像",
+        "material": "石造",
+        "inscription": "(台表)明和八辛卯年\n臨照院真覚恵教大姉\n四月十有三日",
+        "statue_height": 110,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/412/IMG_4710.jpg",
+        "mid_thumbnail": "./mid_thumbs/412/IMG_4710.jpg",
+        "small_thumbnail": "./small_thumbs/412/IMG_4710.jpg",
+        "images": [
+          {
+            "path": "./images/412/IMG_4710.jpg",
+            "shootingDate": "2021-11-04T13:58:50",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺臨照院地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/412/IMG_4710.jpg",
+            "small_thumbnail": "./small_thumbs/412/IMG_4710.jpg"
+          },
+          {
+            "path": "./images/412/IMG_4711.jpg",
+            "shootingDate": "2021-11-04T13:58:58",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺臨照院地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/412/IMG_4711.jpg",
+            "small_thumbnail": "./small_thumbs/412/IMG_4711.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "34",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -24485,8 +24572,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171309628,
-          36.2217114918
+          139.517576987363,
+          36.2213797398267
         ]
       }
     },
@@ -25895,43 +25982,53 @@
       "properties": {
         "fid": 438,
         "area_no": 13,
-        "name": "碑型文字馬頭尊",
+        "name": "龍積寺碑型文字馬頭尊",
         "type": "馬頭観世音",
         "era": "明治10年",
         "year": "1877",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺",
-        "note_1": "碑型、文字",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 509,
+        "height": 58,
+        "width": 37.5,
+        "depth": 7,
+        "shape": "自然石 碑型 文字",
+        "material": "石造",
+        "inscription": "(表)  明治十丑年\n馬頭観世音\n  旧八月十二日\n(裏)鑓田民蔵\n丸岡三良次\n松本弥市",
+        "statue_height": 46,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/438/IMG_4706.jpg",
+        "mid_thumbnail": "./mid_thumbs/438/IMG_4706.jpg",
+        "small_thumbnail": "./small_thumbs/438/IMG_4706.jpg",
+        "images": [
+          {
+            "path": "./images/438/IMG_4706.jpg",
+            "shootingDate": "2021-11-04T13:57:55",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺碑型文字馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/438/IMG_4706.jpg",
+            "small_thumbnail": "./small_thumbs/438/IMG_4706.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "42",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -25941,8 +26038,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5172127991,
-          36.2217329778
+          139.517597633669,
+          36.2214692970167
         ]
       }
     },
@@ -26007,43 +26104,53 @@
       "properties": {
         "fid": 440,
         "area_no": 19,
-        "name": "福地文字馬頭尊",
+        "name": "龍積寺福地文字馬頭尊",
         "type": "馬頭観世音",
         "era": "明治38年",
         "year": "1905",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺境内",
-        "note_1": "柱型（下半欠）",
+        "note_1": "下半分欠損",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
+        "confirmed": true,
+        "primary_image": 510,
+        "height": 30.5,
+        "width": 12,
+        "depth": 11,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)馬頭観世\n(左)  福地留\n(右)明治三十八年三\n(下部欠損につきこのほか不明)",
         "statue_height": "",
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/440/IMG_4707.jpg",
+        "mid_thumbnail": "./mid_thumbs/440/IMG_4707.jpg",
+        "small_thumbnail": "./small_thumbs/440/IMG_4707.jpg",
+        "images": [
+          {
+            "path": "./images/440/IMG_4707.jpg",
+            "shootingDate": "2021-11-04T13:58:03",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺福地文字馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/440/IMG_4707.jpg",
+            "small_thumbnail": "./small_thumbs/440/IMG_4707.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "42",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -26053,8 +26160,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171525668,
-          36.2215593658
+          139.517585066352,
+          36.2214691763197
         ]
       }
     },
@@ -26063,43 +26170,53 @@
       "properties": {
         "fid": 441,
         "area_no": 20,
-        "name": "駒型文字馬頭尊",
+        "name": "龍積寺駒型文字馬頭尊",
         "type": "馬頭観世音",
         "era": "大正15年",
         "year": "1926",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺境内",
-        "note_1": "駒型、文字",
+        "note_1": "東向き",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 511,
+        "height": 44,
+        "width": 18,
+        "depth": 15.5,
+        "shape": "駒型 文字",
+        "material": "石造",
+        "inscription": "(表)  大正十五年二月\n馬頭観世音\n  川村助次郎 立",
+        "statue_height": 31,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/441/IMG_4708.jpg",
+        "mid_thumbnail": "./mid_thumbs/441/IMG_4708.jpg",
+        "small_thumbnail": "./small_thumbs/441/IMG_4708.jpg",
+        "images": [
+          {
+            "path": "./images/441/IMG_4708.jpg",
+            "shootingDate": "2021-11-04T13:58:27",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺駒型文字馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/441/IMG_4708.jpg",
+            "small_thumbnail": "./small_thumbs/441/IMG_4708.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "43",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -26109,8 +26226,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5173276763,
-          36.2217158884
+          139.517597633669,
+          36.2214567445326
         ]
       }
     },
@@ -26997,43 +27114,89 @@
       "properties": {
         "fid": 457,
         "area_no": 14,
-        "name": "慶範不動明王",
+        "name": "龍積寺慶範不動明王",
         "type": "明王像",
         "era": "明和5年",
         "year": "1768",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺",
-        "note_1": "丸彫",
+        "note_1": "南向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "現況は東向き",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 516,
+        "height": 244,
+        "width": 48,
+        "depth": 31.5,
+        "shape": "丸彫 座像",
+        "material": "石造",
+        "inscription": "(表)道師法印慶範\n奉造立不動明王\n念佛講中男女\n上州邑楽郡館林領\n    青柳村\n明和五戊子十一月吉日\n(台)見我身者発菩薩心\n開我名者断感修善\n意我説者得大智恵\n知我心者即身成佛",
+        "statue_height": 82,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/457/IMG_4699.jpg",
+        "mid_thumbnail": "./mid_thumbs/457/IMG_4699.jpg",
+        "small_thumbnail": "./small_thumbs/457/IMG_4699.jpg",
+        "images": [
+          {
+            "path": "./images/457/IMG_4699.jpg",
+            "shootingDate": "2021-11-04T13:56:38",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺慶範不動明王",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/457/IMG_4699.jpg",
+            "small_thumbnail": "./small_thumbs/457/IMG_4699.jpg"
+          },
+          {
+            "path": "./images/457/IMG_4701.jpg",
+            "shootingDate": "2021-11-04T13:56:49",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺慶範不動明王",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/457/IMG_4701.jpg",
+            "small_thumbnail": "./small_thumbs/457/IMG_4701.jpg"
+          },
+          {
+            "path": "./images/457/IMG_4702.jpg",
+            "shootingDate": "2021-11-04T13:56:56",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺慶範不動明王",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/457/IMG_4702.jpg",
+            "small_thumbnail": "./small_thumbs/457/IMG_4702.jpg"
+          },
+          {
+            "path": "./images/457/IMG_4703.jpg",
+            "shootingDate": "2021-11-04T13:57:05",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺慶範不動明王",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/457/IMG_4703.jpg",
+            "small_thumbnail": "./small_thumbs/457/IMG_4703.jpg"
+          },
+          {
+            "path": "./images/457/IMG_4704.jpg",
+            "shootingDate": "2021-11-04T13:57:16",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺慶範不動明王",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/457/IMG_4704.jpg",
+            "small_thumbnail": "./small_thumbs/457/IMG_4704.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "48",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -27043,8 +27206,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.517335767,
-          36.2215169667
+          139.517596885615,
+          36.2215172136922
         ]
       }
     },
@@ -27116,36 +27279,46 @@
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺境内",
-        "note_1": "丸彫",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 517,
+        "height": 92,
+        "width": 36,
+        "depth": 20,
+        "shape": "丸彫",
+        "material": "石造",
+        "inscription": "(台表)田口栄助\n同 興兵ェ門\n同 平吉\n同 仲蔵\n川村勇八\n武井長蔵\n武井平四郎\n田口紋次郎\n松村佐右ェ門\n福田三千蔵\n淀田唯助\n田口吉次郎\n鑓田久吉郎\n同 喜兵ェ\n田口吉蔵\n丸岡仲ェ門\n同 茂右ェ門\n鑓田源左ェ門\n鑓田新左ェ門\n同 新五郎\n松本喜太郎\n同 傳右ェ門\n(台左)松本弥市\n同 興次郎\n神田市之函\n日比野米次郎\n同 米蔵\n同 斉兵ェ\n鑓田嘉兵ェ\n田口太市\n武井清次郎\n丸岡弥市\n内田由兵ェ\n日比野市八\n松本多助\n栗田多吉\n日比野慶蔵\n武井友五郎\n松本繁八\n柴田平吉\n阿部佐七\n(台右)阿部勘五郎\n同 弥左ェ門\n同 文三郎\n松村助八\n同 市五郎\n橋本善左ェ門\n高橋藤次郎\n俵藤忠太郎\n栗田金蔵\n釜像伊三郎\n田口忠七\n川村代八\n元治元甲子年\n十一月吉日",
+        "statue_height": 51,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/459/IMG_4728.jpg",
+        "mid_thumbnail": "./mid_thumbs/459/IMG_4728.jpg",
+        "small_thumbnail": "./small_thumbs/459/IMG_4728.jpg",
+        "images": [
+          {
+            "path": "./images/459/IMG_4728.jpg",
+            "shootingDate": "2021-11-04T14:02:53",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺大黒天",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/459/IMG_4728.jpg",
+            "small_thumbnail": "./small_thumbs/459/IMG_4728.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "50",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -27155,8 +27328,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171279132,
-          36.2216980107
+          139.517268639267,
+          36.2214324844375
         ]
       }
     },
@@ -27501,43 +27674,71 @@
       "properties": {
         "fid": 466,
         "area_no": 23,
-        "name": "元禄笠庚申",
+        "name": "龍積寺元禄笠庚申",
         "type": "庚申",
         "era": "元禄14年",
         "year": "1701",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺境内",
-        "note_1": "笠型、文字",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 527,
+        "height": 216,
+        "width": 44.5,
+        "depth": 45,
+        "shape": "笠型 文字",
+        "material": "石造",
+        "inscription": "(表)庚申供養塔\n(左)上州邑楽郡青柳村\n(右)元禄十四巳載仲冬十五日",
+        "statue_height": 165,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/466/IMG_4722.jpg",
+        "mid_thumbnail": "./mid_thumbs/466/IMG_4722.jpg",
+        "small_thumbnail": "./small_thumbs/466/IMG_4722.jpg",
+        "images": [
+          {
+            "path": "./images/466/IMG_4722.jpg",
+            "shootingDate": "2021-11-04T14:01:43",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺元禄笠庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/466/IMG_4722.jpg",
+            "small_thumbnail": "./small_thumbs/466/IMG_4722.jpg"
+          },
+          {
+            "path": "./images/466/IMG_4723.jpg",
+            "shootingDate": "2021-11-04T14:01:49",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺元禄笠庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/466/IMG_4723.jpg",
+            "small_thumbnail": "./small_thumbs/466/IMG_4723.jpg"
+          },
+          {
+            "path": "./images/466/IMG_4724.jpg",
+            "shootingDate": "2021-11-04T14:01:57",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺元禄笠庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/466/IMG_4724.jpg",
+            "small_thumbnail": "./small_thumbs/466/IMG_4724.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "57",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -27547,8 +27748,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5172578439,
-          36.2215898174
+          139.517358405816,
+          36.2214353811657
         ]
       }
     },
@@ -27613,43 +27814,53 @@
       "properties": {
         "fid": 468,
         "area_no": 24,
-        "name": "自然石猿田彦",
+        "name": "龍積寺自然石猿田彦",
         "type": "庚申",
         "era": "享保2年",
         "year": "1717",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺境内",
-        "note_1": "自然石、文字",
+        "note_1": "東向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "現況は北向き",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 518,
+        "height": 85,
+        "width": 42,
+        "depth": 23,
+        "shape": "自然石 文字",
+        "material": "石造",
+        "inscription": "(表)猿田彦大神\n後岡慶斉書\n(裏)初建 享保二丁酉\n再建文化四丁卯九月祭主有定",
+        "statue_height": 70,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/468/IMG_4732.jpg",
+        "mid_thumbnail": "./mid_thumbs/468/IMG_4732.jpg",
+        "small_thumbnail": "./small_thumbs/468/IMG_4732.jpg",
+        "images": [
+          {
+            "path": "./images/468/IMG_4732.jpg",
+            "shootingDate": "2021-11-04T14:03:35",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺自然石猿田彦",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/468/IMG_4732.jpg",
+            "small_thumbnail": "./small_thumbs/468/IMG_4732.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "58",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -27659,8 +27870,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171679099,
-          36.2217685444
+          139.51718246338,
+          36.2214324844375
         ]
       }
     },
@@ -27725,43 +27936,62 @@
       "properties": {
         "fid": 470,
         "area_no": 25,
-        "name": "天文一猿青面金剛",
+        "name": "龍積寺天文一猿青面金剛",
         "type": "庚申",
         "era": "元文5年",
         "year": "1740",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺境内",
-        "note_1": "文字、青面金剛",
+        "note_1": "一猿",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
+        "confirmed": true,
+        "primary_image": 529,
+        "height": 76,
         "width": "",
         "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
+        "shape": "舟形文字",
+        "material": "石造",
+        "inscription": "(表)元文五庚申天\n青面金剛\n十月念三日",
         "statue_height": "",
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/470/IMG_4720.jpg",
+        "mid_thumbnail": "./mid_thumbs/470/IMG_4720.jpg",
+        "small_thumbnail": "./small_thumbs/470/IMG_4720.jpg",
+        "images": [
+          {
+            "path": "./images/470/IMG_4720.jpg",
+            "shootingDate": "2021-11-04T14:01:14",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺天文一猿青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/470/IMG_4720.jpg",
+            "small_thumbnail": "./small_thumbs/470/IMG_4720.jpg"
+          },
+          {
+            "path": "./images/470/IMG_4721.jpg",
+            "shootingDate": "2021-11-04T14:01:22",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺天文一猿青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/470/IMG_4721.jpg",
+            "small_thumbnail": "./small_thumbs/470/IMG_4721.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "57",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -27771,8 +28001,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171682202,
-          36.2217061255
+          139.517395210101,
+          36.2214348983777
         ]
       }
     },
@@ -27837,43 +28067,71 @@
       "properties": {
         "fid": 472,
         "area_no": 26,
-        "name": "明和慶範庚申",
+        "name": "龍積寺明和慶範庚申",
         "type": "庚申",
         "era": "明和元年",
         "year": "1764",
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺境内",
-        "note_1": "柱型、文字",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
+        "confirmed": true,
+        "primary_image": 521,
+        "height": 118,
+        "width": 42,
+        "depth": 40,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)導師法印慶範\n庚申供養塔\n明和元龍次甲申十一月吉日\n上州邑楽郡青柳村講中",
         "statue_height": "",
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/472/IMG_4725.jpg",
+        "mid_thumbnail": "./mid_thumbs/472/IMG_4725.jpg",
+        "small_thumbnail": "./small_thumbs/472/IMG_4725.jpg",
+        "images": [
+          {
+            "path": "./images/472/IMG_4725.jpg",
+            "shootingDate": "2021-11-04T14:02:11",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺明和慶範庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/472/IMG_4725.jpg",
+            "small_thumbnail": "./small_thumbs/472/IMG_4725.jpg"
+          },
+          {
+            "path": "./images/472/IMG_4726.jpg",
+            "shootingDate": "2021-11-04T14:02:18",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺明和慶範庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/472/IMG_4726.jpg",
+            "small_thumbnail": "./small_thumbs/472/IMG_4726.jpg"
+          },
+          {
+            "path": "./images/472/IMG_4727.jpg",
+            "shootingDate": "2021-11-04T14:02:38",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺明和慶範庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/472/IMG_4727.jpg",
+            "small_thumbnail": "./small_thumbs/472/IMG_4727.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "57",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -27883,8 +28141,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171553082,
-          36.221661089
+          139.517317711647,
+          36.2214353811657
         ]
       }
     },
@@ -28308,36 +28566,64 @@
         "place_1": "青柳町",
         "place_2": "",
         "detail": "龍積寺境内",
-        "note_1": "柱型、文字",
+        "note_1": "北向き",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 524,
+        "height": 104,
+        "width": 36,
+        "depth": 35.5,
+        "shape": "柱型 文字",
+        "material": "石造",
+        "inscription": "(表)庚申\n(左)萬延紀元庚申冬十一月 青柳邨講中\n(右)導師法印宥生\n(台表)田口太郎右ェ門\n同 平吉\n松村八右ェ門\n田口吉次郎\n丸岡仲右ェ門\n鑓田源左ェ門\n同 新左ェ門\n松本善太郎\n同 弥市\n同 与次郎\n鑓田嘉兵衛\n田口郡八\n内田半太郎\n日比野宇八\n松本鉄五郎\n武井友五郎\n(台左)栗原金蔵\n栗田平次郎\n河部佐七\n同 勘五郎\n田口吉兵衛\n同 栄次郎\n同 休兵衛\n佐藤元助\n福田保蔵\n同 三千蔵\n田口郷吉\n丸岡茂右ェ門\n日比野米次郎\n鑓田久次郎\n武井長三郎\n栗田大吉",
+        "statue_height": 75,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/480/IMG_4730.jpg",
+        "mid_thumbnail": "./mid_thumbs/480/IMG_4730.jpg",
+        "small_thumbnail": "./small_thumbs/480/IMG_4730.jpg",
+        "images": [
+          {
+            "path": "./images/480/IMG_4730.jpg",
+            "shootingDate": "2021-11-04T14:03:07",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺萬延庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/480/IMG_4730.jpg",
+            "small_thumbnail": "./small_thumbs/480/IMG_4730.jpg"
+          },
+          {
+            "path": "./images/480/IMG_4729.jpg",
+            "shootingDate": "2021-11-04T14:02:59",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺萬延庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/480/IMG_4729.jpg",
+            "small_thumbnail": "./small_thumbs/480/IMG_4729.jpg"
+          },
+          {
+            "path": "./images/480/IMG_4731.jpg",
+            "shootingDate": "2021-11-04T14:03:19",
+            "shooter": "Kohei Otsuka",
+            "description": "龍積寺萬延庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/480/IMG_4731.jpg",
+            "small_thumbnail": "./small_thumbs/480/IMG_4731.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "56",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -28347,8 +28633,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171171175,
-          36.2215988496
+          139.517219566887,
+          36.2214334500136
         ]
       }
     },
@@ -80899,7 +81185,7 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "2019/02/02",
+        "surveyed": "2021/11/04",
         "description": "@",
         "photo": "",
         "public_relations": "Jul-15",
@@ -80937,6 +81223,33 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1371/FDPuzGiaMAAfBdd.jpg",
             "small_thumbnail": "./small_thumbs/1371/FDPuzGiaMAAfBdd.jpg"
+          },
+          {
+            "path": "./images/1371/IMG_4740.jpg",
+            "shootingDate": "2021/11/04 16:00:28",
+            "shooter": "Kohei Otsuka",
+            "description": "長竹十九夜供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1371/IMG_4740.jpg",
+            "small_thumbnail": "./small_thumbs/1371/IMG_4740.jpg"
+          },
+          {
+            "path": "./images/1371/IMG_4741.jpg",
+            "shootingDate": "2021/11/04 16:00:35",
+            "shooter": "Kohei Otsuka",
+            "description": "長竹十九夜供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1371/IMG_4741.jpg",
+            "small_thumbnail": "./small_thumbs/1371/IMG_4741.jpg"
+          },
+          {
+            "path": "./images/1371/IMG_4742.jpg",
+            "shootingDate": "2021/11/04 16:00:47",
+            "shooter": "Kohei Otsuka",
+            "description": "長竹十九夜供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1371/IMG_4742.jpg",
+            "small_thumbnail": "./small_thumbs/1371/IMG_4742.jpg"
           }
         ],
         "books": [
@@ -81508,12 +81821,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/04",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 499,
         "height": 141.5,
         "width": 38,
         "depth": 38,
@@ -81525,10 +81838,47 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1380/IMG_4737.jpg",
+        "mid_thumbnail": "./mid_thumbs/1380/IMG_4737.jpg",
+        "small_thumbnail": "./small_thumbs/1380/IMG_4737.jpg",
+        "images": [
+          {
+            "path": "./images/1380/IMG_4737.jpg",
+            "shootingDate": "2021/11/04 15:59:39",
+            "shooter": "Kohei Otsuka",
+            "description": "長竹八坂神社出羽三山供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1380/IMG_4737.jpg",
+            "small_thumbnail": "./small_thumbs/1380/IMG_4737.jpg"
+          },
+          {
+            "path": "./images/1380/IMG_4736.jpg",
+            "shootingDate": "2021/11/04 15:59:31",
+            "shooter": "Kohei Otsuka",
+            "description": "長竹八坂神社出羽三山供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1380/IMG_4736.jpg",
+            "small_thumbnail": "./small_thumbs/1380/IMG_4736.jpg"
+          },
+          {
+            "path": "./images/1380/IMG_4738.jpg",
+            "shootingDate": "2021/11/04 15:59:47",
+            "shooter": "Kohei Otsuka",
+            "description": "長竹八坂神社出羽三山供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1380/IMG_4738.jpg",
+            "small_thumbnail": "./small_thumbs/1380/IMG_4738.jpg"
+          },
+          {
+            "path": "./images/1380/IMG_4739.jpg",
+            "shootingDate": "2021/11/04 15:59:57",
+            "shooter": "Kohei Otsuka",
+            "description": "長竹八坂神社出羽三山供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1380/IMG_4739.jpg",
+            "small_thumbnail": "./small_thumbs/1380/IMG_4739.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -81543,8 +81893,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.575229033,
-          36.2307372834
+          139.575092992829,
+          36.2311126970117
         ]
       }
     },

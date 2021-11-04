@@ -1,4 +1,4 @@
-﻿fid,poi,path,shootingDate,shooter,description,note,mid_thumbnail,small_thumbnail
+fid,poi,path,shootingDate,shooter,description,note,mid_thumbnail,small_thumbnail
 1,101,./images/101/no101.JPG,2020/11/28 10:48:51,井坂優斗,菅原馬頭尊,,./mid_thumbs/101/no101.JPG,./small_thumbs/101/no101.JPG
 2,102,./images/102/no102.JPG,2020/12/05 14:44:19,井坂優斗,喜市馬頭尊,,./mid_thumbs/102/no102.JPG,./small_thumbs/102/no102.JPG
 3,103,./images/103/no103-DSC_7140.JPG,2021/01/04 11:14:32,宮田圭祐,明治馬頭尊,,./mid_thumbs/103/no103-DSC_7140.JPG,./small_thumbs/103/no103-DSC_7140.JPG
@@ -491,3 +491,40 @@
 490,1126,./images/1126/FDPnl0IakAAbx6k.jpg,2019/05/02 00:00:00,Takashi KOIKE,明善寺十九夜,,./mid_thumbs/1126/FDPnl0IakAAbx6k.jpg,./small_thumbs/1126/FDPnl0IakAAbx6k.jpg
 491,1371,./images/1371/FDPuzGiaMAAfBdd.jpg,2019/02/02 00:00:00,Takashi KOIKE,長竹十九夜供養塔,,./mid_thumbs/1371/FDPuzGiaMAAfBdd.jpg,./small_thumbs/1371/FDPuzGiaMAAfBdd.jpg
 492,1371,./images/1371/FDPuvxlagAAnFEz.jpg,2019/02/02 00:00:00,Takashi KOIKE,長竹十九夜供養塔,,./mid_thumbs/1371/FDPuvxlagAAnFEz.jpg,./small_thumbs/1371/FDPuvxlagAAnFEz.jpg
+493,1371,./images/1371/IMG_4740.jpg,2021/11/04 16:00:28,Kohei Otsuka,長竹十九夜供養塔,,./mid_thumbs/1371/IMG_4740.jpg,./small_thumbs/1371/IMG_4740.jpg
+494,1371,./images/1371/IMG_4741.jpg,2021/11/04 16:00:35,Kohei Otsuka,長竹十九夜供養塔,,./mid_thumbs/1371/IMG_4741.jpg,./small_thumbs/1371/IMG_4741.jpg
+495,1371,./images/1371/IMG_4742.jpg,2021/11/04 16:00:47,Kohei Otsuka,長竹十九夜供養塔,,./mid_thumbs/1371/IMG_4742.jpg,./small_thumbs/1371/IMG_4742.jpg
+496,1380,./images/1380/IMG_4736.jpg,2021/11/04 15:59:31,Kohei Otsuka,長竹八坂神社出羽三山供養塔,,./mid_thumbs/1380/IMG_4736.jpg,./small_thumbs/1380/IMG_4736.jpg
+497,1380,./images/1380/IMG_4738.jpg,2021/11/04 15:59:47,Kohei Otsuka,長竹八坂神社出羽三山供養塔,,./mid_thumbs/1380/IMG_4738.jpg,./small_thumbs/1380/IMG_4738.jpg
+498,1380,./images/1380/IMG_4739.jpg,2021/11/04 15:59:57,Kohei Otsuka,長竹八坂神社出羽三山供養塔,,./mid_thumbs/1380/IMG_4739.jpg,./small_thumbs/1380/IMG_4739.jpg
+499,1380,./images/1380/IMG_4737.jpg,2021/11/04 15:59:39,Kohei Otsuka,長竹八坂神社出羽三山供養塔,,./mid_thumbs/1380/IMG_4737.jpg,./small_thumbs/1380/IMG_4737.jpg
+500,398,./images/398/IMG_4705.jpg,2021-11-04T13:57:34,Kohei Otsuka,はしか地蔵尊,,./mid_thumbs/398/IMG_4705.jpg,./small_thumbs/398/IMG_4705.jpg
+501,399,./images/399/IMG_4713.jpg,2021-11-04T13:59:24,Kohei Otsuka,竜積寺元禄地蔵尊,,./mid_thumbs/399/IMG_4713.jpg,./small_thumbs/399/IMG_4713.jpg
+502,399,./images/399/IMG_4712.jpg,2021-11-04T13:59:17,Kohei Otsuka,竜積寺元禄地蔵尊,,./mid_thumbs/399/IMG_4712.jpg,./small_thumbs/399/IMG_4712.jpg
+503,402,./images/402/IMG_4717.jpg,2021-11-04T13:59:57,Kohei Otsuka,龍積寺首なし地蔵尊,,./mid_thumbs/402/IMG_4717.jpg,./small_thumbs/402/IMG_4717.jpg
+504,402,./images/402/IMG_4716.jpg,2021-11-04T13:59:50,Kohei Otsuka,龍積寺首なし地蔵尊,,./mid_thumbs/402/IMG_4716.jpg,./small_thumbs/402/IMG_4716.jpg
+505,405,./images/405/IMG_4714.jpg,2021-11-04T13:59:31,Kohei Otsuka,龍積寺享保地蔵尊,,./mid_thumbs/405/IMG_4714.jpg,./small_thumbs/405/IMG_4714.jpg
+506,406,./images/406/IMG_4715.jpg,2021-11-04T13:59:44,Kohei Otsuka,龍積寺法如地蔵尊,,./mid_thumbs/406/IMG_4715.jpg,./small_thumbs/406/IMG_4715.jpg
+507,412,./images/412/IMG_4711.jpg,2021-11-04T13:58:58,Kohei Otsuka,龍積寺臨照院地蔵尊,,./mid_thumbs/412/IMG_4711.jpg,./small_thumbs/412/IMG_4711.jpg
+508,412,./images/412/IMG_4710.jpg,2021-11-04T13:58:50,Kohei Otsuka,龍積寺臨照院地蔵尊,,./mid_thumbs/412/IMG_4710.jpg,./small_thumbs/412/IMG_4710.jpg
+509,438,./images/438/IMG_4706.jpg,2021-11-04T13:57:55,Kohei Otsuka,龍積寺碑型文字馬頭尊,,./mid_thumbs/438/IMG_4706.jpg,./small_thumbs/438/IMG_4706.jpg
+510,440,./images/440/IMG_4707.jpg,2021-11-04T13:58:03,Kohei Otsuka,龍積寺福地文字馬頭尊,,./mid_thumbs/440/IMG_4707.jpg,./small_thumbs/440/IMG_4707.jpg
+511,441,./images/441/IMG_4708.jpg,2021-11-04T13:58:27,Kohei Otsuka,龍積寺駒型文字馬頭尊,,./mid_thumbs/441/IMG_4708.jpg,./small_thumbs/441/IMG_4708.jpg
+512,457,./images/457/IMG_4701.jpg,2021-11-04T13:56:49,Kohei Otsuka,龍積寺慶範不動明王,,./mid_thumbs/457/IMG_4701.jpg,./small_thumbs/457/IMG_4701.jpg
+513,457,./images/457/IMG_4702.jpg,2021-11-04T13:56:56,Kohei Otsuka,龍積寺慶範不動明王,,./mid_thumbs/457/IMG_4702.jpg,./small_thumbs/457/IMG_4702.jpg
+514,457,./images/457/IMG_4703.jpg,2021-11-04T13:57:05,Kohei Otsuka,龍積寺慶範不動明王,,./mid_thumbs/457/IMG_4703.jpg,./small_thumbs/457/IMG_4703.jpg
+515,457,./images/457/IMG_4704.jpg,2021-11-04T13:57:16,Kohei Otsuka,龍積寺慶範不動明王,,./mid_thumbs/457/IMG_4704.jpg,./small_thumbs/457/IMG_4704.jpg
+516,457,./images/457/IMG_4699.jpg,2021-11-04T13:56:38,Kohei Otsuka,龍積寺慶範不動明王,,./mid_thumbs/457/IMG_4699.jpg,./small_thumbs/457/IMG_4699.jpg
+517,459,./images/459/IMG_4728.jpg,2021-11-04T14:02:53,Kohei Otsuka,龍積寺大黒天,,./mid_thumbs/459/IMG_4728.jpg,./small_thumbs/459/IMG_4728.jpg
+518,468,./images/468/IMG_4732.jpg,2021-11-04T14:03:35,Kohei Otsuka,龍積寺自然石猿田彦,,./mid_thumbs/468/IMG_4732.jpg,./small_thumbs/468/IMG_4732.jpg
+519,472,./images/472/IMG_4726.jpg,2021-11-04T14:02:18,Kohei Otsuka,龍積寺明和慶範庚申,,./mid_thumbs/472/IMG_4726.jpg,./small_thumbs/472/IMG_4726.jpg
+520,472,./images/472/IMG_4727.jpg,2021-11-04T14:02:38,Kohei Otsuka,龍積寺明和慶範庚申,,./mid_thumbs/472/IMG_4727.jpg,./small_thumbs/472/IMG_4727.jpg
+521,472,./images/472/IMG_4725.jpg,2021-11-04T14:02:11,Kohei Otsuka,龍積寺明和慶範庚申,,./mid_thumbs/472/IMG_4725.jpg,./small_thumbs/472/IMG_4725.jpg
+522,480,./images/480/IMG_4729.jpg,2021-11-04T14:02:59,Kohei Otsuka,龍積寺萬延庚申,,./mid_thumbs/480/IMG_4729.jpg,./small_thumbs/480/IMG_4729.jpg
+523,480,./images/480/IMG_4731.jpg,2021-11-04T14:03:19,Kohei Otsuka,龍積寺萬延庚申,,./mid_thumbs/480/IMG_4731.jpg,./small_thumbs/480/IMG_4731.jpg
+524,480,./images/480/IMG_4730.jpg,2021-11-04T14:03:07,Kohei Otsuka,龍積寺萬延庚申,,./mid_thumbs/480/IMG_4730.jpg,./small_thumbs/480/IMG_4730.jpg
+525,466,./images/466/IMG_4723.jpg,2021-11-04T14:01:49,Kohei Otsuka,龍積寺元禄笠庚申,,./mid_thumbs/466/IMG_4723.jpg,./small_thumbs/466/IMG_4723.jpg
+526,466,./images/466/IMG_4724.jpg,2021-11-04T14:01:57,Kohei Otsuka,龍積寺元禄笠庚申,,./mid_thumbs/466/IMG_4724.jpg,./small_thumbs/466/IMG_4724.jpg
+527,466,./images/466/IMG_4722.jpg,2021-11-04T14:01:43,Kohei Otsuka,龍積寺元禄笠庚申,,./mid_thumbs/466/IMG_4722.jpg,./small_thumbs/466/IMG_4722.jpg
+528,470,./images/470/IMG_4721.jpg,2021-11-04T14:01:22,Kohei Otsuka,龍積寺天文一猿青面金剛,,./mid_thumbs/470/IMG_4721.jpg,./small_thumbs/470/IMG_4721.jpg
+529,470,./images/470/IMG_4720.jpg,2021-11-04T14:01:14,Kohei Otsuka,龍積寺天文一猿青面金剛,,./mid_thumbs/470/IMG_4720.jpg,./small_thumbs/470/IMG_4720.jpg
