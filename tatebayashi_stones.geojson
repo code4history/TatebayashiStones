@@ -65261,14 +65261,14 @@
         "detail": "元善定院境内",
         "note_1": "十九夜の文字の上に如意輪観音像がある 小屋の中にある 西向き 絵馬が奉納されている",
         "note_2": "「北居まつ」とは関沢家の先祖の詩人のペンネームである",
-        "note_3": "",
+        "note_3": "墓地北の空き地の北西角",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2019/05/02",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 489,
         "height": 164,
         "width": 35,
         "depth": 32,
@@ -65280,10 +65280,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1122/FDPqdfcaUAAjiXJ.jpg",
+        "mid_thumbnail": "./mid_thumbs/1122/FDPqdfcaUAAjiXJ.jpg",
+        "small_thumbnail": "./small_thumbs/1122/FDPqdfcaUAAjiXJ.jpg",
+        "images": [
+          {
+            "path": "./images/1122/FDPqdfcaUAAjiXJ.jpg",
+            "shootingDate": "2019/05/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "元善定院十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1122/FDPqdfcaUAAjiXJ.jpg",
+            "small_thumbnail": "./small_thumbs/1122/FDPqdfcaUAAjiXJ.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -65298,8 +65308,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5959878678,
-          36.2653376745
+          139.5959464,
+          36.2653573
         ]
       }
     },
@@ -65485,14 +65495,14 @@
         "detail": "明善寺境内",
         "note_1": "十九夜の文字の上に如意輪観音像がある 南向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "道路を挟んで本堂の北側",
         "area": "大島",
-        "surveyed": "",
+        "surveyed": "2019/05/02",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 490,
         "height": 151.5,
         "width": 36,
         "depth": 34.8,
@@ -65504,10 +65514,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1126/FDPnl0IakAAbx6k.jpg",
+        "mid_thumbnail": "./mid_thumbs/1126/FDPnl0IakAAbx6k.jpg",
+        "small_thumbnail": "./small_thumbs/1126/FDPnl0IakAAbx6k.jpg",
+        "images": [
+          {
+            "path": "./images/1126/FDPnl0IakAAbx6k.jpg",
+            "shootingDate": "2019/05/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "明善寺十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1126/FDPnl0IakAAbx6k.jpg",
+            "small_thumbnail": "./small_thumbs/1126/FDPnl0IakAAbx6k.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -65522,8 +65542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5744208788,
-          36.2599673358
+          139.5745725,
+          36.25985
         ]
       }
     },
@@ -80879,12 +80899,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2019/02/02",
         "description": "@",
         "photo": "",
         "public_relations": "Jul-15",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 492,
         "height": 122,
         "width": 43,
         "depth": 42.5,
@@ -80896,10 +80916,29 @@
         "contradiction": "赤生田・羽附の石仏で重複記載されているが、サイズに差あり（総高199.8、高125、幅43.5、奥42.3）",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1371/FDPuvxlagAAnFEz.jpg",
+        "mid_thumbnail": "./mid_thumbs/1371/FDPuvxlagAAnFEz.jpg",
+        "small_thumbnail": "./small_thumbs/1371/FDPuvxlagAAnFEz.jpg",
+        "images": [
+          {
+            "path": "./images/1371/FDPuvxlagAAnFEz.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "長竹十九夜供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1371/FDPuvxlagAAnFEz.jpg",
+            "small_thumbnail": "./small_thumbs/1371/FDPuvxlagAAnFEz.jpg"
+          },
+          {
+            "path": "./images/1371/FDPuzGiaMAAfBdd.jpg",
+            "shootingDate": "2019/02/02 00:00:00",
+            "shooter": "Takashi KOIKE",
+            "description": "長竹十九夜供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1371/FDPuzGiaMAAfBdd.jpg",
+            "small_thumbnail": "./small_thumbs/1371/FDPuzGiaMAAfBdd.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -80930,8 +80969,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5751988374,
-          36.231072195
+          139.5751485,
+          36.2312582
         ]
       }
     },
