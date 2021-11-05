@@ -24036,38 +24036,48 @@
         "era": "享保9年",
         "year": "1724",
         "place_1": "堀工町",
-        "place_2": "",
+        "place_2": "下堀工",
         "detail": "下堀工墓地",
-        "note_1": "舟型背面、浮彫",
+        "note_1": "",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
+        "confirmed": true,
+        "primary_image": 585,
+        "height": 85,
+        "width": 42,
+        "depth": 25,
+        "shape": "舟型背面 浮彫立像",
+        "material": "石造",
+        "inscription": "(表)享保九甲辰歳\n[像]\n霜月廿四日",
         "statue_height": "",
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/404/IMG_4917.jpg",
+        "mid_thumbnail": "./mid_thumbs/404/IMG_4917.jpg",
+        "small_thumbnail": "./small_thumbs/404/IMG_4917.jpg",
+        "images": [
+          {
+            "path": "./images/404/IMG_4917.jpg",
+            "shootingDate": "2021-11-05T17:04:42",
+            "shooter": "Kohei Otsuka",
+            "description": "享保舟型地蔵尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/404/IMG_4917.jpg",
+            "small_thumbnail": "./small_thumbs/404/IMG_4917.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "30",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -24077,8 +24087,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5406539423,
-          36.2286886816
+          139.540569043185,
+          36.2286348675477
         ]
       }
     },
@@ -25315,38 +25325,48 @@
         "era": "安永8年",
         "year": "1779",
         "place_1": "堀工町",
-        "place_2": "",
+        "place_2": "下堀工",
         "detail": "下堀工墓地",
-        "note_1": "〃",
+        "note_1": "南向き",
         "note_2": "",
         "note_3": "",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 586,
+        "height": 73,
+        "width": 26,
+        "depth": 18,
+        "shape": "舟形背面 像浮彫",
+        "material": "石造",
+        "inscription": "(表)安永八己亥年\n二月吉祥日",
+        "statue_height": 60,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/426/IMG_4911.jpg",
+        "mid_thumbnail": "./mid_thumbs/426/IMG_4911.jpg",
+        "small_thumbnail": "./small_thumbs/426/IMG_4911.jpg",
+        "images": [
+          {
+            "path": "./images/426/IMG_4911.jpg",
+            "shootingDate": "2021-11-05T17:01:44",
+            "shooter": "Kohei Otsuka",
+            "description": "下堀工安永馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/426/IMG_4911.jpg",
+            "small_thumbnail": "./small_thumbs/426/IMG_4911.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "38",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -25356,8 +25376,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5404777111,
-          36.2286430724
+          139.540707882114,
+          36.2285127333264
         ]
       }
     },
@@ -25478,43 +25498,53 @@
       "properties": {
         "fid": 429,
         "area_no": 91,
-        "name": "定右ェ門馬頭尊",
+        "name": "下堀工定右ェ門馬頭尊",
         "type": "馬頭観世音",
         "era": "寛政4年",
         "year": "1792",
         "place_1": "堀工町",
-        "place_2": "",
+        "place_2": "下堀工",
         "detail": "下堀工墓地",
-        "note_1": "厚碑型、文字",
+        "note_1": "南向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "現況は西向き",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 587,
+        "height": 38.5,
+        "width": 24.8,
+        "depth": 13,
+        "shape": "厚碑型 文字",
+        "material": "石造",
+        "inscription": "(表)寛政四壬子天\n馬頭観世音\n正月吉 野村定右ェ門",
+        "statue_height": 25,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/429/IMG_4914.jpg",
+        "mid_thumbnail": "./mid_thumbs/429/IMG_4914.jpg",
+        "small_thumbnail": "./small_thumbs/429/IMG_4914.jpg",
+        "images": [
+          {
+            "path": "./images/429/IMG_4914.jpg",
+            "shootingDate": "2021-11-05T17:03:36",
+            "shooter": "Kohei Otsuka",
+            "description": "下堀工定右ェ門馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/429/IMG_4914.jpg",
+            "small_thumbnail": "./small_thumbs/429/IMG_4914.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "38",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -25524,8 +25554,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5404854435,
-          36.2285354709
+          139.54070728367,
+          36.2285392842603
         ]
       }
     },
@@ -25758,43 +25788,53 @@
       "properties": {
         "fid": 434,
         "area_no": 12,
-        "name": "文政甚右ェ門馬頭尊",
+        "name": "下堀工文政甚右ェ門馬頭尊",
         "type": "馬頭観世音",
         "era": "文政10年",
         "year": "1827",
-        "place_1": "青柳町",
-        "place_2": "",
-        "detail": "龍積寺",
-        "note_1": "舟型、文字",
+        "place_1": "堀工町",
+        "place_2": "下堀工",
+        "detail": "下堀工墓地",
+        "note_1": "南向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "現況は西向き",
         "area": "六郷",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
-        "height": "",
-        "width": "",
-        "depth": "",
-        "shape": "",
-        "material": "",
-        "inscription": "",
-        "statue_height": "",
+        "confirmed": true,
+        "primary_image": 588,
+        "height": 60.5,
+        "width": 27,
+        "depth": 19.8,
+        "shape": "舟型 文字",
+        "material": "石造",
+        "inscription": "(表)文政十丁亥正月十九日\n馬頭観世音\n堀工村\n 施主 荒井甚右ェ門",
+        "statue_height": 50.5,
         "color": "",
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/434/IMG_4913.jpg",
+        "mid_thumbnail": "./mid_thumbs/434/IMG_4913.jpg",
+        "small_thumbnail": "./small_thumbs/434/IMG_4913.jpg",
+        "images": [
+          {
+            "path": "./images/434/IMG_4913.jpg",
+            "shootingDate": "2021-11-05T17:03:07",
+            "shooter": "Kohei Otsuka",
+            "description": "下堀工文政甚右ェ門馬頭尊",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/434/IMG_4913.jpg",
+            "small_thumbnail": "./small_thumbs/434/IMG_4913.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
             "note": "",
-            "pages": "",
+            "pages": "39",
             "name": "文化財総合調査 館林市の石造文化財 六郷・三野谷の石仏",
             "editor": "館林地方史研究会編",
             "publishedAt": "1976"
@@ -25804,8 +25844,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5171262484,
-          36.2215977796
+          139.540707469219,
+          36.2285264149028
         ]
       }
     },
@@ -68642,7 +68682,7 @@
       "properties": {
         "fid": 1175,
         "area_no": 112,
-        "name": "阿弥陀堂如意輪観音像",
+        "name": "上赤生田阿弥陀堂如意輪観音像",
         "type": "如意輪観音像",
         "era": "天明8年",
         "year": "1788",
@@ -68653,12 +68693,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 559,
         "height": 151,
         "width": "",
         "depth": "",
@@ -68670,10 +68710,47 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1175/IMG_4842.jpg",
+        "mid_thumbnail": "./mid_thumbs/1175/IMG_4842.jpg",
+        "small_thumbnail": "./small_thumbs/1175/IMG_4842.jpg",
+        "images": [
+          {
+            "path": "./images/1175/IMG_4842.jpg",
+            "shootingDate": "2021-11-05T15:58:24",
+            "shooter": "Kohei Otsuka",
+            "description": "阿弥陀堂如意輪観音像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1175/IMG_4842.jpg",
+            "small_thumbnail": "./small_thumbs/1175/IMG_4842.jpg"
+          },
+          {
+            "path": "./images/1175/IMG_4843.jpg",
+            "shootingDate": "2021-11-05T15:58:33",
+            "shooter": "Kohei Otsuka",
+            "description": "阿弥陀堂如意輪観音像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1175/IMG_4843.jpg",
+            "small_thumbnail": "./small_thumbs/1175/IMG_4843.jpg"
+          },
+          {
+            "path": "./images/1175/IMG_4844.jpg",
+            "shootingDate": "2021-11-05T15:58:43",
+            "shooter": "Kohei Otsuka",
+            "description": "阿弥陀堂如意輪観音像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1175/IMG_4844.jpg",
+            "small_thumbnail": "./small_thumbs/1175/IMG_4844.jpg"
+          },
+          {
+            "path": "./images/1175/IMG_4845.jpg",
+            "shootingDate": "2021-11-05T15:58:51",
+            "shooter": "Kohei Otsuka",
+            "description": "阿弥陀堂如意輪観音像",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1175/IMG_4845.jpg",
+            "small_thumbnail": "./small_thumbs/1175/IMG_4845.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -68688,8 +68765,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5485410335,
-          36.2228469996
+          139.548467302615,
+          36.2228764901285
         ]
       }
     },
@@ -68698,7 +68775,7 @@
       "properties": {
         "fid": 1176,
         "area_no": 109,
-        "name": "観音堂宝永地蔵菩薩",
+        "name": "上赤生田観音堂宝永地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "宝永8年",
         "year": "1711",
@@ -68709,12 +68786,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 572,
         "height": 150.5,
         "width": 29,
         "depth": 22,
@@ -68726,10 +68803,29 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1176/IMG_4871.jpg",
+        "mid_thumbnail": "./mid_thumbs/1176/IMG_4871.jpg",
+        "small_thumbnail": "./small_thumbs/1176/IMG_4871.jpg",
+        "images": [
+          {
+            "path": "./images/1176/IMG_4871.jpg",
+            "shootingDate": "2021-11-05T16:20:32",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂宝永地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1176/IMG_4871.jpg",
+            "small_thumbnail": "./small_thumbs/1176/IMG_4871.jpg"
+          },
+          {
+            "path": "./images/1176/IMG_4872.jpg",
+            "shootingDate": "2021-11-05T16:20:51",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂宝永地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1176/IMG_4872.jpg",
+            "small_thumbnail": "./small_thumbs/1176/IMG_4872.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -68744,8 +68840,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5459535422,
-          36.2255264728
+          139.546039416684,
+          36.2255027644759
         ]
       }
     },
@@ -68754,7 +68850,7 @@
       "properties": {
         "fid": 1177,
         "area_no": 102,
-        "name": "観音堂享保地蔵菩薩",
+        "name": "上赤生田観音堂享保地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "享保12年",
         "year": "1727",
@@ -68765,12 +68861,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 573,
         "height": 137,
         "width": 44,
         "depth": 24,
@@ -68782,10 +68878,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1177/IMG_4870.jpg",
+        "mid_thumbnail": "./mid_thumbs/1177/IMG_4870.jpg",
+        "small_thumbnail": "./small_thumbs/1177/IMG_4870.jpg",
+        "images": [
+          {
+            "path": "./images/1177/IMG_4870.jpg",
+            "shootingDate": "2021-11-05T16:20:27",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂享保地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1177/IMG_4870.jpg",
+            "small_thumbnail": "./small_thumbs/1177/IMG_4870.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -68800,8 +68906,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5459906123,
-          36.2255160062
+          139.546051984001,
+          36.2255003506613
         ]
       }
     },
@@ -68877,12 +68983,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 533,
         "height": 232,
         "width": 52,
         "depth": 31,
@@ -68894,10 +69000,47 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1179/IMG_4818.jpg",
+        "mid_thumbnail": "./mid_thumbs/1179/IMG_4818.jpg",
+        "small_thumbnail": "./small_thumbs/1179/IMG_4818.jpg",
+        "images": [
+          {
+            "path": "./images/1179/IMG_4818.jpg",
+            "shootingDate": "2021-11-05T15:18:36",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺薬師如来",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1179/IMG_4818.jpg",
+            "small_thumbnail": "./small_thumbs/1179/IMG_4818.jpg"
+          },
+          {
+            "path": "./images/1179/IMG_4819.jpg",
+            "shootingDate": "2021-11-05T15:18:40",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺薬師如来",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1179/IMG_4819.jpg",
+            "small_thumbnail": "./small_thumbs/1179/IMG_4819.jpg"
+          },
+          {
+            "path": "./images/1179/IMG_4820.jpg",
+            "shootingDate": "2021-11-05T15:18:46",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺薬師如来",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1179/IMG_4820.jpg",
+            "small_thumbnail": "./small_thumbs/1179/IMG_4820.jpg"
+          },
+          {
+            "path": "./images/1179/IMG_4821.jpg",
+            "shootingDate": "2021-11-05T15:18:56",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺薬師如来",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1179/IMG_4821.jpg",
+            "small_thumbnail": "./small_thumbs/1179/IMG_4821.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -68912,8 +69055,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5586018519,
-          36.2221516972
+          139.558463705518,
+          36.2224250903443
         ]
       }
     },
@@ -68925,7 +69068,7 @@
         "name": "永明寺貞享地蔵菩薩",
         "type": "地蔵菩薩像",
         "era": "貞享元年,安永7年再建",
-        "year": "16,841,778",
+        "year": "1684,  1778",
         "place_1": "赤生田本町",
         "place_2": "侍辺",
         "detail": "永明寺境内",
@@ -68933,12 +69076,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 534,
         "height": 145,
         "width": "",
         "depth": "",
@@ -68950,10 +69093,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1180/IMG_4796.jpg",
+        "mid_thumbnail": "./mid_thumbs/1180/IMG_4796.jpg",
+        "small_thumbnail": "./small_thumbs/1180/IMG_4796.jpg",
+        "images": [
+          {
+            "path": "./images/1180/IMG_4796.jpg",
+            "shootingDate": "2021-11-05T15:08:03",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺貞享地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1180/IMG_4796.jpg",
+            "small_thumbnail": "./small_thumbs/1180/IMG_4796.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -68968,8 +69121,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5585721959,
-          36.2220829142
+          139.558361371652,
+          36.2219210644054
         ]
       }
     },
@@ -68989,12 +69142,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 539,
         "height": 214,
         "width": 54,
         "depth": 35,
@@ -69006,10 +69159,56 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1181/IMG_4822.jpg",
+        "mid_thumbnail": "./mid_thumbs/1181/IMG_4822.jpg",
+        "small_thumbnail": "./small_thumbs/1181/IMG_4822.jpg",
+        "images": [
+          {
+            "path": "./images/1181/IMG_4822.jpg",
+            "shootingDate": "2021-11-05T15:19:10",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1181/IMG_4822.jpg",
+            "small_thumbnail": "./small_thumbs/1181/IMG_4822.jpg"
+          },
+          {
+            "path": "./images/1181/IMG_4823.jpg",
+            "shootingDate": "2021-11-05T15:19:19",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1181/IMG_4823.jpg",
+            "small_thumbnail": "./small_thumbs/1181/IMG_4823.jpg"
+          },
+          {
+            "path": "./images/1181/IMG_4824.jpg",
+            "shootingDate": "2021-11-05T15:19:32",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1181/IMG_4824.jpg",
+            "small_thumbnail": "./small_thumbs/1181/IMG_4824.jpg"
+          },
+          {
+            "path": "./images/1181/IMG_4825.jpg",
+            "shootingDate": "2021-11-05T15:19:44",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1181/IMG_4825.jpg",
+            "small_thumbnail": "./small_thumbs/1181/IMG_4825.jpg"
+          },
+          {
+            "path": "./images/1181/IMG_4827.jpg",
+            "shootingDate": "2021-11-05T15:20:19",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保地蔵菩薩",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1181/IMG_4827.jpg",
+            "small_thumbnail": "./small_thumbs/1181/IMG_4827.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -69024,8 +69223,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5585425398,
-          36.222002169
+          139.558431389561,
+          36.2223777777027
         ]
       }
     },
@@ -71283,7 +71482,7 @@
       "properties": {
         "fid": 1214,
         "area_no": 103,
-        "name": "観音堂延宝三猿庚申",
+        "name": "上赤生田観音堂延宝三猿庚申",
         "type": "庚申",
         "era": "延宝8年",
         "year": "1680",
@@ -71294,12 +71493,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 574,
         "height": 97,
         "width": 43,
         "depth": 16,
@@ -71311,10 +71510,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1214/IMG_4875.jpg",
+        "mid_thumbnail": "./mid_thumbs/1214/IMG_4875.jpg",
+        "small_thumbnail": "./small_thumbs/1214/IMG_4875.jpg",
+        "images": [
+          {
+            "path": "./images/1214/IMG_4875.jpg",
+            "shootingDate": "2021-11-05T16:23:32",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂延宝三猿庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1214/IMG_4875.jpg",
+            "small_thumbnail": "./small_thumbs/1214/IMG_4875.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -71329,8 +71538,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5459425378,
-          36.2255013556
+          139.546000517846,
+          36.2256012480485
         ]
       }
     },
@@ -71339,7 +71548,7 @@
       "properties": {
         "fid": 1215,
         "area_no": 104,
-        "name": "観音堂萬延庚申",
+        "name": "上赤生田観音堂萬延庚申",
         "type": "道標,庚申",
         "era": "萬延元年",
         "year": "1860",
@@ -71350,12 +71559,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "@",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 563,
         "height": 232,
         "width": 97,
         "depth": 14,
@@ -71367,10 +71576,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1215/IMG_4855.jpg",
+        "mid_thumbnail": "./mid_thumbs/1215/IMG_4855.jpg",
+        "small_thumbnail": "./small_thumbs/1215/IMG_4855.jpg",
+        "images": [
+          {
+            "path": "./images/1215/IMG_4855.jpg",
+            "shootingDate": "2021-11-05T16:13:54",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂萬延庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1215/IMG_4855.jpg",
+            "small_thumbnail": "./small_thumbs/1215/IMG_4855.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -71401,8 +71620,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5459803021,
-          36.2254896385
+          139.546045401121,
+          36.2254602813279
         ]
       }
     },
@@ -71411,7 +71630,7 @@
       "properties": {
         "fid": 1216,
         "area_no": 105,
-        "name": "観音堂青面金剛",
+        "name": "上赤生田観音堂元文青面金剛",
         "type": "庚申",
         "era": "元文5年",
         "year": "1740",
@@ -71422,12 +71641,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 576,
         "height": 68,
         "width": 28.7,
         "depth": 18,
@@ -71439,10 +71658,29 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1216/IMG_4891.jpg",
+        "mid_thumbnail": "./mid_thumbs/1216/IMG_4891.jpg",
+        "small_thumbnail": "./small_thumbs/1216/IMG_4891.jpg",
+        "images": [
+          {
+            "path": "./images/1216/IMG_4891.jpg",
+            "shootingDate": "2021-11-05T16:33:45",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂元文青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1216/IMG_4891.jpg",
+            "small_thumbnail": "./small_thumbs/1216/IMG_4891.jpg"
+          },
+          {
+            "path": "./images/1216/IMG_4889.jpg",
+            "shootingDate": "2021-11-05T16:32:49",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂元文青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1216/IMG_4889.jpg",
+            "small_thumbnail": "./small_thumbs/1216/IMG_4889.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -71457,8 +71695,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5459299497,
-          36.225475578
+          139.546013683607,
+          36.2256002825238
         ]
       }
     },
@@ -71467,7 +71705,7 @@
       "properties": {
         "fid": 1217,
         "area_no": 106,
-        "name": "観音堂寛政青面金剛",
+        "name": "上赤生田観音堂寛政青面金剛",
         "type": "庚申",
         "era": "寛政12年",
         "year": "1800",
@@ -71476,14 +71714,14 @@
         "detail": "観音堂境内",
         "note_1": "青面金剛文字\n東向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "お堂裏に青面金剛塔があったが、対応は不明",
         "area": "赤羽",
         "surveyed": "",
         "description": "",
         "photo": "",
         "public_relations": "",
         "confirmed": false,
-        "primary_image": "",
+        "primary_image": 577,
         "height": 63,
         "width": 28.5,
         "depth": 19.5,
@@ -71495,10 +71733,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1217/IMG_4894.jpg",
+        "mid_thumbnail": "./mid_thumbs/1217/IMG_4894.jpg",
+        "small_thumbnail": "./small_thumbs/1217/IMG_4894.jpg",
+        "images": [
+          {
+            "path": "./images/1217/IMG_4894.jpg",
+            "shootingDate": "2021-11-05T16:35:16",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂寛政青面金剛",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1217/IMG_4894.jpg",
+            "small_thumbnail": "./small_thumbs/1217/IMG_4894.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -71513,8 +71761,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5459685821,
-          36.2254626481
+          139.545809015875,
+          36.2255766271669
         ]
       }
     },
@@ -71681,12 +71929,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 540,
         "height": 110,
         "width": 49,
         "depth": 27,
@@ -71698,10 +71946,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1220/IMG_4802.jpg",
+        "mid_thumbnail": "./mid_thumbs/1220/IMG_4802.jpg",
+        "small_thumbnail": "./small_thumbs/1220/IMG_4802.jpg",
+        "images": [
+          {
+            "path": "./images/1220/IMG_4802.jpg",
+            "shootingDate": "2021-11-05T15:12:03",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺庚申",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1220/IMG_4802.jpg",
+            "small_thumbnail": "./small_thumbs/1220/IMG_4802.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -71716,8 +71974,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5585065701,
-          36.221929226
+          139.558405656483,
+          36.2220002411089
         ]
       }
     },
@@ -74927,8 +75185,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5453452452,
-          36.2260198122
+          139.546114820586,
+          36.2259676637809
         ]
       }
     },
@@ -74937,7 +75195,7 @@
       "properties": {
         "fid": 1267,
         "area_no": 116,
-        "name": "観音堂天保馬頭観世音",
+        "name": "上赤生田観音堂天保馬頭観世音",
         "type": "馬頭観世音",
         "era": "天保4年",
         "year": "1833",
@@ -74948,12 +75206,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 569,
         "height": 80,
         "width": 38,
         "depth": 31,
@@ -74965,10 +75223,47 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1267/IMG_4863.jpg",
+        "mid_thumbnail": "./mid_thumbs/1267/IMG_4863.jpg",
+        "small_thumbnail": "./small_thumbs/1267/IMG_4863.jpg",
+        "images": [
+          {
+            "path": "./images/1267/IMG_4863.jpg",
+            "shootingDate": "2021-11-05T16:19:11",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂天保馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1267/IMG_4863.jpg",
+            "small_thumbnail": "./small_thumbs/1267/IMG_4863.jpg"
+          },
+          {
+            "path": "./images/1267/IMG_4864.jpg",
+            "shootingDate": "2021-11-05T16:19:16",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂天保馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1267/IMG_4864.jpg",
+            "small_thumbnail": "./small_thumbs/1267/IMG_4864.jpg"
+          },
+          {
+            "path": "./images/1267/IMG_4865.jpg",
+            "shootingDate": "2021-11-05T16:19:25",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂天保馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1267/IMG_4865.jpg",
+            "small_thumbnail": "./small_thumbs/1267/IMG_4865.jpg"
+          },
+          {
+            "path": "./images/1267/IMG_4866.jpg",
+            "shootingDate": "2021-11-05T16:19:31",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂天保馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1267/IMG_4866.jpg",
+            "small_thumbnail": "./small_thumbs/1267/IMG_4866.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -74983,8 +75278,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5459005088,
-          36.2254831552
+          139.546058566882,
+          36.225492626454
         ]
       }
     },
@@ -74993,7 +75288,7 @@
       "properties": {
         "fid": 1268,
         "area_no": 117,
-        "name": "観音堂嘉永馬頭観世音",
+        "name": "上赤生田観音堂嘉永馬頭観世音",
         "type": "馬頭観世音",
         "era": "嘉永4年",
         "year": "1851",
@@ -75004,12 +75299,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 578,
         "height": 56,
         "width": 26,
         "depth": 20.5,
@@ -75021,10 +75316,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1268/IMG_4880.jpg",
+        "mid_thumbnail": "./mid_thumbs/1268/IMG_4880.jpg",
+        "small_thumbnail": "./small_thumbs/1268/IMG_4880.jpg",
+        "images": [
+          {
+            "path": "./images/1268/IMG_4880.jpg",
+            "shootingDate": "2021-11-05T16:25:40",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂嘉永馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1268/IMG_4880.jpg",
+            "small_thumbnail": "./small_thumbs/1268/IMG_4880.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -75039,8 +75344,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.545915195,
-          36.2255088664
+          139.546010691389,
+          36.2255911100394
         ]
       }
     },
@@ -75058,14 +75363,14 @@
         "detail": "早川氏宅",
         "note_1": "",
         "note_2": "",
-        "note_3": "上赤生田内の位置は不明なため、大林と観音堂2基を除く5基の間で仮置きとする\n元本では所在地に個人名が記載されていたが省略",
+        "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 583,
         "height": 54,
         "width": 22,
         "depth": 19,
@@ -75077,10 +75382,29 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1269/IMG_4895.jpg",
+        "mid_thumbnail": "./mid_thumbs/1269/IMG_4895.jpg",
+        "small_thumbnail": "./small_thumbs/1269/IMG_4895.jpg",
+        "images": [
+          {
+            "path": "./images/1269/IMG_4895.jpg",
+            "shootingDate": "2021-11-05T16:39:29",
+            "shooter": "Kohei Otsuka",
+            "description": "早川家馬頭観世音（1）",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1269/IMG_4895.jpg",
+            "small_thumbnail": "./small_thumbs/1269/IMG_4895.jpg"
+          },
+          {
+            "path": "./images/1269/IMG_4896.jpg",
+            "shootingDate": "2021-11-05T16:39:44",
+            "shooter": "Kohei Otsuka",
+            "description": "早川家馬頭観世音（1）",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1269/IMG_4896.jpg",
+            "small_thumbnail": "./small_thumbs/1269/IMG_4896.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -75095,8 +75419,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5471950825,
-          36.2246626604
+          139.545351206475,
+          36.2260178708095
         ]
       }
     },
@@ -75114,14 +75438,14 @@
         "detail": "",
         "note_1": "",
         "note_2": "",
-        "note_3": "上赤生田内の位置は不明なため、大林と観音堂2基を除く5基の間で仮置きとする",
+        "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 562,
         "height": 43,
         "width": 22.5,
         "depth": 14.8,
@@ -75133,10 +75457,29 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1270/IMG_4850.jpg",
+        "mid_thumbnail": "./mid_thumbs/1270/IMG_4850.jpg",
+        "small_thumbnail": "./small_thumbs/1270/IMG_4850.jpg",
+        "images": [
+          {
+            "path": "./images/1270/IMG_4850.jpg",
+            "shootingDate": "2021-11-05T16:09:48",
+            "shooter": "Kohei Otsuka",
+            "description": "早川家馬頭観世音（2）",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1270/IMG_4850.jpg",
+            "small_thumbnail": "./small_thumbs/1270/IMG_4850.jpg"
+          },
+          {
+            "path": "./images/1270/IMG_4852.jpg",
+            "shootingDate": "2021-11-05T16:10:35",
+            "shooter": "Kohei Otsuka",
+            "description": "早川家馬頭観世音（2）",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1270/IMG_4852.jpg",
+            "small_thumbnail": "./small_thumbs/1270/IMG_4852.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -75151,8 +75494,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5472550772,
-          36.2247312244
+          139.547475083026,
+          36.2246173722791
         ]
       }
     },
@@ -75170,14 +75513,14 @@
         "detail": "",
         "note_1": "",
         "note_2": "",
-        "note_3": "上赤生田内の位置は不明なため、大林と観音堂2基を除く5基の間で仮置きとする\nGoogleStreetViewによると、この場所に碑型の何かがあるが、高さなどは一致しない",
+        "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 560,
         "height": 50,
         "width": 37,
         "depth": 2,
@@ -75189,10 +75532,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1271/IMG_4846.jpg",
+        "mid_thumbnail": "./mid_thumbs/1271/IMG_4846.jpg",
+        "small_thumbnail": "./small_thumbs/1271/IMG_4846.jpg",
+        "images": [
+          {
+            "path": "./images/1271/IMG_4846.jpg",
+            "shootingDate": "2021-11-05T16:05:30",
+            "shooter": "Kohei Otsuka",
+            "description": "山田家馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1271/IMG_4846.jpg",
+            "small_thumbnail": "./small_thumbs/1271/IMG_4846.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -75207,8 +75560,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5465626381,
-          36.2263364103
+          139.549025052106,
+          36.2233457500302
         ]
       }
     },
@@ -75245,20 +75598,10 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "./images/1272/obayashi_bato_kameda.jpg",
-        "mid_thumbnail": "./mid_thumbs/1272/obayashi_bato_kameda.jpg",
-        "small_thumbnail": "./small_thumbs/1272/obayashi_bato_kameda.jpg",
-        "images": [
-          {
-            "path": "./images/1272/obayashi_bato_kameda.jpg",
-            "shootingDate": "2020/03/21 15:40:09",
-            "shooter": "Kohei Otsuka",
-            "description": "上赤生田大林 亀田家の馬頭観世音",
-            "note": "",
-            "mid_thumbnail": "./mid_thumbs/1272/obayashi_bato_kameda.jpg",
-            "small_thumbnail": "./small_thumbs/1272/obayashi_bato_kameda.jpg"
-          }
-        ],
+        "path": "",
+        "mid_thumbnail": "",
+        "small_thumbnail": "",
+        "images": [],
         "books": [
           {
             "description": "",
@@ -75273,8 +75616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5545267802,
-          36.2229230355
+          139.554533127557,
+          36.2232144347858
         ]
       }
     },
@@ -75369,12 +75712,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 541,
         "height": 147.5,
         "width": 81,
         "depth": 21,
@@ -75386,10 +75729,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1274/IMG_4798.jpg",
+        "mid_thumbnail": "./mid_thumbs/1274/IMG_4798.jpg",
+        "small_thumbnail": "./small_thumbs/1274/IMG_4798.jpg",
+        "images": [
+          {
+            "path": "./images/1274/IMG_4798.jpg",
+            "shootingDate": "2021-11-05T15:10:38",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1274/IMG_4798.jpg",
+            "small_thumbnail": "./small_thumbs/1274/IMG_4798.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -75404,8 +75757,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5585815814,
-          36.2219034156
+          139.558376931187,
+          36.2219461692225
         ]
       }
     },
@@ -77568,7 +77921,7 @@
       "properties": {
         "fid": 1311,
         "area_no": 107,
-        "name": "観音堂十九夜",
+        "name": "上赤生田観音堂十九夜",
         "type": "月待塔,如意輪観音像",
         "era": "寛延4年",
         "year": "1751",
@@ -77577,14 +77930,14 @@
         "detail": "観音堂境内",
         "note_1": "小屋の中にあり、柱型の上に如意輪観音像がある 南向き",
         "note_2": "",
-        "note_3": "",
+        "note_3": "現況は小屋なし",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 580,
         "height": 97,
         "width": 43,
         "depth": 16,
@@ -77596,10 +77949,29 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1311/IMG_4876.jpg",
+        "mid_thumbnail": "./mid_thumbs/1311/IMG_4876.jpg",
+        "small_thumbnail": "./small_thumbs/1311/IMG_4876.jpg",
+        "images": [
+          {
+            "path": "./images/1311/IMG_4876.jpg",
+            "shootingDate": "2021-11-05T16:23:38",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1311/IMG_4876.jpg",
+            "small_thumbnail": "./small_thumbs/1311/IMG_4876.jpg"
+          },
+          {
+            "path": "./images/1311/IMG_4877.jpg",
+            "shootingDate": "2021-11-05T16:23:52",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1311/IMG_4877.jpg",
+            "small_thumbnail": "./small_thumbs/1311/IMG_4877.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -77614,8 +77986,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5460054855,
-          36.2256338995
+          139.545987352086,
+          36.2256041446222
         ]
       }
     },
@@ -77624,7 +77996,7 @@
       "properties": {
         "fid": 1312,
         "area_no": 81,
-        "name": "待辺十九夜",
+        "name": "待辺永明寺十九夜",
         "type": "如意輪観音像,月待塔",
         "era": "宝暦5年",
         "year": "1755",
@@ -77635,7 +78007,7 @@
         "note_2": "",
         "note_3": "永明寺の門を入ってすぐ左",
         "area": "赤羽",
-        "surveyed": "2019/02/02",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
@@ -77673,6 +78045,15 @@
             "note": "",
             "mid_thumbnail": "./mid_thumbs/1312/FDBAO6sagAEXdtD.jpg",
             "small_thumbnail": "./small_thumbs/1312/FDBAO6sagAEXdtD.jpg"
+          },
+          {
+            "path": "./images/1312/IMG_4795.jpg",
+            "shootingDate": "2021-11-05T15:05:56",
+            "shooter": "Kohei Otsuka",
+            "description": "待辺永明寺十九夜",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1312/IMG_4795.jpg",
+            "small_thumbnail": "./small_thumbs/1312/IMG_4795.jpg"
           }
         ],
         "books": [
@@ -77689,8 +78070,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5584035,
-          36.2218721
+          139.558348205892,
+          36.2218969251506
         ]
       }
     },
@@ -80104,8 +80485,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5583845541,
-          36.2219640053
+          139.558935877566,
+          36.2223333617274
         ]
       }
     },
@@ -80160,8 +80541,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5584318116,
-          36.2220506512
+          139.558842520355,
+          36.2223468796356
         ]
       }
     },
@@ -80181,12 +80562,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 548,
         "height": 342,
         "width": "",
         "depth": "",
@@ -80198,10 +80579,65 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1350/IMG_4809.jpg",
+        "mid_thumbnail": "./mid_thumbs/1350/IMG_4809.jpg",
+        "small_thumbnail": "./small_thumbs/1350/IMG_4809.jpg",
+        "images": [
+          {
+            "path": "./images/1350/IMG_4809.jpg",
+            "shootingDate": "2021-11-05T15:16:11",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1350/IMG_4809.jpg",
+            "small_thumbnail": "./small_thumbs/1350/IMG_4809.jpg"
+          },
+          {
+            "path": "./images/1350/IMG_4808.jpg",
+            "shootingDate": "2021-11-05T15:16:01",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1350/IMG_4808.jpg",
+            "small_thumbnail": "./small_thumbs/1350/IMG_4808.jpg"
+          },
+          {
+            "path": "./images/1350/IMG_4810.jpg",
+            "shootingDate": "2021-11-05T15:16:22",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1350/IMG_4810.jpg",
+            "small_thumbnail": "./small_thumbs/1350/IMG_4810.jpg"
+          },
+          {
+            "path": "./images/1350/IMG_4811.jpg",
+            "shootingDate": "2021-11-05T15:16:28",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1350/IMG_4811.jpg",
+            "small_thumbnail": "./small_thumbs/1350/IMG_4811.jpg"
+          },
+          {
+            "path": "./images/1350/IMG_4812.jpg",
+            "shootingDate": "2021-11-05T15:16:35",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1350/IMG_4812.jpg",
+            "small_thumbnail": "./small_thumbs/1350/IMG_4812.jpg"
+          },
+          {
+            "path": "./images/1350/IMG_4813.jpg",
+            "shootingDate": "2021-11-05T15:16:42",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺寛保宝篋印塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1350/IMG_4813.jpg",
+            "small_thumbnail": "./small_thumbs/1350/IMG_4813.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -80216,8 +80652,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5584726249,
-          36.2221355641
+          139.558575016039,
+          36.2223391551169
         ]
       }
     },
@@ -81356,7 +81792,7 @@
       "properties": {
         "fid": 1373,
         "area_no": 113,
-        "name": "観音堂前道祖神",
+        "name": "上赤生田観音堂前道祖神",
         "type": "道祖神",
         "era": "明治12年",
         "year": "1879",
@@ -81367,12 +81803,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 570,
         "height": 45,
         "width": 38,
         "depth": 39,
@@ -81384,10 +81820,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1373/IMG_4860.jpg",
+        "mid_thumbnail": "./mid_thumbs/1373/IMG_4860.jpg",
+        "small_thumbnail": "./small_thumbs/1373/IMG_4860.jpg",
+        "images": [
+          {
+            "path": "./images/1373/IMG_4860.jpg",
+            "shootingDate": "2021-11-05T16:17:26",
+            "shooter": "Kohei Otsuka",
+            "description": "上赤生田観音堂前道祖神",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1373/IMG_4860.jpg",
+            "small_thumbnail": "./small_thumbs/1373/IMG_4860.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -81402,8 +81848,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5460192527,
-          36.2254823714
+          139.546055574663,
+          36.2254815229048
         ]
       }
     },
@@ -81524,7 +81970,7 @@
       "properties": {
         "fid": 1376,
         "area_no": 111,
-        "name": "観音堂出羽三山供養塔",
+        "name": "上赤生田観音堂出羽三山供養塔",
         "type": "湯殿山",
         "era": "文久3年",
         "year": "1863",
@@ -81535,12 +81981,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 565,
         "height": 164,
         "width": 31,
         "depth": 12,
@@ -81552,10 +81998,29 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1376/IMG_4857.jpg",
+        "mid_thumbnail": "./mid_thumbs/1376/IMG_4857.jpg",
+        "small_thumbnail": "./small_thumbs/1376/IMG_4857.jpg",
+        "images": [
+          {
+            "path": "./images/1376/IMG_4857.jpg",
+            "shootingDate": "2021-11-05T16:15:21",
+            "shooter": "Kohei Otsuka",
+            "description": "観音堂出羽三山供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1376/IMG_4857.jpg",
+            "small_thumbnail": "./small_thumbs/1376/IMG_4857.jpg"
+          },
+          {
+            "path": "./images/1376/IMG_4858.jpg",
+            "shootingDate": "2021-11-05T16:16:54",
+            "shooter": "Kohei Otsuka",
+            "description": "観音堂出羽三山供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1376/IMG_4858.jpg",
+            "small_thumbnail": "./small_thumbs/1376/IMG_4858.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -81570,8 +82035,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.546044037,
-          36.2256205961
+          139.54605018867,
+          36.2254713848801
         ]
       }
     },
@@ -81591,12 +82056,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 549,
         "height": 101,
         "width": 41,
         "depth": "",
@@ -81608,10 +82073,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1377/IMG_4801.jpg",
+        "mid_thumbnail": "./mid_thumbs/1377/IMG_4801.jpg",
+        "small_thumbnail": "./small_thumbs/1377/IMG_4801.jpg",
+        "images": [
+          {
+            "path": "./images/1377/IMG_4801.jpg",
+            "shootingDate": "2021-11-05T15:11:57",
+            "shooter": "Kohei Otsuka",
+            "description": "永明寺門前出羽三山供養塔",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1377/IMG_4801.jpg",
+            "small_thumbnail": "./small_thumbs/1377/IMG_4801.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -81626,8 +82101,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5586521228,
-          36.2217666689
+          139.558391293835,
+          36.221972239601
         ]
       }
     },
@@ -82753,7 +83228,7 @@
       "properties": {
         "fid": 1395,
         "area_no": 110,
-        "name": "観音堂大黒天",
+        "name": "上赤生田観音堂大黒天",
         "type": "甲子講",
         "era": "不明",
         "year": "",
@@ -94312,12 +94787,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "@",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 584,
         "height": 63,
         "width": 32,
         "depth": 18,
@@ -94329,10 +94804,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1608/IMG_4908.jpg",
+        "mid_thumbnail": "./mid_thumbs/1608/IMG_4908.jpg",
+        "small_thumbnail": "./small_thumbs/1608/IMG_4908.jpg",
+        "images": [
+          {
+            "path": "./images/1608/IMG_4908.jpg",
+            "shootingDate": "2021-11-05T16:56:59",
+            "shooter": "Kohei Otsuka",
+            "description": "川島稲荷の碑",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1608/IMG_4908.jpg",
+            "small_thumbnail": "./small_thumbs/1608/IMG_4908.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -94347,8 +94832,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5434070332,
-          36.2305578759
+          139.543420627226,
+          36.2305247858296
         ]
       }
     },
@@ -94368,12 +94853,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 581,
         "height": 99,
         "width": 55,
         "depth": 25,
@@ -94385,10 +94870,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1609/IMG_4883.jpg",
+        "mid_thumbnail": "./mid_thumbs/1609/IMG_4883.jpg",
+        "small_thumbnail": "./small_thumbs/1609/IMG_4883.jpg",
+        "images": [
+          {
+            "path": "./images/1609/IMG_4883.jpg",
+            "shootingDate": "2021-11-05T16:26:35",
+            "shooter": "Kohei Otsuka",
+            "description": "愛畜守人の碑",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1609/IMG_4883.jpg",
+            "small_thumbnail": "./small_thumbs/1609/IMG_4883.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -94403,8 +94898,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5458814656,
-          36.225524616
+          139.545974186325,
+          36.225612834343
         ]
       }
     },
@@ -94424,12 +94919,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "@",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 554,
         "height": 172,
         "width": 85,
         "depth": 12,
@@ -94441,10 +94936,29 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1610/IMG_4835.jpg",
+        "mid_thumbnail": "./mid_thumbs/1610/IMG_4835.jpg",
+        "small_thumbnail": "./small_thumbs/1610/IMG_4835.jpg",
+        "images": [
+          {
+            "path": "./images/1610/IMG_4835.jpg",
+            "shootingDate": "2021-11-05T15:49:31",
+            "shooter": "Kohei Otsuka",
+            "description": "天照皇大神",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1610/IMG_4835.jpg",
+            "small_thumbnail": "./small_thumbs/1610/IMG_4835.jpg"
+          },
+          {
+            "path": "./images/1610/IMG_4836.jpg",
+            "shootingDate": "2021-11-05T15:49:43",
+            "shooter": "Kohei Otsuka",
+            "description": "天照皇大神",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1610/IMG_4836.jpg",
+            "small_thumbnail": "./small_thumbs/1610/IMG_4836.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -94459,8 +94973,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5488137207,
-          36.2241742423
+          139.548736602262,
+          36.2243132276085
         ]
       }
     },
@@ -94480,12 +94994,12 @@
         "note_2": "",
         "note_3": "",
         "area": "赤羽",
-        "surveyed": "",
+        "surveyed": "2021/11/05",
         "description": "",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 555,
         "height": 201,
         "width": 80,
         "depth": 13,
@@ -94497,10 +95011,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1611/IMG_4838.jpg",
+        "mid_thumbnail": "./mid_thumbs/1611/IMG_4838.jpg",
+        "small_thumbnail": "./small_thumbs/1611/IMG_4838.jpg",
+        "images": [
+          {
+            "path": "./images/1611/IMG_4838.jpg",
+            "shootingDate": "2021-11-05T15:52:55",
+            "shooter": "Kohei Otsuka",
+            "description": "日露戦役紀念碑",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1611/IMG_4838.jpg",
+            "small_thumbnail": "./small_thumbs/1611/IMG_4838.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -94515,8 +95039,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5488309052,
-          36.2238415305
+          139.548456530629,
+          36.2242861924695
         ]
       }
     },
@@ -94761,11 +95285,11 @@
         "note_3": "",
         "area": "赤羽",
         "surveyed": "",
-        "description": "",
+        "description": "2021/11/05",
         "photo": "",
         "public_relations": "",
-        "confirmed": false,
-        "primary_image": "",
+        "confirmed": true,
+        "primary_image": 550,
         "height": 174,
         "width": 158,
         "depth": 31,
@@ -94777,10 +95301,20 @@
         "contradiction": "",
         "need_action": "",
         "status": "",
-        "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
-        "images": [],
+        "path": "./images/1616/IMG_4830.jpg",
+        "mid_thumbnail": "./mid_thumbs/1616/IMG_4830.jpg",
+        "small_thumbnail": "./small_thumbs/1616/IMG_4830.jpg",
+        "images": [
+          {
+            "path": "./images/1616/IMG_4830.jpg",
+            "shootingDate": "2021-11-05T15:25:19",
+            "shooter": "Kohei Otsuka",
+            "description": "早川金五郎碑",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1616/IMG_4830.jpg",
+            "small_thumbnail": "./small_thumbs/1616/IMG_4830.jpg"
+          }
+        ],
         "books": [
           {
             "description": "",
@@ -94795,8 +95329,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.5591004146,
-          36.2226245709
+          139.558446350652,
+          36.2223497763299
         ]
       }
     },
@@ -107042,6 +107576,81 @@
         "coordinates": [
           139.5048473857,
           36.2763131105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1834,
+        "area_no": "",
+        "name": "西條家馬頭観世音",
+        "type": "馬頭観世音",
+        "era": "明治10年",
+        "year": "1877年",
+        "place_1": "赤生田本町",
+        "place_2": "大林",
+        "detail": "",
+        "note_1": "",
+        "note_2": "",
+        "note_3": "",
+        "area": "赤羽",
+        "surveyed": "2021/11/05",
+        "description": "",
+        "photo": "",
+        "public_relations": "",
+        "confirmed": true,
+        "primary_image": 552,
+        "height": "",
+        "width": "",
+        "depth": "",
+        "shape": "柱型",
+        "material": "石造",
+        "inscription": "",
+        "statue_height": "",
+        "color": "",
+        "contradiction": "",
+        "need_action": "",
+        "status": "新規発見",
+        "path": "./images/1834/IMG_4831.jpg",
+        "mid_thumbnail": "./mid_thumbs/1834/IMG_4831.jpg",
+        "small_thumbnail": "./small_thumbs/1834/IMG_4831.jpg",
+        "images": [
+          {
+            "path": "./images/1834/IMG_4831.jpg",
+            "shootingDate": "2021-11-05T15:34:56",
+            "shooter": "Kohei Otsuka",
+            "description": "西條家馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1834/IMG_4831.jpg",
+            "small_thumbnail": "./small_thumbs/1834/IMG_4831.jpg"
+          },
+          {
+            "path": "./images/1834/obayashi_bato_kameda.jpg",
+            "shootingDate": "2020/03/21 15:40:09",
+            "shooter": "Kohei Otsuka",
+            "description": "西條家の馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1834/obayashi_bato_kameda.jpg",
+            "small_thumbnail": "./small_thumbs/1834/obayashi_bato_kameda.jpg"
+          },
+          {
+            "path": "./images/1834/IMG_4832.jpg",
+            "shootingDate": "2021-11-05T15:35:38",
+            "shooter": "Kohei Otsuka",
+            "description": "西條家馬頭観世音",
+            "note": "",
+            "mid_thumbnail": "./mid_thumbs/1834/IMG_4832.jpg",
+            "small_thumbnail": "./small_thumbs/1834/IMG_4832.jpg"
+          }
+        ],
+        "books": []
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.554523552458,
+          36.2229209057953
         ]
       }
     }

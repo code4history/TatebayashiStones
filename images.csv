@@ -159,7 +159,7 @@ fid,poi,path,shootingDate,shooter,description,note,mid_thumbnail,small_thumbnail
 158,1188,./images/1188/yamajinja_jizo_back.jpg,2020/08/22 17:09:39,Kohei Otsuka,山田 山神社の地蔵 背面,,./mid_thumbs/1188/yamajinja_jizo_back.jpg,./small_thumbs/1188/yamajinja_jizo_back.jpg
 159,1188,./images/1188/yamajinja_jizo_lefttop.jpg,2020/08/22 17:09:24,Kohei Otsuka,,,./mid_thumbs/1188/yamajinja_jizo_lefttop.jpg,./small_thumbs/1188/yamajinja_jizo_lefttop.jpg
 160,1188,./images/1188/yamajinja_jizo_righttop.jpg,2020/08/22 17:09:27,Kohei Otsuka,山田 山神社の地蔵 右上の刻銘,,./mid_thumbs/1188/yamajinja_jizo_righttop.jpg,./small_thumbs/1188/yamajinja_jizo_righttop.jpg
-161,1272,./images/1272/obayashi_bato_kameda.jpg,2020/03/21 15:40:09,Kohei Otsuka,上赤生田大林 亀田家の馬頭観世音,,./mid_thumbs/1272/obayashi_bato_kameda.jpg,./small_thumbs/1272/obayashi_bato_kameda.jpg
+161,1834,./images/1834/obayashi_bato_kameda.jpg,2020/03/21 15:40:09,Kohei Otsuka,西條家の馬頭観世音,,./mid_thumbs/1834/obayashi_bato_kameda.jpg,./small_thumbs/1834/obayashi_bato_kameda.jpg
 162,1209,./images/1209/jinya_jizo.jpg,2021/02/02 16:34:09,Kohei Otsuka,陣谷の地蔵菩薩,,./mid_thumbs/1209/jinya_jizo.jpg,./small_thumbs/1209/jinya_jizo.jpg
 163,1253,./images/1253/kamishinden_zo_koshin.jpg,2021/02/02 11:23:00,Kohei Otsuka,上新田延宝の像庚申,,./mid_thumbs/1253/kamishinden_zo_koshin.jpg,./small_thumbs/1253/kamishinden_zo_koshin.jpg
 164,1253,./images/1253/kamishinden_zo_koshin_back.jpg,2021/02/02 11:23:09,Kohei Otsuka,上新田延宝の像庚申 背面,,./mid_thumbs/1253/kamishinden_zo_koshin_back.jpg,./small_thumbs/1253/kamishinden_zo_koshin_back.jpg
@@ -528,3 +528,62 @@ fid,poi,path,shootingDate,shooter,description,note,mid_thumbnail,small_thumbnail
 527,466,./images/466/IMG_4722.jpg,2021-11-04T14:01:43,Kohei Otsuka,龍積寺元禄笠庚申,,./mid_thumbs/466/IMG_4722.jpg,./small_thumbs/466/IMG_4722.jpg
 528,470,./images/470/IMG_4721.jpg,2021-11-04T14:01:22,Kohei Otsuka,龍積寺天文一猿青面金剛,,./mid_thumbs/470/IMG_4721.jpg,./small_thumbs/470/IMG_4721.jpg
 529,470,./images/470/IMG_4720.jpg,2021-11-04T14:01:14,Kohei Otsuka,龍積寺天文一猿青面金剛,,./mid_thumbs/470/IMG_4720.jpg,./small_thumbs/470/IMG_4720.jpg
+530,1179,./images/1179/IMG_4819.jpg,2021-11-05T15:18:40,Kohei Otsuka,永明寺薬師如来,,./mid_thumbs/1179/IMG_4819.jpg,./small_thumbs/1179/IMG_4819.jpg
+531,1179,./images/1179/IMG_4820.jpg,2021-11-05T15:18:46,Kohei Otsuka,永明寺薬師如来,,./mid_thumbs/1179/IMG_4820.jpg,./small_thumbs/1179/IMG_4820.jpg
+532,1179,./images/1179/IMG_4821.jpg,2021-11-05T15:18:56,Kohei Otsuka,永明寺薬師如来,,./mid_thumbs/1179/IMG_4821.jpg,./small_thumbs/1179/IMG_4821.jpg
+533,1179,./images/1179/IMG_4818.jpg,2021-11-05T15:18:36,Kohei Otsuka,永明寺薬師如来,,./mid_thumbs/1179/IMG_4818.jpg,./small_thumbs/1179/IMG_4818.jpg
+534,1180,./images/1180/IMG_4796.jpg,2021-11-05T15:08:03,Kohei Otsuka,永明寺貞享地蔵菩薩,,./mid_thumbs/1180/IMG_4796.jpg,./small_thumbs/1180/IMG_4796.jpg
+535,1181,./images/1181/IMG_4823.jpg,2021-11-05T15:19:19,Kohei Otsuka,永明寺寛保地蔵菩薩,,./mid_thumbs/1181/IMG_4823.jpg,./small_thumbs/1181/IMG_4823.jpg
+536,1181,./images/1181/IMG_4824.jpg,2021-11-05T15:19:32,Kohei Otsuka,永明寺寛保地蔵菩薩,,./mid_thumbs/1181/IMG_4824.jpg,./small_thumbs/1181/IMG_4824.jpg
+537,1181,./images/1181/IMG_4825.jpg,2021-11-05T15:19:44,Kohei Otsuka,永明寺寛保地蔵菩薩,,./mid_thumbs/1181/IMG_4825.jpg,./small_thumbs/1181/IMG_4825.jpg
+538,1181,./images/1181/IMG_4827.jpg,2021-11-05T15:20:19,Kohei Otsuka,永明寺寛保地蔵菩薩,,./mid_thumbs/1181/IMG_4827.jpg,./small_thumbs/1181/IMG_4827.jpg
+539,1181,./images/1181/IMG_4822.jpg,2021-11-05T15:19:10,Kohei Otsuka,永明寺寛保地蔵菩薩,,./mid_thumbs/1181/IMG_4822.jpg,./small_thumbs/1181/IMG_4822.jpg
+540,1220,./images/1220/IMG_4802.jpg,2021-11-05T15:12:03,Kohei Otsuka,永明寺庚申,,./mid_thumbs/1220/IMG_4802.jpg,./small_thumbs/1220/IMG_4802.jpg
+541,1274,./images/1274/IMG_4798.jpg,2021-11-05T15:10:38,Kohei Otsuka,永明寺馬頭観世音,,./mid_thumbs/1274/IMG_4798.jpg,./small_thumbs/1274/IMG_4798.jpg
+542,1312,./images/1312/IMG_4795.jpg,2021-11-05T15:05:56,Kohei Otsuka,待辺永明寺十九夜,,./mid_thumbs/1312/IMG_4795.jpg,./small_thumbs/1312/IMG_4795.jpg
+543,1350,./images/1350/IMG_4808.jpg,2021-11-05T15:16:01,Kohei Otsuka,永明寺寛保宝篋印塔,,./mid_thumbs/1350/IMG_4808.jpg,./small_thumbs/1350/IMG_4808.jpg
+544,1350,./images/1350/IMG_4810.jpg,2021-11-05T15:16:22,Kohei Otsuka,永明寺寛保宝篋印塔,,./mid_thumbs/1350/IMG_4810.jpg,./small_thumbs/1350/IMG_4810.jpg
+545,1350,./images/1350/IMG_4811.jpg,2021-11-05T15:16:28,Kohei Otsuka,永明寺寛保宝篋印塔,,./mid_thumbs/1350/IMG_4811.jpg,./small_thumbs/1350/IMG_4811.jpg
+546,1350,./images/1350/IMG_4812.jpg,2021-11-05T15:16:35,Kohei Otsuka,永明寺寛保宝篋印塔,,./mid_thumbs/1350/IMG_4812.jpg,./small_thumbs/1350/IMG_4812.jpg
+547,1350,./images/1350/IMG_4813.jpg,2021-11-05T15:16:42,Kohei Otsuka,永明寺寛保宝篋印塔,,./mid_thumbs/1350/IMG_4813.jpg,./small_thumbs/1350/IMG_4813.jpg
+548,1350,./images/1350/IMG_4809.jpg,2021-11-05T15:16:11,Kohei Otsuka,永明寺寛保宝篋印塔,,./mid_thumbs/1350/IMG_4809.jpg,./small_thumbs/1350/IMG_4809.jpg
+549,1377,./images/1377/IMG_4801.jpg,2021-11-05T15:11:57,Kohei Otsuka,永明寺門前出羽三山供養塔,,./mid_thumbs/1377/IMG_4801.jpg,./small_thumbs/1377/IMG_4801.jpg
+550,1616,./images/1616/IMG_4830.jpg,2021-11-05T15:25:19,Kohei Otsuka,早川金五郎碑,,./mid_thumbs/1616/IMG_4830.jpg,./small_thumbs/1616/IMG_4830.jpg
+551,1834,./images/1834/IMG_4832.jpg,2021-11-05T15:35:38,Kohei Otsuka,西條家馬頭観世音,,./mid_thumbs/1834/IMG_4832.jpg,./small_thumbs/1834/IMG_4832.jpg
+552,1834,./images/1834/IMG_4831.jpg,2021-11-05T15:34:56,Kohei Otsuka,西條家馬頭観世音,,./mid_thumbs/1834/IMG_4831.jpg,./small_thumbs/1834/IMG_4831.jpg
+553,1610,./images/1610/IMG_4836.jpg,2021-11-05T15:49:43,Kohei Otsuka,天照皇大神,,./mid_thumbs/1610/IMG_4836.jpg,./small_thumbs/1610/IMG_4836.jpg
+554,1610,./images/1610/IMG_4835.jpg,2021-11-05T15:49:31,Kohei Otsuka,天照皇大神,,./mid_thumbs/1610/IMG_4835.jpg,./small_thumbs/1610/IMG_4835.jpg
+555,1611,./images/1611/IMG_4838.jpg,2021-11-05T15:52:55,Kohei Otsuka,日露戦役紀念碑,,./mid_thumbs/1611/IMG_4838.jpg,./small_thumbs/1611/IMG_4838.jpg
+556,1175,./images/1175/IMG_4843.jpg,2021-11-05T15:58:33,Kohei Otsuka,阿弥陀堂如意輪観音像,,./mid_thumbs/1175/IMG_4843.jpg,./small_thumbs/1175/IMG_4843.jpg
+557,1175,./images/1175/IMG_4844.jpg,2021-11-05T15:58:43,Kohei Otsuka,阿弥陀堂如意輪観音像,,./mid_thumbs/1175/IMG_4844.jpg,./small_thumbs/1175/IMG_4844.jpg
+558,1175,./images/1175/IMG_4845.jpg,2021-11-05T15:58:51,Kohei Otsuka,阿弥陀堂如意輪観音像,,./mid_thumbs/1175/IMG_4845.jpg,./small_thumbs/1175/IMG_4845.jpg
+559,1175,./images/1175/IMG_4842.jpg,2021-11-05T15:58:24,Kohei Otsuka,阿弥陀堂如意輪観音像,,./mid_thumbs/1175/IMG_4842.jpg,./small_thumbs/1175/IMG_4842.jpg
+560,1271,./images/1271/IMG_4846.jpg,2021-11-05T16:05:30,Kohei Otsuka,山田家馬頭観世音,,./mid_thumbs/1271/IMG_4846.jpg,./small_thumbs/1271/IMG_4846.jpg
+561,1270,./images/1270/IMG_4852.jpg,2021-11-05T16:10:35,Kohei Otsuka,早川家馬頭観世音（2）,,./mid_thumbs/1270/IMG_4852.jpg,./small_thumbs/1270/IMG_4852.jpg
+562,1270,./images/1270/IMG_4850.jpg,2021-11-05T16:09:48,Kohei Otsuka,早川家馬頭観世音（2）,,./mid_thumbs/1270/IMG_4850.jpg,./small_thumbs/1270/IMG_4850.jpg
+563,1215,./images/1215/IMG_4855.jpg,2021-11-05T16:13:54,Kohei Otsuka,上赤生田観音堂萬延庚申,,./mid_thumbs/1215/IMG_4855.jpg,./small_thumbs/1215/IMG_4855.jpg
+564,1376,./images/1376/IMG_4858.jpg,2021-11-05T16:16:54,Kohei Otsuka,観音堂出羽三山供養塔,,./mid_thumbs/1376/IMG_4858.jpg,./small_thumbs/1376/IMG_4858.jpg
+565,1376,./images/1376/IMG_4857.jpg,2021-11-05T16:15:21,Kohei Otsuka,観音堂出羽三山供養塔,,./mid_thumbs/1376/IMG_4857.jpg,./small_thumbs/1376/IMG_4857.jpg
+566,1267,./images/1267/IMG_4864.jpg,2021-11-05T16:19:16,Kohei Otsuka,上赤生田観音堂天保馬頭観世音,,./mid_thumbs/1267/IMG_4864.jpg,./small_thumbs/1267/IMG_4864.jpg
+567,1267,./images/1267/IMG_4865.jpg,2021-11-05T16:19:25,Kohei Otsuka,上赤生田観音堂天保馬頭観世音,,./mid_thumbs/1267/IMG_4865.jpg,./small_thumbs/1267/IMG_4865.jpg
+568,1267,./images/1267/IMG_4866.jpg,2021-11-05T16:19:31,Kohei Otsuka,上赤生田観音堂天保馬頭観世音,,./mid_thumbs/1267/IMG_4866.jpg,./small_thumbs/1267/IMG_4866.jpg
+569,1267,./images/1267/IMG_4863.jpg,2021-11-05T16:19:11,Kohei Otsuka,上赤生田観音堂天保馬頭観世音,,./mid_thumbs/1267/IMG_4863.jpg,./small_thumbs/1267/IMG_4863.jpg
+570,1373,./images/1373/IMG_4860.jpg,2021-11-05T16:17:26,Kohei Otsuka,上赤生田観音堂前道祖神,,./mid_thumbs/1373/IMG_4860.jpg,./small_thumbs/1373/IMG_4860.jpg
+571,1176,./images/1176/IMG_4872.jpg,2021-11-05T16:20:51,Kohei Otsuka,上赤生田観音堂宝永地蔵菩薩,,./mid_thumbs/1176/IMG_4872.jpg,./small_thumbs/1176/IMG_4872.jpg
+572,1176,./images/1176/IMG_4871.jpg,2021-11-05T16:20:32,Kohei Otsuka,上赤生田観音堂宝永地蔵菩薩,,./mid_thumbs/1176/IMG_4871.jpg,./small_thumbs/1176/IMG_4871.jpg
+573,1177,./images/1177/IMG_4870.jpg,2021-11-05T16:20:27,Kohei Otsuka,上赤生田観音堂享保地蔵菩薩,,./mid_thumbs/1177/IMG_4870.jpg,./small_thumbs/1177/IMG_4870.jpg
+574,1214,./images/1214/IMG_4875.jpg,2021-11-05T16:23:32,Kohei Otsuka,上赤生田観音堂延宝三猿庚申,,./mid_thumbs/1214/IMG_4875.jpg,./small_thumbs/1214/IMG_4875.jpg
+575,1216,./images/1216/IMG_4889.jpg,2021-11-05T16:32:49,Kohei Otsuka,上赤生田観音堂元文青面金剛,,./mid_thumbs/1216/IMG_4889.jpg,./small_thumbs/1216/IMG_4889.jpg
+576,1216,./images/1216/IMG_4891.jpg,2021-11-05T16:33:45,Kohei Otsuka,上赤生田観音堂元文青面金剛,,./mid_thumbs/1216/IMG_4891.jpg,./small_thumbs/1216/IMG_4891.jpg
+577,1217,./images/1217/IMG_4894.jpg,2021-11-05T16:35:16,Kohei Otsuka,上赤生田観音堂寛政青面金剛,,./mid_thumbs/1217/IMG_4894.jpg,./small_thumbs/1217/IMG_4894.jpg
+578,1268,./images/1268/IMG_4880.jpg,2021-11-05T16:25:40,Kohei Otsuka,上赤生田観音堂嘉永馬頭観世音,,./mid_thumbs/1268/IMG_4880.jpg,./small_thumbs/1268/IMG_4880.jpg
+579,1311,./images/1311/IMG_4877.jpg,2021-11-05T16:23:52,Kohei Otsuka,上赤生田観音堂十九夜,,./mid_thumbs/1311/IMG_4877.jpg,./small_thumbs/1311/IMG_4877.jpg
+580,1311,./images/1311/IMG_4876.jpg,2021-11-05T16:23:38,Kohei Otsuka,上赤生田観音堂十九夜,,./mid_thumbs/1311/IMG_4876.jpg,./small_thumbs/1311/IMG_4876.jpg
+581,1609,./images/1609/IMG_4883.jpg,2021-11-05T16:26:35,Kohei Otsuka,愛畜守人の碑,,./mid_thumbs/1609/IMG_4883.jpg,./small_thumbs/1609/IMG_4883.jpg
+582,1269,./images/1269/IMG_4896.jpg,2021-11-05T16:39:44,Kohei Otsuka,早川家馬頭観世音（1）,,./mid_thumbs/1269/IMG_4896.jpg,./small_thumbs/1269/IMG_4896.jpg
+583,1269,./images/1269/IMG_4895.jpg,2021-11-05T16:39:29,Kohei Otsuka,早川家馬頭観世音（1）,,./mid_thumbs/1269/IMG_4895.jpg,./small_thumbs/1269/IMG_4895.jpg
+585,404,./images/404/IMG_4917.jpg,2021-11-05T17:04:42,Kohei Otsuka,享保舟型地蔵尊,,./mid_thumbs/404/IMG_4917.jpg,./small_thumbs/404/IMG_4917.jpg
+586,426,./images/426/IMG_4911.jpg,2021-11-05T17:01:44,Kohei Otsuka,下堀工安永馬頭尊,,./mid_thumbs/426/IMG_4911.jpg,./small_thumbs/426/IMG_4911.jpg
+587,429,./images/429/IMG_4914.jpg,2021-11-05T17:03:36,Kohei Otsuka,下堀工定右ェ門馬頭尊,,./mid_thumbs/429/IMG_4914.jpg,./small_thumbs/429/IMG_4914.jpg
+584,1608,./images/1608/IMG_4908.jpg,2021-11-05T16:56:59,Kohei Otsuka,川島稲荷の碑,,./mid_thumbs/1608/IMG_4908.jpg,./small_thumbs/1608/IMG_4908.jpg
+588,434,./images/434/IMG_4913.jpg,2021-11-05T17:03:07,Kohei Otsuka,下堀工文政甚右ェ門馬頭尊,,./mid_thumbs/434/IMG_4913.jpg,./small_thumbs/434/IMG_4913.jpg
