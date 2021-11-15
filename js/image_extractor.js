@@ -1,13 +1,8 @@
 const ExifImage = require('exif').ExifImage;
-const fsp = require('fs').promises;
 const fs = require('fs-extra');
-const argv = require('argv');
-const stringify = require('csv-stringify');
-const parse = require('csv-parse');
-const readline = require('linebyline');
-
-//const pois = fs.readJsonSync('../pois.geojson');
-//const images = fs.readJsonSync('../images.geojson');
+const argv = require('argv')
+const pois = fs.readJsonSync('../pois.geojson');
+const images = fs.readJsonSync('../images.geojson');
 const sharp = require('sharp');
 const args = argv.option([
   {
@@ -27,116 +22,13 @@ const args = argv.option([
 ]).run();
 const shooter = args.options.shooter || 'Shooter not reported - must update';
 const gdate = args.options.date;
-
-const doWork = async () => {
-  // Create attributes - types table
-  const pcsvtrl = readline('../pois.csvt');
-  const icsvtrl = readline('../images.csvt');
-
-  const pcsvtPromise = new Promise((res_) => {
-    pcsvtrl.once('line', (line, lineCount, byteCount) => {
-      res_(line);
-    });
-  });
-  const icsvtPromise = new Promise((res_) => {
-    icsvtrl.once('line', (line, lineCount, byteCount) => {
-      res_(line);
-    });
-  });
-  const pcsvts = (await pcsvtPromise).split(',');
-  const icsvts = (await icsvtPromise).split(',');
-
-  const pcsvtx = await fs.readFile('../pois.csv', 'utf8');
-  const icsvtx = await fs.readFile('../images.csv', 'utf8');
-
-  const parserp = parse({
-    delimiter: ','
-  });
-  const parseri = parse({
-    delimiter: ','
-  });
-
-  const promisep = new Promise((res_) => {
-    const output = [];
-    parserp.on('readable', function(){
-      let record
-      let first = false;
-      while (record = parserp.read()) {
-        if (!first) {
-          first = true;
-        } else {
-          record = record.map((col, index) => {
-            const type = pcsvts[index];
-            if (col == '') {
-              return col;
-            } else if (type.match(/^Integer/)) {
-              return parseInt(col);
-            } else if (type.match(/^Coord/) || type == 'Real') {
-              return parseFloat(col);
-            } else {
-              return col;
-            }
-          });
-        }
-        output.push(record);
-      }
-    });
-    // Catch any error
-    parserp.on('error', function(err){
-      console.error(err.message)
-    });
-    // When we are done, test that the parsed output matched what expected
-    parserp.on('end', function(){
-      res_(output);
-    });
-  });
-
+async function doWork() {
   let maxImageId;
-  const jsonList = [];
-  const promisei = new Promise((res_) => {
-    const output = [];
-    parseri.on('readable', function(){
-      let record
-      let first = false;
-      while (record = parseri.read()) {
-        if (!first) {
-          first = true;
-        } else {
-          record = record.map((col, index) => {
-            const type = icsvts[index];
-            if (col == '') {
-              return col;
-            } else if (type.match(/^Integer/)) {
-              return parseInt(col);
-            } else if (type.match(/^Coord/) || type == 'Real') {
-              return parseFloat(col);
-            } else {
-              return col;
-            }
-          });
-          if (!maxImageId || maxImageId < record[0]) maxImageId = record[0];
-          jsonList.push(record[2]);
-        }
-        output.push(record);
-      }
-    });
-    // Catch any error
-    parseri.on('error', function(err){
-      console.error(err.message)
-    });
-    // When we are done, test that the parsed output matched what expected
-    parseri.on('end', function(){
-      res_(output);
-    });
+  // Images list from Geojson
+  const jsonList = images.features.map((img) => {
+    if (!maxImageId || maxImageId < img.properties.fid) maxImageId = img.properties.fid;
+    return img.properties.path;
   });
-
-  parserp.write(pcsvtx);
-  parseri.write(icsvtx);
-  parserp.end();
-  parseri.end();
-
-  const retp = await promisep;
-  const reti = await promisei;
 
   // Images list from FS
   const fsList = fs.readdirSync('../images').reduce((arr, imgid) => {
@@ -178,8 +70,8 @@ const doWork = async () => {
     const buf = await prms_buf;
     const pathes = newImg.split("/");
     const poiid = parseInt(pathes[2]);
-    const poi = retp.reduce((prev, poi) => {
-      if (poi[0] === poiid) return poi;
+    const poi = pois.features.reduce((prev, poi) => {
+      if (poi.properties.fid === poiid) return poi;
       else return prev;
     }, null);
 
@@ -223,9 +115,9 @@ const doWork = async () => {
           .then(() => {
             resolve();
           }).catch ((error) => {
-          console.log('Error 2: ' + error.message);
-          reject();
-        });
+            console.log('Error 2: ' + error.message);
+            reject();
+          });
       }
     });
     await new Promise((resolve, reject) => {
@@ -244,86 +136,59 @@ const doWork = async () => {
           .then(() => {
             resolve();
           }).catch ((error) => {
-          console.log('Error 2: ' + error.message);
-          reject();
-        });
+            console.log('Error 2: ' + error.message);
+            reject();
+          });
       }
     });
     if (newImg !== path) {
       fs.moveSync(`.${newImg}`, `.${path}`);
     }
 
-    // fid,poi,path,shootingDate,shooter,description,note,mid_thumbnail,small_thumbnail
-    buf[poiid].images.push([
-      fid,
-      poiid,
+    buf[poiid].images.push({
+      poi: poiid,
       path,
-      date,
+      shootingDate: date,
       shooter,
-      poi[3],
-      '',
-      mid_thumb,
-      small_thumb
-    ]);
+      description: poi.properties.name,
+      note: '',
+      fid,
+      mid_thumbnail: mid_thumb,
+      small_thumbnail: small_thumb
+    });
     return buf;
   }, Promise.resolve({}));
 
   Object.keys(newImages).forEach((poiid_str) => {
     const poiid = parseInt(poiid_str);
-    const poi = retp.reduce((prev, poi) => {
-      if (poi[0] === poiid) return poi;
+    const poi = pois.features.reduce((prev, poi) => {
+      if (poi.properties.fid === poiid) return poi;
       else return prev;
     }, null);
     const newPoi = newImages[poiid_str];
-    // ここから下
-    if (newPoi.primary_image) poi[19] = newPoi.primary_image;
-    else if (!poi[19]) poi[19] = newPoi.images[0][0];
+    if (newPoi.primary_image) poi.properties.primary_image = newPoi.primary_image;
+    else if (!poi.properties.primary_image) poi.properties.primary_image = newPoi.images[0].fid;
     newPoi.images.forEach((image) => {
-      reti.push(image);
+      images.features.push({
+        type: "Feature",
+        properties: image,
+        geometry: null
+      });
     })
   });
 
-  const datap = [];
-  const stringifierp = stringify({
-    delimiter: ","
-  });
-  stringifierp.on("readable", () => {
-    let row;
-    while ((row = stringifierp.read())) {
-      datap.push(row);
-    }
-  });
-  stringifierp.on("error", (err) => {
-    console.error(err.message);
-  });
-  stringifierp.on("finish", () => {
-    fs.writeFileSync("../pois.csv", datap.join(""));
-  });
-  retp.forEach((poi) => {
-    stringifierp.write(poi);
-  });
-  stringifierp.end();
-
-  const datai = [];
-  const stringifieri = stringify({
-    delimiter: ","
-  });
-  stringifieri.on("readable", () => {
-    let row;
-    while ((row = stringifieri.read())) {
-      datai.push(row);
-    }
-  });
-  stringifieri.on("error", (err) => {
-    console.error(err.message);
-  });
-  stringifieri.on("finish", () => {
-    fs.writeFileSync("../images.csv", datai.join(""));
-  });
-  reti.forEach((image) => {
-    stringifieri.write(image);
-  });
-  stringifieri.end();
-};
+  try {
+    fs.writeJsonSync('../pois.geojson', pois, {spaces: '  '});
+  } catch(e) {
+    console.log('Cannot save to pois.geojson directly. Save to pois_new.geojson.');
+    fs.writeJsonSync('../pois_new.geojson', pois, {spaces: '  '});
+  }
+  try {
+    fs.writeJsonSync('../images.geojson', images, {spaces: '  '});
+  } catch(e) {
+    console.log('Cannot save to images.geojson directly. Save to images_new.geojson.');
+    fs.writeJsonSync('../images_new.geojson', images, {spaces: '  '});
+  }
+}
 
 doWork();
