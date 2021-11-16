@@ -15,23 +15,23 @@ const images_geojson = fs.readJsonSync('../images.geojson');
 const refs_geojson = fs.readJsonSync('../refs.geojson');
 const books_geojson = fs.readJsonSync('../books.geojson');
 
-const pois_json = geoJson2Json(pois_geojson, poisType());
-const images_json = geoJson2Json(images_geojson, imagesType());
-const refs_json = geoJson2Json(refs_geojson, refsType());
-const books_json = geoJson2Json(books_geojson, booksType());
-const pois_ws = XLSX.utils.json_to_sheet(pois_json);
-const images_ws = XLSX.utils.json_to_sheet(images_json);
-const refs_ws = XLSX.utils.json_to_sheet(refs_json);
-const books_ws = XLSX.utils.json_to_sheet(books_json);
+const pois_json = geoJson2Json(pois_geojson);
+const images_json = geoJson2Json(images_geojson);
+const refs_json = geoJson2Json(refs_geojson);
+const books_json = geoJson2Json(books_geojson);
+const pois_ws = json2Ws(pois_json, poisType());
+const images_ws = json2Ws(images_json, imagesType());
+const refs_ws = json2Ws(refs_json, refsType());
+const books_ws = json2Ws(books_json, booksType());
 
-const pois_json2 = XLSX.utils.sheet_to_json(pois_ws);
-const pois_geojson2 = json2GeoJson(pois_json2, "pois", poisType());
-const images_json2 = XLSX.utils.sheet_to_json(images_ws);
-const images_geojson2 = json2GeoJson(images_json2, "images", imagesType());
-const refs_json2 = XLSX.utils.sheet_to_json(refs_ws);
-const refs_geojson2 = json2GeoJson(refs_json2, "refs", refsType());
-const books_json2 = XLSX.utils.sheet_to_json(books_ws);
-const books_geojson2 = json2GeoJson(books_json2, "books", booksType());
+const pois_json2 = ws2Json(pois_ws, poisType());
+const pois_geojson2 = json2GeoJson(pois_json2, "pois");
+const images_json2 = ws2Json(images_ws, imagesType());
+const images_geojson2 = json2GeoJson(images_json2, "images");
+const refs_json2 = ws2Json(refs_ws, refsType());
+const refs_geojson2 = json2GeoJson(refs_json2, "refs");
+const books_json2 = ws2Json(books_ws, booksType());
+const books_geojson2 = json2GeoJson(books_json2, "books");
 
 book.Sheets["pois"] = pois_ws;
 book.Sheets["images"] = images_ws;
@@ -44,7 +44,38 @@ fs.writeFileSync('../images.geojson', savingGeoJson(images_geojson2));
 fs.writeFileSync('../refs.geojson', savingGeoJson(refs_geojson2));
 fs.writeFileSync('../books.geojson', savingGeoJson(books_geojson2));
 
-function geoJson2Json(geojson, types) {
+function ws2Json(ws, types) {
+  const json = XLSX.utils.sheet_to_json(ws);
+  return json.map((each) => {
+    return types.reduce((prev, keyset) => {
+      const old_key = keyset[1];
+      const new_key = keyset[0];
+      prev[new_key] = each[old_key];
+      return prev;
+    }, {});
+  }).sort((a, b) => {
+    if (a.fid < b.fid) {
+      return -1;
+    }
+    if (a.fid > b.fid) {
+      return 1;
+    }
+    return 0;
+  });
+}
+
+function json2Ws(json, types) {
+  return XLSX.utils.json_to_sheet(json.map((each) => {
+    return types.reduce((prev, keyset) => {
+      const old_key = keyset[0];
+      const new_key = keyset[1];
+      prev[new_key] = each[old_key];
+      return prev;
+    }, {});
+  }));
+}
+
+function geoJson2Json(geojson) {
   return geojson.features.map((feature) => {
     const props = Object.assign({}, feature.properties);
     const geoms = feature.geometry;
@@ -52,29 +83,26 @@ function geoJson2Json(geojson, types) {
       props.longitude = geoms.coordinates[0];
       props.latitude = geoms.coordinates[1];
     }
-    return types.reduce((prev, keyset) => {
-      const old_key = keyset[0];
-      const new_key = keyset[1];
-      prev[new_key] = props[old_key];
-      return prev;
-    }, {});
+    return props;
+  }).sort((a, b) => {
+    if (a.fid < b.fid) {
+      return -1;
+    }
+    if (a.fid > b.fid) {
+      return 1;
+    }
+    return 0;
   });
 }
 
-function json2GeoJson(jsons, table, types) {
+function json2GeoJson(jsons, table) {
   const geojson = {
     type: "FeatureCollection",
     name: table,
     crs: { type: "name", properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" } },
     features: []
-  }
-  return jsons.reduce((prev, json_base) => {
-    const json = types.reduce((prev, keyset) => {
-      const old_key = keyset[1];
-      const new_key = keyset[0];
-      prev[new_key] = json_base[old_key];
-      return prev;
-    }, {});
+  };
+  return jsons.reduce((prev, json) => {
     if (prev.crs && (!json.longitude || !json.latitude)) {
       delete prev.crs;
     }
