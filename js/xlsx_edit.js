@@ -49,3 +49,38 @@ book.Sheets["pois"] = pois_sheet;
 console.log("Hoge");
 
 XLSX.writeFile(book, "../tatebayashi_stones.xlsx");
+
+function poisType() {
+  return [
+    ["fid", "ID", "n"],
+    ["name", "名称", "s"],
+    ["type", "種別", "s"],
+    ["era", "和暦", "s"],
+    ["year", "年", "s"],
+    ["oaza", "大字", "s"],
+    ["koaza", "小字", "s"],
+    ["detail_place", "詳細場所", "s"],
+    ["reference_memo", "参照本情報", "s"],
+    ["folklore", "言い伝え", "s"],
+    ["history", "歴史", "s"],
+    ["survey_memo", "調査情報", "s"],
+    ["area", "地域", "s"],
+    ["surveyed", "調査日", "s"],
+    ["public_relations", "広報誌", "s"],
+    ["confirmed", "現況確認済み", "b"],
+    ["primary_image", "優先画像ID", "n"],
+    ["height", "総高", "n"],
+    ["statue_height", "像高", "n"],
+    ["width", "幅", "n"],
+    ["depth", "厚さ", "n"],
+    ["shape", "形状", "s"],
+    ["material", "材質", "s"],
+    ["inscription", "刻銘", "s"],
+    ["color", "色", "s"],
+    ["contradiction", "データの矛盾", "s"],
+    ["need_action", "要対応", "s"],
+    ["status", "状況", "s"],
+    ["longitude", "経度", "n"],
+    ["latitude", "緯度", "n"]
+  ];
+}
