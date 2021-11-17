@@ -4,9 +4,9 @@ popupHtmlTemplate += `<div class="poi">`;
 
 popupHtmlTemplate += `<h2>{{ name }} (`;
 popupHtmlTemplate += `{{ area }}`;
-popupHtmlTemplate += "{% if place_1 %} / {{ place_1 }} {% endif %}";
-popupHtmlTemplate += "{% if place_2 %} / {{ place_2 }} {% endif %}";
-popupHtmlTemplate += "{% if detail %} / {{ detail }} {% endif %}";
+popupHtmlTemplate += "{% if oaza %} / {{ oaza }} {% endif %}";
+popupHtmlTemplate += "{% if koaza %} / {{ koaza }} {% endif %}";
+popupHtmlTemplate += "{% if detail_place %} / {{ detail_place }} {% endif %}";
 popupHtmlTemplate += `)</h2>`;
 
 popupHtmlTemplate += `<a href="javascript:void(0)" onclick="prepareEditMarker({{ fid }});">修正提案をする</a><br>`;
@@ -37,9 +37,10 @@ popupHtmlTemplate += `{% if images.length > 0 %}
 popupHtmlTemplate += `<b>年代:</b> {{ era }} {% if year %} ({{ year }}) {% endif %}<br>`;
 
 popupHtmlTemplate += `{% if shape %}         <b>形状:</b> {{ shape }}<br> {% endif %}`;
-popupHtmlTemplate += `{% if note_1 %}        <b>付帯情報:</b> {{ note_1 | nl2br | safe }}<br> {% endif %}`;
-popupHtmlTemplate += `{% if note_2 %}        <b>伝承等:</b> {{ note_2 | nl2br | safe }}<br> {% endif %}`;
-popupHtmlTemplate += `{% if note_3 %}        <b>調査時メモ:</b> {{ note_3 | nl2br | safe }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if reference_memo %}        <b>付帯情報:</b> {{ reference_memo | nl2br | safe }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if history %}        <b>来歴等:</b> {{ history | nl2br | safe }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if folklore %}        <b>伝承等:</b> {{ folklore | nl2br | safe }}<br> {% endif %}`;
+popupHtmlTemplate += `{% if survey_memo %}        <b>調査時メモ:</b> {{ survey_memo | nl2br | safe }}<br> {% endif %}`;
 popupHtmlTemplate += `{% if material %}      <b>材質:</b> {{ material }}<br> {% endif %}`;
 popupHtmlTemplate += `{% if height %}        <b>総高:</b> {{ height }}cm<br> {% endif %}`;
 popupHtmlTemplate += `{% if statue_height %} <b>像高:</b> {{ statue_height }}cm<br> {% endif %}`;
@@ -63,7 +64,7 @@ popupHtmlTemplate += `{% if status %}        <b>状況:</b> {{ status }} <br> {%
 popupHtmlTemplate += `<b>言及資料:</b><br>`;
 popupHtmlTemplate += `<ul class="parent">
   {% for book in books %}
-    <li><b>{{ book.name }}</b>({{ book.editor }}, {{ book.published_at }}): {{ book.pages }}ページ</li>
+    <li><b>{{ book.name }}</b>({{ book.editor }}{% if book.published_at != 'monthly' %}, {{ book.published_at }}): {{ book.pages }}ページ{% else %}): {{ book.pages }}号{% endif %}</li>
   {% endfor %}
 </ul>`;
 
