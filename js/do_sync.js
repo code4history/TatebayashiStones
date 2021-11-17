@@ -4,6 +4,25 @@ const fs = require('fs-extra');
 const argv = require('argv');
 const sharp = require('sharp');
 
+const args = argv.option([
+  {
+    "name": "shooter",
+    "short": "s",
+    "type": "string",
+    "description": "新規写真の撮影者を設定します",
+    "example": "'script --shooter=\"value\"' or 'script -s \"value\"'"
+  },
+  {
+    "name": "date",
+    "short": "d",
+    "type": "string",
+    "description": "新規写真の年月日を設定します",
+    "example": "'script --date=\"value\"' or 'script -d \"value\"'"
+  }
+]).run();
+const shooter = args.options.shooter || 'Shooter not reported - must update';
+const gdate = args.options.date;
+
 module.exports = async function (fromXlsx) {
   const book = XLSX.readFile("../tatebayashi_stones.xlsx");
 
