@@ -148,7 +148,7 @@ async function doWork() {
     buf[poiid].images.push({
       poi: poiid,
       path,
-      shootingDate: date,
+      shooting_date: date,
       shooter,
       description: poi.properties.name,
       note: '',

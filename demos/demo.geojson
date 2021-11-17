@@ -29,7 +29,7 @@
         "images": [
           {
             "path": "./demos/1.png",
-            "shootingDate": "2021-06-20T15:55:32",
+            "shooting_date": "2021-06-20T15:55:32",
             "shooter": "",
             "description": "",
             "note": "",
@@ -39,7 +39,7 @@
           },
           {
             "path": "./images/2/no2.JPG",
-            "shootingDate": "2021-06-20T15:55:41",
+            "shooting_date": "2021-06-20T15:55:41",
             "shooter": "",
             "description": "",
             "note": "",
@@ -49,7 +49,7 @@
           },
           {
             "path": "./demos/2.png",
-            "shootingDate": "2021-06-20T15:55:41",
+            "shooting_date": "2021-06-20T15:55:41",
             "shooter": "",
             "description": "",
             "note": "",

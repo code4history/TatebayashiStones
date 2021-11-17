@@ -1,7 +1,10 @@
+const ExifImage = require('exif').ExifImage;
 const XLSX = require("xlsx");
 const fs = require('fs-extra');
+const argv = require('argv');
+const sharp = require('sharp');
 
-module.exports = function (fromXlsx) {
+module.exports = async function (fromXlsx) {
   const book = XLSX.readFile("../tatebayashi_stones.xlsx");
 
   // Read from xlsx
@@ -28,6 +31,157 @@ module.exports = function (fromXlsx) {
     images_js = geoJson2Json(images_gj);
     refs_js = geoJson2Json(refs_gj);
     books_js = geoJson2Json(books_gj);
+  }
+
+  // Image check
+  let max_img_id;
+  // Images list from Geojson
+  const im_list_js = images_js.map((img) => {
+    if (!max_img_id || max_img_id < img.fid) max_img_id = img.fid;
+    return img.path;
+  });
+
+  // Images list from FS
+  const im_list_fs = fs.readdirSync('../images').reduce((arr, imgid) => {
+    if (imgid === '.DS_Store') return arr;
+    fs.readdirSync(`../images/${imgid}`).forEach((imgFile) => {
+      arr.push(`./images/${imgid}/${imgFile}`);
+    });
+    return arr;
+  }, []);
+
+  // Check missing
+  for (let i = im_list_js.length - 1; i >= 0; i--) {
+    const im_js = im_list_js[i];
+    const fs_id = im_list_fs.indexOf(im_js);
+    if (fs_id >= 0) {
+      delete im_list_js[i];
+      delete im_list_fs[fs_id];
+    }
+  }
+
+  for (let i = im_list_fs.length - 1; i >= 0; i--) {
+    const im_fs = im_list_fs[i];
+    const js_id = im_list_js.indexOf(im_fs);
+    if (js_id >= 0) {
+      delete im_list_fs[i];
+      delete im_list_js[js_id];
+    }
+  }
+
+  const js_remains = im_list_js.filter(x=>x);
+  const fs_remains = im_list_fs.filter(x=>x).filter(x=>!x.match(/\.DS_Store$/));
+
+  if (!fs_remains.length) {
+    console.log('No new images.');
+  } else {
+    const new_imgs = await fs_remains.reduce(async (promise_buf, new_img) => {
+      console.log(new_img);
+      const buf = await promise_buf;
+      const paths = new_img.split("/");
+      const poi_id = parseInt(paths[2]);
+      const poi = pois_js.reduce((prev, poi) => {
+        if (poi.fid === poi_id) return poi;
+        else return prev;
+      }, null);
+
+      const date = gdate ? gdate : await new Promise((res, _rej) => {
+        new ExifImage({ image : `.${new_img}` }, (_err, exif_data) => {
+          const date = exif_data.exif ? exif_data.exif.DateTimeOriginal.replace(/^(\d{4}):(\d{2}):(\d{2}) /, "$1-$2-$3T") : '';
+          res(date);
+        });
+      });
+
+      const fid = ++max_img_id;
+      let path = new_img;
+      if (!buf[poi_id]) buf[poi_id] = {
+        images: []
+      };
+      if (paths[3].match(/^PRIM\./)) {
+        paths[3] = paths[3].replace(/^PRIM\./, '');
+        path = paths.join('/');
+        buf[poi_id].primary_image = fid;
+      }
+      if (paths[3].match(/\.jpe?g$/i)) {
+        paths[3] = paths[3].replace(/\.jpe?g$/i, '.jpg');
+        path = paths.join('/');
+      }
+      const mid_thumb = path.replace('./images', './mid_thumbs');
+      const small_thumb = path.replace('./images', './small_thumbs');
+
+      await new Promise((resolve, reject) => {
+        try {
+          fs.statSync(`.${mid_thumb}`);
+          resolve();
+        } catch (e) {
+          fs.ensureFileSync(`.${mid_thumb}`);
+          sharp(`.${new_img}`)
+            .resize(800, 800, {
+              kernel: sharp.kernel.nearest,
+              fit: sharp.fit.inside
+            })
+            .withMetadata()
+            .toFile(`.${mid_thumb}`)
+            .then(() => {
+              resolve();
+            }).catch ((error) => {
+            console.log('Error 2: ' + error.message);
+            reject();
+          });
+        }
+      });
+      await new Promise((resolve, reject) => {
+        try {
+          fs.statSync(`.${small_thumb}`);
+          resolve();
+        } catch (e) {
+          fs.ensureFileSync(`.${small_thumb}`);
+          sharp(`.${new_img}`)
+            .resize(200, 200, {
+              kernel: sharp.kernel.nearest,
+              fit: sharp.fit.inside
+            })
+            .withMetadata()
+            .toFile(`.${small_thumb}`)
+            .then(() => {
+              resolve();
+            }).catch ((error) => {
+            console.log('Error 2: ' + error.message);
+            reject();
+          });
+        }
+      });
+      if (new_img !== path) {
+        fs.moveSync(`.${new_img}`, `.${path}`);
+      }
+
+      buf[poi_id].images.push({
+        fid,
+        poi: poi_id,
+        path,
+        shooting_date: date,
+        shooter,
+        description: poi.name,
+        note: '',
+        mid_thumbnail: mid_thumb,
+        small_thumbnail: small_thumb
+      });
+      return buf;
+    }, Promise.resolve({}));
+
+    Object.keys(new_imgs).forEach((poi_id_str) => {
+      const poi_id = parseInt(poi_id_str);
+      const poi = pois_js.reduce((prev, poi) => {
+        if (poi.fid === poi_id) return poi;
+        else return prev;
+      }, null);
+      const new_poi = new_imgs[poi_id_str];
+      if (new_poi.primary_image) poi.primary_image = new_poi.primary_image;
+      else if (!poi.primary_image) poi.primary_image = new_poi.images[0].fid;
+      new_poi.images.forEach((image) => {
+        images_js.push(image);
+      })
+    });
   }
 
   // Reflect to xlsx
@@ -201,7 +355,7 @@ function imagesType() {
     ["fid", "ID", "n"],
     ["poi", "石造物ID", "n"],
     ["path", "画像パス", "s"],
-    ["shootingDate", "撮影日", "s"],
+    ["shooting_date", "撮影日", "s"],
     ["shooter", "撮影者", "s"],
     ["description", "説明", "s"],
     ["note", "ノート", "s"],

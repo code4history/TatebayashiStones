@@ -1,3 +1,3 @@
-const doSync = require('./xlsx_edit');
+const doSync = require('./do_sync');
 
 doSync(false);
