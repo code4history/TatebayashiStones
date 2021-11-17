@@ -63,7 +63,7 @@ popupHtmlTemplate += `{% if status %}        <b>状況:</b> {{ status }} <br> {%
 popupHtmlTemplate += `<b>言及資料:</b><br>`;
 popupHtmlTemplate += `<ul class="parent">
   {% for book in books %}
-    <li><b>{{ book.name }}</b>({{ book.editor }}, {{ book.publishedAt }}): {{ book.pages }}ページ</li>
+    <li><b>{{ book.name }}</b>({{ book.editor }}, {{ book.published_at }}): {{ book.pages }}ページ</li>
   {% endfor %}
 </ul>`;
 

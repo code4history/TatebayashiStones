@@ -64,7 +64,7 @@
             "note": "",
             "name": "demo book name",
             "editor": "demo book editor",
-            "publishedAt": 2021
+            "published_at": 2021
           }
         ],
         "status": "",

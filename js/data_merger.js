@@ -39,7 +39,7 @@ pois.features.forEach((poi) => {
     delete ret.book
     ret.name = book.name;
     ret.editor = book.editor;
-    ret.publishedAt = book.publishedAt;
+    ret.published_at = book.published_at;
     return ret;
   });
 

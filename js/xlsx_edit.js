@@ -1,51 +1,98 @@
 const XLSX = require("xlsx");
-const Utils = XLSX.utils; // XLSX.utilsのalias
-
-const book = XLSX.readFile("../tatebayashi_stones.xlsx");
-
-const pois_sheet = book.Sheets["pois"];
-const images_sheet = book.Sheets["images"];
-const refs_sheet = book.Sheets["refs"];
-const books_sheet = book.Sheets["books"];
-
 const fs = require('fs-extra');
 
-const pois_geojson = fs.readJsonSync('../pois.geojson');
-const images_geojson = fs.readJsonSync('../images.geojson');
-const refs_geojson = fs.readJsonSync('../refs.geojson');
-const books_geojson = fs.readJsonSync('../books.geojson');
+module.exports = function (fromXlsx) {
+  const book = XLSX.readFile("../tatebayashi_stones.xlsx");
 
-const pois_json = geoJson2Json(pois_geojson);
-const images_json = geoJson2Json(images_geojson);
-const refs_json = geoJson2Json(refs_geojson);
-const books_json = geoJson2Json(books_geojson);
-const pois_ws = json2Ws(pois_json, poisType());
-const images_ws = json2Ws(images_json, imagesType());
-const refs_ws = json2Ws(refs_json, refsType());
-const books_ws = json2Ws(books_json, booksType());
+  // Read from xlsx
+  const pois_ws = book.Sheets["pois"];
+  const images_ws = book.Sheets["images"];
+  const refs_ws = book.Sheets["refs"];
+  const books_ws = book.Sheets["books"];
 
-const pois_json2 = ws2Json(pois_ws, poisType());
-const pois_geojson2 = json2GeoJson(pois_json2, "pois");
-const images_json2 = ws2Json(images_ws, imagesType());
-const images_geojson2 = json2GeoJson(images_json2, "images");
-const refs_json2 = ws2Json(refs_ws, refsType());
-const refs_geojson2 = json2GeoJson(refs_json2, "refs");
-const books_json2 = ws2Json(books_ws, booksType());
-const books_geojson2 = json2GeoJson(books_json2, "books");
+  // Read from qgis
+  const pois_gj = fs.readJsonSync('../pois.geojson');
+  const images_gj = fs.readJsonSync('../images.geojson');
+  const refs_gj = fs.readJsonSync('../refs.geojson');
+  const books_gj = fs.readJsonSync('../books.geojson');
 
-book.Sheets["pois"] = pois_ws;
-book.Sheets["images"] = images_ws;
-book.Sheets["refs"] = refs_ws;
-book.Sheets["books"] = books_ws;
-XLSX.writeFile(book, "../tatebayashi_stones.xlsx");
+  // Create common json
+  let pois_js, images_js, refs_js, books_js;
+  if (fromXlsx) {
+    pois_js = ws2Json(pois_ws, poisType());
+    images_js = ws2Json(images_ws, imagesType());
+    refs_js = ws2Json(refs_ws, refsType());
+    books_js = ws2Json(books_ws, booksType());
+  } else {
+    pois_js = geoJson2Json(pois_gj);
+    images_js = geoJson2Json(images_gj);
+    refs_js = geoJson2Json(refs_gj);
+    books_js = geoJson2Json(books_gj);
+  }
 
-fs.writeFileSync('../pois.geojson', savingGeoJson(pois_geojson2));
-fs.writeFileSync('../images.geojson', savingGeoJson(images_geojson2));
-fs.writeFileSync('../refs.geojson', savingGeoJson(refs_geojson2));
-fs.writeFileSync('../books.geojson', savingGeoJson(books_geojson2));
+  // Reflect to xlsx
+  book.Sheets["pois"] = json2Ws(pois_js, poisType());
+  book.Sheets["images"] = json2Ws(images_js, imagesType());
+  book.Sheets["refs"] = json2Ws(refs_js, refsType());
+  book.Sheets["books"] = json2Ws(books_js, booksType());
+  XLSX.writeFile(book, "../tatebayashi_stones.xlsx");
+
+  // Reflect to qgis
+  const pois_gj_op = json2GeoJson(pois_js, "pois");
+  const images_gj_op = json2GeoJson(images_js, "images");
+  const refs_gj_op = json2GeoJson(refs_js, "refs");
+  const books_gj_op = json2GeoJson(books_js, "books");
+  fs.writeFileSync('../pois.geojson', savingGeoJson(pois_gj_op));
+  fs.writeFileSync('../images.geojson', savingGeoJson(images_gj_op));
+  fs.writeFileSync('../refs.geojson', savingGeoJson(refs_gj_op));
+  fs.writeFileSync('../books.geojson', savingGeoJson(books_gj_op));
+
+  // Create merged geojson
+  pois_gj_op.features.forEach((poi) => {
+    const props = poi.properties;
+    const poiid = props.fid;
+
+    props.path = '';
+    props.mid_thumbnail = '';
+    props.small_thumbnail = '';
+
+    props.images = images_gj_op.features.map(x => x.properties).filter((image) => {
+      return image.poi === poiid;
+    }).map((image) => {
+      if (image.fid === props.primary_image) {
+        props.path = image.path;
+        props.mid_thumbnail = image.mid_thumbnail;
+        props.small_thumbnail = image.small_thumbnail;
+      }
+      const ret = Object.assign({}, image);
+      delete ret.poi;
+      delete ret.fid;
+      return ret;
+    });
+
+    props.books = refs_gj_op.features.map(x => x.properties).filter((ref) => {
+      return ref.poi === poiid;
+    }).map((ref) => {
+      const ret = Object.assign({}, ref);
+      const book = books_gj_op.features.map(x => x.properties).reduce((prev, book) => {
+        return ref.book === book.fid ? book : prev;
+      }, undefined);
+      delete ret.poi;
+      delete ret.fid;
+      delete ret.book
+      ret.name = book.name;
+      ret.editor = book.editor;
+      ret.published_at = book.published_at;
+      ret.reference_type = book.reference_type;
+      return ret;
+    });
+  });
+
+  fs.writeFileSync('../tatebayashi_stones.geojson', savingGeoJson(pois_gj_op));
+};
 
 function ws2Json(ws, types) {
-  const json = XLSX.utils.sheet_to_json(ws);
+  const json = XLSX.utils.sheet_to_json(ws, {raw: true, defval:null});
   return json.map((each) => {
     return types.reduce((prev, keyset) => {
       const old_key = keyset[1];
@@ -131,7 +178,6 @@ function poisType() {
     ["survey_memo", "調査情報", "s"],
     ["area", "地域", "s"],
     ["surveyed", "調査日", "s"],
-    ["public_relations", "広報誌", "s"],
     ["confirmed", "現況確認済み", "b"],
     ["primary_image", "優先画像ID", "n"],
     ["height", "総高", "n"],
@@ -180,7 +226,7 @@ function booksType() {
     ["fid", "ID", "n"],
     ["name", "書籍名", "s"],
     ["editor", "著者", "s"],
-    ["publishedAt", "出版年", "s"],
+    ["published_at", "出版年", "s"],
     ["reference_type", "参照タイプ", "s"]
   ];
 }
