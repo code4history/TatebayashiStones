@@ -231,6 +231,14 @@ module.exports = async function (fromXlsx) {
 
     props.images = images_gj_op.features.map(x => x.properties).filter((image) => {
       return image.poi === poiid;
+    }).sort((a, b) => {
+      if (a.fid === props.primary_image) {
+        return -1;
+      } else if (b.fid === props.primary_image) {
+        return 1;
+      } else {
+        return 0;
+      }
     }).map((image) => {
       if (image.fid === props.primary_image) {
         props.path = image.path;
