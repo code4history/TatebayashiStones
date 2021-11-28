@@ -1,0 +1,7 @@
+{
+  "pkg": {
+    "scripts": ["js/torii.js","system/macm1/sharp/**/*"],
+    "assets": [],
+    "target": "node16-macos-arm64"
+  }
+}

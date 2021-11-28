@@ -1,0 +1,27 @@
+$ otool -L ./system/macm1/sharp/build/Release/sharp.node
+./system/macm1/sharp/build/Release/sharp.node:
+	@rpath/libvips-cpp.42.dylib (compatibility version 55.0.0, current version 55.7.0)
+	/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 905.6.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1292.100.5)
+
+$ otool -L ./system/macm1/sharp/vendor/8.10.6/lib/libvips-cpp.42.dylib
+  ./system/macm1/sharp/vendor/8.10.6/lib/libvips-cpp.42.dylib:
+  	@rpath/libvips-cpp.42.dylib (compatibility version 55.0.0, current version 55.7.0)
+  	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1122.11.0)
+  	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 1770.255.0)
+  	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 1770.255.0)
+  	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (compatibility version 45.0.0, current version 2022.20.117)
+  	/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 904.4.0)
+  	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices (compatibility version 1.0.0, current version 54.0.0)
+  	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1292.60.1)
+  	/usr/lib/libresolv.9.dylib (compatibility version 1.0.0, current version 1.0.0)
+  	/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)
+  	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon (compatibility version 2.0.0, current version 164.0.0)
+  	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics (compatibility version 64.0.0, current version 1463.2.1)
+  	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText (compatibility version 1.0.0, current version 1.0.0)
+  	/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)
+
+$ cp ./system/macm1/sharp/vendor/8.10.6/lib/libvips-cpp.42.dylib ./system/macm1/sharp/build/Release/.
+
+$ install_name_tool -change "@rpath/libvips-cpp.42.dylib" "@loader_path/libvips-cpp.42.dylib" ./system/macm1/sharp/build/Release/sharp.node
+
