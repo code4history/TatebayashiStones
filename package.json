@@ -2,17 +2,14 @@
   "name": "tatebayashistones",
   "version": "1.0.0",
   "description": "「たてばやしの野仏巡り」全5巻相当のデータのオープンデータ化＆現況調査プロジェクト",
-  "main": "tatebayashi_merge.js",
+  "main": "torii.js",
   "dependencies": {
-    "xlsx": "^0.17.4",
-    "xlsx-js-style": "^1.0.0"
-  },
-  "devDependencies": {
-    "@turf/turf": "^6.3.0",
     "argv": "0.0.2",
     "exif": "^0.6.0",
     "fs-extra": "^10.0.0",
-    "sharp": "^0.28.3"
+    "pkg": "^5.4.1",
+    "sharp": "^0.28.3",
+    "xlsx": "^0.17.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,3 +1,3 @@
-const doSync = require('./do_sync');
+const Torii = require('./torii');
 
-doSync(false);
+Torii(false);
