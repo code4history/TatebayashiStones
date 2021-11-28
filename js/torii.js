@@ -2,7 +2,7 @@ const ExifImage = require('exif').ExifImage;
 const XLSX = require("xlsx");
 const fs = require('fs-extra');
 const argv = require('argv');
-const sharp = require('sharp');
+const Jimp = require('jimp');
 
 const args = argv.option([
   {
@@ -134,18 +134,16 @@ module.exports = async function (fromXlsx) {
           resolve();
         } catch (e) {
           fs.ensureFileSync(`.${mid_thumb}`);
-          sharp(`.${new_img}`)
-            .resize(800, 800, {
-              kernel: sharp.kernel.nearest,
-              fit: sharp.fit.inside
-            })
-            .withMetadata()
-            .toFile(`.${mid_thumb}`)
-            .then(() => {
-              resolve();
-            }).catch ((error) => {
-            console.log('Error 2: ' + error.message);
-            reject();
+          Jimp.read(`.${new_img}`, (err, jimp) => {
+            if (err) {
+              console.log('Error 2: ' + err.message);
+              reject(err);
+              return;
+            }
+            jimp
+              .scaleToFit(800, 800, Jimp.RESIZE_NEAREST_NEIGHBOR) // resize
+              .write(`.${mid_thumb}`); // save
+            resolve();
           });
         }
       });
@@ -155,18 +153,16 @@ module.exports = async function (fromXlsx) {
           resolve();
         } catch (e) {
           fs.ensureFileSync(`.${small_thumb}`);
-          sharp(`.${new_img}`)
-            .resize(200, 200, {
-              kernel: sharp.kernel.nearest,
-              fit: sharp.fit.inside
-            })
-            .withMetadata()
-            .toFile(`.${small_thumb}`)
-            .then(() => {
-              resolve();
-            }).catch ((error) => {
-            console.log('Error 2: ' + error.message);
-            reject();
+          Jimp.read(`.${new_img}`, (err, jimp) => {
+            if (err) {
+              console.log('Error 2: ' + err.message);
+              reject(err);
+              return;
+            }
+            jimp
+              .scaleToFit(200, 200, Jimp.RESIZE_NEAREST_NEIGHBOR) // resize
+              .write(`.${small_thumb}`); // save
+            resolve();
           });
         }
       });

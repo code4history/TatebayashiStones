@@ -1086,7 +1086,7 @@
 {"type":"Feature","properties":{"fid":1105,"book":5,"poi":876,"description":"","note":"","pages":"101"},"geometry":null},
 {"type":"Feature","properties":{"fid":1106,"book":8,"poi":876,"description":"","note":"","pages":"775"},"geometry":null},
 {"type":"Feature","properties":{"fid":1107,"book":4,"poi":390,"description":"","note":"","pages":""},"geometry":null},
-{"type":"Feature","properties":{"fid":1108,"book":4,"poi":419,"description":"","note":"","pages":""},"geometry":null},
+{"type":"Feature","properties":{"fid":1108,"book":4,"poi":419,"description":"","note":"","pages":"32"},"geometry":null},
 {"type":"Feature","properties":{"fid":1109,"book":4,"poi":450,"description":"","note":"","pages":""},"geometry":null},
 {"type":"Feature","properties":{"fid":1110,"book":4,"poi":539,"description":"","note":"","pages":""},"geometry":null},
 {"type":"Feature","properties":{"fid":1111,"book":4,"poi":387,"description":"","note":"","pages":""},"geometry":null},
