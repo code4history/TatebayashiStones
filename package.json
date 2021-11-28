@@ -12,7 +12,16 @@
     "xlsx": "^0.17.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_x2q_macm1": "pkg js/xlsx2Qgis.js --target=node16-darwin-arm64 --output=dist/xlsx2Qgis_macm1",
+    "build_q2x_macm1": "pkg js/qgis2Xlsx.js --target=node16-darwin-arm64 --output=dist/qgis2Xlsx_macm1",
+    "build_macm1": "npm run build_x2q_macm1 && npm run build_q2x_macm1",
+    "build_x2q_mac": "pkg js/xlsx2Qgis.js --target=node16-darwin-x64 --output=dist/xlsx2Qgis_mac",
+    "build_q2x_mac": "pkg js/qgis2Xlsx.js --target=node16-darwin-x64 --output=dist/qgis2Xlsx_mac",
+    "build_mac": "npm run build_x2q_mac && npm run build_q2x_mac",
+    "build_x2q_win": "pkg js/xlsx2Qgis.js --target=node16-win-x64 --output=dist/xlsx2Qgis_win.exe",
+    "build_q2x_win": "pkg js/qgis2Xlsx.js --target=node16-win-x64 --output=dist/qgis2Xlsx_win.exe",
+    "build_win": "npm run build_x2q_win && npm run build_q2x_win"
   },
   "repository": {
     "type": "git",
@@ -23,5 +32,7 @@
   "bugs": {
     "url": "https://github.com/code4history/TatebayashiStones/issues"
   },
-  "homepage": "https://github.com/code4history/TatebayashiStones#readme"
+  "homepage": "https://github.com/code4history/TatebayashiStones#readme",
+  "pkg": {
+  }
 }
