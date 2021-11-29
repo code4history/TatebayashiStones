@@ -681,6 +681,6 @@
 {"type":"Feature","properties":{"fid":677,"poi":479,"path":"./images/479/IMG_8778.jpg","shooting_date":"2020-09-20T12:43:16","shooter":"Kohei OTSUKA","description":"松原萬延庚申","note":"","mid_thumbnail":"./mid_thumbs/479/IMG_8778.jpg","small_thumbnail":"./small_thumbs/479/IMG_8778.jpg"},"geometry":null},
 {"type":"Feature","properties":{"fid":678,"poi":473,"path":"./images/473/IMG_8782.jpg","shooting_date":"2020-09-20T12:43:51","shooter":"Kohei OTSUKA","description":"松原明和庚申","note":"","mid_thumbnail":"./mid_thumbs/473/IMG_8782.jpg","small_thumbnail":"./small_thumbs/473/IMG_8782.jpg"},"geometry":null},
 {"type":"Feature","properties":{"fid":679,"poi":471,"path":"./images/471/IMG_8775.jpg","shooting_date":"2020-09-20T12:43:00","shooter":"Kohei OTSUKA","description":"松原延享青面金剛","note":"","mid_thumbnail":"./mid_thumbs/471/IMG_8775.jpg","small_thumbnail":"./small_thumbs/471/IMG_8775.jpg"},"geometry":null},
-{"type":"Feature","properties":{"fid":680,"poi":397,"path":"./images/397/IMG_8772.jpg","shooting_date":"2020-09-20T12:42:39","shooter":"Kohei OTSUKA","description":"舟型念佛地蔵尊","note":"","mid_thumbnail":"./mid_thumbs/397/IMG_8772.jpg","small_thumbnail":"./small_thumbs/397/IMG_8772.jpg"},"geometry":null}
+{"type":"Feature","properties":{"fid":680,"poi":397,"path":"./images/397/IMG_8772.jpg","shooting_date":"2020-09-20T12:42:39","shooter":"Kohei OTSUKA","description":"松原舟型念佛地蔵尊","note":"","mid_thumbnail":"./mid_thumbs/397/IMG_8772.jpg","small_thumbnail":"./small_thumbs/397/IMG_8772.jpg"},"geometry":null}
 ]
 }
