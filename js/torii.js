@@ -141,7 +141,7 @@ module.exports = async function (fromXlsx) {
               return;
             }
             jimp
-              .scaleToFit(800, 800, Jimp.RESIZE_NEAREST_NEIGHBOR) // resize
+              .scaleToFit(800, 800, Jimp.RESIZE_BICUBIC) // resize
               .write(`.${mid_thumb}`); // save
             resolve();
           });
@@ -160,7 +160,7 @@ module.exports = async function (fromXlsx) {
               return;
             }
             jimp
-              .scaleToFit(200, 200, Jimp.RESIZE_NEAREST_NEIGHBOR) // resize
+              .scaleToFit(200, 200, Jimp.RESIZE_BICUBIC) // resize
               .write(`.${small_thumb}`); // save
             resolve();
           });
