@@ -1,7 +1,6 @@
 {
-  "base_folder": "./",
-  "xlsx_file": "",
-  "geojson_file": "",
+  "xlsx_file": "tatebayashi_stones.xlsx",
+  "geojson_file": "tatebayashi_stones.geojson",
   "tables": {
     "pois": {
       "attrs": [
