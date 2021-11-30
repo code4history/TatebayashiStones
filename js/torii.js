@@ -225,31 +225,24 @@ module.exports = async function (fromXlsx) {
   }
 
   // Reflect to xlsx
-  if (new_xlsx) {
-    XLSX.utils.book_append_sheet(book, json2Ws(mid_json['pois'], tables['pois'].attrs), 'pois');
-    XLSX.utils.book_append_sheet(book, json2Ws(mid_json['images'], tables['images'].attrs), 'images');
-    XLSX.utils.book_append_sheet(book, json2Ws(mid_json['refs'], tables['refs'].attrs), 'refs');
-    XLSX.utils.book_append_sheet(book, json2Ws(mid_json['books'], tables['books'].attrs), 'books');
-  } else {
-    book.Sheets["pois"] = json2Ws(mid_json['pois'], tables['pois'].attrs);
-    book.Sheets["images"] = json2Ws(mid_json['images'], tables['images'].attrs);
-    book.Sheets["refs"] = json2Ws(mid_json['refs'], tables['refs'].attrs);
-    book.Sheets["books"] = json2Ws(mid_json['books'], tables['books'].attrs);
-  }
+  table_keys.forEach((key) => {
+    if (new_xlsx) {
+      XLSX.utils.book_append_sheet(book, json2Ws(mid_json[key], tables[key].attrs), key);
+    } else {
+      book.Sheets[key] = json2Ws(mid_json[key], tables[key].attrs);
+    }
+  });
   XLSX.writeFile(book, xlsx_file);
 
   // Reflect to qgis
-  const pois_gj_op = json2GeoJson(mid_json['pois'], "pois");
-  const images_gj_op = json2GeoJson(mid_json['images'], "images");
-  const refs_gj_op = json2GeoJson(mid_json['refs'], "refs");
-  const books_gj_op = json2GeoJson(mid_json['books'], "books");
-  fs.writeFileSync(path.resolve(file_path, './pois.geojson'), savingGeoJson(pois_gj_op));
-  fs.writeFileSync(path.resolve(file_path, './images.geojson'), savingGeoJson(images_gj_op));
-  fs.writeFileSync(path.resolve(file_path, './refs.geojson'), savingGeoJson(refs_gj_op));
-  fs.writeFileSync(path.resolve(file_path, './books.geojson'), savingGeoJson(books_gj_op));
+  const gj = {};
+  table_keys.forEach((key) => {
+    gj[key] = json2GeoJson(mid_json[key], key);
+    fs.writeFileSync(path.resolve(file_path, `./${key}.geojson`), savingGeoJson(gj[key]));
+  });
 
   // Create merged geojson
-  pois_gj_op.features.forEach((poi) => {
+  gj['pois'].features.forEach((poi) => {
     const props = poi.properties;
     const poiid = props.fid;
 
@@ -257,7 +250,7 @@ module.exports = async function (fromXlsx) {
     props.mid_thumbnail = '';
     props.small_thumbnail = '';
 
-    props.images = images_gj_op.features.map(x => x.properties).filter((image) => {
+    props.images = gj['images'].features.map(x => x.properties).filter((image) => {
       return image.poi === poiid;
     }).sort((a, b) => {
       if (a.fid === props.primary_image) {
@@ -279,11 +272,11 @@ module.exports = async function (fromXlsx) {
       return ret;
     });
 
-    props.books = refs_gj_op.features.map(x => x.properties).filter((ref) => {
+    props.books = gj['refs'].features.map(x => x.properties).filter((ref) => {
       return ref.poi === poiid;
     }).map((ref) => {
       const ret = Object.assign({}, ref);
-      const book = books_gj_op.features.map(x => x.properties).reduce((prev, book) => {
+      const book = gj['books'].features.map(x => x.properties).reduce((prev, book) => {
         return ref.book === book.fid ? book : prev;
       }, undefined);
       delete ret.poi;
@@ -297,7 +290,7 @@ module.exports = async function (fromXlsx) {
     });
   });
 
-  fs.writeFileSync(geojson_file, savingGeoJson(pois_gj_op));
+  fs.writeFileSync(geojson_file, savingGeoJson(gj['pois']));
 };
 
 function ws2Json(ws, types) {
