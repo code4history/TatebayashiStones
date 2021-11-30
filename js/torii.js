@@ -3,8 +3,13 @@ const XLSX = require("xlsx");
 const fs = require('fs-extra');
 const argv = require('argv');
 const Jimp = require('jimp');
+const path = require('path');
 
-const settings = require('../torii.json');
+const geojson_template = {
+  type: "FeatureCollection",
+  crs: { type: "name", properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  features: []
+};
 
 const args = argv.option([
   {
@@ -20,10 +25,20 @@ const args = argv.option([
     "type": "string",
     "description": "新規写真の年月日を設定します",
     "example": "'script --date=\"value\"' or 'script -d \"value\"'"
+  },
+  {
+    "name": "config",
+    "short": "c",
+    "type": "string",
+    "description": "設定ファイルを指定します",
+    "example": "'script --config=\"value\"' or 'script -c \"value\"'"
   }
 ]).run();
 const shooter = args.options.shooter || 'Shooter not reported - must update';
 const gdate = args.options.date;
+const config_file = path.resolve(__dirname, args.options.config || './torii.json');
+console.log(config_file);
+const settings = require(config_file);
 
 module.exports = async function (fromXlsx) {
   const book = XLSX.readFile("../tatebayashi_stones.xlsx");
