@@ -4,6 +4,8 @@ const fs = require('fs-extra');
 const argv = require('argv');
 const Jimp = require('jimp');
 
+const settings = require('../torii.json');
+
 const args = argv.option([
   {
     "name": "shooter",
@@ -41,10 +43,10 @@ module.exports = async function (fromXlsx) {
   // Create common json
   let pois_js, images_js, refs_js, books_js;
   if (fromXlsx) {
-    pois_js = ws2Json(pois_ws, poisType());
-    images_js = ws2Json(images_ws, imagesType());
-    refs_js = ws2Json(refs_ws, refsType());
-    books_js = ws2Json(books_ws, booksType());
+    pois_js = ws2Json(pois_ws, settings['pois'].attrs);
+    images_js = ws2Json(images_ws, settings['images'].attrs);
+    refs_js = ws2Json(refs_ws, settings['refs'].attrs);
+    books_js = ws2Json(books_ws, settings['books'].attrs);
   } else {
     pois_js = geoJson2Json(pois_gj);
     images_js = geoJson2Json(images_gj);
@@ -200,10 +202,10 @@ module.exports = async function (fromXlsx) {
   }
 
   // Reflect to xlsx
-  book.Sheets["pois"] = json2Ws(pois_js, poisType());
-  book.Sheets["images"] = json2Ws(images_js, imagesType());
-  book.Sheets["refs"] = json2Ws(refs_js, refsType());
-  book.Sheets["books"] = json2Ws(books_js, booksType());
+  book.Sheets["pois"] = json2Ws(pois_js, settings['pois'].attrs);
+  book.Sheets["images"] = json2Ws(images_js, settings['images'].attrs);
+  book.Sheets["refs"] = json2Ws(refs_js, settings['refs'].attrs);
+  book.Sheets["books"] = json2Ws(books_js, settings['books'].attrs);
   XLSX.writeFile(book, "../tatebayashi_stones.xlsx");
 
   // Reflect to qgis
@@ -337,75 +339,6 @@ function json2GeoJson(jsons, table) {
     prev.features.push({ type: "Feature", properties: props, geometry: geoms });
     return prev;
   }, geojson);
-}
-
-function poisType() {
-  return [
-    ["fid", "ID", "n"],
-    ["name", "名称", "s"],
-    ["type", "種別", "s"],
-    ["era", "和暦", "s"],
-    ["year", "年", "s"],
-    ["area", "地域", "s"],
-    ["oaza", "大字", "s"],
-    ["koaza", "小字", "s"],
-    ["detail_place", "詳細場所", "s"],
-    ["reference_memo", "参照本情報", "s"],
-    ["folklore", "言い伝え", "s"],
-    ["history", "歴史", "s"],
-    ["survey_memo", "調査情報", "s"],
-    ["surveyed", "調査日", "s"],
-    ["confirmed", "現況確認済み", "b"],
-    ["primary_image", "優先画像ID", "n"],
-    ["height", "総高", "n"],
-    ["statue_height", "像高", "n"],
-    ["width", "幅", "n"],
-    ["depth", "厚さ", "n"],
-    ["shape", "形状", "s"],
-    ["material", "材質", "s"],
-    ["inscription", "刻銘", "s"],
-    ["color", "色", "s"],
-    ["contradiction", "データの矛盾", "s"],
-    ["need_action", "要対応", "s"],
-    ["status", "状況", "s"],
-    ["longitude", "経度", "n"],
-    ["latitude", "緯度", "n"]
-  ];
-}
-
-function imagesType() {
-  return [
-    ["fid", "ID", "n"],
-    ["poi", "石造物ID", "n"],
-    ["path", "画像パス", "s"],
-    ["shooting_date", "撮影日", "s"],
-    ["shooter", "撮影者", "s"],
-    ["description", "説明", "s"],
-    ["note", "ノート", "s"],
-    ["mid_thumbnail", "中サイズサムネイル", "s"],
-    ["small_thumbnail", "小サイズサムネイル", "s"]
-  ];
-}
-
-function refsType() {
-  return [
-    ["fid", "ID", "n"],
-    ["book", "書籍ID", "n"],
-    ["poi", "石造物ID", "n"],
-    ["description", "説明", "s"],
-    ["note", "ノート", "s"],
-    ["pages", "参照ページ", "s"]
-  ];
-}
-
-function booksType() {
-  return [
-    ["fid", "ID", "n"],
-    ["name", "書籍名", "s"],
-    ["editor", "著者", "s"],
-    ["published_at", "出版年", "s"],
-    ["reference_type", "参照タイプ", "s"]
-  ];
 }
 
 function savingGeoJson(geojson) {
