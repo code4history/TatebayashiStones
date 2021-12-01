@@ -46,6 +46,19 @@ const table_keys = Object.keys(tables);
 const mid_json = {};
 let new_xlsx;
 
+const poi_table_key = table_keys.reduce((prev, key) => {
+  const table = tables[key];
+  const attrs = table.attrs;
+  return attrs.reduce((prev, attr) => {
+    return (attr[0] === 'latitude' || attr[0] === 'longitude') ? true : prev;
+  }, false) ? key : prev;
+}, undefined);
+
+const image_table_key = table_keys.reduce((prev, key) => {
+  return tables[key].thumbnails ? key : prev;
+}, undefined);
+const thumbnails = tables[image_table_key].thumbnails;
+
 module.exports = async function (fromXlsx) {
   // Read from xlsx
   const book = await new Promise((res) => {
@@ -80,16 +93,16 @@ module.exports = async function (fromXlsx) {
   // Image check
   let max_img_id;
   // Images list from Geojson
-  const im_list_js = mid_json['images'].map((img) => {
+  const im_list_js = mid_json[image_table_key].map((img) => {
     if (!max_img_id || max_img_id < img.fid) max_img_id = img.fid;
     return img.path;
   });
 
   // Images list from FS
-  const im_list_fs = fs.readdirSync(path.resolve(file_path, './images')).reduce((arr, imgid) => {
+  const im_list_fs = fs.readdirSync(path.resolve(file_path, `./${image_table_key}`)).reduce((arr, imgid) => {
     if (imgid === '.DS_Store') return arr;
-    fs.readdirSync(path.resolve(file_path, `./images/${imgid}`)).forEach((imgFile) => {
-      arr.push(`./images/${imgid}/${imgFile}`);
+    fs.readdirSync(path.resolve(file_path, `./${image_table_key}/${imgid}`)).forEach((imgFile) => {
+      arr.push(`./${image_table_key}/${imgid}/${imgFile}`);
     });
     return arr;
   }, []);
@@ -124,7 +137,7 @@ module.exports = async function (fromXlsx) {
       const buf = await promise_buf;
       const paths = new_img.split("/");
       const poi_id = parseInt(paths[2]);
-      const poi = mid_json['pois'].reduce((prev, poi) => {
+      const poi = mid_json[poi_table_key].reduce((prev, poi) => {
         if (poi.fid === poi_id) return poi;
         else return prev;
       }, null);
@@ -150,68 +163,51 @@ module.exports = async function (fromXlsx) {
         paths[3] = paths[3].replace(/\.jpe?g$/i, '.jpg');
         ni_path = paths.join('/');
       }
-      const mid_thumb = ni_path.replace('./images', './mid_thumbs');
-      const small_thumb = ni_path.replace('./images', './small_thumbs');
 
-      await new Promise((resolve, reject) => {
-        try {
-          fs.statSync(path.resolve(file_path, mid_thumb));
-          resolve();
-        } catch (e) {
-          fs.ensureFileSync(path.resolve(file_path, mid_thumb));
-          Jimp.read(path.resolve(file_path, new_img), (err, jimp) => {
-            if (err) {
-              console.log('Error 2: ' + err.message);
-              reject(err);
-              return;
-            }
-            jimp
-              .scaleToFit(800, 800, Jimp.RESIZE_BICUBIC) // resize
-              .write(path.resolve(file_path, mid_thumb)); // save
+      const thumb_pathes = {};
+      await Promise.all(thumbnails.map(async (thumbnail) => {
+        const thumb_key = thumbnail[0];
+        const pixels = thumbnail[1];
+        thumb_pathes[thumb_key] = ni_path.replace(`./${image_table_key}`, `./${thumb_key}`);
+        await new Promise((resolve, reject) => {
+          try {
+            fs.statSync(path.resolve(file_path, thumb_pathes[thumb_key]));
             resolve();
-          });
-        }
-      });
-      await new Promise((resolve, reject) => {
-        try {
-          fs.statSync(path.resolve(file_path, small_thumb));
-          resolve();
-        } catch (e) {
-          fs.ensureFileSync(path.resolve(file_path, small_thumb));
-          Jimp.read(path.resolve(file_path, new_img), (err, jimp) => {
-            if (err) {
-              console.log('Error 2: ' + err.message);
-              reject(err);
-              return;
-            }
-            jimp
-              .scaleToFit(200, 200, Jimp.RESIZE_BICUBIC) // resize
-              .write(path.resolve(file_path, small_thumb)); // save
-            resolve();
-          });
-        }
-      });
+          } catch (e) {
+            fs.ensureFileSync(path.resolve(file_path, thumb_pathes[thumb_key]));
+            Jimp.read(path.resolve(file_path, new_img), (err, jimp) => {
+              if (err) {
+                console.log('Error 2: ' + err.message);
+                reject(err);
+                return;
+              }
+              jimp
+                  .scaleToFit(pixels, pixels, Jimp.RESIZE_BICUBIC) // resize
+                  .write(path.resolve(file_path, thumb_pathes[thumb_key])); // save
+              resolve();
+            });
+          }
+        });
+      }));
       if (new_img !== path) {
         fs.moveSync(path.resolve(file_path, new_img), path.resolve(file_path, ni_path));
       }
 
-      buf[poi_id].images.push({
+      buf[poi_id].images.push(Object.assign({
         fid,
         poi: poi_id,
         path: ni_path,
         shooting_date: date,
         shooter,
         description: poi.name,
-        note: '',
-        mid_thumbnail: mid_thumb,
-        small_thumbnail: small_thumb
-      });
+        note: ''
+      }, thumb_pathes));
       return buf;
     }, Promise.resolve({}));
 
     Object.keys(new_imgs).forEach((poi_id_str) => {
       const poi_id = parseInt(poi_id_str);
-      const poi = mid_json['pois'].reduce((prev, poi) => {
+      const poi = mid_json[poi_table_key].reduce((prev, poi) => {
         if (poi.fid === poi_id) return poi;
         else return prev;
       }, null);
@@ -219,7 +215,7 @@ module.exports = async function (fromXlsx) {
       if (new_poi.primary_image) poi.primary_image = new_poi.primary_image;
       else if (!poi.primary_image) poi.primary_image = new_poi.images[0].fid;
       new_poi.images.forEach((image) => {
-        mid_json['images'].push(image);
+        mid_json[image_table_key].push(image);
       })
     });
   }
@@ -242,15 +238,15 @@ module.exports = async function (fromXlsx) {
   });
 
   // Create merged geojson
-  gj['pois'].features.forEach((poi) => {
+  gj[poi_table_key].features.forEach((poi) => {
     const props = poi.properties;
     const poiid = props.fid;
 
     props.path = '';
-    props.mid_thumbnail = '';
-    props.small_thumbnail = '';
+    props.mid_thumbs = '';
+    props.small_thumbs = '';
 
-    props.images = gj['images'].features.map(x => x.properties).filter((image) => {
+    props[image_table_key] = gj[image_table_key].features.map(x => x.properties).filter((image) => {
       return image.poi === poiid;
     }).sort((a, b) => {
       if (a.fid === props.primary_image) {
@@ -263,8 +259,8 @@ module.exports = async function (fromXlsx) {
     }).map((image) => {
       if (image.fid === props.primary_image) {
         props.path = image.path;
-        props.mid_thumbnail = image.mid_thumbnail;
-        props.small_thumbnail = image.small_thumbnail;
+        props.mid_thumbs = image.mid_thumbs;
+        props.small_thumbs = image.small_thumbs;
       }
       const ret = Object.assign({}, image);
       delete ret.poi;
@@ -290,7 +286,7 @@ module.exports = async function (fromXlsx) {
     });
   });
 
-  fs.writeFileSync(geojson_file, savingGeoJson(gj['pois']));
+  fs.writeFileSync(geojson_file, savingGeoJson(gj[poi_table_key]));
 };
 
 function ws2Json(ws, types) {

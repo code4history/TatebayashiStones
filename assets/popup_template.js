@@ -22,7 +22,7 @@ popupHtmlTemplate += `{% if images.length > 0 %}
               <img src="{{ image.path | safe }}" onclick="ChuQuyuan.openPanorama('{{ image.path | safe }}');" class="panorama">
             {% else %}
               <a href="{{ image.path | safe }}" target="_blank">
-                <img src="{{ image.small_thumbnail | safe }}">
+                <img src="{{ image.small_thumbs | safe }}">
               </a>
             {% endif %}
           </div>

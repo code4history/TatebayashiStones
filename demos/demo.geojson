@@ -24,8 +24,8 @@
         "public_relations": "",
         "confirmed": false,
         "path": "",
-        "mid_thumbnail": "",
-        "small_thumbnail": "",
+        "mid_thumbs": "",
+        "small_thumbs": "",
         "images": [
           {
             "path": "./demos/1.png",
@@ -33,8 +33,8 @@
             "shooter": "",
             "description": "",
             "note": "",
-            "mid_thumbnail": "",
-            "small_thumbnail": "./demos/1.png",
+            "mid_thumbs": "",
+            "small_thumbs": "./demos/1.png",
             "panorama_image": true
           },
           {
@@ -43,8 +43,8 @@
             "shooter": "",
             "description": "",
             "note": "",
-            "mid_thumbnail": "./mid_thumbs/2/no2.JPG",
-            "small_thumbnail": "./small_thumbs/2/no2.JPG",
+            "mid_thumbs": "./mid_thumbs/2/no2.JPG",
+            "small_thumbs": "./small_thumbs/2/no2.JPG",
             "panorama_image": false
           },
           {
@@ -53,8 +53,8 @@
             "shooter": "",
             "description": "",
             "note": "",
-            "mid_thumbnail": "",
-            "small_thumbnail": "./demos/2.png",
+            "mid_thumbs": "",
+            "small_thumbs": "./demos/2.png",
             "panorama_image": true
           }
         ],

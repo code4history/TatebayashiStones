@@ -36,6 +36,10 @@
       ]
     },
     "images": {
+      "thumbnails": [
+        ["mid_thumbs", 800],
+        ["small_thumbs", 200]
+      ],
       "attrs": [
         ["fid", "ID", "n"],
         ["poi", "石造物ID", "n"],
@@ -44,8 +48,8 @@
         ["shooter", "撮影者", "s"],
         ["description", "説明", "s"],
         ["note", "ノート", "s"],
-        ["mid_thumbnail", "中サイズサムネイル", "s"],
-        ["small_thumbnail", "小サイズサムネイル", "s"]
+        ["mid_thumbs", "中サイズサムネイル", "s"],
+        ["small_thumbs", "小サイズサムネイル", "s"]
       ]
     },
     "refs": {
