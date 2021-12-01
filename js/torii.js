@@ -130,36 +130,36 @@ module.exports = async function (fromXlsx) {
       }, null);
 
       const date = gdate ? gdate : await new Promise((res, _rej) => {
-        new ExifImage({ image : `.${new_img}` }, (_err, exif_data) => {
+        new ExifImage({ image : path.resolve(file_path, new_img) }, (_err, exif_data) => {
           const date = exif_data.exif ? exif_data.exif.DateTimeOriginal.replace(/^(\d{4}):(\d{2}):(\d{2}) /, "$1-$2-$3T") : '';
           res(date);
         });
       });
 
       const fid = ++max_img_id;
-      let path = new_img;
+      let ni_path = new_img;
       if (!buf[poi_id]) buf[poi_id] = {
         images: []
       };
       if (paths[3].match(/^PRIM\./)) {
         paths[3] = paths[3].replace(/^PRIM\./, '');
-        path = paths.join('/');
+        ni_path = paths.join('/');
         buf[poi_id].primary_image = fid;
       }
       if (paths[3].match(/\.jpe?g$/i)) {
         paths[3] = paths[3].replace(/\.jpe?g$/i, '.jpg');
-        path = paths.join('/');
+        ni_path = paths.join('/');
       }
-      const mid_thumb = path.replace('./images', './mid_thumbs');
-      const small_thumb = path.replace('./images', './small_thumbs');
+      const mid_thumb = ni_path.replace('./images', './mid_thumbs');
+      const small_thumb = ni_path.replace('./images', './small_thumbs');
 
       await new Promise((resolve, reject) => {
         try {
-          fs.statSync(`.${mid_thumb}`);
+          fs.statSync(path.resolve(file_path, mid_thumb));
           resolve();
         } catch (e) {
-          fs.ensureFileSync(`.${mid_thumb}`);
-          Jimp.read(`.${new_img}`, (err, jimp) => {
+          fs.ensureFileSync(path.resolve(file_path, mid_thumb));
+          Jimp.read(path.resolve(file_path, new_img), (err, jimp) => {
             if (err) {
               console.log('Error 2: ' + err.message);
               reject(err);
@@ -167,18 +167,18 @@ module.exports = async function (fromXlsx) {
             }
             jimp
               .scaleToFit(800, 800, Jimp.RESIZE_BICUBIC) // resize
-              .write(`.${mid_thumb}`); // save
+              .write(path.resolve(file_path, mid_thumb)); // save
             resolve();
           });
         }
       });
       await new Promise((resolve, reject) => {
         try {
-          fs.statSync(`.${small_thumb}`);
+          fs.statSync(path.resolve(file_path, small_thumb));
           resolve();
         } catch (e) {
-          fs.ensureFileSync(`.${small_thumb}`);
-          Jimp.read(`.${new_img}`, (err, jimp) => {
+          fs.ensureFileSync(path.resolve(file_path, small_thumb));
+          Jimp.read(path.resolve(file_path, new_img), (err, jimp) => {
             if (err) {
               console.log('Error 2: ' + err.message);
               reject(err);
@@ -186,19 +186,19 @@ module.exports = async function (fromXlsx) {
             }
             jimp
               .scaleToFit(200, 200, Jimp.RESIZE_BICUBIC) // resize
-              .write(`.${small_thumb}`); // save
+              .write(path.resolve(file_path, small_thumb)); // save
             resolve();
           });
         }
       });
       if (new_img !== path) {
-        fs.moveSync(`.${new_img}`, `.${path}`);
+        fs.moveSync(path.resolve(file_path, new_img), path.resolve(file_path, ni_path));
       }
 
       buf[poi_id].images.push({
         fid,
         poi: poi_id,
-        path,
+        path: ni_path,
         shooting_date: date,
         shooter,
         description: poi.name,
