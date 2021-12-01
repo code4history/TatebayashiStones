@@ -58,6 +58,7 @@ const image_table_key = table_keys.reduce((prev, key) => {
   return tables[key].thumbnails ? key : prev;
 }, undefined);
 const thumbnails = tables[image_table_key].thumbnails;
+const original_attr_key = tables[image_table_key].path || "path";
 
 module.exports = async function (fromXlsx) {
   // Read from xlsx
@@ -165,6 +166,7 @@ module.exports = async function (fromXlsx) {
       }
 
       const thumb_pathes = {};
+      thumb_pathes[original_attr_key] = ni_path;
       await Promise.all(thumbnails.map(async (thumbnail) => {
         const thumb_key = thumbnail[0];
         const pixels = thumbnail[1];
@@ -196,7 +198,6 @@ module.exports = async function (fromXlsx) {
       buf[poi_id].images.push(Object.assign({
         fid,
         poi: poi_id,
-        path: ni_path,
         shooting_date: date,
         shooter,
         description: poi.name,
