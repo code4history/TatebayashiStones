@@ -4,7 +4,6 @@ const fs = require('fs-extra');
 const argv = require('argv');
 const Jimp = require('jimp');
 const path = require('path');
-const singular = require('pluralize').singular;
 
 const geojson_template = {
   type: "FeatureCollection",
@@ -58,8 +57,8 @@ const poi_table_key = table_keys.reduce((prev, key) => {
 const image_table_key = table_keys.reduce((prev, key) => {
   return tables[key].thumbnails ? key : prev;
 }, undefined);
-const thumbnails = image_table_key ? tables[image_table_key].thumbnails : [];
-const original_attr_key = image_table_key ? tables[image_table_key].path || "path" : "";
+const thumbnails = tables[image_table_key].thumbnails;
+const original_attr_key = tables[image_table_key].path || "path";
 
 module.exports = async function (fromXlsx) {
   // Read from xlsx
@@ -92,145 +91,134 @@ module.exports = async function (fromXlsx) {
     });
   }
 
-  //Image handling
-  if (image_table_key) {
-    const poi_key_singular = singular(poi_table_key);
-    const image_attrs = tables[image_table_key].attrs;
-    const poi_link_key = image_attrs.reduce((prev, attr) => {
-      if (attr[0] === poi_table_key || attr[0] === poi_key_singular) return attr[0];
-      return prev;
-    }, undefined);
-    console.log(poi_link_key);
+  // Image check
+  let max_img_id;
+  // Images list from Geojson
+  const im_list_js = mid_json[image_table_key].map((img) => {
+    if (!max_img_id || max_img_id < img.fid) max_img_id = img.fid;
+    return img.path;
+  });
 
-    // Image check
-    let max_img_id;
-    // Images list from Geojson
-    const im_list_js = mid_json[image_table_key].map((img) => {
-      if (!max_img_id || max_img_id < img.fid) max_img_id = img.fid;
-      return img.path;
+  // Images list from FS
+  const im_list_fs = fs.readdirSync(path.resolve(file_path, `./${image_table_key}`)).reduce((arr, imgid) => {
+    if (imgid === '.DS_Store') return arr;
+    fs.readdirSync(path.resolve(file_path, `./${image_table_key}/${imgid}`)).forEach((imgFile) => {
+      arr.push(`./${image_table_key}/${imgid}/${imgFile}`);
     });
+    return arr;
+  }, []);
 
-    // Images list from FS
-    const im_list_fs = fs.readdirSync(path.resolve(file_path, `./${image_table_key}`)).reduce((arr, imgid) => {
-      if (imgid === '.DS_Store') return arr;
-      fs.readdirSync(path.resolve(file_path, `./${image_table_key}/${imgid}`)).forEach((imgFile) => {
-        arr.push(`./${image_table_key}/${imgid}/${imgFile}`);
-      });
-      return arr;
-    }, []);
-
-    // Check missing
-    for (let i = im_list_js.length - 1; i >= 0; i--) {
-      const im_js = im_list_js[i];
-      const fs_id = im_list_fs.indexOf(im_js);
-      if (fs_id >= 0) {
-        delete im_list_js[i];
-        delete im_list_fs[fs_id];
-      }
+  // Check missing
+  for (let i = im_list_js.length - 1; i >= 0; i--) {
+    const im_js = im_list_js[i];
+    const fs_id = im_list_fs.indexOf(im_js);
+    if (fs_id >= 0) {
+      delete im_list_js[i];
+      delete im_list_fs[fs_id];
     }
+  }
 
-    for (let i = im_list_fs.length - 1; i >= 0; i--) {
-      const im_fs = im_list_fs[i];
-      const js_id = im_list_js.indexOf(im_fs);
-      if (js_id >= 0) {
-        delete im_list_fs[i];
-        delete im_list_js[js_id];
-      }
+  for (let i = im_list_fs.length - 1; i >= 0; i--) {
+    const im_fs = im_list_fs[i];
+    const js_id = im_list_js.indexOf(im_fs);
+    if (js_id >= 0) {
+      delete im_list_fs[i];
+      delete im_list_js[js_id];
     }
+  }
 
-    const js_remains = im_list_js.filter(x=>x);
-    const fs_remains = im_list_fs.filter(x=>x).filter(x=>!x.match(/\.DS_Store$/));
+  const js_remains = im_list_js.filter(x=>x);
+  const fs_remains = im_list_fs.filter(x=>x).filter(x=>!x.match(/\.DS_Store$/));
 
-    if (!fs_remains.length) {
-      console.log('No new images.');
-    } else {
-      const new_imgs = await fs_remains.reduce(async (promise_buf, new_img) => {
-        console.log(new_img);
-        const buf = await promise_buf;
-        const paths = new_img.split("/");
-        const poi_id = parseInt(paths[2]);
-        const poi = mid_json[poi_table_key].reduce((prev, poi) => {
-          if (poi.fid === poi_id) return poi;
-          else return prev;
-        }, null);
+  if (!fs_remains.length) {
+    console.log('No new images.');
+  } else {
+    const new_imgs = await fs_remains.reduce(async (promise_buf, new_img) => {
+      console.log(new_img);
+      const buf = await promise_buf;
+      const paths = new_img.split("/");
+      const poi_id = parseInt(paths[2]);
+      const poi = mid_json[poi_table_key].reduce((prev, poi) => {
+        if (poi.fid === poi_id) return poi;
+        else return prev;
+      }, null);
 
-        const date = gdate ? gdate : await new Promise((res, _rej) => {
-          new ExifImage({ image : path.resolve(file_path, new_img) }, (_err, exif_data) => {
-            const date = exif_data.exif ? exif_data.exif.DateTimeOriginal.replace(/^(\d{4}):(\d{2}):(\d{2}) /, "$1-$2-$3T") : '';
-            res(date);
-          });
+      const date = gdate ? gdate : await new Promise((res, _rej) => {
+        new ExifImage({ image : path.resolve(file_path, new_img) }, (_err, exif_data) => {
+          const date = exif_data.exif ? exif_data.exif.DateTimeOriginal.replace(/^(\d{4}):(\d{2}):(\d{2}) /, "$1-$2-$3T") : '';
+          res(date);
         });
+      });
 
-        const fid = ++max_img_id;
-        let ni_path = new_img;
-        if (!buf[poi_id]) buf[poi_id] = {
-          images: []
-        };
-        if (paths[3].match(/^PRIM\./)) {
-          paths[3] = paths[3].replace(/^PRIM\./, '');
-          ni_path = paths.join('/');
-          buf[poi_id].primary_image = fid;
-        }
-        if (paths[3].match(/\.jpe?g$/i)) {
-          paths[3] = paths[3].replace(/\.jpe?g$/i, '.jpg');
-          ni_path = paths.join('/');
-        }
+      const fid = ++max_img_id;
+      let ni_path = new_img;
+      if (!buf[poi_id]) buf[poi_id] = {
+        images: []
+      };
+      if (paths[3].match(/^PRIM\./)) {
+        paths[3] = paths[3].replace(/^PRIM\./, '');
+        ni_path = paths.join('/');
+        buf[poi_id].primary_image = fid;
+      }
+      if (paths[3].match(/\.jpe?g$/i)) {
+        paths[3] = paths[3].replace(/\.jpe?g$/i, '.jpg');
+        ni_path = paths.join('/');
+      }
 
-        const thumb_pathes = {};
-        thumb_pathes[original_attr_key] = ni_path;
-        thumb_pathes[poi_link_key] = poi_id;
-        await Promise.all(thumbnails.map(async (thumbnail) => {
-          const thumb_key = thumbnail[0];
-          const pixels = thumbnail[1];
-          thumb_pathes[thumb_key] = ni_path.replace(`./${image_table_key}`, `./${thumb_key}`);
-          await new Promise((resolve, reject) => {
-            try {
-              fs.statSync(path.resolve(file_path, thumb_pathes[thumb_key]));
-              resolve();
-            } catch (e) {
-              fs.ensureFileSync(path.resolve(file_path, thumb_pathes[thumb_key]));
-              Jimp.read(path.resolve(file_path, new_img), (err, jimp) => {
-                if (err) {
-                  console.log('Error 2: ' + err.message);
-                  reject(err);
-                  return;
-                }
-                jimp
+      const thumb_pathes = {};
+      thumb_pathes[original_attr_key] = ni_path;
+      await Promise.all(thumbnails.map(async (thumbnail) => {
+        const thumb_key = thumbnail[0];
+        const pixels = thumbnail[1];
+        thumb_pathes[thumb_key] = ni_path.replace(`./${image_table_key}`, `./${thumb_key}`);
+        await new Promise((resolve, reject) => {
+          try {
+            fs.statSync(path.resolve(file_path, thumb_pathes[thumb_key]));
+            resolve();
+          } catch (e) {
+            fs.ensureFileSync(path.resolve(file_path, thumb_pathes[thumb_key]));
+            Jimp.read(path.resolve(file_path, new_img), (err, jimp) => {
+              if (err) {
+                console.log('Error 2: ' + err.message);
+                reject(err);
+                return;
+              }
+              jimp
                   .scaleToFit(pixels, pixels, Jimp.RESIZE_BICUBIC) // resize
                   .write(path.resolve(file_path, thumb_pathes[thumb_key])); // save
-                resolve();
-              });
-            }
-          });
-        }));
-        if (new_img !== path) {
-          fs.moveSync(path.resolve(file_path, new_img), path.resolve(file_path, ni_path));
-        }
+              resolve();
+            });
+          }
+        });
+      }));
+      if (new_img !== path) {
+        fs.moveSync(path.resolve(file_path, new_img), path.resolve(file_path, ni_path));
+      }
 
-        buf[poi_id].images.push(Object.assign({
-          fid,
-          shooting_date: date,
-          shooter,
-          description: poi.name,
-          note: ''
-        }, thumb_pathes));
-        return buf;
-      }, Promise.resolve({}));
+      buf[poi_id].images.push(Object.assign({
+        fid,
+        poi: poi_id,
+        shooting_date: date,
+        shooter,
+        description: poi.name,
+        note: ''
+      }, thumb_pathes));
+      return buf;
+    }, Promise.resolve({}));
 
-      Object.keys(new_imgs).forEach((poi_id_str) => {
-        const poi_id = parseInt(poi_id_str);
-        const poi = mid_json[poi_table_key].reduce((prev, poi) => {
-          if (poi.fid === poi_id) return poi;
-          else return prev;
-        }, null);
-        const new_poi = new_imgs[poi_id_str];
-        if (new_poi.primary_image) poi.primary_image = new_poi.primary_image;
-        else if (!poi.primary_image) poi.primary_image = new_poi.images[0].fid;
-        new_poi.images.forEach((image) => {
-          mid_json[image_table_key].push(image);
-        })
-      });
-    }
+    Object.keys(new_imgs).forEach((poi_id_str) => {
+      const poi_id = parseInt(poi_id_str);
+      const poi = mid_json[poi_table_key].reduce((prev, poi) => {
+        if (poi.fid === poi_id) return poi;
+        else return prev;
+      }, null);
+      const new_poi = new_imgs[poi_id_str];
+      if (new_poi.primary_image) poi.primary_image = new_poi.primary_image;
+      else if (!poi.primary_image) poi.primary_image = new_poi.images[0].fid;
+      new_poi.images.forEach((image) => {
+        mid_json[image_table_key].push(image);
+      })
+    });
   }
 
   // Reflect to xlsx
