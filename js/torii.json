@@ -33,13 +33,39 @@
         ["status", "状況", "s"],
         ["longitude", "経度", "n"],
         ["latitude", "緯度", "n"]
-      ]
+      ],
+      "merge": {
+        "images": {
+          "link": {
+            "fid": "poi"
+          },
+          "multiple": true
+        },
+        "books": {
+          "target": "refs",
+          "link": {
+            "fid": "poi"
+          },
+          "multiple": true
+        }
+      },
+      "image_sort": {
+        "priority_key": "primary_image",
+        "priority_prefix": "PRIM."
+      }
     },
     "images": {
       "thumbnails": [
         ["mid_thumbs", 800],
         ["small_thumbs", 200]
       ],
+      "defaults": {
+        "poi": "poi.fid",
+        "shooting_date": "info.shooting_date",
+        "shooter": "info.shooter",
+        "description": "poi.name",
+        "note": ""
+      },
       "attrs": [
         ["fid", "ID", "n"],
         ["poi", "石造物ID", "n"],
@@ -50,7 +76,15 @@
         ["note", "ノート", "s"],
         ["mid_thumbs", "中サイズサムネイル", "s"],
         ["small_thumbs", "小サイズサムネイル", "s"]
-      ]
+      ],
+      "merge": {
+        "poi": {
+          "delete": true
+        },
+        "fid": {
+          "delete": true
+        }
+      }
     },
     "refs": {
       "attrs": [
@@ -60,7 +94,37 @@
         ["description", "説明", "s"],
         ["note", "ノート", "s"],
         ["pages", "参照ページ", "s"]
-      ]
+      ],
+      "merge": {
+        "book_": {
+          "target": "books",
+          "link": {
+            "book": "fid"
+          },
+          "delete": true
+        },
+        "book": {
+          "delete": true
+        },
+        "name": {
+          "copy": "book_.name"
+        },
+        "editor": {
+          "copy": "book_.editor"
+        },
+        "published_at": {
+          "copy": "book_.published_at"
+        },
+        "reference_type": {
+          "copy": "book_.reference_type"
+        },
+        "poi": {
+          "delete": true
+        },
+        "fid": {
+          "delete": true
+        }
+      }
     },
     "books": {
       "attrs": [

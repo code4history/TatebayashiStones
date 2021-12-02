@@ -36,6 +36,7 @@ const args = argv.option([
 ]).run();
 const shooter = args.options.shooter || 'Shooter not reported - must update';
 const gdate = args.options.date;
+const ndate = (new Date(Date.now() + 9 * 60 * 60 * 1000)).toISOString().replace(/\.\d+Z$/, "");
 const config_file = path.resolve(__dirname, args.options.config || './torii.json');
 const settings = require(config_file);
 const file_path = path.resolve(path.dirname(config_file), settings.base_folder || '../');
@@ -57,8 +58,11 @@ const poi_table_key = table_keys.reduce((prev, key) => {
 const image_table_key = table_keys.reduce((prev, key) => {
   return tables[key].thumbnails ? key : prev;
 }, undefined);
-const thumbnails = tables[image_table_key].thumbnails;
-const original_attr_key = tables[image_table_key].path || "path";
+const image_sort_topid = image_table_key ?
+  tables[image_table_key].image_sort && tables[image_table_key].image_sort.priority_key ?
+  tables[image_table_key].image_sort.priority_key : "primary_image" : "";
+const original_attr_key = image_table_key ? tables[image_table_key].path || "path" : "";
+const thumbnails = image_table_key ? tables[image_table_key].thumbnails : [];
 
 module.exports = async function (fromXlsx) {
   // Read from xlsx
@@ -91,134 +95,150 @@ module.exports = async function (fromXlsx) {
     });
   }
 
-  // Image check
-  let max_img_id;
-  // Images list from Geojson
-  const im_list_js = mid_json[image_table_key].map((img) => {
-    if (!max_img_id || max_img_id < img.fid) max_img_id = img.fid;
-    return img.path;
-  });
+  if (image_table_key) {
+    const defaults = tables[image_table_key].defaults;
+    const image_sort_prefix = tables[image_table_key].image_sort && tables[image_table_key].image_sort.priority_prefix ?
+      tables[image_table_key].image_sort.priority_prefix : "PRIM.";
 
-  // Images list from FS
-  const im_list_fs = fs.readdirSync(path.resolve(file_path, `./${image_table_key}`)).reduce((arr, imgid) => {
-    if (imgid === '.DS_Store') return arr;
-    fs.readdirSync(path.resolve(file_path, `./${image_table_key}/${imgid}`)).forEach((imgFile) => {
-      arr.push(`./${image_table_key}/${imgid}/${imgFile}`);
+    // Image check
+    let max_img_id;
+    // Images list from Geojson
+    const im_list_js = mid_json[image_table_key].map((img) => {
+      if (!max_img_id || max_img_id < img.fid) max_img_id = img.fid;
+      return img.path;
     });
-    return arr;
-  }, []);
 
-  // Check missing
-  for (let i = im_list_js.length - 1; i >= 0; i--) {
-    const im_js = im_list_js[i];
-    const fs_id = im_list_fs.indexOf(im_js);
-    if (fs_id >= 0) {
-      delete im_list_js[i];
-      delete im_list_fs[fs_id];
-    }
-  }
-
-  for (let i = im_list_fs.length - 1; i >= 0; i--) {
-    const im_fs = im_list_fs[i];
-    const js_id = im_list_js.indexOf(im_fs);
-    if (js_id >= 0) {
-      delete im_list_fs[i];
-      delete im_list_js[js_id];
-    }
-  }
-
-  const js_remains = im_list_js.filter(x=>x);
-  const fs_remains = im_list_fs.filter(x=>x).filter(x=>!x.match(/\.DS_Store$/));
-
-  if (!fs_remains.length) {
-    console.log('No new images.');
-  } else {
-    const new_imgs = await fs_remains.reduce(async (promise_buf, new_img) => {
-      console.log(new_img);
-      const buf = await promise_buf;
-      const paths = new_img.split("/");
-      const poi_id = parseInt(paths[2]);
-      const poi = mid_json[poi_table_key].reduce((prev, poi) => {
-        if (poi.fid === poi_id) return poi;
-        else return prev;
-      }, null);
-
-      const date = gdate ? gdate : await new Promise((res, _rej) => {
-        new ExifImage({ image : path.resolve(file_path, new_img) }, (_err, exif_data) => {
-          const date = exif_data.exif ? exif_data.exif.DateTimeOriginal.replace(/^(\d{4}):(\d{2}):(\d{2}) /, "$1-$2-$3T") : '';
-          res(date);
-        });
+    // Images list from FS
+    const im_list_fs = fs.readdirSync(path.resolve(file_path, `./${image_table_key}`)).reduce((arr, imgid) => {
+      if (imgid === '.DS_Store') return arr;
+      fs.readdirSync(path.resolve(file_path, `./${image_table_key}/${imgid}`)).forEach((imgFile) => {
+        arr.push(`./${image_table_key}/${imgid}/${imgFile}`);
       });
+      return arr;
+    }, []);
 
-      const fid = ++max_img_id;
-      let ni_path = new_img;
-      if (!buf[poi_id]) buf[poi_id] = {
-        images: []
-      };
-      if (paths[3].match(/^PRIM\./)) {
-        paths[3] = paths[3].replace(/^PRIM\./, '');
-        ni_path = paths.join('/');
-        buf[poi_id].primary_image = fid;
+    // Check missing
+    for (let i = im_list_js.length - 1; i >= 0; i--) {
+      const im_js = im_list_js[i];
+      const fs_id = im_list_fs.indexOf(im_js);
+      if (fs_id >= 0) {
+        delete im_list_js[i];
+        delete im_list_fs[fs_id];
       }
-      if (paths[3].match(/\.jpe?g$/i)) {
-        paths[3] = paths[3].replace(/\.jpe?g$/i, '.jpg');
-        ni_path = paths.join('/');
-      }
+    }
 
-      const thumb_pathes = {};
-      thumb_pathes[original_attr_key] = ni_path;
-      await Promise.all(thumbnails.map(async (thumbnail) => {
-        const thumb_key = thumbnail[0];
-        const pixels = thumbnail[1];
-        thumb_pathes[thumb_key] = ni_path.replace(`./${image_table_key}`, `./${thumb_key}`);
-        await new Promise((resolve, reject) => {
-          try {
-            fs.statSync(path.resolve(file_path, thumb_pathes[thumb_key]));
-            resolve();
-          } catch (e) {
-            fs.ensureFileSync(path.resolve(file_path, thumb_pathes[thumb_key]));
-            Jimp.read(path.resolve(file_path, new_img), (err, jimp) => {
-              if (err) {
-                console.log('Error 2: ' + err.message);
-                reject(err);
-                return;
-              }
-              jimp
-                  .scaleToFit(pixels, pixels, Jimp.RESIZE_BICUBIC) // resize
-                  .write(path.resolve(file_path, thumb_pathes[thumb_key])); // save
-              resolve();
-            });
+    for (let i = im_list_fs.length - 1; i >= 0; i--) {
+      const im_fs = im_list_fs[i];
+      const js_id = im_list_js.indexOf(im_fs);
+      if (js_id >= 0) {
+        delete im_list_fs[i];
+        delete im_list_js[js_id];
+      }
+    }
+
+    const js_remains = im_list_js.filter(x=>x);
+    const fs_remains = im_list_fs.filter(x=>x).filter(x=>!x.match(/\.DS_Store$/));
+
+    if (!fs_remains.length) {
+      console.log('No new images.');
+    } else {
+      const new_imgs = await fs_remains.reduce(async (promise_buf, new_img) => {
+        console.log(new_img);
+        const buf = await promise_buf;
+        const paths = new_img.split("/");
+        const poi_id = parseInt(paths[2]);
+        const poi = mid_json[poi_table_key].reduce((prev, poi) => {
+          if (poi.fid === poi_id) return poi;
+          else return prev;
+        }, null);
+
+        const date = gdate ? gdate : await new Promise((res, _rej) => {
+          new ExifImage({ image : path.resolve(file_path, new_img) }, (_err, exif_data) => {
+            const date = exif_data && exif_data.exif && exif_data.exif.DateTimeOriginal ?
+              exif_data.exif.DateTimeOriginal.replace(/^(\d{4}):(\d{2}):(\d{2}) /, "$1-$2-$3T") : ndate;
+            res(date);
+          });
+        });
+
+        const fid = ++max_img_id;
+        let ni_path = new_img;
+        if (!buf[poi_id]) buf[poi_id] = {
+          images: []
+        };
+        const prim_prefix = new RegExp(`^${image_sort_prefix}`);
+        if (paths[3].match(prim_prefix)) {
+          paths[3] = paths[3].replace(prim_prefix, '');
+          ni_path = paths.join('/');
+          buf[poi_id][image_sort_topid] = fid;
+        }
+        if (paths[3].match(/\.jpe?g$/i)) {
+          paths[3] = paths[3].replace(/\.jpe?g$/i, '.jpg');
+          ni_path = paths.join('/');
+        }
+
+        const new_record = {};
+        new_record[original_attr_key] = ni_path;
+        new_record["fid"] = fid;
+        Object.keys(defaults).forEach((key) => {
+          const def = defaults[key];
+          if (def.match(/^(poi|info)\.(.+)$/)) {
+            const domain = RegExp.$1;
+            const type = RegExp.$2;
+            if (domain === 'poi') {
+              new_record[key] = poi[type];
+            } else {
+              new_record[key] = type === 'shooting_date' ? date : type === 'shooter' ? shooter : '';
+            }
+          } else {
+            new_record[key] = def;
           }
         });
-      }));
-      if (new_img !== path) {
-        fs.moveSync(path.resolve(file_path, new_img), path.resolve(file_path, ni_path));
-      }
+        await Promise.all(thumbnails.map(async (thumbnail) => {
+          const thumb_key = thumbnail[0];
+          const pixels = thumbnail[1];
+          new_record[thumb_key] = ni_path.replace(`./${image_table_key}`, `./${thumb_key}`);
+          await new Promise((resolve, reject) => {
+            try {
+              fs.statSync(path.resolve(file_path, new_record[thumb_key]));
+              resolve();
+            } catch (e) {
+              fs.ensureFileSync(path.resolve(file_path, new_record[thumb_key]));
+              Jimp.read(path.resolve(file_path, new_img), (err, jimp) => {
+                if (err) {
+                  console.log('Error 2: ' + err.message);
+                  reject(err);
+                  return;
+                }
+                jimp
+                  .scaleToFit(pixels, pixels, Jimp.RESIZE_BICUBIC) // resize
+                  .write(path.resolve(file_path, new_record[thumb_key])); // save
+                resolve();
+              });
+            }
+          });
+        }));
+        if (new_img !== ni_path) {
+          fs.moveSync(path.resolve(file_path, new_img), path.resolve(file_path, ni_path));
+        }
 
-      buf[poi_id].images.push(Object.assign({
-        fid,
-        poi: poi_id,
-        shooting_date: date,
-        shooter,
-        description: poi.name,
-        note: ''
-      }, thumb_pathes));
-      return buf;
-    }, Promise.resolve({}));
+        buf[poi_id].images.push(new_record);
+        return buf;
+      }, Promise.resolve({}));
 
-    Object.keys(new_imgs).forEach((poi_id_str) => {
-      const poi_id = parseInt(poi_id_str);
-      const poi = mid_json[poi_table_key].reduce((prev, poi) => {
-        if (poi.fid === poi_id) return poi;
-        else return prev;
-      }, null);
-      const new_poi = new_imgs[poi_id_str];
-      if (new_poi.primary_image) poi.primary_image = new_poi.primary_image;
-      else if (!poi.primary_image) poi.primary_image = new_poi.images[0].fid;
-      new_poi.images.forEach((image) => {
-        mid_json[image_table_key].push(image);
-      })
-    });
+      Object.keys(new_imgs).forEach((poi_id_str) => {
+        const poi_id = parseInt(poi_id_str);
+        const poi = mid_json[poi_table_key].reduce((prev, poi) => {
+          if (poi.fid === poi_id) return poi;
+          else return prev;
+        }, null);
+        const new_poi = new_imgs[poi_id_str];
+        if (new_poi[image_sort_topid]) poi[image_sort_topid] = new_poi[image_sort_topid];
+        else if (!poi[image_sort_topid]) poi[image_sort_topid] = new_poi.images[0].fid;
+        new_poi.images.forEach((image) => {
+          mid_json[image_table_key].push(image);
+        })
+      });
+    }
   }
 
   // Reflect to xlsx
@@ -239,51 +259,101 @@ module.exports = async function (fromXlsx) {
   });
 
   // Create merged geojson
-  gj[poi_table_key].features.forEach((poi) => {
-    const props = poi.properties;
-    const poiid = props.fid;
-
-    props.path = '';
-    props.mid_thumbs = '';
-    props.small_thumbs = '';
-
-    props[image_table_key] = gj[image_table_key].features.map(x => x.properties).filter((image) => {
-      return image.poi === poiid;
-    }).sort((a, b) => {
-      if (a.fid === props.primary_image) {
-        return -1;
-      } else if (b.fid === props.primary_image) {
-        return 1;
-      } else {
-        return 0;
-      }
-    }).map((image) => {
-      if (image.fid === props.primary_image) {
-        props.path = image.path;
-        props.mid_thumbs = image.mid_thumbs;
-        props.small_thumbs = image.small_thumbs;
-      }
-      const ret = Object.assign({}, image);
-      delete ret.poi;
-      delete ret.fid;
-      return ret;
+  // Link
+  table_keys.forEach((key) => {
+    const merge = tables[key].merge || {};
+    const link_ids = Object.keys(merge).filter(key => {
+      return merge[key].link;
     });
 
-    props.books = gj['refs'].features.map(x => x.properties).filter((ref) => {
-      return ref.poi === poiid;
-    }).map((ref) => {
-      const ret = Object.assign({}, ref);
-      const book = gj['books'].features.map(x => x.properties).reduce((prev, book) => {
-        return ref.book === book.fid ? book : prev;
-      }, undefined);
-      delete ret.poi;
-      delete ret.fid;
-      delete ret.book
-      ret.name = book.name;
-      ret.editor = book.editor;
-      ret.published_at = book.published_at;
-      ret.reference_type = book.reference_type;
-      return ret;
+    gj[key].features.map(feature => {
+      const props = feature.properties;
+
+      if (key === poi_table_key && image_table_key) {
+        props[original_attr_key] = '';
+        thumbnails.forEach((tmbs) => {
+          props[tmbs[0]] = '';
+        });
+      }
+
+      link_ids.forEach((lid) => {
+        const merge_setting = merge[lid];
+        const target = merge_setting.target || lid;
+        const parent_keys = Object.keys(merge_setting.link);
+        const child_keys = parent_keys.map((key) => { return merge_setting.link[key]; });
+        const multiple = merge_setting.multiple || false;
+        props[lid] = gj[target].features.map((feature_) => {
+          return feature_.properties;
+        }).reduce((prev, props_) => {
+          const flag = parent_keys.reduce((prev_, pkey, index) => {
+            const ckey = child_keys[index];
+            return prev_ && (props[pkey] === props_[ckey]);
+          }, true);
+          if (flag) {
+            if (multiple) {
+              prev.push(props_);
+              return prev;
+            } else {
+              return props_;
+            }
+          } else {
+            return prev;
+          }
+        }, multiple ? [] : {});
+        if (key === poi_table_key && target === image_table_key && multiple) {
+          props[lid] = props[lid].sort((a, b) => {
+            if (a.fid === props[image_sort_topid]) {
+              return -1;
+            } else if (b.fid === props[image_sort_topid]) {
+              return 1;
+            } else {
+              return 0;
+            }
+          });
+          const prim_image = props[lid][0];
+          if (prim_image) {
+            props[original_attr_key] = prim_image[original_attr_key];
+            thumbnails.forEach((tmbs) => {
+              props[tmbs[0]] = prim_image[tmbs[0]];
+            });
+          }
+        }
+      });
+    });
+  });
+
+  // Copy
+  table_keys.forEach((key) => {
+    const merge = tables[key].merge || {};
+    const copy_ids = Object.keys(merge).filter(key => {
+      return merge[key].copy;
+    });
+
+    gj[key].features.map(feature => {
+      const props = feature.properties;
+
+      copy_ids.forEach((cid) => {
+        merge[cid].copy.match(/^([^\.]+)\.(.+)$/);
+        const ctable = RegExp.$1;
+        const ctable_key = RegExp.$2;
+        props[cid] = props[ctable][ctable_key];
+      });
+    });
+  });
+
+  // Delete
+  table_keys.forEach((key) => {
+    const merge = tables[key].merge || {};
+    const del_ids = Object.keys(merge).filter(key => {
+      return merge[key].delete;
+    });
+
+    gj[key].features.map(feature => {
+      const props = feature.properties;
+
+      del_ids.forEach((did) => {
+        delete props[did];
+      });
     });
   });
 
