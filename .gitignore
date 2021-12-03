@@ -9,3 +9,4 @@ escape
 pois_*.geojson
 files_*.geojson
 images/*/description.json
+dist/torii.json

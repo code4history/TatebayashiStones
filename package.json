@@ -22,7 +22,7 @@
     "build_x2q_win": "pkg js/xlsx2Qgis.js --target=node16-win-x64 --output=dist/xlsx2Qgis_win.exe",
     "build_q2x_win": "pkg js/qgis2Xlsx.js --target=node16-win-x64 --output=dist/qgis2Xlsx_win.exe",
     "build_win": "npm run build_x2q_win && npm run build_q2x_win && npm run copy",
-    "copy": "cpx src/torii.json dist/torii.json"
+    "copy": "cpx js/torii.json dist"
   },
   "repository": {
     "type": "git",
