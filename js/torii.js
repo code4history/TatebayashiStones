@@ -445,5 +445,6 @@ function savingGeoJson(geojson) {
   });
   ret += "]\n";
   ret += "}";
+  ret = ret.replace(/\\r(\\n)?/g, "\\n");
   return ret;
 }
