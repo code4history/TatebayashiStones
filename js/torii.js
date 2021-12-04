@@ -222,7 +222,10 @@ module.exports = async function (fromXlsx) {
           fs.moveSync(path.resolve(file_path, new_img), path.resolve(file_path, ni_path));
         }
 
-        buf[poi_id].images.push(new_record);
+        buf[poi_id].images.push(tables[image_table_key].attrs.reduce((prev, attr) => {
+          prev[attr[0]] = new_record[attr[0]];
+          return prev;
+        }, {}));
         return buf;
       }, Promise.resolve({}));
 
