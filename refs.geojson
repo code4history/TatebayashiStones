@@ -1953,7 +1953,7 @@
 {"type":"Feature","properties":{"fid":1974,"book":5,"poi":1037,"description":"","note":"","pages":""},"geometry":null},
 {"type":"Feature","properties":{"fid":1975,"book":5,"poi":928,"description":"","note":"","pages":""},"geometry":null},
 {"type":"Feature","properties":{"fid":1976,"book":5,"poi":932,"description":"","note":"","pages":""},"geometry":null},
-{"type":"Feature","properties":{"fid":1977,"book":5,"poi":937,"description":"","note":"","pages":""},"geometry":null},
+{"type":"Feature","properties":{"fid":1977,"book":5,"poi":937,"description":"","note":"","pages":"137"},"geometry":null},
 {"type":"Feature","properties":{"fid":1978,"book":5,"poi":947,"description":"","note":"","pages":""},"geometry":null},
 {"type":"Feature","properties":{"fid":1979,"book":5,"poi":951,"description":"","note":"","pages":""},"geometry":null},
 {"type":"Feature","properties":{"fid":1980,"book":5,"poi":955,"description":"","note":"","pages":""},"geometry":null},
