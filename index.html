@@ -47,7 +47,7 @@
     <script src="./assets/L.Control.Locate.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
-    <script src="https://unpkg.com/chuquyuan@0.0.5/dist/chuquyuan.min.js"></script>
+    <script src="https://unpkg.com/quyuanjs@0.0.6/dist/quyuan.min.js"></script>
     <script src="./assets/popup_template.js"></script>
     <script src="./assets/icon_template.js"></script>
     <script src="./assets/twitter_Intent_url.js"></script>
@@ -100,7 +100,7 @@
       fetch(geoJson)
         .then(async (data) => data.json())
         .then((geojson) => {
-          return ChuQuyuan.templateExtractor({
+          return Quyuan.templateExtractor({
             geojson,
             templates: {
               pin: iconTemplate,
@@ -139,7 +139,7 @@
                   ":scope .swiper .swiper-slide"
                 ).length;
 
-                ChuQuyuan.createSwiper({ loop: slideCount > 1 });
+                Quyuan.createSwiper({ loop: slideCount > 1 });
               });
 
               marker.addTo(mymap);
