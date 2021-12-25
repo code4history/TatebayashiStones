@@ -10,6 +10,14 @@
 {"type":"Feature","properties":{"fid":6,"name":"大島田谷千塚の石仏等の文化財","editor":"落合敏男・小林一吉編","published_at":"1972","reference_type":"page"},"geometry":null},
 {"type":"Feature","properties":{"fid":7,"name":"たてばやしの野仏めぐり（その二） 赤生田、羽附の石仏","editor":"館林地方史研究会編","published_at":"1973","reference_type":"page"},"geometry":null},
 {"type":"Feature","properties":{"fid":8,"name":"館林市誌 歴史編","editor":"館林市誌編集委員会編","published_at":"1969","reference_type":"page"},"geometry":null},
-{"type":"Feature","properties":{"fid":9,"name":"広報館林","editor":"館林市","published_at":"monthly","reference_type":"journal"},"geometry":null}
+{"type":"Feature","properties":{"fid":9,"name":"広報館林","editor":"館林市","published_at":"monthly","reference_type":"journal"},"geometry":null},
+{"type":"Feature","properties":{"fid":10,"name":"文化財総合調査 館林市の民俗 たてばやしの民俗","editor":"館林市教育委員会","published_at":"1999","reference_type":"page"},"geometry":null},
+{"type":"Feature","properties":{"fid":11,"name":"文化財総合調査 館林市の民俗 あかばねの民俗","editor":"館林市教育委員会","published_at":"1981","reference_type":"page"},"geometry":null},
+{"type":"Feature","properties":{"fid":12,"name":"文化財総合調査 館林市の民俗 ろくごうの民俗","editor":"館林市教育委員会","published_at":"1990","reference_type":"page"},"geometry":null},
+{"type":"Feature","properties":{"fid":13,"name":"文化財総合調査 館林市の民俗 おおしまの民俗","editor":"館林市教育委員会","published_at":"1987","reference_type":"page"},"geometry":null},
+{"type":"Feature","properties":{"fid":14,"name":"館林市の民俗 わたらせの民俗","editor":"館林地方史研究会","published_at":"1977","reference_type":"page"},"geometry":null},
+{"type":"Feature","properties":{"fid":15,"name":"文化財総合調査 館林市の民俗 みのやの民俗","editor":"館林市教育委員会","published_at":"1985","reference_type":"page"},"geometry":null},
+{"type":"Feature","properties":{"fid":16,"name":"文化財総合調査 館林市の民俗 たたらの民俗","editor":"館林市教育委員会","published_at":"1988","reference_type":"page"},"geometry":null},
+{"type":"Feature","properties":{"fid":17,"name":"文化財総合調査 館林市の民俗 さとやの民俗","editor":"館林市教育委員会","published_at":"1992","reference_type":"page"},"geometry":null}
 ]
 }
