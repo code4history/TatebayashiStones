@@ -21,7 +21,7 @@ iconTemplate = `
   {%- set width = 32 -%}
 {%- endif -%}
 
-{%- if status.match("消失") -%}
+{%- if status and status.match("消失") -%}
   {%- set iconUrl = iconUrl + "_sepia" -%}
   {%- set height = 36 -%}
   {%- set width = (width * 24) / 32 -%}
