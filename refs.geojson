@@ -2118,6 +2118,7 @@
 {"type":"Feature","properties":{"fid":2143,"book":9,"poi":1768,"description":"","note":"","pages":"Aug-20"},"geometry":null},
 {"type":"Feature","properties":{"fid":2144,"book":9,"poi":1772,"description":"","note":"","pages":"Sep-19"},"geometry":null},
 {"type":"Feature","properties":{"fid":2145,"book":9,"poi":1777,"description":"","note":"","pages":"Jul-17"},"geometry":null},
-{"type":"Feature","properties":{"fid":2146,"book":9,"poi":1795,"description":"","note":"","pages":"Jul-16"},"geometry":null}
+{"type":"Feature","properties":{"fid":2146,"book":9,"poi":1795,"description":"","note":"","pages":"Jul-16"},"geometry":null},
+{"type":"Feature","properties":{"fid":2147,"book":5,"poi":1849,"description":null,"note":null,"pages":"78"},"geometry":null}
 ]
 }
