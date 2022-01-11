@@ -1,60 +1,65 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
-    />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    />
-    <link
-      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/L.Control.Locate.min.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/L.Control.Locate.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="image/png" sizes="196x196" href="icons/favicon-196.png">
+    <link rel="apple-touch-icon" href="icons/apple-icon-180.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-2732.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2732-2048.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2388.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2388-1668.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1536-2048.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2048-1536.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1668-2224.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2224-1668.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1620-2160.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2160-1620.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1284-2778.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2778-1284.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1170-2532.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2532-1170.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1125-2436.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2436-1125.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2688.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2688-1242.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-828-1792.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1792-828.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1242-2208.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-2208-1242.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-750-1334.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1334-750.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-640-1136.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="icons/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
   </head>
   <body>
     <div id="mapid"></div>
-
     <div id="panorama-container">
       <div class="close">
         <i class="fa fa-times" aria-hidden="true"></i>
       </div>
       <div id="viewer"></div>
     </div>
-
-    <a
-      class="github-fork-ribbon"
-      href="https://github.com/code4history/TatebayashiStones"
-      data-ribbon="Fork me on GitHub"
-      title="Fork me on GitHub"
-      >Fork me on GitHub</a
-    >
-
+    <a class="github-fork-ribbon" href="https://github.com/code4history/TatebayashiStones" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
-    <script src="./assets/L.Control.Locate.js"></script>
+    <script src="assets/L.Control.Locate.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
     <script src="https://unpkg.com/quyuanjs@0.0.6/dist/quyuan.min.js"></script>
-    <script src="./assets/popup_template.js"></script>
-    <script src="./assets/icon_template.js"></script>
-    <script src="./assets/twitter_Intent_url.js"></script>
-    <script src="./assets/oms.min.js"></script>
+    <script src="assets/popup_template.js"></script>
+    <script src="assets/icon_template.js"></script>
+    <script src="assets/twitter_Intent_url.js"></script>
+    <script src="assets/oms.min.js"></script>
     <script>
       const accessToken =
-          "pk.eyJ1IjoicmVraXNoaWtva3VkbyIsImEiOiJjazRoMmF3dncwODU2M2ttdzI2aDVqYXVwIn0.8Hb9sekgjfck6Setxk5uVg";
+        "pk.eyJ1IjoicmVraXNoaWtva3VkbyIsImEiOiJjazRoMmF3dncwODU2M2ttdzI2aDVqYXVwIn0.8Hb9sekgjfck6Setxk5uVg";
       const style = "mapbox://styles/moritoru/ck4s6w8bd0sb51cpp9vn7ztty";
       const latLng = [36.2461984, 139.5278149];
       const zoom = 15;
@@ -62,31 +67,25 @@
       const maxZoom = 21;
       const twitInit = `\n==\n* 上下の==の間を消して説明を投稿してください、その外は修正しないでください\n* 添付された写真はCreative Commons 4.0 BY-SAの条件で誰でも使えるオープンデータになることを了承されたものとみなします\n==\n`;
       const hashTags = ['館林石仏'];
-
-      const geoJson = "./tatebayashi_stones.geojson";
-
+      const geoJson = "tatebayashi_stones.geojson";
       const mymap = L.map("mapid", {
         maxZoom: maxZoom,
       }).setView(latLng, zoom);
-
       const roundDec = (val, level) => {
-        const powVal = Math.pow( 10, level );
-        return Math.round( val * powVal ) / powVal;
+        const powVal = Math.pow(10, level);
+        return Math.round(val * powVal) / powVal;
       };
-
       L.mapboxGL({
         accessToken: accessToken,
         style: style,
         maxZoom: maxZoom,
         minZoom: minZoom,
       }).addTo(mymap);
-
       L.control
         .locate({
           icon: "fa fa-crosshairs",
         })
         .addTo(mymap);
-
       // see here: https://github.com/Fallstop/OverlappingMarkerSpiderfier-Leaflet#construction
       const oms = new OverlappingMarkerSpiderfier(mymap, L, {
         keepSpiderfied: true,
@@ -96,7 +95,6 @@
       let lastClickedMarkerOriginalLatlng = null;
       let isEditingMarker = false;
       let spiderfyStatus = false;
-
       fetch(geoJson)
         .then(async (data) => data.json())
         .then((geojson) => {
@@ -118,14 +116,12 @@
               const iconUrl = icons[0];
               const width = parseInt(icons[1]);
               const height = parseInt(icons[2]);
-
               const iconOptions = {
                 iconUrl,
                 iconSize: [width, height],
                 iconAnchor: [width / 2, height],
                 popupAnchor: [0, -1 * height],
               };
-
               // source file coordinates are ordered by lnglat, but should be latlng.
               const marker = L.marker(feature.geometry.coordinates.reverse(), {
                 icon: L.icon(iconOptions),
@@ -138,27 +134,24 @@
                 const slideCount = document.querySelectorAll(
                   ":scope .swiper .swiper-slide"
                 ).length;
-
-                Quyuan.createSwiper({ loop: slideCount > 1 });
+                Quyuan.createSwiper({
+                  loop: slideCount > 1
+                });
               });
-
               marker.addTo(mymap);
               oms.addMarker(marker);
             }
           });
         });
-
       oms.addListener("spiderfy", (markers) => {
         spiderfyStatus = true;
         mymap.closePopup();
       });
-
       oms.addListener("unspiderfy", (markers) => {
         setTimeout(() => {
           spiderfyStatus = false;
         }, 100)
       });
-
       const hiddenMarkers = () => {
         mymap.eachLayer((layer) => {
           if (layer.options.icon instanceof L.Icon) {
@@ -167,7 +160,6 @@
           }
         });
       };
-
       const visibleMarkers = () => {
         mymap.eachLayer((layer) => {
           if (layer._hiddenForApplyPoi) {
@@ -176,7 +168,6 @@
           }
         });
       };
-
       let newMarker = null;
       const removeNewMarker = () => {
         if (newMarker) {
@@ -184,16 +175,12 @@
           newMarker = null;
         }
       };
-
       const prepareEditMarker = (poiId) => {
         const ok = window.confirm("POIの修正提案を行いますか？");
         if (!ok) return;
-
         const proposeMovingPosition =
           window.confirm("POIの位置も修正しますか？");
-
         lastClickedMarker.closePopup();
-
         if (!proposeMovingPosition) {
           const text = `POI ID: ${poiId} ${twitInit}`;
           const href = createTwitterIntentUrl({
@@ -211,7 +198,6 @@
           lastClickedMarker.getElement().style.visibility = "visible";
           oms.removeMarker(lastClickedMarker);
           lastClickedMarker.dragging.enable();
-
           lastClickedMarker.on("dragend", () => {
             const latlng = lastClickedMarker.getLatLng();
             const text =
@@ -228,8 +214,6 @@
           isEditingMarker = true;
         }
       };
-
-
       const proposeEditedMarker = () => {
         lastClickedMarker.closePopup();
         lastClickedMarker.dragging.disable();
@@ -241,7 +225,6 @@
         oms.addMarker(lastClickedMarker);
         visibleMarkers();
       };
-
       mymap.on("click", (e) => {
         if (spiderfyStatus) return;
         const ok = window.confirm(
@@ -249,7 +232,6 @@
         );
         if (!ok) return;
         hiddenMarkers();
-
         const createContent = (latlng) => {
           const text = `緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)} ${twitInit}`;
           const href = createTwitterIntentUrl({
@@ -261,7 +243,6 @@
           const content = `緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)} ${aTag}`;
           return content;
         };
-
         newMarker = L.marker(e.latlng, {
           draggable: true,
         }).bindPopup(createContent(e.latlng));
