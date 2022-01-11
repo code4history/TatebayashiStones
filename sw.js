@@ -14,7 +14,7 @@ workbox.navigationPreload.enable();
 // frequently updated resources
 workbox.routing.registerRoute(
     new RegExp('tatebayashi_stones.geojson'),
-    workbox.strategies.networkFirst({
+    new workbox.strategies.NetworkFirst({
         cacheName: 'fetch-objects-cache',
     }),
     'GET'
@@ -42,7 +42,7 @@ workbox.precaching.precacheAndRoute([
     // js
     'https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js',
     'https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js',
-    'https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js',
+    'assets/leaflet-mapbox-gl.js',
     'https://unpkg.com/quyuanjs@0.0.6/dist/quyuan.min.js',
     'assets/popup_template.js',
     'assets/icon_template.js',
@@ -57,6 +57,5 @@ workbox.precaching.precacheAndRoute([
     'assets/L.Control.Locate.min.css',
     'assets/style.css',
     // other
-    'https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png',
     'manifest.json'
 ]);
