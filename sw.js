@@ -57,5 +57,6 @@ workbox.precaching.precacheAndRoute([
     'assets/L.Control.Locate.min.css',
     'assets/style.css',
     // other
+    'https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png',
     'manifest.json'
 ]);
