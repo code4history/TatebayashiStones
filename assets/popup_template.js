@@ -18,13 +18,7 @@ popupHtmlTemplate += `{% if images.length > 0 %}
     <div class="swiper-wrapper">
       {%- for image in images %}
           <div class="swiper-slide">
-            {%- if image.panorama_image %}
-              <img src="{{ image.path | safe }}" onclick="ChuQuyuan.openPanorama('{{ image.path | safe }}');" class="panorama">
-            {% else %}
-              <a href="{{ image.path | safe }}" target="_blank">
-                <img src="{{ image.small_thumbs | safe }}">
-              </a>
-            {% endif %}
+            <img src="{{ image.path | safe }}" onclick="Quyuan.openViewer('{{ image.path | safe }}');" class="viewer">
           </div>
       {% endfor %}
       </div>
