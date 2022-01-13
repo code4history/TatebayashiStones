@@ -38,7 +38,7 @@ workbox.routing.registerRoute(
 // ------------------  precaching the assets ---------------------
 workbox.precaching.precacheAndRoute([
   // html
-  {'revision':'20220113', 'url':'index.html'},
+  {'revision':'2022011302', 'url':'index.html'},
   // js
   {'revision':'20220113', 'url':'https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js'},
   {'revision':'20220113', 'url':'https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'},

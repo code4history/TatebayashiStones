@@ -117,6 +117,8 @@
           });
         })
         .then((geojson) => {
+          const confirmed = L.layerGroup([]);
+          const nonconfirmed = L.layerGroup([]);
           Quyuan.setUpModalForViewer("modalbase");
           geojson.features.forEach((feature) => {
             if (feature.geometry) {
@@ -146,10 +148,17 @@
                   loop: slideCount > 1
                 });
               });
-              marker.addTo(mymap);
+              marker.addTo(feature.properties.confirmed ? confirmed : nonconfirmed);
               oms.addMarker(marker);
             }
           });
+          L.control.layers(null, {
+            "現況確認済み": confirmed,
+            "未確認(情報募集中)": nonconfirmed
+          }, {
+            position: "bottomright"
+          }).addTo(mymap);
+          confirmed.addTo(mymap);
         });
       oms.addListener("spiderfy", (markers) => {
         spiderfyStatus = true;
