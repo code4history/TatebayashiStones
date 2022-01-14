@@ -1,0 +1,179 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2 {
+  font-weight: 400;
+  margin: .6em 0;
+}
+
+img.represent {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.leaflet-popup-content {
+  margin: 9px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 6px;
+  min-width: auto;
+}
+
+.leaflet-popup-content {
+  border-radius: 6px;
+  min-width: 400px !important;
+  max-width: 500px !important;
+  max-height: 600px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .leaflet-popup-content {
+    min-width: 300px !important;
+    max-width: 400px !important;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .leaflet-popup-content {
+    max-height: 400px;
+  }
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.child {
+  width: calc(50% - 10px);
+  margin: 5px;
+}
+
+.child:before {
+  content:"";
+  display: block;
+  padding-top: 100%;
+}
+
+.child div {
+  margin-top: -100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.child div img {
+  max-height: 100%;
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+#poipane {
+  position: fixed;
+  text-align: left;
+  overflow: auto;
+}
+
+#poipane .poipane-content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 9px;
+  line-height: 1.4;
+}
+
+#poipane .poipane-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px 4px 0 0;
+  border: none;
+  text-align: center;
+  width: 18px;
+  height: 14px;
+  font: 16px/14px Tahoma, Verdana, sans-serif;
+  color: #c3c3c3;
+  text-decoration: none;
+  font-weight: bold;
+  background: transparent;
+}
+
+#mapid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1170px) {
+  #poipane {
+    top: 0;
+    bottom: 0;
+    width: 30%;
+    height: 100%;
+  }
+  .open #poipane {
+    left: 0%;
+    transition: 0.5s all ease;
+  }
+
+  .open #mapid {
+    left: 30%;
+    transition: 0.5s all ease;
+  }
+
+  .close #poipane {
+    left: -30%;
+    transition: 0.5s all ease;
+  }
+
+  .close #mapid {
+    left: 0;
+    transition: 0.5s all ease;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  #poipane {
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30%;
+  }
+
+  .open #poipane {
+    bottom: 0%;
+    transition: 0.5s all ease;
+  }
+
+  .open #mapid {
+    bottom: 30%;
+    transition: 0.5s all ease;
+  }
+
+  .close #poipane {
+    bottom: -30%;
+    transition: 0.5s all ease;
+  }
+
+  .close #mapid {
+    bottom: 0%;
+    transition: 0.5s all ease;
+  }
+}
