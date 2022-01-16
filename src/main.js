@@ -42,10 +42,13 @@ const oms = new OverlappingMarkerSpiderfier(mymap, L, {
   keepSpiderfied: true,
 });
 let lastClickedMarker = null;
-let lastClickedMarkerOriginalPopupContent = null;
 let lastClickedMarkerOriginalLatlng = null;
 let isEditingMarker = false;
 let spiderfyStatus = false;
+let editedTweet = false;
+let layerControl;
+let newEditMarker;
+
 fetch(geoJson)
   .then(async (data) => data.json())
   .then((geojson) => {
@@ -67,17 +70,7 @@ fetch(geoJson)
     const container = document.querySelector('#container');
     const pane = container.querySelector("#poipane");
     const close_button = pane.querySelector(".poipane-close-button");
-    const poi_content = pane.querySelector(".poipane-content");
-    close_button.addEventListener("click", () => {
-      container.classList.toggle('open');
-      container.classList.toggle('close');
-      container.classList.add('transition');
-      setTimeout(() => {
-        container.classList.remove('transition');
-        mymap.invalidateSize();
-      }, 100);
-      poi_content.innerHTML = "";
-    });
+    close_button.addEventListener("click", closePoiPane);
     geojson.features.forEach((feature) => {
       if (feature.geometry) {
         const icons = feature.result.pin.split(',');
@@ -100,7 +93,7 @@ fetch(geoJson)
         oms.addMarker(marker);
       }
     });
-    const newMarker = L.marker(latLng, {
+    newEditMarker = L.marker(latLng, {
       icon: L.icon({
         iconUrl: './assets/new.png',
         iconSize: [32, 44],
@@ -109,40 +102,23 @@ fetch(geoJson)
       })
     });
 
-    newMarker.on('remove', () => {
-      newMarker.setLatLng(mymap.getCenter());
+    newEditMarker.addEventListener('remove', () => {
+      newEditMarker.setLatLng(mymap.getCenter());
     });
-    mymap.on('moveend',() => {
-      if (!mymap.hasLayer(newMarker)) {
-        newMarker.setLatLng(mymap.getCenter());
-      }
+    newEditMarker.once("click", () => {
+      preparePoiPane();
     });
-    oms.addListener("click", (marker) => {
-      poi_content.innerHTML = marker.html;
-      container.classList.add('open');
-      container.classList.remove('close');
-      container.classList.add('transition');
-      setTimeout(() => {
-        container.classList.remove('transition');
-        mymap.invalidateSize();
-        mymap.panTo(marker.getLatLng());
-      }, 100);
 
-      if (!isEditingMarker) {
-        lastClickedMarker = marker;
-        lastClickedMarkerOriginalLatlng = marker.getLatLng();
+    mymap.on('moveend',() => {
+      if (!mymap.hasLayer(newEditMarker)) {
+        newEditMarker.setLatLng(mymap.getCenter());
       }
-      const slideCount = document.querySelectorAll(
-        ":scope .swiper .swiper-slide"
-      ).length;
-      Quyuan.createSwiper({
-        loop: slideCount > 1
-      });
     });
-    L.control.layers(null, {
+    oms.addListener("click", preparePoiPane);
+    layerControl = L.control.layers(null, {
       "現況確認済み": confirmed,
       "未確認(情報募集中)": nonconfirmed,
-      "新規報告ピン表示": newMarker
+      "新規報告ピン表示": newEditMarker
     }, {
       position: "bottomright"
     }).addTo(mymap);
@@ -173,128 +149,178 @@ const visibleMarkers = () => {
     }
   });
 };
-let newMarker = null;
-const removeNewMarker = () => {
-  if (newMarker) {
-    mymap.removeLayer(newMarker);
-    newMarker = null;
-  }
-};
+
 const prepareEditMarker = (poiId, name) => {
-  const poi_div = document.querySelector(".poi");
+  const poi_div = document.querySelector("#poipane");
   const report_link = poi_div.querySelector(".report-link");
-  const report_form = poi_div.querySelector(".report-form");
-  //const ok = window.confirm("POIの修正提案を行いますか？");
-  //if (!ok) return;
-  //const proposeMovingPosition =
-  //  window.confirm("POIの位置も修正しますか？");
-  //lastClickedMarker.closePopup();
-  //if (!proposeMovingPosition) {
-  //  const text = `POI ID: ${poiId} ${twitInit}`;
-  //  const href = createTwitterIntentUrl({
-  //    text,
-  //    //url: "https://code4history.dev/TatebayashiStones/",
-  //    hashtags: hashTags,
-  //  });
-  //  window.open(href, "_blank", "noreferrer");
-  //} else {
+  const report_form = poi_div.querySelector(".report-form") || poi_div.querySelector(".poipane-content");
+  if (report_link) {
     report_link.classList.add("hide");
-    report_form.innerHTML = `<h3>修正提案フォーム</h3>
-      <ul>
-      <li>修正提案フォームはTwitterを通じて報告されます。</li>
-      <li>修正内容の詳細をテキストエリアに入力し、報告ボタンを押してTwitterを起動して報告してください。Twitter起動後は、万一の文字数オーバーなどがない限り、内容を修正しないでください。</li>
-      <li>位置の修正を行う場合はピンをドラッグして位置を修正してください。自動でTwitter投稿に新しい経緯度が付与されます。</li>
-      <li>画像の添付はTwitter起動後、Twitter投稿に添付してください。添付した画像は、Creative Commons 4.0 BY-SAの条件で誰でも使えるオープンデータになることを了承されたものとみなします。</li>
-      </ul>
-      <span class="span-report">POI ID: ${poiId}<br>${name} #${hashTags[0]}</span><br>
-      <textarea class="text-report"></textarea><br>
-      <span class="report-number"></span><button class="twit-submit">投稿</button>`;
-    const textReport = poi_div.querySelector(".text-report");
-    textReport.addEventListener("keyup", updateReportNumber);
-    textReport.addEventListener("change", updateReportNumber);
-    textReport.addEventListener("compositionupdate", updateReportNumber);
-    updateReportNumber();
-
-    oms.unspiderfy();
-    hiddenMarkers();
-    //lastClickedMarkerOriginalPopupContent = lastClickedMarker
-    //  .getPopup()
-    //  .getContent();
-    lastClickedMarker.getElement().style.visibility = "visible";
-    oms.removeMarker(lastClickedMarker);
-    lastClickedMarker.dragging.enable();
-
-    lastClickedMarker.on("dragend", () => {
-      updateMarkerMove(poiId, name, lastClickedMarker);
-      const latlng = lastClickedMarker.getLatLng();
-      const text =
-        `POI ID: ${poiId}\n${name} #${hashTags[0]}\n緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)} ${twitInit}`;
-      const href = createTwitterIntentUrl({
-        text,
-        //url: "https://code4history.dev/TatebayashiStones/",
-        hashtags: hashTags,
-      });
-      const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="proposeEditedMarker();">Twitterで投稿する</a>`;
-      const content = `POI ID: ${poiId}, 緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)}<br>${aTag}`;
-      lastClickedMarker.setPopupContent(content);
+  }
+  const title_part = poiId ? "修正提案" : "新規報告";
+  let latlng;
+  if (!poiId) {
+    latlng = newEditMarker.getLatLng();
+  }
+  report_form.innerHTML = `<h3>${title_part}フォーム</h3>
+    <ul>
+    <li>${title_part}フォームはTwitterを通じて報告されます。</li>
+    <li>${title_part}の詳細をテキストエリアに入力し、報告ボタンを押してTwitterを起動して報告してください。Twitter起動後は、万一の文字数オーバーなどがない限り、内容を修正しないでください。</li>
+    <li>位置の修正を行う場合はピンをドラッグして位置を修正してください。自動でTwitter投稿に新しい経緯度が付与されます。</li>
+    <li>画像の添付はTwitter起動後、Twitter投稿に添付してください。添付した画像は、Creative Commons 4.0 BY-SAの条件で誰でも使えるオープンデータになることを了承されたものとみなします。</li>
+    </ul>
+    <span class="span-report">${poiId ? `POI ID: ${poiId}<br>${name}` : "新規報告"} #${hashTags[0]}${
+      poiId ? "" : `<br>緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)}`
+    }</span><br>
+    <textarea class="text-report"></textarea><br>
+    <span class="report-number"></span><br>
+    <button class="twit-submit">投稿</button> <button class="twit-cancel">キャンセル</button><br><br>`;
+  const textReport = poi_div.querySelector(".text-report");
+  const twitSubmit = poi_div.querySelector(".twit-submit");
+  const twitCancel = poi_div.querySelector(".twit-cancel");
+  twitSubmit.addEventListener("click", () => {
+    const tweet = getWillTweetText();
+    const href = createTwitterIntentUrl({
+      text: tweet,
     });
-    isEditingMarker = true;
-  //}
+    window.open(href, "_blank", "noreferrer");
+    editedTweet = false;
+    closeTweetForm(poiId);
+  });
+  twitCancel.addEventListener("click", () => {
+    closeTweetForm(poiId);
+  });
+  textReport.addEventListener("keyup", updateReportNumber);
+  textReport.addEventListener("change", updateReportNumber);
+  textReport.addEventListener("compositionupdate", updateReportNumber);
+  updateReportNumber();
+  editedTweet = false;
+
+  oms.unspiderfy();
+  hiddenMarkers();
+  lastClickedMarker.getElement().style.visibility = "visible";
+  oms.removeMarker(lastClickedMarker);
+  lastClickedMarker.dragging.enable();
+  mymap.removeControl(layerControl);
+
+  lastClickedMarker.on("dragend", () => {
+    updateMarkerMove(poiId, name, lastClickedMarker);
+  });
+  isEditingMarker = true;
 };
+
 const updateMarkerMove = (poiId, name, marker) => {
   const latlng = marker.getLatLng();
-  const text = `POI ID: ${poiId}\n${name} #${hashTags[0]}\n緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)}`;
-  const spanReport = document.querySelector(".report-form .span-report");
+  const text = `${poiId ? `POI ID: ${poiId}\n${name}` : "新規報告"} #${hashTags[0]}\n緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)}`;
+  const spanReport = document.querySelector("#poipane .span-report");
   spanReport.innerText = text;
   updateReportNumber();
 };
+
 const updateReportNumber = () => {
-  const spanReport = document.querySelector(".report-form .span-report");
-  const textReport = document.querySelector(".report-form .text-report");
-  const reportNumber = document.querySelector(".report-form .report-number");
+  editedTweet = true;
+  const reportNumber = document.querySelector("#poipane .report-number");
+  const twitSubmit = document.querySelector("#poipane .twit-submit");
+  const reportAll = getWillTweetText();
+  const parseResult = twttr.txt.parseTweet(reportAll);
+  reportNumber.innerText = `残り ${280 - parseResult.weightedLength} 文字`;
+  if (parseResult.valid) {
+    reportNumber.classList.remove("red");
+    twitSubmit.disabled = false;
+  } else {
+    reportNumber.classList.add("red");
+    twitSubmit.disabled = true;
+  }
+};
+
+const getWillTweetText = () => {
+  const spanReport = document.querySelector("#poipane .span-report");
+  const textReport = document.querySelector("#poipane .text-report");
   const spanText = spanReport.innerText;
   const textText = textReport.value;
-  const reportAll = `${spanText}\n${textText}`;
-  const parseResult = twttr.txt.parseTweet(reportAll);
-  console.log(reportAll);
-  reportNumber.innerText = `${parseResult.weightedLength} ${parseResult.valid}`;
+  return `${spanText}\n${textText}`;
 };
+
 const proposeEditedMarker = () => {
-  lastClickedMarker.closePopup();
   lastClickedMarker.dragging.disable();
-  lastClickedMarker.setPopupContent(
-    lastClickedMarkerOriginalPopupContent
-  );
-  lastClickedMarker.setLatLng(lastClickedMarkerOriginalLatlng);
+  if (lastClickedMarkerOriginalLatlng) {
+    lastClickedMarker.setLatLng(lastClickedMarkerOriginalLatlng);
+  }
   isEditingMarker = false;
-  oms.addMarker(lastClickedMarker);
-  visibleMarkers();
-};
-mymap.on("click", (e) => {
-  if (spiderfyStatus) return;
-  const ok = window.confirm(
-    "POIの新規申請を行いますか？\nOKをクリックすると、マーカーが生成されるので任意の地点にドラッグして動かし、マーカーをクリックしたのち申請してください。"
-  );
-  if (!ok) return;
-  hiddenMarkers();
-  const createContent = (latlng) => {
-    const text = `緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)} ${twitInit}`;
-    const href = createTwitterIntentUrl({
-      text,
-      //url: "https://code4history.dev/TatebayashiStones/",
-      hashtags: hashTags,
+  editedTweet = false;
+  if (lastClickedMarker !== newEditMarker) {
+    oms.addMarker(lastClickedMarker);
+  } else {
+    newEditMarker.once("click", () => {
+      preparePoiPane();
     });
-    const aTag = `<a href="${href}" target="_blank" rel="noreferrer" onclick="visibleMarkers();removeNewMarker();">Twitterで投稿する</a>`;
-    const content = `緯度:${roundDec(latlng.lat,7)}, 経度:${roundDec(latlng.lng,7)} ${aTag}`;
-    return content;
-  };
-  newMarker = L.marker(e.latlng, {
-    draggable: true,
-  }).bindPopup(createContent(e.latlng));
-  newMarker.on("dragend", () => {
-    const newLatlng = newMarker.getLatLng();
-    const newContent = createContent(newLatlng);
-    newMarker.setPopupContent(newContent);
-  });
-  newMarker.addTo(mymap);
-});
+  }
+  visibleMarkers();
+  mymap.addControl(layerControl);
+};
+
+const closePoiPane = () => {
+  if (isEditingMarker && editedTweet && !window.confirm("投稿内容が更新されています。キャンセルしてよいですか？")) return;
+
+  const container = document.querySelector('#container');
+  const pane = container.querySelector("#poipane");
+  const poi_content = pane.querySelector(".poipane-content");
+  container.classList.toggle('open');
+  container.classList.toggle('close');
+  container.classList.add('transition');
+  setTimeout(() => {
+    container.classList.remove('transition');
+    mymap.invalidateSize();
+  }, 100);
+  poi_content.innerHTML = "";
+  if (isEditingMarker) proposeEditedMarker();
+}
+
+const closeTweetForm = (poiId) => {
+  if (editedTweet && !window.confirm("投稿内容が更新されています。キャンセルしてよいですか？")) return;
+
+  if (poiId) {
+    const poi_div = document.querySelector(".poi");
+    const report_link = poi_div.querySelector(".report-link");
+    const report_form = poi_div.querySelector(".report-form");
+    report_link.classList.remove("hide");
+    report_form.innerHTML = "";
+  }
+  proposeEditedMarker();
+  if (!poiId) {
+    closePoiPane();
+  }
+}
+
+const preparePoiPane = (marker) => {
+  const container = document.querySelector('#container');
+  const pane = container.querySelector("#poipane");
+  const poi_content = pane.querySelector(".poipane-content");
+
+  poi_content.innerHTML = marker ? marker.html : "";
+  container.classList.add('open');
+  container.classList.remove('close');
+  container.classList.add('transition');
+  setTimeout(() => {
+    container.classList.remove('transition');
+    mymap.invalidateSize();
+    if (marker) {
+      mymap.panTo(marker.getLatLng());
+    }
+  }, 100);
+
+  if (!isEditingMarker) {
+    lastClickedMarker = marker || newEditMarker;
+    lastClickedMarkerOriginalLatlng = marker ? marker.getLatLng() : null;
+  }
+  if (marker) {
+    const slideCount = document.querySelectorAll(
+      ":scope .swiper .swiper-slide"
+    ).length;
+    Quyuan.createSwiper({
+      loop: slideCount > 1
+    });
+  } else {
+    prepareEditMarker();
+  }
+};
