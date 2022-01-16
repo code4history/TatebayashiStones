@@ -7,6 +7,7 @@ iconTemplate = `
 
 {%- if type.match("地蔵菩薩像") -%}
   {%- set iconUrl = "jizo" -%}
+  {%- set width = 23 -%}
 {%- elif type.match("その他仏像") or type.match("明王像") or type.match("菩薩像") or type.match("如来像") -%}
   {%- set iconUrl = "hotoke" -%}
   {%- set width = 29 -%}
