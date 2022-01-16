@@ -204,3 +204,21 @@ img.represent {
 .red {
   color: red;
 }
+
+.button {
+  display: inline-block;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  padding: 6px 6px;
+  background: #999999;
+  color: #000000;
+  line-height: 1em;
+  opacity: 1;
+  transition: .3s;
+  box-shadow: 2px 2px 3px #666666;
+}
+.button:hover {
+  box-shadow: none;
+  opacity: 0.8;
+}

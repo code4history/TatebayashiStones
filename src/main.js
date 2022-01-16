@@ -48,6 +48,8 @@ let spiderfyStatus = false;
 let editedTweet = false;
 let layerControl;
 let newEditMarker;
+let currentTwitSubmitter;
+let currentTwitCanceller;
 
 fetch(geoJson)
   .then(async (data) => data.json())
@@ -174,11 +176,9 @@ const prepareEditMarker = (poiId, name) => {
     }</span><br>
     <textarea class="text-report"></textarea><br>
     <span class="report-number"></span><br>
-    <button class="twit-submit">投稿</button> <button class="twit-cancel">キャンセル</button><br><br>`;
+    <a href="#" class="button twit-submit" onclick="currentTwitSubmitter();">投稿</a> <a href="#" class="button twit-cancel" onclick="currentTwitCanceller();">キャンセル</a><br><br>`;
   const textReport = poi_div.querySelector(".text-report");
-  const twitSubmit = poi_div.querySelector(".twit-submit");
-  const twitCancel = poi_div.querySelector(".twit-cancel");
-  twitSubmit.addEventListener("click", () => {
+  currentTwitSubmitter = () => {
     const tweet = getWillTweetText();
     const href = createTwitterIntentUrl({
       text: tweet,
@@ -186,10 +186,10 @@ const prepareEditMarker = (poiId, name) => {
     window.open(href, "_blank", "noreferrer");
     editedTweet = false;
     closeTweetForm(poiId);
-  });
-  twitCancel.addEventListener("click", () => {
+  };
+  currentTwitCanceller = () => {
     closeTweetForm(poiId);
-  });
+  };
   textReport.addEventListener("keyup", updateReportNumber);
   textReport.addEventListener("change", updateReportNumber);
   textReport.addEventListener("compositionupdate", updateReportNumber);
