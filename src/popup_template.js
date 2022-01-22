@@ -20,6 +20,7 @@ popupHtmlTemplate += `{% if images.length > 0 %}
       {%- for image in images %}
           <div class="swiper-slide">
             <img src="{{ image.mid_thumbs | safe }}" onclick="Quyuan.openViewer('{{ image.path | safe }}');" class="viewer">
+            <p class="slider-caption">{{ image.description }}</p>
           </div>
       {% endfor %}
       </div>
