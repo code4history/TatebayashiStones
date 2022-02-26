@@ -15,7 +15,6 @@ const latLng = [36.2461984, 139.5278149];
 const zoom = 15;
 const minZoom = 5;
 const maxZoom = 21;
-const twitInit = `\n==\n* 上下の==の間を消して説明を投稿してください、その外は修正しないでください\n* 添付された写真はCreative Commons 4.0 BY-SAの条件で誰でも使えるオープンデータになることを了承されたものとみなします\n==\n`;
 const hashTags = ['館林石仏'];
 const geoJson = "tatebayashi_stones.geojson";
 const mymap = L.map("mapid", {
@@ -59,16 +58,12 @@ fetch(geoJson)
       templates: {
         pin: iconTemplate,
         html: popupHtmlTemplate,
-      },
-      options: {
-        nunjucks: true,
       }
     });
   })
   .then((geojson) => {
     const confirmed = L.layerGroup([]);
     const nonconfirmed = L.layerGroup([]);
-    Quyuan.setUpModalForViewer("modalbase");
     const container = document.querySelector('#container');
     const pane = container.querySelector("#poipane");
     const close_button = pane.querySelector(".poipane-close-button");
@@ -313,14 +308,7 @@ const preparePoiPane = (marker) => {
     lastClickedMarker = marker || newEditMarker;
     lastClickedMarkerOriginalLatlng = marker ? marker.getLatLng() : null;
   }
-  if (marker) {
-    const slideCount = document.querySelectorAll(
-      ":scope .swiper .swiper-slide"
-    ).length;
-    Quyuan.createSwiper({
-      loop: slideCount > 1
-    });
-  } else {
+  if (!marker) {
     prepareEditMarker();
   }
 };

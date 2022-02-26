@@ -4,7 +4,7 @@
 
 # プロジェクトの目的
 
-![悉皆調査本](https://github.com/code4history/TatebayashiStones/blob/master/surveybooks.jpg?raw=true)
+![館林石造物悉皆調査本](https://github.com/code4history/TatebayashiStones/blob/master/surveybooks.jpg?raw=true)
 
 館林には50年前の有志によって調査された、市内石造物の準悉皆調査があります。  
 石造物の種別、年代、サイズなどだけでなく、刻銘なども判読された貴重なデータなのですが、反面、写真や正確な位置などはなく、現況との突合せは不可能な状況です。  
@@ -12,9 +12,20 @@
 このまま現況との突き合わせがなされず、さらに将来になって突き合わせが困難になれば、せっかくの調査が死に体のデータとなってしまいます。  
 そのため現況とのつきあわせ調査を行い、それをオープンデータ化するためのプロジェクトを始めました。
 
-# データの確認サイト
+## データ閲覧サイト
 
 * https://code4history.dev/TatebayashiStones/
+
+## 発表資料
+
+* https://speakerdeck.com/kochizufan/jinmonkon-2022?slide=14
+    * 本活動に関する、第128回人文科学とコンピュータ研究発表会での発表資料になります。
+
+## License
+
+* Data: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)
+* Helper Tools: MIT
+* このプロジェクトでは、データ管理にCode for History開発のオープンデータ管理ソフト[Torii](https://github.com/code4history/Torii)を利用しています。
 
 # データ管理に参加
 

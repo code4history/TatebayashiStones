@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <!-- Manifest -->
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -40,6 +39,11 @@
     <link rel="apple-touch-startup-image" href="icons/apple-splash-1334-750.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
     <link rel="apple-touch-startup-image" href="icons/apple-splash-640-1136.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
     <link rel="apple-touch-startup-image" href="icons/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+    <title>令和館林石造物悉皆調査</title>
+    <meta property="og:title" content="令和館林石造物悉皆調査">
+    <meta name="description" content="館林には50年前の有志によって調査された、市内石造物の準悉皆調査があります。石造物の種別、年代、サイズなどだけでなく、刻銘なども判読された貴重なデータなのですが、反面、写真や正確な位置などはなく、現況との突合せは不可能な状況です。加えて、デジタル化もされておらず、統計/集計操作などもできない状況です。このまま現況との突き合わせがなされず、さらに将来になって突き合わせが困難になれば、せっかくの調査が死に体のデータとなってしまいます。そのため現況とのつきあわせ調査を行い、それをオープンデータ化するためのプロジェクトを始めました。">
+    <meta property="og:description" content="館林には50年前の有志によって調査された、市内石造物の準悉皆調査があります。石造物の種別、年代、サイズなどだけでなく、刻銘なども判読された貴重なデータなのですが、反面、写真や正確な位置などはなく、現況との突合せは不可能な状況です。加えて、デジタル化もされておらず、統計/集計操作などもできない状況です。このまま現況との突き合わせがなされず、さらに将来になって突き合わせが困難になれば、せっかくの調査が死に体のデータとなってしまいます。そのため現況とのつきあわせ調査を行い、それをオープンデータ化するためのプロジェクトを始めました。">
+    <meta name="keywords" content="令和館林石造物悉皆調査,群馬県,館林市,オープンデータ,散歩,街歩き,観光,歴史,石仏,石仏情報学会">
   </head>
   <body>
     <div id="container" class="close">
@@ -50,19 +54,18 @@
         <a class="poipane-close-button" href="#close">×</a>
       </div>
       <div id="mapid"></div>
-      <div id="modalbase"></div>
     </div>
     <a class="github-fork-ribbon" href="https://github.com/code4history/TatebayashiStones" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet-src.js"></script>
     <script src="src/L.Control.Locate.js"></script>
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script>
     <script src="src/leaflet-mapbox-gl.js"></script>
-    <script src="https://unpkg.com/quyuanjs@0.0.7/dist/quyuan.min.js"></script>
     <script src="src/twitter-text-3.1.0.min.js"></script>
     <script src="src/popup_template.js"></script>
     <script src="src/icon_template.js"></script>
     <script src="src/twitter_Intent_url.js"></script>
     <script src="src/oms.min.js"></script>
+    <script src="https://unpkg.com/quyuanjs@0.1.0/umd/quyuan.min.js"></script>
     <script src="src/main.js"></script>
   </body>
 </html>
