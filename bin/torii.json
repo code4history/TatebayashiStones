@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "xlsx_file": "tatebayashi_stones.xlsx",
   "geojson_file": "tatebayashi_stones.geojson",
   "tables": {
@@ -66,7 +66,7 @@
         "poi": "poi.fid",
         "shooting_date": "info.shooting_date",
         "shooter": "info.shooter",
-        "description": "poi.title",
+        "description": "poi.title"
       },
       "attrs": [
         ["fid", "ID", "n"],
