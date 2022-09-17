@@ -2,7 +2,7 @@ let popupHtmlTemplate = "";
 
 popupHtmlTemplate += `<div class="poi">`;
 
-popupHtmlTemplate += `<h2>{{ name }} (`;
+popupHtmlTemplate += `<h2>{{ title }} (`;
 popupHtmlTemplate += `{{ area }}`;
 popupHtmlTemplate += "{% if oaza %} / {{ oaza }} {% endif %}";
 popupHtmlTemplate += "{% if koaza %} / {{ koaza }} {% endif %}";
