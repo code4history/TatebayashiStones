@@ -31,7 +31,7 @@ popupHtmlTemplate += `{% if folklore %}        <b>伝承等:</b> {{ folklore | n
 popupHtmlTemplate += `{% if survey_memo %}        <b>調査時メモ:</b> {{ survey_memo | nl2br | safe }}<br> {% endif %}`;
 popupHtmlTemplate += `{% if material %}      <b>材質:</b> {{ material }}<br> {% endif %}`;
 popupHtmlTemplate += `{% if height %}        <b>総高:</b> {{ height }}cm<br> {% endif %}`;
-popupHtmlTemplate += `{% if statue_height %} <b>像高:</b> {{ statue_height }}cm<br> {% endif %}`;
+popupHtmlTemplate += `{% if partial_height %} <b>部分高:</b> {{ partial_height }}cm<br> {% endif %}`;
 popupHtmlTemplate += `{% if width %}         <b>幅:</b> {{ width }}cm<br> {% endif %}`;
 popupHtmlTemplate += `{% if depth %}         <b>奥行:</b> {{ depth }}cm<br> {% endif %}`;
 popupHtmlTemplate += `{% if inscription %}   <b>刻銘:</b> {{ inscription | nl2br | safe }}<br> {% endif %}`;
@@ -47,13 +47,20 @@ popupHtmlTemplate += `<b>現況:</b>
 
 popupHtmlTemplate += `{% if need_action %}   <b>アクション要:</b> {{ need_action }} <br> {% endif %}`;
 popupHtmlTemplate += `{% if contradiction %} <b>資料の矛盾:</b> {{ contradiction }} <br> {% endif %}`;
-popupHtmlTemplate += `{% if status %}        <b>状況:</b> {{ status }} <br> {% endif %}`;
 
-popupHtmlTemplate += `<b>言及資料:</b><br>`;
+popupHtmlTemplate += `{% if books.length > 0 %}<b>言及資料:</b><br>`;
 popupHtmlTemplate += `<ul class="parent">
   {% for book in books %}
-    <li><b>{{ book.name }}</b>({{ book.editor }}{% if book.published_at != 'monthly' %}, {{ book.published_at }}): {{ book.pages }}ページ{% else %}): {{ book.pages }}号{% endif %}</li>
+    <li>
+      {% if book.anchor and book.anchor.match("^http") %}
+        <a href="{{ book.anchor }}">{{ book.title }}</a> ({{ book.editor }})
+      {% else %}
+        <b>{% if book.url %}<a href="{{ book.url }}">{% endif %}{{ book.title }}{% if book.url %}</a>{% endif %}</b> 
+        ({% if book.editor %}{{ book.editor }}{% else %}{{ book.publisher }}{% endif %}{% if book.published_at %}, {{ book.published_at }}{% endif %})
+        {% if book.anchor %}: {{ book.anchor }}{% if book.type == "book" %}ページ{% elif book.type == "journal" %}号{% endif %}{% endif %}
+      {% endif %}
+    </li>    
   {% endfor %}
-</ul>`;
+</ul>{% endif %}`;
 
 popupHtmlTemplate += `</div>`;
