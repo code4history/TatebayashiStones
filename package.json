@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "「たてばやしの野仏巡り」全5巻相当のデータのオープンデータ化＆現況調査プロジェクト",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@turf/boolean-point-in-polygon": "^6.5.0"
+  },
   "scripts": {
     "assets": "pwa-asset-generator ./icons/icon_original.png ./icons --background \"#ffffff\" --manifest manifest.json --index index.html --favicon",
     "test": "echo \"Error: no test specified\" && exit 1"
