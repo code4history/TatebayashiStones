@@ -108,7 +108,7 @@
 {"type":"Feature","properties":{"fid":104,"poi":259,"book":3,"description":"","note":"","anchor":""},"geometry":null},
 {"type":"Feature","properties":{"fid":105,"poi":44,"book":1,"description":"","note":"","anchor":""},"geometry":null},
 {"type":"Feature","properties":{"fid":106,"poi":45,"book":1,"description":"","note":"","anchor":"45"},"geometry":null},
-{"type":"Feature","properties":{"fid":107,"poi":95,"book":3,"description":"","note":"","anchor":""},"geometry":null},
+{"type":"Feature","properties":{"fid":107,"poi":95,"book":3,"description":"","note":"","anchor":"40"},"geometry":null},
 {"type":"Feature","properties":{"fid":108,"poi":98,"book":3,"description":"","note":"","anchor":""},"geometry":null},
 {"type":"Feature","properties":{"fid":109,"poi":213,"book":3,"description":"","note":"","anchor":""},"geometry":null},
 {"type":"Feature","properties":{"fid":110,"poi":214,"book":3,"description":"","note":"","anchor":""},"geometry":null},
