@@ -41,11 +41,11 @@ iconTemplate = `
   {%- set iconUrl = "dohyo" -%}
 {%- elif type.match("道祖神") -%}
   {%- set iconUrl = "dosojin" -%}
-{%- elif type.match("記念碑") -%}
+{%- elif type.match("顕彰碑") or type.match("戦争碑") -%}
   {%- set iconUrl = "chukonhi" -%}
-{%- elif type.match("句碑") or type.match("歌碑") -%}
+{%- elif type.match("句歌碑") or type.match("供養碑") or type.match("記念碑") -%}
   {%- set iconUrl = "kinenhi" -%}
-{%- elif type.match("供養") -%}
+{%- elif type.match("供養塔") -%}
   {%- set iconUrl = "kuyohi" -%}
 {%- elif type.match("名号") or type.match("題目") -%}
   {%- set iconUrl = "myogo" -%}
@@ -53,13 +53,13 @@ iconTemplate = `
   {%- set iconUrl = "ukibori_gorin" -%}
 {%- elif type.match("富士講") -%}
   {%- set iconUrl = "fujiko" -%}
-{%- elif type.match("湯殿山") or type.match("大峰講") -%}
+{%- elif type.match("湯殿山") or type.match("大峰講") or type.match("山岳信仰") -%}
   {%- set iconUrl = "mount" -%}
 {%- elif type.match("宝篋印塔") -%}
   {%- set iconUrl = "hokyoin" -%}
 {%- elif type.match("五輪塔") -%}
   {%- set iconUrl = "gorinto" -%}
-{%- elif type.match("板碑") -%}
+{%- elif type.match("板碑") or type.match("墓碑") -%}
   {%- set iconUrl = "itahi" -%}
 {%- elif type.match("碑") -%}
   {%- set iconUrl = "kinenhi" -%}  
