@@ -85,7 +85,8 @@ fetch(geoJson)
           icon: L.icon(iconOptions),
         });
         marker.html = feature.result.html;
-        marker.name = feature.properties.name;
+        marker.title = feature.properties.title;
+        marker.fid = feature.properties.fid;
         marker.addTo(feature.properties.confirmed ? confirmed : nonconfirmed);
         oms.addMarker(marker);
       }
@@ -121,6 +122,89 @@ fetch(geoJson)
     }).addTo(mymap);
     confirmed.addTo(mymap);
   });
+page((ctx, _next) => {
+  let pathes = ctx.canonicalPath.split("#!");
+  let path = pathes.length > 1 ? pathes[1] : pathes[0];
+  pathes = path.split("?");
+  path = pathes[0];
+  console.log(path)
+  if (path.match(/^[0-9]+$/)) {
+    const marker_id = parseInt(path)
+    const markers = oms.markers.filter((marker) => {
+      return marker.fid == marker_id;
+    })
+    if (markers.length > 0) {
+      preparePoiPane(markers[0]);
+    }
+  }
+  /*if (path === ui.pathThatSet) {
+    delete ui.pathThatSet;
+    return;
+  }
+  const restore = {
+    transparency: 0,
+    position: {
+      rotation: 0
+    }
+  };
+  path.split("/").map(state => {
+    const line = state.split(":");
+    switch (line[0]) {
+      case "s":
+        restore.mapID = line[1];
+        break;
+      case "b":
+        restore.backgroundID = line[1];
+        break;
+      case "t":
+        restore.transparency = parseFloat(line[1]);
+        break;
+      case "r":
+        restore.position.rotation = parseFloat(line[1]);
+        break;
+      case "z":
+        restore.position.zoom = parseFloat(line[1]);
+        break;
+      case "x":
+      case "y":
+        restore.position[line[0]] = parseFloat(line[1]);
+        break;
+      case "sb":
+        restore.showBorder = !!parseInt(line[1]);
+        break;
+      case "hm":
+        restore.hideMarker = !!parseInt(line[1]);
+        break;
+      case "hl":
+        restore.hideLayer = line[1];
+        break;
+      case "c":
+        if (ui.core) {
+          const modalElm =
+              ui.core.mapDivDocument.querySelector(".modalBase");
+          const modal = new bsn.Modal(modalElm, {
+            root: ui.core.mapDivDocument
+          });
+          modal.hide();
+        }
+    }
+  });
+  if (!ui.core) {
+    if (restore.mapID) {
+      appOption.restore = restore;
+    }
+    ui.initializer(appOption);
+  } else if (restore.mapID) {
+    ui.core.waitReady.then(() => {
+      ui.core.changeMap(restore.mapID, restore);
+    });
+  }*/
+});
+page({
+  hashbang: true
+});
+page();
+
 oms.addListener("spiderfy", (markers) => {
   spiderfyStatus = true;
   mymap.closePopup();
