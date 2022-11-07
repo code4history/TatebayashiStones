@@ -14,7 +14,11 @@ iconTemplate = `
 {%- elif type.match("明王") -%}
   {%- set iconUrl = "myooh" -%}
 {%- elif type.match("天部") -%}
-  {%- set iconUrl = "ten_male" -%}
+  {%- if title.match("([弁辨][財才]?|吉祥)天") -%}
+    {%- set iconUrl = "ten_female" -%}
+  {%- else -%}
+    {%- set iconUrl = "ten_male" -%}
+  {%- endif -%}
 {%- elif type.match("小神社") -%}
   {%- set iconUrl = "shrine" -%}
 {%- elif type.match("小祠") -%}
@@ -28,7 +32,11 @@ iconTemplate = `
 {%- elif type.match("野神") or type.match("神木") -%}
   {%- set iconUrl = "tree" -%}
 {%- elif type.match("庚申") -%}
-  {%- set iconUrl = "koshin" -%}
+  {%- if title.match("青面") or shape.match("青面") -%}
+    {%- set iconUrl = "shomen" -%}
+  {%- else -%}
+    {%- set iconUrl = "koshin" -%}
+  {%- endif -%}
 {%- elif type.match("青面金剛") -%}
   {%- set iconUrl = "shomen" -%}
 {%- elif type.match("馬頭観音") -%}
