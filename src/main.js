@@ -17,6 +17,8 @@ const minZoom = 5;
 const maxZoom = 21;
 const hashTags = ['館林石仏'];
 const geoJson = "tatebayashi_stones.geojson";
+//const geoBuf = "https://flatgeobuf.org/test/data/UScounties.fgb";
+const geoBuf = "tatebayashi_stones.fgb";
 const mymap = L.map("mapid", {
   minZoom: minZoom,
   maxZoom
@@ -55,9 +57,16 @@ let newEditMarker;
 let currentTwitSubmitter;
 let currentTwitCanceller;
 
+
+fetch(geoBuf).then(async (response) => {
+  for await (let feature of flatgeobuf.deserialize(response.body)) {
+    console.log(feature);
+  }
+});
 fetch(geoJson)
   .then(async (data) => data.json())
   .then((geojson) => {
+  //  console.log(geojson);
     return Quyuan.templateExtractor({
       geojson,
       templates: {
