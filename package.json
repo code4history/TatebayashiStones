@@ -4,7 +4,8 @@
   "description": "「たてばやしの野仏巡り」全5巻相当のデータのオープンデータ化＆現況調査プロジェクト",
   "main": "index.js",
   "dependencies": {
-    "@turf/boolean-point-in-polygon": "^6.5.0"
+    "@turf/boolean-point-in-polygon": "^6.5.0",
+    "flatgeobuf": "^3.24.1"
   },
   "scripts": {
     "assets": "pwa-asset-generator ./icons/icon_original.png ./icons --background \"#ffffff\" --manifest manifest.json --index index.html --favicon",
