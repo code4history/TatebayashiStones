@@ -22,7 +22,7 @@ workbox.routing.registerRoute(
 
 // splash icon images
 workbox.routing.registerRoute(
-  new RegExp('icons/.*'),
+  new RegExp('(?:icons|assets|images|mid_thumbs|small_thumbs)/.*'),
   new workbox.strategies.StaleWhileRevalidate({
     cacheName: 'icons',
     maxEntries: 50

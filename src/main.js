@@ -35,11 +35,6 @@ async function main() {
     const powVal = Math.pow(10, level);
     return Math.round(val * powVal) / powVal;
   };
-  /*L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    minZoom: minZoom - 1,
-    maxZoom,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(mymap);*/
   L.maplibreGL({
     minZoom: minZoom - 1,
     maxZoom,
