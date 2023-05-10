@@ -2092,6 +2092,7 @@
 {"type":"Feature","properties":{"fid":2091,"poi":1720,"description":"本堂屋根改築記念碑","path":"./images/1720/IMG_6383.jpg","shooting_date":"2023-05-03T14:36:20","shooter":"Kohei Otsuka","mid_thumbs":"./mid_thumbs/1720/IMG_6383.jpg","small_thumbs":"./small_thumbs/1720/IMG_6383.jpg"},"geometry":null},
 {"type":"Feature","properties":{"fid":2092,"poi":1720,"description":"本堂屋根改築記念碑 裏側","path":"./images/1720/IMG_6384.jpg","shooting_date":"2023-05-03T14:36:30","shooter":"Kohei Otsuka","mid_thumbs":"./mid_thumbs/1720/IMG_6384.jpg","small_thumbs":"./small_thumbs/1720/IMG_6384.jpg"},"geometry":null},
 {"type":"Feature","properties":{"fid":2093,"poi":1721,"description":"伽藍中興記念之碑","path":"./images/1721/IMG_6379.jpg","shooting_date":"2023-05-03T14:35:02","shooter":"Kohei Otsuka","mid_thumbs":"./mid_thumbs/1721/IMG_6379.jpg","small_thumbs":"./small_thumbs/1721/IMG_6379.jpg"},"geometry":null},
-{"type":"Feature","properties":{"fid":2094,"poi":1721,"description":"伽藍中興記念之碑 裏側","path":"./images/1721/IMG_6380.jpg","shooting_date":"2023-05-03T14:35:17","shooter":"Kohei Otsuka","mid_thumbs":"./mid_thumbs/1721/IMG_6380.jpg","small_thumbs":"./small_thumbs/1721/IMG_6380.jpg"},"geometry":null}
+{"type":"Feature","properties":{"fid":2094,"poi":1721,"description":"伽藍中興記念之碑 裏側","path":"./images/1721/IMG_6380.jpg","shooting_date":"2023-05-03T14:35:17","shooter":"Kohei Otsuka","mid_thumbs":"./mid_thumbs/1721/IMG_6380.jpg","small_thumbs":"./small_thumbs/1721/IMG_6380.jpg"},"geometry":null},
+{"type":"Feature","properties":{"fid":2095,"poi":834,"description":"暦応三年釈迦一尊板碑","path":"./images/834/IMG_6387.jpg","shooting_date":"2023-05-03T14:40:06","shooter":"Kohei Otsuka","mid_thumbs":"./mid_thumbs/834/IMG_6387.jpg","small_thumbs":"./small_thumbs/834/IMG_6387.jpg"},"geometry":null}
 ]
 }
