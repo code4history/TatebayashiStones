@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Geom_test",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "meta_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 139.583379182552477, 35.569916202484833 ] } },
+{ "type": "Feature", "properties": { "meta_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 139.523811807421225, 35.543681996265377 ] } },
+{ "type": "Feature", "properties": { "meta_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 139.563896620009587, 35.548054960198847 ] } }
+]
+}
