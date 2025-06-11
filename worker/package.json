@@ -1,0 +1,26 @@
+{
+  "name": "tatebayashi-stones-image-processor",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for processing and storing images in R2 with thumbnail generation",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "secret:add": "wrangler secret put"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "r2",
+    "image-processing",
+    "thumbnails"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.19.1"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

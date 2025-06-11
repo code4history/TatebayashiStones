@@ -1,0 +1,31 @@
+name = "tatebayashi-stones-image-processor"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Account ID - これは公開しても安全です
+account_id = "61f248de47f07bdbf3dd2133a5378e64"
+
+# R2 bucket binding
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "tatebayashi-stones" # Change this to your bucket name
+
+# 公開可能な環境変数
+[vars]
+CORS_ORIGIN = "*" # Change to your specific origin in production
+CUSTOM_DOMAIN = "r2.code4history.dev"
+R2_BUCKET_NAME = "tatebayashi-stones" # バケット名を環境変数としても設定
+
+# Routes for custom domain
+[[routes]]
+pattern = "r2.code4history.dev/*"
+zone_id = "0e84cb8f2b14ba72ec95d553b0d2fd09" # これも公開しても安全です
+
+# Development settings
+[dev]
+port = 8787
+local_protocol = "http"
+
+# Secrets that should be set via wrangler secret put or dashboard
+# AUTH_TOKEN - Authentication token for API access
+# Run: wrangler secret put AUTH_TOKEN
