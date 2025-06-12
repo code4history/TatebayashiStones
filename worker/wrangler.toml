@@ -12,13 +12,13 @@ PROJECT_PREFIX = "tatebayashi_stones" # プロジェクト名のプレフィッ�
 CLOUDFLARE_ACCOUNT_ID = "61f248de47f07bdbf3dd2133a5378e64" # CloudflareアカウントID
 IMAGES_ACCOUNT_HASH = "nPUB0SeeEPqgGoF9i-9JRg" # Cloudflare Imagesのアカウントハッシュ
 # カスタムドメイン設定（オプション）
-CUSTOM_IMAGES_DOMAIN = "code4history.dev" # カスタムドメインを使用する場合
-CUSTOM_IMAGES_PATH = "/images" # Transform Rulesでカスタムパスを使用する場合（未設定時は/cdn-cgi/imagedelivery）
+CUSTOM_IMAGES_DOMAIN = "img.code4history.dev" # カスタムドメインを使用する場合
+CUSTOM_IMAGES_PATH = "" # Transform Rulesでカスタムパスを使用する場合（未設定時は/cdn-cgi/imagedelivery）
 
 # Routes for custom domain (必要に応じて設定)
-# [[routes]]
-# pattern = "your-custom-domain.com/*"
-# zone_id = "your-zone-id"
+[[routes]]
+pattern = "img.code4history.dev/*"
+zone_name = "code4history.dev"
 
 # Development settings
 [dev]

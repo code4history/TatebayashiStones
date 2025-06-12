@@ -120,6 +120,17 @@ https://imagedelivery.net/[アカウントハッシュ]/[画像ID]/[バリアン
 - 中サムネイル: `https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567/mid`
 - 小サムネイル: `https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567/small`
 
+#### Worker経由のURL（リダイレクト）
+Workerドメイン経由でアクセスすると、自動的にCloudflare ImagesのURLへリダイレクトされます：
+```
+https://img.code4history.dev/[画像ID]/[バリアント名]
+```
+
+例：
+- オリジナル画像: `https://img.code4history.dev/tatebayashi_stones_123e4567/public`
+- 中サムネイル: `https://img.code4history.dev/tatebayashi_stones_123e4567/mid`
+- 小サムネイル: `https://img.code4history.dev/tatebayashi_stones_123e4567/small`
+
 #### カスタムドメインURL（設定時）
 ```
 https://[カスタムドメイン]/cdn-cgi/imagedelivery/[アカウントハッシュ]/[画像ID]/[バリアント名]
