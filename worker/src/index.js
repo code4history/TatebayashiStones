@@ -53,18 +53,26 @@ export default {
  * Handle image serving by reverse proxying to Cloudflare Images
  */
 async function handleImageServing(url, env, corsHeaders) {
-  // Extract image ID and variant from the path
-  // Expected format: /imageId/variant
+  // Extract project name, variant and UUID from the path
+  // Expected format: /project/variant/uuid or /imageId/variant (legacy)
   const pathParts = url.pathname.substring(1).split('/');
   
-  if (pathParts.length < 2) {
-    return new Response('Invalid image path', { 
+  let imageId, variant;
+  
+  if (pathParts.length === 3) {
+    // New format: /project/variant/uuid
+    const [projectName, variantName, uuid] = pathParts;
+    imageId = `${projectName}_${uuid}`;
+    variant = variantName;
+  } else if (pathParts.length === 2) {
+    // Legacy format: /imageId/variant
+    [imageId, variant] = pathParts;
+  } else {
+    return new Response('Invalid image path. Use: /project/variant/uuid or /imageId/variant', { 
       status: 400,
       headers: corsHeaders 
     });
   }
-  
-  const [imageId, variant] = pathParts;
   
   // Validate variant
   const validVariants = ['public', 'mid', 'small'];
@@ -116,6 +124,15 @@ async function handleImageUpload(request, env, corsHeaders) {
       });
     }
 
+    // Get project name from query parameter
+    const projectName = url.searchParams.get('project');
+    if (!projectName) {
+      return new Response('Project name is required. Add ?project=PROJECT_NAME to the URL', { 
+        status: 400,
+        headers: corsHeaders 
+      });
+    }
+
     // Parse multipart form data
     const formData = await request.formData();
     const file = formData.get('image');
@@ -137,7 +154,7 @@ async function handleImageUpload(request, env, corsHeaders) {
 
     // Generate unique ID for the image
     const uuid = uuidv4();
-    const imageId = `${env.PROJECT_PREFIX}_${uuid}`;
+    const imageId = `${projectName}_${uuid}`;
 
     // Create form data for Cloudflare Images API
     const cfFormData = new FormData();
@@ -148,7 +165,7 @@ async function handleImageUpload(request, env, corsHeaders) {
     cfFormData.append('metadata', JSON.stringify({
       originalName: file.name,
       uploadedAt: new Date().toISOString(),
-      project: env.PROJECT_PREFIX
+      project: projectName
     }));
 
     // Upload to Cloudflare Images
@@ -217,10 +234,16 @@ async function handleImageUpload(request, env, corsHeaders) {
       baseUrl = `https://imagedelivery.net/${env.IMAGES_ACCOUNT_HASH}`;
     }
     
+    // Generate URLs in both old and new formats
     const urls = {
+      // Legacy format URLs
       original: `${baseUrl}/${imageId}/${IMAGE_VARIANTS.public}`,
       mid: `${baseUrl}/${imageId}/${IMAGE_VARIANTS.mid}`,
-      small: `${baseUrl}/${imageId}/${IMAGE_VARIANTS.small}`
+      small: `${baseUrl}/${imageId}/${IMAGE_VARIANTS.small}`,
+      // New format URLs  
+      originalNew: `${baseUrl}/${projectName}/${IMAGE_VARIANTS.public}/${uuid}`,
+      midNew: `${baseUrl}/${projectName}/${IMAGE_VARIANTS.mid}/${uuid}`,
+      smallNew: `${baseUrl}/${projectName}/${IMAGE_VARIANTS.small}/${uuid}`
     };
 
     // Return success response with file information
@@ -228,6 +251,7 @@ async function handleImageUpload(request, env, corsHeaders) {
       success: true,
       id: imageId,
       uuid: uuid,
+      project: projectName,
       filename: file.name,
       size: file.size,
       type: file.type,
