@@ -17,7 +17,7 @@ fi
 
 echo "アップロード中: $IMAGE_PATH"
 
-curl -X POST https://r2.code4history.dev \
+curl -X POST http://localhost:8787/upload \
   -H "Authorization: Bearer $AUTH_TOKEN" \
   -F "image=@$IMAGE_PATH" \
   -w "\n" | jq .

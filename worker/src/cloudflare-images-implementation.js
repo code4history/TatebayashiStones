@@ -1,19 +1,12 @@
 /**
- * Cloudflare Worker for image upload using Cloudflare Images
- * Handles image uploads to Cloudflare Images with custom IDs
+ * Cloudflare Images implementation
+ * This uses Cloudflare Images service instead of R2 for better image management
  */
 
 import { v4 as uuidv4 } from 'uuid';
 
 // Allowed image types
 const ALLOWED_TYPES = ['image/jpeg', 'image/jpg', 'image/png', 'image/webp'];
-
-// Image variants available in Cloudflare Images
-const IMAGE_VARIANTS = {
-  public: 'public',     // Original size
-  mid: 'mid',          // 800x600
-  small: 'small'       // 400x300
-};
 
 export default {
   async fetch(request, env, ctx) {
@@ -32,13 +25,13 @@ export default {
     }
 
     // Handle image upload for POST requests
-    if (request.method === 'POST' && url.pathname === '/upload') {
+    if (request.method === 'POST') {
       return handleImageUpload(request, env, corsHeaders);
     }
 
-    // Default response for other cases
-    return new Response('Not Found', { 
-      status: 404,
+    // Default response
+    return new Response('Method not allowed', { 
+      status: 405,
       headers: corsHeaders 
     });
   }
@@ -77,29 +70,30 @@ async function handleImageUpload(request, env, corsHeaders) {
       });
     }
 
-    // Generate unique ID for the image
-    const uuid = uuidv4();
-    const imageId = `${env.PROJECT_PREFIX}_${uuid}`;
-
+    // Generate UUID for image ID
+    const imageId = uuidv4();
+    
     // Create form data for Cloudflare Images API
     const cfFormData = new FormData();
     cfFormData.append('file', file);
     cfFormData.append('id', imageId);
     
-    // Optional: Add metadata
-    cfFormData.append('metadata', JSON.stringify({
+    // Add metadata
+    const metadata = {
       originalName: file.name,
       uploadedAt: new Date().toISOString(),
-      project: env.PROJECT_PREFIX
-    }));
+      size: file.size,
+      type: file.type
+    };
+    cfFormData.append('metadata', JSON.stringify(metadata));
 
     // Upload to Cloudflare Images
     const uploadResponse = await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${env.CLOUDFLARE_ACCOUNT_ID}/images/v1`,
+      `https://api.cloudflare.com/client/v4/accounts/${env.CF_ACCOUNT_ID}/images/v1`,
       {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${env.CLOUDFLARE_IMAGES_API_TOKEN}`
+          'Authorization': `Bearer ${env.CF_IMAGES_TOKEN}`
         },
         body: cfFormData
       }
@@ -108,39 +102,29 @@ async function handleImageUpload(request, env, corsHeaders) {
     const uploadResult = await uploadResponse.json();
 
     if (!uploadResult.success) {
-      console.error('Cloudflare Images upload failed:', uploadResult.errors);
-      return new Response(JSON.stringify({
-        success: false,
-        error: 'Failed to upload image',
-        details: uploadResult.errors
-      }), {
-        status: 500,
-        headers: {
-          ...corsHeaders,
-          'Content-Type': 'application/json',
-        }
-      });
+      throw new Error('Failed to upload image: ' + JSON.stringify(uploadResult.errors));
     }
 
-    // Generate URLs for different variants
-    const baseUrl = env.IMAGES_DELIVERY_URL;
-    const urls = {
-      original: `${baseUrl}/${imageId}/${IMAGE_VARIANTS.public}`,
-      mid: `${baseUrl}/${imageId}/${IMAGE_VARIANTS.mid}`,
-      small: `${baseUrl}/${imageId}/${IMAGE_VARIANTS.small}`
-    };
+    const imageData = uploadResult.result;
 
-    // Return success response with file information
+    // Return success response with image variants
     return new Response(JSON.stringify({
       success: true,
       id: imageId,
-      uuid: uuid,
-      filename: file.name,
+      filename: imageData.filename,
+      originalName: file.name,
       size: file.size,
       type: file.type,
-      uploadedAt: uploadResult.result.uploaded,
-      variants: uploadResult.result.variants,
-      urls: urls
+      uploaded: imageData.uploaded,
+      variants: imageData.variants,
+      urls: {
+        // Cloudflare Images provides automatic variants
+        original: getVariantUrl(imageData.variants, 'public'),
+        mid: getVariantUrl(imageData.variants, 'medium') || createCustomVariantUrl(env.CF_ACCOUNT_HASH, imageId, 800, 600),
+        small: getVariantUrl(imageData.variants, 'thumbnail') || createCustomVariantUrl(env.CF_ACCOUNT_HASH, imageId, 400, 300),
+        // Custom sizes can be created on-demand
+        custom: `https://imagedelivery.net/${env.CF_ACCOUNT_HASH}/${imageId}/w={width},h={height},fit=contain`
+      }
     }), {
       status: 200,
       headers: {
@@ -162,4 +146,48 @@ async function handleImageUpload(request, env, corsHeaders) {
       }
     });
   }
+}
+
+/**
+ * Get variant URL from variants array
+ */
+function getVariantUrl(variants, variantName) {
+  const variant = variants.find(v => v.includes(`/${variantName}`));
+  return variant || null;
+}
+
+/**
+ * Create custom variant URL
+ */
+function createCustomVariantUrl(accountHash, imageId, width, height) {
+  return `https://imagedelivery.net/${accountHash}/${imageId}/w=${width},h=${height},fit=contain`;
+}
+
+/**
+ * Alternative: Direct URL upload (for migrating existing images)
+ */
+export async function uploadImageFromUrl(imageUrl, env) {
+  const imageId = uuidv4();
+  
+  const response = await fetch(
+    `https://api.cloudflare.com/client/v4/accounts/${env.CF_ACCOUNT_ID}/images/v1`,
+    {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${env.CF_IMAGES_TOKEN}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        url: imageUrl,
+        id: imageId,
+        metadata: {
+          source: 'migration',
+          originalUrl: imageUrl,
+          migratedAt: new Date().toISOString()
+        }
+      })
+    }
+  );
+
+  return await response.json();
 }

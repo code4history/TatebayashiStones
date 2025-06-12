@@ -4,17 +4,17 @@
 
 - **Account ID** - CloudflareアカウントID
 - **Zone ID** - CloudflareゾーンID  
-- **バケット名** - R2バケット名
+- **Images Account Hash** - Cloudflare ImagesのアカウントハッシュURL内の識別子
 - **Worker名** - Workerの名前
-- **カスタムドメイン** - 公開URLドメイン
+- **プロジェクトプレフィックス** - 画像ID生成用のプレフィックス
 
 これらのIDは、Cloudflareのリソースを特定するための識別子であり、それ自体では認証や認可には使用されません。
 
 ## 絶対に公開してはいけない情報（秘密情報）
 
 - **AUTH_TOKEN** - API認証トークン
+- **CLOUDFLARE_IMAGES_API_TOKEN** - Cloudflare Images APIトークン
 - **API Keys** - Cloudflare APIキー
-- **API Tokens** - Cloudflare APIトークン
 - **その他の認証情報**
 
 ## 秘密情報の管理方法
@@ -22,6 +22,7 @@
 1. **Wrangler Secrets**（推奨）
    ```bash
    wrangler secret put AUTH_TOKEN
+   wrangler secret put CLOUDFLARE_IMAGES_API_TOKEN
    ```
 
 2. **Cloudflareダッシュボード**

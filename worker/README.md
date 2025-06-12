@@ -1,16 +1,17 @@
 # Tatebayashi Stones Image Processor Worker
 
-Cloudflare Workerを使用した画像アップロード・処理システムです。アップロードされた画像をR2に保存し、自動的にサムネイルを生成します。また、R2の静的ファイル配信機能も提供します。
+Cloudflare Workerを使用した画像アップロードシステムです。アップロードされた画像をCloudflare Imagesに保存し、自動的に各種サイズのバリアントを提供します。
 
 ## 機能
 
 - 画像のアップロード（JPEG, PNG, WebP対応）
-- UUID による一意なファイル名の生成
-- 自動サムネイル生成（中サイズ: 800x600、小サイズ: 400x300）
-- R2 ストレージへの保存
+- UUID による一意なファイル名の生成（`プロジェクト名_UUID`形式）
+- Cloudflare Imagesによる自動バリアント生成
+  - public: オリジナルサイズ
+  - mid: 800x600相当
+  - small: 400x300相当
 - 認証トークンによるアクセス制御
-- R2からの静的ファイル配信（MIMEタイプ自動判定）
-- キャッシュヘッダーとETag対応
+- メタデータの保存（オリジナルファイル名、アップロード日時など）
 
 ## セットアップ
 
@@ -30,43 +31,32 @@ cp .env.example .env
 ```
 
 設定項目：
-- `CLOUDFLARE_ACCOUNT_ID`: CloudflareアカウントID
-- `R2_BUCKET_NAME`: R2バケット名
-- `R2_PUBLIC_URL`: R2の公開URL（例: `https://61f248de47f07bdbf3dd2133a5378e64.r2.cloudflarestorage.com`）
-- `AUTH_TOKEN`: API認証トークン
-- `CORS_ORIGIN`: CORS許可オリジン
-- `ZONE_ID`: CloudflareゾーンID（カスタムドメイン使用時）
-- `CUSTOM_DOMAIN`: カスタムドメイン（例: `r2.code4history.dev`）
+- `CLOUDFLARE_ACCOUNT_ID`: CloudflareアカウントID（公開可能）
+- `CLOUDFLARE_IMAGES_ACCOUNT_HASH`: ImagesのアカウントハッシュURLに含まれる値（公開可能）
+- `PROJECT_PREFIX`: プロジェクト名のプレフィックス（例: `tatebayashi_stones`）
+- `CORS_ORIGIN`: CORS許可オリジン（デフォルト: `*`）
 
-### 3. Zone IDの取得と設定
+### 3. Cloudflare Imagesのセットアップ
 
-1. Cloudflareダッシュボード (https://dash.cloudflare.com/) にログイン
-2. 対象ドメイン（code4history.dev）を選択
-3. 右側のサイドバーの「API」セクションで「Zone ID」を確認
-4. `wrangler.toml` の `zone_id` に設定
+1. Cloudflareダッシュボードで「Images」を有効化
+2. 必要なバリアントを作成：
+   - `public`: Flexible（オリジナルサイズ）
+   - `mid`: 800x600, Fit: Contain
+   - `small`: 400x300, Fit: Contain
 
-### 4. R2バケットの作成
+### 4. シークレットの設定
 
-Cloudflareダッシュボードで R2 バケットを作成し、以下の設定を行ってください：
-
-1. バケット名を `wrangler.toml` の `bucket_name` と一致させる（例: `tatebayashi-stones`）
-2. 公開アクセスは**不要**（Workerがバインディング経由でアクセスするため）
-3. カスタムドメインも**不要**（Worker経由で配信するため）
-
-### 5. シークレットの設定
-
-認証トークンを設定します（これは絶対にGitHubにコミットしないでください）：
+以下のシークレットをWrangler CLIで設定します：
 
 ```bash
+# アップロードエンドポイントの認証トークン
 wrangler secret put AUTH_TOKEN
+
+# Cloudflare Images APIトークン
+wrangler secret put CLOUDFLARE_IMAGES_API_TOKEN
 ```
 
-プロンプトが表示されたら、安全なトークン値を入力してください。
-
-**重要**: `AUTH_TOKEN`は秘密情報です。以下の方法で管理してください：
-- Wrangler CLIの`secret`コマンドを使用
-- Cloudflareダッシュボードの環境変数設定を使用
-- 絶対に`wrangler.toml`や`.env`ファイルに直接書かない（`.env`は`.gitignore`に追加済み）
+**重要**: これらのトークンは秘密情報です。絶対にGitHubにコミットしないでください。
 
 ## デプロイ
 
@@ -87,7 +77,7 @@ npm run deploy
 ### 画像のアップロード
 
 ```bash
-curl -X POST https://r2.code4history.dev \
+curl -X POST https://your-worker-domain.workers.dev/upload \
   -H "Authorization: Bearer YOUR_AUTH_TOKEN" \
   -F "image=@/path/to/image.jpg"
 ```
@@ -97,57 +87,65 @@ curl -X POST https://r2.code4history.dev \
 ```json
 {
   "success": true,
+  "id": "tatebayashi_stones_123e4567-e89b-12d3-a456-426614174000",
   "uuid": "123e4567-e89b-12d3-a456-426614174000",
-  "filename": "123e4567-e89b-12d3-a456-426614174000.jpg",
-  "originalName": "image.jpg",
+  "filename": "image.jpg",
   "size": 1234567,
   "type": "image/jpeg",
-  "paths": {
-    "original": "images/123e4567-e89b-12d3-a456-426614174000.jpg",
-    "mid": "mid_thumbs/123e4567-e89b-12d3-a456-426614174000.jpg",
-    "small": "small_thumbs/123e4567-e89b-12d3-a456-426614174000.jpg"
-  },
+  "uploadedAt": "2024-01-01T00:00:00.000Z",
+  "variants": [
+    "https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567-e89b-12d3-a456-426614174000/public",
+    "https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567-e89b-12d3-a456-426614174000/mid",
+    "https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567-e89b-12d3-a456-426614174000/small"
+  ],
   "urls": {
-    "original": "r2.code4history.dev/images/123e4567-e89b-12d3-a456-426614174000.jpg",
-    "mid": "r2.code4history.dev/mid_thumbs/123e4567-e89b-12d3-a456-426614174000.jpg",
-    "small": "r2.code4history.dev/small_thumbs/123e4567-e89b-12d3-a456-426614174000.jpg"
+    "original": "https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567-e89b-12d3-a456-426614174000/public",
+    "mid": "https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567-e89b-12d3-a456-426614174000/mid",
+    "small": "https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567-e89b-12d3-a456-426614174000/small"
   }
 }
 ```
 
-### 静的ファイルへのアクセス
+### 画像へのアクセス
 
-アップロードされたファイルには以下のURLパターンでアクセスできます：
+アップロードされた画像には以下のURLパターンでアクセスできます：
 
 ```
-https://r2.code4history.dev/[バケット名]/[ファイルパス]
+https://imagedelivery.net/[アカウントハッシュ]/[画像ID]/[バリアント名]
 ```
 
-例（バケット名が `tatebayashi-stones` の場合）：
-- オリジナル画像: `https://r2.code4history.dev/tatebayashi-stones/images/123e4567-e89b-12d3-a456-426614174000.jpg`
-- 中サムネイル: `https://r2.code4history.dev/tatebayashi-stones/mid_thumbs/123e4567-e89b-12d3-a456-426614174000.jpg`
-- 小サムネイル: `https://r2.code4history.dev/tatebayashi-stones/small_thumbs/123e4567-e89b-12d3-a456-426614174000.jpg`
+例：
+- オリジナル画像: `https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567/public`
+- 中サムネイル: `https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567/mid`
+- 小サムネイル: `https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567/small`
 
 ## 注意事項
 
-- 現在の実装では画像リサイズ機能は簡易版です。本格的なリサイズ機能が必要な場合は：
-  - Cloudflare Image Resizing（カスタムドメイン設定が必要）
-  - Cloudflare Images API（別サービス）
-  - WebAssemblyベースの画像処理ライブラリ
-  などの導入を検討してください
-- R2 ストレージの使用量に応じて料金が発生します
-- 本番環境では `CORS_ORIGIN` を適切に設定してください
-- `R2_PUBLIC_URL` はR2バケットの公開URLのルート部分を指定します
+- **Cloudflare Imagesの料金**：
+  - 保存枚数とデリバリー使用量に応じて料金が発生します
+  - 詳細は[Cloudflare Images pricing](https://developers.cloudflare.com/images/pricing/)を参照
+- **画像ID形式**：
+  - `プロジェクト名_UUID`形式で生成されます
+  - プロジェクト名は環境変数で変更可能です
+- **バリアント設定**：
+  - Cloudflareダッシュボードで事前に設定が必要です
+  - バリアント名は本番環境に合わせて変更してください
 
 ## トラブルシューティング
 
-### サムネイル生成が失敗する場合
+### アップロードが失敗する場合
 
-1. R2バケットの公開アクセスが有効になっているか確認
-2. `R2_PUBLIC_URL` が正しく設定されているか確認
-3. Cloudflare Image Resizing が有効になっているか確認
+1. `CLOUDFLARE_IMAGES_API_TOKEN` が正しく設定されているか確認
+2. Cloudflare Imagesが有効になっているか確認
+3. APIトークンにImages:Edit権限があるか確認
 
 ### 認証エラーが発生する場合
 
 1. `AUTH_TOKEN` が正しく設定されているか確認
 2. リクエストヘッダーに正しいトークンが含まれているか確認
+
+### 画像が表示されない場合
+
+1. バリアント名が正しいか確認
+2. 画像IDが正しいか確認
+3. Cloudflareダッシュボードで画像が正常にアップロードされているか確認
