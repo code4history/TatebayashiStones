@@ -110,6 +110,7 @@ curl -X POST https://your-worker-domain.workers.dev/upload \
 
 アップロードされた画像には以下のURLパターンでアクセスできます：
 
+#### デフォルトURL（imagedelivery.net）
 ```
 https://imagedelivery.net/[アカウントハッシュ]/[画像ID]/[バリアント名]
 ```
@@ -118,6 +119,57 @@ https://imagedelivery.net/[アカウントハッシュ]/[画像ID]/[バリアン
 - オリジナル画像: `https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567/public`
 - 中サムネイル: `https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567/mid`
 - 小サムネイル: `https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567/small`
+
+#### カスタムドメインURL（設定時）
+```
+https://[カスタムドメイン]/cdn-cgi/imagedelivery/[アカウントハッシュ]/[画像ID]/[バリアント名]
+```
+
+例：
+- オリジナル画像: `https://code4history.dev/cdn-cgi/imagedelivery/nPUB0SeeEPqgGoF9i-9JRg/tatebayashi_stones_123e4567/public`
+
+### カスタムドメインの設定
+
+#### 方法1: 既存のCloudflareドメインを使用（推奨）
+
+1. **DNS設定は不要** - 既にCloudflareでプロキシされているドメインならそのまま使用可能
+2. wrangler.tomlで環境変数を設定：
+   ```toml
+   [vars]
+   CUSTOM_IMAGES_DOMAIN = "code4history.dev"
+   ```
+
+#### 方法2: サブドメインを使用
+
+1. CloudflareダッシュボードでDNSレコードを追加：
+   ```
+   Type: CNAME
+   Name: images
+   Target: code4history.dev（メインドメイン）
+   Proxy status: Proxied（オレンジ色の雲）
+   ```
+
+2. wrangler.tomlで設定：
+   ```toml
+   [vars]
+   CUSTOM_IMAGES_DOMAIN = "images.code4history.dev"
+   ```
+
+#### 方法3: Transform Rulesでカスタムパスを使用（Pro以上）
+
+1. Cloudflareダッシュボード > Rules > Transform Rules > URL Rewrite Rules
+2. 新規ルール作成：
+   - Incoming: `https://code4history.dev/images/*`
+   - Rewrite to: `https://code4history.dev/cdn-cgi/imagedelivery/nPUB0SeeEPqgGoF9i-9JRg/*`
+
+3. wrangler.tomlで設定：
+   ```toml
+   [vars]
+   CUSTOM_IMAGES_DOMAIN = "code4history.dev"
+   CUSTOM_IMAGES_PATH = "/images"
+   ```
+
+**注意**: imagedelivery.netへの直接CNAMEは設定できません。必ず同じCloudflareアカウント内のドメインを使用してください。
 
 ## 注意事項
 

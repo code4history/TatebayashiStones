@@ -17,7 +17,13 @@ fi
 
 echo "アップロード中: $IMAGE_PATH"
 
-curl -X POST http://localhost:8787/upload \
+# URLを環境変数で切り替え可能に
+UPLOAD_URL=${UPLOAD_URL:-"http://localhost:8787/upload"}
+
+# 本番環境の場合はコメントアウトを外す
+# UPLOAD_URL="https://tatebayashi-stones-image-processor.rekishikokudo.workers.dev/upload"
+
+curl -X POST "$UPLOAD_URL" \
   -H "Authorization: Bearer $AUTH_TOKEN" \
   -F "image=@$IMAGE_PATH" \
-  -w "\n" | jq .
+  -w "\n"

@@ -9,7 +9,11 @@ account_id = "61f248de47f07bdbf3dd2133a5378e64"
 [vars]
 CORS_ORIGIN = "*" # Change to your specific origin in production
 PROJECT_PREFIX = "tatebayashi_stones" # プロジェクト名のプレフィックス
-IMAGES_DELIVERY_URL = "https://imagedelivery.net/nPUB0SeeEPqgGoF9i-9JRg" # アカウントハッシュを含むURL
+CLOUDFLARE_ACCOUNT_ID = "61f248de47f07bdbf3dd2133a5378e64" # CloudflareアカウントID
+IMAGES_ACCOUNT_HASH = "nPUB0SeeEPqgGoF9i-9JRg" # Cloudflare Imagesのアカウントハッシュ
+# カスタムドメイン設定（オプション）
+CUSTOM_IMAGES_DOMAIN = "code4history.dev" # カスタムドメインを使用する場合
+CUSTOM_IMAGES_PATH = "/images" # Transform Rulesでカスタムパスを使用する場合（未設定時は/cdn-cgi/imagedelivery）
 
 # Routes for custom domain (必要に応じて設定)
 # [[routes]]

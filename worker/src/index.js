@@ -94,8 +94,25 @@ async function handleImageUpload(request, env, corsHeaders) {
     }));
 
     // Upload to Cloudflare Images
+    const accountId = env.CLOUDFLARE_ACCOUNT_ID || '61f248de47f07bdbf3dd2133a5378e64';
+    
+    // Check if API token exists
+    if (!env.CLOUDFLARE_IMAGES_API_TOKEN) {
+      console.error('CLOUDFLARE_IMAGES_API_TOKEN is not set');
+      return new Response(JSON.stringify({
+        success: false,
+        error: 'Configuration error: Images API token not found'
+      }), {
+        status: 500,
+        headers: {
+          ...corsHeaders,
+          'Content-Type': 'application/json',
+        }
+      });
+    }
+    
     const uploadResponse = await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${env.CLOUDFLARE_ACCOUNT_ID}/images/v1`,
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/images/v1`,
       {
         method: 'POST',
         headers: {
@@ -123,7 +140,22 @@ async function handleImageUpload(request, env, corsHeaders) {
     }
 
     // Generate URLs for different variants
-    const baseUrl = env.IMAGES_DELIVERY_URL;
+    let baseUrl;
+    if (env.CUSTOM_IMAGES_DOMAIN) {
+      // カスタムドメインを使用
+      const path = env.CUSTOM_IMAGES_PATH || '/cdn-cgi/imagedelivery';
+      if (path === '/images') {
+        // Transform Rulesを使用する場合はアカウントハッシュを含めない
+        baseUrl = `https://${env.CUSTOM_IMAGES_DOMAIN}${path}`;
+      } else {
+        // cdn-cgiパスを使用する場合はアカウントハッシュが必要
+        baseUrl = `https://${env.CUSTOM_IMAGES_DOMAIN}${path}/${env.IMAGES_ACCOUNT_HASH}`;
+      }
+    } else {
+      // デフォルトのimagedelivery.netを使用
+      baseUrl = `https://imagedelivery.net/${env.IMAGES_ACCOUNT_HASH}`;
+    }
+    
     const urls = {
       original: `${baseUrl}/${imageId}/${IMAGE_VARIANTS.public}`,
       mid: `${baseUrl}/${imageId}/${IMAGE_VARIANTS.mid}`,
