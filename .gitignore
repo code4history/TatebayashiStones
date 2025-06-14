@@ -13,3 +13,8 @@ bin/qgis2Xlsx_*
 bin/xlsx2Qgis_*
 bin/torii_local.json
 .env
+
+# OCI Configuration
+oci/.env
+.oci/
+*.pem
