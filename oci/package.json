@@ -6,7 +6,9 @@
     "test-connection": "node scripts/test-connection.js",
     "init-db": "node migrations/init-database.js",
     "migrate-data": "node migrations/geojson-to-mysql.js",
-    "connect": "./scripts/connect-mysql.sh"
+    "connect": "./scripts/connect-mysql.sh",
+    "create-session": "node scripts/create-bastion-session.js",
+    "setup": "npm run create-session && npm run connect"
   },
   "dependencies": {
     "mysql2": "^3.6.0",
