@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/code4history/TatebayashiStones#readme",
   "devDependencies": {
-    "pwa-asset-generator": "^6.0.5"
+    "pwa-asset-generator": "^8.0.5"
   }
 }
