@@ -18,3 +18,5 @@ bin/torii_local.json
 oci/.env
 .oci/
 *.pem
+
+del_data
